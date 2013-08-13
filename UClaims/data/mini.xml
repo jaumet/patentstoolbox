@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="1800" id="claims01" numberIndependentClaims="1" lang="en" numberDependentClaims="1">
+<claim gate:gateId="1" id="c-en-0001" claimType="independent" num="" claim_preamble="A boring tool" claimNumber="1" claimSize="120">
+<claim-text gate:gateId="2">1. A boring tool comprising a body, a plurality of cutting blades supported by the body so as to be movable along paths equally incline at an acute angle to an axis of rotation of the body, outer ends of the blades having cutting edges and projecting beyond the body, characterised by <br gate:gateId="3"></br>
+a rotatable blade advancing member having a screwed shank within a threaded bore on the axis of rotation and a head abutting inner ends of the blades for advancing and retracting the blades on their paths consequent upon rotation of the shank within the bore, and means operable from the exterior of the body for causing rotation of the blade advancing member.
+</claim-text>
+</claim><claim gate:gateId="4" id="c-en-0002" num="" claimType="dependent" claimBackReference="according to claim 1" claimSize="53" claimNumber="2" claim_preamble="A boring tool" depends_on="1">
+<claim-text gate:gateId="5">2. A boring tool according to claim 1 characterised in that the means for causing rotation of the blade advancing member comprises a worm rotatable by a detachable handle or key and a meshingworm wheel secured to a shaft extending from the shank of the blade advancing member and co-axial therewith.
+</claim-text>
+</claim>
+</claims>

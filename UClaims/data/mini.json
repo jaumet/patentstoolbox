@@ -1,0 +1,43 @@
+{"claims": {
+    "id": "claims01",
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1800,
+    "numberDependentClaims": 1,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "c-en-0001",
+            "num": "",
+            "claimType": "independent",
+            "claimSize": 120,
+            "gate:gateId": 1,
+            "claimNumber": 1,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": [
+                    "1. A boring tool comprising a body, a plurality of cutting blades supported by the body so as to be movable along paths equally incline at an acute angle to an axis of rotation of the body, outer ends of the blades having cutting edges and projecting beyond the body, characterised by",
+                    "a rotatable blade advancing member having a screwed shank within a threaded bore on the axis of rotation and a head abutting inner ends of the blades for advancing and retracting the blades on their paths consequent upon rotation of the shank within the bore, and means operable from the exterior of the body for causing rotation of the blade advancing member."
+                ],
+                "gate:gateId": 2,
+                "br": {"gate:gateId": 3}
+            }
+        },
+        {
+            "id": "c-en-0002",
+            "claimType": "dependent",
+            "num": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 53,
+            "gate:gateId": 4,
+            "claim_preamble": "A boring tool",
+            "claimNumber": 2,
+            "claim-text": {
+                "content": "2. A boring tool according to claim 1 characterised in that the means for causing rotation of the blade advancing member comprises a worm rotatable by a detachable handle or key and a meshingworm wheel secured to a shaft extending from the shank of the blade advancing member and co-axial therewith.",
+                "gate:gateId": 5
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 1,
+    "lang": "en"
+}}
