@@ -8,10 +8,11 @@
 		{"name": "Claim 5", "size": 3938},
 		{
 			"name": "Claim 6",
-			"size": 6938,
+			"size": 2938,
 			"children":
 			[
-				{"name": "Claim 7", "size": 938}
+				{"name": "Claim 7", "size": 238},
+				{"name": "Claim 7X", "size": 1}
 			]
 		}
 	]
