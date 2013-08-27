@@ -1,0 +1,343 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500135-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 44,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1613,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "the foot of a user in order to allow said foot to slide in relation to the ground according to a movement direction parallel to said foot, comprising:\nan elongated body associated with at least two wheels that define for said elongated body said movement direction;\na platform associated with said elongated body and defining a supporting surface for said foot;\nmeans for braking at least one of said wheels;\nmeans for connecting said platform to said elongated body, which define for said platform a rotation axis substantially orthogonal to said supporting surface, thereby allowing a rotation of said foot relative to said movement direction, between a first position, wherein in said first position said foot is substantially parallel to said movement direction, and a second position, wherein in said second position said foot is incident on said movement direction; and\ncontrol means responsive to the rotation of said foot around said rotation axis and adapted to operate said braking means when said foot is arranged in a braking position corresponding to said second position.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " to be applied to ",
+            "claimSize": 198,
+            "gate:gateId": 1,
+            "claim_preamble": "A wheeled sport item",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A wheeled sport item to be applied to the foot of a user in order to allow said foot to slide in relation to the ground according to a movement direction parallel to said foot, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "an elongated body associated with at least two wheels that define for said elongated body said movement direction;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a platform associated with said elongated body and defining a supporting surface for said foot;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "means for braking at least one of said wheels;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "means for connecting said platform to said elongated body, which define for said platform a rotation axis substantially orthogonal to said supporting surface, thereby allowing a rotation of said foot relative to said movement direction, between a first position, wherein in said first position said foot is substantially parallel to said movement direction, and a second position, wherein in said second position said foot is incident on said movement direction; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "control means responsive to the rotation of said foot around said rotation axis and adapted to operate said braking means when said foot is arranged in a braking position corresponding to said second position.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "1 ), wherein said braking means comprise at least one friction element arranged in proximity to at least one of said wheels and associated with said elongated body through articulation means suited to arrange said friction element in any position included between a rest position spaced from said wheel and a friction position in contact with said wheel.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 69,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "2. The wheel sport item according to",
+                    "), wherein said braking means comprise at least one friction element arranged in proximity to at least one of said wheels and associated with said elongated body through articulation means suited to arrange said friction element in any position included between a rest position spaced from said wheel and a friction position in contact with said wheel."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "2 ), wherein said articulation means comprise a pair of jaws arranged on opposite sides with respect to said wheel.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 2",
+            "claimSize": 31,
+            "gate:gateId": 11,
+            "claimNumber": 3,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "3. The wheel sport item according to",
+                    "), wherein said articulation means comprise a pair of jaws arranged on opposite sides with respect to said wheel."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "2 ), wherein said control means comprise drive means operatively connected to said platform.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 2",
+            "claimSize": 25,
+            "gate:gateId": 14,
+            "claimNumber": 4,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "4. The wheel sport item according to",
+                    "), wherein said control means comprise drive means operatively connected to said platform."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "4 ), wherein said drive means comprise a cable provided with a first end associated with said platform and an opposite end associated with said articulation means.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 4",
+            "claimSize": 38,
+            "gate:gateId": 17,
+            "claimNumber": 5,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "5. The wheel sport item according to",
+                    "), wherein said drive means comprise a cable provided with a first end associated with said platform and an opposite end associated with said articulation means."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "1 ), further comprising elastic means for the spontaneous return of said platform to said first position.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 28,
+            "gate:gateId": 20,
+            "claimNumber": 6,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "6. The wheel sport item according to",
+                    "), further comprising elastic means for the spontaneous return of said platform to said first position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "1 ), further comprising stop means suited to limit the rotation of said platform between said first position and said braking position.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 33,
+            "gate:gateId": 23,
+            "claimNumber": 7,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "7. The wheel sport item according to",
+                    "), further comprising stop means suited to limit the rotation of said platform between said first position and said braking position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "1 ), comprising a roller ski.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 17,
+            "gate:gateId": 26,
+            "claimNumber": 8,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "8. The wheel sport item according to",
+                    "), comprising a roller ski."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "1 ), comprising a roller skate.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 17,
+            "gate:gateId": 29,
+            "claimNumber": 9,
+            "claim_preamble": "The wheel sport item",
+            "claim-text": {
+                "content": [
+                    "9. The wheel sport item according to",
+                    "), comprising a roller skate."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a wheeled sport item suited to be applied to the foot of a user in order to allow said foot to slide in relation to the ground according to a movement direction parallel to said foot, comprising:\nan elongated body associated with at least two wheels that define for said elongated body said movement direction;\na platform associated with said elongated body and defining a supporting surface for said foot; and\nmeans for braking said wheels;\n\nsaid method comprising the step of operating said braking means through the rotation of said foot around a rotation axis, so that, during said rotation, said foot passes from a first position, parallel to said movement direction, to a braking position, incident on said movement direction, wherein said rotation axis is substantially orthogonal to said supporting surface.\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " for braking ",
+            "claimSize": 152,
+            "gate:gateId": 32,
+            "claim_preamble": "A method",
+            "claimNumber": 10,
+            "claim-text": [
+                {
+                    "content": "10. A method for braking a wheeled sport item suited to be applied to the foot of a user in order to allow said foot to slide in relation to the ground according to a movement direction parallel to said foot, comprising:",
+                    "gate:gateId": 33,
+                    "claim-text": [
+                        {
+                            "content": "an elongated body associated with at least two wheels that define for said elongated body said movement direction;",
+                            "gate:gateId": 34
+                        },
+                        {
+                            "content": "a platform associated with said elongated body and defining a supporting surface for said foot; and",
+                            "gate:gateId": 35
+                        },
+                        {
+                            "content": "means for braking said wheels;",
+                            "gate:gateId": 36
+                        }
+                    ]
+                },
+                {
+                    "content": "said method comprising the step of operating said braking means through the rotation of said foot around a rotation axis, so that, during said rotation, said foot passes from a first position, parallel to said movement direction, to a braking position, incident on said movement direction, wherein said rotation axis is substantially orthogonal to said supporting surface.",
+                    "gate:gateId": 37
+                }
+            ]
+        },
+        {
+            "id": "CLM-00011",
+            "body": "10 ), wherein the wheeled sport item comprises a roller ski.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 10",
+            "claimSize": 20,
+            "gate:gateId": 38,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method according to",
+                    "), wherein the wheeled sport item comprises a roller ski."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "10 ), wherein the wheeled sport item comprises a roller skate. \n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 10",
+            "claimSize": 20,
+            "gate:gateId": 41,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method according to",
+                    "), wherein the wheeled sport item comprises a roller skate."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 10
+        }
+    ],
+    "numberIndependentClaims": 12
+}}

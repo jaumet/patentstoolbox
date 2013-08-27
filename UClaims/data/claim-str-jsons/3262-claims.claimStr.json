@@ -1,0 +1,1252 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502177-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 217,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2869,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "irradiation of two target volumes ( 81 , 92 , 101 , 121 ) with a beam ( 20 ) approaching target points ( 72 , 110 ) for the purpose of depositing a first target dose distribution in a first of the two target volumes ( 81 , 92 , 101 , 121 ) and a second target dose distribution in a second of the two target volumes ( 81 , 92 , 101 , 121 ), characterized by the following steps:\nassigning target points ( 72 , 110 ) to one of the target volumes ( 81 , 92 , 101 , 121 ), detecting an overlap of a first deposition caused by approaching a target point ( 72 , 110 ) assigned to the first target volume ( 81 , 92 , 101 , 121 ) with a second deposition caused by approaching a target point ( 72 , 110 ) assigned to the second target volume ( 81 , 92 , 101 , 121 ), and\nadapting the planning process for at least one of the target points ( 81 , 92 , 101 , 121 ) whose approach contributes to the overlap of the first and second deposition.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for planning ",
+            "claimSize": 213,
+            "gate:gateId": 1,
+            "claim_preamble": "Method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": [
+                    "1. Method for planning irradiation of two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") with a beam (",
+                    ") approaching target points (",
+                    ",",
+                    ") for the purpose of depositing a first target dose distribution in a first of the two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") and a second target dose distribution in a second of the two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    "), characterized by the following steps:"
+                ],
+                "b": [
+                    {
+                        "content": 81,
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": 20,
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": 72,
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": 110,
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 11
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 13
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 14
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 17
+                    }
+                ],
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": [
+                            "assigning target points (",
+                            ",",
+                            ") to one of the target volumes (",
+                            ",",
+                            ",",
+                            ",",
+                            "), detecting an overlap of a first deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the first target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            ") with a second deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the second target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            "), and"
+                        ],
+                        "b": [
+                            {
+                                "content": 72,
+                                "gate:gateId": 19
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 20
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 21
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 22
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 23
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 24
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 25
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 26
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 27
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 28
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 29
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 30
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 31
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 32
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 33
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 34
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 35
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 36
+                            }
+                        ],
+                        "gate:gateId": 18
+                    },
+                    {
+                        "content": [
+                            "adapting the planning process for at least one of the target points (",
+                            ",",
+                            ",",
+                            ",",
+                            ") whose approach contributes to the overlap of the first and second deposition."
+                        ],
+                        "b": [
+                            {
+                                "content": 81,
+                                "gate:gateId": 38
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 39
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 40
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 41
+                            }
+                        ],
+                        "gate:gateId": 37
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the target points ( 72 , 110 ) apply to screen dots ( 71 ) of a grid ( 70 ).\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 42,
+            "claimNumber": 2,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "2. Method according to",
+                    ", wherein the target points (",
+                    ",",
+                    ") apply to screen dots (",
+                    ") of a grid (",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 72,
+                        "gate:gateId": 45
+                    },
+                    {
+                        "content": 110,
+                        "gate:gateId": 46
+                    },
+                    {
+                        "content": 71,
+                        "gate:gateId": 47
+                    },
+                    {
+                        "content": 70,
+                        "gate:gateId": 48
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the planning process provides irradiation divided in several sessions.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 19,
+            "gate:gateId": 49,
+            "claimNumber": 3,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "3. Method according to",
+                    ", wherein the planning process provides irradiation divided in several sessions."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "irradiation planning is performed prior to each session.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 3 ,",
+            "claimSize": 18,
+            "gate:gateId": 52,
+            "claimNumber": 4,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "4. Method according to",
+                    ", wherein irradiation planning is performed prior to each session."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 53
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a change of one of the target volumes ( 81 , 92 , 101 , 121 ) is considered for changing the planning process.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 34,
+            "gate:gateId": 55,
+            "claimNumber": 5,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "5. Method according to",
+                    ", wherein a change of one of the target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") is considered for changing the planning process."
+                ],
+                "b": [
+                    {
+                        "content": 81,
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 61
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "arranges adjusting the target volumes ( 81 , 92 , 101 , 121 ) to structures to be irradiated.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein planning ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 30,
+            "gate:gateId": 62,
+            "claimNumber": 6,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "6. Method according to",
+                    ", wherein planning arranges adjusting the target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") to structures to be irradiated."
+                ],
+                "b": [
+                    {
+                        "content": 81,
+                        "gate:gateId": 65
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 66
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 67
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 68
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "each target volume is provided with a safety margin ( 83 , 93 , 103 , 123 ).\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 28,
+            "gate:gateId": 69,
+            "claimNumber": 7,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "7. Method according to",
+                    ", wherein each target volume is provided with a safety margin (",
+                    ",",
+                    ",",
+                    ",",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 83,
+                        "gate:gateId": 72
+                    },
+                    {
+                        "content": 93,
+                        "gate:gateId": 73
+                    },
+                    {
+                        "content": 103,
+                        "gate:gateId": 74
+                    },
+                    {
+                        "content": 123,
+                        "gate:gateId": 75
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 71,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 70
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "information is assigned to points ( 72 , 110 ) of an object to be irradiated which exceeds the assignment to a target volume ( 81 , 92 , 101 , 121 ).\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 43,
+            "gate:gateId": 76,
+            "claimNumber": 8,
+            "claim_preamble": "Method",
+            "claim-text": {
+                "content": [
+                    "8. Method according to",
+                    ", wherein information is assigned to points (",
+                    ",",
+                    ") of an object to be irradiated which exceeds the assignment to a target volume (",
+                    ",",
+                    ",",
+                    ",",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 72,
+                        "gate:gateId": 79
+                    },
+                    {
+                        "content": 110,
+                        "gate:gateId": 80
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 81
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 82
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 83
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 84
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 78,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 77
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "two target volumes ( 81 , 92 , 101 , 121 ) with a beam ( 20 ) approaching target points ( 72 , 110 ) for the purpose of depositing a first target dose distribution in a first of the two target volumes and a second target dose distribution in a second of the two target volumes, characterized by the following steps:\nassigning target points ( 72 , 110 ) to one of the target volumes ( 81 , 92 , 101 , 121 ), detecting an overlap of a first deposition caused by approaching a target point ( 72 , 110 ) assigned to the first target volume ( 81 , 92 , 101 , 121 ) with a second deposition caused by approaching a target point ( 72 , 110 ) assigned to the second target volume ( 81 , 92 , 101 , 121 ), and\nadapting irradiation for at least one of the target points ( 72 , 110 ) whose approach contributes to the overlap of the first and second deposition.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " for irradiating ",
+            "claimSize": 187,
+            "gate:gateId": 85,
+            "claim_preamble": "Method",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": [
+                    "9. Method for irradiating two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") with a beam (",
+                    ") approaching target points (",
+                    ",",
+                    ") for the purpose of depositing a first target dose distribution in a first of the two target volumes and a second target dose distribution in a second of the two target volumes, characterized by the following steps:"
+                ],
+                "b": [
+                    {
+                        "content": 81,
+                        "gate:gateId": 87
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 88
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 89
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 90
+                    },
+                    {
+                        "content": 20,
+                        "gate:gateId": 91
+                    },
+                    {
+                        "content": 72,
+                        "gate:gateId": 92
+                    },
+                    {
+                        "content": 110,
+                        "gate:gateId": 93
+                    }
+                ],
+                "gate:gateId": 86,
+                "claim-text": [
+                    {
+                        "content": [
+                            "assigning target points (",
+                            ",",
+                            ") to one of the target volumes (",
+                            ",",
+                            ",",
+                            ",",
+                            "), detecting an overlap of a first deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the first target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            ") with a second deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the second target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            "), and"
+                        ],
+                        "b": [
+                            {
+                                "content": 72,
+                                "gate:gateId": 95
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 96
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 97
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 98
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 99
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 100
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 101
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 102
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 103
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 104
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 105
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 106
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 107
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 108
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 109
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 110
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 111
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 112
+                            }
+                        ],
+                        "gate:gateId": 94
+                    },
+                    {
+                        "content": [
+                            "adapting irradiation for at least one of the target points (",
+                            ",",
+                            ") whose approach contributes to the overlap of the first and second deposition."
+                        ],
+                        "b": [
+                            {
+                                "content": 72,
+                                "gate:gateId": 114
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 115
+                            }
+                        ],
+                        "gate:gateId": 113
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "( 10 ) for irradiating two target volumes ( 81 , 92 , 101 , 121 ) with a beam ( 20 ) approaching target points ( 72 , 110 ) for the purpose of depositing a first target dose distribution in a first of the two target volumes ( 81 , 92 , 101 , 121 ) and a second target dose distribution in a second of the two target volumes ( 81 , 92 , 101 , 121 ), comprising\nan irradiation source ( 11 ) and\na control system ( 41 , 42 , 46 , 47 ) for controlling the device ( 10 ),\ncharacterized in that the control system ( 41 , 42 , 46 , 47 ) is designed to assign target points ( 72 , 110 ) to one of the target volumes ( 81 , 92 , 101 , 121 ), detect an overlap of a deposition caused by approaching a target point ( 72 , 110 ) assigned to the first target volume ( 81 , 92 , 101 , 121 ) with a second deposition caused by approaching a target point ( 72 , 110 ) assigned to the second target volume ( 81 , 92 , 101 , 121 ), and\nto adapt irradiation for at least one of the target points ( 72 , 110 ) whose approach contributes to the overlap of the first and second depositions.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " ",
+            "claimSize": 248,
+            "gate:gateId": 116,
+            "claim_preamble": "Device",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": [
+                    "10. Device (",
+                    ") for irradiating two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") with a beam (",
+                    ") approaching target points (",
+                    ",",
+                    ") for the purpose of depositing a first target dose distribution in a first of the two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") and a second target dose distribution in a second of the two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    "), comprising"
+                ],
+                "b": [
+                    {
+                        "content": 10,
+                        "gate:gateId": 118
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 119
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 120
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 121
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 122
+                    },
+                    {
+                        "content": 20,
+                        "gate:gateId": 123
+                    },
+                    {
+                        "content": 72,
+                        "gate:gateId": 124
+                    },
+                    {
+                        "content": 110,
+                        "gate:gateId": 125
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 126
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 127
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 128
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 129
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 130
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 131
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 132
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 133
+                    }
+                ],
+                "gate:gateId": 117,
+                "claim-text": [
+                    {
+                        "content": [
+                            "an irradiation source (",
+                            ") and"
+                        ],
+                        "b": {
+                            "content": 11,
+                            "gate:gateId": 135
+                        },
+                        "gate:gateId": 134
+                    },
+                    {
+                        "content": [
+                            "a control system (",
+                            ",",
+                            ",",
+                            ",",
+                            ") for controlling the device (",
+                            "),"
+                        ],
+                        "b": [
+                            {
+                                "content": 41,
+                                "gate:gateId": 137
+                            },
+                            {
+                                "content": 42,
+                                "gate:gateId": 138
+                            },
+                            {
+                                "content": 46,
+                                "gate:gateId": 139
+                            },
+                            {
+                                "content": 47,
+                                "gate:gateId": 140
+                            },
+                            {
+                                "content": 10,
+                                "gate:gateId": 141
+                            }
+                        ],
+                        "gate:gateId": 136
+                    },
+                    {
+                        "content": [
+                            "characterized in that the control system (",
+                            ",",
+                            ",",
+                            ",",
+                            ") is designed to assign target points (",
+                            ",",
+                            ") to one of the target volumes (",
+                            ",",
+                            ",",
+                            ",",
+                            "), detect an overlap of a deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the first target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            ") with a second deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the second target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            "), and"
+                        ],
+                        "b": [
+                            {
+                                "content": 41,
+                                "gate:gateId": 143
+                            },
+                            {
+                                "content": 42,
+                                "gate:gateId": 144
+                            },
+                            {
+                                "content": 46,
+                                "gate:gateId": 145
+                            },
+                            {
+                                "content": 47,
+                                "gate:gateId": 146
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 147
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 148
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 149
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 150
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 151
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 152
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 153
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 154
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 155
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 156
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 157
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 158
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 159
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 160
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 161
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 162
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 163
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 164
+                            }
+                        ],
+                        "gate:gateId": 142
+                    },
+                    {
+                        "content": [
+                            "to adapt irradiation for at least one of the target points (",
+                            ",",
+                            ") whose approach contributes to the overlap of the first and second depositions."
+                        ],
+                        "b": [
+                            {
+                                "content": 72,
+                                "gate:gateId": 166
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 167
+                            }
+                        ],
+                        "gate:gateId": 165
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "( 41 , 42 , 46 , 47 ) for controlling a device ( 10 ) for irradiating two target volumes ( 81 , 92 , 101 , 121 ) with a beam ( 20 ) approaching target points ( 72 , 110 ) for the purpose of depositing a first target dose distribution in a first of the two target volumes ( 81 , 92 , 101 , 121 ) and a second target dose distribution in a second of the two target volumes ( 81 , 92 , 101 , 121 ),\ncharacterized in that\nthe control system ( 41 , 42 , 46 , 47 ) is designed to assign target points ( 72 , 110 ) to one of the target volumes ( 81 , 92 , 101 , 121 ), to detect an overlap of a first deposition caused by approaching a target point ( 72 , 110 ) assigned to the first target volume ( 81 , 92 , 101 , 121 ) with a second deposition caused by approaching a target point ( 72 , 110 ) assigned to the second target volume ( 81 , 92 , 101 , 121 ), and\nto adapt irradiation for at least one of the target points ( 72 , 110 ) whose approach contributes to the overlap of the first and second depositions. \n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": " ",
+            "claimSize": 236,
+            "gate:gateId": 168,
+            "claim_preamble": "Control system",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": [
+                    "11. Control system (",
+                    ",",
+                    ",",
+                    ",",
+                    ") for controlling a device (",
+                    ") for irradiating two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") with a beam (",
+                    ") approaching target points (",
+                    ",",
+                    ") for the purpose of depositing a first target dose distribution in a first of the two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    ") and a second target dose distribution in a second of the two target volumes (",
+                    ",",
+                    ",",
+                    ",",
+                    "),"
+                ],
+                "b": [
+                    {
+                        "content": 41,
+                        "gate:gateId": 170
+                    },
+                    {
+                        "content": 42,
+                        "gate:gateId": 171
+                    },
+                    {
+                        "content": 46,
+                        "gate:gateId": 172
+                    },
+                    {
+                        "content": 47,
+                        "gate:gateId": 173
+                    },
+                    {
+                        "content": 10,
+                        "gate:gateId": 174
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 175
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 176
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 177
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 178
+                    },
+                    {
+                        "content": 20,
+                        "gate:gateId": 179
+                    },
+                    {
+                        "content": 72,
+                        "gate:gateId": 180
+                    },
+                    {
+                        "content": 110,
+                        "gate:gateId": 181
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 182
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 183
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 184
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 185
+                    },
+                    {
+                        "content": 81,
+                        "gate:gateId": 186
+                    },
+                    {
+                        "content": 92,
+                        "gate:gateId": 187
+                    },
+                    {
+                        "content": 101,
+                        "gate:gateId": 188
+                    },
+                    {
+                        "content": 121,
+                        "gate:gateId": 189
+                    }
+                ],
+                "gate:gateId": 169,
+                "claim-text": [
+                    {
+                        "content": "characterized in that",
+                        "gate:gateId": 190
+                    },
+                    {
+                        "content": [
+                            "the control system (",
+                            ",",
+                            ",",
+                            ",",
+                            ") is designed to assign target points (",
+                            ",",
+                            ") to one of the target volumes (",
+                            ",",
+                            ",",
+                            ",",
+                            "), to detect an overlap of a first deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the first target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            ") with a second deposition caused by approaching a target point (",
+                            ",",
+                            ") assigned to the second target volume (",
+                            ",",
+                            ",",
+                            ",",
+                            "), and"
+                        ],
+                        "b": [
+                            {
+                                "content": 41,
+                                "gate:gateId": 192
+                            },
+                            {
+                                "content": 42,
+                                "gate:gateId": 193
+                            },
+                            {
+                                "content": 46,
+                                "gate:gateId": 194
+                            },
+                            {
+                                "content": 47,
+                                "gate:gateId": 195
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 196
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 197
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 198
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 199
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 200
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 201
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 202
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 203
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 204
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 205
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 206
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 207
+                            },
+                            {
+                                "content": 72,
+                                "gate:gateId": 208
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 209
+                            },
+                            {
+                                "content": 81,
+                                "gate:gateId": 210
+                            },
+                            {
+                                "content": 92,
+                                "gate:gateId": 211
+                            },
+                            {
+                                "content": 101,
+                                "gate:gateId": 212
+                            },
+                            {
+                                "content": 121,
+                                "gate:gateId": 213
+                            }
+                        ],
+                        "gate:gateId": 191
+                    },
+                    {
+                        "content": [
+                            "to adapt irradiation for at least one of the target points (",
+                            ",",
+                            ") whose approach contributes to the overlap of the first and second depositions."
+                        ],
+                        "b": [
+                            {
+                                "content": 72,
+                                "gate:gateId": 215
+                            },
+                            {
+                                "content": 110,
+                                "gate:gateId": 216
+                            }
+                        ],
+                        "gate:gateId": 214
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 74
+}}

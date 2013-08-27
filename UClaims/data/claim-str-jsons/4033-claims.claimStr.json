@@ -1,0 +1,346 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502958-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 56,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2749,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a table, comprising:\na base;\na motor that drives the table in a driving area on the base;\na position sensor that detects the position of the table; and\na control unit that controls the motor,\nwherein the control unit comprises:\na first output unit that outputs electric current controlling the position of the table based on the output of the position sensor;\na second output unit that outputs electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table; and\na switch unit that switches from a state in which the motor is controlled depending on the output of the first output unit to a state in which the motor is controlled depending on the output of the second output unit, based on a stopping signal for stopping the table.\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for positioning ",
+            "claimSize": 168,
+            "gate:gateId": 1,
+            "claim_preamble": "A positioning device",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A positioning device for positioning a table, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a base;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a motor that drives the table in a driving area on the base;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a position sensor that detects the position of the table; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a control unit that controls the motor,",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein the control unit comprises:",
+                        "gate:gateId": 7,
+                        "claim-text": [
+                            {
+                                "content": "a first output unit that outputs electric current controlling the position of the table based on the output of the position sensor;",
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": "a second output unit that outputs electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table; and",
+                                "gate:gateId": 9
+                            },
+                            {
+                                "content": "a switch unit that switches from a state in which the motor is controlled depending on the output of the first output unit to a state in which the motor is controlled depending on the output of the second output unit, based on a stopping signal for stopping the table.",
+                                "gate:gateId": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the switch unit switches its state when the table is positioned at a braking area which is located at the peripheral edge part of the driving area.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 39,
+            "gate:gateId": 11,
+            "claimNumber": 2,
+            "claim_preamble": "The positioning device",
+            "claim-text": {
+                "content": [
+                    "2. The positioning device according to",
+                    ", wherein the switch unit switches its state when the table is positioned at a braking area which is located at the peripheral edge part of the driving area."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the switch unit switches from a state in which the motor is controlled depending on the output of the first output unit to a state in which both ends of a coil of the motor are short-circuited, if the table is positioned at a driving area inside the braking area.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 63,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The positioning device",
+            "claim-text": {
+                "content": [
+                    "3. The positioning device according to",
+                    ", wherein the switch unit switches from a state in which the motor is controlled depending on the output of the first output unit to a state in which both ends of a coil of the motor are short-circuited, if the table is positioned at a driving area inside the braking area."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "a limit detection sensor for detecting that the table is positioned at the braking area,\nwherein the switch unit switches its state based on the output and the emergency stopping signal of the sensor.\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "further comprising:\n",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 49,
+            "gate:gateId": 17,
+            "claimNumber": 4,
+            "claim_preamble": "The positioning device",
+            "claim-text": {
+                "content": [
+                    "4. The positioning device according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 18,
+                "claim-text": [
+                    {
+                        "content": "a limit detection sensor for detecting that the table is positioned at the braking area,",
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": "wherein the switch unit switches its state based on the output and the emergency stopping signal of the sensor.",
+                        "gate:gateId": 21
+                    }
+                ]
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the motor is a linear motor having first coils positioned at both ends of the array and a second coil positioned between the first coils,\nwherein the switch unit switches from a state in which an electric current is caused to flow into the first coils depending on the output of the first output unit to a state in which an electric current is cause to flow into the first coils depending on the output of the second output unit, when the table is positioned at an area corresponding to the first coils and receives the stopping signal, and\nwherein the switch unit switches from a state in which an electric current is caused to flow into the second coil depending on the output of the first output unit to a state in which both ends of the second coil are short-circuited, when the table is positioned at an area corresponding to the second coil and receives the stopping signal.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein, ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 177,
+            "gate:gateId": 22,
+            "claimNumber": 5,
+            "claim_preamble": "The positioning device",
+            "claim-text": {
+                "content": [
+                    "5. The positioning device according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23,
+                "claim-text": [
+                    {
+                        "content": "wherein, the motor is a linear motor having first coils positioned at both ends of the array and a second coil positioned between the first coils,",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "wherein the switch unit switches from a state in which an electric current is caused to flow into the first coils depending on the output of the first output unit to a state in which an electric current is cause to flow into the first coils depending on the output of the second output unit, when the table is positioned at an area corresponding to the first coils and receives the stopping signal, and",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "wherein the switch unit switches from a state in which an electric current is caused to flow into the second coil depending on the output of the first output unit to a state in which both ends of the second coil are short-circuited, when the table is positioned at an area corresponding to the second coil and receives the stopping signal.",
+                        "gate:gateId": 27
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a table to be driven in a driving area of a base on which the table is mounted, the positioning device comprising:\na motor connected to a drive circuit that drives the table;\nan electric current source that outputs a predetermined electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table; and\na braking control unit configured to switch connection of the motor from the drive circuit to a braking circuit including the electric current source based on a stopping signal, when the table is positioned at a braking area located at the peripheral edge part of the driving area.\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": " for causing ",
+            "claimSize": 133,
+            "gate:gateId": 28,
+            "claim_preamble": "A positioning device",
+            "claimNumber": 6,
+            "claim-text": {
+                "content": "6. A positioning device for causing a table to be driven in a driving area of a base on which the table is mounted, the positioning device comprising:",
+                "gate:gateId": 29,
+                "claim-text": [
+                    {
+                        "content": "a motor connected to a drive circuit that drives the table;",
+                        "gate:gateId": 30
+                    },
+                    {
+                        "content": "an electric current source that outputs a predetermined electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table; and",
+                        "gate:gateId": 31
+                    },
+                    {
+                        "content": "a braking control unit configured to switch connection of the motor from the drive circuit to a braking circuit including the electric current source based on a stopping signal, when the table is positioned at a braking area located at the peripheral edge part of the driving area.",
+                        "gate:gateId": 32
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a motor that drives a table in a driving area on a base, the control method comprising:\na step of measuring the position of the table;\na first output step of outputting an electric current controlling the position of the table based on the measured position;\na second output step of outputting electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table;\na step of receiving a stopping signal for stopping the table; and\na step of switching from a state in which the motor is controlled depending on the output of the first output step to a state in which the motor is controlled depending on the output of the second output step, based on the received stopping signal.\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " for controlling ",
+            "claimSize": 155,
+            "gate:gateId": 33,
+            "claim_preamble": "A control method",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A control method for controlling a motor that drives a table in a driving area on a base, the control method comprising:",
+                "gate:gateId": 34,
+                "claim-text": [
+                    {
+                        "content": "a step of measuring the position of the table;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "a first output step of outputting an electric current controlling the position of the table based on the measured position;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "a second output step of outputting electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "a step of receiving a stopping signal for stopping the table; and",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "a step of switching from a state in which the motor is controlled depending on the output of the first output step to a state in which the motor is controlled depending on the output of the second output step, based on the received stopping signal.",
+                        "gate:gateId": 39
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "which a driving source connected to a drive circuit causes a table mounted on a base to be driven in a driving area of the base, the control method comprising the steps of:\nreceiving a stopping signal for stopping the table;\ndetecting that the table is reached to a braking area positioned at the peripheral edge part of the driving area;\nswitching the driving source from the drive circuit to a braking circuit including an electric current source which imparts a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table on the basis of the reception of the stopping signal and the detection; and\nswitching the driving source to a short circuit short-circuiting both ends of the driving source so as to activate a dynamic brake, when the table is reaches a driving area inside the braking area with the aid of the thrust force imparted from the electric current source.\n\n",
+            "claimType": "independent",
+            "num": "00008",
+            "transPhrase": " in ",
+            "claimSize": 181,
+            "gate:gateId": 40,
+            "claim_preamble": "A control method",
+            "claimNumber": 8,
+            "claim-text": {
+                "content": "8. A control method in which a driving source connected to a drive circuit causes a table mounted on a base to be driven in a driving area of the base, the control method comprising the steps of:",
+                "gate:gateId": 41,
+                "claim-text": [
+                    {
+                        "content": "receiving a stopping signal for stopping the table;",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "detecting that the table is reached to a braking area positioned at the peripheral edge part of the driving area;",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "switching the driving source from the drive circuit to a braking circuit including an electric current source which imparts a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table on the basis of the reception of the stopping signal and the detection; and",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "switching the driving source to a short circuit short-circuiting both ends of the driving source so as to activate a dynamic brake, when the table is reaches a driving area inside the braking area with the aid of the thrust force imparted from the electric current source.",
+                        "gate:gateId": 45
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00009",
+            "body": "that transfers a pattern onto a substrate, comprising:\na table that is movable with a pattern-formed original or the substrate mounted,\na base;\na motor that drives the table in a driving area on the base;\na position sensor that detects the position of the table; and\na control unit that controls the motor, wherein the control unit comprises:\na first output unit that outputs electric current controlling the position of the table based on the output of the position sensor;\na second output unit that outputs electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table; and\na switch unit that switches from a state in which the motor is controlled depending on the output of the first output unit to a state in which the motor is controlled depending on the output of the second output unit, based on a stopping signal for stopping the table. \n\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " ",
+            "claimSize": 185,
+            "gate:gateId": 46,
+            "claim_preamble": "A lithographic apparatus",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A lithographic apparatus that transfers a pattern onto a substrate, comprising:",
+                "gate:gateId": 47,
+                "claim-text": [
+                    {
+                        "content": "a table that is movable with a pattern-formed original or the substrate mounted,",
+                        "gate:gateId": 48
+                    },
+                    {
+                        "content": "a base;",
+                        "gate:gateId": 49
+                    },
+                    {
+                        "content": "a motor that drives the table in a driving area on the base;",
+                        "gate:gateId": 50
+                    },
+                    {
+                        "content": "a position sensor that detects the position of the table; and",
+                        "gate:gateId": 51
+                    },
+                    {
+                        "content": "a control unit that controls the motor, wherein the control unit comprises:",
+                        "gate:gateId": 52,
+                        "claim-text": [
+                            {
+                                "content": "a first output unit that outputs electric current controlling the position of the table based on the output of the position sensor;",
+                                "gate:gateId": 53
+                            },
+                            {
+                                "content": "a second output unit that outputs electric current imparting a thrust force, which is directed toward the center of the driving area and does not decrease even with decreasing table speed, to the table; and",
+                                "gate:gateId": 54
+                            },
+                            {
+                                "content": "a switch unit that switches from a state in which the motor is controlled depending on the output of the first output unit to a state in which the motor is controlled depending on the output of the second output unit, based on a stopping signal for stopping the table.",
+                                "gate:gateId": 55
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 101
+}}

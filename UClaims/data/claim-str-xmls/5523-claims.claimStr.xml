@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="11165" id="claims" numberDependentClaims="0" numberIndependentClaims="231">
+<claim gate:gateId="1" id="CLM-00001" body="a plurality of internal financial control items, the method comprising:
+(a) automatically and respectively grouping subsets of the plurality of internal financial control items with one or both of a plurality of transaction classes and a plurality of audit areas based on an assessment of risk associated with one or more internal financial control items included in the plurality of internal financial control items, and presenting one or both of the plurality of transaction classes and the plurality of audit areas;
+(b) presenting on a display the plurality of internal financial control items;
+(c) processing by a processor an input set associated with at least some of the plurality of internal financial control items; and
+(d) automatically generating by the processor a set of assessment information based on the processed input set.
+
+" num="00001" claimType="independent" transPhrase=" for assessing " claimSize="154" claimNumber="1" claim_preamble="A computer-implemented method">
+<claim-text gate:gateId="2">1. A computer-implemented method for assessing a plurality of internal financial control items, the method comprising:
+<claim-text gate:gateId="3">(a) automatically and respectively grouping subsets of the plurality of internal financial control items with one or both of a plurality of transaction classes and a plurality of audit areas based on an assessment of risk associated with one or more internal financial control items included in the plurality of internal financial control items, and presenting one or both of the plurality of transaction classes and the plurality of audit areas;</claim-text>
+<claim-text gate:gateId="4">(b) presenting on a display the plurality of internal financial control items;</claim-text>
+<claim-text gate:gateId="5">(c) processing by a processor an input set associated with at least some of the plurality of internal financial control items; and</claim-text>
+<claim-text gate:gateId="6">(d) automatically generating by the processor a set of assessment information based on the processed input set.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="7" id="CLM-00002" body="the processing step includes processing at least one input from the input set that designates an internal financial control item for testing and the generating step includes presenting test procedures associated with the designated internal financial control item.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase="wherein " claimSize="47" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="8">2. The method of <claim-ref gate:gateId="9" idref="CLM-00001">claim 1</claim-ref> wherein the processing step includes processing at least one input from the input set that designates an internal financial control item for testing and the generating step includes presenting test procedures associated with the designated internal financial control item.</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00003" body="the presenting step includes first automatically and respectively grouping subsets of the plurality of internal financial control items with a plurality of internal control components, the plurality of internal control components comprising control environment, risk assessment, information and communication, monitoring, and control activities.
+" claimType="dependent" num="00003" claimBackReference="of claim 1" transPhrase="wherein " claimSize="57" claim_preamble="The method" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="11">3. The method of <claim-ref gate:gateId="12" idref="CLM-00001">claim 1</claim-ref> wherein the presenting step includes first automatically and respectively grouping subsets of the plurality of internal financial control items with a plurality of internal control components, the plurality of internal control components comprising control environment, risk assessment, information and communication, monitoring, and control activities.</claim-text>
+</claim>
+<claim gate:gateId="13" id="CLM-00004" body="the presenting step includes presenting the subsets of internal financial control items based on an input representing a selection from among the plurality of internal control components.
+" claimType="dependent" num="00004" claimBackReference="of claim 3" transPhrase="wherein " claimSize="36" claim_preamble="The method" claimNumber="4" depends_on="3">
+<claim-text gate:gateId="14">4. The method of <claim-ref gate:gateId="15" idref="CLM-00003">claim 3</claim-ref> wherein the presenting step includes presenting the subsets of internal financial control items based on an input representing a selection from among the plurality of internal control components.</claim-text>
+</claim>
+<claim gate:gateId="16" id="CLM-00005" body="the plurality of internal control components are comprised of COSO components.
+" claimType="dependent" num="00005" claimBackReference="of claim 3" transPhrase="wherein " claimSize="20" claim_preamble="The method" claimNumber="5" depends_on="3">
+<claim-text gate:gateId="17">5. The method of <claim-ref gate:gateId="18" idref="CLM-00003">claim 3</claim-ref> wherein the plurality of internal control components are comprised of COSO components.</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00006" body="the processing step includes processing at least one input designating a design deficiency associated with an internal control objective associated with one of the plurality of internal control components and the generating step includes generating an indication of design deficiency.
+" claimType="dependent" num="00006" claimBackReference="of claim 3" transPhrase="wherein " claimSize="49" claim_preamble="The method" claimNumber="6" depends_on="3">
+<claim-text gate:gateId="20">6. The method of <claim-ref gate:gateId="21" idref="CLM-00003">claim 3</claim-ref> wherein the processing step includes processing at least one input designating a design deficiency associated with an internal control objective associated with one of the plurality of internal control components and the generating step includes generating an indication of design deficiency.</claim-text>
+</claim>
+<claim gate:gateId="22" id="CLM-00007" body="3 further comprising:
+associating a previously identified risk with one or both of an internal financial control item and an internal control component; and
+presenting an indication of the existence of an associated risk and a risk description associated with the indicated risk.
+
+" claimType="dependent" num="00007" claimBackReference="of claim 3" transPhrase="" claimSize="52" claim_preamble="The method" claimNumber="7" depends_on="3">
+<claim-text gate:gateId="23">7. The method of <claim-ref gate:gateId="24" idref="CLM-00003">claim 3</claim-ref> further comprising:
+<claim-text gate:gateId="25">associating a previously identified risk with one or both of an internal financial control item and an internal control component; and</claim-text>
+<claim-text gate:gateId="26">presenting an indication of the existence of an associated risk and a risk description associated with the indicated risk.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="27" id="CLM-00008" body="the presenting step further comprises:
+prior to presenting, automatically and respectively grouping a plurality of transaction classes with a plurality of audit areas and selectively presenting the set of audit areas and transaction classes; and
+prior to presenting, automatically grouping subsets of the plurality of internal financial control items with one or both of the plurality of audit areas and the plurality of transaction classes.
+
+" claimType="dependent" num="00008" claimBackReference="of claim 1" transPhrase="wherein " claimSize="78" claim_preamble="The method" claimNumber="8" depends_on="1">
+<claim-text gate:gateId="28">8. The method of <claim-ref gate:gateId="29" idref="CLM-00001">claim 1</claim-ref> wherein the presenting step further comprises:
+<claim-text gate:gateId="30">prior to presenting, automatically and respectively grouping a plurality of transaction classes with a plurality of audit areas and selectively presenting the set of audit areas and transaction classes; and</claim-text>
+<claim-text gate:gateId="31">prior to presenting, automatically grouping subsets of the plurality of internal financial control items with one or both of the plurality of audit areas and the plurality of transaction classes.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="32" id="CLM-00009" body="the presenting step further comprises:
+prior to presenting, further grouping the subsets of the plurality of internal financial control items based on one or both of assertion and objective.
+
+" claimType="dependent" num="00009" claimBackReference="of claim 8" transPhrase="wherein " claimSize="40" claim_preamble="The method" claimNumber="9" depends_on="8">
+<claim-text gate:gateId="33">9. The method of <claim-ref gate:gateId="34" idref="CLM-00008">claim 8</claim-ref> wherein the presenting step further comprises:
+<claim-text gate:gateId="35">prior to presenting, further grouping the subsets of the plurality of internal financial control items based on one or both of assertion and objective.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="36" id="CLM-00010" body="8 further comprising:
+associating a previously identified risk with one or more of audit area, transaction class, and internal financial control item; and
+presenting an indication of the existence of an associated risk and a risk description associated with the indicated risk.
+
+" claimType="dependent" num="00010" claimBackReference="of claim 8" transPhrase="" claimSize="53" claim_preamble="The method" claimNumber="10" depends_on="8">
+<claim-text gate:gateId="37">10. The method of <claim-ref gate:gateId="38" idref="CLM-00008">claim 8</claim-ref> further comprising:
+<claim-text gate:gateId="39">associating a previously identified risk with one or more of audit area, transaction class, and internal financial control item; and</claim-text>
+<claim-text gate:gateId="40">presenting an indication of the existence of an associated risk and a risk description associated with the indicated risk.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="41" id="CLM-00011" body="1 further comprising:
+automatically grouping and presenting a subset of the plurality of internal financial control items based on a user input related to an assessment of risk, whereby the method provides a risk based approach to risk assessment.
+
+" claimType="dependent" num="00011" claimBackReference="of claim 1" transPhrase="" claimSize="48" claim_preamble="The method" claimNumber="11" depends_on="1">
+<claim-text gate:gateId="42">11. The method of <claim-ref gate:gateId="43" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="44">automatically grouping and presenting a subset of the plurality of internal financial control items based on a user input related to an assessment of risk, whereby the method provides a risk based approach to risk assessment.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="45" id="CLM-00012" body="1 further comprising:
+prior to the presenting step, automatically presenting a previously identified risk associated with one or both of an audit area and a transaction class associated with a subset of the plurality of internal financial control items.
+
+" claimType="dependent" num="00012" claimBackReference="of claim 1" transPhrase="" claimSize="48" claim_preamble="The method" claimNumber="12" depends_on="1">
+<claim-text gate:gateId="46">12. The method of <claim-ref gate:gateId="47" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="48">prior to the presenting step, automatically presenting a previously identified risk associated with one or both of an audit area and a transaction class associated with a subset of the plurality of internal financial control items.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="49" id="CLM-00013" body="1 further comprising:
+receiving a user test input designating an internal financial control item for testing; and
+presenting a set of test procedures associated with the designated internal financial control item.
+
+" claimType="dependent" num="00013" claimBackReference="of claim 1" transPhrase="" claimSize="40" claim_preamble="The method" claimNumber="13" depends_on="1">
+<claim-text gate:gateId="50">13. The method of <claim-ref gate:gateId="51" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="52">receiving a user test input designating an internal financial control item for testing; and</claim-text>
+<claim-text gate:gateId="53">presenting a set of test procedures associated with the designated internal financial control item.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="54" id="CLM-00014" body="13 further comprising documenting assessments associated with the set of test procedures.
+" claimType="dependent" num="00014" claimBackReference="of claim 13" transPhrase="" claimSize="19" claim_preamble="The method" claimNumber="14" depends_on="13">
+<claim-text gate:gateId="55">14. The method of <claim-ref gate:gateId="56" idref="CLM-00013">claim 13</claim-ref> further comprising documenting assessments associated with the set of test procedures.</claim-text>
+</claim>
+<claim gate:gateId="57" id="CLM-00015" body="1 further comprising:
+receiving from a user a plurality of inputs representing user assessment of the effectiveness of internal financial control items; and
+presenting a summary of the effectiveness assessments.
+
+" claimType="dependent" num="00015" claimBackReference="of claim 1" transPhrase="" claimSize="39" claim_preamble="The method" claimNumber="15" depends_on="1">
+<claim-text gate:gateId="58">15. The method of <claim-ref gate:gateId="59" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="60">receiving from a user a plurality of inputs representing user assessment of the effectiveness of internal financial control items; and</claim-text>
+<claim-text gate:gateId="61">presenting a summary of the effectiveness assessments.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="62" id="CLM-00016" body="the effectiveness assessments relate to one or more of internal financial control items, audit areas, transaction classes, assertions, exceptions, and internal control components.
+" claimType="dependent" num="00016" claimBackReference="of claim 15" transPhrase="wherein " claimSize="37" claim_preamble="The method" claimNumber="16" depends_on="15">
+<claim-text gate:gateId="63">16. The method of <claim-ref gate:gateId="64" idref="CLM-00015">claim 15</claim-ref> wherein the effectiveness assessments relate to one or more of internal financial control items, audit areas, transaction classes, assertions, exceptions, and internal control components.</claim-text>
+</claim>
+<claim gate:gateId="65" id="CLM-00017" body="15 further comprising:
+grouping the effectiveness assessments by one or all of audit area, assertion, and transaction class and presenting the grouped effectiveness assessments.
+
+" claimType="dependent" num="00017" claimBackReference="of claim 15" transPhrase="" claimSize="34" claim_preamble="The method" claimNumber="17" depends_on="15">
+<claim-text gate:gateId="66">17. The method of <claim-ref gate:gateId="67" idref="CLM-00015">claim 15</claim-ref> further comprising:
+<claim-text gate:gateId="68">grouping the effectiveness assessments by one or all of audit area, assertion, and transaction class and presenting the grouped effectiveness assessments.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="69" id="CLM-00018" body="the plurality of user inputs includes at least one input representing a conclusion of internal control design effectiveness.
+" claimType="dependent" num="00018" claimBackReference="of claim 15" transPhrase="wherein " claimSize="27" claim_preamble="The method" claimNumber="18" depends_on="15">
+<claim-text gate:gateId="70">18. The method of <claim-ref gate:gateId="71" idref="CLM-00015">claim 15</claim-ref> wherein the plurality of user inputs includes at least one input representing a conclusion of internal control design effectiveness.</claim-text>
+</claim>
+<claim gate:gateId="72" id="CLM-00019" body="at least one user assessment represents a design deficiency and the presenting step includes presenting a design deficiency summary.
+" claimType="dependent" num="00019" claimBackReference="of claim 15" transPhrase="wherein " claimSize="28" claim_preamble="The method" claimNumber="19" depends_on="15">
+<claim-text gate:gateId="73">19. The method of <claim-ref gate:gateId="74" idref="CLM-00015">claim 15</claim-ref> wherein at least one user assessment represents a design deficiency and the presenting step includes presenting a design deficiency summary.</claim-text>
+</claim>
+<claim gate:gateId="75" id="CLM-00020" body="at least one user assessment represents an exception related to an internal financial control item and the presenting step includes presenting an exception summary.
+" claimType="dependent" num="00020" claimBackReference="of claim 15" transPhrase="wherein " claimSize="33" claim_preamble="The method" claimNumber="20" depends_on="15">
+<claim-text gate:gateId="76">20. The method of <claim-ref gate:gateId="77" idref="CLM-00015">claim 15</claim-ref> wherein at least one user assessment represents an exception related to an internal financial control item and the presenting step includes presenting an exception summary.</claim-text>
+</claim>
+<claim gate:gateId="78" id="CLM-00021" body="1 further comprising:
+receiving a set of user inputs adapted to designate at least some of the plurality of internal financial control items as having a key control status.
+
+" claimType="dependent" num="00021" claimBackReference="of claim 1" transPhrase="" claimSize="37" claim_preamble="The method" claimNumber="21" depends_on="1">
+<claim-text gate:gateId="79">21. The method of <claim-ref gate:gateId="80" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="81">receiving a set of user inputs adapted to designate at least some of the plurality of internal financial control items as having a key control status.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="82" id="CLM-00022" body="1 further comprising:
+assigning and presenting a set of defaults designating at least some of the plurality of internal financial control items as having a key control status; and
+allowing a user to change key control status designation.
+
+" claimType="dependent" num="00022" claimBackReference="of claim 1" transPhrase="" claimSize="47" claim_preamble="The method" claimNumber="22" depends_on="1">
+<claim-text gate:gateId="83">22. The method of <claim-ref gate:gateId="84" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="85">assigning and presenting a set of defaults designating at least some of the plurality of internal financial control items as having a key control status; and</claim-text>
+<claim-text gate:gateId="86">allowing a user to change key control status designation.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="87" id="CLM-00023" body="1 further comprising:
+filtering internal financial control items based on a key control status designation assigned to a subset of the plurality of internal financial control items; and
+presenting the subset of the plurality of internal financial control items having the key control status designation.
+
+" claimType="dependent" num="00023" claimBackReference="of claim 1" transPhrase="" claimSize="54" claim_preamble="The method" claimNumber="23" depends_on="1">
+<claim-text gate:gateId="88">23. The method of <claim-ref gate:gateId="89" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="90">filtering internal financial control items based on a key control status designation assigned to a subset of the plurality of internal financial control items; and</claim-text>
+<claim-text gate:gateId="91">presenting the subset of the plurality of internal financial control items having the key control status designation.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="92" id="CLM-00024" body="1 further comprising:
+generating work product associated with the execution of the assessment method.
+
+" claimType="dependent" num="00024" claimBackReference="of claim 1" transPhrase="" claimSize="22" claim_preamble="The method" claimNumber="24" depends_on="1">
+<claim-text gate:gateId="93">24. The method of <claim-ref gate:gateId="94" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="95">generating work product associated with the execution of the assessment method.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="96" id="CLM-00025" body="1 further comprising:
+performing a diagnostics operation to identify one or more of errors in data, inconsistencies in responses and inputs, omissions, incomplete procedures or responses, and reminders to user to consider internal control deficiencies identified.
+
+" claimType="dependent" num="00025" claimBackReference="of claim 1" transPhrase="" claimSize="48" claim_preamble="The method" claimNumber="25" depends_on="1">
+<claim-text gate:gateId="97">25. The method of <claim-ref gate:gateId="98" idref="CLM-00001">claim 1</claim-ref> further comprising:
+<claim-text gate:gateId="99">performing a diagnostics operation to identify one or more of errors in data, inconsistencies in responses and inputs, omissions, incomplete procedures or responses, and reminders to user to consider internal control deficiencies identified.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="100" id="CLM-00026" body="the presenting step comprises presenting a plurality of prompts designed to elicit responses and being associated with a set of risks associated with one or more of the plurality of internal control items.
+" claimType="dependent" num="00026" claimBackReference="of claim 1" transPhrase="wherein " claimSize="42" claim_preamble="The method" claimNumber="26" depends_on="1">
+<claim-text gate:gateId="101">26. The method of <claim-ref gate:gateId="102" idref="CLM-00001">claim 1</claim-ref> wherein the presenting step comprises presenting a plurality of prompts designed to elicit responses and being associated with a set of risks associated with one or more of the plurality of internal control items.</claim-text>
+</claim>
+<claim gate:gateId="103" id="CLM-00027" body="the method is at least in part carried out using one or more of an Internet-based application, an Internet-enabled application, and a desktop application.
+" claimType="dependent" num="00027" claimBackReference="of claim 1" transPhrase="wherein " claimSize="35" claim_preamble="The method" claimNumber="27" depends_on="1">
+<claim-text gate:gateId="104">27. The method of <claim-ref gate:gateId="105" idref="CLM-00001">claim 1</claim-ref> wherein the method is at least in part carried out using one or more of an Internet-based application, an Internet-enabled application, and a desktop application.</claim-text>
+</claim>
+<claim gate:gateId="106" id="CLM-00028" body="the method is conducted as part of an audit process, a financial statement audit, or as part of a separate audit, assessment, implementation, or maintenance of internal control.
+" claimType="dependent" num="00028" claimBackReference="of claim 1" transPhrase="wherein " claimSize="42" claim_preamble="The method" claimNumber="28" depends_on="1">
+<claim-text gate:gateId="107">28. The method of <claim-ref gate:gateId="108" idref="CLM-00001">claim 1</claim-ref> wherein the method is conducted as part of an audit process, a financial statement audit, or as part of a separate audit, assessment, implementation, or maintenance of internal control.</claim-text>
+</claim>
+<claim gate:gateId="109" id="CLM-00029" body="risks associated with internal financial controls, the system comprising:
+a computer having an associated memory, display, and input device and adapted to execute code;
+a first code set adapted to automatically and respectively group subsets of the plurality of internal financial control items with one or both of a plurality of transaction classes and a plurality of audit areas based on an assessment of risk associated with one or more internal financial control items included in the plurality of internal financial control items;
+a graphical user interface adapted to operate on the computer and to present one or both of the plurality of transaction classes and the plurality of audit areas and further adapted to present a plurality of internal financial control items, the graphical user interface further adapted to receive user inputs related to the set of internal financial control items via the input device; and
+a second code set adapted to be executed on the computer and adapted to process the user inputs to generate a set of assessment information based on the received user inputs.
+
+" num="00029" claimType="independent" transPhrase=" for assessing " claimSize="193" claimNumber="29" claim_preamble="A system">
+<claim-text gate:gateId="110">29. A system for assessing risks associated with internal financial controls, the system comprising:
+<claim-text gate:gateId="111">a computer having an associated memory, display, and input device and adapted to execute code;</claim-text>
+<claim-text gate:gateId="112">a first code set adapted to automatically and respectively group subsets of the plurality of internal financial control items with one or both of a plurality of transaction classes and a plurality of audit areas based on an assessment of risk associated with one or more internal financial control items included in the plurality of internal financial control items;</claim-text>
+<claim-text gate:gateId="113">a graphical user interface adapted to operate on the computer and to present one or both of the plurality of transaction classes and the plurality of audit areas and further adapted to present a plurality of internal financial control items, the graphical user interface further adapted to receive user inputs related to the set of internal financial control items via the input device; and</claim-text>
+<claim-text gate:gateId="114">a second code set adapted to be executed on the computer and adapted to process the user inputs to generate a set of assessment information based on the received user inputs.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="115" id="CLM-00030" body="the graphical user interface is adapted to present a set of prompts designed to elicit user inputs.
+" claimType="dependent" num="00030" claimBackReference="of claim 29" transPhrase="wherein " claimSize="26" claim_preamble="The system" claimNumber="30" depends_on="29">
+<claim-text gate:gateId="116">30. The system of <claim-ref gate:gateId="117" idref="CLM-00029">claim 29</claim-ref> wherein the graphical user interface is adapted to present a set of prompts designed to elicit user inputs.</claim-text>
+</claim>
+<claim gate:gateId="118" id="CLM-00031" body="the code set is further adapted to present by the graphical user interface a set of procedures based at least in part on the user inputs.
+" claimType="dependent" num="00031" claimBackReference="of claim 29" transPhrase="wherein " claimSize="35" claim_preamble="The system" claimNumber="31" depends_on="29">
+<claim-text gate:gateId="119">31. The system of <claim-ref gate:gateId="120" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to present by the graphical user interface a set of procedures based at least in part on the user inputs.</claim-text>
+</claim>
+<claim gate:gateId="121" id="CLM-00032" body="the user inputs represent responses to risks associated with the plurality of internal financial control items.
+" claimType="dependent" num="00032" claimBackReference="of claim 29" transPhrase="wherein " claimSize="25" claim_preamble="The system" claimNumber="32" depends_on="29">
+<claim-text gate:gateId="122">32. The system of <claim-ref gate:gateId="123" idref="CLM-00029">claim 29</claim-ref> wherein the user inputs represent responses to risks associated with the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="124" id="CLM-00033" body="29 further comprising a risk code set adapted to identify and present via the graphical user interface risks associated with at least some of the plurality of internal financial control items.
+" claimType="dependent" num="00033" claimBackReference="of claim 29" transPhrase="" claimSize="38" claim_preamble="The system" claimNumber="33" depends_on="29">
+<claim-text gate:gateId="125">33. The system of <claim-ref gate:gateId="126" idref="CLM-00029">claim 29</claim-ref> further comprising a risk code set adapted to identify and present via the graphical user interface risks associated with at least some of the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="127" id="CLM-00034" body="29 further comprising an exception code set adapted to enable a user to identify exceptions associated with at least some of the internal financial control items.
+" claimType="dependent" num="00034" claimBackReference="of claim 29" transPhrase="" claimSize="33" claim_preamble="The system" claimNumber="34" depends_on="29">
+<claim-text gate:gateId="128">34. The system of <claim-ref gate:gateId="129" idref="CLM-00029">claim 29</claim-ref> further comprising an exception code set adapted to enable a user to identify exceptions associated with at least some of the internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="130" id="CLM-00035" body="the code set is further adapted to process at least one input from the input set that designates an internal financial control item for testing and the graphical user interface is further adapted to present test procedures associated with the designated internal control item.
+" claimType="dependent" num="00035" claimBackReference="of claim 29" transPhrase="wherein " claimSize="53" claim_preamble="The system" claimNumber="35" depends_on="29">
+<claim-text gate:gateId="131">35. The system of <claim-ref gate:gateId="132" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to process at least one input from the input set that designates an internal financial control item for testing and the graphical user interface is further adapted to present test procedures associated with the designated internal control item.</claim-text>
+</claim>
+<claim gate:gateId="133" id="CLM-00036" body="the code set is further adapted to automatically and respectively group subsets of the plurality of internal financial control items with a plurality of internal control components, the plurality of internal control components comprising control environment, risk assessment, information and communication, monitoring, and control activities.
+" claimType="dependent" num="00036" claimBackReference="of claim 29" transPhrase="wherein " claimSize="59" claim_preamble="The system" claimNumber="36" depends_on="29">
+<claim-text gate:gateId="134">36. The system of <claim-ref gate:gateId="135" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to automatically and respectively group subsets of the plurality of internal financial control items with a plurality of internal control components, the plurality of internal control components comprising control environment, risk assessment, information and communication, monitoring, and control activities.</claim-text>
+</claim>
+<claim gate:gateId="136" id="CLM-00037" body="the graphical user interface is further adapted to present the subsets of internal financial control items based on receiving a user input designating one of the plurality of internal control components.
+" claimType="dependent" num="00037" claimBackReference="of claim 36" transPhrase="wherein " claimSize="40" claim_preamble="The system" claimNumber="37" depends_on="36">
+<claim-text gate:gateId="137">37. The system of <claim-ref gate:gateId="138" idref="CLM-00036">claim 36</claim-ref> wherein the graphical user interface is further adapted to present the subsets of internal financial control items based on receiving a user input designating one of the plurality of internal control components.</claim-text>
+</claim>
+<claim gate:gateId="139" id="CLM-00038" body="the codes set is further adapted to process at least one input designating a design deficiency associated with an internal control objective associated with one of the plurality of internal control components and to generate an indication of design deficiency.
+" claimType="dependent" num="00038" claimBackReference="of claim 36" transPhrase="wherein " claimSize="49" claim_preamble="The system" claimNumber="38" depends_on="36">
+<claim-text gate:gateId="140">38. The system of <claim-ref gate:gateId="141" idref="CLM-00036">claim 36</claim-ref> wherein the codes set is further adapted to process at least one input designating a design deficiency associated with an internal control objective associated with one of the plurality of internal control components and to generate an indication of design deficiency.</claim-text>
+</claim>
+<claim gate:gateId="142" id="CLM-00039" body="the code set is further adapted to associate a previously identified risk with one or both of an internal financial control item and an internal control component and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and a risk description associated with the indicated risk.
+" claimType="dependent" num="00039" claimBackReference="of claim 36" transPhrase="wherein " claimSize="65" claim_preamble="The system" claimNumber="39" depends_on="36">
+<claim-text gate:gateId="143">39. The system of <claim-ref gate:gateId="144" idref="CLM-00036">claim 36</claim-ref> wherein the code set is further adapted to associate a previously identified risk with one or both of an internal financial control item and an internal control component and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and a risk description associated with the indicated risk.</claim-text>
+</claim>
+<claim gate:gateId="145" id="CLM-00040" body="the code set is further adapted to automatically and respectively group a plurality of transaction classes with a plurality of audit areas and to automatically group subsets of the plurality of internal financial control items with one or both of the plurality of audit areas and the plurality of transaction classes, and the graphical user interface is further adapted to selectively present the set of audit areas and transaction classes and the grouped subsets of the plurality of internal financial control items.
+" claimType="dependent" num="00040" claimBackReference="of claim 29" transPhrase="wherein " claimSize="92" claim_preamble="The system" claimNumber="40" depends_on="29">
+<claim-text gate:gateId="146">40. The system of <claim-ref gate:gateId="147" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to automatically and respectively group a plurality of transaction classes with a plurality of audit areas and to automatically group subsets of the plurality of internal financial control items with one or both of the plurality of audit areas and the plurality of transaction classes, and the graphical user interface is further adapted to selectively present the set of audit areas and transaction classes and the grouped subsets of the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="148" id="CLM-00041" body="the code set is further adapted to group the subsets of the plurality of internal financial control items based on one or both of assertion and objective.
+" claimType="dependent" num="00041" claimBackReference="of claim 40" transPhrase="wherein " claimSize="36" claim_preamble="The system" claimNumber="41" depends_on="40">
+<claim-text gate:gateId="149">41. The system of <claim-ref gate:gateId="150" idref="CLM-00040">claim 40</claim-ref> wherein the code set is further adapted to group the subsets of the plurality of internal financial control items based on one or both of assertion and objective.</claim-text>
+</claim>
+<claim gate:gateId="151" id="CLM-00042" body="the code set is further adapted to associate a previously identified risk with one or more of audit area, transaction class, and internal financial control item and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and a risk description associated with the indicated risk.
+" claimType="dependent" num="00042" claimBackReference="of claim 40" transPhrase="wherein " claimSize="66" claim_preamble="The system" claimNumber="42" depends_on="40">
+<claim-text gate:gateId="152">42. The system of <claim-ref gate:gateId="153" idref="CLM-00040">claim 40</claim-ref> wherein the code set is further adapted to associate a previously identified risk with one or more of audit area, transaction class, and internal financial control item and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and a risk description associated with the indicated risk.</claim-text>
+</claim>
+<claim gate:gateId="154" id="CLM-00043" body="the code set and the graphical user interface are respectively further adapted to automatically group and present a subset of the plurality of internal financial control items based on a user input related to an assessment of risk, whereby the system provides a risk based approach to risk assessment.
+" claimType="dependent" num="00043" claimBackReference="of claim 29" transPhrase="wherein " claimSize="59" claim_preamble="The system" claimNumber="43" depends_on="29">
+<claim-text gate:gateId="155">43. The system of <claim-ref gate:gateId="156" idref="CLM-00029">claim 29</claim-ref> wherein the code set and the graphical user interface are respectively further adapted to automatically group and present a subset of the plurality of internal financial control items based on a user input related to an assessment of risk, whereby the system provides a risk based approach to risk assessment.</claim-text>
+</claim>
+<claim gate:gateId="157" id="CLM-00044" body="the graphical user interface is further adapted to automatically present a previously identified risk associated with one or both of an audit area and a transaction class associated with a subset of the plurality of internal financial control items.
+" claimType="dependent" num="00044" claimBackReference="of claim 29" transPhrase="wherein " claimSize="48" claim_preamble="The system" claimNumber="44" depends_on="29">
+<claim-text gate:gateId="158">44. The system of <claim-ref gate:gateId="159" idref="CLM-00029">claim 29</claim-ref> wherein the graphical user interface is further adapted to automatically present a previously identified risk associated with one or both of an audit area and a transaction class associated with a subset of the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="160" id="CLM-00045" body="the graphical user interface is further adapted to receive a user test input designating an internal financial control item for testing and present a set of test procedures associated with the designated internal financial control item.
+" claimType="dependent" num="00045" claimBackReference="of claim 29" transPhrase="wherein " claimSize="45" claim_preamble="The system" claimNumber="45" depends_on="29">
+<claim-text gate:gateId="161">45. The system of <claim-ref gate:gateId="162" idref="CLM-00029">claim 29</claim-ref> wherein the graphical user interface is further adapted to receive a user test input designating an internal financial control item for testing and present a set of test procedures associated with the designated internal financial control item.</claim-text>
+</claim>
+<claim gate:gateId="163" id="CLM-00046" body="the graphical user interface is further adapted to receive user inputs associated with documenting assessments associated with the set of test procedures.
+" claimType="dependent" num="00046" claimBackReference="of claim 45" transPhrase="wherein " claimSize="31" claim_preamble="The system" claimNumber="46" depends_on="45">
+<claim-text gate:gateId="164">46. The system of <claim-ref gate:gateId="165" idref="CLM-00045">claim 45</claim-ref> wherein the graphical user interface is further adapted to receive user inputs associated with documenting assessments associated with the set of test procedures.</claim-text>
+</claim>
+<claim gate:gateId="166" id="CLM-00047" body="the graphical user interface is further adapted to receive from a user a plurality of inputs representing user assessment of the effectiveness of internal financial control items and present a summary of the effectiveness assessments.
+" claimType="dependent" num="00047" claimBackReference="of claim 29" transPhrase="wherein " claimSize="44" claim_preamble="The system" claimNumber="47" depends_on="29">
+<claim-text gate:gateId="167">47. The system of <claim-ref gate:gateId="168" idref="CLM-00029">claim 29</claim-ref> wherein the graphical user interface is further adapted to receive from a user a plurality of inputs representing user assessment of the effectiveness of internal financial control items and present a summary of the effectiveness assessments.</claim-text>
+</claim>
+<claim gate:gateId="169" id="CLM-00048" body="the effectiveness assessments relate to one or more of internal financial control items, audit areas, transaction classes, assertions, exceptions, and internal control components.
+" claimType="dependent" num="00048" claimBackReference="of claim 47" transPhrase="wherein " claimSize="37" claim_preamble="The system" claimNumber="48" depends_on="47">
+<claim-text gate:gateId="170">48. The system of <claim-ref gate:gateId="171" idref="CLM-00047">claim 47</claim-ref> wherein the effectiveness assessments relate to one or more of internal financial control items, audit areas, transaction classes, assertions, exceptions, and internal control components.</claim-text>
+</claim>
+<claim gate:gateId="172" id="CLM-00049" body="the code set and graphical user interface are respectively further adapted to group the effectiveness assessments by audit area and present the grouped effectiveness assessments.
+" claimType="dependent" num="00049" claimBackReference="of claim 47" transPhrase="wherein " claimSize="34" claim_preamble="The system" claimNumber="49" depends_on="47">
+<claim-text gate:gateId="173">49. The system of <claim-ref gate:gateId="174" idref="CLM-00047">claim 47</claim-ref> wherein the code set and graphical user interface are respectively further adapted to group the effectiveness assessments by audit area and present the grouped effectiveness assessments.</claim-text>
+</claim>
+<claim gate:gateId="175" id="CLM-00050" body="the plurality of user inputs includes at least one input representing a conclusion of internal control design effectiveness.
+" claimType="dependent" num="00050" claimBackReference="of claim 47" transPhrase="wherein " claimSize="27" claim_preamble="The system" claimNumber="50" depends_on="47">
+<claim-text gate:gateId="176">50. The system of <claim-ref gate:gateId="177" idref="CLM-00047">claim 47</claim-ref> wherein the plurality of user inputs includes at least one input representing a conclusion of internal control design effectiveness.</claim-text>
+</claim>
+<claim gate:gateId="178" id="CLM-00051" body="at least one user assessment represents a design deficiency and wherein the graphical user interface is further adapted to present a design deficiency summary.
+" claimType="dependent" num="00051" claimBackReference="of claim 47" transPhrase="wherein " claimSize="33" claim_preamble="The system" claimNumber="51" depends_on="47">
+<claim-text gate:gateId="179">51. The system of <claim-ref gate:gateId="180" idref="CLM-00047">claim 47</claim-ref> wherein at least one user assessment represents a design deficiency and wherein the graphical user interface is further adapted to present a design deficiency summary.</claim-text>
+</claim>
+<claim gate:gateId="181" id="CLM-00052" body="at least one user assessment represents an exception related to an internal financial control item and wherein the graphical user interface is further adapted to present an exception summary.
+" claimType="dependent" num="00052" claimBackReference="of claim 47" transPhrase="wherein " claimSize="38" claim_preamble="The system" claimNumber="52" depends_on="47">
+<claim-text gate:gateId="182">52. The system of <claim-ref gate:gateId="183" idref="CLM-00047">claim 47</claim-ref> wherein at least one user assessment represents an exception related to an internal financial control item and wherein the graphical user interface is further adapted to present an exception summary.</claim-text>
+</claim>
+<claim gate:gateId="184" id="CLM-00053" body="the graphical user interface is further adapted to receive a set of user inputs adapted to designate at least some of the plurality of internal financial control items as having a key control status.
+" claimType="dependent" num="00053" claimBackReference="of claim 29" transPhrase="wherein " claimSize="43" claim_preamble="The system" claimNumber="53" depends_on="29">
+<claim-text gate:gateId="185">53. The system of <claim-ref gate:gateId="186" idref="CLM-00029">claim 29</claim-ref> wherein the graphical user interface is further adapted to receive a set of user inputs adapted to designate at least some of the plurality of internal financial control items as having a key control status.</claim-text>
+</claim>
+<claim gate:gateId="187" id="CLM-00054" body="the code set and graphical user interface are respectively further adapted to assign and present a set of defaults designating at least some of the plurality of internal financial control items as having a key control status and to receive and process user inputs changing key control status designation.
+" claimType="dependent" num="00054" claimBackReference="of claim 29" transPhrase="wherein " claimSize="58" claim_preamble="The system" claimNumber="54" depends_on="29">
+<claim-text gate:gateId="188">54. The system of <claim-ref gate:gateId="189" idref="CLM-00029">claim 29</claim-ref> wherein the code set and graphical user interface are respectively further adapted to assign and present a set of defaults designating at least some of the plurality of internal financial control items as having a key control status and to receive and process user inputs changing key control status designation.</claim-text>
+</claim>
+<claim gate:gateId="190" id="CLM-00055" body="the code set is further adapted to filter internal financial control items based on a key control status designation assigned to a subset of the plurality of internal financial control items and the graphical user interface is further adapted to present the subset of the plurality of internal financial control items having the key control status designation.
+" claimType="dependent" num="00055" claimBackReference="of claim 29" transPhrase="wherein " claimSize="66" claim_preamble="The system" claimNumber="55" depends_on="29">
+<claim-text gate:gateId="191">55. The system of <claim-ref gate:gateId="192" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to filter internal financial control items based on a key control status designation assigned to a subset of the plurality of internal financial control items and the graphical user interface is further adapted to present the subset of the plurality of internal financial control items having the key control status designation.</claim-text>
+</claim>
+<claim gate:gateId="193" id="CLM-00056" body="the code set is further adapted to generate work product associated with processed user assessments of internal financial control items.
+" claimType="dependent" num="00056" claimBackReference="of claim 29" transPhrase="wherein " claimSize="29" claim_preamble="The system" claimNumber="56" depends_on="29">
+<claim-text gate:gateId="194">56. The system of <claim-ref gate:gateId="195" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to generate work product associated with processed user assessments of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="196" id="CLM-00057" body="the code set is further adapted to perform a diagnostics operation to identify one or more of errors in data, inconsistencies in responses and inputs, omissions, incomplete procedures or responses, and reminders to user to consider internal control deficiencies identified.
+" claimType="dependent" num="00057" claimBackReference="of claim 29" transPhrase="wherein " claimSize="53" claim_preamble="The system" claimNumber="57" depends_on="29">
+<claim-text gate:gateId="197">57. The system of <claim-ref gate:gateId="198" idref="CLM-00029">claim 29</claim-ref> wherein the code set is further adapted to perform a diagnostics operation to identify one or more of errors in data, inconsistencies in responses and inputs, omissions, incomplete procedures or responses, and reminders to user to consider internal control deficiencies identified.</claim-text>
+</claim>
+<claim gate:gateId="199" id="CLM-00058" body="at least some of the code executed by the computer is one or more of Internet-based, Internet-enabled, and a desktop application.
+" claimType="dependent" num="00058" claimBackReference="of claim 29" transPhrase="wherein " claimSize="32" claim_preamble="The system" claimNumber="58" depends_on="29">
+<claim-text gate:gateId="200">58. The system of <claim-ref gate:gateId="201" idref="CLM-00029">claim 29</claim-ref> wherein at least some of the code executed by the computer is one or more of Internet-based, Internet-enabled, and a desktop application.</claim-text>
+</claim>
+<claim gate:gateId="202" id="CLM-00059" body="the assessment information is generated as part of an audit process, a financial statement audit, or as part of a separate audit, assessment, implementation, or maintenance of internal control.
+" claimType="dependent" num="00059" claimBackReference="of claim 29" transPhrase="wherein " claimSize="43" claim_preamble="The system" claimNumber="59" depends_on="29">
+<claim-text gate:gateId="203">59. The system of <claim-ref gate:gateId="204" idref="CLM-00029">claim 29</claim-ref> wherein the assessment information is generated as part of an audit process, a financial statement audit, or as part of a separate audit, assessment, implementation, or maintenance of internal control.</claim-text>
+</claim>
+<claim gate:gateId="205" id="CLM-00060" body="risks associated with internal financial controls and embodied in a non-transitory computer-readable medium configured for execution on a computer having an associated memory, display, and input device, the computer program comprising:
+a first code set adapted to automatically and respectively group subsets of the plurality of internal financial control items with one or both of a plurality of transaction classes and a plurality of audit areas based on an assessment of risk associated with one or more internal financial control items included in the plurality of internal financial control items;
+a graphical user interface adapted to operate on the computer and adapted to present one or both of the plurality of transaction classes and the plurality of audit areas and further adapted to present a plurality of internal financial control items, the graphical user interface further adapted to receive user inputs related to the set of internal financial control items via the input device; and
+a second code set adapted to be executed on the computer and adapted to process the user inputs to generate a set of assessment information based on the received user inputs.
+
+" num="00060" claimType="independent" transPhrase=" for assessing " claimSize="201" claimNumber="60" claim_preamble="A computer program">
+<claim-text gate:gateId="206">60. A computer program for assessing risks associated with internal financial controls and embodied in a non-transitory computer-readable medium configured for execution on a computer having an associated memory, display, and input device, the computer program comprising:
+<claim-text gate:gateId="207">a first code set adapted to automatically and respectively group subsets of the plurality of internal financial control items with one or both of a plurality of transaction classes and a plurality of audit areas based on an assessment of risk associated with one or more internal financial control items included in the plurality of internal financial control items;</claim-text>
+<claim-text gate:gateId="208">a graphical user interface adapted to operate on the computer and adapted to present one or both of the plurality of transaction classes and the plurality of audit areas and further adapted to present a plurality of internal financial control items, the graphical user interface further adapted to receive user inputs related to the set of internal financial control items via the input device; and</claim-text>
+<claim-text gate:gateId="209">a second code set adapted to be executed on the computer and adapted to process the user inputs to generate a set of assessment information based on the received user inputs.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="210" id="CLM-00061" body="60 comprising a risk code set adapted to identify and present via the graphical user interface risks associated with at least some of the plurality of internal financial control items.
+" claimType="dependent" num="00061" claimBackReference="of claim 60" transPhrase="" claimSize="38" claim_preamble="The computer program" claimNumber="61" depends_on="60">
+<claim-text gate:gateId="211">61. The computer program of <claim-ref gate:gateId="212" idref="CLM-00060">claim 60</claim-ref> comprising a risk code set adapted to identify and present via the graphical user interface risks associated with at least some of the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="213" id="CLM-00062" body="an exception code set adapted to enable a user to identify exceptions associated with at least some of the internal financial control items.
+" claimType="dependent" num="00062" claimBackReference="of claim 60" transPhrase="further comprising " claimSize="34" claim_preamble="The computer program" claimNumber="62" depends_on="60">
+<claim-text gate:gateId="214">62. The computer program of <claim-ref gate:gateId="215" idref="CLM-00060">claim 60</claim-ref> further comprising an exception code set adapted to enable a user to identify exceptions associated with at least some of the internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="216" id="CLM-00063" body="the code set is further adapted to process at least one input from the input set that designates an internal financial control item for testing and the graphical user interface is further adapted to present test procedures associated with the designated internal control item.
+" claimType="dependent" num="00063" claimBackReference="of claim 60" transPhrase="wherein " claimSize="54" claim_preamble="The computer program" claimNumber="63" depends_on="60">
+<claim-text gate:gateId="217">63. The computer program of <claim-ref gate:gateId="218" idref="CLM-00060">claim 60</claim-ref> wherein the code set is further adapted to process at least one input from the input set that designates an internal financial control item for testing and the graphical user interface is further adapted to present test procedures associated with the designated internal control item.</claim-text>
+</claim>
+<claim gate:gateId="219" id="CLM-00064" body="the code set is further adapted to automatically and respectively group subsets of the plurality of internal financial control items with a plurality of internal control components, the plurality of internal control components comprising control environment, risk assessment, information and communication, monitoring, and control activities.
+" claimType="dependent" num="00064" claimBackReference="of claim 60" transPhrase="wherein " claimSize="60" claim_preamble="The computer program" claimNumber="64" depends_on="60">
+<claim-text gate:gateId="220">64. The computer program of <claim-ref gate:gateId="221" idref="CLM-00060">claim 60</claim-ref> wherein the code set is further adapted to automatically and respectively group subsets of the plurality of internal financial control items with a plurality of internal control components, the plurality of internal control components comprising control environment, risk assessment, information and communication, monitoring, and control activities.</claim-text>
+</claim>
+<claim gate:gateId="222" id="CLM-00065" body="the graphical user interface is further adapted to present the subsets of internal financial control items based on receiving a user input designating one of the plurality of internal control components.
+" claimType="dependent" num="00065" claimBackReference="of claim 64" transPhrase="wherein " claimSize="41" claim_preamble="The computer program" claimNumber="65" depends_on="64">
+<claim-text gate:gateId="223">65. The computer program of <claim-ref gate:gateId="224" idref="CLM-00064">claim 64</claim-ref> wherein the graphical user interface is further adapted to present the subsets of internal financial control items based on receiving a user input designating one of the plurality of internal control components.</claim-text>
+</claim>
+<claim gate:gateId="225" id="CLM-00066" body="the codes set is further adapted to process at least one input designating a design deficiency associated with an internal control objective associated with one of the plurality of internal control components and to generate an indication of design deficiency.
+" claimType="dependent" num="00066" claimBackReference="of claim 64" transPhrase="wherein " claimSize="50" claim_preamble="The computer program" claimNumber="66" depends_on="64">
+<claim-text gate:gateId="226">66. The computer program of <claim-ref gate:gateId="227" idref="CLM-00064">claim 64</claim-ref> wherein the codes set is further adapted to process at least one input designating a design deficiency associated with an internal control objective associated with one of the plurality of internal control components and to generate an indication of design deficiency.</claim-text>
+</claim>
+<claim gate:gateId="228" id="CLM-00067" body="the code set is further adapted to associate a previously identified risk with one or both of a control item and a control component and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and to present a risk description associated with the indicated risk.
+" claimType="dependent" num="00067" claimBackReference="of claim 64" transPhrase="wherein " claimSize="65" claim_preamble="The computer program" claimNumber="67" depends_on="64">
+<claim-text gate:gateId="229">67. The computer program of <claim-ref gate:gateId="230" idref="CLM-00064">claim 64</claim-ref> wherein the code set is further adapted to associate a previously identified risk with one or both of a control item and a control component and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and to present a risk description associated with the indicated risk.</claim-text>
+</claim>
+<claim gate:gateId="231" id="CLM-00068" body="the code set is further adapted to automatically and respectively group a plurality of transaction classes with a plurality of audit areas and to automatically group subsets of the plurality of internal financial control items with one or both of the plurality of audit areas and the plurality of transaction classes, and the graphical user interface is further adapted to selectively present the set of audit areas and transaction classes and the grouped subsets of the plurality of internal financial control items.
+" claimType="dependent" num="00068" claimBackReference="of claim 60" transPhrase="wherein " claimSize="93" claim_preamble="The computer program" claimNumber="68" depends_on="60">
+<claim-text gate:gateId="232">68. The computer program of <claim-ref gate:gateId="233" idref="CLM-00060">claim 60</claim-ref> wherein the code set is further adapted to automatically and respectively group a plurality of transaction classes with a plurality of audit areas and to automatically group subsets of the plurality of internal financial control items with one or both of the plurality of audit areas and the plurality of transaction classes, and the graphical user interface is further adapted to selectively present the set of audit areas and transaction classes and the grouped subsets of the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="234" id="CLM-00069" body="the code set is further adapted to group the subsets of the plurality of internal financial control items based on one or both of assertion and objective.
+" claimType="dependent" num="00069" claimBackReference="of claim 68" transPhrase="wherein " claimSize="37" claim_preamble="The computer program" claimNumber="69" depends_on="68">
+<claim-text gate:gateId="235">69. The computer program of <claim-ref gate:gateId="236" idref="CLM-00068">claim 68</claim-ref> wherein the code set is further adapted to group the subsets of the plurality of internal financial control items based on one or both of assertion and objective.</claim-text>
+</claim>
+<claim gate:gateId="237" id="CLM-00070" body="the code set is further adapted to associate a previously identified risk with one or more of audit area, transaction class, and internal financial control item and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and to present a risk description associated with the indicated risk.
+" claimType="dependent" num="00070" claimBackReference="of claim 68" transPhrase="wherein " claimSize="69" claim_preamble="The computer program" claimNumber="70" depends_on="68">
+<claim-text gate:gateId="238">70. The computer program of <claim-ref gate:gateId="239" idref="CLM-00068">claim 68</claim-ref> wherein the code set is further adapted to associate a previously identified risk with one or more of audit area, transaction class, and internal financial control item and wherein the graphical user interface is further adapted to present an indication of the existence of an associated risk and to present a risk description associated with the indicated risk.</claim-text>
+</claim>
+<claim gate:gateId="240" id="CLM-00071" body="the code set and the graphical user interface are respectively further adapted to automatically group and present a subset of the plurality of internal financial control items based on a user input related to an assessment of risk, whereby the program provides a risk based approach to risk assessment.
+" claimType="dependent" num="00071" claimBackReference="of claim 60" transPhrase="wherein " claimSize="60" claim_preamble="The computer program" claimNumber="71" depends_on="60">
+<claim-text gate:gateId="241">71. The computer program of <claim-ref gate:gateId="242" idref="CLM-00060">claim 60</claim-ref> wherein the code set and the graphical user interface are respectively further adapted to automatically group and present a subset of the plurality of internal financial control items based on a user input related to an assessment of risk, whereby the program provides a risk based approach to risk assessment.</claim-text>
+</claim>
+<claim gate:gateId="243" id="CLM-00072" body="the graphical user interface is further adapted to automatically present a previously identified risk associated with one or both of an audit area and a transaction class associated with a subset of the plurality of internal financial control items.
+" claimType="dependent" num="00072" claimBackReference="of claim 60" transPhrase="wherein " claimSize="49" claim_preamble="The computer program" claimNumber="72" depends_on="60">
+<claim-text gate:gateId="244">72. The computer program of <claim-ref gate:gateId="245" idref="CLM-00060">claim 60</claim-ref> wherein the graphical user interface is further adapted to automatically present a previously identified risk associated with one or both of an audit area and a transaction class associated with a subset of the plurality of internal financial control items.</claim-text>
+</claim>
+<claim gate:gateId="246" id="CLM-00073" body="the graphical user interface is further adapted to receive a user test input designating an internal financial control item for testing and present a set of test procedures associated with the designated internal financial control item.
+" claimType="dependent" num="00073" claimBackReference="of claim 60" transPhrase="wherein " claimSize="46" claim_preamble="The computer program" claimNumber="73" depends_on="60">
+<claim-text gate:gateId="247">73. The computer program of <claim-ref gate:gateId="248" idref="CLM-00060">claim 60</claim-ref> wherein the graphical user interface is further adapted to receive a user test input designating an internal financial control item for testing and present a set of test procedures associated with the designated internal financial control item.</claim-text>
+</claim>
+<claim gate:gateId="249" id="CLM-00074" body="the graphical user interface is further adapted to receive from a user a plurality of inputs representing user assessment of the effectiveness of internal financial control items and present a summary of the effectiveness assessments, and wherein the effectiveness assessments relate to one or more of the group consisting of: internal financial control items, audit areas, transaction classes, assertions, exceptions, internal control components, and conclusions of internal control design effectiveness.
+" claimType="dependent" num="00074" claimBackReference="of claim 60" transPhrase="wherein " claimSize="88" claim_preamble="The computer program" claimNumber="74" depends_on="60">
+<claim-text gate:gateId="250">74. The computer program of <claim-ref gate:gateId="251" idref="CLM-00060">claim 60</claim-ref> wherein the graphical user interface is further adapted to receive from a user a plurality of inputs representing user assessment of the effectiveness of internal financial control items and present a summary of the effectiveness assessments, and wherein the effectiveness assessments relate to one or more of the group consisting of: internal financial control items, audit areas, transaction classes, assertions, exceptions, internal control components, and conclusions of internal control design effectiveness.</claim-text>
+</claim>
+<claim gate:gateId="252" id="CLM-00075" body="the code set and graphical user interface are respectively further adapted to group the effectiveness assessments by one or both of audit area and transaction class and to present the grouped effectiveness assessments.
+" claimType="dependent" num="00075" claimBackReference="of claim 74" transPhrase="wherein " claimSize="43" claim_preamble="The computer program" claimNumber="75" depends_on="74">
+<claim-text gate:gateId="253">75. The computer program of <claim-ref gate:gateId="254" idref="CLM-00074">claim 74</claim-ref> wherein the code set and graphical user interface are respectively further adapted to group the effectiveness assessments by one or both of audit area and transaction class and to present the grouped effectiveness assessments.</claim-text>
+</claim>
+<claim gate:gateId="255" id="CLM-00076" body="at least one user assessment represents one or both of a design deficiency and an exception and wherein the graphical user interface is further adapted to present one or both of a design deficiency summary and an exception summary.
+" claimType="dependent" num="00076" claimBackReference="of claim 74" transPhrase="wherein " claimSize="49" claim_preamble="The computer program" claimNumber="76" depends_on="74">
+<claim-text gate:gateId="256">76. The computer program of <claim-ref gate:gateId="257" idref="CLM-00074">claim 74</claim-ref> wherein at least one user assessment represents one or both of a design deficiency and an exception and wherein the graphical user interface is further adapted to present one or both of a design deficiency summary and an exception summary.</claim-text>
+</claim>
+<claim gate:gateId="258" id="CLM-00077" body="the graphical user interface is further adapted to receive a set of user inputs adapted to designate at least some of the plurality of internal financial control items as having a key control status.
+" claimType="dependent" num="00077" claimBackReference="of claim 60" transPhrase="wherein " claimSize="44" claim_preamble="The computer program" claimNumber="77" depends_on="60">
+<claim-text gate:gateId="259">77. The computer program of <claim-ref gate:gateId="260" idref="CLM-00060">claim 60</claim-ref> wherein the graphical user interface is further adapted to receive a set of user inputs adapted to designate at least some of the plurality of internal financial control items as having a key control status.</claim-text>
+</claim>
+<claim gate:gateId="261" id="CLM-00078" body="the code set and graphical user interface are respectively further adapted to assign and present a set of defaults designating at least some of the plurality of internal financial control items as having a key control status and to receive and process user inputs changing key control status designation.
+" claimType="dependent" num="00078" claimBackReference="of claim 60" transPhrase="wherein " claimSize="59" claim_preamble="The computer program" claimNumber="78" depends_on="60">
+<claim-text gate:gateId="262">78. The computer program of <claim-ref gate:gateId="263" idref="CLM-00060">claim 60</claim-ref> wherein the code set and graphical user interface are respectively further adapted to assign and present a set of defaults designating at least some of the plurality of internal financial control items as having a key control status and to receive and process user inputs changing key control status designation.</claim-text>
+</claim>
+<claim gate:gateId="264" id="CLM-00079" body="the code set is further adapted to filter internal financial control items based on a key control status designation assigned to a subset of the plurality of internal financial control items and the graphical user interface is further adapted to present the subset of the plurality of internal financial control items having the key control status designation.
+" claimType="dependent" num="00079" claimBackReference="of claim 60" transPhrase="wherein " claimSize="67" claim_preamble="The computer program" claimNumber="79" depends_on="60">
+<claim-text gate:gateId="265">79. The computer program of <claim-ref gate:gateId="266" idref="CLM-00060">claim 60</claim-ref> wherein the code set is further adapted to filter internal financial control items based on a key control status designation assigned to a subset of the plurality of internal financial control items and the graphical user interface is further adapted to present the subset of the plurality of internal financial control items having the key control status designation.</claim-text>
+</claim>
+<claim gate:gateId="267" id="CLM-00080" body="a plurality of internal control items, the method comprising:
+(a) automatically grouping and presenting a subset of the plurality of internal control items based on an assessment of risk associated with one or more internal control items included in the subset of internal control items;
+(b) automatically and respectively grouping subsets of the plurality of internal control items with one or both of a plurality of transaction classes and a plurality of audit areas;
+(c) processing by a processor a set of inputs associated with at least some of the subset of internal control items; and
+(d) generating a set of assessment information based on the processed set of inputs.
+
+" num="00080" claimType="independent" transPhrase=" for assessing " claimSize="131" claimNumber="80" claim_preamble="A computer-implemented method">
+<claim-text gate:gateId="268">80. A computer-implemented method for assessing a plurality of internal control items, the method comprising:
+<claim-text gate:gateId="269">(a) automatically grouping and presenting a subset of the plurality of internal control items based on an assessment of risk associated with one or more internal control items included in the subset of internal control items;</claim-text>
+<claim-text gate:gateId="270">(b) automatically and respectively grouping subsets of the plurality of internal control items with one or both of a plurality of transaction classes and a plurality of audit areas;</claim-text>
+<claim-text gate:gateId="271">(c) processing by a processor a set of inputs associated with at least some of the subset of internal control items; and</claim-text>
+<claim-text gate:gateId="272">(d) generating a set of assessment information based on the processed set of inputs.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="273" id="CLM-00081" body="the grouping and presenting step includes presenting a previously identified risk associated with an audit area associated with the subset of internal control items.
+" claimType="dependent" num="00081" claimBackReference="of claim 80" transPhrase="wherein " claimSize="33" claim_preamble="The method" claimNumber="81" depends_on="80">
+<claim-text gate:gateId="274">81. The method of <claim-ref gate:gateId="275" idref="CLM-00080">claim 80</claim-ref> wherein the grouping and presenting step includes presenting a previously identified risk associated with an audit area associated with the subset of internal control items.</claim-text>
+</claim>
+<claim gate:gateId="276" id="CLM-00082" body="the grouping and presenting step includes presenting a previously identified risk associated with a transaction class associated with the subset of internal control items.
+" claimType="dependent" num="00082" claimBackReference="of claim 80" transPhrase="wherein " claimSize="33" claim_preamble="The method" claimNumber="82" depends_on="80">
+<claim-text gate:gateId="277">82. The method of <claim-ref gate:gateId="278" idref="CLM-00080">claim 80</claim-ref> wherein the grouping and presenting step includes presenting a previously identified risk associated with a transaction class associated with the subset of internal control items.</claim-text>
+</claim>
+<claim gate:gateId="279" id="CLM-00083" body="80 further comprising:
+receiving a user test input designating an internal control item for testing; and
+presenting a set of test procedures associated with the designated internal control item.
+
+" claimType="dependent" num="00083" claimBackReference="of claim 80" transPhrase="" claimSize="38" claim_preamble="The method" claimNumber="83" depends_on="80">
+<claim-text gate:gateId="280">83. The method of <claim-ref gate:gateId="281" idref="CLM-00080">claim 80</claim-ref> further comprising:
+<claim-text gate:gateId="282">receiving a user test input designating an internal control item for testing; and</claim-text>
+<claim-text gate:gateId="283">presenting a set of test procedures associated with the designated internal control item.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="284" id="CLM-00084" body="83 further comprising documenting assessments associated with the set of test procedures.
+" claimType="dependent" num="00084" claimBackReference="of claim 83" transPhrase="" claimSize="19" claim_preamble="The method" claimNumber="84" depends_on="83">
+<claim-text gate:gateId="285">84. The method of <claim-ref gate:gateId="286" idref="CLM-00083">claim 83</claim-ref> further comprising documenting assessments associated with the set of test procedures.</claim-text>
+</claim>
+<claim gate:gateId="287" id="CLM-00085" body="80 further comprising:
+receiving from a user a plurality of inputs representing user assessment of the effectiveness of internal control items; and
+presenting a summary of the effectiveness assessments.
+
+" claimType="dependent" num="00085" claimBackReference="of claim 80" transPhrase="" claimSize="38" claim_preamble="The method" claimNumber="85" depends_on="80">
+<claim-text gate:gateId="288">85. The method of <claim-ref gate:gateId="289" idref="CLM-00080">claim 80</claim-ref> further comprising:
+<claim-text gate:gateId="290">receiving from a user a plurality of inputs representing user assessment of the effectiveness of internal control items; and</claim-text>
+<claim-text gate:gateId="291">presenting a summary of the effectiveness assessments.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="292" id="CLM-00086" body="the effectiveness assessments relate to one or more of internal control item, assertion, audit area, transaction class, and internal control component.
+" claimType="dependent" num="00086" claimBackReference="of claim 85" transPhrase="wherein " claimSize="34" claim_preamble="The method" claimNumber="86" depends_on="85">
+<claim-text gate:gateId="293">86. The method of <claim-ref gate:gateId="294" idref="CLM-00085">claim 85</claim-ref> wherein the effectiveness assessments relate to one or more of internal control item, assertion, audit area, transaction class, and internal control component.</claim-text>
+</claim>
+<claim gate:gateId="295" id="CLM-00087" body="86 further comprising:
+presenting design effectiveness exceptions against at least some of the subset of internal control items.
+
+" claimType="dependent" num="00087" claimBackReference="of claim 86" transPhrase="" claimSize="26" claim_preamble="The method" claimNumber="87" depends_on="86">
+<claim-text gate:gateId="296">87. The method of <claim-ref gate:gateId="297" idref="CLM-00086">claim 86</claim-ref> further comprising:
+<claim-text gate:gateId="298">presenting design effectiveness exceptions against at least some of the subset of internal control items.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="299" id="CLM-00088" body="87 further comprising:
+grouping the effectiveness assessments by one or both of audit area and transaction class and presenting the grouped effectiveness assessments.
+
+" claimType="dependent" num="00088" claimBackReference="of claim 87" transPhrase="" claimSize="31" claim_preamble="The method" claimNumber="88" depends_on="87">
+<claim-text gate:gateId="300">88. The method of <claim-ref gate:gateId="301" idref="CLM-00087">claim 87</claim-ref> further comprising:
+<claim-text gate:gateId="302">grouping the effectiveness assessments by one or both of audit area and transaction class and presenting the grouped effectiveness assessments.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="303" id="CLM-00089" body="the internal control items relate to one or more of compliance, operational, financial, and regulatory controls. 
+" claimType="dependent" num="00089" claimBackReference="of claim 87" transPhrase="wherein " claimSize="28" claim_preamble="The method" claimNumber="89" depends_on="87">
+<claim-text gate:gateId="304">89. The method of <claim-ref gate:gateId="305" idref="CLM-00087">claim 87</claim-ref> wherein the internal control items relate to one or more of compliance, operational, financial, and regulatory controls. </claim-text>
+</claim>
+<us-patent-grant gate:gateId="306" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08504452-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130724" lang="EN" country="US"></us-patent-grant></claims>

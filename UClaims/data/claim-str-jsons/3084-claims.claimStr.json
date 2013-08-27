@@ -1,0 +1,136 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501998-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 22,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1130,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a polyoxyalkylene derivative represented by the following general formula (1):\n\n\nZ (OA) n -OH] m\u2003\u2003(1)\n\n\nwherein Z is a residue of glycerin or diglycerin, OA is an oxyalkylene group having 2 to 4 carbon atoms, n is an average number of moles of the oxyalkylene group added and is 80 to 800, and m is 3 to 4,\nthe method comprising:\nstep (A): a step of removing water from glycerin or diglycerin at 90° C. to 170° C. under 3 kPa or lower;\nstep (B): a step of adding metal sodium or metal potassium as an alkali catalyst in an amount of 0.015 to 1.6% by weight based on the amount of glycerin or diglycerin charged in the step (A) and dissolving the metal at 20 to 110° C.;\nstep (C): a step of subjecting an alkylene oxide to addition reaction at 50° C. to 110° C. until the average number n of moles of the oxyalkylene group OA added reaches 1 to 10;\nstep (D): a step of adding an alkali catalyst represented by the following general formula (2) in an amount of 2 to 50% by weight based on glycerin or diglycerin charged in the step (A):\n\n\nR\u2014OW\u2003\u2003(2)\n\n\nwherein R is a hydrocarbon group having 1 to 4 hydrocarbons and W represents either sodium or potassium;\nstep (E): a step of carrying out alcohol removal at 90 to 130° C. under 15 kPa or lower; and\nstep (F): a step of subjecting an alkylene oxide to addition reaction at 100° C. to 130° C. until the average number n of moles of the oxyalkylene group OA added reaches 80 to 800.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for producing ",
+            "claimSize": 350,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 0,
+            "claim-text": [
+                {
+                    "content": "1. A method for producing a polyoxyalkylene derivative represented by the following general formula (1):",
+                    "gate:gateId": 2,
+                    "claim-text": {
+                        "content": [
+                            "Z",
+                            "(OA)",
+                            "-OH]",
+                            "(1)"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 6
+                            },
+                            {
+                                "content": "m",
+                                "gate:gateId": 7
+                            }
+                        ],
+                        "img": {
+                            "id": "PRIVATE-USE-CHARACTER-00005",
+                            "wi": "8.47mm",
+                            "img-format": "tif",
+                            "img-content": "character",
+                            "file": "US08501998-20130806-Brketopenst.TIF",
+                            "alt": "private use character Brketopenst",
+                            "gate:gateId": 5,
+                            "he": "7.20mm"
+                        },
+                        "gate:gateId": 3,
+                        "br": {"gate:gateId": 4}
+                    }
+                },
+                {
+                    "content": "wherein Z is a residue of glycerin or diglycerin, OA is an oxyalkylene group having 2 to 4 carbon atoms, n is an average number of moles of the oxyalkylene group added and is 80 to 800, and m is 3 to 4,",
+                    "gate:gateId": 8,
+                    "claim-text": [
+                        {
+                            "content": "the method comprising:",
+                            "gate:gateId": 9
+                        },
+                        {
+                            "content": "step (A): a step of removing water from glycerin or diglycerin at 90° C. to 170° C. under 3 kPa or lower;",
+                            "gate:gateId": 10
+                        },
+                        {
+                            "content": "step (B): a step of adding metal sodium or metal potassium as an alkali catalyst in an amount of 0.015 to 1.6% by weight based on the amount of glycerin or diglycerin charged in the step (A) and dissolving the metal at 20 to 110° C.;",
+                            "gate:gateId": 11
+                        },
+                        {
+                            "content": "step (C): a step of subjecting an alkylene oxide to addition reaction at 50° C. to 110° C. until the average number n of moles of the oxyalkylene group OA added reaches 1 to 10;",
+                            "gate:gateId": 12
+                        },
+                        {
+                            "content": "step (D): a step of adding an alkali catalyst represented by the following general formula (2) in an amount of 2 to 50% by weight based on glycerin or diglycerin charged in the step (A):",
+                            "gate:gateId": 13,
+                            "claim-text": {
+                                "content": "R\u2014OW\u2003\u2003(2)",
+                                "gate:gateId": 14,
+                                "br": {"gate:gateId": 15}
+                            }
+                        },
+                        {
+                            "content": "wherein R is a hydrocarbon group having 1 to 4 hydrocarbons and W represents either sodium or potassium;",
+                            "gate:gateId": 16
+                        },
+                        {
+                            "content": "step (E): a step of carrying out alcohol removal at 90 to 130° C. under 15 kPa or lower; and",
+                            "gate:gateId": 17
+                        },
+                        {
+                            "content": "step (F): a step of subjecting an alkylene oxide to addition reaction at 100° C. to 130° C. until the average number n of moles of the oxyalkylene group OA added reaches 80 to 800.",
+                            "gate:gateId": 18
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the above step (F) is a step of subjecting an alkylene oxide to addition reaction at 100° C. to 130° C. until the average number n of moles of the oxyalkylene group OA added reaches 80 to 300, subsequently adding a hydrocarbon solvent in an amount of 30 to 70% by weight based on total weight in the reaction vessel, then removing 20 to 60% by weight of the hydrocarbon solvent in the reaction vessel by evaporation, and subsequently subjecting an alkylene oxide to addition reaction at 100° C. to 130° C. until the average number n of moles of the oxyalkylene group OA added reaches 300 to 800.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 140,
+            "gate:gateId": 19,
+            "claimNumber": 800,
+            "claim_preamble": "The methoda polyoxyalkylene",
+            "claim-text": {
+                "content": [
+                    "2. The method for producing a polyoxyalkylene derivative according to",
+                    ", wherein the above step (F) is a step of subjecting an alkylene oxide to addition reaction at 100° C. to 130° C. until the average number n of moles of the oxyalkylene group OA added reaches 80 to 300, subsequently adding a hydrocarbon solvent in an amount of 30 to 70% by weight based on total weight in the reaction vessel, then removing 20 to 60% by weight of the hydrocarbon solvent in the reaction vessel by evaporation, and subsequently subjecting an alkylene oxide to addition reaction at 100° C. to 130° C. until the average number n of moles of the oxyalkylene group OA added reaches 300 to 800."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 60
+}}

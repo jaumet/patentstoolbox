@@ -1,0 +1,34 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501976-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 3,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 67,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": {
+        "id": "CLM-00001",
+        "body": "(2,2,6,6-tetramethyl-3,5-heptanedionate) N,N\u2032,N\u2033-pentamethyl diethylenetriamine.\n",
+        "claimType": "independent",
+        "num": "00001",
+        "transPhrase": "",
+        "claimSize": 31,
+        "gate:gateId": 1,
+        "claim_preamble": "Lead bis",
+        "claimNumber": 1,
+        "claim-text": {
+            "content": "1. Lead bis(2,2,6,6-tetramethyl-3,5-heptanedionate) N,N\u2032,N\u2033-pentamethyl diethylenetriamine.",
+            "gate:gateId": 2
+        }
+    },
+    "numberIndependentClaims": 59
+}}

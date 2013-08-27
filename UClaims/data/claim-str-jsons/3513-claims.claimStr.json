@@ -1,0 +1,503 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502433-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 62,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2371,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a haptic feed-back, wherein said means comprise a plurality of haptic feed-back generator modules distributed along said grip member, and means for controlling activation of said modules according to a pre-set sequence in such a way as to generated a pre-set haptic signal on said grip member,\nwherein the pre-set haptic signal is of a type travelling along the grip member, in such a way as to transmit a sensation of direction,\nwherein each module has a body of a substantially cylindrical shape with two opposite faces set on which is a piezoelectric element constrained in at least one point to the body so that the mechanical vibration of the piezoelectric element is transmitted to the module itself, and\nwherein the piezoelectric element is equipped with a striking member co-operating with the body so that a pulsed electrical supply of the piezoelectric element causes an alternating percussion of the striking member against the body of the module such as to impart a vibratory effect upon said body.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " means for generating ",
+            "claimSize": 183,
+            "gate:gateId": 1,
+            "claim_preamble": "A grip member comprising",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A grip member comprising means for generating a haptic feed-back, wherein said means comprise a plurality of haptic feed-back generator modules distributed along said grip member, and means for controlling activation of said modules according to a pre-set sequence in such a way as to generated a pre-set haptic signal on said grip member,",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "wherein the pre-set haptic signal is of a type travelling along the grip member, in such a way as to transmit a sensation of direction,",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "wherein each module has a body of a substantially cylindrical shape with two opposite faces set on which is a piezoelectric element constrained in at least one point to the body so that the mechanical vibration of the piezoelectric element is transmitted to the module itself, and",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "wherein the piezoelectric element is equipped with a striking member co-operating with the body so that a pulsed electrical supply of the piezoelectric element causes an alternating percussion of the striking member against the body of the module such as to impart a vibratory effect upon said body.",
+                        "gate:gateId": 5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "each of said modules comprises a piezoelectric element designed to generate a haptic signal of a vibratory type.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 30,
+            "gate:gateId": 6,
+            "claimNumber": 2,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "2. The grip member according to",
+                    ", wherein each of said modules comprises a piezoelectric element designed to generate a haptic signal of a vibratory type."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the body is equipped with a seat inserted within which is the aforesaid piezoelectric element.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 27,
+            "gate:gateId": 9,
+            "claimNumber": 3,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "3. The grip member according to",
+                    ", wherein the body is equipped with a seat inserted within which is the aforesaid piezoelectric element."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the piezoelectric element is equipped, on the side not constrained to the body, with a counterweight, for amplifying the sensation of vibration on the body and for controlling resonance frequencies.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 45,
+            "gate:gateId": 12,
+            "claimNumber": 4,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "4. The grip member according to",
+                    ", wherein the piezoelectric element is equipped, on the side not constrained to the body, with a counterweight, for amplifying the sensation of vibration on the body and for controlling resonance frequencies."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the piezoelectric element is constrained by both of the ends to the body and induces directly thereon a sensible vibration causing deformation thereof.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 35,
+            "gate:gateId": 15,
+            "claimNumber": 5,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "5. The grip member according to",
+                    ", wherein the piezoelectric element is constrained by both of the ends to the body and induces directly thereon a sensible vibration causing deformation thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the piezoelectric element is a mechanical member for amplification of the amplitude of vibration transmitted to the body.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein associated to ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 32,
+            "gate:gateId": 18,
+            "claimNumber": 6,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "6. The grip member according to",
+                    ", wherein associated to the piezoelectric element is a mechanical member for amplification of the amplitude of vibration transmitted to the body."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "body is provided with elements for damping the vibrations that isolate the vibrations generated thereon with respect to the adjacent modules and with respect to the corresponding supporting structure.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 42,
+            "gate:gateId": 21,
+            "claimNumber": 7,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "7. The grip member according to",
+                    ", wherein said body is provided with elements for damping the vibrations that isolate the vibrations generated thereon with respect to the adjacent modules and with respect to the corresponding supporting structure."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the grip member is a handgrip of an electric spot-welding gun.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 23,
+            "gate:gateId": 24,
+            "claimNumber": 8,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "8. The grip member according to",
+                    ", wherein the grip member is a handgrip of an electric spot-welding gun."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the grip member forms at least part of the rim of a steering wheel.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 26,
+            "gate:gateId": 27,
+            "claimNumber": 9,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "9. The grip member according to",
+                    ", wherein the grip member forms at least part of the rim of a steering wheel."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a haptic feed-back, wherein said means comprise a plurality of hapic feed-back generator modules distributed along said grip member, and means for controlling activation of said modules according to a pre-set sequence in such a way as to generate a pre-set haptic signal on said grip member,\nwherein each of said modules comprises a piezoelectric element designed to generate a haptic signal of vibratory type,\nwherin said body is provided with elements for damping the vibrations that isolate the vibrations generated thereon with respect to the adjacent modules and with respect to the corresponding supporting structure, and\nwherein said damping elements comprise two plates made of material for damping the vibrations, which coat the opposite faces of the body and two tubes made of damping material arranged within two through holes made in the body and traversed by two supporting rods of the set of modules.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " means for generating ",
+            "claimSize": 162,
+            "gate:gateId": 30,
+            "claim_preamble": "A grip member comprising",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A grip member comprising means for generating a haptic feed-back, wherein said means comprise a plurality of hapic feed-back generator modules distributed along said grip member, and means for controlling activation of said modules according to a pre-set sequence in such a way as to generate a pre-set haptic signal on said grip member,",
+                "gate:gateId": 31,
+                "claim-text": [
+                    {
+                        "content": "wherein each of said modules comprises a piezoelectric element designed to generate a haptic signal of vibratory type,",
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": "wherin said body is provided with elements for damping the vibrations that isolate the vibrations generated thereon with respect to the adjacent modules and with respect to the corresponding supporting structure, and",
+                        "gate:gateId": 33
+                    },
+                    {
+                        "content": "wherein said damping elements comprise two plates made of material for damping the vibrations, which coat the opposite faces of the body and two tubes made of damping material arranged within two through holes made in the body and traversed by two supporting rods of the set of modules.",
+                        "gate:gateId": 34
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the pre-set haptic signal is of a type travelling along the grip member, in such a way as to transmit a sensation of direction.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to Claim 10 ,",
+            "claimSize": 37,
+            "gate:gateId": 35,
+            "claimNumber": 11,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "11. The grip member according to Claim",
+                    ", wherein the pre-set haptic signal is of a type travelling along the grip member, in such a way as to transmit a sensation of direction."
+                ],
+                "b": {
+                    "content": 10,
+                    "gate:gateId": 37
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "each module has a body of a substantially cylindrical shape with two opposite faces, set on which is a piezoelectric element constrained in at least one point to the body so that the mechanical vibration of the piezoelectric element is transmitted to the module itself.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 58,
+            "gate:gateId": 38,
+            "claimNumber": 12,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "12. The grip member according to",
+                    ", wherein each module has a body of a substantially cylindrical shape with two opposite faces, set on which is a piezoelectric element constrained in at least one point to the body so that the mechanical vibration of the piezoelectric element is transmitted to the module itself."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "modules are set on top of one another with their faces set on parallel planes.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 28,
+            "gate:gateId": 41,
+            "claimNumber": 13,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "13. The grip member according to",
+                    ", wherein said modules are set on top of one another with their faces set on parallel planes."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the body is equipped with a seat inserted within which is the aforesaid piezoelectric element.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 27,
+            "gate:gateId": 44,
+            "claimNumber": 14,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "14. The grip member according to",
+                    ", wherein the body is equipped with a seat inserted within which is the aforesaid piezoelectric element."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the piezoelectric element is equipped, on the side not constrained to the body, with a counterweight, for amplifying the sensation of vibration on the body and for controlling resonance frequencies.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 45,
+            "gate:gateId": 47,
+            "claimNumber": 15,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "15. The grip member according to",
+                    ", wherein the piezoelectric element is equipped, on the side not constrained to the body, with a counterweight, for amplifying the sensation of vibration on the body and for controlling resonance frequencies."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the piezoelectric element is constrained by both of the ends to the body and induces directly thereon a sensible vibration causing deformation thereof.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 35,
+            "gate:gateId": 50,
+            "claimNumber": 16,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "16. The grip member according to",
+                    ", wherein the piezoelectric element is constrained by both of the ends to the body and induces directly thereon a sensible vibration causing deformation thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the piezoelectric element is a mechanical member for amplification of the amplitude of vibration transmitted to the body.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "wherein associated to ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 32,
+            "gate:gateId": 53,
+            "claimNumber": 17,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "17. The grip member according to",
+                    ", wherein associated to the piezoelectric element is a mechanical member for amplification of the amplitude of vibration transmitted to the body."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the grip member is a handgrip of an electric spot-welding gun.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 23,
+            "gate:gateId": 56,
+            "claimNumber": 18,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "18. The grip member according to",
+                    ", wherein the grip member is a handgrip of an electric spot-welding gun."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the grip member forms at least part of the rim of a steering wheel. \n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 26,
+            "gate:gateId": 59,
+            "claimNumber": 19,
+            "claim_preamble": "The grip member",
+            "claim-text": {
+                "content": [
+                    "19. The grip member according to",
+                    ", wherein the grip member forms at least part of the rim of a steering wheel."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 10
+        }
+    ],
+    "numberIndependentClaims": 76
+}}

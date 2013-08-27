@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="3622" id="claims" numberDependentClaims="0" numberIndependentClaims="259">
+<claim gate:gateId="1" id="CLM-00001" body="a processor idle state in an electronic device, the method comprising:
+determining that the processor can be placed into an idle state;
+setting a processor-wake time based on a timer schedule;
+masking a suspendable interrupt having a maximum-delay value, when a current time plus the maximum-delay value occurs after the set processor-wake time; and
+placing the processor into the idle state.
+
+" num="00001" claimType="independent" transPhrase=" of extending " claimSize="74" claimNumber="1" claim_preamble="A method">
+<claim-text gate:gateId="2">1. A method of extending a processor idle state in an electronic device, the method comprising:
+<claim-text gate:gateId="3">determining that the processor can be placed into an idle state;</claim-text>
+<claim-text gate:gateId="4">setting a processor-wake time based on a timer schedule;</claim-text>
+<claim-text gate:gateId="5">masking a suspendable interrupt having a maximum-delay value, when a current time plus the maximum-delay value occurs after the set processor-wake time; and</claim-text>
+<claim-text gate:gateId="6">placing the processor into the idle state.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="7" id="CLM-00002" body="the maximum delay value defines a maximum acceptable time between receiving at an interrupt controller an interrupt signal associated with the suspendable interrupt and servicing the suspendable interrupt.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="38" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="8">2. The method of <claim-ref gate:gateId="9" idref="CLM-00001">claim 1</claim-ref> , wherein the maximum delay value defines a maximum acceptable time between receiving at an interrupt controller an interrupt signal associated with the suspendable interrupt and servicing the suspendable interrupt.</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00003" body="further comprising:
+setting a mask state for each suspendable interrupt of a plurality of suspendable interrupts, wherein the mask state of each suspendable interrupt is set as:
+masked when a current time plus the respective maximum-delay value occurs after the processor-wake time; and
+unmasked when a current time plus the respective maximum-delay value occurs before the processor-wake time.
+
+
+" claimType="dependent" num="00003" claimBackReference="of claim 1" transPhrase=", " claimSize="71" claim_preamble="The method" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="11">3. The method of <claim-ref gate:gateId="12" idref="CLM-00001">claim 1</claim-ref> , further comprising:
+<claim-text gate:gateId="13">setting a mask state for each suspendable interrupt of a plurality of suspendable interrupts, wherein the mask state of each suspendable interrupt is set as:
+<claim-text gate:gateId="14">masked when a current time plus the respective maximum-delay value occurs after the processor-wake time; and</claim-text>
+<claim-text gate:gateId="15">unmasked when a current time plus the respective maximum-delay value occurs before the processor-wake time.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="16" id="CLM-00004" body="the respective maximum-delay value associated with at least one of the plurality of suspendable interrupts.
+" claimType="dependent" num="00004" claimBackReference="of claim 3" transPhrase=", further comprising changing " claimSize="27" claim_preamble="The method" claimNumber="4" depends_on="3">
+<claim-text gate:gateId="17">4. The method of <claim-ref gate:gateId="18" idref="CLM-00003">claim 3</claim-ref> , further comprising changing the respective maximum-delay value associated with at least one of the plurality of suspendable interrupts.</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00005" body="a time based on a clock signal while the processor is in the idle state;
+receiving an interrupt signal associated with a suspendable interrupt that is masked;
+determining that the monitored time is equal to the processor-wake time;
+placing the processor in a wake state;
+unmasking the suspendable interrupt that is masked; and
+processing the suspendable interrupt associated with the received interrupt signal.
+
+" claimType="dependent" num="00005" claimBackReference="of claim 3" transPhrase=", further comprising:
+monitoring " claimSize="81" claim_preamble="The method" claimNumber="5" depends_on="3">
+<claim-text gate:gateId="20">5. The method of <claim-ref gate:gateId="21" idref="CLM-00003">claim 3</claim-ref> , further comprising:
+<claim-text gate:gateId="22">monitoring a time based on a clock signal while the processor is in the idle state;</claim-text>
+<claim-text gate:gateId="23">receiving an interrupt signal associated with a suspendable interrupt that is masked;</claim-text>
+<claim-text gate:gateId="24">determining that the monitored time is equal to the processor-wake time;</claim-text>
+<claim-text gate:gateId="25">placing the processor in a wake state;</claim-text>
+<claim-text gate:gateId="26">unmasking the suspendable interrupt that is masked; and</claim-text>
+<claim-text gate:gateId="27">processing the suspendable interrupt associated with the received interrupt signal.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="28" id="CLM-00006" body="any masked suspendable interrupt when the processor is placed in the wake state;
+processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received.
+
+" claimType="dependent" num="00006" claimBackReference="of claim 5" transPhrase=", further comprising:
+unmasking " claimSize="42" claim_preamble="The method" claimNumber="6" depends_on="5">
+<claim-text gate:gateId="29">6. The method of <claim-ref gate:gateId="30" idref="CLM-00005">claim 5</claim-ref> , further comprising:
+<claim-text gate:gateId="31">unmasking any masked suspendable interrupt when the processor is placed in the wake state;</claim-text>
+<claim-text gate:gateId="32">processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="33" id="CLM-00007" body="a time based on a clock signal while the processor is in the idle state;
+receiving an interrupt signal associated with a suspendable interrupt that is unmasked;
+placing the processor in a wake state; and
+processing the suspendable interrupt associated with the received interrupt signal.
+
+" claimType="dependent" num="00007" claimBackReference="of claim 3" transPhrase=", further comprising:
+monitoring " claimSize="61" claim_preamble="The method" claimNumber="7" depends_on="3">
+<claim-text gate:gateId="34">7. The method of <claim-ref gate:gateId="35" idref="CLM-00003">claim 3</claim-ref> , further comprising:
+<claim-text gate:gateId="36">monitoring a time based on a clock signal while the processor is in the idle state;</claim-text>
+<claim-text gate:gateId="37">receiving an interrupt signal associated with a suspendable interrupt that is unmasked;</claim-text>
+<claim-text gate:gateId="38">placing the processor in a wake state; and</claim-text>
+<claim-text gate:gateId="39">processing the suspendable interrupt associated with the received interrupt signal.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="40" id="CLM-00008" body="any masked suspendable interrupt when the processor is placed in the wake state;
+processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received.
+
+" claimType="dependent" num="00008" claimBackReference="of claim 7" transPhrase=", further comprising:
+unmasking " claimSize="42" claim_preamble="The method" claimNumber="8" depends_on="7">
+<claim-text gate:gateId="41">8. The method of <claim-ref gate:gateId="42" idref="CLM-00007">claim 7</claim-ref> , further comprising:
+<claim-text gate:gateId="43">unmasking any masked suspendable interrupt when the processor is placed in the wake state;</claim-text>
+<claim-text gate:gateId="44">processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="45" id="CLM-00009" body="a processor executing instructions;
+a memory storing instructions for execution by the processor, the instructions when executed by the processor configuring the electronic device to provide:
+an operating system for setting a processor-wake time, before the processor is placed into an idle state, based on a timer schedule and placing the processor into the idle state; and
+a suspendable interrupt control for masking a suspendable interrupt having a maximum-delay value, when a current time plus the maximum-delay value occurs after the set processor-wake time.
+
+
+" num="00009" claimType="independent" transPhrase=":
+" claimSize="99" claimNumber="9" claim_preamble="An electronic device comprising">
+<claim-text gate:gateId="46">9. An electronic device comprising:
+<claim-text gate:gateId="47">a processor executing instructions;</claim-text>
+<claim-text gate:gateId="48">a memory storing instructions for execution by the processor, the instructions when executed by the processor configuring the electronic device to provide:
+<claim-text gate:gateId="49">an operating system for setting a processor-wake time, before the processor is placed into an idle state, based on a timer schedule and placing the processor into the idle state; and</claim-text>
+<claim-text gate:gateId="50">a suspendable interrupt control for masking a suspendable interrupt having a maximum-delay value, when a current time plus the maximum-delay value occurs after the set processor-wake time.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="51" id="CLM-00010" body="the maximum-delay value defines a maximum acceptable time between receiving at an interrupt controller an interrupt signal associated with the suspendable interrupt and servicing the suspendable interrupt.
+" claimType="dependent" num="00010" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="38" claim_preamble="The electronic device" claimNumber="10" depends_on="9">
+<claim-text gate:gateId="52">10. The electronic device of <claim-ref gate:gateId="53" idref="CLM-00009">claim 9</claim-ref> , wherein the maximum-delay value defines a maximum acceptable time between receiving at an interrupt controller an interrupt signal associated with the suspendable interrupt and servicing the suspendable interrupt.</claim-text>
+</claim>
+<claim gate:gateId="54" id="CLM-00011" body="the suspendable interrupt control is further for setting a mask state for each suspendable interrupt of a plurality of suspendable interrupts, wherein the mask state of each suspendable interrupt is set as:
+masked when a current time plus the respective maximum-delay value occurs after the processor-wake time; and
+unmasked when a current time plus the respective maximum-delay value occurs before the processor-wake time.
+
+" claimType="dependent" num="00011" claimBackReference="of claim 9" transPhrase=", " claimSize="76" claim_preamble="The electronic device" claimNumber="11" depends_on="9">
+<claim-text gate:gateId="55">11. The electronic device of <claim-ref gate:gateId="56" idref="CLM-00009">claim 9</claim-ref> , the suspendable interrupt control is further for setting a mask state for each suspendable interrupt of a plurality of suspendable interrupts, wherein the mask state of each suspendable interrupt is set as:
+<claim-text gate:gateId="57">masked when a current time plus the respective maximum-delay value occurs after the processor-wake time; and</claim-text>
+<claim-text gate:gateId="58">unmasked when a current time plus the respective maximum-delay value occurs before the processor-wake time.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="59" id="CLM-00012" body="the operating system is further for changing the respective maximum-delay value associated with at least one of the plurality of suspendable interrupts.
+" claimType="dependent" num="00012" claimBackReference="of claim 11" transPhrase=", wherein " claimSize="33" claim_preamble="The electronic device" claimNumber="12" depends_on="11">
+<claim-text gate:gateId="60">12. The electronic device of <claim-ref gate:gateId="61" idref="CLM-00011">claim 11</claim-ref> , wherein the operating system is further for changing the respective maximum-delay value associated with at least one of the plurality of suspendable interrupts.</claim-text>
+</claim>
+<claim gate:gateId="62" id="CLM-00013" body="an interrupt controller for receiving an interrupt signal associated with a suspendable interrupt; and
+a timer chip for monitoring a time based on a clock signal while the processor is in the idle state, determining that the monitored time is equal to the processor wake time and placing the processor in a wake state when the processor wake time occurs,
+wherein the processor is placed in the wake state upon the interrupt controller receiving, before the processor wake time, an interrupt signal associated with a suspendable interrupt that is unmasked.
+
+" claimType="dependent" num="00013" claimBackReference="of claim 11" transPhrase=", further comprising:
+" claimSize="108" claim_preamble="The electronic device" claimNumber="13" depends_on="11">
+<claim-text gate:gateId="63">13. The electronic device of <claim-ref gate:gateId="64" idref="CLM-00011">claim 11</claim-ref> , further comprising:
+<claim-text gate:gateId="65">an interrupt controller for receiving an interrupt signal associated with a suspendable interrupt; and</claim-text>
+<claim-text gate:gateId="66">a timer chip for monitoring a time based on a clock signal while the processor is in the idle state, determining that the monitored time is equal to the processor wake time and placing the processor in a wake state when the processor wake time occurs,</claim-text>
+<claim-text gate:gateId="67">wherein the processor is placed in the wake state upon the interrupt controller receiving, before the processor wake time, an interrupt signal associated with a suspendable interrupt that is unmasked.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="68" id="CLM-00014" body="an interrupt controller for receiving an interrupt signal associated with a suspendable interrupt and placing the processor in a wake state; and
+a timer chip for monitoring a time based on a clock signal while the processor is in the idle state, determining that the monitored time is equal to the processor wake time and placing the processor in the wake state when the processor wake time occurs, and
+wherein the interrupt controller suspends placing the processor in the wake state when the interrupt controller receives an interrupt signal associated with a suspendable interrupt that is masked.
+
+" claimType="dependent" num="00014" claimBackReference="of claim 13" transPhrase=", further comprising:
+" claimSize="113" claim_preamble="The electronic device" claimNumber="14" depends_on="13">
+<claim-text gate:gateId="69">14. The electronic device of <claim-ref gate:gateId="70" idref="CLM-00013">claim 13</claim-ref> , further comprising:
+<claim-text gate:gateId="71">an interrupt controller for receiving an interrupt signal associated with a suspendable interrupt and placing the processor in a wake state; and</claim-text>
+<claim-text gate:gateId="72">a timer chip for monitoring a time based on a clock signal while the processor is in the idle state, determining that the monitored time is equal to the processor wake time and placing the processor in the wake state when the processor wake time occurs, and</claim-text>
+<claim-text gate:gateId="73">wherein the interrupt controller suspends placing the processor in the wake state when the interrupt controller receives an interrupt signal associated with a suspendable interrupt that is masked.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="74" id="CLM-00015" body="the suspendable interrupt control is further for:
+unmasking any masked suspendable interrupt when the processor is placed in the wake state;
+processing any of the unmasked suspendable interrupts if an interrupt signal associated with a respective suspendable interrupt has been received.
+
+" claimType="dependent" num="00015" claimBackReference="of claim 14" transPhrase=", wherein " claimSize="54" claim_preamble="The electronic device" claimNumber="15" depends_on="14">
+<claim-text gate:gateId="75">15. The electronic device of <claim-ref gate:gateId="76" idref="CLM-00014">claim 14</claim-ref> , wherein the suspendable interrupt control is further for:
+<claim-text gate:gateId="77">unmasking any masked suspendable interrupt when the processor is placed in the wake state;</claim-text>
+<claim-text gate:gateId="78">processing any of the unmasked suspendable interrupts if an interrupt signal associated with a respective suspendable interrupt has been received.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="79" id="CLM-00016" body="a processor idle state in an electronic device, the instructions comprising:
+instructions for determining that the processor can be placed into an idle state;
+instructions for setting a processor-wake time based on a timer schedule;
+instructions for masking a suspendable interrupt having a maximum-delay value, when a current time plus the maximum-delay value occurs after the set processor-wake time; and
+instructions for placing the processor into the idle state.
+
+" num="00016" claimType="independent" transPhrase=" for extending " claimSize="86" claimNumber="16" claim_preamble="A computer readable memory comprising instructions">
+<claim-text gate:gateId="80">16. A computer readable memory comprising instructions for extending a processor idle state in an electronic device, the instructions comprising:
+<claim-text gate:gateId="81">instructions for determining that the processor can be placed into an idle state;</claim-text>
+<claim-text gate:gateId="82">instructions for setting a processor-wake time based on a timer schedule;</claim-text>
+<claim-text gate:gateId="83">instructions for masking a suspendable interrupt having a maximum-delay value, when a current time plus the maximum-delay value occurs after the set processor-wake time; and</claim-text>
+<claim-text gate:gateId="84">instructions for placing the processor into the idle state.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="85" id="CLM-00017" body="the maximum delay value defines a maximum acceptable time between receiving at an interrupt controller an interrupt signal associated with the suspendable interrupt and servicing the suspendable interrupt.
+" claimType="dependent" num="00017" claimBackReference="of claim 16" transPhrase=", wherein " claimSize="40" claim_preamble="The computer readable memory" claimNumber="17" depends_on="16">
+<claim-text gate:gateId="86">17. The computer readable memory of <claim-ref gate:gateId="87" idref="CLM-00016">claim 16</claim-ref> , wherein the maximum delay value defines a maximum acceptable time between receiving at an interrupt controller an interrupt signal associated with the suspendable interrupt and servicing the suspendable interrupt.</claim-text>
+</claim>
+<claim gate:gateId="88" id="CLM-00018" body="instructions for setting a mask state for each suspendable interrupt of a plurality of suspendable interrupts, wherein the mask state of each suspendable interrupt is set as:
+masked when a current time plus the respective maximum-delay value occurs after the processor-wake time; and
+unmasked when a current time plus the respective maximum-delay value occurs before the processor-wake time.
+
+
+" claimType="dependent" num="00018" claimBackReference="of claim 16" transPhrase=", further comprising:
+" claimSize="75" claim_preamble="The computer readable memory" claimNumber="18" depends_on="16">
+<claim-text gate:gateId="89">18. The computer readable memory of <claim-ref gate:gateId="90" idref="CLM-00016">claim 16</claim-ref> , further comprising:
+<claim-text gate:gateId="91">instructions for setting a mask state for each suspendable interrupt of a plurality of suspendable interrupts, wherein the mask state of each suspendable interrupt is set as:
+<claim-text gate:gateId="92">masked when a current time plus the respective maximum-delay value occurs after the processor-wake time; and</claim-text>
+<claim-text gate:gateId="93">unmasked when a current time plus the respective maximum-delay value occurs before the processor-wake time.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="94" id="CLM-00019" body="instructions for changing the respective maximum-delay value associated with at least one of the plurality of suspendable interrupts.
+" claimType="dependent" num="00019" claimBackReference="of claim 18" transPhrase=", further comprising " claimSize="31" claim_preamble="The computer readable memory" claimNumber="19" depends_on="18">
+<claim-text gate:gateId="95">19. The computer readable memory of <claim-ref gate:gateId="96" idref="CLM-00018">claim 18</claim-ref> , further comprising instructions for changing the respective maximum-delay value associated with at least one of the plurality of suspendable interrupts.</claim-text>
+</claim>
+<claim gate:gateId="97" id="CLM-00020" body="further comprising:
+instructions for monitoring a time based on a clock signal while the processor is in the idle state;
+instructions for receiving an interrupt signal associated with a suspendable interrupt that is masked;
+instructions for determining that the monitored time is equal to the processor-wake time;
+instructions for placing the processor in a wake state;
+instructions for unmasking the suspendable interrupt that is masked; and
+instructions for processing the suspendable interrupt associated with the received interrupt signal.
+
+" claimType="dependent" num="00020" claimBackReference="of claim 18" transPhrase=", " claimSize="95" claim_preamble="The computer readable memory" claimNumber="20" depends_on="18">
+<claim-text gate:gateId="98">20. The computer readable memory of <claim-ref gate:gateId="99" idref="CLM-00018">claim 18</claim-ref> , further comprising:
+<claim-text gate:gateId="100">instructions for monitoring a time based on a clock signal while the processor is in the idle state;</claim-text>
+<claim-text gate:gateId="101">instructions for receiving an interrupt signal associated with a suspendable interrupt that is masked;</claim-text>
+<claim-text gate:gateId="102">instructions for determining that the monitored time is equal to the processor-wake time;</claim-text>
+<claim-text gate:gateId="103">instructions for placing the processor in a wake state;</claim-text>
+<claim-text gate:gateId="104">instructions for unmasking the suspendable interrupt that is masked; and</claim-text>
+<claim-text gate:gateId="105">instructions for processing the suspendable interrupt associated with the received interrupt signal.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="106" id="CLM-00021" body="further comprising:
+instructions for unmasking any masked suspendable interrupt when the processor is placed in the wake state;
+instructions for processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received.
+
+" claimType="dependent" num="00021" claimBackReference="of claim 20" transPhrase=", " claimSize="48" claim_preamble="The computer readable memory" claimNumber="21" depends_on="20">
+<claim-text gate:gateId="107">21. The computer readable memory of <claim-ref gate:gateId="108" idref="CLM-00020">claim 20</claim-ref> , further comprising:
+<claim-text gate:gateId="109">instructions for unmasking any masked suspendable interrupt when the processor is placed in the wake state;</claim-text>
+<claim-text gate:gateId="110">instructions for processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="111" id="CLM-00022" body="further comprising:
+instructions for monitoring a time based on a clock signal while the processor is in the idle state;
+instructions for receiving an interrupt signal associated with a suspendable interrupt that is unmasked;
+instructions for placing the processor in a wake state; and
+instructions for processing the suspendable interrupt associated with the received interrupt signal.
+
+" claimType="dependent" num="00022" claimBackReference="of claim 18" transPhrase=", " claimSize="71" claim_preamble="The computer readable memory" claimNumber="22" depends_on="18">
+<claim-text gate:gateId="112">22. The computer readable memory of <claim-ref gate:gateId="113" idref="CLM-00018">claim 18</claim-ref> , further comprising:
+<claim-text gate:gateId="114">instructions for monitoring a time based on a clock signal while the processor is in the idle state;</claim-text>
+<claim-text gate:gateId="115">instructions for receiving an interrupt signal associated with a suspendable interrupt that is unmasked;</claim-text>
+<claim-text gate:gateId="116">instructions for placing the processor in a wake state; and</claim-text>
+<claim-text gate:gateId="117">instructions for processing the suspendable interrupt associated with the received interrupt signal.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="118" id="CLM-00023" body="further comprising:
+instructions for unmasking any masked suspendable interrupt when the processor is placed in the wake state;
+instructions for processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received. 
+
+" claimType="dependent" num="00023" claimBackReference="of claim 22" transPhrase=", " claimSize="48" claim_preamble="The computer readable memory" claimNumber="23" depends_on="22">
+<claim-text gate:gateId="119">23. The computer readable memory of <claim-ref gate:gateId="120" idref="CLM-00022">claim 22</claim-ref> , further comprising:
+<claim-text gate:gateId="121">instructions for unmasking any masked suspendable interrupt when the processor is placed in the wake state;</claim-text>
+<claim-text gate:gateId="122">instructions for processing any of the unmasked suspendable interrupts if an associated interrupt signal has been received. </claim-text>
+</claim-text>
+</claim>
+<us-patent-grant gate:gateId="123" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08504753-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130724" lang="EN" country="US"></us-patent-grant></claims>

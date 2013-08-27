@@ -1,0 +1,796 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503108-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 141,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3894,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "order from an object side to an image side:\na first lens element with positive refractive power having a convex object-side surface;\na second lens element with negative refractive power, wherein at least one of an object-side surface and an image-side surface of the second lens element is aspheric;\na third lens element with positive refractive power having a concave object-side surface and a convex image-side surface, wherein the third lens element has at least one aspheric surface; and\na fourth lens element with negative refractive power having a concave object-side surface and made of plastic material, wherein the object-side surface and an image-side surface of the fourth lens element are aspheric, and the fourth lens element has at least one inflection point formed on at least one of the object-side surface and the image-side surface thereof;\nwherein the photographing optical lens assembly has four lens elements with refractive power, a radius of curvature of the object-side surface of the fourth lens element is R7, a focal length of the photographing optical lens assembly is f, a focal length of the first lens element is f1, a focal length of the third lens element is f3, a radius of curvature of the object-side surface of the second lens element is R3, a radius of curvature of the mage-side surface of the second lens element is R4, and the photographing optical lens assembly further comprises an aperture stop which is located between an imaged object and the first lens element, wherein a distance on the optical axis between the aperture stop and an image plane is SL, a distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, a focal length of the fourth lens element is f4, and they satisfy the following relationships:\n\n\n−0.5<R 7 /f<0;\n\n\n\n0.5<f 1 /f 3<1.05;\n\n\n\n−3.3<( R 3+ R 4)/( R 3− R 4)<−0.7;\n\n\n\n0.92<SL/TTL<1.1;\n\n\n\n1.3<f/f 1<2.2; and\n\n\n\n−2.5<f/f 4<−1.5.\n\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", in ",
+            "claimSize": 433,
+            "gate:gateId": 1,
+            "claim_preamble": "A photographing optical lens assembly comprising",
+            "claimNumber": 0,
+            "claim-text": {
+                "content": "1. A photographing optical lens assembly comprising, in order from an object side to an image side:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a first lens element with positive refractive power having a convex object-side surface;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a second lens element with negative refractive power, wherein at least one of an object-side surface and an image-side surface of the second lens element is aspheric;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a third lens element with positive refractive power having a concave object-side surface and a convex image-side surface, wherein the third lens element has at least one aspheric surface; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a fourth lens element with negative refractive power having a concave object-side surface and made of plastic material, wherein the object-side surface and an image-side surface of the fourth lens element are aspheric, and the fourth lens element has at least one inflection point formed on at least one of the object-side surface and the image-side surface thereof;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein the photographing optical lens assembly has four lens elements with refractive power, a radius of curvature of the object-side surface of the fourth lens element is R7, a focal length of the photographing optical lens assembly is f, a focal length of the first lens element is f1, a focal length of the third lens element is f3, a radius of curvature of the object-side surface of the second lens element is R3, a radius of curvature of the mage-side surface of the second lens element is R4, and the photographing optical lens assembly further comprises an aperture stop which is located between an imaged object and the first lens element, wherein a distance on the optical axis between the aperture stop and an image plane is SL, a distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, a focal length of the fourth lens element is f4, and they satisfy the following relationships:",
+                        "gate:gateId": 7,
+                        "claim-text": [
+                            {
+                                "content": [
+                                    "−0.5<",
+                                    7,
+                                    "0;"
+                                ],
+                                "gate:gateId": 8,
+                                "br": {"gate:gateId": 9},
+                                "i": [
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 10
+                                    },
+                                    {
+                                        "content": "/f<",
+                                        "gate:gateId": 11
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    "0.5<",
+                                    1,
+                                    "3<1.05;"
+                                ],
+                                "gate:gateId": 12,
+                                "br": {"gate:gateId": 13},
+                                "i": [
+                                    {
+                                        "content": "f",
+                                        "gate:gateId": 14
+                                    },
+                                    {
+                                        "content": "/f",
+                                        "gate:gateId": 15
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    "−3.3<(",
+                                    "3+",
+                                    "4)/(",
+                                    "3−",
+                                    "4)<−0.7;"
+                                ],
+                                "gate:gateId": 16,
+                                "br": {"gate:gateId": 17},
+                                "i": [
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 18
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 19
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 20
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 21
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    "0.92<",
+                                    "1.1;"
+                                ],
+                                "gate:gateId": 22,
+                                "br": {"gate:gateId": 23},
+                                "i": {
+                                    "content": "SL/TTL<",
+                                    "gate:gateId": 24
+                                }
+                            },
+                            {
+                                "content": [
+                                    "1.3<",
+                                    "1<2.2; and"
+                                ],
+                                "gate:gateId": 25,
+                                "br": {"gate:gateId": 26},
+                                "i": {
+                                    "content": "f/f",
+                                    "gate:gateId": 27
+                                }
+                            },
+                            {
+                                "content": [
+                                    "−2.5<",
+                                    "4<−1.5."
+                                ],
+                                "gate:gateId": 28,
+                                "br": {"gate:gateId": 29},
+                                "i": {
+                                    "content": "f/f",
+                                    "gate:gateId": 30
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "radius of curvature of the object-side surface of the first lens element is R1, a radius of curvature of the image-side surface of the first lens element is R2, and they satisfy the following relationship:\n\n\n0<| R 1/ R 2|<0.55.\n\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 66,
+            "gate:gateId": 31,
+            "claimNumber": 0,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "2. The photographing optical lens assembly of",
+                    ", wherein radius of curvature of the object-side surface of the first lens element is R1, a radius of curvature of the image-side surface of the first lens element is R2, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32,
+                "claim-text": {
+                    "content": [
+                        "0<|",
+                        "1/",
+                        "2|<0.55."
+                    ],
+                    "gate:gateId": 34,
+                    "br": {"gate:gateId": 35},
+                    "i": [
+                        {
+                            "content": "R",
+                            "gate:gateId": 36
+                        },
+                        {
+                            "content": "R",
+                            "gate:gateId": 37
+                        }
+                    ]
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a radius of curvature of the object-side surface of the third lens element is R5, a radius of curvature of the mage-side surface of the third lens element is R6, and they satisfy the following relationship:\n\n\n1.1<( R 5+ R 6)/( R 5 −R 6)<5.0.\n\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 77,
+            "gate:gateId": 38,
+            "claimNumber": 5,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "3. The photographing optical lens assembly of",
+                    ", wherein a radius of curvature of the object-side surface of the third lens element is R5, a radius of curvature of the mage-side surface of the third lens element is R6, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 39,
+                "claim-text": {
+                    "content": [
+                        "1.1<(",
+                        "5+",
+                        "6)/(",
+                        5,
+                        "6)<5.0."
+                    ],
+                    "gate:gateId": 41,
+                    "br": {"gate:gateId": 42},
+                    "i": [
+                        {
+                            "content": "R",
+                            "gate:gateId": 43
+                        },
+                        {
+                            "content": "R",
+                            "gate:gateId": 44
+                        },
+                        {
+                            "content": "R",
+                            "gate:gateId": 45
+                        },
+                        {
+                            "content": "−R",
+                            "gate:gateId": 46
+                        }
+                    ]
+                }
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the radius of curvature of the object-side surface of the fourth lens element is R7, the focal length of the photographing optical lens assembly is f, and they satisfy the following relationship:\n\n\n−0.4<R 7/ f<− 0.17.\n\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 63,
+            "gate:gateId": 47,
+            "claimNumber": 0,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "4. The photographing optical lens assembly of",
+                    ", wherein the radius of curvature of the object-side surface of the fourth lens element is R7, the focal length of the photographing optical lens assembly is f, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 48,
+                "claim-text": {
+                    "content": [
+                        "−0.4<",
+                        "7/",
+                        "0.17."
+                    ],
+                    "gate:gateId": 50,
+                    "br": {"gate:gateId": 51},
+                    "i": [
+                        {
+                            "content": "R",
+                            "gate:gateId": 52
+                        },
+                        {
+                            "content": "f<−",
+                            "gate:gateId": 53
+                        }
+                    ]
+                }
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the Abbe number of the first lens element is V1, the Abbe number of the second lens element is V2, and they satisfy the following relationship:\n\n\n29<V 1− V 2<42.\n\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 53,
+            "gate:gateId": 54,
+            "claimNumber": 5,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "5. The photographing optical lens assembly of",
+                    ", wherein the Abbe number of the first lens element is V1, the Abbe number of the second lens element is V2, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 55,
+                "claim-text": {
+                    "content": [
+                        "29<",
+                        "1−",
+                        "2<42."
+                    ],
+                    "gate:gateId": 57,
+                    "br": {"gate:gateId": 58},
+                    "i": [
+                        {
+                            "content": "V",
+                            "gate:gateId": 59
+                        },
+                        {
+                            "content": "V",
+                            "gate:gateId": 60
+                        }
+                    ]
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the focal length of the first lens element is f1, and the focal length of the third lens element is f3, and they satisfy the following relationship:\n\n\n0.7<f 1/ f 3<1.0.\n\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 58,
+            "gate:gateId": 61,
+            "claimNumber": 6,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "6. The photographing optical lens assembly of",
+                    ", wherein the focal length of the first lens element is f1, and the focal length of the third lens element is f3, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 62,
+                "claim-text": {
+                    "content": [
+                        "0.7<",
+                        "1/",
+                        "3<1.0."
+                    ],
+                    "gate:gateId": 64,
+                    "br": {"gate:gateId": 65},
+                    "i": [
+                        {
+                            "content": "f",
+                            "gate:gateId": 66
+                        },
+                        {
+                            "content": "f",
+                            "gate:gateId": 67
+                        }
+                    ]
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the focal length of the photographing optical lens assembly is f, and a focal length of the second lens element is f2, and they satisfy the following relationship:\n\n\n−0.75<f/f 2<−0.4.\n\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 59,
+            "gate:gateId": 68,
+            "claimNumber": 7,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "7. The photographing optical lens assembly of",
+                    ", wherein the focal length of the photographing optical lens assembly is f, and a focal length of the second lens element is f2, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 69,
+                "claim-text": {
+                    "content": [
+                        "−0.75<",
+                        "2<−0.4."
+                    ],
+                    "gate:gateId": 71,
+                    "br": {"gate:gateId": 72},
+                    "i": {
+                        "content": "f/f",
+                        "gate:gateId": 73
+                    }
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the radius of curvature of the object-side surface of the first lens element is R1, and the radius of curvature of the image-side surface of the first lens element is R2, and they satisfy the following relationship:\n\n\n0<|R 1 /R 2|<0.35.\n\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 68,
+            "gate:gateId": 74,
+            "claimNumber": 8,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "8. The photographing optical lens assembly of",
+                    ", wherein the radius of curvature of the object-side surface of the first lens element is R1, and the radius of curvature of the image-side surface of the first lens element is R2, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 76,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 75,
+                "claim-text": {
+                    "content": [
+                        "0<",
+                        1,
+                        "2|<0.35."
+                    ],
+                    "gate:gateId": 77,
+                    "br": {"gate:gateId": 78},
+                    "i": [
+                        {
+                            "content": "|R",
+                            "gate:gateId": 79
+                        },
+                        {
+                            "content": "/R",
+                            "gate:gateId": 80
+                        }
+                    ]
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "further comprising:\nan image sensor located on the image plane, wherein a half of a diagonal length of an effective sensing area of the image sensor is ImgH, and the distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, and they satisfy the following relationship:\n\n\nTTL/ImgH<1.95.\n\n\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 80,
+            "gate:gateId": 81,
+            "claimNumber": 9,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "9. The photographing optical lens assembly of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 83,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 82,
+                "claim-text": {
+                    "content": "an image sensor located on the image plane, wherein a half of a diagonal length of an effective sensing area of the image sensor is ImgH, and the distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, and they satisfy the following relationship:",
+                    "gate:gateId": 84,
+                    "claim-text": {
+                        "content": "1.95.",
+                        "gate:gateId": 85,
+                        "br": {"gate:gateId": 86},
+                        "i": {
+                            "content": "TTL/ImgH<",
+                            "gate:gateId": 87
+                        }
+                    }
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "order from an object side to an image side:\na first lens element with positive refractive power having a convex object-side surface;\na second lens element with negative refractive power having a concave object-side surface, wherein the second lens element has at least one inflection point on at least one of the object-side surface and an image-side surface thereof;\na third lens element with positive refractive power having a concave object-side surface and a convex image-side surface, wherein the third lens element is made of plastic material; and\na fourth lens element with negative refractive power having a concave object-side surface and a convex image-side surface, wherein the object-side surface and the image-side surface of the fourth lens element are aspheric, the fourth lens element is made of plastic material, and at least one inflection point is formed on at least one of the object-side surface and the image-side surface of the fourth lens element;\nwherein the photographing optical lens assembly has four lens elements with refractive power, a radius of curvature the object-side surface of the fourth lens element is R7, a focal length of the photographing optical lens assembly is f, a focal length of the first lens element is f1, a focal length of the third lens element is f3, a radius of curvature of the object-side surface of the third lens element is R5, a radius of curvature of the image-side surface of the third lens element is R6, and the photographing optical lens assembly further comprises an aperture stop, wherein a distance on the optical axis between the aperture stop and an image plane is SL, a distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, a focal length of the fourth lens element is f4, a radius of curvature of the object-side surface of the second lens element is R3, a radius of curvature of the image-side surface of the second lens element is R4, and they satisfy the following relationships:\n\n\n−1.0<R 7 /f<0;\n\n\n\n0.5<f 1 /f 3<1.05;\n\n\n\n−1.1<( R 5+ R 6)/( R 5 −R 6)<5;\n\n\n\n0.77<SL/TTL<1.1;\n\n\n\n−2.5<f/f 4<−1.5; and\n\n\n\n−3.3<( R 3+ R 4)/( R 3− R 4)<−0.7.\n\n\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": ", in ",
+            "claimSize": 483,
+            "gate:gateId": 88,
+            "claim_preamble": "A photographing optical lens assembly comprising",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A photographing optical lens assembly comprising, in order from an object side to an image side:",
+                "gate:gateId": 89,
+                "claim-text": [
+                    {
+                        "content": "a first lens element with positive refractive power having a convex object-side surface;",
+                        "gate:gateId": 90
+                    },
+                    {
+                        "content": "a second lens element with negative refractive power having a concave object-side surface, wherein the second lens element has at least one inflection point on at least one of the object-side surface and an image-side surface thereof;",
+                        "gate:gateId": 91
+                    },
+                    {
+                        "content": "a third lens element with positive refractive power having a concave object-side surface and a convex image-side surface, wherein the third lens element is made of plastic material; and",
+                        "gate:gateId": 92
+                    },
+                    {
+                        "content": "a fourth lens element with negative refractive power having a concave object-side surface and a convex image-side surface, wherein the object-side surface and the image-side surface of the fourth lens element are aspheric, the fourth lens element is made of plastic material, and at least one inflection point is formed on at least one of the object-side surface and the image-side surface of the fourth lens element;",
+                        "gate:gateId": 93
+                    },
+                    {
+                        "content": "wherein the photographing optical lens assembly has four lens elements with refractive power, a radius of curvature the object-side surface of the fourth lens element is R7, a focal length of the photographing optical lens assembly is f, a focal length of the first lens element is f1, a focal length of the third lens element is f3, a radius of curvature of the object-side surface of the third lens element is R5, a radius of curvature of the image-side surface of the third lens element is R6, and the photographing optical lens assembly further comprises an aperture stop, wherein a distance on the optical axis between the aperture stop and an image plane is SL, a distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, a focal length of the fourth lens element is f4, a radius of curvature of the object-side surface of the second lens element is R3, a radius of curvature of the image-side surface of the second lens element is R4, and they satisfy the following relationships:",
+                        "gate:gateId": 94,
+                        "claim-text": [
+                            {
+                                "content": [
+                                    "−1.0<",
+                                    7,
+                                    "0;"
+                                ],
+                                "gate:gateId": 95,
+                                "br": {"gate:gateId": 96},
+                                "i": [
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 97
+                                    },
+                                    {
+                                        "content": "/f<",
+                                        "gate:gateId": 98
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    "0.5<",
+                                    1,
+                                    "3<1.05;"
+                                ],
+                                "gate:gateId": 99,
+                                "br": {"gate:gateId": 100},
+                                "i": [
+                                    {
+                                        "content": "f",
+                                        "gate:gateId": 101
+                                    },
+                                    {
+                                        "content": "/f",
+                                        "gate:gateId": 102
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    "−1.1<(",
+                                    "5+",
+                                    "6)/(",
+                                    5,
+                                    "6)<5;"
+                                ],
+                                "gate:gateId": 103,
+                                "br": {"gate:gateId": 104},
+                                "i": [
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 105
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 106
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 107
+                                    },
+                                    {
+                                        "content": "−R",
+                                        "gate:gateId": 108
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    "0.77<",
+                                    "1.1;"
+                                ],
+                                "gate:gateId": 109,
+                                "br": {"gate:gateId": 110},
+                                "i": {
+                                    "content": "SL/TTL<",
+                                    "gate:gateId": 111
+                                }
+                            },
+                            {
+                                "content": [
+                                    "−2.5<",
+                                    "4<−1.5; and"
+                                ],
+                                "gate:gateId": 112,
+                                "br": {"gate:gateId": 113},
+                                "i": {
+                                    "content": "f/f",
+                                    "gate:gateId": 114
+                                }
+                            },
+                            {
+                                "content": [
+                                    "−3.3<(",
+                                    "3+",
+                                    "4)/(",
+                                    "3−",
+                                    "4)<−0.7."
+                                ],
+                                "gate:gateId": 115,
+                                "br": {"gate:gateId": 116},
+                                "i": [
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 117
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 118
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 119
+                                    },
+                                    {
+                                        "content": "R",
+                                        "gate:gateId": 120
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the radius of curvature of the object-side surface of the fourth lens element is R7, the focal length of the photographing optical lens assembly is f, and they satisfy the following relationship:\n\n\n−0.4<R 7/ f<− 0.17.\n\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 63,
+            "gate:gateId": 121,
+            "claimNumber": 17,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "11. The photographing optical lens assembly of",
+                    ", wherein the radius of curvature of the object-side surface of the fourth lens element is R7, the focal length of the photographing optical lens assembly is f, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 123,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 122,
+                "claim-text": {
+                    "content": [
+                        "−0.4<",
+                        "7/",
+                        "0.17."
+                    ],
+                    "gate:gateId": 124,
+                    "br": {"gate:gateId": 125},
+                    "i": [
+                        {
+                            "content": "R",
+                            "gate:gateId": 126
+                        },
+                        {
+                            "content": "f<−",
+                            "gate:gateId": 127
+                        }
+                    ]
+                }
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the aperture stop is located between the imaged object and the first lens element, the distance on the optical axis between the aperture stop and the mage plane is SL, the distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, and they satisfy the following relationship:\n\n\n0.92<SL/TTL<1.1.\n\n\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 85,
+            "gate:gateId": 128,
+            "claimNumber": 12,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "12. The photographing optical lens assembly of",
+                    ", wherein the aperture stop is located between the imaged object and the first lens element, the distance on the optical axis between the aperture stop and the mage plane is SL, the distance on the optical axis between the object-side surface of the first lens element and the image plane is TTL, and they satisfy the following relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 130,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 129,
+                "claim-text": {
+                    "content": [
+                        "0.92<",
+                        "1.1."
+                    ],
+                    "gate:gateId": 131,
+                    "br": {"gate:gateId": 132},
+                    "i": {
+                        "content": "SL/TTL<",
+                        "gate:gateId": 133
+                    }
+                }
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the focal length of the first lens element is f1, the focal length of the third lens element is f3, and they satisfy the lowing relationship:\n\n\n0.7<f 1 /f 3<1.0.\n\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 57,
+            "gate:gateId": 134,
+            "claimNumber": 13,
+            "claim_preamble": "The photographing optical lens assembly",
+            "claim-text": {
+                "content": [
+                    "13. The photographing optical lens assembly of",
+                    ", wherein the focal length of the first lens element is f1, the focal length of the third lens element is f3, and they satisfy the lowing relationship:"
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 136,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 135,
+                "claim-text": {
+                    "content": [
+                        "0.7<",
+                        1,
+                        "3<1.0."
+                    ],
+                    "gate:gateId": 137,
+                    "br": {"gate:gateId": 138},
+                    "i": [
+                        {
+                            "content": "f",
+                            "gate:gateId": 139
+                        },
+                        {
+                            "content": "/f",
+                            "gate:gateId": 140
+                        }
+                    ]
+                }
+            },
+            "depends_on": 12
+        }
+    ],
+    "numberIndependentClaims": 128
+}}

@@ -1,0 +1,635 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502989-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 90,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3666,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "an optical medium operable to receive an incident beam at a plurality of incident points in the optical medium;\na first angular optical sensor assembly operable to sense a first set of ray angles and intensities of a plurality of scatter rays emitted from the incident points;\na second angular optical sensor assembly operable to sense a second set of ray angles and intensities of the scatter rays emitted from the incident points; and\na tomography module operable to determine a plurality of locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities and the second set of ray angles and intensities.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " comprising:\n",
+            "claimSize": 128,
+            "gate:gateId": 1,
+            "claim_preamble": "A tomographic optical beam irradiance sensor system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A tomographic optical beam irradiance sensor system comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "an optical medium operable to receive an incident beam at a plurality of incident points in the optical medium;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a first angular optical sensor assembly operable to sense a first set of ray angles and intensities of a plurality of scatter rays emitted from the incident points;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a second angular optical sensor assembly operable to sense a second set of ray angles and intensities of the scatter rays emitted from the incident points; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a tomography module operable to determine a plurality of locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities and the second set of ray angles and intensities.",
+                        "gate:gateId": 6
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the optical medium is further operable to scatter an emitted ray of the scatter rays at a scatter ray frequency that is different from an incident beam frequency of the incident beam.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 47,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "2. The tomographic optical beam irradiance sensor according to",
+                    ", wherein the optical medium is further operable to scatter an emitted ray of the scatter rays at a scatter ray frequency that is different from an incident beam frequency of the incident beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the tomography module is further operable to determine the locations of the incident points via a Radon transform based on the first set of ray angles and intensities and the second set of ray angles and intensities.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 52,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "3. The tomographic optical beam irradiance sensor according to",
+                    ", wherein the tomography module is further operable to determine the locations of the incident points via a Radon transform based on the first set of ray angles and intensities and the second set of ray angles and intensities."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the tomography module is further operable to determine a property of an incident point among the incident points based on the scatter rays.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 38,
+            "gate:gateId": 13,
+            "claimNumber": 4,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "4. The tomographic optical beam irradiance sensor according to",
+                    ", wherein the tomography module is further operable to determine a property of an incident point among the incident points based on the scatter rays."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the property comprises at least one member selected from the group consisting of: a temperature of the incident point, and a spectrum of the incident point.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 43,
+            "gate:gateId": 16,
+            "claimNumber": 5,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "5. The tomographic optical beam irradiance sensor according to",
+                    ", wherein the property comprises at least one member selected from the group consisting of: a temperature of the incident point, and a spectrum of the incident point."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the first angular optical sensor assembly and the second angular optical sensor assembly comprise an angular optical sensor assembly comprising:\nan aperture operable to collimate the scatter rays;\na telecentric lens operable to direct a received ray of the scatter rays to a sensor corresponding to a direction of the received ray; and\na detector array operable to detect the received ray.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 80,
+            "gate:gateId": 19,
+            "claimNumber": 6,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "6. The tomographic optical beam irradiance sensor according to",
+                    ", wherein the first angular optical sensor assembly and the second angular optical sensor assembly comprise an angular optical sensor assembly comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20,
+                "claim-text": [
+                    {
+                        "content": "an aperture operable to collimate the scatter rays;",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "a telecentric lens operable to direct a received ray of the scatter rays to a sensor corresponding to a direction of the received ray; and",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "a detector array operable to detect the received ray.",
+                        "gate:gateId": 24
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "further comprising:\na third angular optical sensor assembly operable to sense a third set of ray angles and intensities of the scatter rays emitted from the incident points, wherein:\nthe first angular optical sensor assembly and the second angular optical sensor assembly sense in a common plane, and the third angular optical sensor assembly is located perpendicular to the common plane; and\nthe tomography module is further operable to determine the locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities, the second set of ray angles and intensities, and the third set of ray angles and intensities.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 130,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "7. The tomographic optical beam irradiance sensor according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26,
+                "claim-text": [
+                    {
+                        "content": "a third angular optical sensor assembly operable to sense a third set of ray angles and intensities of the scatter rays emitted from the incident points, wherein:",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "the first angular optical sensor assembly and the second angular optical sensor assembly sense in a common plane, and the third angular optical sensor assembly is located perpendicular to the common plane; and",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "the tomography module is further operable to determine the locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities, the second set of ray angles and intensities, and the third set of ray angles and intensities.",
+                        "gate:gateId": 30
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the optical medium comprises at least one member selected from the group consisting of: an acrylic medium, a fused silica medium, a scattering medium, a fogged scattering medium, a particulate comprising scattering medium, an ion-implanted scattering medium, an absorptive medium, and an anti-stokes conversion medium.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 68,
+            "gate:gateId": 31,
+            "claimNumber": 8,
+            "claim_preamble": "The tomographic optical beam irradiance sensor",
+            "claim-text": {
+                "content": [
+                    "8. The tomographic optical beam irradiance sensor according to",
+                    ", wherein the optical medium comprises at least one member selected from the group consisting of: an acrylic medium, a fused silica medium, a scattering medium, a fogged scattering medium, a particulate comprising scattering medium, an ion-implanted scattering medium, an absorptive medium, and an anti-stokes conversion medium."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "optical detection, the method comprising:\nreceiving an incident beam at a plurality of incident points in an optical medium;\nemitting a first set of scatter rays from the incident points in response to receiving the incident beam;\nreceiving the first set of scatter rays at a first angular optical sensor assembly;\ndetermining a first set of ray angles and intensities of the first set of scatter rays at the first angular optical sensor assembly;\nemitting a second set of scatter rays from the incident points in response to receiving the incident beam;\nreceiving the second set of scatter rays at a second angular optical sensor assembly;\ndetermining a second set of ray angles and intensities of the second set of scatter rays at the second angular optical sensor assembly; and\ndetermining a plurality of locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities and the second set of ray angles and intensities.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " for ",
+            "claimSize": 179,
+            "gate:gateId": 34,
+            "claim_preamble": "A method",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A method for optical detection, the method comprising:",
+                "gate:gateId": 35,
+                "claim-text": [
+                    {
+                        "content": "receiving an incident beam at a plurality of incident points in an optical medium;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "emitting a first set of scatter rays from the incident points in response to receiving the incident beam;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "receiving the first set of scatter rays at a first angular optical sensor assembly;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "determining a first set of ray angles and intensities of the first set of scatter rays at the first angular optical sensor assembly;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "emitting a second set of scatter rays from the incident points in response to receiving the incident beam;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "receiving the second set of scatter rays at a second angular optical sensor assembly;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "determining a second set of ray angles and intensities of the second set of scatter rays at the second angular optical sensor assembly; and",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "determining a plurality of locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities and the second set of ray angles and intensities.",
+                        "gate:gateId": 43
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the optical medium is operable to scatter an emitted ray of the scatter rays at a scatter ray frequency that is different from an incident beam frequency of the incident beam.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 42,
+            "gate:gateId": 44,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method according to",
+                    ", wherein the optical medium is operable to scatter an emitted ray of the scatter rays at a scatter ray frequency that is different from an incident beam frequency of the incident beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "further comprising determining the locations of the incident points via a Radon transform based on the first set of ray angles and intensities and the second set of ray angles and intensities.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 42,
+            "gate:gateId": 47,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method according to",
+                    ", further comprising determining the locations of the incident points via a Radon transform based on the first set of ray angles and intensities and the second set of ray angles and intensities."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00012",
+            "body": "further comprising determining a property of an incident point among the incident points based on the scatter rays.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 28,
+            "gate:gateId": 50,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method according to",
+                    ", further comprising determining a property of an incident point among the incident points based on the scatter rays."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the property comprises at least one member selected from the group consisting of: a temperature of the incident point, and a spectrum of the incident point.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 39,
+            "gate:gateId": 53,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method according to",
+                    ", wherein the property comprises at least one member selected from the group consisting of: a temperature of the incident point, and a spectrum of the incident point."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the first angular optical sensor assembly and the second angular optical sensor assembly comprise an angular optical sensor assembly comprising:\nan aperture operable to collimate the scatter rays;\na telecentric lens operable to direct a received ray of the scatter rays to a sensor corresponding to a direction of the received ray; and\na detector array operable to detect the received ray.\n\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 76,
+            "gate:gateId": 56,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method according to",
+                    ", wherein the first angular optical sensor assembly and the second angular optical sensor assembly comprise an angular optical sensor assembly comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 57,
+                "claim-text": [
+                    {
+                        "content": "an aperture operable to collimate the scatter rays;",
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "a telecentric lens operable to direct a received ray of the scatter rays to a sensor corresponding to a direction of the received ray; and",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "a detector array operable to detect the received ray.",
+                        "gate:gateId": 61
+                    }
+                ]
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the optical medium comprises at least one member selected from the group consisting of: an acrylic medium, a fused silica medium, a scattering medium, a fogged scattering medium, a particulate comprising scattering medium, an ion-implanted scattering medium, an absorptive medium, and an anti-stokes conversion medium.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 64,
+            "gate:gateId": 62,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method according to",
+                    ", wherein the optical medium comprises at least one member selected from the group consisting of: an acrylic medium, a fused silica medium, a scattering medium, a fogged scattering medium, a particulate comprising scattering medium, an ion-implanted scattering medium, an absorptive medium, and an anti-stokes conversion medium."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00016",
+            "body": "further comprising:\nemitting a third set of scatter rays from the incident points in response to receiving the incident beam;\nreceiving the third set of scatter rays at a third angular optical sensor assembly, wherein the first angular optical sensor assembly and the second angular optical sensor assembly sense in a common plane, and the third angular optical sensor assembly is located perpendicular to the common plane;\ndetermining a third set of ray angles and intensities of the third set of scatter rays at the third angular optical sensor assembly; and\ndetermining the locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities, the second set of ray angles and intensities, and the third set of ray angles and intensities.\n\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 149,
+            "gate:gateId": 65,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 66,
+                "claim-text": [
+                    {
+                        "content": "emitting a third set of scatter rays from the incident points in response to receiving the incident beam;",
+                        "gate:gateId": 68
+                    },
+                    {
+                        "content": "receiving the third set of scatter rays at a third angular optical sensor assembly, wherein the first angular optical sensor assembly and the second angular optical sensor assembly sense in a common plane, and the third angular optical sensor assembly is located perpendicular to the common plane;",
+                        "gate:gateId": 69
+                    },
+                    {
+                        "content": "determining a third set of ray angles and intensities of the third set of scatter rays at the third angular optical sensor assembly; and",
+                        "gate:gateId": 70
+                    },
+                    {
+                        "content": "determining the locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities, the second set of ray angles and intensities, and the third set of ray angles and intensities.",
+                        "gate:gateId": 71
+                    }
+                ]
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00017",
+            "body": "a tomographic optical beam irradiance sensor system, the method comprising:\nproviding an optical medium operable to receive an incident beam at a plurality of incident points in the optical medium;\nproviding a first angular optical sensor assembly operable to sense a first set of ray angles and intensities of a plurality of scatter rays emitted from the incident points;\nproviding a second angular optical sensor assembly operable to sense a second set of ray angles and intensities of the scatter rays emitted from the incident points; and\nproviding a tomography module operable to determine a plurality of locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities and the second set of ray angles and intensities.\n\n",
+            "claimType": "independent",
+            "num": "00017",
+            "transPhrase": " for providing ",
+            "claimSize": 139,
+            "gate:gateId": 72,
+            "claim_preamble": "A method",
+            "claimNumber": 17,
+            "claim-text": {
+                "content": "17. A method for providing a tomographic optical beam irradiance sensor system, the method comprising:",
+                "gate:gateId": 73,
+                "claim-text": [
+                    {
+                        "content": "providing an optical medium operable to receive an incident beam at a plurality of incident points in the optical medium;",
+                        "gate:gateId": 74
+                    },
+                    {
+                        "content": "providing a first angular optical sensor assembly operable to sense a first set of ray angles and intensities of a plurality of scatter rays emitted from the incident points;",
+                        "gate:gateId": 75
+                    },
+                    {
+                        "content": "providing a second angular optical sensor assembly operable to sense a second set of ray angles and intensities of the scatter rays emitted from the incident points; and",
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": "providing a tomography module operable to determine a plurality of locations and intensities of the incident points in the optical medium based on the first set of ray angles and intensities and the second set of ray angles and intensities.",
+                        "gate:gateId": 77
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the optical medium is operable to scatter an emitted ray of the scatter rays at a scatter ray frequency that is different from an incident beam frequency of the incident beam.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 17 ,",
+            "claimSize": 42,
+            "gate:gateId": 78,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method according to",
+                    ", wherein the optical medium is operable to scatter an emitted ray of the scatter rays at a scatter ray frequency that is different from an incident beam frequency of the incident beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 80,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 79
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the locations of the incident points via a Radon transform based on the first set of ray angles and intensities and the second set of ray angles and intensities.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": "further comprising determining ",
+            "claimBackReference": "according to claim 17 ,",
+            "claimSize": 42,
+            "gate:gateId": 81,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method according to",
+                    ", further comprising determining the locations of the incident points via a Radon transform based on the first set of ray angles and intensities and the second set of ray angles and intensities."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 83,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 82
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the first angular optical sensor assembly and the second angular optical sensor assembly comprise an angular optical sensor assembly comprising:\nan aperture operable to collimate the scatter rays;\na telecentric lens operable to direct a received ray of the scatter rays to a sensor corresponding to a direction of the received ray; and\na detector array operable to detect the received ray.\n\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 17 ,",
+            "claimSize": 76,
+            "gate:gateId": 84,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method according to",
+                    ", wherein the first angular optical sensor assembly and the second angular optical sensor assembly comprise an angular optical sensor assembly comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 86,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 85,
+                "claim-text": [
+                    {
+                        "content": "an aperture operable to collimate the scatter rays;",
+                        "gate:gateId": 87
+                    },
+                    {
+                        "content": "a telecentric lens operable to direct a received ray of the scatter rays to a sensor corresponding to a direction of the received ray; and",
+                        "gate:gateId": 88
+                    },
+                    {
+                        "content": "a detector array operable to detect the received ray.",
+                        "gate:gateId": 89
+                    }
+                ]
+            },
+            "depends_on": 17
+        }
+    ],
+    "numberIndependentClaims": 112
+}}

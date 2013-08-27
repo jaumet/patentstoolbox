@@ -1,0 +1,135 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499512-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 19,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1324,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a first wall having a lower end and an upper end, comprising:\na plurality of vertical studs; and\na header track comprising a web and two flanges extending from opposite sides of the web, the web and two flanges forming a periphery of the header track such that the header track forms an overall generally C-shaped structure having empty space defined between the two flanges, the generally C-shaped structure being sized and shaped to receive the vertical studs, the header track extending in a generally horizontal direction along the upper end of the first wall and interconnecting the plurality of vertical studs, wherein the header track comprises an elongate protrusion extending along a length of the header track, the elongate protrusion being spacially offset from a plane containing the web;\na second wall having a lower end and an upper end, the second wall positioned above the first wall;\na floor positioned horizontally between the first and second walls;\na sheathing element having an upper end and a lower end, the sheathing element covering at least a portion of the second wall and floor, the lower end of the sheathing element overlapping a portion of the header track;\nwherein the lower end of the sheathing element rests upon the elongate protrusion.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 237,
+            "gate:gateId": 1,
+            "claim_preamble": "A building structure",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A building structure, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a first wall having a lower end and an upper end, comprising:",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a plurality of vertical studs; and",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a header track comprising a web and two flanges extending from opposite sides of the web, the web and two flanges forming a periphery of the header track such that the header track forms an overall generally C-shaped structure having empty space defined between the two flanges, the generally C-shaped structure being sized and shaped to receive the vertical studs, the header track extending in a generally horizontal direction along the upper end of the first wall and interconnecting the plurality of vertical studs, wherein the header track comprises an elongate protrusion extending along a length of the header track, the elongate protrusion being spacially offset from a plane containing the web;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a second wall having a lower end and an upper end, the second wall positioned above the first wall;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a floor positioned horizontally between the first and second walls;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "a sheathing element having an upper end and a lower end, the sheathing element covering at least a portion of the second wall and floor, the lower end of the sheathing element overlapping a portion of the header track;",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein the lower end of the sheathing element rests upon the elongate protrusion.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "an upper surface of the elongate protrusion is flat.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 20,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The building structure",
+            "claim-text": {
+                "content": [
+                    "2. The building structure of",
+                    ", wherein an upper surface of the elongate protrusion is flat."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a plurality of fasteners, each of which couples the header track with one of the plurality of vertical studs, wherein the protrusion is positioned above the plurality of fasteners.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", additionally comprising ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 43,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The building structure",
+            "claim-text": {
+                "content": [
+                    "3. The building structure of",
+                    ", additionally comprising a plurality of fasteners, each of which couples the header track with one of the plurality of vertical studs, wherein the protrusion is positioned above the plurality of fasteners."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "a building structure, the structure comprising a first wall having a lower end and an upper end, the first wall comprising a plurality of vertical studs and a header track, the header track comprising a web and two flanges extending from opposite sides of the web, the web and two flanges forming a periphery of the header track such that the header track forms an overall generally C-shaped structure having empty space defined between the two flanges, the generally C-shaped structure being sized and shaped to receive the vertical studs, the header track extending in a generally horizontal direction along the upper end of the first wall and interconnecting the plurality of vertical studs, wherein the header track comprises an elongate protrusion extending along a length of the header track, the elongate protrusion being spacially offset from a plane containing the web, the structure further comprising a second wall having a lower end and an upper end, the second wall positioned above the first wall, the structure further comprising a floor positioned horizontally between the first and second walls, the structure further comprising a sheathing element having an upper end and a lower end, the sheathing element covering at least a portion of the second wall and floor, the lower end of the sheathing element overlapping a portion of the header track, wherein the method comprises:\nresting the sheathing element on the elongate protrusion and then securing the sheathing element to the second wall by one or more fasteners. \n\n",
+            "claimType": "independent",
+            "num": "00004",
+            "transPhrase": " of assembling ",
+            "claimSize": 274,
+            "gate:gateId": 16,
+            "claim_preamble": "A method",
+            "claimNumber": 4,
+            "claim-text": {
+                "content": "4. A method of assembling a building structure, the structure comprising a first wall having a lower end and an upper end, the first wall comprising a plurality of vertical studs and a header track, the header track comprising a web and two flanges extending from opposite sides of the web, the web and two flanges forming a periphery of the header track such that the header track forms an overall generally C-shaped structure having empty space defined between the two flanges, the generally C-shaped structure being sized and shaped to receive the vertical studs, the header track extending in a generally horizontal direction along the upper end of the first wall and interconnecting the plurality of vertical studs, wherein the header track comprises an elongate protrusion extending along a length of the header track, the elongate protrusion being spacially offset from a plane containing the web, the structure further comprising a second wall having a lower end and an upper end, the second wall positioned above the first wall, the structure further comprising a floor positioned horizontally between the first and second walls, the structure further comprising a sheathing element having an upper end and a lower end, the sheathing element covering at least a portion of the second wall and floor, the lower end of the sheathing element overlapping a portion of the header track, wherein the method comprises:",
+                "gate:gateId": 17,
+                "claim-text": {
+                    "content": "resting the sheathing element on the elongate protrusion and then securing the sheathing element to the second wall by one or more fasteners.",
+                    "gate:gateId": 18
+                }
+            }
+        }
+    ],
+    "numberIndependentClaims": 272
+}}

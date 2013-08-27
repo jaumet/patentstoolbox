@@ -1,0 +1,572 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503073-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 76,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2634,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "light by luminescence comprising a substrate having a front side and a backside, a waveguide, a pump light source and a photoluminescent layer,\nwherein said waveguide is evanescently coupled with said photoluminescent layer;\nwherein said pump light source is provided opposite to said photoluminescent layer at said backside of said substrate;\nwherein said waveguide is positioned between said substrate and said photoluminescent layer;\nwherein said pump light source is adapted to pump said photoluminescent layer to emit light such that at least some of said emitted light is evanescently coupled into said waveguide.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " generating ",
+            "claimSize": 106,
+            "gate:gateId": 1,
+            "claim_preamble": "An optical device",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. An optical device generating light by luminescence comprising a substrate having a front side and a backside, a waveguide, a pump light source and a photoluminescent layer,",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "wherein said waveguide is evanescently coupled with said photoluminescent layer;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "wherein said pump light source is provided opposite to said photoluminescent layer at said backside of said substrate;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "wherein said waveguide is positioned between said substrate and said photoluminescent layer;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "wherein said pump light source is adapted to pump said photoluminescent layer to emit light such that at least some of said emitted light is evanescently coupled into said waveguide.",
+                        "gate:gateId": 6
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "waveguide is a low-order waveguide with a thickness in the range of 10 nm to 10 μm.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 30,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "2. The optical device according to",
+                    ", wherein said waveguide is a low-order waveguide with a thickness in the range of 10 nm to 10 μm."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the absorption and emission peak of light emitted by said photoluminescent layer are spectrally separated by at least 50 nm.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 32,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "3. The optical device according to",
+                    ", wherein the absorption and emission peak of light emitted by said photoluminescent layer are spectrally separated by at least 50 nm."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "an encapsulation layer sealing said photoluminescent layer.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "comprising ",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 18,
+            "gate:gateId": 13,
+            "claimNumber": 4,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "4. The optical device according to",
+                    "comprising an encapsulation layer sealing said photoluminescent layer."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a spacer layer and a mirror, wherein said spacer layer has a thickness t SL and is disposed between said photoluminescent layer and said mirror, and wherein said mirror is adapted to reflect and re-inject at least some of the light pumped by said pump light source back into said photoluminescent layer.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 67,
+            "gate:gateId": 16,
+            "claimNumber": 5,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "5. The optical device according to",
+                    ", further comprising a spacer layer and a mirror, wherein said spacer layer has a thickness t",
+                    "and is disposed between said photoluminescent layer and said mirror, and wherein said mirror is adapted to reflect and re-inject at least some of the light pumped by said pump light source back into said photoluminescent layer."
+                ],
+                "sub": {
+                    "content": "SL",
+                    "gate:gateId": 19
+                },
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "thickness t SL is at least twice as large as the penetration depth L P of a wavefront field into said photoluminescent layer.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 36,
+            "gate:gateId": 20,
+            "claimNumber": 6,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "6. The optical device according to",
+                    ", wherein said thickness t",
+                    "is at least twice as large as the penetration depth L",
+                    "of a wavefront field into said photoluminescent layer."
+                ],
+                "sub": [
+                    {
+                        "content": "SL",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "P",
+                        "gate:gateId": 24
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "1 comprising an optical filter structure adapted to modify at least some of the light being coupled into said waveguide.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 29,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "7. The optical device according to",
+                    "comprising an optical filter structure adapted to modify at least some of the light being coupled into said waveguide."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "optical filter structured is positioned between said waveguide and said photoluminescent layer.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 25,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "8. The optical device according to",
+                    ", wherein said optical filter structured is positioned between said waveguide and said photoluminescent layer."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "optical filter is positioned between said substrate and said waveguide.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 23,
+            "gate:gateId": 31,
+            "claimNumber": 9,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "9. The optical device according to",
+                    ", wherein said optical filter is positioned between said substrate and said waveguide."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "one substrate having a front side and a backside, a plurality of waveguides, a plurality of pump light sources and a plurality of photoluminescent layers,\nwherein said plurality of waveguides are evanescently coupled, respectively, with said plurality of photoluminescent layers,\nwherein said plurality of pump light sources are provided on said backside of said at least one substrate opposite to said plurality of photoluminescent layers, respectively;\nsaid plurality of waveguides are positioned between said plurality of photoluminescent layers and said at least one substrate; and\nwherein said plurality of pump light sources are adapted to pump said plurality of photoluminescent layers to emit light such that at least some of said emitted light is optically coupled into said plurality of waveguides, respectively.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " comprising at least ",
+            "claimSize": 141,
+            "gate:gateId": 34,
+            "claim_preamble": "An optical system",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. An optical system comprising at least one substrate having a front side and a backside, a plurality of waveguides, a plurality of pump light sources and a plurality of photoluminescent layers,",
+                "gate:gateId": 35,
+                "claim-text": [
+                    {
+                        "content": "wherein said plurality of waveguides are evanescently coupled, respectively, with said plurality of photoluminescent layers,",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "wherein said plurality of pump light sources are provided on said backside of said at least one substrate opposite to said plurality of photoluminescent layers, respectively;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "said plurality of waveguides are positioned between said plurality of photoluminescent layers and said at least one substrate; and",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "wherein said plurality of pump light sources are adapted to pump said plurality of photoluminescent layers to emit light such that at least some of said emitted light is optically coupled into said plurality of waveguides, respectively.",
+                        "gate:gateId": 39
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the thickness t SL has a magnitude of at least 1 μm.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 24,
+            "gate:gateId": 40,
+            "claimNumber": 11,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "11. The optical device according to",
+                    ", wherein the thickness t",
+                    "has a magnitude of at least 1 μm."
+                ],
+                "sub": {
+                    "content": "SL",
+                    "gate:gateId": 43
+                },
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00012",
+            "body": "waveguide comprises an out-coupling grating structure for coupling light out from said waveguide.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 26,
+            "gate:gateId": 44,
+            "claimNumber": 12,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "12. The optical device according to",
+                    ", wherein said waveguide comprises an out-coupling grating structure for coupling light out from said waveguide."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "a light sensitive device located on said waveguide and operative to detect light coupled out from said waveguide.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 47,
+            "claimNumber": 13,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "13. The optical device according to",
+                    ", further comprising a light sensitive device located on said waveguide and operative to detect light coupled out from said waveguide."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00014",
+            "body": "light by luminescence comprising a substrate having a front side and a backside, a waveguide, a pump light source and a photoluminescent layer, wherein said waveguide is evanescently coupled with said photoluminescent layer;\nwherein said pump light source is provided opposite to said photoluminescent layer at said backside of said substrate;\nwherein said photoluminescent layer is positioned between said substrate and said waveguide; and\nwherein said pump light source is adapted to pump said photoluminescent layer to emit light such that at least some of said emitted light is evanescently coupled into said waveguide.\n\n",
+            "claimType": "independent",
+            "num": "00014",
+            "transPhrase": " generating ",
+            "claimSize": 107,
+            "gate:gateId": 50,
+            "claim_preamble": "An optical device",
+            "claimNumber": 14,
+            "claim-text": {
+                "content": "14. An optical device generating light by luminescence comprising a substrate having a front side and a backside, a waveguide, a pump light source and a photoluminescent layer, wherein said waveguide is evanescently coupled with said photoluminescent layer;",
+                "gate:gateId": 51,
+                "claim-text": [
+                    {
+                        "content": "wherein said pump light source is provided opposite to said photoluminescent layer at said backside of said substrate;",
+                        "gate:gateId": 52
+                    },
+                    {
+                        "content": "wherein said photoluminescent layer is positioned between said substrate and said waveguide; and",
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": "wherein said pump light source is adapted to pump said photoluminescent layer to emit light such that at least some of said emitted light is evanescently coupled into said waveguide.",
+                        "gate:gateId": 54
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00015",
+            "body": "a spacer layer and a mirror, wherein said spacer layer has a thickness t SL and is disposed between said photoluminescent layer and said mirror, and wherein said mirror is adapted to reflect and re-inject at least some of the light pumped by said pump light source back into said photoluminescent layer.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 14 ,",
+            "claimSize": 67,
+            "gate:gateId": 55,
+            "claimNumber": 15,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "15. The optical device according to",
+                    ", further comprising a spacer layer and a mirror, wherein said spacer layer has a thickness t",
+                    "and is disposed between said photoluminescent layer and said mirror, and wherein said mirror is adapted to reflect and re-inject at least some of the light pumped by said pump light source back into said photoluminescent layer."
+                ],
+                "sub": {
+                    "content": "SL",
+                    "gate:gateId": 58
+                },
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "waveguide comprises an out-coupling grating structure for coupling light out from said waveguide.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 14 ,",
+            "claimSize": 26,
+            "gate:gateId": 59,
+            "claimNumber": 16,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "16. The optical device according to",
+                    ", wherein said waveguide comprises an out-coupling grating structure for coupling light out from said waveguide."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00017",
+            "body": "a light sensitive device located on said waveguide and operative to detect light coupled out from said waveguide.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 16 ,",
+            "claimSize": 31,
+            "gate:gateId": 62,
+            "claimNumber": 17,
+            "claim_preamble": "The optical device",
+            "claim-text": {
+                "content": [
+                    "17. The optical device according to",
+                    ", further comprising a light sensitive device located on said waveguide and operative to detect light coupled out from said waveguide."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "a plurality of sensing areas and a plurality of detectors, whereby the plurality of sensing areas and detectors are substantially aligned with respect to the plurality of photoluminescent layers.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 41,
+            "gate:gateId": 65,
+            "claimNumber": 18,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "18. The optical system of",
+                    "further comprising a plurality of sensing areas and a plurality of detectors, whereby the plurality of sensing areas and detectors are substantially aligned with respect to the plurality of photoluminescent layers."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00019",
+            "body": "one substrate having a front side and a backside, a plurality of waveguides, a plurality of pump light sources, and a plurality of photoluminescent layers, wherein said plurality of waveguides are evanescently coupled, respectively, with said plurality of photoluminescent layers,\nwherein said plurality of photoluminescent layers are positioned between said substrate and said plurality of waveguides;\nwherein said plurality of pump light sources are provided on said backside of said at least one substrate opposite to said plurality of photoluminescent layers, respectively, and\nwherein said plurality of pump light sources is adapted to pump said plurality of photoluminescent layers to emit light such that at least some of the emitted light is optically coupled into said plurality of waveguides, respectively.\n\n",
+            "claimType": "independent",
+            "num": "00019",
+            "transPhrase": " comprising at least ",
+            "claimSize": 140,
+            "gate:gateId": 68,
+            "claim_preamble": "An optical system",
+            "claimNumber": 19,
+            "claim-text": {
+                "content": "19. An optical system comprising at least one substrate having a front side and a backside, a plurality of waveguides, a plurality of pump light sources, and a plurality of photoluminescent layers, wherein said plurality of waveguides are evanescently coupled, respectively, with said plurality of photoluminescent layers,",
+                "gate:gateId": 69,
+                "claim-text": [
+                    {
+                        "content": "wherein said plurality of photoluminescent layers are positioned between said substrate and said plurality of waveguides;",
+                        "gate:gateId": 70
+                    },
+                    {
+                        "content": "wherein said plurality of pump light sources are provided on said backside of said at least one substrate opposite to said plurality of photoluminescent layers, respectively, and",
+                        "gate:gateId": 71
+                    },
+                    {
+                        "content": "wherein said plurality of pump light sources is adapted to pump said plurality of photoluminescent layers to emit light such that at least some of the emitted light is optically coupled into said plurality of waveguides, respectively.",
+                        "gate:gateId": 72
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00020",
+            "body": "19 further comprising a plurality of sensing areas and a plurality of detectors, whereby the plurality of sensing areas and detectors are substantially aligned with respect to the plurality of photoluminescent layers.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 19",
+            "claimSize": 41,
+            "gate:gateId": 73,
+            "claimNumber": 20,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "20. The optical system of",
+                    "further comprising a plurality of sensing areas and a plurality of detectors, whereby the plurality of sensing areas and detectors are substantially aligned with respect to the plurality of photoluminescent layers."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 19
+        }
+    ],
+    "numberIndependentClaims": 116
+}}

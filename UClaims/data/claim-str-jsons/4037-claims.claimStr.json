@@ -1,0 +1,1014 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502962-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 215,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 7814,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a program executable by a computer to execute a method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from said illumination optical system, and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system,\nthe method comprising the steps of:\ndetermining an impulse response function of said projection optical system through a process of performing Fourier transform on a pupil function of said projection optical system;\nsetting a length to a second zero point of the impulse response function from the origin as a response length, extracting, from elements forming a target pattern to be formed on the substrate, only elements for each of which the spacing to an adjacent element is equal to or smaller than the response length, and determining a function indicating the extracted pattern as an image function; and\nobtaining the light intensity distribution to be formed on the pupil plane of said illumination optical system based on the pupil function, the determined impulse response function, and the determined image function.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " storing ",
+            "claimSize": 216,
+            "gate:gateId": 1,
+            "claim_preamble": "A non-transitory computer readable storage medium",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A non-transitory computer readable storage medium storing a program executable by a computer to execute a method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from said illumination optical system, and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system,",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "the method comprising the steps of:",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "determining an impulse response function of said projection optical system through a process of performing Fourier transform on a pupil function of said projection optical system;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "setting a length to a second zero point of the impulse response function from the origin as a response length, extracting, from elements forming a target pattern to be formed on the substrate, only elements for each of which the spacing to an adjacent element is equal to or smaller than the response length, and determining a function indicating the extracted pattern as an image function; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "obtaining the light intensity distribution to be formed on the pupil plane of said illumination optical system based on the pupil function, the determined impulse response function, and the determined image function.",
+                        "gate:gateId": 6
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the pupil function includes an aberration of said projection optical system.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 26,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The non-transitory computer readable storage medium",
+            "claim-text": {
+                "content": [
+                    "2. The non-transitory computer readable storage medium according to",
+                    ", wherein the pupil function includes an aberration of said projection optical system."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the step of obtaining the light intensity distribution comprises the steps of:\nexecuting a division process of dividing the determined image function by the impulse response function, and performing inverse Fourier transform on the function having performed the division process; and\nobtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system by performing a division process of dividing the function having performed inverse Fourier transform by a complex conjugate function of the pupil function.\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 99,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The non-transitory computer readable storage medium",
+            "claim-text": {
+                "content": [
+                    "3. The non-transitory computer readable storage medium according to",
+                    ", wherein the step of obtaining the light intensity distribution comprises the steps of:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11,
+                "claim-text": [
+                    {
+                        "content": "executing a division process of dividing the determined image function by the impulse response function, and performing inverse Fourier transform on the function having performed the division process; and",
+                        "gate:gateId": 13
+                    },
+                    {
+                        "content": "obtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system by performing a division process of dividing the function having performed inverse Fourier transform by a complex conjugate function of the pupil function.",
+                        "gate:gateId": 14
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "a wavelength of the light which illuminates the original, and NA be a numerical aperture of said projection optical system, the step of determining the impulse response function comprises, after performing Fourier transform on the pupil function, the step of replacing coordinates on an image plane of said projection optical system with coordinates on the pupil plane of said projection optical system by dividing the coordinates on the image plane by (NA/λ), and replacing a nonzero value at a point at which an impulse response function is zero.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein letting λ be ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 115,
+            "gate:gateId": 15,
+            "claimNumber": 4,
+            "claim_preamble": "The non-transitory computer readable storage medium",
+            "claim-text": {
+                "content": [
+                    "4. The non-transitory computer readable storage medium according to",
+                    ", wherein letting λ be a wavelength of the light which illuminates the original, and NA be a numerical aperture of said projection optical system, the step of determining the impulse response function comprises, after performing Fourier transform on the pupil function, the step of replacing coordinates on an image plane of said projection optical system with coordinates on the pupil plane of said projection optical system by dividing the coordinates on the image plane by (NA/λ), and replacing a nonzero value at a point at which an impulse response function is zero."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a program executable by a computer to execute a method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from said illumination optical system, and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system,\nthe method comprising the steps of:\ndetermining an impulse response function of said projection optical system through a process of performing Fourier transform on a pupil function of said projection optical system;\nsetting a length to a second zero point of the impulse response function from the origin as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and\nobtaining the light intensity distribution to be formed on the pupil plane of said illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,\nwherein the step of determining the image function comprises the steps of:\ncalculating a diffracted light distribution of the target pattern to be formed on the substrate;\nextracting diffracted light components having the same phase from the calculated diffracted light distribution;\nperforming Fourier transform on the extracted diffracted light components;\nobtaining a function of peak positions of the diffracted light components having performed Fourier transform, within a range enclosed with a circle centering around an optical axis of said projection optical system and having a diameter not more than the response length; and\nconvolving a function representing a shape of an element forming the target pattern into the obtained function of peak positions, and determining the convolved function as an image function.\n\n",
+            "claimType": "independent",
+            "num": "00005",
+            "transPhrase": " storing ",
+            "claimSize": 325,
+            "gate:gateId": 18,
+            "claim_preamble": "A non-transitory computer readable storage medium",
+            "claimNumber": 5,
+            "claim-text": {
+                "content": "5. A non-transitory computer readable storage medium storing a program executable by a computer to execute a method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from said illumination optical system, and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system,",
+                "gate:gateId": 19,
+                "claim-text": [
+                    {
+                        "content": "the method comprising the steps of:",
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": "determining an impulse response function of said projection optical system through a process of performing Fourier transform on a pupil function of said projection optical system;",
+                        "gate:gateId": 21
+                    },
+                    {
+                        "content": "setting a length to a second zero point of the impulse response function from the origin as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "obtaining the light intensity distribution to be formed on the pupil plane of said illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "wherein the step of determining the image function comprises the steps of:",
+                        "gate:gateId": 24
+                    },
+                    {
+                        "content": "calculating a diffracted light distribution of the target pattern to be formed on the substrate;",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "extracting diffracted light components having the same phase from the calculated diffracted light distribution;",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "performing Fourier transform on the extracted diffracted light components;",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "obtaining a function of peak positions of the diffracted light components having performed Fourier transform, within a range enclosed with a circle centering around an optical axis of said projection optical system and having a diameter not more than the response length; and",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "convolving a function representing a shape of an element forming the target pattern into the obtained function of peak positions, and determining the convolved function as an image function.",
+                        "gate:gateId": 29
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a program executable by a computer to execute a method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from said illumination optical system, and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system,\nthe method comprising the steps of:\ndetermining an impulse response function of said projection optical system through a process of performing Fourier transform on a pupil function of said projection optical system;\nsetting a length to a second zero point of the impulse response function from the origin as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and\nobtaining the light intensity distribution to be formed on the pupil plane of said illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,\nwherein letting I(x,y) be an image of the target pattern to be formed on the substrate, a(f,g) be a diffracted light distribution of the target pattern at a point (f,g) on the pupil plane of said projection optical system, F be Fourier transform, and F −1 be inverse Fourier transform, the step of determining the image function comprises the step of calculating an image function r(x,y) by substituting the image I(x,y) of the target pattern and the diffracted light distribution a(f,g) of the target pattern into a right side of\n\n\n\n\n\n  \n    r\n    \u2061\n    \n      (\n      \n        x\n        ,\n        y\n      \n      )\n    \n  \n  =\n  \n    F\n    \u2061\n    \n      [\n      \n        \n          1\n          \n            a\n            \u2061\n            \n              (\n              \n                f\n                ,\n                g\n              \n              )\n            \n          \n        \n        \u2062\n        \n          \n            F\n            \n              -\n              1\n            \n          \n          \u2061\n          \n            [\n            \n              \n                I\n                \u2061\n                \n                  (\n                  \n                    x\n                    ,\n                    y\n                  \n                  )\n                \n              \n              \n                F\n                \u2061\n                \n                  [\n                  \n                    a\n                    \u2061\n                    \n                      (\n                      \n                        f\n                        ,\n                        g\n                      \n                      )\n                    \n                  \n                  ]\n                \n              \n            \n            ]\n          \n        \n      \n      ]\n    \n  \n\n\n\n\nand replacing with zero a value of the image function for which a distance from an optical axis of said projection optical system is larger than the response length.\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": " storing ",
+            "claimSize": 394,
+            "gate:gateId": 30,
+            "claim_preamble": "A non-transitory computer readable storage medium",
+            "claimNumber": 6,
+            "claim-text": [
+                {
+                    "content": "6. A non-transitory computer readable storage medium storing a program executable by a computer to execute a method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from said illumination optical system, and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system,",
+                    "gate:gateId": 31,
+                    "claim-text": [
+                        {
+                            "content": "the method comprising the steps of:",
+                            "gate:gateId": 32
+                        },
+                        {
+                            "content": "determining an impulse response function of said projection optical system through a process of performing Fourier transform on a pupil function of said projection optical system;",
+                            "gate:gateId": 33
+                        },
+                        {
+                            "content": "setting a length to a second zero point of the impulse response function from the origin as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and",
+                            "gate:gateId": 34
+                        },
+                        {
+                            "content": "obtaining the light intensity distribution to be formed on the pupil plane of said illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,",
+                            "gate:gateId": 35
+                        },
+                        {
+                            "content": [
+                                "wherein letting I(x,y) be an image of the target pattern to be formed on the substrate, a(f,g) be a diffracted light distribution of the target pattern at a point (f,g) on the pupil plane of said projection optical system, F be Fourier transform, and F",
+                                "be inverse Fourier transform, the step of determining the image function comprises the step of calculating an image function r(x,y) by substituting the image I(x,y) of the target pattern and the diffracted light distribution a(f,g) of the target pattern into a right side of"
+                            ],
+                            "gate:gateId": 36,
+                            "sup": {
+                                "content": "−1",
+                                "gate:gateId": 37
+                            }
+                        }
+                    ]
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": "=",
+                                    "gate:gateId": 52
+                                },
+                                "mrow": [
+                                    {
+                                        "mo": {
+                                            "content": "\u2061",
+                                            "gate:gateId": 44
+                                        },
+                                        "mrow": {
+                                            "mo": [
+                                                {
+                                                    "content": "(",
+                                                    "gate:gateId": 46
+                                                },
+                                                {
+                                                    "content": ")",
+                                                    "gate:gateId": 51
+                                                }
+                                            ],
+                                            "mrow": {
+                                                "mo": {
+                                                    "content": ",",
+                                                    "gate:gateId": 49
+                                                },
+                                                "gate:gateId": 47,
+                                                "mi": [
+                                                    {
+                                                        "content": "x",
+                                                        "gate:gateId": 48
+                                                    },
+                                                    {
+                                                        "content": "y",
+                                                        "gate:gateId": 50
+                                                    }
+                                                ]
+                                            },
+                                            "gate:gateId": 45
+                                        },
+                                        "gate:gateId": 42,
+                                        "mi": {
+                                            "content": "r",
+                                            "gate:gateId": 43
+                                        }
+                                    },
+                                    {
+                                        "mo": {
+                                            "content": "\u2061",
+                                            "gate:gateId": 55
+                                        },
+                                        "mrow": {
+                                            "mo": [
+                                                {
+                                                    "content": "[",
+                                                    "gate:gateId": 57
+                                                },
+                                                {
+                                                    "content": "]",
+                                                    "gate:gateId": 109
+                                                }
+                                            ],
+                                            "mrow": {
+                                                "mo": {
+                                                    "content": "\u2062",
+                                                    "gate:gateId": 71
+                                                },
+                                                "mrow": {
+                                                    "mo": {
+                                                        "content": "\u2061",
+                                                        "gate:gateId": 78
+                                                    },
+                                                    "mrow": {
+                                                        "mo": [
+                                                            {
+                                                                "content": "[",
+                                                                "gate:gateId": 80
+                                                            },
+                                                            {
+                                                                "content": "]",
+                                                                "gate:gateId": 108
+                                                            }
+                                                        ],
+                                                        "gate:gateId": 79,
+                                                        "mfrac": {
+                                                            "mrow": [
+                                                                {
+                                                                    "mo": {
+                                                                        "content": "\u2061",
+                                                                        "gate:gateId": 84
+                                                                    },
+                                                                    "mrow": {
+                                                                        "mo": [
+                                                                            {
+                                                                                "content": "(",
+                                                                                "gate:gateId": 86
+                                                                            },
+                                                                            {
+                                                                                "content": ")",
+                                                                                "gate:gateId": 91
+                                                                            }
+                                                                        ],
+                                                                        "mrow": {
+                                                                            "mo": {
+                                                                                "content": ",",
+                                                                                "gate:gateId": 89
+                                                                            },
+                                                                            "gate:gateId": 87,
+                                                                            "mi": [
+                                                                                {
+                                                                                    "content": "x",
+                                                                                    "gate:gateId": 88
+                                                                                },
+                                                                                {
+                                                                                    "content": "y",
+                                                                                    "gate:gateId": 90
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "gate:gateId": 85
+                                                                    },
+                                                                    "gate:gateId": 82,
+                                                                    "mi": {
+                                                                        "content": "I",
+                                                                        "gate:gateId": 83
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "mo": {
+                                                                        "content": "\u2061",
+                                                                        "gate:gateId": 94
+                                                                    },
+                                                                    "mrow": {
+                                                                        "mo": [
+                                                                            {
+                                                                                "content": "[",
+                                                                                "gate:gateId": 96
+                                                                            },
+                                                                            {
+                                                                                "content": "]",
+                                                                                "gate:gateId": 107
+                                                                            }
+                                                                        ],
+                                                                        "mrow": {
+                                                                            "mo": {
+                                                                                "content": "\u2061",
+                                                                                "gate:gateId": 99
+                                                                            },
+                                                                            "mrow": {
+                                                                                "mo": [
+                                                                                    {
+                                                                                        "content": "(",
+                                                                                        "gate:gateId": 101
+                                                                                    },
+                                                                                    {
+                                                                                        "content": ")",
+                                                                                        "gate:gateId": 106
+                                                                                    }
+                                                                                ],
+                                                                                "mrow": {
+                                                                                    "mo": {
+                                                                                        "content": ",",
+                                                                                        "gate:gateId": 104
+                                                                                    },
+                                                                                    "gate:gateId": 102,
+                                                                                    "mi": [
+                                                                                        {
+                                                                                            "content": "f",
+                                                                                            "gate:gateId": 103
+                                                                                        },
+                                                                                        {
+                                                                                            "content": "g",
+                                                                                            "gate:gateId": 105
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "gate:gateId": 100
+                                                                            },
+                                                                            "gate:gateId": 97,
+                                                                            "mi": {
+                                                                                "content": "a",
+                                                                                "gate:gateId": 98
+                                                                            }
+                                                                        },
+                                                                        "gate:gateId": 95
+                                                                    },
+                                                                    "gate:gateId": 92,
+                                                                    "mi": {
+                                                                        "content": "F",
+                                                                        "gate:gateId": 93
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "gate:gateId": 81
+                                                        }
+                                                    },
+                                                    "msup": {
+                                                        "mrow": {
+                                                            "mn": {
+                                                                "content": 1,
+                                                                "gate:gateId": 77
+                                                            },
+                                                            "mo": {
+                                                                "content": "-",
+                                                                "gate:gateId": 76
+                                                            },
+                                                            "gate:gateId": 75
+                                                        },
+                                                        "gate:gateId": 73,
+                                                        "mi": {
+                                                            "content": "F",
+                                                            "gate:gateId": 74
+                                                        }
+                                                    },
+                                                    "gate:gateId": 72
+                                                },
+                                                "gate:gateId": 58,
+                                                "mfrac": {
+                                                    "mn": {
+                                                        "content": 1,
+                                                        "gate:gateId": 60
+                                                    },
+                                                    "mrow": {
+                                                        "mo": {
+                                                            "content": "\u2061",
+                                                            "gate:gateId": 63
+                                                        },
+                                                        "mrow": {
+                                                            "mo": [
+                                                                {
+                                                                    "content": "(",
+                                                                    "gate:gateId": 65
+                                                                },
+                                                                {
+                                                                    "content": ")",
+                                                                    "gate:gateId": 70
+                                                                }
+                                                            ],
+                                                            "mrow": {
+                                                                "mo": {
+                                                                    "content": ",",
+                                                                    "gate:gateId": 68
+                                                                },
+                                                                "gate:gateId": 66,
+                                                                "mi": [
+                                                                    {
+                                                                        "content": "f",
+                                                                        "gate:gateId": 67
+                                                                    },
+                                                                    {
+                                                                        "content": "g",
+                                                                        "gate:gateId": 69
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "gate:gateId": 64
+                                                        },
+                                                        "gate:gateId": 61,
+                                                        "mi": {
+                                                            "content": "a",
+                                                            "gate:gateId": 62
+                                                        }
+                                                    },
+                                                    "gate:gateId": 59
+                                                }
+                                            },
+                                            "gate:gateId": 56
+                                        },
+                                        "gate:gateId": 53,
+                                        "mi": {
+                                            "content": "F",
+                                            "gate:gateId": 54
+                                        }
+                                    }
+                                ],
+                                "gate:gateId": 41
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 40
+                        },
+                        "id": "MATH-US-00005",
+                        "num": "00005",
+                        "gate:gateId": 39
+                    },
+                    "gate:gateId": 38
+                },
+                {
+                    "content": "and replacing with zero a value of the image function for which a distance from an optical axis of said projection optical system is larger than the response length.",
+                    "gate:gateId": 110
+                }
+            ]
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from the illumination optical system and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system, the method, which is executable by a computer, comprising the steps of:\ndetermining an impulse response function of the projection optical system through a process of performing Fourier transform on a pupil function of the projection optical system;\nsetting a length from the origin to a second zero point of the impulse response function as a response length, extracting, from elements forming a target pattern to be formed on the substrate, only elements for each of which the spacing to an adjacent element is equal to or smaller than the response length, and determining a function indicating the extracted pattern as an image function; and\nobtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system based on the pupil function, the determined impulse response function, and the determined image function.\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " of calculating ",
+            "claimSize": 208,
+            "gate:gateId": 111,
+            "claim_preamble": "A method",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from the illumination optical system and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system, the method, which is executable by a computer, comprising the steps of:",
+                "gate:gateId": 112,
+                "claim-text": [
+                    {
+                        "content": "determining an impulse response function of the projection optical system through a process of performing Fourier transform on a pupil function of the projection optical system;",
+                        "gate:gateId": 113
+                    },
+                    {
+                        "content": "setting a length from the origin to a second zero point of the impulse response function as a response length, extracting, from elements forming a target pattern to be formed on the substrate, only elements for each of which the spacing to an adjacent element is equal to or smaller than the response length, and determining a function indicating the extracted pattern as an image function; and",
+                        "gate:gateId": 114
+                    },
+                    {
+                        "content": "obtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system based on the pupil function, the determined impulse response function, and the determined image function.",
+                        "gate:gateId": 115
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the pupil function includes an aberration of the projection optical system.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 22,
+            "gate:gateId": 116,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method according to",
+                    ", wherein the pupil function includes an aberration of the projection optical system."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 118,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 117
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the steps of:\nexecuting a division process of dividing the determined image function by the impulse response function, and performing inverse Fourier transform on the function having performed the division process; and\nobtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system by performing a division process of dividing the function having performed inverse Fourier transform by a complex conjugate function of the pupil function.\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 87,
+            "gate:gateId": 119,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method according to",
+                    ", further comprising the steps of:"
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 121,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 120,
+                "claim-text": [
+                    {
+                        "content": "executing a division process of dividing the determined image function by the impulse response function, and performing inverse Fourier transform on the function having performed the division process; and",
+                        "gate:gateId": 122
+                    },
+                    {
+                        "content": "obtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system by performing a division process of dividing the function having performed inverse Fourier transform by a complex conjugate function of the pupil function.",
+                        "gate:gateId": 123
+                    }
+                ]
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from the illumination optical system and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system, the method, which is executable by a computer, comprising the steps of:\ndetermining an impulse response function of the projection optical system through a process of performing Fourier transform on a pupil function of the projection optical system;\nsetting a length from the origin to a second zero point of the impulse response function as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and\nobtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,\nwherein the step of determining the image function comprises the steps of:\ncalculating a diffracted light distribution of the target pattern to be formed on the substrate;\nextracting diffracted light components having the same phase from the calculated diffracted light distribution;\nperforming Fourier transform on the extracted diffracted light components;\nobtaining a function of peak positions within a area of not more than the response length; and\nconvolving a function representing a shape of an element forming the target pattern into the obtained peak position function, and determining the convolved function as an image function.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " of calculating ",
+            "claimSize": 289,
+            "gate:gateId": 124,
+            "claim_preamble": "A method",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from the illumination optical system and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system, the method, which is executable by a computer, comprising the steps of:",
+                "gate:gateId": 125,
+                "claim-text": [
+                    {
+                        "content": "determining an impulse response function of the projection optical system through a process of performing Fourier transform on a pupil function of the projection optical system;",
+                        "gate:gateId": 126
+                    },
+                    {
+                        "content": "setting a length from the origin to a second zero point of the impulse response function as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and",
+                        "gate:gateId": 127
+                    },
+                    {
+                        "content": "obtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,",
+                        "gate:gateId": 128
+                    },
+                    {
+                        "content": "wherein the step of determining the image function comprises the steps of:",
+                        "gate:gateId": 129
+                    },
+                    {
+                        "content": "calculating a diffracted light distribution of the target pattern to be formed on the substrate;",
+                        "gate:gateId": 130
+                    },
+                    {
+                        "content": "extracting diffracted light components having the same phase from the calculated diffracted light distribution;",
+                        "gate:gateId": 131
+                    },
+                    {
+                        "content": "performing Fourier transform on the extracted diffracted light components;",
+                        "gate:gateId": 132
+                    },
+                    {
+                        "content": "obtaining a function of peak positions within a area of not more than the response length; and",
+                        "gate:gateId": 133
+                    },
+                    {
+                        "content": "convolving a function representing a shape of an element forming the target pattern into the obtained peak position function, and determining the convolved function as an image function.",
+                        "gate:gateId": 134
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from the illumination optical system and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system, the method, which is executable by a computer, comprising the steps of:\ndetermining an impulse response function of the projection optical system through a process of performing Fourier transform on a pupil function of the projection optical system;\nsetting a length from the origin to a second zero point of the impulse response function as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and\nobtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,\nwherein letting r(x,y) be the image function, I(x,y) be an image of the target pattern to be formed on the substrate, a(f,g) be a diffracted light distribution of the target pattern at a point (f,g) on the pupil plane of the projection optical system, F be Fourier transform, and F −1 be inverse Fourier transform, the step of determining the image function comprises the step of calculating the image function r(x,y) by substituting the image I(x,y) of the target pattern and the diffracted light distribution a(f,g) of the target pattern into a right side of\n\n\n\n\n\n  \n    r\n    \u2061\n    \n      (\n      \n        x\n        ,\n        y\n      \n      )\n    \n  \n  =\n  \n    F\n    \u2061\n    \n      [\n      \n        \n          1\n          \n            a\n            \u2061\n            \n              (\n              \n                f\n                ,\n                g\n              \n              )\n            \n          \n        \n        \u2062\n        \n          \n            F\n            \n              -\n              1\n            \n          \n          \u2061\n          \n            [\n            \n              \n                I\n                \u2061\n                \n                  (\n                  \n                    x\n                    ,\n                    y\n                  \n                  )\n                \n              \n              \n                F\n                \u2061\n                \n                  [\n                  \n                    a\n                    \u2061\n                    \n                      (\n                      \n                        f\n                        ,\n                        g\n                      \n                      )\n                    \n                  \n                  ]\n                \n              \n            \n            ]\n          \n        \n      \n      ]\n    \n  \n\n\n\n\nand replacing with zero a value of the image function for which a distance from an optical axis of the projection optical system is larger than the response length.\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": " of calculating ",
+            "claimSize": 397,
+            "gate:gateId": 135,
+            "claim_preamble": "A method",
+            "claimNumber": 11,
+            "claim-text": [
+                {
+                    "content": "11. A method of calculating a light intensity distribution to be formed on a pupil plane of an illumination optical system in an exposure apparatus which illuminates an original with light emitted from the illumination optical system and exposes a substrate by projecting a pattern of the illuminated original onto the substrate via a projection optical system, the method, which is executable by a computer, comprising the steps of:",
+                    "gate:gateId": 136,
+                    "claim-text": [
+                        {
+                            "content": "determining an impulse response function of the projection optical system through a process of performing Fourier transform on a pupil function of the projection optical system;",
+                            "gate:gateId": 137
+                        },
+                        {
+                            "content": "setting a length from the origin to a second zero point of the impulse response function as a response length, extracting a pattern from elements forming a target pattern to be formed on the substrate, and determining a function indicating the extracted pattern as an image function; and",
+                            "gate:gateId": 138
+                        },
+                        {
+                            "content": "obtaining the light intensity distribution to be formed on the pupil plane of the illumination optical system based on the pupil function, the determined impulse response function, and the determined image function,",
+                            "gate:gateId": 139
+                        },
+                        {
+                            "content": [
+                                "wherein letting r(x,y) be the image function, I(x,y) be an image of the target pattern to be formed on the substrate, a(f,g) be a diffracted light distribution of the target pattern at a point (f,g) on the pupil plane of the projection optical system, F be Fourier transform, and F",
+                                "be inverse Fourier transform, the step of determining the image function comprises the step of calculating the image function r(x,y) by substituting the image I(x,y) of the target pattern and the diffracted light distribution a(f,g) of the target pattern into a right side of"
+                            ],
+                            "gate:gateId": 140,
+                            "sup": {
+                                "content": "−1",
+                                "gate:gateId": 141
+                            }
+                        }
+                    ]
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": "=",
+                                    "gate:gateId": 156
+                                },
+                                "mrow": [
+                                    {
+                                        "mo": {
+                                            "content": "\u2061",
+                                            "gate:gateId": 148
+                                        },
+                                        "mrow": {
+                                            "mo": [
+                                                {
+                                                    "content": "(",
+                                                    "gate:gateId": 150
+                                                },
+                                                {
+                                                    "content": ")",
+                                                    "gate:gateId": 155
+                                                }
+                                            ],
+                                            "mrow": {
+                                                "mo": {
+                                                    "content": ",",
+                                                    "gate:gateId": 153
+                                                },
+                                                "gate:gateId": 151,
+                                                "mi": [
+                                                    {
+                                                        "content": "x",
+                                                        "gate:gateId": 152
+                                                    },
+                                                    {
+                                                        "content": "y",
+                                                        "gate:gateId": 154
+                                                    }
+                                                ]
+                                            },
+                                            "gate:gateId": 149
+                                        },
+                                        "gate:gateId": 146,
+                                        "mi": {
+                                            "content": "r",
+                                            "gate:gateId": 147
+                                        }
+                                    },
+                                    {
+                                        "mo": {
+                                            "content": "\u2061",
+                                            "gate:gateId": 159
+                                        },
+                                        "mrow": {
+                                            "mo": [
+                                                {
+                                                    "content": "[",
+                                                    "gate:gateId": 161
+                                                },
+                                                {
+                                                    "content": "]",
+                                                    "gate:gateId": 213
+                                                }
+                                            ],
+                                            "mrow": {
+                                                "mo": {
+                                                    "content": "\u2062",
+                                                    "gate:gateId": 175
+                                                },
+                                                "mrow": {
+                                                    "mo": {
+                                                        "content": "\u2061",
+                                                        "gate:gateId": 182
+                                                    },
+                                                    "mrow": {
+                                                        "mo": [
+                                                            {
+                                                                "content": "[",
+                                                                "gate:gateId": 184
+                                                            },
+                                                            {
+                                                                "content": "]",
+                                                                "gate:gateId": 212
+                                                            }
+                                                        ],
+                                                        "gate:gateId": 183,
+                                                        "mfrac": {
+                                                            "mrow": [
+                                                                {
+                                                                    "mo": {
+                                                                        "content": "\u2061",
+                                                                        "gate:gateId": 188
+                                                                    },
+                                                                    "mrow": {
+                                                                        "mo": [
+                                                                            {
+                                                                                "content": "(",
+                                                                                "gate:gateId": 190
+                                                                            },
+                                                                            {
+                                                                                "content": ")",
+                                                                                "gate:gateId": 195
+                                                                            }
+                                                                        ],
+                                                                        "mrow": {
+                                                                            "mo": {
+                                                                                "content": ",",
+                                                                                "gate:gateId": 193
+                                                                            },
+                                                                            "gate:gateId": 191,
+                                                                            "mi": [
+                                                                                {
+                                                                                    "content": "x",
+                                                                                    "gate:gateId": 192
+                                                                                },
+                                                                                {
+                                                                                    "content": "y",
+                                                                                    "gate:gateId": 194
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "gate:gateId": 189
+                                                                    },
+                                                                    "gate:gateId": 186,
+                                                                    "mi": {
+                                                                        "content": "I",
+                                                                        "gate:gateId": 187
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "mo": {
+                                                                        "content": "\u2061",
+                                                                        "gate:gateId": 198
+                                                                    },
+                                                                    "mrow": {
+                                                                        "mo": [
+                                                                            {
+                                                                                "content": "[",
+                                                                                "gate:gateId": 200
+                                                                            },
+                                                                            {
+                                                                                "content": "]",
+                                                                                "gate:gateId": 211
+                                                                            }
+                                                                        ],
+                                                                        "mrow": {
+                                                                            "mo": {
+                                                                                "content": "\u2061",
+                                                                                "gate:gateId": 203
+                                                                            },
+                                                                            "mrow": {
+                                                                                "mo": [
+                                                                                    {
+                                                                                        "content": "(",
+                                                                                        "gate:gateId": 205
+                                                                                    },
+                                                                                    {
+                                                                                        "content": ")",
+                                                                                        "gate:gateId": 210
+                                                                                    }
+                                                                                ],
+                                                                                "mrow": {
+                                                                                    "mo": {
+                                                                                        "content": ",",
+                                                                                        "gate:gateId": 208
+                                                                                    },
+                                                                                    "gate:gateId": 206,
+                                                                                    "mi": [
+                                                                                        {
+                                                                                            "content": "f",
+                                                                                            "gate:gateId": 207
+                                                                                        },
+                                                                                        {
+                                                                                            "content": "g",
+                                                                                            "gate:gateId": 209
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "gate:gateId": 204
+                                                                            },
+                                                                            "gate:gateId": 201,
+                                                                            "mi": {
+                                                                                "content": "a",
+                                                                                "gate:gateId": 202
+                                                                            }
+                                                                        },
+                                                                        "gate:gateId": 199
+                                                                    },
+                                                                    "gate:gateId": 196,
+                                                                    "mi": {
+                                                                        "content": "F",
+                                                                        "gate:gateId": 197
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "gate:gateId": 185
+                                                        }
+                                                    },
+                                                    "msup": {
+                                                        "mrow": {
+                                                            "mn": {
+                                                                "content": 1,
+                                                                "gate:gateId": 181
+                                                            },
+                                                            "mo": {
+                                                                "content": "-",
+                                                                "gate:gateId": 180
+                                                            },
+                                                            "gate:gateId": 179
+                                                        },
+                                                        "gate:gateId": 177,
+                                                        "mi": {
+                                                            "content": "F",
+                                                            "gate:gateId": 178
+                                                        }
+                                                    },
+                                                    "gate:gateId": 176
+                                                },
+                                                "gate:gateId": 162,
+                                                "mfrac": {
+                                                    "mn": {
+                                                        "content": 1,
+                                                        "gate:gateId": 164
+                                                    },
+                                                    "mrow": {
+                                                        "mo": {
+                                                            "content": "\u2061",
+                                                            "gate:gateId": 167
+                                                        },
+                                                        "mrow": {
+                                                            "mo": [
+                                                                {
+                                                                    "content": "(",
+                                                                    "gate:gateId": 169
+                                                                },
+                                                                {
+                                                                    "content": ")",
+                                                                    "gate:gateId": 174
+                                                                }
+                                                            ],
+                                                            "mrow": {
+                                                                "mo": {
+                                                                    "content": ",",
+                                                                    "gate:gateId": 172
+                                                                },
+                                                                "gate:gateId": 170,
+                                                                "mi": [
+                                                                    {
+                                                                        "content": "f",
+                                                                        "gate:gateId": 171
+                                                                    },
+                                                                    {
+                                                                        "content": "g",
+                                                                        "gate:gateId": 173
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "gate:gateId": 168
+                                                        },
+                                                        "gate:gateId": 165,
+                                                        "mi": {
+                                                            "content": "a",
+                                                            "gate:gateId": 166
+                                                        }
+                                                    },
+                                                    "gate:gateId": 163
+                                                }
+                                            },
+                                            "gate:gateId": 160
+                                        },
+                                        "gate:gateId": 157,
+                                        "mi": {
+                                            "content": "F",
+                                            "gate:gateId": 158
+                                        }
+                                    }
+                                ],
+                                "gate:gateId": 145
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 144
+                        },
+                        "id": "MATH-US-00006",
+                        "num": "00006",
+                        "gate:gateId": 143
+                    },
+                    "gate:gateId": 142
+                },
+                {
+                    "content": "and replacing with zero a value of the image function for which a distance from an optical axis of the projection optical system is larger than the response length.",
+                    "gate:gateId": 214
+                }
+            ]
+        }
+    ],
+    "numberIndependentClaims": 107
+}}

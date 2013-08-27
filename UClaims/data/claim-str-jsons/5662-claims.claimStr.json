@@ -1,0 +1,424 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504592-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 68,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2948,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a processor for executing a plurality of computer applications, the processor configured to operate on meeting presentation related data records accessible by at least one of the computer applications, and having information related to a variety of different enterprise business functions;\na data storage accessible by the processor for maintaining the data records;\na client terminal for modifying data records in the data storage;\na portable device in communication with the processor; and\na communication manager for facilitating communication between the portable device and the data storage,\n\nwherein the processor is further configured to:\ngenerate a first data structure related to a selected meeting participant and having a plurality of data fields, in response to a selection of the meeting participant;\ngenerate a query to a computer application to access the data storage for data related to the selected meeting participant;\nas a result of the query, receive and present meeting participant-related files from the computer application in a graphical user interface representation of the first data structure on the portable device, with the data fields populated with links to data obtained from the data storage;\nreceive commands to execute data retrieval and further presentation of data;\ngenerate a second data structure having a plurality of data fields, in response to selection of a report from presented reports on the portable device, wherein the report is one of a customized report, a generic report, and a consolidated report;\ngenerate and send another query to the data storage for retrieving the selected reports;\npopulate the second data structure data fields with links to data obtained from a data storage related to one of the computer applications;\npresent a graphical representation of the second data structure, with the second data structure populated with the selected reports;\nreceive commands to execute data retrieval and further presentation of data in the second data structure;\ninsert data in data fields of the first data structure in response to user inputs to the graphical user interface; and\nlink data in the second data structure to data fields in the first data structure.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 384,
+            "gate:gateId": 1,
+            "claim_preamble": "A meeting presentation material management system",
+            "claimNumber": 1,
+            "claim-text": [
+                {
+                    "content": "1. A meeting presentation material management system, comprising:",
+                    "gate:gateId": 2,
+                    "claim-text": [
+                        {
+                            "content": "a processor for executing a plurality of computer applications, the processor configured to operate on meeting presentation related data records accessible by at least one of the computer applications, and having information related to a variety of different enterprise business functions;",
+                            "gate:gateId": 3
+                        },
+                        {
+                            "content": "a data storage accessible by the processor for maintaining the data records;",
+                            "gate:gateId": 4
+                        },
+                        {
+                            "content": "a client terminal for modifying data records in the data storage;",
+                            "gate:gateId": 5
+                        },
+                        {
+                            "content": "a portable device in communication with the processor; and",
+                            "gate:gateId": 6
+                        },
+                        {
+                            "content": "a communication manager for facilitating communication between the portable device and the data storage,",
+                            "gate:gateId": 7
+                        }
+                    ]
+                },
+                {
+                    "content": "wherein the processor is further configured to:",
+                    "gate:gateId": 8,
+                    "claim-text": [
+                        {
+                            "content": "generate a first data structure related to a selected meeting participant and having a plurality of data fields, in response to a selection of the meeting participant;",
+                            "gate:gateId": 9
+                        },
+                        {
+                            "content": "generate a query to a computer application to access the data storage for data related to the selected meeting participant;",
+                            "gate:gateId": 10
+                        },
+                        {
+                            "content": "as a result of the query, receive and present meeting participant-related files from the computer application in a graphical user interface representation of the first data structure on the portable device, with the data fields populated with links to data obtained from the data storage;",
+                            "gate:gateId": 11
+                        },
+                        {
+                            "content": "receive commands to execute data retrieval and further presentation of data;",
+                            "gate:gateId": 12
+                        },
+                        {
+                            "content": "generate a second data structure having a plurality of data fields, in response to selection of a report from presented reports on the portable device, wherein the report is one of a customized report, a generic report, and a consolidated report;",
+                            "gate:gateId": 13
+                        },
+                        {
+                            "content": "generate and send another query to the data storage for retrieving the selected reports;",
+                            "gate:gateId": 14
+                        },
+                        {
+                            "content": "populate the second data structure data fields with links to data obtained from a data storage related to one of the computer applications;",
+                            "gate:gateId": 15
+                        },
+                        {
+                            "content": "present a graphical representation of the second data structure, with the second data structure populated with the selected reports;",
+                            "gate:gateId": 16
+                        },
+                        {
+                            "content": "receive commands to execute data retrieval and further presentation of data in the second data structure;",
+                            "gate:gateId": 17
+                        },
+                        {
+                            "content": "insert data in data fields of the first data structure in response to user inputs to the graphical user interface; and",
+                            "gate:gateId": 18
+                        },
+                        {
+                            "content": "link data in the second data structure to data fields in the first data structure.",
+                            "gate:gateId": 19
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the communication manager allows files to be compressed and transferred via the network between the portable device and databases associated with respective computer applications.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 34,
+            "gate:gateId": 20,
+            "claimNumber": 2,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "2. The system of",
+                    ", wherein the communication manager allows files to be compressed and transferred via the network between the portable device and databases associated with respective computer applications."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the processor is located in the client terminal.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 18,
+            "gate:gateId": 23,
+            "claimNumber": 3,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "3. The system of",
+                    ", wherein the processor is located in the client terminal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the processor is located in the portable device.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 18,
+            "gate:gateId": 26,
+            "claimNumber": 4,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "4. The system of",
+                    ", wherein the processor is located in the portable device."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the report includes at least one of biographical information, informational data, a product description, a spreadsheet, a presentation, employee performance tracking data, an invoice, accounts due data, accounts receivable data, projected revenue data, key position data, an organizational chart, an enterprise management report, a headcount, a growth projection, and attrition data.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 76,
+            "gate:gateId": 29,
+            "claimNumber": 5,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "5. The system of",
+                    ", wherein the report includes at least one of biographical information, informational data, a product description, a spreadsheet, a presentation, employee performance tracking data, an invoice, accounts due data, accounts receivable data, projected revenue data, key position data, an organizational chart, an enterprise management report, a headcount, a growth projection, and attrition data."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "presentation material, comprising:\nbuilding a first data structure related to a selected meeting participant and having a plurality of data fields, in response to a selection of a meeting participant;\ngenerating a query to a data storage for meeting presentation data related to a variety of different enterprise business functions and related to the selected meeting participant;\nin response to the query, populating the data fields with links to meeting presentation data, and receiving and presenting meeting participant-related files from a respective computer application in a graphical user interface representation of the first data structure on a portable device;\nreceiving commands to execute data retrieval and further presentation of data;\ngenerating and presenting a graphical representation of a second data structure having a plurality of data fields populated with links to the files in response to selection of a report from presented reports, wherein the report is one of a customized report, a generic report, and a consolidated report;\ngenerating and sending another query to data storage to retrieve the selected reports;\npopulating the second data structure with the selected reports;\nreceiving commands to execute data retrieval and further presentation of data in the second data structure;\ninserting data in the data fields of the first data structure in response to user inputs to the graphical user interface; and\nlinking data in the second data structure to the data fields in the first data structure.\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": " for managing meeting ",
+            "claimSize": 261,
+            "gate:gateId": 32,
+            "claim_preamble": "A computer-implemented method",
+            "claimNumber": 6,
+            "claim-text": {
+                "content": "6. A computer-implemented method for managing meeting presentation material, comprising:",
+                "gate:gateId": 33,
+                "claim-text": [
+                    {
+                        "content": "building a first data structure related to a selected meeting participant and having a plurality of data fields, in response to a selection of a meeting participant;",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "generating a query to a data storage for meeting presentation data related to a variety of different enterprise business functions and related to the selected meeting participant;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "in response to the query, populating the data fields with links to meeting presentation data, and receiving and presenting meeting participant-related files from a respective computer application in a graphical user interface representation of the first data structure on a portable device;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "receiving commands to execute data retrieval and further presentation of data;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "generating and presenting a graphical representation of a second data structure having a plurality of data fields populated with links to the files in response to selection of a report from presented reports, wherein the report is one of a customized report, a generic report, and a consolidated report;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "generating and sending another query to data storage to retrieve the selected reports;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "populating the second data structure with the selected reports;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "receiving commands to execute data retrieval and further presentation of data in the second data structure;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "inserting data in the data fields of the first data structure in response to user inputs to the graphical user interface; and",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "linking data in the second data structure to the data fields in the first data structure.",
+                        "gate:gateId": 43
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a portable device executes the method.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 16,
+            "gate:gateId": 44,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein a portable device executes the method."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the report includes at least one of biographical information, informational data, a product description, a spreadsheet, a presentation, employee performance tracking data, an invoice, accounts due data, accounts receivable data, projected revenue data, key position data, an organizational chart, an enterprise management report, a headcount, a growth projection, and attrition data.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 75,
+            "gate:gateId": 47,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    "wherein the report includes at least one of biographical information, informational data, a product description, a spreadsheet, a presentation, employee performance tracking data, an invoice, accounts due data, accounts receivable data, projected revenue data, key position data, an organizational chart, an enterprise management report, a headcount, a growth projection, and attrition data."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "program instructions for causing a processor to execute a method for managing meeting presentation material, comprising:\nbuilding a first data structure related to a selected meeting participant and having a plurality of data fields, in response to a selection of a meeting participant;\ngenerating a query to a data storage for meeting presentation data related to a variety of different enterprise business functions and related to the selected meeting participant;\nin response to the query, populating the data fields with links to meeting presentation data, and receiving and presenting meeting participant-related files from a respective computer application in a graphical user interface representation of the first data structure on a portable device;\nreceiving commands to execute data retrieval and further presentation of data;\ngenerating and presenting a graphical representation of a second data structure having a plurality of data fields populated with links to the files in response to selection of a report from presented reports, wherein the report is one of a customized report, a generic report, and a consolidated report;\ngenerating and sending another query to the data storage to retrieve the selected reports;\npopulating the second data structure with the selected reports;\nreceiving commands to execute data retrieval and further presentation of data in the second data structure;\ninserting data in the data fields of the first data structure in response to user inputs to the graphical user interface; and\nlinking data in the second data structure to the data fields in the first data structure.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " embodied with ",
+            "claimSize": 275,
+            "gate:gateId": 50,
+            "claim_preamble": "A non-transitory computer-readable medium",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A non-transitory computer-readable medium embodied with program instructions for causing a processor to execute a method for managing meeting presentation material, comprising:",
+                "gate:gateId": 51,
+                "claim-text": [
+                    {
+                        "content": "building a first data structure related to a selected meeting participant and having a plurality of data fields, in response to a selection of a meeting participant;",
+                        "gate:gateId": 52
+                    },
+                    {
+                        "content": "generating a query to a data storage for meeting presentation data related to a variety of different enterprise business functions and related to the selected meeting participant;",
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": "in response to the query, populating the data fields with links to meeting presentation data, and receiving and presenting meeting participant-related files from a respective computer application in a graphical user interface representation of the first data structure on a portable device;",
+                        "gate:gateId": 54
+                    },
+                    {
+                        "content": "receiving commands to execute data retrieval and further presentation of data;",
+                        "gate:gateId": 55
+                    },
+                    {
+                        "content": "generating and presenting a graphical representation of a second data structure having a plurality of data fields populated with links to the files in response to selection of a report from presented reports, wherein the report is one of a customized report, a generic report, and a consolidated report;",
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": "generating and sending another query to the data storage to retrieve the selected reports;",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "populating the second data structure with the selected reports;",
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": "receiving commands to execute data retrieval and further presentation of data in the second data structure;",
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "inserting data in the data fields of the first data structure in response to user inputs to the graphical user interface; and",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "linking data in the second data structure to the data fields in the first data structure.",
+                        "gate:gateId": 61
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the program instructions are stored on a portable device.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 19,
+            "gate:gateId": 62,
+            "claimNumber": 10,
+            "claim_preamble": "The medium",
+            "claim-text": {
+                "content": [
+                    "10. The medium of",
+                    ", wherein the program instructions are stored on a portable device."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the report includes at least one of biographical information, informational data, a product description, a spreadsheet, a presentation, employee performance tracking data, an invoice, accounts payable data, accounts receivable data, projected revenue data, key position data, an organizational chart, an enterprise management report, a headcount, a growth projection, and attrition data. \n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 75,
+            "gate:gateId": 65,
+            "claimNumber": 11,
+            "claim_preamble": "The medium",
+            "claim-text": {
+                "content": [
+                    "11. The medium of",
+                    "wherein the report includes at least one of biographical information, informational data, a product description, a spreadsheet, a presentation, employee performance tracking data, an invoice, accounts payable data, accounts receivable data, projected revenue data, key position data, an organizational chart, an enterprise management report, a headcount, a growth projection, and attrition data."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 9
+        }
+    ],
+    "numberIndependentClaims": 252
+}}

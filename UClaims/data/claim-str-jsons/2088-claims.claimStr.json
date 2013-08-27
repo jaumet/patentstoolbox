@@ -1,0 +1,638 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500996-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 83,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2583,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "roof for harvesting and recycling rain water, comprising:\na water filtration system disposed to mimic a natural wetland ecosystem, said water filtration system lined with at least one water-impervious layer of material disposed on a top surface of a roof of a building, thereby defining a wetland filtration area; and\na water containment area located directly beneath said water filtration system and disposed within a footprint of the building to collect water from the water filtration system to be made available for use;\na means for pumping water from said water containment area up to and into said wetland filtration area; and\na water re-entry pipe for moving water from said wetland filtration area to said water containment area.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " sustaining ",
+            "claimSize": 132,
+            "gate:gateId": 1,
+            "claim_preamble": "A self",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A self sustaining roof for harvesting and recycling rain water, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a water filtration system disposed to mimic a natural wetland ecosystem, said water filtration system lined with at least one water-impervious layer of material disposed on a top surface of a roof of a building, thereby defining a wetland filtration area; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a water containment area located directly beneath said water filtration system and disposed within a footprint of the building to collect water from the water filtration system to be made available for use;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a means for pumping water from said water containment area up to and into said wetland filtration area; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a water re-entry pipe for moving water from said wetland filtration area to said water containment area.",
+                        "gate:gateId": 6
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "at least one water-impermeable layer placed beneath said water containment area.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The self-sustaining roof",
+            "claim-text": {
+                "content": [
+                    "2. The self-sustaining roof of",
+                    ", further comprising at least one water-impermeable layer placed beneath said water containment area."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the building comprises at least one wall defining a perimeter of said footprint, and further wherein said water-impermeable layer beneath said water containment area extends at least waist high up the perimeter-defining wall of the building.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 48,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The self-sustaining roof",
+            "claim-text": {
+                "content": [
+                    "3. The self-sustaining roof of",
+                    ", wherein the building comprises at least one wall defining a perimeter of said footprint, and further wherein said water-impermeable layer beneath said water containment area extends at least waist high up the perimeter-defining wall of the building."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "at least one water-pervious layer placed between said wetland filtration area and said water containment area.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 13,
+            "claimNumber": 4,
+            "claim_preamble": "The self-sustaining roof",
+            "claim-text": {
+                "content": [
+                    "4. The self-sustaining roof of",
+                    ", further comprising at least one water-pervious layer placed between said wetland filtration area and said water containment area."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "harvesting and recycling rain water, comprising:\na layer comprising a first area comprising vegetation and a second area comprising a wetland filtration system, said layer disposed on a top surface of a roof of a building to harvest at least a portion of rain water that impinges on said layer;\n\nsaid wetland filtration system arranged to filter excess rain water not used by said vegetation;\na water containment area disposed to collect water from the layer, said collected water to be made available for use;\na water-pervious fabric disposed between said vegetation area and said water containment area such that excess water leaches from the vegetation area into said water containment area through said water-pervious fabric;\na means for pumping water from said water containment area up to and into said wetland filtration system area; and\na means for moving water from said wetland filtration system area to said water containment area;\nwherein said wetland filtration system area is separated from other regions of said vegetated roof system by a water-impervious layer of material.\n\n",
+            "claimType": "independent",
+            "num": "00005",
+            "transPhrase": " for ",
+            "claimSize": 192,
+            "gate:gateId": 16,
+            "claim_preamble": "A vegetated roof system",
+            "claimNumber": 5,
+            "claim-text": [
+                {
+                    "content": "5. A vegetated roof system for harvesting and recycling rain water, comprising:",
+                    "gate:gateId": 17,
+                    "claim-text": {
+                        "content": "a layer comprising a first area comprising vegetation and a second area comprising a wetland filtration system, said layer disposed on a top surface of a roof of a building to harvest at least a portion of rain water that impinges on said layer;",
+                        "gate:gateId": 18
+                    }
+                },
+                {
+                    "content": "said wetland filtration system arranged to filter excess rain water not used by said vegetation;",
+                    "gate:gateId": 19,
+                    "claim-text": [
+                        {
+                            "content": "a water containment area disposed to collect water from the layer, said collected water to be made available for use;",
+                            "gate:gateId": 20
+                        },
+                        {
+                            "content": "a water-pervious fabric disposed between said vegetation area and said water containment area such that excess water leaches from the vegetation area into said water containment area through said water-pervious fabric;",
+                            "gate:gateId": 21
+                        },
+                        {
+                            "content": "a means for pumping water from said water containment area up to and into said wetland filtration system area; and",
+                            "gate:gateId": 22
+                        },
+                        {
+                            "content": "a means for moving water from said wetland filtration system area to said water containment area;",
+                            "gate:gateId": 23
+                        },
+                        {
+                            "content": "wherein said wetland filtration system area is separated from other regions of said vegetated roof system by a water-impervious layer of material.",
+                            "gate:gateId": 24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a biological filter media located between said layer of vegetation and said water-pervious fabric.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 27,
+            "gate:gateId": 25,
+            "claimNumber": 6,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "6. The vegetated roof system of",
+                    ", further comprising a biological filter media located between said layer of vegetation and said water-pervious fabric."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "wetland filtration system comprises bio-balls.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 18,
+            "gate:gateId": 28,
+            "claimNumber": 7,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "7. The vegetated roof system of",
+                    ", wherein said wetland filtration system comprises bio-balls."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "wetland filtration system further comprises gravel.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 19,
+            "gate:gateId": 31,
+            "claimNumber": 8,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "8. The vegetated roof system of",
+                    ", wherein said wetland filtration system further comprises gravel."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "water containment area comprises a plurality of rain tanks.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 22,
+            "gate:gateId": 34,
+            "claimNumber": 9,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "9. The vegetated roof system of",
+                    ", wherein said water containment area comprises a plurality of rain tanks."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00010",
+            "body": "water containment area further comprises a gray water storage tank.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 23,
+            "gate:gateId": 37,
+            "claimNumber": 10,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "10. The vegetated roof system of",
+                    ", wherein said water containment area further comprises a gray water storage tank."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00011",
+            "body": "gray water storage tank is located on a roof of a building, or one story below.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 30,
+            "gate:gateId": 40,
+            "claimNumber": 11,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "11. The vegetated roof system of",
+                    ", wherein said gray water storage tank is located on a roof of a building, or one story below."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "a second pump located in the wetlands filtration system area to pump water to the vegetation area.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 30,
+            "gate:gateId": 43,
+            "claimNumber": 12,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "12. The vegetated roof system of",
+                    ", further comprising a second pump located in the wetlands filtration system area to pump water to the vegetation area."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00013",
+            "body": "an overflow system.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 16,
+            "gate:gateId": 46,
+            "claimNumber": 13,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "13. The vegetated roof system of",
+                    ", further comprising an overflow system."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00014",
+            "body": "overflow system connects with local storm water management or to a separate harvesting basin on the ground.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 13",
+            "claimSize": 30,
+            "gate:gateId": 49,
+            "claimNumber": 14,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "14. The vegetated roof system of",
+                    ", wherein said overflow system connects with local storm water management or to a separate harvesting basin on the ground."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "harvesting basin is arranged to contain water that could be used at ground level.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 27,
+            "gate:gateId": 52,
+            "claimNumber": 15,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "15. The vegetated roof system of",
+                    ", wherein said harvesting basin is arranged to contain water that could be used at ground level."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 53
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "harvesting basin is arranged to be a deep ground infiltrating drain so that the water can re-enter and help recharge an aquifer.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 35,
+            "gate:gateId": 55,
+            "claimNumber": 16,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "16. The vegetated roof system of",
+                    ", wherein said harvesting basin is arranged to be a deep ground infiltrating drain so that the water can re-enter and help recharge an aquifer."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00017",
+            "body": "at least one water-impervious layer placed below said water containment area.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 24,
+            "gate:gateId": 58,
+            "claimNumber": 17,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "17. The vegetated roof system of",
+                    ", further comprising at least one water-impervious layer placed below said water containment area."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 60,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 59
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00018",
+            "body": "at least one water-impervious layer comprises at least one of polypropylene and EPDM material.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 27,
+            "gate:gateId": 61,
+            "claimNumber": 18,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "18. The vegetated roof system of",
+                    ", wherein said at least one water-impervious layer comprises at least one of polypropylene and EPDM material."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00019",
+            "body": "at least two water-pervious fabrics, and wherein said at least one water-impermeable layer is placed between said at least two water-pervious fabrics.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 36,
+            "gate:gateId": 64,
+            "claimNumber": 19,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "19. The vegetated roof system of",
+                    ", further comprising at least two water-pervious fabrics, and wherein said at least one water-impermeable layer is placed between said at least two water-pervious fabrics."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00020",
+            "body": "at least one of said at least two water-pervious fabrics comprises geo-textile fabric.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 25,
+            "gate:gateId": 67,
+            "claimNumber": 20,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "20. The vegetated roof system of",
+                    ", wherein at least one of said at least two water-pervious fabrics comprises geo-textile fabric."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00021",
+            "body": "harvesting and recycling rain water, comprising:\na layer comprising terrestrial vegetation disposed on a top surface of a roof of a building to harvest at least a portion of rain water that impinges on said layer;\na water containment area disposed to collect water from the vegetation layer, said collected water to be made available for use;\na water-pervious fabric disposed between said vegetation layer and said water containment area;\na water filtration system arranged to filter excess rain water not used by said vegetation, said water filtration system located between said vegetation layer and said water-pervious fabric, whereby excess water leaches from the vegetation layer into said water containment area through said water-pervious fabric; and\na means for pumping water from said water containment area up to and into said water filtration system.\n\n",
+            "claimType": "independent",
+            "num": "00021",
+            "transPhrase": " for ",
+            "claimSize": 151,
+            "gate:gateId": 70,
+            "claim_preamble": "A vegetated roof system",
+            "claimNumber": 21,
+            "claim-text": {
+                "content": "21. A vegetated roof system for harvesting and recycling rain water, comprising:",
+                "gate:gateId": 71,
+                "claim-text": [
+                    {
+                        "content": "a layer comprising terrestrial vegetation disposed on a top surface of a roof of a building to harvest at least a portion of rain water that impinges on said layer;",
+                        "gate:gateId": 72
+                    },
+                    {
+                        "content": "a water containment area disposed to collect water from the vegetation layer, said collected water to be made available for use;",
+                        "gate:gateId": 73
+                    },
+                    {
+                        "content": "a water-pervious fabric disposed between said vegetation layer and said water containment area;",
+                        "gate:gateId": 74
+                    },
+                    {
+                        "content": "a water filtration system arranged to filter excess rain water not used by said vegetation, said water filtration system located between said vegetation layer and said water-pervious fabric, whereby excess water leaches from the vegetation layer into said water containment area through said water-pervious fabric; and",
+                        "gate:gateId": 75
+                    },
+                    {
+                        "content": "a means for pumping water from said water containment area up to and into said water filtration system.",
+                        "gate:gateId": 76
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00022",
+            "body": "an area where there is no layer of terrestrial vegetation located above said water filtration system.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 29,
+            "gate:gateId": 77,
+            "claimNumber": 22,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "22. The vegetated roof system of",
+                    ", further comprising an area where there is no layer of terrestrial vegetation located above said water filtration system."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 79,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 78
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00023",
+            "body": "water filtration system comprises at least one of gravel and bio-balls.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 24,
+            "gate:gateId": 80,
+            "claimNumber": 23,
+            "claim_preamble": "The vegetated roof system",
+            "claim-text": {
+                "content": [
+                    "23. The vegetated roof system of",
+                    ", wherein said water filtration system comprises at least one of gravel and bio-balls."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 82,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 81
+            },
+            "depends_on": 21
+        }
+    ],
+    "numberIndependentClaims": 37
+}}

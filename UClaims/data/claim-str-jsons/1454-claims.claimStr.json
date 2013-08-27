@@ -1,0 +1,435 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500361-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 53,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1940,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "use in combination with other ones of the artificial flagstone for covering a surface with a natural random look, the flagstone having a generally hexagonal body comprising:\na first, second, third, fourth, fifth and sixth consecutive vertices;\na first pair of generally congruent irregularly shaped first and second sides extending radially from the first vertex and being rotationally spaced from each other by an angle α of approximately 120°;\na second pair of generally congruent irregularly shaped third and fourth sides extending radially from the third vertex and being rotationally spaced from each other by an angle β of approximately 120°; and\na third pair of generally congruent irregularly shaped fifth and sixth sides extending radially from the fifth vertex and being rotationally spaced from each other by an angle ω of approximately 120°;\n\nwherein the sides of each of the first, second and third pair of sides have at least one split deviation along their length and are respectively rotational images of each other, whereby in use in combination with the other flagstones, each one of the sides is matingly engageable with the sides of an equivalent pair of sides of a neighbouring flagstone.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 218,
+            "gate:gateId": 1,
+            "claim_preamble": "An artificial flagstone",
+            "claimNumber": 1,
+            "claim-text": [
+                {
+                    "content": "1. An artificial flagstone for use in combination with other ones of the artificial flagstone for covering a surface with a natural random look, the flagstone having a generally hexagonal body comprising:",
+                    "gate:gateId": 2,
+                    "claim-text": [
+                        {
+                            "content": "a first, second, third, fourth, fifth and sixth consecutive vertices;",
+                            "gate:gateId": 3
+                        },
+                        {
+                            "content": "a first pair of generally congruent irregularly shaped first and second sides extending radially from the first vertex and being rotationally spaced from each other by an angle α of approximately 120°;",
+                            "gate:gateId": 4
+                        },
+                        {
+                            "content": "a second pair of generally congruent irregularly shaped third and fourth sides extending radially from the third vertex and being rotationally spaced from each other by an angle β of approximately 120°; and",
+                            "gate:gateId": 5
+                        },
+                        {
+                            "content": "a third pair of generally congruent irregularly shaped fifth and sixth sides extending radially from the fifth vertex and being rotationally spaced from each other by an angle ω of approximately 120°;",
+                            "gate:gateId": 6
+                        }
+                    ]
+                },
+                {
+                    "content": "wherein the sides of each of the first, second and third pair of sides have at least one split deviation along their length and are respectively rotational images of each other, whereby in use in combination with the other flagstones, each one of the sides is matingly engageable with the sides of an equivalent pair of sides of a neighbouring flagstone.",
+                    "gate:gateId": 7
+                }
+            ]
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the sides of the second pair of sides are generally congruent to the sides of the third pair of sides.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 32,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "2. The flagstone as claimed in",
+                    ", wherein the sides of the second pair of sides are generally congruent to the sides of the third pair of sides."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the fourth and fifth sides extend radially from the fourth vertex and are rotationally spaced from each other by an angle θ of approximately 90°.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 38,
+            "gate:gateId": 11,
+            "claimNumber": 3,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "3. The flagstone as claimed in",
+                    ", wherein the fourth and fifth sides extend radially from the fourth vertex and are rotationally spaced from each other by an angle θ of approximately 90°."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the sides of the first pair are approximately half the length of the sides of the second and third pair of sides.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 3 ,",
+            "claimSize": 34,
+            "gate:gateId": 14,
+            "claimNumber": 4,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "4. The flagstone as claimed in",
+                    ", wherein the sides of the first pair are approximately half the length of the sides of the second and third pair of sides."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "each of the sides has a chiselled upper edge.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 21,
+            "gate:gateId": 17,
+            "claimNumber": 5,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "5. The flagstone as claimed in",
+                    ", wherein each of the sides has a chiselled upper edge."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a top face with a texture that imitates a natural flagstone.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "having ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 23,
+            "gate:gateId": 20,
+            "claimNumber": 6,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "6. The flagstone as claimed in",
+                    ", having a top face with a texture that imitates a natural flagstone."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the top face comprises deep joints dividing the top face into smaller top sections.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 6 ,",
+            "claimSize": 26,
+            "gate:gateId": 23,
+            "claimNumber": 7,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "7. The flagstone as claimed in",
+                    ", wherein the top face comprises deep joints dividing the top face into smaller top sections."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the sides of each of the pairs define along their length a first generally straight segment, followed by the split deviation and a second generally straight segment extending along an axis parallel to the first straight segment.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 50,
+            "gate:gateId": 26,
+            "claimNumber": 8,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "8. The flagstone as claimed in",
+                    ", wherein the sides of each of the pairs define along their length a first generally straight segment, followed by the split deviation and a second generally straight segment extending along an axis parallel to the first straight segment."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the split deviation is located approximately in the middle of each of the sides.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 26,
+            "gate:gateId": 29,
+            "claimNumber": 9,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "9. The flagstone as claimed in",
+                    ", wherein the split deviation is located approximately in the middle of each of the sides."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the second side and third side are rotationally spaced from each other by an angle of approximately 135°; and the sixth side and first side are rotationally spaced from each other by an angle of approximately 135°.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 52,
+            "gate:gateId": 32,
+            "claimNumber": 10,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "10. The flagstone as claimed in",
+                    ", wherein the second side and third side are rotationally spaced from each other by an angle of approximately 135°; and the sixth side and first side are rotationally spaced from each other by an angle of approximately 135°."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "all of the pairs of sides have distinctive markers guiding a lay out of a plurality of the flagstone on a surface.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 34,
+            "gate:gateId": 35,
+            "claimNumber": 11,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "11. The flagstone as claimed in",
+                    ", wherein all of the pairs of sides have distinctive markers guiding a lay out of a plurality of the flagstone on a surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the distinctive markers are located at the vertices.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 20,
+            "gate:gateId": 38,
+            "claimNumber": 12,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "12. The flagstone as claimed in",
+                    ", wherein the distinctive markers are located at the vertices."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the distinctive markers consist of thin plate-shaped members protruding from the vertices.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 12 ,",
+            "claimSize": 24,
+            "gate:gateId": 41,
+            "claimNumber": 13,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "13. The flagstone as claimed in",
+                    ", wherein the distinctive markers consist of thin plate-shaped members protruding from the vertices."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the distinctive markers located at the second, fourth and sixth vertices are substantially identical to each other, whereas the distinctive markers located at the first, third and fifth vertices are different from each other and different from the markers of the second, fourth and sixth vertices.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 13 ,",
+            "claimSize": 62,
+            "gate:gateId": 44,
+            "claimNumber": 14,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "14. The flagstone as claimed in",
+                    ", wherein the distinctive markers located at the second, fourth and sixth vertices are substantially identical to each other, whereas the distinctive markers located at the first, third and fifth vertices are different from each other and different from the markers of the second, fourth and sixth vertices."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the plate-shaped member of the second, fourth and sixth vertices is uniform, the plate-shaped member of the first vertex comprising four grooves, two on each of the first and second sides respectively, the plate-shaped member of the third vertex being uniform and the plate-shaped member of the fifth vertex comprising two grooves, one on each of the fifth and sixth sides respectively.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 14 ,",
+            "claimSize": 79,
+            "gate:gateId": 47,
+            "claimNumber": 15,
+            "claim_preamble": "The flagstone",
+            "claim-text": {
+                "content": [
+                    "15. The flagstone as claimed in",
+                    ", wherein the plate-shaped member of the second, fourth and sixth vertices is uniform, the plate-shaped member of the first vertex comprising four grooves, two on each of the first and second sides respectively, the plate-shaped member of the third vertex being uniform and the plate-shaped member of the fifth vertex comprising two grooves, one on each of the fifth and sixth sides respectively."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "\n\n1. An artificial flagstone for use in combination with other ones of the artificial flagstone for covering a surface with a natural random look, the flagstone having a generally hexagonal body comprising:\na first, second, third, fourth, fifth and sixth consecutive vertices;\na first pair of generally congruent irregularly shaped first and second sides extending radially from the first vertex and being rotationally spaced from each other by an angle α of approximately 120°;\na second pair of generally congruent irregularly shaped third and fourth sides extending radially from the third vertex and being rotationally spaced from each other by an angle β of approximately 120°; and\na third pair of generally congruent irregularly shaped fifth and sixth sides extending radially from the fifth vertex and being rotationally spaced from each other by an angle ω of approximately 120°;\n\nwherein the sides of each of the first, second and third pair of sides have at least one split deviation along their length and are respectively rotational images of each other, whereby in use in combination with the other flagstones, each one of the sides is matingly engageable with the sides of an equivalent pair of sides of a neighbouring flagstone.\n\n\n2. The flagstone as claimed in claim 1 , wherein the sides of the second pair of sides are generally congruent to the sides of the third pair of sides.\n\n\n3. The flagstone as claimed in claim 2 , wherein the fourth and fifth sides extend radially from the fourth vertex and are rotationally spaced from each other by an angle θ of approximately 90°.\n\n\n4. The flagstone as claimed in claim 3 , wherein the sides of the first pair are approximately half the length of the sides of the second and third pair of sides.\n\n\n5. The flagstone as claimed in claim 1 , wherein each of the sides has a chiselled upper edge.\n\n\n6. The flagstone as claimed in claim 1 , having a top face with a texture that imitates a natural flagstone.\n\n\n7. The flagstone as claimed in claim 6 , wherein the top face comprises deep joints dividing the top face into smaller top sections.\n\n\n8. The flagstone as claimed in claim 1 , wherein the sides of each of the pairs define along their length a first generally straight segment, followed by the split deviation and a second generally straight segment extending along an axis parallel to the first straight segment.\n\n\n9. The flagstone as claimed in claim 1 , wherein the split deviation is located approximately in the middle of each of the sides.\n\n\n10. The flagstone as claimed in claim 1 , wherein the second side and third side are rotationally spaced from each other by an angle of approximately 135°; and the sixth side and first side are rotationally spaced from each other by an angle of approximately 135°.\n\n\n11. The flagstone as claimed in claim 1 , wherein all of the pairs of sides have distinctive markers guiding a lay out of a plurality of the flagstone on a surface.\n\n\n12. The flagstone as claimed in claim 11 , wherein the distinctive markers are located at the vertices.\n\n\n13. The flagstone as claimed in claim 12 , wherein the distinctive markers consist of thin plate-shaped members protruding from the vertices.\n\n\n14. The flagstone as claimed in claim 13 , wherein the distinctive markers located at the second, fourth and sixth vertices are substantially identical to each other, whereas the distinctive markers located at the first, third and fifth vertices are different from each other and different from the markers of the second, fourth and sixth vertices.\n\n\n15. The flagstone as claimed in claim 14 , wherein the plate-shaped member of the second, fourth and sixth vertices is uniform, the plate-shaped member of the first vertex comprising four grooves, two on each of the first and second sides respectively, the plate-shaped member of the third vertex being uniform and the plate-shaped member of the fifth vertex comprising two grooves, one on each of the fifth and sixth sides respectively.\n\n\n16. A paving covering a surface, the paving comprising a plurality of randomly laid identical flagstones, each of the flagstones being as defined in claim 1 .\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "as defined in claim 1",
+            "claimSize": 30,
+            "gate:gateId": 50,
+            "claimNumber": "1 ",
+            "claim_preamble": "A pavinga surfacethe pavinga pluralityidentical flagstoneseachthe flagstones",
+            "claim-text": {
+                "content": [
+                    "16. A paving covering a surface, the paving comprising a plurality of randomly laid identical flagstones, each of the flagstones being as defined in",
+                    "."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 26
+}}

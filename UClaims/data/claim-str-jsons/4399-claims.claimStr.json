@@ -1,0 +1,266 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503324-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 34,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1114,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "controlling interference in a wireless communication system, the method comprising the steps of:\nperforming a handoff measurement of a signal parameter for a current site and for nearby sites, and performing a comparison of the signal parameters to select the nearby site having the strongest signal parameter relative to the current site by computing a difference between the signal parameter measurements of the current site and the selected nearby site;\ndefining a target maximum allowable noise rise for the selected nearby site;\ncalculating an upper bound for at least one operating parameter in the current site by summing the difference with the target maximum allowable noise rise to set the upper bound;\ndetermining whether a maximum for the at least one operating parameter exceeds the upper bound; and\nconstraining the at least one operating parameter to no more than the upper bound if the maximum for the at least one operating parameter exceeds the upper bound;\nwherein the determining step also includes determining if the selected nearby site is in use; and\nwherein the constraining step also includes constraining the at least one operating parameter only if the selected nearby site is in use.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 209,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for controlling interference in a wireless communication system, the method comprising the steps of:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "performing a handoff measurement of a signal parameter for a current site and for nearby sites, and performing a comparison of the signal parameters to select the nearby site having the strongest signal parameter relative to the current site by computing a difference between the signal parameter measurements of the current site and the selected nearby site;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "defining a target maximum allowable noise rise for the selected nearby site;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "calculating an upper bound for at least one operating parameter in the current site by summing the difference with the target maximum allowable noise rise to set the upper bound;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "determining whether a maximum for the at least one operating parameter exceeds the upper bound; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "constraining the at least one operating parameter to no more than the upper bound if the maximum for the at least one operating parameter exceeds the upper bound;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein the determining step also includes determining if the selected nearby site is in use; and",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein the constraining step also includes constraining the at least one operating parameter only if the selected nearby site is in use.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the selected nearby site is not in use, a next strongest site is selected, and if the next strongest site is also not in use, repeating this step iteratively until the list of nearby sites in the handoff measurements is exhausted.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein if ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 54,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    "wherein if the selected nearby site is not in use, a next strongest site is selected, and if the next strongest site is also not in use, repeating this step iteratively until the list of nearby sites in the handoff measurements is exhausted."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the signal parameter is received signal strength indication.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 17,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    "wherein the signal parameter is received signal strength indication."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the signal parameter is a carrier-to-interference ratio.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 16,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    "wherein the signal parameter is a carrier-to-interference ratio."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the calculating step includes summing the difference with the target maximum allowable noise rise to set the upper bound.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    "wherein the calculating step includes summing the difference with the target maximum allowable noise rise to set the upper bound."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the selected nearby site is not in use, a difference is computed with a next strongest site, and if the next strongest site is also not in use, repeating this step iteratively until the list of nearby sites in the handoff measurements is exhausted.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein if ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 57,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    "wherein if the selected nearby site is not in use, a difference is computed with a next strongest site, and if the next strongest site is also not in use, repeating this step iteratively until the list of nearby sites in the handoff measurements is exhausted."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the at least one operating parameter includes a modulation and coding scheme rate.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    "wherein the at least one operating parameter includes a modulation and coding scheme rate."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the at least one operating parameter includes a carrier-to-interference ratio.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 19,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    "wherein the at least one operating parameter includes a carrier-to-interference ratio."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the at least one operating parameter is at least one uplink operating parameter. \n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 31,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    "wherein the at least one operating parameter is at least one uplink operating parameter."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 156
+}}

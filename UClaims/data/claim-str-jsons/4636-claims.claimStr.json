@@ -1,0 +1,655 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503561-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 95,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2807,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a signal in a wireless communication system, the method performed in a single user equipment (UE) comprising:\nreceiving single cyclic information via a physical downlink control channel (PDCCH); and\ntransmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n 1 , for the first transmit antenna and a second cyclic shift n 2 for the second transmit antenna, the first and second transmit antennas being used by the single UE,\nwherein the single cyclic information indicates the first cyclic shift n 1 , the second cyclic shift n 2 is cyclic shift, n 1 and n 2 \u2033 is replaced by determined based on the first cyclic shift n 1 in the UE, n 1 and n 2 contained in one pair of the available cyclic shift pairs are different from cyclic shifts n 1 and n 2 contained in another pair of the available cyclic shift pairs, respectively, and an interval between the n 1 and n 2 in each pair of the available cyclic shift pairs is set to a same value.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of transmitting ",
+            "claimSize": 229,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of transmitting a signal in a wireless communication system, the method performed in a single user equipment (UE) comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "receiving single cyclic information via a physical downlink control channel (PDCCH); and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": [
+                            "transmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n",
+                            ", for the first transmit antenna and a second cyclic shift n",
+                            "for the second transmit antenna, the first and second transmit antennas being used by the single UE,"
+                        ],
+                        "sub": [
+                            {
+                                "content": 1,
+                                "gate:gateId": 5
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 6
+                            }
+                        ],
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": [
+                            "wherein the single cyclic information indicates the first cyclic shift n",
+                            ", the second cyclic shift n",
+                            "is cyclic shift, n",
+                            "and n",
+                            "\u2033 is replaced by determined based on the first cyclic shift n",
+                            "in the UE, n",
+                            "and n",
+                            "contained in one pair of the available cyclic shift pairs are different from cyclic shifts n",
+                            "and n",
+                            "contained in another pair of the available cyclic shift pairs, respectively, and an interval between the n",
+                            "and n",
+                            "in each pair of the available cyclic shift pairs is set to a same value."
+                        ],
+                        "sub": [
+                            {
+                                "content": 1,
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 9
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 10
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 11
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 12
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 13
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 14
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 15
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 16
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 17
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 18
+                            }
+                        ],
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the second cyclic shift is determined such that the interval between the n 1 and n 2 is maximized.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 19,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein the second cyclic shift is determined such that the interval between the n",
+                    "and n",
+                    "is maximized."
+                ],
+                "sub": [
+                    {
+                        "content": 1,
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": 2,
+                        "gate:gateId": 23
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the reference signals are used for data demodulation.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 18,
+            "gate:gateId": 24,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the reference signals are used for data demodulation."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the single cyclic information is determined by a base station (BS).\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 27,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein the single cyclic information is determined by a base station (BS)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the reference signals are generated from a base sequence, and the base sequence comprises a Zadoff Chu sequence.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 30,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein the reference signals are generated from a base sequence, and the base sequence comprises a Zadoff Chu sequence."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the UE further comprises a third transmit antenna and a fourth transmit antenna, and a third cyclic shift is set for the third transmit antenna and a fourth cyclic shift is set for the fourth transmit antenna.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 48,
+            "gate:gateId": 33,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein the UE further comprises a third transmit antenna and a fourth transmit antenna, and a third cyclic shift is set for the third transmit antenna and a fourth cyclic shift is set for the fourth transmit antenna."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the third and fourth cyclic shifts are determined such that the interval between the cyclic shifts is maximized.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 28,
+            "gate:gateId": 36,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein the third and fourth cyclic shifts are determined such that the interval between the cyclic shifts is maximized."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 38,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 37
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a signal in a wireless communication system, the method performed in a single user equipment (UE) comprising:\nreceiving single cyclic information via a physical downlink control channel (PDCCH); and\ntransmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n 1 for the first transmit antenna and a second cyclic shift n 2 for the second transmit antenna, the first and second transmit antennas being used by the single UE, wherein the single cyclic information indicates the first cyclic shift n 1 , the second cyclic shift n 2 is determined based on the first cyclic shift n 1 in the UE, cyclic shifts contained in each pair of the available cyclic shift pairs are predetermined, and one pair of the available cyclic shift pairs (n 1 ,n 2 ) includes one of (0,4), (1,5), (2,6), and (3,7) .\n\n",
+            "claimType": "independent",
+            "num": "00008",
+            "transPhrase": " of transmitting ",
+            "claimSize": 211,
+            "gate:gateId": 39,
+            "claim_preamble": "A method",
+            "claimNumber": 8,
+            "claim-text": {
+                "content": "8. A method of transmitting a signal in a wireless communication system, the method performed in a single user equipment (UE) comprising:",
+                "gate:gateId": 40,
+                "claim-text": [
+                    {
+                        "content": "receiving single cyclic information via a physical downlink control channel (PDCCH); and",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": [
+                            "transmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n",
+                            "for the first transmit antenna and a second cyclic shift n",
+                            "for the second transmit antenna, the first and second transmit antennas being used by the single UE, wherein the single cyclic information indicates the first cyclic shift n",
+                            ", the second cyclic shift n",
+                            "is determined based on the first cyclic shift n",
+                            "in the UE, cyclic shifts contained in each pair of the available cyclic shift pairs are predetermined, and one pair of the available cyclic shift pairs (n",
+                            ",n",
+                            ") includes one of (0,4), (1,5), (2,6), and (3,7) ."
+                        ],
+                        "sub": [
+                            {
+                                "content": 1,
+                                "gate:gateId": 43
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 44
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 45
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 46
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 47
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 48
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 49
+                            }
+                        ],
+                        "gate:gateId": 42
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the reference signals are used for data demodulation.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 18,
+            "gate:gateId": 50,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", wherein the reference signals are used for data demodulation."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the single cyclic information is determined by a base station (BS).\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 23,
+            "gate:gateId": 53,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    ", wherein the single cyclic information is determined by a base station (BS)."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the reference signals are generated from a base sequence, and the base sequence comprises a Zadoff Chu sequence.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 29,
+            "gate:gateId": 56,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    ", wherein the reference signals are generated from a base sequence, and the base sequence comprises a Zadoff Chu sequence."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00012",
+            "body": "a wireless communication system, the UE comprising:\na receiver configured for receiving single cyclic information via a physical downlink control channel (PDCCH); and\na transmitter configured for transmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n 1 for the first transmit antenna and a second cyclic shift n 2 for the second transmit antenna, the first and second transmit antennas being used by a single UE, wherein the single cyclic information indicates the first cyclic shift n 1 , the second cyclic shift n 2 is determined based on the first cyclic shift n 1 in the UE, cyclic shifts contained in each pair of the available cyclic shift pairs are predetermined, and one pair of the available cyclic shift pairs (n 1 ,n 2 ) includes one of (0,4), (1,5), (2,6), and (3,7).\n\n",
+            "claimType": "independent",
+            "num": "00012",
+            "transPhrase": " in ",
+            "claimSize": 210,
+            "gate:gateId": 59,
+            "claim_preamble": "A user equipment (UE)",
+            "claimNumber": 12,
+            "claim-text": {
+                "content": "12. A user equipment (UE) in a wireless communication system, the UE comprising:",
+                "gate:gateId": 60,
+                "claim-text": [
+                    {
+                        "content": "a receiver configured for receiving single cyclic information via a physical downlink control channel (PDCCH); and",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": [
+                            "a transmitter configured for transmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n",
+                            "for the first transmit antenna and a second cyclic shift n",
+                            "for the second transmit antenna, the first and second transmit antennas being used by a single UE, wherein the single cyclic information indicates the first cyclic shift n",
+                            ", the second cyclic shift n",
+                            "is determined based on the first cyclic shift n",
+                            "in the UE, cyclic shifts contained in each pair of the available cyclic shift pairs are predetermined, and one pair of the available cyclic shift pairs (n",
+                            ",n",
+                            ") includes one of (0,4), (1,5), (2,6), and (3,7)."
+                        ],
+                        "sub": [
+                            {
+                                "content": 1,
+                                "gate:gateId": 63
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 64
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 65
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 66
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 67
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 68
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 69
+                            }
+                        ],
+                        "gate:gateId": 62
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the reference signals are used for data demodulation.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 19,
+            "gate:gateId": 70,
+            "claimNumber": 13,
+            "claim_preamble": "The user equipment",
+            "claim-text": {
+                "content": [
+                    "13. The user equipment of",
+                    ", wherein the reference signals are used for data demodulation."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the single cyclic information is determined by a base station (BS).\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 24,
+            "gate:gateId": 73,
+            "claimNumber": 14,
+            "claim_preamble": "The user equipment",
+            "claim-text": {
+                "content": [
+                    "14. The user equipment of",
+                    ", wherein the single cyclic information is determined by a base station (BS)."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the reference signals are generated from a base sequence, and the base sequence comprises a Zadoff Chu sequence.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 30,
+            "gate:gateId": 76,
+            "claimNumber": 15,
+            "claim_preamble": "The user equipment",
+            "claim-text": {
+                "content": [
+                    "15. The user equipment of",
+                    ", wherein the reference signals are generated from a base sequence, and the base sequence comprises a Zadoff Chu sequence."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 78,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 77
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00016",
+            "body": "a wireless communication system, the UE comprising:\na receiver configured for receiving single cyclic information via a physical downlink control channel (PDCCH); and\na transmitter configured for transmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n 1 for the first transmit antenna and a second cyclic shift n 2 for the second transmit antenna, the first and second transmit antennas being used by a single UE,\nwherein the single cyclic information indicates the first cyclic shift n 1 , the second cyclic shift n 2 is determined based on the first cyclic shift n 1 in the UE, n 1 and n 2 contained in one pair of the available cyclic shift pairs are different from cyclic shifts n 1 and n 2 contained in another pair of the available cyclic shift pairs, respectively, and an interval between the n 1 and n 2 in each pair of the available cyclic shift pairs is set to a same value.\n\n",
+            "claimType": "independent",
+            "num": "00016",
+            "transPhrase": " in ",
+            "claimSize": 215,
+            "gate:gateId": 79,
+            "claim_preamble": "A user equipment (UE)",
+            "claimNumber": 16,
+            "claim-text": {
+                "content": "16. A user equipment (UE) in a wireless communication system, the UE comprising:",
+                "gate:gateId": 80,
+                "claim-text": [
+                    {
+                        "content": "a receiver configured for receiving single cyclic information via a physical downlink control channel (PDCCH); and",
+                        "gate:gateId": 81
+                    },
+                    {
+                        "content": [
+                            "a transmitter configured for transmitting, in response to the single cyclic information, reference signals through a first transmit antenna and a second transmit antenna using one pair of available cyclic shift pairs, each pair of the available cyclic shift pairs comprising a first cyclic shift n",
+                            "for the first transmit antenna and a second cyclic shift n",
+                            "for the second transmit antenna, the first and second transmit antennas being used by a single UE,"
+                        ],
+                        "sub": [
+                            {
+                                "content": 1,
+                                "gate:gateId": 83
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 84
+                            }
+                        ],
+                        "gate:gateId": 82
+                    },
+                    {
+                        "content": [
+                            "wherein the single cyclic information indicates the first cyclic shift n",
+                            ", the second cyclic shift n",
+                            "is determined based on the first cyclic shift n",
+                            "in the UE, n",
+                            "and n",
+                            "contained in one pair of the available cyclic shift pairs are different from cyclic shifts n",
+                            "and n",
+                            "contained in another pair of the available cyclic shift pairs, respectively, and an interval between the n",
+                            "and n",
+                            "in each pair of the available cyclic shift pairs is set to a same value."
+                        ],
+                        "sub": [
+                            {
+                                "content": 1,
+                                "gate:gateId": 86
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 87
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 88
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 89
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 90
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 91
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 92
+                            },
+                            {
+                                "content": 1,
+                                "gate:gateId": 93
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 94
+                            }
+                        ],
+                        "gate:gateId": 85
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 192
+}}

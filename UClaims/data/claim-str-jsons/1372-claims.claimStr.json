@@ -1,0 +1,353 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500279-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 48,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2359,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "images of the eye comprising:\na light source for generating a probe beam;\noptics for scanning the beam across the eye;\na spectrometer having a number of pixels for measuring light returned from the eye as a function of wavelength;\na processor for generating images of the eye based on the output of the detector over a sampling of wavelengths, said OCT system having a first mode and a second mode, wherein the number of pixels used to generate the image of the eye during the second mode is less than the number of pixels used to generate the image during the first mode such that the number of sampled wavelengths used to generate the image of the eye during the second mode will be less than the number of sampled wavelengths used to generate the image of the eye during the first mode so that the image of the eye can be generated faster during the second mode than during the first mode and wherein the images in the first mode have a higher axial resolution than the images in the second mode, and wherein the processor generates an image of the eye during the second mode; and\na display for displaying the generated image of the eye during the second mode to facilitate alignment of the system.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " generating ",
+            "claimSize": 244,
+            "gate:gateId": 1,
+            "claim_preamble": "A frequency domain (FD) optical coherence tomography (OCT) system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A frequency domain (FD) optical coherence tomography (OCT) system generating images of the eye comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a light source for generating a probe beam;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "optics for scanning the beam across the eye;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a spectrometer having a number of pixels for measuring light returned from the eye as a function of wavelength;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a processor for generating images of the eye based on the output of the detector over a sampling of wavelengths, said OCT system having a first mode and a second mode, wherein the number of pixels used to generate the image of the eye during the second mode is less than the number of pixels used to generate the image during the first mode such that the number of sampled wavelengths used to generate the image of the eye during the second mode will be less than the number of sampled wavelengths used to generate the image of the eye during the first mode so that the image of the eye can be generated faster during the second mode than during the first mode and wherein the images in the first mode have a higher axial resolution than the images in the second mode, and wherein the processor generates an image of the eye during the second mode; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a display for displaying the generated image of the eye during the second mode to facilitate alignment of the system.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the number of sampled wavelengths used to generate the image of the eye during the second mode is about one half or less than the number of sampled wavelengths used to generate the image of the eye during the first mode.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 53,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "2. A system as recited in",
+                    ", wherein the number of sampled wavelengths used to generate the image of the eye during the second mode is about one half or less than the number of sampled wavelengths used to generate the image of the eye during the first mode."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the second mode of operation, the spectrum of the probe beam reaching the eye is smaller than in the first mode of operation.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein during ",
+            "claimBackReference": "as recited in claim 1",
+            "claimSize": 36,
+            "gate:gateId": 11,
+            "claimNumber": 3,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "3. A system as recited in",
+                    "wherein during the second mode of operation, the spectrum of the probe beam reaching the eye is smaller than in the first mode of operation."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the image of the eye displayed during the second mode is an en face image.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 1",
+            "claimSize": 26,
+            "gate:gateId": 14,
+            "claimNumber": 4,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "4. A system as recited in",
+                    "wherein the image of the eye displayed during the second mode is an en face image."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "images of the eye comprising:\na broadband light source for generating a probe beam;\noptics for scanning the beam across the eye;\na spectrometer having an array detector with a number of detector elements for measuring light returned from the eye as a function of wavelength; and\na processor for generating images of the eye based on the output of the array detector, said OCT system having a diagnostic mode and a set-up mode, wherein the number of detector elements used to generate the image of the eye during the set-up mode is less than the number of detector elements used to generate the image of the eye during the diagnostic mode so that the image of the eye can be generated faster during the set-up mode than during the diagnostic mode and wherein the images in the set-up mode have a lower axial resolution than the images in the diagnostic mode and can be rendered in a shorter period of time and wherein the processor generates an image of the eye during the set-up mode; and\na display for displaying the generated image of the eye during the set-up mode to facilitate alignment of the system.\n\n",
+            "claimType": "independent",
+            "num": "00005",
+            "transPhrase": " generating ",
+            "claimSize": 218,
+            "gate:gateId": 17,
+            "claim_preamble": "A spectral domain optical coherence tomography (SD-OCT) system",
+            "claimNumber": 5,
+            "claim-text": {
+                "content": "5. A spectral domain optical coherence tomography (SD-OCT) system generating images of the eye comprising:",
+                "gate:gateId": 18,
+                "claim-text": [
+                    {
+                        "content": "a broadband light source for generating a probe beam;",
+                        "gate:gateId": 19
+                    },
+                    {
+                        "content": "optics for scanning the beam across the eye;",
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": "a spectrometer having an array detector with a number of detector elements for measuring light returned from the eye as a function of wavelength; and",
+                        "gate:gateId": 21
+                    },
+                    {
+                        "content": "a processor for generating images of the eye based on the output of the array detector, said OCT system having a diagnostic mode and a set-up mode, wherein the number of detector elements used to generate the image of the eye during the set-up mode is less than the number of detector elements used to generate the image of the eye during the diagnostic mode so that the image of the eye can be generated faster during the set-up mode than during the diagnostic mode and wherein the images in the set-up mode have a lower axial resolution than the images in the diagnostic mode and can be rendered in a shorter period of time and wherein the processor generates an image of the eye during the set-up mode; and",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "a display for displaying the generated image of the eye during the set-up mode to facilitate alignment of the system.",
+                        "gate:gateId": 23
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the number of detector elements used to generate the image of the eye during the set-up mode is about half or less than the number of detector elements used to generate the image of the eye during the diagnostic mode.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 5 ,",
+            "claimSize": 52,
+            "gate:gateId": 24,
+            "claimNumber": 6,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "6. A system as recited in",
+                    ", wherein the number of detector elements used to generate the image of the eye during the set-up mode is about half or less than the number of detector elements used to generate the image of the eye during the diagnostic mode."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the set up mode, the spectrum of the probe beam reaching the eye is smaller than in the diagnostic mode of operation.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein during ",
+            "claimBackReference": "as recited in claim 5",
+            "claimSize": 35,
+            "gate:gateId": 27,
+            "claimNumber": 7,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "7. A system as recited in",
+                    "wherein during the set up mode, the spectrum of the probe beam reaching the eye is smaller than in the diagnostic mode of operation."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the image of the eye displayed during the set-up mode is an en face image.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 5",
+            "claimSize": 26,
+            "gate:gateId": 30,
+            "claimNumber": 8,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "8. A system as recited in",
+                    "wherein the image of the eye displayed during the set-up mode is an en face image."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00009",
+            "body": "images of the eye comprising:\na light source for generating a probe beam;\noptics for scanning the beam across the eye at multiple locations in an X/Y plane;\na detector for measuring light returned from the eye as a function of wavelength; and\na processor for generating images of the eye based on the output of the detector over a sampling of wavelengths, said processor being operable to change both the scanning speed and the axial resolution of the generated images wherein the axial resolution is changed by changing the number of sampled wavelengths-used to generate the image and wherein the scanning speed is increased when the axial resolution of the image is reduced and wherein the scanning speed is decreased when the axial resolution of the image is increased.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " generating ",
+            "claimSize": 154,
+            "gate:gateId": 33,
+            "claim_preamble": "A frequency domain (FD) optical coherence tomography (OCT) system",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A frequency domain (FD) optical coherence tomography (OCT) system generating images of the eye comprising:",
+                "gate:gateId": 34,
+                "claim-text": [
+                    {
+                        "content": "a light source for generating a probe beam;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "optics for scanning the beam across the eye at multiple locations in an X/Y plane;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "a detector for measuring light returned from the eye as a function of wavelength; and",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "a processor for generating images of the eye based on the output of the detector over a sampling of wavelengths, said processor being operable to change both the scanning speed and the axial resolution of the generated images wherein the axial resolution is changed by changing the number of sampled wavelengths-used to generate the image and wherein the scanning speed is increased when the axial resolution of the image is reduced and wherein the scanning speed is decreased when the axial resolution of the image is increased.",
+                        "gate:gateId": 38
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the detector includes a spectrometer with a number of pixels and wherein the axial resolution of the image is changed by changing the number of pixels used to generate the image.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 9 ,",
+            "claimSize": 43,
+            "gate:gateId": 39,
+            "claimNumber": 10,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "10. A system as recited in",
+                    ", wherein the detector includes a spectrometer with a number of pixels and wherein the axial resolution of the image is changed by changing the number of pixels used to generate the image."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 41,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 40
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the light source is a laser designed to sweep a bandwidth of lasing optical frequencies and wherein the axial resolution of the image is changed by changing the number of lasing optical frequencies used to generate the image.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 9 ,",
+            "claimSize": 50,
+            "gate:gateId": 42,
+            "claimNumber": 11,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "11. A system as recited in",
+                    ", wherein the light source is a laser designed to sweep a bandwidth of lasing optical frequencies and wherein the axial resolution of the image is changed by changing the number of lasing optical frequencies used to generate the image."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the number of wavelengths used to generate the image are reduced, the spectrum of the probe beam reaching the eye is also reduced.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein when ",
+            "claimBackReference": "as recited in claim 9",
+            "claimSize": 36,
+            "gate:gateId": 45,
+            "claimNumber": 12,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "12. A system as recited in",
+                    "wherein when the number of wavelengths used to generate the image are reduced, the spectrum of the probe beam reaching the eye is also reduced."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 9
+        }
+    ],
+    "numberIndependentClaims": 22
+}}

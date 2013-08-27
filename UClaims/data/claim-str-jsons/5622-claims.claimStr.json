@@ -1,0 +1,629 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504551-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 88,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3225,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a) extracting, automatically by a computer system including one or more computers on a network and from a first set of untargeted Websites, a first set of document information extracted from a shallow crawl of the first set of untargeted Websites;\nb) storing, by the computer system, the first set of document information that was extracted from a shallow crawl of the first set of untargeted Websites, in a first storage repository;\nc) extracting, automatically by the computer system and from a second set of targeted Websites, a second set of document information extracted from a deep crawl of the second set of targeted Websites,\nwherein the targeted Websites include\ni) Websites provided by content providers having available advertisement spots, and\nii) Web pages identified in earlier, unfilled, content relevant advertisement requests, content relevant advertisement requests; and\n\nd) storing, by the computer system, the second set of document information that was extracted from a deep crawl of the second set of targeted Websites, in a second storage repository different from the first storage repository.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ":\n",
+            "claimSize": 206,
+            "gate:gateId": 1,
+            "claim_preamble": "A computer-implemented method comprising",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A computer-implemented method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a) extracting, automatically by a computer system including one or more computers on a network and from a first set of untargeted Websites, a first set of document information extracted from a shallow crawl of the first set of untargeted Websites;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "b) storing, by the computer system, the first set of document information that was extracted from a shallow crawl of the first set of untargeted Websites, in a first storage repository;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "c) extracting, automatically by the computer system and from a second set of targeted Websites, a second set of document information extracted from a deep crawl of the second set of targeted Websites,",
+                        "gate:gateId": 5,
+                        "claim-text": [
+                            {
+                                "content": "wherein the targeted Websites include",
+                                "gate:gateId": 6
+                            },
+                            {
+                                "content": "i) Websites provided by content providers having available advertisement spots, and",
+                                "gate:gateId": 7
+                            },
+                            {
+                                "content": "ii) Web pages identified in earlier, unfilled, content relevant advertisement requests, content relevant advertisement requests; and",
+                                "gate:gateId": 8
+                            }
+                        ]
+                    },
+                    {
+                        "content": "d) storing, by the computer system, the second set of document information that was extracted from a deep crawl of the second set of targeted Websites, in a second storage repository different from the first storage repository.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the shallow crawl of each of the untargeted Websites includes crawling to a first level of Web Pages associated with the untargeted Website.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 34,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "2. The computer-implemented method of",
+                    ", wherein the shallow crawl of each of the untargeted Websites includes crawling to a first level of Web Pages associated with the untargeted Website."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the deep crawl of each of the targeted Websites includes crawling to a second level of Web pages associated with the targeted Website, and\nwherein the second level of Web pages is further down into a hierarchy of Web pages associated with a Website than the first level of Web pages.\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 63,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "3. The computer-implemented method of",
+                    ", wherein the deep crawl of each of the targeted Websites includes crawling to a second level of Web pages associated with the targeted Website, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 14,
+                "claim-text": {
+                    "content": "wherein the second level of Web pages is further down into a hierarchy of Web pages associated with a Website than the first level of Web pages.",
+                    "gate:gateId": 16
+                }
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the first set of untargeted Websites is larger than the second set of targeted Websites.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 26,
+            "gate:gateId": 17,
+            "claimNumber": 4,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "4. The computer-implemented method of",
+                    ", wherein the first set of untargeted Websites is larger than the second set of targeted Websites."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the first set of document information extracted from the first set of the untargeted Websites includes textual content of Web pages of the untargeted Websites crawled, and\nwherein the second set of document information extracted from the second set of the targeted Websites includes textual content of Web pages of the targeted Websites crawled.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 66,
+            "gate:gateId": 20,
+            "claimNumber": 5,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "5. The computer-implemented method of",
+                    ", wherein the first set of document information extracted from the first set of the untargeted Websites includes textual content of Web pages of the untargeted Websites crawled, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21,
+                "claim-text": {
+                    "content": "wherein the second set of document information extracted from the second set of the targeted Websites includes textual content of Web pages of the targeted Websites crawled.",
+                    "gate:gateId": 23
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "at least some of the second set of targeted Websites includes static document information, and\nwherein the at least some of the second set of targeted Websites which includes static document information is crawled before receiving an advertisement request.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 51,
+            "gate:gateId": 24,
+            "claimNumber": 6,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "6. The computer-implemented method of",
+                    ", wherein at least some of the second set of targeted Websites includes static document information, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25,
+                "claim-text": {
+                    "content": "wherein the at least some of the second set of targeted Websites which includes static document information is crawled before receiving an advertisement request.",
+                    "gate:gateId": 27
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "at least some of the second set of targeted Websites includes dynamic document information, and\nwherein the at least some of the second set of targeted Websites which includes dynamic document information is crawled responsive to an advertisement request.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 51,
+            "gate:gateId": 28,
+            "claimNumber": 7,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "7. The computer-implemented method of",
+                    ", wherein at least some of the second set of targeted Websites includes dynamic document information, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 29,
+                "claim-text": {
+                    "content": "wherein the at least some of the second set of targeted Websites which includes dynamic document information is crawled responsive to an advertisement request.",
+                    "gate:gateId": 31
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "at least some of the targeted Websites include content provider Websites designated as partner Websites by an advertisement serving network.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 31,
+            "gate:gateId": 32,
+            "claimNumber": 8,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "8. The computer-implemented method of",
+                    ", wherein at least some of the targeted Websites include content provider Websites designated as partner Websites by an advertisement serving network."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "an identifier of the targeted designated partner Websites is entered via a content provider interface by a content provider associated with the document information, and wherein the content provider is a Web publisher.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 45,
+            "gate:gateId": 35,
+            "claimNumber": 9,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "9. The computer-implemented method of",
+                    ", wherein an identifier of the targeted designated partner Websites is entered via a content provider interface by a content provider associated with the document information, and wherein the content provider is a Web publisher."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "further comprising:\ne) generating, automatically by the computer system and for each of the targeted Websites, document relevance information from the second set of document information; and\nf) storing, on one or more storage devices associated with the computer system and for each of the targeted Websites, the document relevance information in association with an identifier of the targeted Website.\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 78,
+            "gate:gateId": 38,
+            "claimNumber": 10,
+            "claim_preamble": "The computer-implemented method",
+            "claim-text": {
+                "content": [
+                    "10. The computer-implemented method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 39,
+                "claim-text": [
+                    {
+                        "content": "e) generating, automatically by the computer system and for each of the targeted Websites, document relevance information from the second set of document information; and",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "f) storing, on one or more storage devices associated with the computer system and for each of the targeted Websites, the document relevance information in association with an identifier of the targeted Website.",
+                        "gate:gateId": 42
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a) one or more processors; and\nb) one or more storage devices storing processor executable instructions which, when executed by the at least one processor, cause the one or more processors to perform a method comprising,\n1) extracting, automatically and from a first set of untargeted Websites, a first set of document information extracted from a shallow crawl of the first set of untargeted Websites;\n\n2) storing the first set of document information that was extracted from a shallow crawl of the first set of'untargeted Websites, in a first storage repository included in the one or more storage devices,\n3) extracting, automatically and from a second set of targeted Websites, a second set of document information extracted from a deep crawl of the second set of targeted Websites,\nwherein the targeted Websites include\ni) Websites provided by content providers having available advertisement spots, and\nii) Web pages identified in earlier, unfilled, content relevant advertisement requests; and\n4) storing the second set of document information that was extracted from a deep crawl of the second set of targeted Websites, in a second storage repository which is included in the one or more storage devices and which is different from the first storage repository.\n\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": ":\n",
+            "claimSize": 235,
+            "gate:gateId": 43,
+            "claim_preamble": "Apparatus comprising",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. Apparatus comprising:",
+                "gate:gateId": 44,
+                "claim-text": [
+                    {
+                        "content": "a) one or more processors; and",
+                        "gate:gateId": 45
+                    },
+                    {
+                        "content": "b) one or more storage devices storing processor executable instructions which, when executed by the at least one processor, cause the one or more processors to perform a method comprising,",
+                        "gate:gateId": 46,
+                        "claim-text": {
+                            "content": "1) extracting, automatically and from a first set of untargeted Websites, a first set of document information extracted from a shallow crawl of the first set of untargeted Websites;",
+                            "gate:gateId": 47
+                        }
+                    },
+                    {
+                        "content": "2) storing the first set of document information that was extracted from a shallow crawl of the first set of'untargeted Websites, in a first storage repository included in the one or more storage devices,",
+                        "gate:gateId": 48
+                    },
+                    {
+                        "content": "3) extracting, automatically and from a second set of targeted Websites, a second set of document information extracted from a deep crawl of the second set of targeted Websites,",
+                        "gate:gateId": 49,
+                        "claim-text": [
+                            {
+                                "content": "wherein the targeted Websites include",
+                                "gate:gateId": 50
+                            },
+                            {
+                                "content": "i) Websites provided by content providers having available advertisement spots, and",
+                                "gate:gateId": 51
+                            },
+                            {
+                                "content": "ii) Web pages identified in earlier, unfilled, content relevant advertisement requests; and",
+                                "gate:gateId": 52
+                            },
+                            {
+                                "content": "4) storing the second set of document information that was extracted from a deep crawl of the second set of targeted Websites, in a second storage repository which is included in the one or more storage devices and which is different from the first storage repository.",
+                                "gate:gateId": 53
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the shallow crawl of each of the untargeted Websites includes crawling to a first level of Web Pages associated with the untargeted Website.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 33,
+            "gate:gateId": 54,
+            "claimNumber": 12,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "12. The apparatus of",
+                    ", wherein the shallow crawl of each of the untargeted Websites includes crawling to a first level of Web Pages associated with the untargeted Website."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the deep crawl of each of the targeted Websites includes crawling to a second level of Web pages associated with the targeted Website, and\nwherein the second level of Web pages is further down into a hierarchy of Web pages associated with a Website than the first level of Web pages.\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 62,
+            "gate:gateId": 57,
+            "claimNumber": 13,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "13. The apparatus of",
+                    ", wherein the deep crawl of each of the targeted Websites includes crawling to a second level of Web pages associated with the targeted Website, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 58,
+                "claim-text": {
+                    "content": "wherein the second level of Web pages is further down into a hierarchy of Web pages associated with a Website than the first level of Web pages.",
+                    "gate:gateId": 60
+                }
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the first set of untargeted Websites is larger than the second set of targeted Websites.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 25,
+            "gate:gateId": 61,
+            "claimNumber": 14,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "14. The apparatus of",
+                    ", wherein the first set of untargeted Websites is larger than the second set of targeted Websites."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the first set of document information extracted from the first set of the untargeted Websites includes textual content of Web pages of the untargeted Websites crawled, and\nwherein the second set of document information extracted from the second set of the targeted Websites includes textual content of Web pages of the targeted Websites crawled.\n\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 65,
+            "gate:gateId": 64,
+            "claimNumber": 15,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "15. The apparatus of",
+                    ", wherein the first set of document information extracted from the first set of the untargeted Websites includes textual content of Web pages of the untargeted Websites crawled, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 65,
+                "claim-text": {
+                    "content": "wherein the second set of document information extracted from the second set of the targeted Websites includes textual content of Web pages of the targeted Websites crawled.",
+                    "gate:gateId": 67
+                }
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "at least some of the second set of targeted Websites includes static document information, and\nwherein the at least some of the second set of targeted Websites which includes static document information is crawled before receiving an advertisement request.\n\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 50,
+            "gate:gateId": 68,
+            "claimNumber": 16,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "16. The apparatus of",
+                    ", wherein at least some of the second set of targeted Websites includes static document information, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 69,
+                "claim-text": {
+                    "content": "wherein the at least some of the second set of targeted Websites which includes static document information is crawled before receiving an advertisement request.",
+                    "gate:gateId": 71
+                }
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00017",
+            "body": "at least some of the second set of targeted Websites includes dynamic document information, and\nwherein the at least some of the second set of targeted Websites which includes dynamic document information is crawled responsive to an advertisement request.\n\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 50,
+            "gate:gateId": 72,
+            "claimNumber": 17,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "17. The apparatus of",
+                    ", wherein at least some of the second set of targeted Websites includes dynamic document information, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 74,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 73,
+                "claim-text": {
+                    "content": "wherein the at least some of the second set of targeted Websites which includes dynamic document information is crawled responsive to an advertisement request.",
+                    "gate:gateId": 75
+                }
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00018",
+            "body": "at least some of the targeted Websites include content provider Websites designated as partner Websites by an advertisement serving network.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 30,
+            "gate:gateId": 76,
+            "claimNumber": 18,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "18. The apparatus of",
+                    ", wherein at least some of the targeted Websites include content provider Websites designated as partner Websites by an advertisement serving network."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 78,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 77
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00019",
+            "body": "an identifier of the targeted designated partner Websites is entered via a content provider interface by a content provider associated with the document information, and wherein the content provider is a Web publisher.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 44,
+            "gate:gateId": 79,
+            "claimNumber": 19,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "19. The apparatus of",
+                    ", wherein an identifier of the targeted designated partner Websites is entered via a content provider interface by a content provider associated with the document information, and wherein the content provider is a Web publisher."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 81,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 80
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00020",
+            "body": "5 generating, automatically and for each of the targeted Websites, document relevance information from the second set of document information; and\n6 storing, on the one or more storage devices and for each of the targeted Websites, the document relevance information in association with an identifier of the targeted Website.\n\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ",\nfurther comprising:\n",
+            "claimBackReference": "of claim 11",
+            "claimSize": 67,
+            "gate:gateId": 82,
+            "claimNumber": 20,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "20. The apparatus of",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 84,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 83,
+                "claim-text": [
+                    {
+                        "content": "further comprising:",
+                        "gate:gateId": 85
+                    },
+                    {
+                        "content": "5 generating, automatically and for each of the targeted Websites, document relevance information from the second set of document information; and",
+                        "gate:gateId": 86
+                    },
+                    {
+                        "content": "6 storing, on the one or more storage devices and for each of the targeted Websites, the document relevance information in association with an identifier of the targeted Website.",
+                        "gate:gateId": 87
+                    }
+                ]
+            },
+            "depends_on": 11
+        }
+    ],
+    "numberIndependentClaims": 243
+}}

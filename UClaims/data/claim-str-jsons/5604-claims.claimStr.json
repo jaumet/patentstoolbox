@@ -1,0 +1,481 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504533-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 66,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3310,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "maintenance on a block pool and an index produced by a deduplication system, comprising:\ncontrolling a processor to access first data associated with members of a set of references to members of a set of blocks of data stored by a data de-duplication system in a block pool;\ncontrolling the processor to process the first data to manipulate a Bloom filter into a state from which membership in the set of references can be assessed, wherein processing the first data to manipulate the Bloom filter comprises using a first set of hashes, wherein the first data is one of, a list of references to blocks stored in the block pool, a list of references to BLOBs stored in the block pool;\ncontrolling the processor to access a block identifier identified with a member of the set of blocks of data stored by the data de-duplication system;\ncontrolling the processor to assess membership in the set of references for the block identifier by querying the Bloom filter with the block identifier, wherein querying the Bloom filter with the block identifier includes processing the block identifier using the first set of hashes; and\ncontrolling the processor to selectively perform a block reclamation action upon determining that the Bloom filter indicates that there is no member of the set of references associated with the block identifier, wherein the reclamation action comprises deleting the block from the block pool and reclaiming storage in the block pool associated with the block.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for performing ",
+            "claimSize": 265,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for performing maintenance on a block pool and an index produced by a deduplication system, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "controlling a processor to access first data associated with members of a set of references to members of a set of blocks of data stored by a data de-duplication system in a block pool;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "controlling the processor to process the first data to manipulate a Bloom filter into a state from which membership in the set of references can be assessed, wherein processing the first data to manipulate the Bloom filter comprises using a first set of hashes, wherein the first data is one of, a list of references to blocks stored in the block pool, a list of references to BLOBs stored in the block pool;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "controlling the processor to access a block identifier identified with a member of the set of blocks of data stored by the data de-duplication system;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "controlling the processor to assess membership in the set of references for the block identifier by querying the Bloom filter with the block identifier, wherein querying the Bloom filter with the block identifier includes processing the block identifier using the first set of hashes; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "controlling the processor to selectively perform a block reclamation action upon determining that the Bloom filter indicates that there is no member of the set of references associated with the block identifier, wherein the reclamation action comprises deleting the block from the block pool and reclaiming storage in the block pool associated with the block.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the list of references being associated with a file system for which the de-duplication system stores de-duplicated data.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 27,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", the list of references being associated with a file system for which the de-duplication system stores de-duplicated data."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the processor to modulate the first data and the block identifier in a manner sufficient to change the false positive response of the Bloom filter with respect to at least one query.\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", comprising:\ncontrolling ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 44,
+            "gate:gateId": 11,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12,
+                "claim-text": {
+                    "content": "controlling the processor to modulate the first data and the block identifier in a manner sufficient to change the false positive response of the Bloom filter with respect to at least one query.",
+                    "gate:gateId": 14
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the first data and the block identifier includes manipulating the first data into a second, different data and manipulating the block identifier into a second, different identifier.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein modulating ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 40,
+            "gate:gateId": 15,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein modulating the first data and the block identifier includes manipulating the first data into a second, different data and manipulating the block identifier into a second, different identifier."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the first data and the block identifier as a function of one or more of, a length of time the Bloom filter has been in use, a number of queries presented to the Bloom filter, and a number of false positives produced by the Bloom filter.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", comprising determining to modulate ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 62,
+            "gate:gateId": 18,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", comprising determining to modulate the first data and the block identifier as a function of one or more of, a length of time the Bloom filter has been in use, a number of queries presented to the Bloom filter, and a number of false positives produced by the Bloom filter."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the processor to change from processing the first data to manipulate the Bloom filter using a first set of hashes to processing the first data to manipulate the Bloom filter using a second, different set of hashes, and controlling the processor to change from querying the Bloom filter with the block identifier after processing the block identifier using the first set of hashes to querying the Bloom filter with the block identifier after processing the block identifier using the second, different set of hashes.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", comprising selectively controlling ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 99,
+            "gate:gateId": 21,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", comprising selectively controlling the processor to change from processing the first data to manipulate the Bloom filter using a first set of hashes to processing the first data to manipulate the Bloom filter using a second, different set of hashes, and controlling the processor to change from querying the Bloom filter with the block identifier after processing the block identifier using the first set of hashes to querying the Bloom filter with the block identifier after processing the block identifier using the second, different set of hashes."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "that when executed by a computer control the computer to perform a method for performing maintenance on a block pool and an index produced by a deduplication system, the method comprising:\ncontrolling a processor to access first data associated with members of a set of blocks of data stored by a data de-duplication system;\ncontrolling the processor to process the first data to manipulate a Bloom filter into a state from which membership in the set of blocks of data can be assessed, wherein processing the first data to manipulate the Bloom filter comprises using a second set of hashes, wherein the first data is one of, a list of references to blocks stored in the block pool, a list of references to BLOBs stored in the block pool;\ncontrolling the processor to access a reference to a block stored by the data de-duplication system, the reference being associated with a referencing entity for which the data de-duplication system stores blocks of data;\ncontrolling the processor to assess membership in the set of stored blocks of data for the reference to the block by querying the Bloom filter with the reference to the block, wherein querying the Bloom filter with the block identifier includes processing the block identifier using the second set of hashes; and\ncontrolling the processor to perform a remedial reference action upon determining that the Bloom filter indicates that there is no member of the set of stored blocks of data associated with the reference to the block.\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " ",
+            "claimSize": 273,
+            "gate:gateId": 24,
+            "claim_preamble": "A non-transitory computer-readable medium storing computer-executable instructions",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A non-transitory computer-readable medium storing computer-executable instructions that when executed by a computer control the computer to perform a method for performing maintenance on a block pool and an index produced by a deduplication system, the method comprising:",
+                "gate:gateId": 25,
+                "claim-text": [
+                    {
+                        "content": "controlling a processor to access first data associated with members of a set of blocks of data stored by a data de-duplication system;",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "controlling the processor to process the first data to manipulate a Bloom filter into a state from which membership in the set of blocks of data can be assessed, wherein processing the first data to manipulate the Bloom filter comprises using a second set of hashes, wherein the first data is one of, a list of references to blocks stored in the block pool, a list of references to BLOBs stored in the block pool;",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "controlling the processor to access a reference to a block stored by the data de-duplication system, the reference being associated with a referencing entity for which the data de-duplication system stores blocks of data;",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "controlling the processor to assess membership in the set of stored blocks of data for the reference to the block by querying the Bloom filter with the reference to the block, wherein querying the Bloom filter with the block identifier includes processing the block identifier using the second set of hashes; and",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "controlling the processor to perform a remedial reference action upon determining that the Bloom filter indicates that there is no member of the set of stored blocks of data associated with the reference to the block.",
+                        "gate:gateId": 30
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the first data is one of, a list of blocks of data in the set of stored blocks of data stored in a block pool associated with the data de-duplication system, and a list of BLOBs stored in the block pool.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 55,
+            "gate:gateId": 31,
+            "claimNumber": 8,
+            "claim_preamble": "The non-transitory computer-readable medium",
+            "claim-text": {
+                "content": [
+                    "8. The non-transitory computer-readable medium of",
+                    ", wherein the first data is one of, a list of blocks of data in the set of stored blocks of data stored in a block pool associated with the data de-duplication system, and a list of BLOBs stored in the block pool."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the reference to the block of data is associated with a file system for which the data de-duplication system stores de-duplicated data.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 34,
+            "gate:gateId": 34,
+            "claimNumber": 9,
+            "claim_preamble": "The non-transitory computer-readable medium",
+            "claim-text": {
+                "content": [
+                    "9. The non-transitory computer-readable medium of",
+                    ", wherein the reference to the block of data is associated with a file system for which the data de-duplication system stores de-duplicated data."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the method comprising performing one of:\nmanipulating the first Bloom filter to a state wherein the first Bloom filter will produce less than a 1% false positive rate for set membership; and\nmanipulating the first Bloom filter to a state wherein the first Bloom filter will produce less than a 0.1% false positive rate for set membership.\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 74,
+            "gate:gateId": 37,
+            "claimNumber": 0,
+            "claim_preamble": "The non-transitory computer-readable medium",
+            "claim-text": {
+                "content": [
+                    "10. The non-transitory computer-readable medium of",
+                    ", the method comprising performing one of:"
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 38,
+                "claim-text": [
+                    {
+                        "content": "manipulating the first Bloom filter to a state wherein the first Bloom filter will produce less than a 1% false positive rate for set membership; and",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "manipulating the first Bloom filter to a state wherein the first Bloom filter will produce less than a 0.1% false positive rate for set membership.",
+                        "gate:gateId": 41
+                    }
+                ]
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the method comprising selectively modulating the first data and the reference.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 22,
+            "gate:gateId": 42,
+            "claimNumber": 11,
+            "claim_preamble": "The non-transitory computer-readable medium",
+            "claim-text": {
+                "content": [
+                    "11. The non-transitory computer-readable medium of",
+                    ", the method comprising selectively modulating the first data and the reference."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the first data comprises performing a data altering operation on the first data and wherein modulating the reference comprises performing a data altering operation on the reference.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein modulating ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 40,
+            "gate:gateId": 45,
+            "claimNumber": 12,
+            "claim_preamble": "The non-transitory computer-readable medium",
+            "claim-text": {
+                "content": [
+                    "12. The non-transitory computer-readable medium of",
+                    ", wherein modulating the first data comprises performing a data altering operation on the first data and wherein modulating the reference comprises performing a data altering operation on the reference."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the first data and the reference comprises changing a set of hashes used to process data that populates the Bloom filter and to process data that queries the Bloom filter.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein modulating ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 43,
+            "gate:gateId": 48,
+            "claimNumber": 13,
+            "claim_preamble": "The non-transitory computer-readable medium",
+            "claim-text": {
+                "content": [
+                    "13. The non-transitory computer-readable medium of",
+                    ", wherein modulating the first data and the reference comprises changing a set of hashes used to process data that populates the Bloom filter and to process data that queries the Bloom filter."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00014",
+            "body": "maintenance on a block pool and an index produced by a deduplication system, comprising:\na processor;\na memory;\na set of logics; and\nan interface to connect the processor, the memory, and the set of logics, the set of logics comprising:\na first logic configured to populate a Bloom filter with first information concerning a first set, wherein the first information comprises a first set of hashes;\na second logic configured to query the Bloom filter with an entry from a second set, wherein the second set of information comprises a second set of hashes; and\na third logic configured to control a processor to take an action as a function of the second logic determining that the Bloom filter indicates that the entry from the second set does not have a corresponding member in the first set, wherein the action is associated with de-duplication reference tag reconciliation, wherein the first set being a set of references to blocks referenced by a referencing entity, the second set being a set of blocks stored in a block pool associated with a de-duplication system, and the action being a space reclamation action.\n\n\n",
+            "claimType": "independent",
+            "num": "00014",
+            "transPhrase": " for performing ",
+            "claimSize": 214,
+            "gate:gateId": 51,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 14,
+            "claim-text": {
+                "content": "14. An apparatus for performing maintenance on a block pool and an index produced by a deduplication system, comprising:",
+                "gate:gateId": 52,
+                "claim-text": [
+                    {
+                        "content": "a processor;",
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": "a memory;",
+                        "gate:gateId": 54
+                    },
+                    {
+                        "content": "a set of logics; and",
+                        "gate:gateId": 55
+                    },
+                    {
+                        "content": "an interface to connect the processor, the memory, and the set of logics, the set of logics comprising:",
+                        "gate:gateId": 56,
+                        "claim-text": [
+                            {
+                                "content": "a first logic configured to populate a Bloom filter with first information concerning a first set, wherein the first information comprises a first set of hashes;",
+                                "gate:gateId": 57
+                            },
+                            {
+                                "content": "a second logic configured to query the Bloom filter with an entry from a second set, wherein the second set of information comprises a second set of hashes; and",
+                                "gate:gateId": 58
+                            },
+                            {
+                                "content": "a third logic configured to control a processor to take an action as a function of the second logic determining that the Bloom filter indicates that the entry from the second set does not have a corresponding member in the first set, wherein the action is associated with de-duplication reference tag reconciliation, wherein the first set being a set of references to blocks referenced by a referencing entity, the second set being a set of blocks stored in a block pool associated with a de-duplication system, and the action being a space reclamation action.",
+                                "gate:gateId": 59
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the first set being a set of blocks stored in a block pool associated with a de-duplication system, the second set being a set of references to blocks referenced by a referencing entity, wherein the block pool stores blocks associated with the referencing entity.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 55,
+            "gate:gateId": 60,
+            "claimNumber": 15,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "15. The apparatus of",
+                    ", the first set being a set of blocks stored in a block pool associated with a de-duplication system, the second set being a set of references to blocks referenced by a referencing entity, wherein the block pool stores blocks associated with the referencing entity."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 62,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 61
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the referencing entity being a file system and the action being a reference remediation action. \n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 24,
+            "gate:gateId": 63,
+            "claimNumber": 16,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "16. The apparatus of",
+                    ", the referencing entity being a file system and the action being a reference remediation action."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 65,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 64
+            },
+            "depends_on": 15
+        }
+    ],
+    "numberIndependentClaims": 241
+}}

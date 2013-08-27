@@ -1,0 +1,716 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501233-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 88,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2458,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "cancerous tissue comprising:\n(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;\n(b) disposing the composition in contact with cancerous tissue, and\n(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,\n\nwherein irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 39° C. in a time period of less than 10 seconds.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of treating ",
+            "claimSize": 99,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": [
+                {
+                    "content": "1. A method of treating cancerous tissue comprising:",
+                    "gate:gateId": 2,
+                    "claim-text": [
+                        {
+                            "content": "(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;",
+                            "gate:gateId": 3
+                        },
+                        {
+                            "content": "(b) disposing the composition in contact with cancerous tissue, and",
+                            "gate:gateId": 4
+                        },
+                        {
+                            "content": "(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,",
+                            "gate:gateId": 5
+                        }
+                    ]
+                },
+                {
+                    "content": "wherein irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 39° C. in a time period of less than 10 seconds.",
+                    "gate:gateId": 6
+                }
+            ]
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the cancerous tissue is heated to a temperature ranging from about 39° C. to about 42° C.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 30,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein the cancerous tissue is heated to a temperature ranging from about 39° C. to about 42° C."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the plurality of nanoparticles comprises carbon nanotubes.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 17,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the plurality of nanoparticles comprises carbon nanotubes."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "carbon nanotubes comprise multi-walled carbon nanotubes.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 16,
+            "gate:gateId": 13,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein carbon nanotubes comprise multi-walled carbon nanotubes."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the carbon nanotubes have a length ranging from about 500 nm to about 2 μm.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 25,
+            "gate:gateId": 16,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein the carbon nanotubes have a length ranging from about 500 nm to about 2 μm."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 21,
+            "gate:gateId": 19,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 34,
+            "gate:gateId": 22,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the at least one chemotherapeutic agent is present in the composition at a concentration ranging from about 1 μM to about 300μM.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 25,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", wherein the at least one chemotherapeutic agent is present in the composition at a concentration ranging from about 1 μM to about 300μM."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 25,
+            "gate:gateId": 28,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", wherein the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the composition in contact with cancerous tissue comprises applying the composition locally to the cancerous tissue.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein disposing ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 27,
+            "gate:gateId": 31,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    ", wherein disposing the composition in contact with cancerous tissue comprises applying the composition locally to the cancerous tissue."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "repeating steps (b) and (c) at a plurality of localized areas of the cancerous tissue.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 30,
+            "gate:gateId": 34,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    ", further comprising repeating steps (b) and (c) at a plurality of localized areas of the cancerous tissue."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the plurality of localized areas are in the peritoneal cavity.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 20,
+            "gate:gateId": 37,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", wherein the plurality of localized areas are in the peritoneal cavity."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the electromagnetic radiation comprises ultra-violet, visible, infrared radiation or combinations thereof.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 40,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", wherein the electromagnetic radiation comprises ultra-violet, visible, infrared radiation or combinations thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 59,
+            "gate:gateId": 43,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to irradiation of the plurality of nanoparticles for the 10 seconds is substantially equivalent to the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to heating the cancerous tissue at a temperature of 42° C. for two hours in the presence of the at least one chemotherapeutic agent alone.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 80,
+            "gate:gateId": 46,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", wherein the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to irradiation of the plurality of nanoparticles for the 10 seconds is substantially equivalent to the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to heating the cancerous tissue at a temperature of 42° C. for two hours in the presence of the at least one chemotherapeutic agent alone."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00016",
+            "body": "irradiating comprises providing a surgeon with a hand-held laser wherein the surgeon positions the laser proximate the cancerous tissue.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 49,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", wherein irradiating comprises providing a surgeon with a hand-held laser wherein the surgeon positions the laser proximate the cancerous tissue."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the at least one chemotherapeutic agent is not disposed in a nanoparticle.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 52,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", wherein the at least one chemotherapeutic agent is not disposed in a nanoparticle."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 53
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00018",
+            "body": "cancerous tissue comprising:\n(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;\n(b) disposing the composition in contact with cancerous tissue, and\n(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,\n\nwherein the plurality of nanoparticles comprises carbon nanotubes and irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 42° C. in a time period of less than 30 seconds.\n",
+            "claimType": "independent",
+            "num": "00018",
+            "transPhrase": " of treating ",
+            "claimSize": 107,
+            "gate:gateId": 55,
+            "claim_preamble": "A method",
+            "claimNumber": 18,
+            "claim-text": [
+                {
+                    "content": "18. A method of treating cancerous tissue comprising:",
+                    "gate:gateId": 56,
+                    "claim-text": [
+                        {
+                            "content": "(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;",
+                            "gate:gateId": 57
+                        },
+                        {
+                            "content": "(b) disposing the composition in contact with cancerous tissue, and",
+                            "gate:gateId": 58
+                        },
+                        {
+                            "content": "(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,",
+                            "gate:gateId": 59
+                        }
+                    ]
+                },
+                {
+                    "content": "wherein the plurality of nanoparticles comprises carbon nanotubes and irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 42° C. in a time period of less than 30 seconds.",
+                    "gate:gateId": 60
+                }
+            ]
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the carbon nanotubes comprise multi-walled carbon nanotubes.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 17,
+            "gate:gateId": 61,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method of",
+                    ", wherein the carbon nanotubes comprise multi-walled carbon nanotubes."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the carbon nanotubes have a length ranging from about 500 nm to about 2 μm.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 25,
+            "gate:gateId": 64,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    ", wherein the carbon nanotubes have a length ranging from about 500 nm to about 2 μm."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00021",
+            "body": "the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml.\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 34,
+            "gate:gateId": 67,
+            "claimNumber": 21,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "21. The method of",
+                    ", wherein the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00022",
+            "body": "the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 21,
+            "gate:gateId": 70,
+            "claimNumber": 22,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "22. The method of",
+                    ", wherein the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the at least one chemotherapeutic agent is not disposed in a nanoparticle.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 22,
+            "gate:gateId": 73,
+            "claimNumber": 23,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "23. The method of",
+                    ", wherein the at least one chemotherapeutic agent is not disposed in a nanoparticle."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00024",
+            "body": "the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes.\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 25,
+            "gate:gateId": 76,
+            "claimNumber": 24,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "24. The method of",
+                    ", wherein the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 78,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 77
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00025",
+            "body": "at least one carbon nanotube is capped with a polymeric material.\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 24",
+            "claimSize": 21,
+            "gate:gateId": 79,
+            "claimNumber": 25,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "25. The method of",
+                    ", wherein at least one carbon nanotube is capped with a polymeric material."
+                ],
+                "claim-ref": {
+                    "content": "claim 24",
+                    "gate:gateId": 81,
+                    "idref": "CLM-00024"
+                },
+                "gate:gateId": 80
+            },
+            "depends_on": 24
+        },
+        {
+            "id": "CLM-00026",
+            "body": "the polymeric material comprises alginate, poly(lactic)-co-glycolic acid, polylactic acid, poly(decandiol) citrate, or combinations thereof.\n",
+            "num": "00026",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 25",
+            "claimSize": 36,
+            "gate:gateId": 82,
+            "claimNumber": 26,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "26. The method of",
+                    ", wherein the polymeric material comprises alginate, poly(lactic)-co-glycolic acid, polylactic acid, poly(decandiol) citrate, or combinations thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 84,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 83
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00027",
+            "body": "the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof. \n",
+            "num": "00027",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 59,
+            "gate:gateId": 85,
+            "claimNumber": 27,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "27. The method of",
+                    ", wherein the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 87,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 86
+            },
+            "depends_on": 18
+        }
+    ],
+    "numberIndependentClaims": 46
+}}

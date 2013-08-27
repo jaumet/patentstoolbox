@@ -1,0 +1,517 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504496-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 68,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2601,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a memory for storing computer-executable instructions for an application program interface; and\na processor in communication with the memory, wherein the processor is configured to execute the computer-executable instructions to enable a user of the application program interface to:\nspecify parameters associated with an evolutionary algorithm, wherein an execution of the evolutionary algorithm is in accordance with the specified parameters;\ndefine a chromosome data structure that includes a plurality of variables that are permitted to evolve in value in accordance with the execution of the evolutionary algorithm in order to generate one or more child chromosome data structures;\nidentify one or more objective functions for evaluating chromosome data structures, including the generated one or more child chromosome data structures; and\ndefine an output format for providing one or more optimal chromosome data structures of the evaluated generated child chromosome data structures as designs to the identified objective functions,\nwherein the chromosome data structure comprises at least one matrix gene having a plurality of rows, wherein each row specifies a variable number of genes that are permitted to evolve.\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 196,
+            "gate:gateId": 1,
+            "claim_preamble": "A system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A system, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a memory for storing computer-executable instructions for an application program interface; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a processor in communication with the memory, wherein the processor is configured to execute the computer-executable instructions to enable a user of the application program interface to:",
+                        "gate:gateId": 4,
+                        "claim-text": [
+                            {
+                                "content": "specify parameters associated with an evolutionary algorithm, wherein an execution of the evolutionary algorithm is in accordance with the specified parameters;",
+                                "gate:gateId": 5
+                            },
+                            {
+                                "content": "define a chromosome data structure that includes a plurality of variables that are permitted to evolve in value in accordance with the execution of the evolutionary algorithm in order to generate one or more child chromosome data structures;",
+                                "gate:gateId": 6
+                            },
+                            {
+                                "content": "identify one or more objective functions for evaluating chromosome data structures, including the generated one or more child chromosome data structures; and",
+                                "gate:gateId": 7
+                            },
+                            {
+                                "content": "define an output format for providing one or more optimal chromosome data structures of the evaluated generated child chromosome data structures as designs to the identified objective functions,",
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": "wherein the chromosome data structure comprises at least one matrix gene having a plurality of rows, wherein each row specifies a variable number of genes that are permitted to evolve.",
+                                "gate:gateId": 9
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "each row of the chromosome data structure comprises a plurality of matrix genes, wherein each matrix gene is associated with a respective inclusion indicator, wherein the respective inclusion indicator determines whether respective variables specified for the respective row of the matrix gene are utilized in evaluating the chromosome data structure by one or more of the identified objective functions.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 71,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "2. The system of",
+                    ", wherein each row of the chromosome data structure comprises a plurality of matrix genes, wherein each matrix gene is associated with a respective inclusion indicator, wherein the respective inclusion indicator determines whether respective variables specified for the respective row of the matrix gene are utilized in evaluating the chromosome data structure by one or more of the identified objective functions."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "one of the at least one matrix gene references one or more instances of another matrix gene, wherein each instance of the another matrix gene has a respective plurality of rows, wherein each row specifies at least a portion of the plurality of variables that are permitted to evolve.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 61,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "3. The system of",
+                    ", wherein one of the at least one matrix gene references one or more instances of another matrix gene, wherein each instance of the another matrix gene has a respective plurality of rows, wherein each row specifies at least a portion of the plurality of variables that are permitted to evolve."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "each of the plurality of variables that are permitted to evolve in value are constrained by a respective range.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "4. The system of",
+                    ", wherein each of the plurality of variables that are permitted to evolve in value are constrained by a respective range."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the respective range is defined by a respective lower limit and a respective upper limit.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 25,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "5. The system of",
+                    ", wherein the respective range is defined by a respective lower limit and a respective upper limit."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the defined chromosome data structure further includes at least one: (i) fixed value, or (ii) derived variable.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "6. The system of",
+                    ", wherein the defined chromosome data structure further includes at least one: (i) fixed value, or (ii) derived variable."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the derived variable is associated with a function or equation for calculating a value of the derived variable.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "7. The system of",
+                    ", wherein the derived variable is associated with a function or equation for calculating a value of the derived variable."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the processor is configured to execute the computer-executable instructions to enable a user of the application program interface to:\nspecify one or more plug-in software or functions that are performed in accordance with the execution of the evolutionary algorithm.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 50,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "8. The system of",
+                    ", wherein the processor is configured to execute the computer-executable instructions to enable a user of the application program interface to:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 29,
+                "claim-text": {
+                    "content": "specify one or more plug-in software or functions that are performed in accordance with the execution of the evolutionary algorithm.",
+                    "gate:gateId": 31
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "each identified objective function is associated with a respective optimization direction, wherein the optimization direction determines whether the objective function is to be minimized or maximized when evaluating the chromosome data structure.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 43,
+            "gate:gateId": 32,
+            "claimNumber": 9,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "9. The system of",
+                    ", wherein each identified objective function is associated with a respective optimization direction, wherein the optimization direction determines whether the objective function is to be minimized or maximized when evaluating the chromosome data structure."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "one or more processors, parameters associated with an evolutionary algorithm;\ndefining, by the one or more processors, a chromosome data structure that includes a plurality of variables that are permitted to evolve in value;\nidentifying, by the one or more processors, one or more objective functions for evaluating chromosome data structures;\nexecuting, by the one or more processors, the evolutionary algorithm in accordance with received parameters in order to generate one or more child chromosome data structures from an instance of a defined chromosome data structure;\nevaluating, by the one or more processors, the generated one or more child chromosome data structures according to the identified one or more objective functions; and\nproviding, by the one or more processors, an output of one or more optimal chromosome data structures of the evaluated child chromosome data structures as designs to the identified objective functions,\nwherein the chromosome data structure comprises at least one matrix gene having a plurality of rows, wherein each row specifies a variable number of genes that are permitted to evolve.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": ", comprising:\nidentifying, by ",
+            "claimSize": 202,
+            "gate:gateId": 35,
+            "claim_preamble": "A method",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A method, comprising:",
+                "gate:gateId": 36,
+                "claim-text": [
+                    {
+                        "content": "identifying, by one or more processors, parameters associated with an evolutionary algorithm;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "defining, by the one or more processors, a chromosome data structure that includes a plurality of variables that are permitted to evolve in value;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "identifying, by the one or more processors, one or more objective functions for evaluating chromosome data structures;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "executing, by the one or more processors, the evolutionary algorithm in accordance with received parameters in order to generate one or more child chromosome data structures from an instance of a defined chromosome data structure;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "evaluating, by the one or more processors, the generated one or more child chromosome data structures according to the identified one or more objective functions; and",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "providing, by the one or more processors, an output of one or more optimal chromosome data structures of the evaluated child chromosome data structures as designs to the identified objective functions,",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "wherein the chromosome data structure comprises at least one matrix gene having a plurality of rows, wherein each row specifies a variable number of genes that are permitted to evolve.",
+                        "gate:gateId": 43
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the parameters are identified via an application program interface (API), wherein the API defines the chromosome data structure, and wherein the API further identifies the one or more objective functions.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 44,
+            "gate:gateId": 44,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    ", wherein the parameters are identified via an application program interface (API), wherein the API defines the chromosome data structure, and wherein the API further identifies the one or more objective functions."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "each row of the chromosome data structure comprises a plurality of matrix genes, wherein each matrix gene is associated with a respective inclusion indicator, wherein the respective inclusion indicator determines whether respective variables specified for the respective row of the matrix gene are utilized in evaluating the chromosome data structure by one or more of the identified objective functions.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 71,
+            "gate:gateId": 47,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", wherein each row of the chromosome data structure comprises a plurality of matrix genes, wherein each matrix gene is associated with a respective inclusion indicator, wherein the respective inclusion indicator determines whether respective variables specified for the respective row of the matrix gene are utilized in evaluating the chromosome data structure by one or more of the identified objective functions."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00013",
+            "body": "one of the at least one matrix gene references one or more instances of another matrix gene, wherein each instance of the another matrix gene has a respective plurality of rows, wherein each row specifies at least a portion of the plurality of variables that are permitted to evolve.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 61,
+            "gate:gateId": 50,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", wherein one of the at least one matrix gene references one or more instances of another matrix gene, wherein each instance of the another matrix gene has a respective plurality of rows, wherein each row specifies at least a portion of the plurality of variables that are permitted to evolve."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00014",
+            "body": "each of the plurality of variables that are permitted to evolve in value are constrained by a respective range.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 29,
+            "gate:gateId": 53,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein each of the plurality of variables that are permitted to evolve in value are constrained by a respective range."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the respective range is defined by a respective lower limit and a respective upper limit.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 25,
+            "gate:gateId": 56,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", wherein the respective range is defined by a respective lower limit and a respective upper limit."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the defined chromosome data structure further includes at least one: (i) fixed value, or (ii) derived variable.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 33,
+            "gate:gateId": 59,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", wherein the defined chromosome data structure further includes at least one: (i) fixed value, or (ii) derived variable."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the derived variable is associated with a function or equation for calculating a value of the derived variable.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 28,
+            "gate:gateId": 62,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", wherein the derived variable is associated with a function or equation for calculating a value of the derived variable."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00018",
+            "body": "each identified objective function is associated with a respective optimization direction, wherein the optimization direction determines whether the objective function is to be minimized or maximized when evaluating the chromosome data structure.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 43,
+            "gate:gateId": 65,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    ", wherein each identified objective function is associated with a respective optimization direction, wherein the optimization direction determines whether the objective function is to be minimized or maximized when evaluating the chromosome data structure."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 10
+        }
+    ],
+    "numberIndependentClaims": 238
+}}

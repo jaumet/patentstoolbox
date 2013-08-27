@@ -1,0 +1,216 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504445-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 28,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1192,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "machines located at a plurality of customer locations, by service technicians, comprising:\na central inventory storing quantities of parts and supplies required to service and maintain said machines;\na plurality of service vehicles each having a trunk inventory of parts and/or supplies for the maintenance and service of said machines;\na central computer based ERP system operative to maintain records of the parts and supplies constituting the contents of said central inventory and the trunk inventories in each vehicle;\nmachine-readable identification tags attached to the parts and/or supplies contained in the central inventory and each trunk inventory;\nmachine-readable identification tags attached to each of the machines to be serviced;\nall of the machine-readable identification tags bearing information identifying the parts and/or supplies bearing the identification tags and data which will automatically initiate phone messages to said ERP system when the machine-readable identification tags are read by cellular phones; and\ncellular phones for use by said service technicians allowing a service technician, visiting a customer location including a machine requiring maintenance and/or service to read the machine-readable identification tag attached to said serviced machine at the beginning and end of a service call to transmit information to said ERP system relative to the time spent on the service call and the parts and/or supplies transferred by the technician from said service technician's vehicle's trunk inventory to said maintained and serviced machine.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for maintaining and servicing ",
+            "claimSize": 261,
+            "gate:gateId": 1,
+            "claim_preamble": "A system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A system for maintaining and servicing machines located at a plurality of customer locations, by service technicians, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a central inventory storing quantities of parts and supplies required to service and maintain said machines;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a plurality of service vehicles each having a trunk inventory of parts and/or supplies for the maintenance and service of said machines;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a central computer based ERP system operative to maintain records of the parts and supplies constituting the contents of said central inventory and the trunk inventories in each vehicle;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "machine-readable identification tags attached to the parts and/or supplies contained in the central inventory and each trunk inventory;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "machine-readable identification tags attached to each of the machines to be serviced;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "all of the machine-readable identification tags bearing information identifying the parts and/or supplies bearing the identification tags and data which will automatically initiate phone messages to said ERP system when the machine-readable identification tags are read by cellular phones; and",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "cellular phones for use by said service technicians allowing a service technician, visiting a customer location including a machine requiring maintenance and/or service to read the machine-readable identification tag attached to said serviced machine at the beginning and end of a service call to transmit information to said ERP system relative to the time spent on the service call and the parts and/or supplies transferred by the technician from said service technician's vehicle's trunk inventory to said maintained and serviced machine.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the ERP system is operative to generate orders to vendors based on the records of the central inventory records.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The computer based inventory accounting system",
+            "claim-text": {
+                "content": [
+                    "2. The computer based inventory accounting system of",
+                    ", wherein the ERP system is operative to generate orders to vendors based on the records of the central inventory records."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the ERP system is operative to generate transfer orders for service parts and/or supplies from the central inventory to the trunk inventories to maintain the trunk inventories at predetermined levels.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 46,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The computer based inventory accounting system",
+            "claim-text": {
+                "content": [
+                    "3. The computer based inventory accounting system of",
+                    ", wherein the ERP system is operative to generate transfer orders for service parts and/or supplies from the central inventory to the trunk inventories to maintain the trunk inventories at predetermined levels."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the machine-readable identification tags constitute QR coded labels.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 18,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "4. The system of",
+                    ", wherein the machine-readable identification tags constitute QR coded labels."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "phone messages initiated by reading said identification tags attached to particular machines being maintained and serviced at the beginning and end of a service period are timed by the ERP system to generate billing to the business maintaining such machine for the service and maintenance.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 55,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "5. The system of",
+                    ", wherein phone messages initiated by reading said identification tags attached to particular machines being maintained and serviced at the beginning and end of a service period are timed by the ERP system to generate billing to the business maintaining such machine for the service and maintenance."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the ERP system utilizes information received from said cellular telephones to generate billing to customers for the delivery of parts and/or supplies and for service operations.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 38,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "6. The system of",
+                    ", wherein the ERP system utilizes information received from said cellular telephones to generate billing to customers for the delivery of parts and/or supplies and for service operations."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the cellular telephones include displays and the reading of an identification tag by the cellular phone generates a dialog window on the screen of the phone. \n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 36,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "7. The system of",
+                    ", wherein the cellular telephones include displays and the reading of an identification tag by the cellular phone generates a dialog window on the screen of the phone."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 221
+}}

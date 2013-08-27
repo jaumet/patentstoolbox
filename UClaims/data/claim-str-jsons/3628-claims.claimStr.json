@@ -1,0 +1,1067 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502549-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 158,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 8837,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "pass/fail of a device under test depending on a load voltage or a load current supplied to the device under test, the test apparatus comprising:\na driver circuit that supplies, to the device under test, a test signal corresponding to an input signal; and\na judging section that judges pass/fail of the device under test, the judgment based on one of the load voltage and the load current, the load voltage supplied to the device under test when the test signal has a predetermined current, the load current supplied to the device under test when the test signal has a predetermined voltage:\nwherein the driver circuit includes:\na driver section that outputs the test signal and selects a voltage of the test signal according to the input signal, from among a plurality of voltages supplied to the driver section, the driver section including a buffer that supplies a supply current to the device under test from a high voltage power-source line, and draws a draw current from the device under test into a low voltage power-source line, the buffer including:\na high voltage transistor having a first collector terminal electrically connected to the high voltage power-source line, and a first emitter terminal electrically connected to the device under test through which the test signal is outputted, and\na low voltage transistor having a second emitter terminal electrically connected to the first emitter terminal, and a second collector terminal electrically connected to the low voltage power-source line,\n\n\na supply current detecting section that detects the supply current, the supply current detecting section including:\na high-voltage-side detecting section provided between the high voltage power-source line and the high voltage transistor, and detects a high voltage current of the first collector, and\na low-voltage-side detecting section provided between the low voltage power-source line and the low voltage transistor, and detects a low voltage current of the second collector,\n\na base current detecting section that detects a high voltage base current of the high voltage transistor and a low voltage base current of the low voltage transistor, and\nan output control section that controls one of a voltage and a current of the test signal based on the supply current detected by the supply current detecting section, and controls the plurality of voltages so that a difference between a high emitter current and a low emitter current becomes a predetermined constant current, the high emitter current obtained as a summation of the high voltage current and the high voltage base current, and the low emitter current obtained as a summation of the low voltage current and the low voltage base current.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for judging ",
+            "claimSize": 478,
+            "gate:gateId": 1,
+            "claim_preamble": "A test apparatus",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A test apparatus for judging pass/fail of a device under test depending on a load voltage or a load current supplied to the device under test, the test apparatus comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a driver circuit that supplies, to the device under test, a test signal corresponding to an input signal; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a judging section that judges pass/fail of the device under test, the judgment based on one of the load voltage and the load current, the load voltage supplied to the device under test when the test signal has a predetermined current, the load current supplied to the device under test when the test signal has a predetermined voltage:",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "wherein the driver circuit includes:",
+                        "gate:gateId": 5,
+                        "claim-text": {
+                            "content": "a driver section that outputs the test signal and selects a voltage of the test signal according to the input signal, from among a plurality of voltages supplied to the driver section, the driver section including a buffer that supplies a supply current to the device under test from a high voltage power-source line, and draws a draw current from the device under test into a low voltage power-source line, the buffer including:",
+                            "gate:gateId": 6,
+                            "claim-text": [
+                                {
+                                    "content": "a high voltage transistor having a first collector terminal electrically connected to the high voltage power-source line, and a first emitter terminal electrically connected to the device under test through which the test signal is outputted, and",
+                                    "gate:gateId": 7
+                                },
+                                {
+                                    "content": "a low voltage transistor having a second emitter terminal electrically connected to the first emitter terminal, and a second collector terminal electrically connected to the low voltage power-source line,",
+                                    "gate:gateId": 8
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "content": "a supply current detecting section that detects the supply current, the supply current detecting section including:",
+                        "gate:gateId": 9,
+                        "claim-text": [
+                            {
+                                "content": "a high-voltage-side detecting section provided between the high voltage power-source line and the high voltage transistor, and detects a high voltage current of the first collector, and",
+                                "gate:gateId": 10
+                            },
+                            {
+                                "content": "a low-voltage-side detecting section provided between the low voltage power-source line and the low voltage transistor, and detects a low voltage current of the second collector,",
+                                "gate:gateId": 11
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a base current detecting section that detects a high voltage base current of the high voltage transistor and a low voltage base current of the low voltage transistor, and",
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": "an output control section that controls one of a voltage and a current of the test signal based on the supply current detected by the supply current detecting section, and controls the plurality of voltages so that a difference between a high emitter current and a low emitter current becomes a predetermined constant current, the high emitter current obtained as a summation of the high voltage current and the high voltage base current, and the low emitter current obtained as a summation of the low voltage current and the low voltage base current.",
+                        "gate:gateId": 13
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the driver section further includes a pre-driver that supplies a voltage corresponding to one of the plurality of voltages supplied thereto that corresponds to a logic value of the input signal, to a base terminal of the high voltage transistor and a base terminal of the low voltage transistor, wherein the output control section controls the voltage supplied to the pre-driver, based on the supply current detected by the supply current detecting section.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 88,
+            "gate:gateId": 14,
+            "claimNumber": 2,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "2. The test apparatus according to",
+                    ", wherein the driver section further includes a pre-driver that supplies a voltage corresponding to one of the plurality of voltages supplied thereto that corresponds to a logic value of the input signal, to a base terminal of the high voltage transistor and a base terminal of the low voltage transistor, wherein the output control section controls the voltage supplied to the pre-driver, based on the supply current detected by the supply current detecting section."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the driver section further includes a voltage shift section that shifts the voltage supplied from the pre-driver by a first predetermined pre-driver voltage, supplies the shifted voltage to the base terminal of the high voltage transistor, shifts the voltage supplied from the pre-driver by a second predetermined pre-driver voltage, and supplies the shifted voltage to the base terminal of the low voltage transistor.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 78,
+            "gate:gateId": 17,
+            "claimNumber": 3,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "3. The test apparatus according to",
+                    ", wherein the driver section further includes a voltage shift section that shifts the voltage supplied from the pre-driver by a first predetermined pre-driver voltage, supplies the shifted voltage to the base terminal of the high voltage transistor, shifts the voltage supplied from the pre-driver by a second predetermined pre-driver voltage, and supplies the shifted voltage to the base terminal of the low voltage transistor."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the driver circuit includes a pattern operation mode to output a pattern signal having a predetermined logic pattern, and a constant current operation mode to output a predetermined constant current, and when operating in the constant current operation mode, the output control section controls the plurality of voltages supplied to the driver section, so that the load current to the device under test determined by the supply current detected by the supply current detecting section becomes a predetermined constant current.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 96,
+            "gate:gateId": 20,
+            "claimNumber": 4,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "4. The test apparatus according to",
+                    ", wherein the driver circuit includes a pattern operation mode to output a pattern signal having a predetermined logic pattern, and a constant current operation mode to output a predetermined constant current, and when operating in the constant current operation mode, the output control section controls the plurality of voltages supplied to the driver section, so that the load current to the device under test determined by the supply current detected by the supply current detecting section becomes a predetermined constant current."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the output control section includes:\na static characteristic data storage section that stores static characteristic data representing a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and\na control circuit that controls the plurality of voltages;\nwherein the high voltage base current and the low voltage base current are calculated from the static characteristic data.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 89,
+            "gate:gateId": 23,
+            "claimNumber": 5,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "5. The test apparatus according to",
+                    ", wherein the output control section includes:"
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 24,
+                "claim-text": [
+                    {
+                        "content": "a static characteristic data storage section that stores static characteristic data representing a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "a control circuit that controls the plurality of voltages;",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "wherein the high voltage base current and the low voltage base current are calculated from the static characteristic data.",
+                        "gate:gateId": 28
+                    }
+                ]
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a transmission end resistance provided between the driver section and the device under test;\nwherein the static characteristic data storage section stores the static characteristic data further representing a relation between the high voltage current and a base to high emitter voltage for the high voltage transistor and a relation between the low voltage current and a base to low emitter voltage of the low voltage transistor;\nwherein the control circuit calculates a high emitter voltage of the high voltage transistor and a low emitter voltage of the low voltage transistor from the static characteristic data and the high voltage current and the low voltage current, respectively, and calculates the load voltage supplied to the device under test, based on the high and low emitter current, the high and low emitter voltage, and the transmission end resistance; and\nwherein the judging section judges pass/fail of the device under test based on the load voltage calculated by the control circuit.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "further comprising:\n",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 183,
+            "gate:gateId": 29,
+            "claimNumber": 6,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "6. The test apparatus according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 30,
+                "claim-text": [
+                    {
+                        "content": "a transmission end resistance provided between the driver section and the device under test;",
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": "wherein the static characteristic data storage section stores the static characteristic data further representing a relation between the high voltage current and a base to high emitter voltage for the high voltage transistor and a relation between the low voltage current and a base to low emitter voltage of the low voltage transistor;",
+                        "gate:gateId": 33
+                    },
+                    {
+                        "content": "wherein the control circuit calculates a high emitter voltage of the high voltage transistor and a low emitter voltage of the low voltage transistor from the static characteristic data and the high voltage current and the low voltage current, respectively, and calculates the load voltage supplied to the device under test, based on the high and low emitter current, the high and low emitter voltage, and the transmission end resistance; and",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "wherein the judging section judges pass/fail of the device under test based on the load voltage calculated by the control circuit.",
+                        "gate:gateId": 35
+                    }
+                ]
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a temperature detecting section that detects a temperature of the driver section;\nwherein the static characteristic data storage section further stores a plurality of kinds of static characteristic data corresponding to a plurality of temperatures of the driver section; and\nwherein the control circuit reads, from the static characteristic data storage section, the static characteristic data corresponding to the temperature detected by the temperature detecting section, and controls the plurality of voltages based on the static characteristic data.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "further comprising:\n",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 97,
+            "gate:gateId": 36,
+            "claimNumber": 7,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "7. The test apparatus according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 38,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 37,
+                "claim-text": [
+                    {
+                        "content": "a temperature detecting section that detects a temperature of the driver section;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "wherein the static characteristic data storage section further stores a plurality of kinds of static characteristic data corresponding to a plurality of temperatures of the driver section; and",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "wherein the control circuit reads, from the static characteristic data storage section, the static characteristic data corresponding to the temperature detected by the temperature detecting section, and controls the plurality of voltages based on the static characteristic data.",
+                        "gate:gateId": 41
+                    }
+                ]
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the driver circuit includes a current compensating circuit that matches the high voltage current to the high emitter current and the low voltage current to the low emitter current, by adjusting the high voltage current by a high compensation current and adjusting the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current and the low compensation current corresponding to the low voltage current, the high compensation current and the low compensation current detected by the supply current detecting section.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 103,
+            "gate:gateId": 42,
+            "claimNumber": 8,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "8. The test apparatus according to",
+                    ", wherein the driver circuit includes a current compensating circuit that matches the high voltage current to the high emitter current and the low voltage current to the low emitter current, by adjusting the high voltage current by a high compensation current and adjusting the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current and the low compensation current corresponding to the low voltage current, the high compensation current and the low compensation current detected by the supply current detecting section."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00009",
+            "body": "further comprising:\na transmission end resistance provided between the driver section and the device under test;\nwherein the driver circuit includes\na replica driver section corresponding to the driver section that outputs the voltage selected by the driver section from the plurality of voltages supplied to the driver section,\na replica transmission end resistance that is provided at an output end of the replica driver section corresponding to the transmission end resistance, and\na replica load circuit that simulates the load voltage; and\n\nwherein when operating in the constant current operation mode, the output control section detects the load current to the device under test, by calculating a simulation current outputted from the replica driver section based on a detected voltage difference of the replica transmission end resistance.\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 146,
+            "gate:gateId": 45,
+            "claimNumber": 9,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "9. The test apparatus according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 46,
+                "claim-text": [
+                    {
+                        "content": "a transmission end resistance provided between the driver section and the device under test;",
+                        "gate:gateId": 48
+                    },
+                    {
+                        "content": "wherein the driver circuit includes",
+                        "gate:gateId": 49,
+                        "claim-text": [
+                            {
+                                "content": "a replica driver section corresponding to the driver section that outputs the voltage selected by the driver section from the plurality of voltages supplied to the driver section,",
+                                "gate:gateId": 50
+                            },
+                            {
+                                "content": "a replica transmission end resistance that is provided at an output end of the replica driver section corresponding to the transmission end resistance, and",
+                                "gate:gateId": 51
+                            },
+                            {
+                                "content": "a replica load circuit that simulates the load voltage; and",
+                                "gate:gateId": 52
+                            }
+                        ]
+                    },
+                    {
+                        "content": "wherein when operating in the constant current operation mode, the output control section detects the load current to the device under test, by calculating a simulation current outputted from the replica driver section based on a detected voltage difference of the replica transmission end resistance.",
+                        "gate:gateId": 53
+                    }
+                ]
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the output control section fixes a logic value of the input signal supplied to the driver section to a predetermined value, when operating in an operation mode different from the pattern operation mode.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 46,
+            "gate:gateId": 54,
+            "claimNumber": 10,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "10. The test apparatus according to",
+                    ", wherein the output control section fixes a logic value of the input signal supplied to the driver section to a predetermined value, when operating in an operation mode different from the pattern operation mode."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00011",
+            "body": "further comprising:\na transmission end resistance provided between the driver section and the device under test;\nwherein the driver circuit includes a pattern operation mode to output a pattern signal having a predetermined logic pattern and a constant voltage operation mode to output a predetermined constant voltage; and\nwhen operating in the constant voltage operation mode, the output control section calculates the load voltage supplied to the device under test based on the transmission end resistance and the high voltage current.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 96,
+            "gate:gateId": 57,
+            "claimNumber": 11,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "11. The test apparatus according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 58,
+                "claim-text": [
+                    {
+                        "content": "a transmission end resistance provided between the driver section and the device under test;",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "wherein the driver circuit includes a pattern operation mode to output a pattern signal having a predetermined logic pattern and a constant voltage operation mode to output a predetermined constant voltage; and",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": "when operating in the constant voltage operation mode, the output control section calculates the load voltage supplied to the device under test based on the transmission end resistance and the high voltage current.",
+                        "gate:gateId": 62
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the output control section includes:\na static characteristic data storage section that stores static characteristic data representing (a) a relation between the high voltage current and a base to high emitter voltage for the high voltage transistor and a relation between the low voltage current and a base to low emitter voltage of the low voltage transistor, and (b) a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and\na control circuit that calculates the high and low emitter voltage and a high and low emitter current of each transistor in the buffer based on the static characteristic data, and calculates the load voltage based on the high and low emitter current, the high and low emitter voltage, and the transmission end resistance.\n\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 164,
+            "gate:gateId": 63,
+            "claimNumber": 12,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "12. The test apparatus according to",
+                    ", wherein the output control section includes:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 65,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 64,
+                "claim-text": [
+                    {
+                        "content": "a static characteristic data storage section that stores static characteristic data representing (a) a relation between the high voltage current and a base to high emitter voltage for the high voltage transistor and a relation between the low voltage current and a base to low emitter voltage of the low voltage transistor, and (b) a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and",
+                        "gate:gateId": 66
+                    },
+                    {
+                        "content": "a control circuit that calculates the high and low emitter voltage and a high and low emitter current of each transistor in the buffer based on the static characteristic data, and calculates the load voltage based on the high and low emitter current, the high and low emitter voltage, and the transmission end resistance.",
+                        "gate:gateId": 67
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the judging section judges pass/fail of the device under test based on the load current determined by a difference between the high and low emitter currents calculated by the control circuit.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 45,
+            "gate:gateId": 68,
+            "claimNumber": 13,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "13. The test apparatus according to",
+                    ", wherein the judging section judges pass/fail of the device under test based on the load current determined by a difference between the high and low emitter currents calculated by the control circuit."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 69
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the driver circuit further includes a current compensating circuit that adjusts the high voltage current by a high compensation current and adjusts the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current detected by the supply current detecting section, the low compensation current corresponding to the low voltage current detected by the supply current detecting section.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 79,
+            "gate:gateId": 71,
+            "claimNumber": 14,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "14. The test apparatus according to",
+                    ", wherein the driver circuit further includes a current compensating circuit that adjusts the high voltage current by a high compensation current and adjusts the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current detected by the supply current detecting section, the low compensation current corresponding to the low voltage current detected by the supply current detecting section."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 73,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 72
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "a transmission end resistance provided between the driver section and the device under test;\na replica driver section corresponding to the driver section that outputs the voltage selected by the driver section from the plurality of voltages supplied to the driver section; and\na replica transmission end resistance that is provided at an output end of the replica driver section corresponding to the transmission end resistance,\nwherein when operating in the constant voltage operation mode, the output control section detects the load voltage to the device under test by detecting a voltage at an end of the replica transmission end resistance.\n\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "further comprising:\n",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 119,
+            "gate:gateId": 74,
+            "claimNumber": 15,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "15. The test apparatus according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 76,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 75,
+                "claim-text": [
+                    {
+                        "content": "a transmission end resistance provided between the driver section and the device under test;",
+                        "gate:gateId": 77
+                    },
+                    {
+                        "content": "a replica driver section corresponding to the driver section that outputs the voltage selected by the driver section from the plurality of voltages supplied to the driver section; and",
+                        "gate:gateId": 78
+                    },
+                    {
+                        "content": "a replica transmission end resistance that is provided at an output end of the replica driver section corresponding to the transmission end resistance,",
+                        "gate:gateId": 79
+                    },
+                    {
+                        "content": "wherein when operating in the constant voltage operation mode, the output control section detects the load voltage to the device under test by detecting a voltage at an end of the replica transmission end resistance.",
+                        "gate:gateId": 80
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the base current detecting section includes, for each transistor in the buffer:\na dummy transistor having an emitter terminal electrically connected to the emitter terminal of the transistor, and a collector terminal electrically connected to the collector terminal of the transistor;\na voltage follower circuit that supplies a voltage corresponding to a base voltage of the transistor to a base terminal of the dummy transistor; and\na dummy current detecting section that detects, as the base current, a dummy current supplied to the dummy transistor from the voltage follower circuit.\n\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 109,
+            "gate:gateId": 81,
+            "claimNumber": 16,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "16. The test apparatus according to",
+                    ", wherein the base current detecting section includes, for each transistor in the buffer:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 83,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 82,
+                "claim-text": [
+                    {
+                        "content": "a dummy transistor having an emitter terminal electrically connected to the emitter terminal of the transistor, and a collector terminal electrically connected to the collector terminal of the transistor;",
+                        "gate:gateId": 84
+                    },
+                    {
+                        "content": "a voltage follower circuit that supplies a voltage corresponding to a base voltage of the transistor to a base terminal of the dummy transistor; and",
+                        "gate:gateId": 85
+                    },
+                    {
+                        "content": "a dummy current detecting section that detects, as the base current, a dummy current supplied to the dummy transistor from the voltage follower circuit.",
+                        "gate:gateId": 86
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the base current detecting section further includes, for each transistor in the buffer, a switch section that switches between (a) the base voltage of the transistor and (b) a reference voltage, the reference voltage operable to bring the dummy transistor into an OFF state, supplied to an input terminal of the voltage follower circuit.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 16 ,",
+            "claimSize": 74,
+            "gate:gateId": 87,
+            "claimNumber": 17,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "17. The test apparatus according to",
+                    ", wherein the base current detecting section further includes, for each transistor in the buffer, a switch section that switches between (a) the base voltage of the transistor and (b) a reference voltage, the reference voltage operable to bring the dummy transistor into an OFF state, supplied to an input terminal of the voltage follower circuit."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 89,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 88
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the driver circuit includes a pattern operation mode to output a pattern signal having a predetermined logic pattern and a high-impedance operation mode to bring an output of the driver section into a high impedance, and when operating in the high-impedance operation mode, the output control section controls the plurality of voltages so that a difference between the current detected by the high-voltage-side detecting section and the current detected by the low-voltage-side detecting section becomes 0.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 90,
+            "gate:gateId": 90,
+            "claimNumber": 18,
+            "claim_preamble": "The test apparatus",
+            "claim-text": {
+                "content": [
+                    "18. The test apparatus according to",
+                    ", wherein the driver circuit includes a pattern operation mode to output a pattern signal having a predetermined logic pattern and a high-impedance operation mode to bring an output of the driver section into a high impedance, and when operating in the high-impedance operation mode, the output control section controls the plurality of voltages so that a difference between the current detected by the high-voltage-side detecting section and the current detected by the low-voltage-side detecting section becomes 0."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 92,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 91
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00019",
+            "body": "a signal corresponding to an input signal, comprising:\na driver section that outputs the test signal and selects a voltage of the test signal according to the input signal, from among a plurality of voltages supplied to the driver section, the driver section including a buffer that supplies a supply current to the device under test from a high voltage power-source line, and draws a draw current from the device under test into a low voltage power-source line, the buffer including:\na high voltage transistor having a first collector terminal electrically connected to the high voltage power-source line, and a first emitter terminal electrically connected to the device under test through which the test signal is outputted, and\na low voltage transistor having a second emitter terminal electrically connected to the first emitter terminal, and a second collector terminal electrically connected to the low voltage power-source line,\n\na supply current detecting section that detects the supply current, the supply current detecting section including:\na high-voltage-side detecting section provided between the high voltage power-source line and the high voltage transistor, and detects a high voltage current of the first collector, and\na low-voltage-side detecting section provided between the low voltage power-source line and the low voltage transistor, and detects a low voltage current of the second collector,\n\na base current detecting section that detects a high voltage base current of the high voltage transistor and a low voltage base current of the low voltage transistor, and\nan output control section that controls one of a voltage and a current of the test signal based on the supply current detected by the supply current detecting section, and controls the plurality of voltages so that a difference between a high emitter current and a low emitter current becomes a predetermined constant current, the high emitter current obtained as a summation of the high voltage current and the high voltage base current, and the low emitter current obtained as a summation of the low voltage current and the low voltage base current.\n\n",
+            "claimType": "independent",
+            "num": "00019",
+            "transPhrase": " for outputting ",
+            "claimSize": 367,
+            "gate:gateId": 93,
+            "claim_preamble": "A driver circuit",
+            "claimNumber": 19,
+            "claim-text": {
+                "content": "19. A driver circuit for outputting a signal corresponding to an input signal, comprising:",
+                "gate:gateId": 94,
+                "claim-text": [
+                    {
+                        "content": "a driver section that outputs the test signal and selects a voltage of the test signal according to the input signal, from among a plurality of voltages supplied to the driver section, the driver section including a buffer that supplies a supply current to the device under test from a high voltage power-source line, and draws a draw current from the device under test into a low voltage power-source line, the buffer including:",
+                        "gate:gateId": 95,
+                        "claim-text": [
+                            {
+                                "content": "a high voltage transistor having a first collector terminal electrically connected to the high voltage power-source line, and a first emitter terminal electrically connected to the device under test through which the test signal is outputted, and",
+                                "gate:gateId": 96
+                            },
+                            {
+                                "content": "a low voltage transistor having a second emitter terminal electrically connected to the first emitter terminal, and a second collector terminal electrically connected to the low voltage power-source line,",
+                                "gate:gateId": 97
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a supply current detecting section that detects the supply current, the supply current detecting section including:",
+                        "gate:gateId": 98,
+                        "claim-text": [
+                            {
+                                "content": "a high-voltage-side detecting section provided between the high voltage power-source line and the high voltage transistor, and detects a high voltage current of the first collector, and",
+                                "gate:gateId": 99
+                            },
+                            {
+                                "content": "a low-voltage-side detecting section provided between the low voltage power-source line and the low voltage transistor, and detects a low voltage current of the second collector,",
+                                "gate:gateId": 100
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a base current detecting section that detects a high voltage base current of the high voltage transistor and a low voltage base current of the low voltage transistor, and",
+                        "gate:gateId": 101
+                    },
+                    {
+                        "content": "an output control section that controls one of a voltage and a current of the test signal based on the supply current detected by the supply current detecting section, and controls the plurality of voltages so that a difference between a high emitter current and a low emitter current becomes a predetermined constant current, the high emitter current obtained as a summation of the high voltage current and the high voltage base current, and the low emitter current obtained as a summation of the low voltage current and the low voltage base current.",
+                        "gate:gateId": 102
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the output control section includes:\na static characteristic data storage section that stores static characteristic data representing a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and\na control circuit that controls the plurality of voltages;\nwherein the high voltage base current and the low voltage base current are calculated from the static characteristic data.\n\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 19 ,",
+            "claimSize": 89,
+            "gate:gateId": 103,
+            "claimNumber": 20,
+            "claim_preamble": "The driver circuit",
+            "claim-text": {
+                "content": [
+                    "20. The driver circuit according to",
+                    ", wherein the output control section includes:"
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 105,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 104,
+                "claim-text": [
+                    {
+                        "content": "a static characteristic data storage section that stores static characteristic data representing a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and",
+                        "gate:gateId": 106
+                    },
+                    {
+                        "content": "a control circuit that controls the plurality of voltages;",
+                        "gate:gateId": 107
+                    },
+                    {
+                        "content": "wherein the high voltage base current and the low voltage base current are calculated from the static characteristic data.",
+                        "gate:gateId": 108
+                    }
+                ]
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00021",
+            "body": "a current compensating circuit that matches the high voltage current to the high emitter current and the low voltage current to the low emitter current, by adjusting the high voltage current by a high compensation current and adjusting the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current and the low compensation current corresponding to the low voltage current, the high compensation current and the low compensation current detected by the supply current detecting section.\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 19 ,",
+            "claimSize": 100,
+            "gate:gateId": 109,
+            "claimNumber": 21,
+            "claim_preamble": "The driver circuit",
+            "claim-text": {
+                "content": [
+                    "21. The driver circuit according to",
+                    ", further comprising a current compensating circuit that matches the high voltage current to the high emitter current and the low voltage current to the low emitter current, by adjusting the high voltage current by a high compensation current and adjusting the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current and the low compensation current corresponding to the low voltage current, the high compensation current and the low compensation current detected by the supply current detecting section."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 111,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 110
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00022",
+            "body": "a replica driver section corresponding to the driver section that outputs the voltage selected by the driver section from the plurality of voltages supplied to the driver section,\na replica transmission end resistance that is provided at an output end of the replica driver section corresponding to a transmission end resistance provided between the driver section and the device under test, and\na replica load circuit that simulates the load voltage.\n\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": "further comprising:\n",
+            "claimBackReference": "according to claim 19 ,",
+            "claimSize": 87,
+            "gate:gateId": 112,
+            "claimNumber": 22,
+            "claim_preamble": "The driver circuit",
+            "claim-text": {
+                "content": [
+                    "22. The driver circuit according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 114,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 113,
+                "claim-text": [
+                    {
+                        "content": "a replica driver section corresponding to the driver section that outputs the voltage selected by the driver section from the plurality of voltages supplied to the driver section,",
+                        "gate:gateId": 115
+                    },
+                    {
+                        "content": "a replica transmission end resistance that is provided at an output end of the replica driver section corresponding to a transmission end resistance provided between the driver section and the device under test, and",
+                        "gate:gateId": 116
+                    },
+                    {
+                        "content": "a replica load circuit that simulates the load voltage.",
+                        "gate:gateId": 117
+                    }
+                ]
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the base current detecting section includes, for each transistor in the buffer:\na dummy transistor having an emitter terminal electrically connected to the emitter terminal of the transistor, and a collector terminal electrically connected to the collector terminal of the transistor;\na voltage follower circuit that supplies a voltage corresponding to the base voltage of the transistor to a base terminal of the dummy transistor; and\na dummy current detecting section that detects, as the base current, a dummy current supplied to the dummy transistor from the voltage follower circuit.\n\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 19 ,",
+            "claimSize": 109,
+            "gate:gateId": 118,
+            "claimNumber": 23,
+            "claim_preamble": "The driver circuit",
+            "claim-text": {
+                "content": [
+                    "23. The driver circuit according to",
+                    ", wherein the base current detecting section includes, for each transistor in the buffer:"
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 120,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 119,
+                "claim-text": [
+                    {
+                        "content": "a dummy transistor having an emitter terminal electrically connected to the emitter terminal of the transistor, and a collector terminal electrically connected to the collector terminal of the transistor;",
+                        "gate:gateId": 121
+                    },
+                    {
+                        "content": "a voltage follower circuit that supplies a voltage corresponding to the base voltage of the transistor to a base terminal of the dummy transistor; and",
+                        "gate:gateId": 122
+                    },
+                    {
+                        "content": "a dummy current detecting section that detects, as the base current, a dummy current supplied to the dummy transistor from the voltage follower circuit.",
+                        "gate:gateId": 123
+                    }
+                ]
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00024",
+            "body": "the base current detecting section further includes, for each transistor in the buffer, a switch section that switches between (a) the base voltage of the transistor and (b) a reference voltage, the reference voltage operable to bring the dummy transistor into an OFF state, supplied to an input terminal of the voltage follower circuit.\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 23 ,",
+            "claimSize": 74,
+            "gate:gateId": 124,
+            "claimNumber": 24,
+            "claim_preamble": "The driver circuit",
+            "claim-text": {
+                "content": [
+                    "24. The driver circuit according to",
+                    ", wherein the base current detecting section further includes, for each transistor in the buffer, a switch section that switches between (a) the base voltage of the transistor and (b) a reference voltage, the reference voltage operable to bring the dummy transistor into an OFF state, supplied to an input terminal of the voltage follower circuit."
+                ],
+                "claim-ref": {
+                    "content": "claim 23",
+                    "gate:gateId": 126,
+                    "idref": "CLM-00023"
+                },
+                "gate:gateId": 125
+            },
+            "depends_on": 23
+        },
+        {
+            "id": "CLM-00025",
+            "body": "a test signal and selecting a voltage of the test signal according to the input signal, the device comprising:\na buffer that supplies a supply current to the device under test from a high voltage power-source line, and draws a draw current from the device under test into a low voltage power-source line, the buffer including:\na high voltage transistor having a first collector terminal electrically connected to the high voltage power-source line, and a first emitter terminal electrically connected to the device under test through which the test signal is outputted, and\na low voltage transistor having a second emitter terminal electrically connected to the first emitter terminal, and a second collector terminal electrically connected to the low voltage power-source line;\n\nwherein a supply current detecting section detects the supply current, the supply current detecting section including:\na high-voltage-side detecting section provided between the high voltage power-source line and the high voltage transistor, and detects a high voltage current of the first collector, and\na low-voltage-side detecting section provided between the low voltage power-source line and the low voltage transistor, and detects a low voltage current of the second collector;\n\nwherein a base current detecting section detects a high voltage base current of the high voltage transistor and a low voltage base current of the low voltage transistor; and\nwherein an output control section controls one of a voltage and a current of the test signal based on the supply current detected by the supply current detecting section, and controls the plurality of voltages so that a difference between a high emitter current and a low emitter current becomes a predetermined constant current, the high emitter current obtained as a summation of the high voltage current and the high voltage base current, and the low emitter current obtained as a summation of the low voltage current and the low voltage base current.\n\n",
+            "claimType": "independent",
+            "num": "00025",
+            "transPhrase": " for outputting ",
+            "claimSize": 339,
+            "gate:gateId": 127,
+            "claim_preamble": "A device",
+            "claimNumber": 25,
+            "claim-text": {
+                "content": "25. A device for outputting a test signal and selecting a voltage of the test signal according to the input signal, the device comprising:",
+                "gate:gateId": 128,
+                "claim-text": [
+                    {
+                        "content": "a buffer that supplies a supply current to the device under test from a high voltage power-source line, and draws a draw current from the device under test into a low voltage power-source line, the buffer including:",
+                        "gate:gateId": 129,
+                        "claim-text": [
+                            {
+                                "content": "a high voltage transistor having a first collector terminal electrically connected to the high voltage power-source line, and a first emitter terminal electrically connected to the device under test through which the test signal is outputted, and",
+                                "gate:gateId": 130
+                            },
+                            {
+                                "content": "a low voltage transistor having a second emitter terminal electrically connected to the first emitter terminal, and a second collector terminal electrically connected to the low voltage power-source line;",
+                                "gate:gateId": 131
+                            }
+                        ]
+                    },
+                    {
+                        "content": "wherein a supply current detecting section detects the supply current, the supply current detecting section including:",
+                        "gate:gateId": 132,
+                        "claim-text": [
+                            {
+                                "content": "a high-voltage-side detecting section provided between the high voltage power-source line and the high voltage transistor, and detects a high voltage current of the first collector, and",
+                                "gate:gateId": 133
+                            },
+                            {
+                                "content": "a low-voltage-side detecting section provided between the low voltage power-source line and the low voltage transistor, and detects a low voltage current of the second collector;",
+                                "gate:gateId": 134
+                            }
+                        ]
+                    },
+                    {
+                        "content": "wherein a base current detecting section detects a high voltage base current of the high voltage transistor and a low voltage base current of the low voltage transistor; and",
+                        "gate:gateId": 135
+                    },
+                    {
+                        "content": "wherein an output control section controls one of a voltage and a current of the test signal based on the supply current detected by the supply current detecting section, and controls the plurality of voltages so that a difference between a high emitter current and a low emitter current becomes a predetermined constant current, the high emitter current obtained as a summation of the high voltage current and the high voltage base current, and the low emitter current obtained as a summation of the low voltage current and the low voltage base current.",
+                        "gate:gateId": 136
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00026",
+            "body": "a pre-driver that supplies a voltage corresponding to one of the plurality of voltages supplied thereto that corresponds to a logic value of the input signal, to a base terminal of the high voltage transistor and a base terminal of the low voltage transistor, wherein the output control section controls the voltage supplied to the pre-driver, based on the supply current detected by the supply current detecting section.\n",
+            "num": "00026",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 25 ,",
+            "claimSize": 83,
+            "gate:gateId": 137,
+            "claimNumber": 26,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "26. The device according to",
+                    ", further comprising a pre-driver that supplies a voltage corresponding to one of the plurality of voltages supplied thereto that corresponds to a logic value of the input signal, to a base terminal of the high voltage transistor and a base terminal of the low voltage transistor, wherein the output control section controls the voltage supplied to the pre-driver, based on the supply current detected by the supply current detecting section."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 139,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 138
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00027",
+            "body": "a voltage shift section that shifts the voltage supplied from the pre-driver by a first predetermined pre-driver voltage, supplies the shifted voltage to the base terminal of the high voltage transistor, shifts the voltage supplied from the pre-driver by a second predetermined pre-driver voltage, and supplies the shifted voltage to the base terminal of the low voltage transistor.\n",
+            "num": "00027",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 25 ,",
+            "claimSize": 73,
+            "gate:gateId": 140,
+            "claimNumber": 27,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "27. The device according to",
+                    ", further comprising a voltage shift section that shifts the voltage supplied from the pre-driver by a first predetermined pre-driver voltage, supplies the shifted voltage to the base terminal of the high voltage transistor, shifts the voltage supplied from the pre-driver by a second predetermined pre-driver voltage, and supplies the shifted voltage to the base terminal of the low voltage transistor."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 142,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 141
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00028",
+            "body": "the output control section includes:\na static characteristic data storage section that stores static characteristic data representing a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and\na control circuit that controls the plurality of voltages;\nwherein the high voltage base current and the low voltage base current are calculated from the static characteristic data.\n\n",
+            "num": "00028",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 25 ,",
+            "claimSize": 88,
+            "gate:gateId": 143,
+            "claimNumber": 28,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "28. The device according to",
+                    ", wherein the output control section includes:"
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 145,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 144,
+                "claim-text": [
+                    {
+                        "content": "a static characteristic data storage section that stores static characteristic data representing a relation between the high voltage current and the high voltage base current, and a relation between the low voltage current and the low voltage base current; and",
+                        "gate:gateId": 146
+                    },
+                    {
+                        "content": "a control circuit that controls the plurality of voltages;",
+                        "gate:gateId": 147
+                    },
+                    {
+                        "content": "wherein the high voltage base current and the low voltage base current are calculated from the static characteristic data.",
+                        "gate:gateId": 148
+                    }
+                ]
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00029",
+            "body": "a current compensating circuit matches the high voltage current to the high emitter current and the low voltage current to the low emitter current, by adjusting the high voltage current by a high compensation current and adjusting the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current and the low compensation current corresponding to the low voltage current, the high compensation current and the low compensation current detected by the supply current detecting section.\n",
+            "num": "00029",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 25",
+            "claimSize": 96,
+            "gate:gateId": 149,
+            "claimNumber": 29,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "29. The device according to",
+                    "wherein a current compensating circuit matches the high voltage current to the high emitter current and the low voltage current to the low emitter current, by adjusting the high voltage current by a high compensation current and adjusting the low voltage current by a low compensation current, the high compensation current corresponding to the high voltage current and the low compensation current corresponding to the low voltage current, the high compensation current and the low compensation current detected by the supply current detecting section."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 151,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 150
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00030",
+            "body": "a replica driver section outputs the selected voltage of the test signal from the plurality of voltages;\na replica transmission end resistance is provided at an output end of the replica driver section corresponding to a transmission end resistance provided between the driver section and the device under test; and\na replica load circuit simulates the load voltage. \n\n",
+            "num": "00030",
+            "claimType": "dependent",
+            "transPhrase": "wherein:\n",
+            "claimBackReference": "according to claim 25 ,",
+            "claimSize": 72,
+            "gate:gateId": 152,
+            "claimNumber": 30,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "30. The device according to",
+                    ", wherein:"
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 154,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 153,
+                "claim-text": [
+                    {
+                        "content": "a replica driver section outputs the selected voltage of the test signal from the plurality of voltages;",
+                        "gate:gateId": 155
+                    },
+                    {
+                        "content": "a replica transmission end resistance is provided at an output end of the replica driver section corresponding to a transmission end resistance provided between the driver section and the device under test; and",
+                        "gate:gateId": 156
+                    },
+                    {
+                        "content": "a replica load circuit simulates the load voltage.",
+                        "gate:gateId": 157
+                    }
+                ]
+            },
+            "depends_on": 25
+        }
+    ],
+    "numberIndependentClaims": 83
+}}

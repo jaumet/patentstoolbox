@@ -1,0 +1,759 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500124-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 102,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 4616,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "media diverter mountable on a guide member for a media sheet in a media path of an imaging device, the media path having a simplex path and a duplex path with the media guide member positioned between an exit of the simplex path and an entrance of the duplex path and an exit of the imaging device, the media diverter comprising:\na first plate;\na biasing member for biasing the first plate;\na second plate having a media guiding surface along a first portion of an edge of the second plate; and\nthe first plate and second plate mounted in a same slot extending through the guide member and movable therein between respective first and second positions, such that when in their respective first positions a portion of the first plate is disposed in the duplex path and the media guiding surface is disposed in the simplex path while the second plate remains movable from its first position to its second position with the biasing member biasing the first plate in its first position;\nwherein a center of gravity of the second plate moves the second plate to bias the second plate in its first position and further wherein a media sheet fed into the duplex path and contacting the first plate moves the first plate to its second position abutingly blocking all movement of the second plate from its first position with the media guiding surface directing a following media sheet in the simplex path to the exit of the imaging device.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " actuated, ",
+            "claimSize": 268,
+            "gate:gateId": 1,
+            "claim_preamble": "A media",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A media actuated, media diverter mountable on a guide member for a media sheet in a media path of an imaging device, the media path having a simplex path and a duplex path with the media guide member positioned between an exit of the simplex path and an entrance of the duplex path and an exit of the imaging device, the media diverter comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a first plate;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a biasing member for biasing the first plate;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a second plate having a media guiding surface along a first portion of an edge of the second plate; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "the first plate and second plate mounted in a same slot extending through the guide member and movable therein between respective first and second positions, such that when in their respective first positions a portion of the first plate is disposed in the duplex path and the media guiding surface is disposed in the simplex path while the second plate remains movable from its first position to its second position with the biasing member biasing the first plate in its first position;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein a center of gravity of the second plate moves the second plate to bias the second plate in its first position and further wherein a media sheet fed into the duplex path and contacting the first plate moves the first plate to its second position abutingly blocking all movement of the second plate from its first position with the media guiding surface directing a following media sheet in the simplex path to the exit of the imaging device.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "media diverter mountable on a guide member for a media sheet in a media path of an imaging device, the media path having a simplex path and a duplex path with the media guide member positioned between an exit of the simplex path and an entrance of the duplex path and an exit of the imaging device, the media diverter comprising:\na first plate having a media contact surface along a first portion of an edge of the plate and a first abutment surface along a second portion of the edge;\na biasing member for biasing the first plate;\na second plate having a media guiding surface along a first portion of an edge of the second plate and a second abutment surface along a second portion of the edge; and\nthe first plate and second plate mounted in a same slot extending through the guide member and movable therein between respective first and second positions, such that when in their respective first positions the media contact surface is disposed in the duplex path and the media guiding surface is disposed in the simplex path while the second plate remains movable from its first position to its second position with the biasing member biasing the first plate in its first position;\nwherein a center of gravity of the second plate moves the second plate to bias the second plate in its first position and further wherein a media sheet fed into the duplex path and contacting the first plate moves the first plate to its second position blocking movement of the second plate from its first position with the media guiding surface directing a following media sheet in the simplex path to the exit of the imaging device; wherein the first abutment surface abuts against the second abutment surface.\n\n",
+            "claimType": "independent",
+            "num": "00002",
+            "transPhrase": " actuated, ",
+            "claimSize": 315,
+            "gate:gateId": 8,
+            "claim_preamble": "A media",
+            "claimNumber": 2,
+            "claim-text": {
+                "content": "2. A media actuated, media diverter mountable on a guide member for a media sheet in a media path of an imaging device, the media path having a simplex path and a duplex path with the media guide member positioned between an exit of the simplex path and an entrance of the duplex path and an exit of the imaging device, the media diverter comprising:",
+                "gate:gateId": 9,
+                "claim-text": [
+                    {
+                        "content": "a first plate having a media contact surface along a first portion of an edge of the plate and a first abutment surface along a second portion of the edge;",
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": "a biasing member for biasing the first plate;",
+                        "gate:gateId": 11
+                    },
+                    {
+                        "content": "a second plate having a media guiding surface along a first portion of an edge of the second plate and a second abutment surface along a second portion of the edge; and",
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": "the first plate and second plate mounted in a same slot extending through the guide member and movable therein between respective first and second positions, such that when in their respective first positions the media contact surface is disposed in the duplex path and the media guiding surface is disposed in the simplex path while the second plate remains movable from its first position to its second position with the biasing member biasing the first plate in its first position;",
+                        "gate:gateId": 13
+                    },
+                    {
+                        "content": "wherein a center of gravity of the second plate moves the second plate to bias the second plate in its first position and further wherein a media sheet fed into the duplex path and contacting the first plate moves the first plate to its second position blocking movement of the second plate from its first position with the media guiding surface directing a following media sheet in the simplex path to the exit of the imaging device; wherein the first abutment surface abuts against the second abutment surface.",
+                        "gate:gateId": 14
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the first plate is generally triangular in shape.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 22,
+            "gate:gateId": 15,
+            "claimNumber": 3,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "3. The media actuated, media diverter of",
+                    ", wherein the first plate is generally triangular in shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the second plate is generally rectangular in shape.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 22,
+            "gate:gateId": 18,
+            "claimNumber": 4,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "4. The media actuated, media diverter of",
+                    ", wherein the second plate is generally rectangular in shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the media guiding surface has a convex shape.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 22,
+            "gate:gateId": 21,
+            "claimNumber": 5,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "5. The media actuated, media diverter of",
+                    ", wherein the media guiding surface has a convex shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the media guiding surface has a concave shape.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 21,
+            "gate:gateId": 24,
+            "claimNumber": 6,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "6. The media actuated, media diverter of",
+                    "wherein the media guiding surface has a concave shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the first plate comprises a plurality of first plates, the second plate comprises a plurality of second plates, and the slot comprises a plurality of slots spaced across a width of the guide member.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 50,
+            "gate:gateId": 27,
+            "claimNumber": 7,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "7. The media actuated, media diverter of",
+                    ", wherein the first plate comprises a plurality of first plates, the second plate comprises a plurality of second plates, and the slot comprises a plurality of slots spaced across a width of the guide member."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the media guiding surface on at least one plate in the plurality of second plates has a convex shape and at least one other plate in the plurality of second plates has a concave shape.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 49,
+            "gate:gateId": 30,
+            "claimNumber": 8,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "8. The media actuated, media diverter of",
+                    ", wherein the media guiding surface on at least one plate in the plurality of second plates has a convex shape and at least one other plate in the plurality of second plates has a concave shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a support member interconnecting with each first plate in the plurality of first plates, the support member mounted adjacent the distal end of the media contact surface; and\nthe biasing member positioned between the support member and the guide member to bias the plurality of the first plates of media diverter in their respective first positions.\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\n",
+            "claimBackReference": "of claim 7",
+            "claimSize": 74,
+            "gate:gateId": 33,
+            "claimNumber": 9,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "9. The media actuated, media diverter of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 34,
+                "claim-text": [
+                    {
+                        "content": "a support member interconnecting with each first plate in the plurality of first plates, the support member mounted adjacent the distal end of the media contact surface; and",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "the biasing member positioned between the support member and the guide member to bias the plurality of the first plates of media diverter in their respective first positions.",
+                        "gate:gateId": 37
+                    }
+                ]
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a first rod;\na second rod;\nthe first plate having a pivot hole and the guide member having a first hole therethrough intersecting a wall of the slot with the pivot hole of the first plate and the first hole in the guide member sized to receive the first rod; and\nthe second plate having a pivot hole and the guide member having a second hole therethrough intersecting a wall of the slot with the pivot hole of the second plate and the second hole in the guide member sized to receive the second rod, with the second hole positioned apart from the first hole;\nwherein with the first rod positioned within the first hole in the guide member and extending into the slot and through the pivot hole of the first plate, the first plate is rotatably mounted within the slot and with the second rod positioned within the second hole in the guide member and extending into the slot and through the pivot hole of the second plate, the second plate is rotatably mounted within the slot.\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\n",
+            "claimBackReference": "of claim 2",
+            "claimSize": 202,
+            "gate:gateId": 38,
+            "claimNumber": 10,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "10. The media actuated, media diverter of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 39,
+                "claim-text": [
+                    {
+                        "content": "a first rod;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "a second rod;",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "the first plate having a pivot hole and the guide member having a first hole therethrough intersecting a wall of the slot with the pivot hole of the first plate and the first hole in the guide member sized to receive the first rod; and",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "the second plate having a pivot hole and the guide member having a second hole therethrough intersecting a wall of the slot with the pivot hole of the second plate and the second hole in the guide member sized to receive the second rod, with the second hole positioned apart from the first hole;",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "wherein with the first rod positioned within the first hole in the guide member and extending into the slot and through the pivot hole of the first plate, the first plate is rotatably mounted within the slot and with the second rod positioned within the second hole in the guide member and extending into the slot and through the pivot hole of the second plate, the second plate is rotatably mounted within the slot.",
+                        "gate:gateId": 45
+                    }
+                ]
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the center of gravity of the second plate is offset from a vertical centerline of the pivot hole in the second plate for biasing the second plate in its first position.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 45,
+            "gate:gateId": 46,
+            "claimNumber": 11,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "11. The media actuated, media diverter of",
+                    ", wherein the center of gravity of the second plate is offset from a vertical centerline of the pivot hole in the second plate for biasing the second plate in its first position."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "a weight is provided in the second plate to offset the center of gravity of the second plate.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 32,
+            "gate:gateId": 49,
+            "claimNumber": 12,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "12. The media actuated, media diverter of",
+                    ", wherein a weight is provided in the second plate to offset the center of gravity of the second plate."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the first plate is generally triangular in shape.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 22,
+            "gate:gateId": 52,
+            "claimNumber": 13,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "13. The media actuated, media diverter of",
+                    ", wherein the first plate is generally triangular in shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 53
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the second plate is generally rectangular in shape.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 22,
+            "gate:gateId": 55,
+            "claimNumber": 14,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "14. The media actuated, media diverter of",
+                    ", wherein the second plate is generally rectangular in shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the first plate comprises a plurality of first plates, the second plate comprises a plurality of second plates, and the slot comprises a plurality of slots spaced across a width of the guide member.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 50,
+            "gate:gateId": 58,
+            "claimNumber": 15,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "15. The media actuated, media diverter of",
+                    ", wherein the first plate comprises a plurality of first plates, the second plate comprises a plurality of second plates, and the slot comprises a plurality of slots spaced across a width of the guide member."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 60,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 59
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the media guiding surface has a convex shape.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 22,
+            "gate:gateId": 61,
+            "claimNumber": 16,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "16. The media actuated, media diverter of",
+                    ", wherein the media guiding surface has a convex shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the media guiding surface has a concave shape.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 22,
+            "gate:gateId": 64,
+            "claimNumber": 17,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "17. The media actuated, media diverter of",
+                    ", wherein the media guiding surface has a concave shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the media guiding surface on at least one plate in the plurality of second plates has a convex shape and at least one other plate in the plurality of second plates has a concave shape.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 49,
+            "gate:gateId": 67,
+            "claimNumber": 18,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "18. The media actuated, media diverter of",
+                    ", wherein the media guiding surface on at least one plate in the plurality of second plates has a convex shape and at least one other plate in the plurality of second plates has a concave shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00019",
+            "body": "one of the first plate and the second plate having a pair of trunnions extending therefrom and the guide member having a corresponding pair of trunnion mounts in communication with the slot for receiving the pair of trunnions;\nwherein with the pair of trunnions mounted in the pair of trunnion mounts, one of the first plate and the second plate is rotatably mounted within the slot.\n\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\n",
+            "claimBackReference": "of claim 2",
+            "claimSize": 84,
+            "gate:gateId": 70,
+            "claimNumber": 19,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "19. The media actuated, media diverter of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 71,
+                "claim-text": [
+                    {
+                        "content": "one of the first plate and the second plate having a pair of trunnions extending therefrom and the guide member having a corresponding pair of trunnion mounts in communication with the slot for receiving the pair of trunnions;",
+                        "gate:gateId": 73
+                    },
+                    {
+                        "content": "wherein with the pair of trunnions mounted in the pair of trunnion mounts, one of the first plate and the second plate is rotatably mounted within the slot.",
+                        "gate:gateId": 74
+                    }
+                ]
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00020",
+            "body": "each of the first plate and the second plate having a pair of trunnions and the guide member having corresponding pairs of trunnion mounts.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 39,
+            "gate:gateId": 75,
+            "claimNumber": 20,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "20. The media actuated, media diverter of",
+                    ", further comprising each of the first plate and the second plate having a pair of trunnions and the guide member having corresponding pairs of trunnion mounts."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 77,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 76
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00021",
+            "body": "a spring mounted on one of the trunnions of the first plate for biasing the first plate in its respective first position.\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 20",
+            "claimSize": 37,
+            "gate:gateId": 78,
+            "claimNumber": 21,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "21. The media actuated, media diverter of",
+                    ", further comprising a spring mounted on one of the trunnions of the first plate for biasing the first plate in its respective first position."
+                ],
+                "claim-ref": {
+                    "content": "claim 20",
+                    "gate:gateId": 80,
+                    "idref": "CLM-00020"
+                },
+                "gate:gateId": 79
+            },
+            "depends_on": 20
+        },
+        {
+            "id": "CLM-00022",
+            "body": "a plurality of first plates and a plurality of second plates received into a plurality of corresponding slots spaced across a width of the guide member.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 41,
+            "gate:gateId": 81,
+            "claimNumber": 22,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "22. The media actuated, media diverter of",
+                    ", further comprising a plurality of first plates and a plurality of second plates received into a plurality of corresponding slots spaced across a width of the guide member."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 83,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 82
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the first plate is generally triangular in shape.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 22,
+            "gate:gateId": 84,
+            "claimNumber": 23,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "23. The media actuated, media diverter of",
+                    ", wherein the first plate is generally triangular in shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 86,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 85
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00024",
+            "body": "the second plate is generally rectangular in shape.\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 22,
+            "gate:gateId": 87,
+            "claimNumber": 24,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "24. The media actuated, media diverter of",
+                    ", wherein the second plate is generally rectangular in shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 89,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 88
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00025",
+            "body": "a support member interconnecting with each first plate in the plurality of first plates, the support member mounted adjacent the distal end of the media contact surface; and\na biasing member positioned between the support member and the guide member to bias the plurality of first plates in their the first position.\n\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\n",
+            "claimBackReference": "of claim 19",
+            "claimSize": 70,
+            "gate:gateId": 90,
+            "claimNumber": 25,
+            "claim_preamble": "The mediamedia diverter",
+            "claim-text": {
+                "content": [
+                    "25. The media actuated, media diverter of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 92,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 91,
+                "claim-text": [
+                    {
+                        "content": "a support member interconnecting with each first plate in the plurality of first plates, the support member mounted adjacent the distal end of the media contact surface; and",
+                        "gate:gateId": 93
+                    },
+                    {
+                        "content": "a biasing member positioned between the support member and the guide member to bias the plurality of first plates in their the first position.",
+                        "gate:gateId": 94
+                    }
+                ]
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00026",
+            "body": "media diverter mountable on a guide member for a media sheet in a media path of an imaging device, the media path having a simplex path and a duplex path with the media guide member positioned between an exit of the simplex path and an entrance of the duplex path and an exit of the imaging device, the media diverter comprising:\na first plate;\na biasing member for biasing the first plate;\na second plate having a media guiding surface along a first portion of an edge of the second plate; and\nthe first plate and second plate rotatably mounted in a same slot extending through the guide member and rotatable therein between respective first and second positions, such that when in their respective first positions a portion of the first plate is disposed in the duplex path and the media guiding surface is disposed in the simplex path while the second plate remains movable from its first position to its second position with the biasing member biasing the first plate in its first position;\nwherein a center of gravity of the second plate rotates the second plate to bias the second plate in its first position and further wherein a media sheet fed into the duplex path and contacting the first plate rotates the first plate to its second position abutingly blocking all rotation of the second plate from its first position with the media guiding surface blocking a following media sheet in the simplex path from entering the duplex path of the imaging device.\n\n",
+            "claimType": "independent",
+            "num": "00026",
+            "transPhrase": " actuated, ",
+            "claimSize": 271,
+            "gate:gateId": 95,
+            "claim_preamble": "A media",
+            "claimNumber": 26,
+            "claim-text": {
+                "content": "26. A media actuated, media diverter mountable on a guide member for a media sheet in a media path of an imaging device, the media path having a simplex path and a duplex path with the media guide member positioned between an exit of the simplex path and an entrance of the duplex path and an exit of the imaging device, the media diverter comprising:",
+                "gate:gateId": 96,
+                "claim-text": [
+                    {
+                        "content": "a first plate;",
+                        "gate:gateId": 97
+                    },
+                    {
+                        "content": "a biasing member for biasing the first plate;",
+                        "gate:gateId": 98
+                    },
+                    {
+                        "content": "a second plate having a media guiding surface along a first portion of an edge of the second plate; and",
+                        "gate:gateId": 99
+                    },
+                    {
+                        "content": "the first plate and second plate rotatably mounted in a same slot extending through the guide member and rotatable therein between respective first and second positions, such that when in their respective first positions a portion of the first plate is disposed in the duplex path and the media guiding surface is disposed in the simplex path while the second plate remains movable from its first position to its second position with the biasing member biasing the first plate in its first position;",
+                        "gate:gateId": 100
+                    },
+                    {
+                        "content": "wherein a center of gravity of the second plate rotates the second plate to bias the second plate in its first position and further wherein a media sheet fed into the duplex path and contacting the first plate rotates the first plate to its second position abutingly blocking all rotation of the second plate from its first position with the media guiding surface blocking a following media sheet in the simplex path from entering the duplex path of the imaging device.",
+                        "gate:gateId": 101
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 8
+}}

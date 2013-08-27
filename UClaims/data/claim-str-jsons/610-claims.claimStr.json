@@ -1,0 +1,519 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499515-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 67,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3028,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a first raised panel, wherein the first raised panel includes two substantially opposed first surfaces and a first edge;\na second raised panel, wherein the second raised panel includes two substantially opposed second surfaces and a second edge, and further wherein a first adjacent portion of the first edge is opposed to and spaced apart from a second adjacent portion of the second edge to form a gap between the first raised panel and the second raised panel;\na flow-limiting structure, wherein the flow-limiting structure defines at least one boundary of a channel that includes at least a portion of the gap, and further wherein the flow-limiting structure includes a resilient elongate body that includes a longitudinal axis;\na sealant material, wherein the sealant material is located within the channel, wherein the sealant material directly adheres the first adjacent portion to the second adjacent portion, and further wherein the flow-limiting structure is configured to limit a flow of the sealant material therepast;\nwherein the flow-limiting structure includes an elongate disassembly aid, wherein a longitudinal axis of the elongate disassembly aid is coextensive with the longitudinal axis of the resilient elongate body, and further wherein the elongate disassembly aid includes at least one of a greater shear strength and a greater tensile strength than the resilient elongate body; and\nwherein the elongate disassembly aid is at least partially located within the resilient elongate body.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ":\n",
+            "claimSize": 257,
+            "gate:gateId": 1,
+            "claim_preamble": "A raised panel assembly comprising",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A raised panel assembly comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a first raised panel, wherein the first raised panel includes two substantially opposed first surfaces and a first edge;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a second raised panel, wherein the second raised panel includes two substantially opposed second surfaces and a second edge, and further wherein a first adjacent portion of the first edge is opposed to and spaced apart from a second adjacent portion of the second edge to form a gap between the first raised panel and the second raised panel;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a flow-limiting structure, wherein the flow-limiting structure defines at least one boundary of a channel that includes at least a portion of the gap, and further wherein the flow-limiting structure includes a resilient elongate body that includes a longitudinal axis;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a sealant material, wherein the sealant material is located within the channel, wherein the sealant material directly adheres the first adjacent portion to the second adjacent portion, and further wherein the flow-limiting structure is configured to limit a flow of the sealant material therepast;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein the flow-limiting structure includes an elongate disassembly aid, wherein a longitudinal axis of the elongate disassembly aid is coextensive with the longitudinal axis of the resilient elongate body, and further wherein the elongate disassembly aid includes at least one of a greater shear strength and a greater tensile strength than the resilient elongate body; and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein the elongate disassembly aid is at least partially located within the resilient elongate body.",
+                        "gate:gateId": 8
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the elongate disassembly aid includes at least one of a string, a thread, a filament, a wire, a rod, and a cable.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 39,
+            "gate:gateId": 9,
+            "claimNumber": 2,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "2. The raised panel assembly of",
+                    ", wherein the elongate disassembly aid includes at least one of a string, a thread, a filament, a wire, a rod, and a cable."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the elongate disassembly aid is configured to be separated from the resilient elongate body and to at least one of slice, cut, sever, tear, and split at least a portion of the resilient elongate body and at least a portion of the sealant material from between the adjacent raised panels upon separation from the resilient elongate body.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 73,
+            "gate:gateId": 12,
+            "claimNumber": 3,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "3. The raised panel assembly of",
+                    ", wherein the elongate disassembly aid is configured to be separated from the resilient elongate body and to at least one of slice, cut, sever, tear, and split at least a portion of the resilient elongate body and at least a portion of the sealant material from between the adjacent raised panels upon separation from the resilient elongate body."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the elongate disassembly aid is located within the sealant material and is configured to at least one of slice, cut, sever, tear, and split a portion of the sealant material from between the adjacent raised panels upon removal from the sealant material.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 58,
+            "gate:gateId": 15,
+            "claimNumber": 4,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "4. The raised panel assembly of",
+                    ", wherein the elongate disassembly aid is located within the sealant material and is configured to at least one of slice, cut, sever, tear, and split a portion of the sealant material from between the adjacent raised panels upon removal from the sealant material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the raised panel assembly is in mechanical communication with a substructure, wherein at least a portion of the raised panel assembly is operatively attached to the substructure, wherein the substructure includes a support surface, wherein the gap is bounded by the support surface, wherein the gap is defined between two substantially opposed planes that are defined by the two substantially opposed first surfaces of the first raised panel, wherein the flow-limiting structure is located between the sealant material and the support surface, and further wherein the flow-limiting structure is configured to limit contact between the sealant material and the support surface.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 119,
+            "gate:gateId": 18,
+            "claimNumber": 5,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "5. The raised panel assembly of",
+                    ", wherein the raised panel assembly is in mechanical communication with a substructure, wherein at least a portion of the raised panel assembly is operatively attached to the substructure, wherein the substructure includes a support surface, wherein the gap is bounded by the support surface, wherein the gap is defined between two substantially opposed planes that are defined by the two substantially opposed first surfaces of the first raised panel, wherein the flow-limiting structure is located between the sealant material and the support surface, and further wherein the flow-limiting structure is configured to limit contact between the sealant material and the support surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the raised panel assembly is in mechanical communication with a substructure, wherein at least a portion of the raised panel assembly is operatively attached to the substructure, wherein the substructure includes a support surface, wherein the gap is not located on the support surface, and further wherein the flow-limiting structure limits the flow of sealant material from the channel without the use of a separate tape material.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 83,
+            "gate:gateId": 21,
+            "claimNumber": 6,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "6. The raised panel assembly of",
+                    ", wherein the raised panel assembly is in mechanical communication with a substructure, wherein at least a portion of the raised panel assembly is operatively attached to the substructure, wherein the substructure includes a support surface, wherein the gap is not located on the support surface, and further wherein the flow-limiting structure limits the flow of sealant material from the channel without the use of a separate tape material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the resilient elongate body is formed from at least one of a resilient solid, an elastomer, a polymer, a hydrophobic material, a foam, a hydrophobic foam, a polyurethane foam, and a hydrophobic polyurethane foam.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 53,
+            "gate:gateId": 24,
+            "claimNumber": 7,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "7. The raised panel assembly of",
+                    ", wherein the resilient elongate body is formed from at least one of a resilient solid, an elastomer, a polymer, a hydrophobic material, a foam, a hydrophobic foam, a polyurethane foam, and a hydrophobic polyurethane foam."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the resilient elongate body is located within the gap, wherein the resilient elongate body is in direct mechanical contact with the first adjacent portion and the second adjacent portion, and further wherein the resilient elongate body is configured to be placed within the gap as a solid.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 61,
+            "gate:gateId": 27,
+            "claimNumber": 8,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "8. The raised panel assembly of",
+                    ", wherein the resilient elongate body is located within the gap, wherein the resilient elongate body is in direct mechanical contact with the first adjacent portion and the second adjacent portion, and further wherein the resilient elongate body is configured to be placed within the gap as a solid."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the sealant material is configured to be applied to the gap as a liquid and to cure within the gap to form a solid.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 36,
+            "gate:gateId": 30,
+            "claimNumber": 9,
+            "claim_preamble": "The raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "9. The raised panel assembly of",
+                    ", wherein the sealant material is configured to be applied to the gap as a liquid and to cure within the gap to form a solid."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "\n\n1. A raised panel assembly comprising:\na first raised panel, wherein the first raised panel includes two substantially opposed first surfaces and a first edge;\na second raised panel, wherein the second raised panel includes two substantially opposed second surfaces and a second edge, and further wherein a first adjacent portion of the first edge is opposed to and spaced apart from a second adjacent portion of the second edge to form a gap between the first raised panel and the second raised panel;\na flow-limiting structure, wherein the flow-limiting structure defines at least one boundary of a channel that includes at least a portion of the gap, and further wherein the flow-limiting structure includes a resilient elongate body that includes a longitudinal axis;\na sealant material, wherein the sealant material is located within the channel, wherein the sealant material directly adheres the first adjacent portion to the second adjacent portion, and further wherein the flow-limiting structure is configured to limit a flow of the sealant material therepast;\nwherein the flow-limiting structure includes an elongate disassembly aid, wherein a longitudinal axis of the elongate disassembly aid is coextensive with the longitudinal axis of the resilient elongate body, and further wherein the elongate disassembly aid includes at least one of a greater shear strength and a greater tensile strength than the resilient elongate body; and\nwherein the elongate disassembly aid is at least partially located within the resilient elongate body.\n\n\n\n2. The raised panel assembly of claim 1 , wherein the elongate disassembly aid includes at least one of a string, a thread, a filament, a wire, a rod, and a cable.\n\n\n3. The raised panel assembly of claim 1 , wherein the elongate disassembly aid is configured to be separated from the resilient elongate body and to at least one of slice, cut, sever, tear, and split at least a portion of the resilient elongate body and at least a portion of the sealant material from between the adjacent raised panels upon separation from the resilient elongate body.\n\n\n4. The raised panel assembly of claim 1 , wherein the elongate disassembly aid is located within the sealant material and is configured to at least one of slice, cut, sever, tear, and split a portion of the sealant material from between the adjacent raised panels upon removal from the sealant material.\n\n\n5. The raised panel assembly of claim 1 , wherein the raised panel assembly is in mechanical communication with a substructure, wherein at least a portion of the raised panel assembly is operatively attached to the substructure, wherein the substructure includes a support surface, wherein the gap is bounded by the support surface, wherein the gap is defined between two substantially opposed planes that are defined by the two substantially opposed first surfaces of the first raised panel, wherein the flow-limiting structure is located between the sealant material and the support surface, and further wherein the flow-limiting structure is configured to limit contact between the sealant material and the support surface.\n\n\n6. The raised panel assembly of claim 1 , wherein the raised panel assembly is in mechanical communication with a substructure, wherein at least a portion of the raised panel assembly is operatively attached to the substructure, wherein the substructure includes a support surface, wherein the gap is not located on the support surface, and further wherein the flow-limiting structure limits the flow of sealant material from the channel without the use of a separate tape material.\n\n\n7. The raised panel assembly of claim 1 , wherein the resilient elongate body is formed from at least one of a resilient solid, an elastomer, a polymer, a hydrophobic material, a foam, a hydrophobic foam, a polyurethane foam, and a hydrophobic polyurethane foam.\n\n\n8. The raised panel assembly of claim 1 , wherein the resilient elongate body is located within the gap, wherein the resilient elongate body is in direct mechanical contact with the first adjacent portion and the second adjacent portion, and further wherein the resilient elongate body is configured to be placed within the gap as a solid.\n\n\n9. The raised panel assembly of claim 1 , wherein the sealant material is configured to be applied to the gap as a liquid and to cure within the gap to form a solid.\n\n\n10. An aircraft including the raised panel assembly of claim 1 .\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 1",
+            "claimSize": 13,
+            "gate:gateId": 33,
+            "claimNumber": "1 ",
+            "claim_preamble": "An aircraftthe raised panel assembly",
+            "claim-text": {
+                "content": [
+                    "10. An aircraft including the raised panel assembly of",
+                    "."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the flow-limiting structure within the raised panel assembly to form the boundary of the channel that is configured to receive the sealant material, wherein the channel includes the portion of the gap between the first edge of the first raised panel and the second edge of the second raised panel; and\napplying the sealant material to the channel, wherein the flow-limiting structure limits the flow of the sealant material therepast, wherein the sealant material forms an adhesive bond with the first raised panel and the second raised panel, and further wherein the applying is performed after the placing.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ";\nplacing ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 129,
+            "gate:gateId": 36,
+            "claimNumber": 11,
+            "claim_preamble": "A methoda raised panel assemblythe method comprisingthe raised panel assembly",
+            "claim-text": {
+                "content": "11. A method of constructing a raised panel assembly, the method comprising:",
+                "gate:gateId": 37,
+                "claim-text": [
+                    {
+                        "content": [
+                            "providing the raised panel assembly of",
+                            ";"
+                        ],
+                        "claim-ref": {
+                            "content": "claim 1",
+                            "gate:gateId": 39,
+                            "idref": "CLM-00001"
+                        },
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "placing the flow-limiting structure within the raised panel assembly to form the boundary of the channel that is configured to receive the sealant material, wherein the channel includes the portion of the gap between the first edge of the first raised panel and the second edge of the second raised panel; and",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "applying the sealant material to the channel, wherein the flow-limiting structure limits the flow of the sealant material therepast, wherein the sealant material forms an adhesive bond with the first raised panel and the second raised panel, and further wherein the applying is performed after the placing.",
+                        "gate:gateId": 41
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the method further includes placing an elongate disassembly aid within the gap, wherein the elongate disassembly aid is configured to decrease a time needed to disassemble the first raised panel from the second raised panel by at least one of slicing, cutting, severing, tearing, and splitting at least a portion of the sealant material that extends between the first raised panel and the second raised panel.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 81,
+            "gate:gateId": 42,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", wherein the method further includes placing an elongate disassembly aid within the gap, wherein the elongate disassembly aid is configured to decrease a time needed to disassemble the first raised panel from the second raised panel by at least one of slicing, cutting, severing, tearing, and splitting at least a portion of the sealant material that extends between the first raised panel and the second raised panel."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the placing the elongate disassembly aid is performed concurrently with the placing the flow-limiting structure.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 25,
+            "gate:gateId": 45,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", wherein the placing the elongate disassembly aid is performed concurrently with the placing the flow-limiting structure."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the placing the elongate disassembly aid is performed subsequent to the placing the flow-limiting structure.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 25,
+            "gate:gateId": 48,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein the placing the elongate disassembly aid is performed subsequent to the placing the flow-limiting structure."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the method includes placing the flow-limiting structure and applying the sealant material without adhering a separate tape material to a side of the gap that is opposite from a side of the gap from which the applying is performed.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 49,
+            "gate:gateId": 51,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", wherein the method includes placing the flow-limiting structure and applying the sealant material without adhering a separate tape material to a side of the gap that is opposite from a side of the gap from which the applying is performed."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the applying includes applying the sealant material as a liquid sealant material, and further wherein the method includes curing the sealant material to form a solid sealant material.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 39,
+            "gate:gateId": 54,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", wherein the applying includes applying the sealant material as a liquid sealant material, and further wherein the method includes curing the sealant material to form a solid sealant material."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the elongate disassembly aid;\nremoving the elongate disassembly aid from the raised panel assembly, wherein the removing includes separating the elongate disassembly aid from the flow-limiting structure; and\nsevering at least a severed portion of the sealant material that extends between the first edge and the second edge with the elongate disassembly aid during the removing.\n\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ";\ngrasping ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 85,
+            "gate:gateId": 57,
+            "claimNumber": 17,
+            "claim_preamble": "A methoda raised panel assemblythe method comprisingthe raised panel assembly",
+            "claim-text": {
+                "content": "17. A method of disassembling a raised panel assembly, the method comprising:",
+                "gate:gateId": 58,
+                "claim-text": [
+                    {
+                        "content": [
+                            "providing the raised panel assembly of",
+                            ";"
+                        ],
+                        "claim-ref": {
+                            "content": "claim 1",
+                            "gate:gateId": 60,
+                            "idref": "CLM-00001"
+                        },
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "grasping the elongate disassembly aid;",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": "removing the elongate disassembly aid from the raised panel assembly, wherein the removing includes separating the elongate disassembly aid from the flow-limiting structure; and",
+                        "gate:gateId": 62
+                    },
+                    {
+                        "content": "severing at least a severed portion of the sealant material that extends between the first edge and the second edge with the elongate disassembly aid during the removing.",
+                        "gate:gateId": 63
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the method further includes removing a removed panel from the raised panel assembly, wherein the removed panel includes at least one of the first raised panel and the second raised panel.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 42,
+            "gate:gateId": 64,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    ", wherein the method further includes removing a removed panel from the raised panel assembly, wherein the removed panel includes at least one of the first raised panel and the second raised panel."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 17
+        }
+    ],
+    "numberIndependentClaims": 273
+}}

@@ -1,0 +1,342 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504591-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 53,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2310,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "device comprising:\ncircuitry configured to:\ncode a plurality of kinds of data, each kind of data corresponding to an individual track of audio/video (A/V) content, and generating coded data;\ngenerate a plurality of pieces of group information and metadata corresponding to each of the plurality of pieces of group information, each piece of group information identifying a combination of the individual tracks of the A/V content; and\ngenerate a coded data storage file including said coded data of the plurality of kinds of said data and the plurality of pieces of said group information, wherein\n\nthe individual tracks of the A/V content include at least a main image track, a secondary image track, a first audio track and a second audio track, and\nthe circuitry is configured to generate a first piece of group information identifying a combination of at least the main image track and the first audio track, and generate a second piece of group information identifying a combination of the main image track, the secondary image track and the second audio track.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " generating ",
+            "claimSize": 204,
+            "gate:gateId": 1,
+            "claim_preamble": "A data",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A data generating device comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "circuitry configured to:",
+                        "gate:gateId": 3,
+                        "claim-text": [
+                            {
+                                "content": "code a plurality of kinds of data, each kind of data corresponding to an individual track of audio/video (A/V) content, and generating coded data;",
+                                "gate:gateId": 4
+                            },
+                            {
+                                "content": "generate a plurality of pieces of group information and metadata corresponding to each of the plurality of pieces of group information, each piece of group information identifying a combination of the individual tracks of the A/V content; and",
+                                "gate:gateId": 5
+                            },
+                            {
+                                "content": "generate a coded data storage file including said coded data of the plurality of kinds of said data and the plurality of pieces of said group information, wherein",
+                                "gate:gateId": 6
+                            }
+                        ]
+                    },
+                    {
+                        "content": "the individual tracks of the A/V content include at least a main image track, a secondary image track, a first audio track and a second audio track, and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "the circuitry is configured to generate a first piece of group information identifying a combination of at least the main image track and the first audio track, and generate a second piece of group information identifying a combination of the main image track, the secondary image track and the second audio track.",
+                        "gate:gateId": 8
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "data storage file is an MP4 file, and\nsaid circuitry is configured to dispose the plurality of pieces of said group information in a movie box of said MP4 file.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said coded ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 48,
+            "gate:gateId": 9,
+            "claimNumber": 2,
+            "claim_preamble": "The data generating device",
+            "claim-text": {
+                "content": [
+                    "2. The data generating device according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10,
+                "claim-text": [
+                    {
+                        "content": "wherein said coded data storage file is an MP4 file, and",
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": "said circuitry is configured to dispose the plurality of pieces of said group information in a movie box of said MP4 file.",
+                        "gate:gateId": 13
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "plurality of kinds of data are image data of a main image, image data of a secondary image, and audio data.\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The data generating device",
+            "claim-text": {
+                "content": [
+                    "3. The data generating device according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15,
+                "claim-text": {
+                    "content": "wherein said plurality of kinds of data are image data of a main image, image data of a secondary image, and audio data.",
+                    "gate:gateId": 17
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "plurality of kinds of data are image data of a three-dimensional main image, image data of a three-dimensional secondary image, and audio data.\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 39,
+            "gate:gateId": 18,
+            "claimNumber": 4,
+            "claim_preamble": "The data generating device",
+            "claim-text": {
+                "content": [
+                    "4. The data generating device according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19,
+                "claim-text": {
+                    "content": "wherein said plurality of kinds of data are image data of a three-dimensional main image, image data of a three-dimensional secondary image, and audio data.",
+                    "gate:gateId": 21
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the circuitry is configured to generate a third piece of group information identifying a combination of the main image track and the first audio track, and generate a fourth piece of group information identifying a combination of the main image track and the second audio track.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 60,
+            "gate:gateId": 22,
+            "claimNumber": 5,
+            "claim_preamble": "The data generating device",
+            "claim-text": {
+                "content": [
+                    "5. The data generating device according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23,
+                "claim-text": {
+                    "content": "wherein the circuitry is configured to generate a third piece of group information identifying a combination of the main image track and the first audio track, and generate a fourth piece of group information identifying a combination of the main image track and the second audio track.",
+                    "gate:gateId": 25
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the individual tracks of the A/V content further include a third audio track, and\nthe circuitry is configured to generate a fifth piece of group information identifying a combination of the main image track and the third audio track.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 55,
+            "gate:gateId": 26,
+            "claimNumber": 6,
+            "claim_preamble": "The data generating device",
+            "claim-text": {
+                "content": [
+                    "6. The data generating device according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 27,
+                "claim-text": [
+                    {
+                        "content": "wherein the individual tracks of the A/V content further include a third audio track, and",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "the circuitry is configured to generate a fifth piece of group information identifying a combination of the main image track and the third audio track.",
+                        "gate:gateId": 30
+                    }
+                ]
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the main image track corresponds to a main video image,\nthe first audio track corresponds an audio track in English at a first audio quality,\nthe second audio track corresponds to a non-English audio track at a second audio quality that is worse than the first audio quality,\nthe third audio track corresponds to an English audio track at the second audio quality, and\nthe first secondary image track corresponds to non-English subtitle image data.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein\n",
+            "claimBackReference": "according to claim 6 ,",
+            "claimSize": 94,
+            "gate:gateId": 31,
+            "claimNumber": 7,
+            "claim_preamble": "The data generating device",
+            "claim-text": {
+                "content": [
+                    "7. The data generating device according to",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 32,
+                "claim-text": [
+                    {
+                        "content": "the main image track corresponds to a main video image,",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "the first audio track corresponds an audio track in English at a first audio quality,",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "the second audio track corresponds to a non-English audio track at a second audio quality that is worse than the first audio quality,",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "the third audio track corresponds to an English audio track at the second audio quality, and",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "the first secondary image track corresponds to non-English subtitle image data.",
+                        "gate:gateId": 38
+                    }
+                ]
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a data generating device comprising:\ncoding a plurality of kinds of data, each kind of data corresponding to an individual track of audio/video (A/V) content, and generating coded data;\ngenerating a plurality of pieces of group information and metadata corresponding to each of the plurality of pieces of group information, each piece of group information identifying a combination of the individual tracks of the A/V content; and\ngenerating a coded data storage file including said coded data of the plurality of kinds of said data and the plurality of pieces of said group information, wherein\nthe individual tracks of the A/V content include at least a main image track, a secondary image track, a first audio track and a second audio track, and\nthe generating the plurality of pieces of group information includes generating a first piece of group information identifying a combination of at least the main image track and the first audio track, and generating a second piece of group information identifying a combination of the main image track, the secondary image track and the second audio track.\n\n",
+            "claimType": "independent",
+            "num": "00008",
+            "transPhrase": " executed by ",
+            "claimSize": 211,
+            "gate:gateId": 39,
+            "claim_preamble": "A data generating method",
+            "claimNumber": 8,
+            "claim-text": {
+                "content": "8. A data generating method executed by a data generating device comprising:",
+                "gate:gateId": 40,
+                "claim-text": [
+                    {
+                        "content": "coding a plurality of kinds of data, each kind of data corresponding to an individual track of audio/video (A/V) content, and generating coded data;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "generating a plurality of pieces of group information and metadata corresponding to each of the plurality of pieces of group information, each piece of group information identifying a combination of the individual tracks of the A/V content; and",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "generating a coded data storage file including said coded data of the plurality of kinds of said data and the plurality of pieces of said group information, wherein",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "the individual tracks of the A/V content include at least a main image track, a secondary image track, a first audio track and a second audio track, and",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "the generating the plurality of pieces of group information includes generating a first piece of group information identifying a combination of at least the main image track and the first audio track, and generating a second piece of group information identifying a combination of the main image track, the secondary image track and the second audio track.",
+                        "gate:gateId": 45
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00009",
+            "body": "which when executed by a data generating device, causes the data generating device to:\ncode a plurality of kinds of data, each kind of data corresponding to an individual track of audio/video (A/V) content, and generate coded data;\ngenerate a plurality of pieces of group information and metadata corresponding to each of the plurality of pieces of group information, each piece of group information identifying a combination of the individual tracks of the A/V content; and\ngenerate a coded data storage file including said coded data of the plurality of kinds of said data and the plurality of pieces of said group information, wherein\nthe individual tracks of the A/V content include at least a main image track, a secondary image track, a first audio track and a second audio track, and\nthe generating the plurality of pieces of group information includes generating a first piece of group information identifying a combination of at least the main image track and the first audio track, and generating a second piece of group information identifying a combination of the main image track, the secondary image track and the second audio track. \n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": ", ",
+            "claimSize": 224,
+            "gate:gateId": 46,
+            "claim_preamble": "A non-transitory computer-readable medium including computer program instruction",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A non-transitory computer-readable medium including computer program instruction, which when executed by a data generating device, causes the data generating device to:",
+                "gate:gateId": 47,
+                "claim-text": [
+                    {
+                        "content": "code a plurality of kinds of data, each kind of data corresponding to an individual track of audio/video (A/V) content, and generate coded data;",
+                        "gate:gateId": 48
+                    },
+                    {
+                        "content": "generate a plurality of pieces of group information and metadata corresponding to each of the plurality of pieces of group information, each piece of group information identifying a combination of the individual tracks of the A/V content; and",
+                        "gate:gateId": 49
+                    },
+                    {
+                        "content": "generate a coded data storage file including said coded data of the plurality of kinds of said data and the plurality of pieces of said group information, wherein",
+                        "gate:gateId": 50
+                    },
+                    {
+                        "content": "the individual tracks of the A/V content include at least a main image track, a secondary image track, a first audio track and a second audio track, and",
+                        "gate:gateId": 51
+                    },
+                    {
+                        "content": "the generating the plurality of pieces of group information includes generating a first piece of group information identifying a combination of at least the main image track and the first audio track, and generating a second piece of group information identifying a combination of the main image track, the secondary image track and the second audio track.",
+                        "gate:gateId": 52
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 249
+}}

@@ -1,0 +1,1362 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504826-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 222,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 5487,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "execution of computer readable program code by a processor of a host that transmits data to a client, the method comprising:\n(a1) determining a host key K n using a one-way hash function based on a host initial key K 0 stored in the host, wherein n is an integer having an initial value 1;\n(a2) generating encrypted data X n using a symmetrical encryption algorithm based on original data R n and the host key K n ;\n(a3) sending the encrypted data X n to the client, wherein the client stores a client initial key K\u2032 0 and determines a client key K\u2032 n using the one-way hash function based on the client initial key K\u2032 0 ;\n(a4) receiving validation data X\u2032 n sent from the client, and decrypting the validation data X\u2032 n using a symmetrical decryption algorithm and the host key K n to obtain decrypted data R\u2032 n ;\n(a5) checking if the decrypted data R\u2032 n is the same as the original data Rn, and determining that the client fails in the validation, refusing to transmit any more data, and ending the procedure if the decrypted data R\u2032 n is different from the original data R n , or going to block (a6) if the decrypted data R\u2032 n is the same as the original data R n ; and\n(a6) setting that the client key K\u2032 n−1 equals the host key K n−1 , and returning to block (a2) if there is original data R n+1 to be transmitted, or ending the procedure if there is no more data to be transmitted.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " being performed by ",
+            "claimSize": 332,
+            "gate:gateId": 1,
+            "claim_preamble": "A computer-based data security protection method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A computer-based data security protection method being performed by execution of computer readable program code by a processor of a host that transmits data to a client, the method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": [
+                            "(a1) determining a host key K",
+                            "using a one-way hash function based on a host initial key K",
+                            "stored in the host, wherein n is an integer having an initial value 1;"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 4
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 5
+                            }
+                        ],
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": [
+                            "(a2) generating encrypted data X",
+                            "using a symmetrical encryption algorithm based on original data R",
+                            "and the host key K",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 7
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 9
+                            }
+                        ],
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": [
+                            "(a3) sending the encrypted data X",
+                            "to the client, wherein the client stores a client initial key K\u2032",
+                            "and determines a client key K\u2032",
+                            "using the one-way hash function based on the client initial key K\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 11
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 12
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 13
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 14
+                            }
+                        ],
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": [
+                            "(a4) receiving validation data X\u2032",
+                            "sent from the client, and decrypting the validation data X\u2032",
+                            "using a symmetrical decryption algorithm and the host key K",
+                            "to obtain decrypted data R\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 16
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 17
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 18
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 19
+                            }
+                        ],
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": [
+                            "(a5) checking if the decrypted data R\u2032",
+                            "is the same as the original data Rn, and determining that the client fails in the validation, refusing to transmit any more data, and ending the procedure if the decrypted data R\u2032",
+                            "is different from the original data R",
+                            ", or going to block (a6) if the decrypted data R\u2032",
+                            "is the same as the original data R",
+                            "; and"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 21
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 22
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 23
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 24
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 25
+                            }
+                        ],
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": [
+                            "(a6) setting that the client key K\u2032",
+                            "equals the host key K",
+                            ", and returning to block (a2) if there is original data R",
+                            "to be transmitted, or ending the procedure if there is no more data to be transmitted."
+                        ],
+                        "sub": [
+                            {
+                                "content": "n−1",
+                                "gate:gateId": 27
+                            },
+                            {
+                                "content": "n−1",
+                                "gate:gateId": 28
+                            },
+                            {
+                                "content": "n+1",
+                                "gate:gateId": 29
+                            }
+                        ],
+                        "gate:gateId": 26
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "execution of computer readable program code by a processor of a client that receives data from a host, the method comprising:\n(b1) receiving encrypted data X n sent from the host, wherein n is an integer having an initial value 1;\n(b2) determining a client key K\u2032 n using a one-way hash function based on a client initial key K\u2032 0 stored in the client;\n(b3) determining decrypted data R\u2032 n by decrypting the encrypted data X n using a symmetrical decryption algorithm based on the client key K\u2032 n ;\n(b4) generating validation data X\u2032 n using the symmetrical encryption algorithm based on the decrypted data R\u2032 n and the client key K\u2032 n ; and\n(b5) sending the validation data X\u2032 n to the host, to request the host to validate the client based on the validation data X\u2032 n for transmission of more data.\n\n",
+            "claimType": "independent",
+            "num": "00002",
+            "transPhrase": " being performed by ",
+            "claimSize": 189,
+            "gate:gateId": 30,
+            "claim_preamble": "A computer-based data security protection method",
+            "claimNumber": 2,
+            "claim-text": {
+                "content": "2. A computer-based data security protection method being performed by execution of computer readable program code by a processor of a client that receives data from a host, the method comprising:",
+                "gate:gateId": 31,
+                "claim-text": [
+                    {
+                        "content": [
+                            "(b1) receiving encrypted data X",
+                            "sent from the host, wherein n is an integer having an initial value 1;"
+                        ],
+                        "sub": {
+                            "content": "n",
+                            "gate:gateId": 33
+                        },
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": [
+                            "(b2) determining a client key K\u2032",
+                            "using a one-way hash function based on a client initial key K\u2032",
+                            "stored in the client;"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 35
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 36
+                            }
+                        ],
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": [
+                            "(b3) determining decrypted data R\u2032",
+                            "by decrypting the encrypted data X",
+                            "using a symmetrical decryption algorithm based on the client key K\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 38
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 39
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 40
+                            }
+                        ],
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": [
+                            "(b4) generating validation data X\u2032",
+                            "using the symmetrical encryption algorithm based on the decrypted data R\u2032",
+                            "and the client key K\u2032",
+                            "; and"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 42
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 43
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 44
+                            }
+                        ],
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": [
+                            "(b5) sending the validation data X\u2032",
+                            "to the host, to request the host to validate the client based on the validation data X\u2032",
+                            "for transmission of more data."
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 46
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 47
+                            }
+                        ],
+                        "gate:gateId": 45
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00003",
+            "body": "block (a1) further comprising: (a0) performing initial validation of the host and the client, to generate the host initial key K 0 and the client initial key K\u2032 0 .\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", before ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 51,
+            "gate:gateId": 48,
+            "claimNumber": 3,
+            "claim_preamble": "The data security protection method",
+            "claim-text": {
+                "content": [
+                    "3. The data security protection method of",
+                    ", before block (a1) further comprising: (a0) performing initial validation of the host and the client, to generate the host initial key K",
+                    "and the client initial key K\u2032",
+                    "."
+                ],
+                "sub": [
+                    {
+                        "content": 0,
+                        "gate:gateId": 51
+                    },
+                    {
+                        "content": 0,
+                        "gate:gateId": 52
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "block (a0) comprises:\n(a01) generating a first random number R 0 and a second random number K 0 , determining a one-way function value H(R 0 ) of the first random number R 0 , and generating test data X 0 by encrypting R 0 , K 0 and H(R 0 ) using a public key PK of an asymmetric encryption algorithm by the client;\n(a02) sending the test data X 0 to the client;\n(a03) decrypting the test data X 0 using a secret key SK of the asymmetric encrypted algorithm, to obtain a first decrypted value R\u2032 0 , a second decrypted value K\u2032 0 , and a decrypted function value H(R\u2032 0 ) of the first decrypted value R\u2032 0 ;\n(a04) determining a one-way function value H\u2032(R\u2032 0 ) of the first decrypted value R\u2032 0 using the one-way hash function;\n(a05) checking if the one-way function value H\u2032(R\u2032 0 ) is the same as the decrypted function value H(R\u2032 0 ), to determine if the public key PK matches the private key SK;\n(a06) determining that the host fails in the initial validation and ending the procedure if the one-way function value H\u2032(R\u2032 0 ) is different from the decrypted function value H(R\u2032 0 ), or going to block (a07) if the one-way function value H\u2032(R\u2032 0 ) is the same as the decrypted function value H(R\u2032 0 );\n(a07) determining that the public key PK matches the private key SK, and storing the second decrypted value K\u2032 0 in the client as the client initial key;\n(a08) encrypting the first decrypted value R\u2032 0 using the symmetric encryption algorithm and the client initial key K\u2032 0 , to obtain an encrypted value E(R\u2032 0 ), and sending the encrypted value E(R\u2032 0 ) to the host;\n(a09) obtaining the first decrypted value R\u2032 0 by decrypting the encrypted value E(R\u2032 0 ) using the symmetric decryption algorithm and the client initial key K\u2032 0 ;\n(a10) checking if the first decryption value R\u2032 0 is the same as the first random number R 0 , to determine if the client passes the initial validation;\n(a11) determining the client fails in the initial validation and ending the procedure if the first decrypted value R\u2032 0 is different from the first random number R 0 , or going to block (a12) if the first decrypted value R\u2032 0 is the same as the first random number R 0 ; and\n(a12) determining that the client passes the initial validation, storing the second random number K 0 in the host as the host initial key, and going to block (a1).\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 573,
+            "gate:gateId": 53,
+            "claimNumber": 4,
+            "claim_preamble": "The data security protection method",
+            "claim-text": {
+                "content": [
+                    "4. The data security protection method of",
+                    ", wherein block (a0) comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 54,
+                "claim-text": [
+                    {
+                        "content": [
+                            "(a01) generating a first random number R",
+                            "and a second random number K",
+                            ", determining a one-way function value H(R",
+                            ") of the first random number R",
+                            ", and generating test data X",
+                            "by encrypting R",
+                            ", K",
+                            "and H(R",
+                            ") using a public key PK of an asymmetric encryption algorithm by the client;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 57
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 58
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 59
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 60
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 61
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 62
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 63
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 64
+                            }
+                        ],
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": [
+                            "(a02) sending the test data X",
+                            "to the client;"
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 66
+                        },
+                        "gate:gateId": 65
+                    },
+                    {
+                        "content": [
+                            "(a03) decrypting the test data X",
+                            "using a secret key SK of the asymmetric encrypted algorithm, to obtain a first decrypted value R\u2032",
+                            ", a second decrypted value K\u2032",
+                            ", and a decrypted function value H(R\u2032",
+                            ") of the first decrypted value R\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 68
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 69
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 70
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 71
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 72
+                            }
+                        ],
+                        "gate:gateId": 67
+                    },
+                    {
+                        "content": [
+                            "(a04) determining a one-way function value H\u2032(R\u2032",
+                            ") of the first decrypted value R\u2032",
+                            "using the one-way hash function;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 74
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 75
+                            }
+                        ],
+                        "gate:gateId": 73
+                    },
+                    {
+                        "content": [
+                            "(a05) checking if the one-way function value H\u2032(R\u2032",
+                            ") is the same as the decrypted function value H(R\u2032",
+                            "), to determine if the public key PK matches the private key SK;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 77
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 78
+                            }
+                        ],
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": [
+                            "(a06) determining that the host fails in the initial validation and ending the procedure if the one-way function value H\u2032(R\u2032",
+                            ") is different from the decrypted function value H(R\u2032",
+                            "), or going to block (a07) if the one-way function value H\u2032(R\u2032",
+                            ") is the same as the decrypted function value H(R\u2032",
+                            ");"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 80
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 81
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 82
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 83
+                            }
+                        ],
+                        "gate:gateId": 79
+                    },
+                    {
+                        "content": [
+                            "(a07) determining that the public key PK matches the private key SK, and storing the second decrypted value K\u2032",
+                            "in the client as the client initial key;"
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 85
+                        },
+                        "gate:gateId": 84
+                    },
+                    {
+                        "content": [
+                            "(a08) encrypting the first decrypted value R\u2032",
+                            "using the symmetric encryption algorithm and the client initial key K\u2032",
+                            ", to obtain an encrypted value E(R\u2032",
+                            "), and sending the encrypted value E(R\u2032",
+                            ") to the host;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 87
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 88
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 89
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 90
+                            }
+                        ],
+                        "gate:gateId": 86
+                    },
+                    {
+                        "content": [
+                            "(a09) obtaining the first decrypted value R\u2032",
+                            "by decrypting the encrypted value E(R\u2032",
+                            ") using the symmetric decryption algorithm and the client initial key K\u2032",
+                            ";"
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 92
+                        },
+                        "b": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 93
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 94
+                            }
+                        ],
+                        "gate:gateId": 91
+                    },
+                    {
+                        "content": [
+                            "(a10) checking if the first decryption value R\u2032",
+                            "is the same as the first random number R",
+                            ", to determine if the client passes the initial validation;"
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 96
+                        },
+                        "b": {
+                            "content": 0,
+                            "gate:gateId": 97
+                        },
+                        "gate:gateId": 95
+                    },
+                    {
+                        "content": [
+                            "(a11) determining the client fails in the initial validation and ending the procedure if the first decrypted value R\u2032",
+                            "is different from the first random number R",
+                            ", or going to block (a12) if the first decrypted value R\u2032",
+                            "is the same as the first random number R",
+                            "; and"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 99
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 101
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 102
+                            }
+                        ],
+                        "b": {
+                            "content": 0,
+                            "gate:gateId": 100
+                        },
+                        "gate:gateId": 98
+                    },
+                    {
+                        "content": [
+                            "(a12) determining that the client passes the initial validation, storing the second random number K",
+                            "in the host as the host initial key, and going to block (a1)."
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 104
+                        },
+                        "gate:gateId": 103
+                    }
+                ]
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the one-way hash function is selected from the group consisting of a message digest algorithm (MD5), a secure hash algorithm (SHA), a message authentication code (MAC), and a cyclic redundancy check (CRC).\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 57,
+            "gate:gateId": 105,
+            "claimNumber": 5,
+            "claim_preamble": "The data security protection method",
+            "claim-text": {
+                "content": [
+                    "5. The data security protection method of",
+                    ", wherein the one-way hash function is selected from the group consisting of a message digest algorithm (MD5), a secure hash algorithm (SHA), a message authentication code (MAC), and a cyclic redundancy check (CRC)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 107,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 106
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the symmetrical encryption algorithm is an advanced encryption standard (AES), or a data encryption standard (DES).\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 34,
+            "gate:gateId": 108,
+            "claimNumber": 6,
+            "claim_preamble": "The data security protection method",
+            "claim-text": {
+                "content": [
+                    "6. The data security protection method of",
+                    ", wherein the symmetrical encryption algorithm is an advanced encryption standard (AES), or a data encryption standard (DES)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 110,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 109
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a set of instructions, the set of instructions capable of being executed by a processor of a host that transmits data to a client to perform a data security protection method, the method comprising:\n(a1) determining a host key K n using a one-way hash function based on a host initial key K 0 stored in the host, wherein n is an integer having an initial value 1;\n(a2) generating encrypted data X n using a symmetrical encryption algorithm based on original data R n and the host key K n ;\n(a3) sending the encryption data X n to the client, wherein the client stores a client initial key K\u2032 0 and determines a client key K\u2032 n using the one-way hash function based on the client initial key K\u2032 0 ;\n(a4) receiving validation data X\u2032 n sent from the client, and decrypting the validation data X\u2032 n using a symmetrical decryption algorithm and the host key K n to obtain decrypted data R\u2032 n ;\n(a5) checking if the decrypted data R\u2032 n is the same as the original data R n , determining that the client fails in the validation, refusing to transmit any more data, and ending the procedure in response to a determination that the decrypted data R\u2032 n is different from the original data R n , or going to block (a6) if the decryption data R\u2032 n is the same as the original data R n ; and\n(a6) setting the client key K\u2032 n−1 equals the host key K n−1 , and returning to block (a2) if there is original data R n+1 to be transmitted, or ending the procedure if there is no more data to be transmitted.\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " ",
+            "claimSize": 347,
+            "gate:gateId": 111,
+            "claim_preamble": "A non-transitory computer readable medium storing",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A non-transitory computer readable medium storing a set of instructions, the set of instructions capable of being executed by a processor of a host that transmits data to a client to perform a data security protection method, the method comprising:",
+                "gate:gateId": 112,
+                "claim-text": [
+                    {
+                        "content": [
+                            "(a1) determining a host key K",
+                            "using a one-way hash function based on a host initial key K",
+                            "stored in the host, wherein n is an integer having an initial value 1;"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 114
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 115
+                            }
+                        ],
+                        "gate:gateId": 113
+                    },
+                    {
+                        "content": [
+                            "(a2) generating encrypted data X",
+                            "using a symmetrical encryption algorithm based on original data R",
+                            "and the host key K",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 117
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 118
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 119
+                            }
+                        ],
+                        "gate:gateId": 116
+                    },
+                    {
+                        "content": [
+                            "(a3) sending the encryption data X",
+                            "to the client, wherein the client stores a client initial key K\u2032",
+                            "and determines a client key K\u2032",
+                            "using the one-way hash function based on the client initial key K\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 121
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 122
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 123
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 124
+                            }
+                        ],
+                        "gate:gateId": 120
+                    },
+                    {
+                        "content": [
+                            "(a4) receiving validation data X\u2032",
+                            "sent from the client, and decrypting the validation data X\u2032",
+                            "using a symmetrical decryption algorithm and the host key K",
+                            "to obtain decrypted data R\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 126
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 127
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 128
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 129
+                            }
+                        ],
+                        "gate:gateId": 125
+                    },
+                    {
+                        "content": [
+                            "(a5) checking if the decrypted data R\u2032",
+                            "is the same as the original data R",
+                            ", determining that the client fails in the validation, refusing to transmit any more data, and ending the procedure in response to a determination that the decrypted data R\u2032",
+                            "is different from the original data R",
+                            ", or going to block (a6) if the decryption data R\u2032",
+                            "is the same as the original data R",
+                            "; and"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 131
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 132
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 133
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 134
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 135
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 136
+                            }
+                        ],
+                        "gate:gateId": 130
+                    },
+                    {
+                        "content": [
+                            "(a6) setting the client key K\u2032",
+                            "equals the host key K",
+                            ", and returning to block (a2) if there is original data R",
+                            "to be transmitted, or ending the procedure if there is no more data to be transmitted."
+                        ],
+                        "sub": [
+                            {
+                                "content": "n−1",
+                                "gate:gateId": 138
+                            },
+                            {
+                                "content": "n−1",
+                                "gate:gateId": 139
+                            },
+                            {
+                                "content": "n+1",
+                                "gate:gateId": 140
+                            }
+                        ],
+                        "gate:gateId": 137
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a set of instructions, the set of instructions capable of being executed by a processor of a client that receives data from a host to perform a data security protection method, the method comprising:\n(b1) receiving encrypted data X n sent from the host, wherein n is an integer having an initial value 1;\n(b2) determining a client key K\u2032 n using a one-way hash function based on a client initial key K\u2032 0 stored in the client;\n(b3) determining decrypted data R\u2032 n by decrypting the encrypted data X n using a symmetrical decryption algorithm based on the client key K\u2032 n ;\n(b4) generating validation data X\u2032 n using the symmetrical encryption algorithm based on the decrypted data R\u2032 n and the client key K\u2032 n ; and\n(b5) sending the validation data X\u2032 n to the host, to request the host to validate the client based on the validation data X\u2032 n for transmission of more data.\n\n",
+            "claimType": "independent",
+            "num": "00008",
+            "transPhrase": " ",
+            "claimSize": 200,
+            "gate:gateId": 141,
+            "claim_preamble": "A non-transitory computer readable medium storing",
+            "claimNumber": 8,
+            "claim-text": {
+                "content": "8. A non-transitory computer readable medium storing a set of instructions, the set of instructions capable of being executed by a processor of a client that receives data from a host to perform a data security protection method, the method comprising:",
+                "gate:gateId": 142,
+                "claim-text": [
+                    {
+                        "content": [
+                            "(b1) receiving encrypted data X",
+                            "sent from the host, wherein n is an integer having an initial value 1;"
+                        ],
+                        "sub": {
+                            "content": "n",
+                            "gate:gateId": 144
+                        },
+                        "gate:gateId": 143
+                    },
+                    {
+                        "content": [
+                            "(b2) determining a client key K\u2032",
+                            "using a one-way hash function based on a client initial key K\u2032",
+                            "stored in the client;"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 146
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 147
+                            }
+                        ],
+                        "gate:gateId": 145
+                    },
+                    {
+                        "content": [
+                            "(b3) determining decrypted data R\u2032",
+                            "by decrypting the encrypted data X",
+                            "using a symmetrical decryption algorithm based on the client key K\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 149
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 150
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 151
+                            }
+                        ],
+                        "gate:gateId": 148
+                    },
+                    {
+                        "content": [
+                            "(b4) generating validation data X\u2032",
+                            "using the symmetrical encryption algorithm based on the decrypted data R\u2032",
+                            "and the client key K\u2032",
+                            "; and"
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 153
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 154
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 155
+                            }
+                        ],
+                        "gate:gateId": 152
+                    },
+                    {
+                        "content": [
+                            "(b5) sending the validation data X\u2032",
+                            "to the host, to request the host to validate the client based on the validation data X\u2032",
+                            "for transmission of more data."
+                        ],
+                        "sub": [
+                            {
+                                "content": "n",
+                                "gate:gateId": 157
+                            },
+                            {
+                                "content": "n",
+                                "gate:gateId": 158
+                            }
+                        ],
+                        "gate:gateId": 156
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00009",
+            "body": "block (a1) further comprises: (a0) performing initial validation of the host and the client, to generate the host initial key K 0 and the client initial key K\u2032 0 .\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein before ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 52,
+            "gate:gateId": 159,
+            "claimNumber": 9,
+            "claim_preamble": "The non-transitory computer readable medium",
+            "claim-text": {
+                "content": [
+                    "9. The non-transitory computer readable medium of",
+                    ", wherein before block (a1) further comprises: (a0) performing initial validation of the host and the client, to generate the host initial key K",
+                    "and the client initial key K\u2032",
+                    "."
+                ],
+                "sub": [
+                    {
+                        "content": 0,
+                        "gate:gateId": 162
+                    },
+                    {
+                        "content": 0,
+                        "gate:gateId": 163
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 161,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 160
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "block (a0) comprises:\n(a01) generating a first random number R 0 and a second random number K 0 , determining a one-way function value H(R 0 ) of the first random number R 0 , and generating test data X 0 by encrypting R 0 , K 0 and H(R 0 ) using a public key PK of an asymmetric encryption algorithm by the client;\n(a02) sending the test data X 0 to the client;\n(a03) decrypting the test data X 0 using a secret key SK of the asymmetric encryption algorithm, to obtain a first decrypted value R\u2032 0 , a second decrypted value K\u2032 0 , and a decrypted function value H(R\u2032 0 ) of the first decrypted value R\u2032 0 ;\n(a04) determining a one-way function value H\u2032(R\u2032 0 ) of the first decrypted value R\u2032 0 using the one-way hash function;\n(a05) checking if the one-way function value H\u2032(R\u2032 0 ) is the same as the decrypted function value H(R\u2032 0 ), to determine if the public key PK matches the private key SK;\n(a06) determining that the host fails in the initial validation and ending the procedure if the one-way function value H\u2032(R\u2032 0 ) is different from the decrypted function value H(R\u2032 0 ), or going to block (a07) if the one-way function value H\u2032(R\u2032 0 ) is the same as the decrypted function value H(R\u2032 0 );\n(a07) determining that the public key PK matches the private key SK, and storing the second decrypted value K\u2032 0 in the client as the client initial key;\n(a08) encrypting the first decrypted value R\u2032 0 using the symmetric encryption algorithm and the client initial key K\u2032 0 , to obtain an encrypted value E(R\u2032 0 ), and sending the encrypted value E(R\u2032 0 ) to the host;\n(a09) obtaining the first decrypted value R\u2032 0 by decrypting the encrypted value E(R\u2032 0 ) using the symmetric decryption algorithm and the client initial key K\u2032 0 ;\n(a10) checking if the first decrypted value R\u2032 0 is the same as the first random number R 0 , to determine if the client passes the initial validation;\n(a11) determining the client fails in the initial validation and ending the procedure if the first decrypted value R\u2032 0 is different from the first random number R 0 , or going to block (a12) if the first decrypted value R\u2032 0 is the same as the first random number R 0 ; and\n(a12) determining that the client passes the initial validation, storing the second random number K 0 in the host as the host initial key, and going to block (a1).\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 573,
+            "gate:gateId": 164,
+            "claimNumber": 10,
+            "claim_preamble": "The non-transitory computer readable medium",
+            "claim-text": {
+                "content": [
+                    "10. The non-transitory computer readable medium of",
+                    ", wherein block (a0) comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 166,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 165,
+                "claim-text": [
+                    {
+                        "content": [
+                            "(a01) generating a first random number R",
+                            "and a second random number K",
+                            ", determining a one-way function value H(R",
+                            ") of the first random number R",
+                            ", and generating test data X",
+                            "by encrypting R",
+                            ", K",
+                            "and H(R",
+                            ") using a public key PK of an asymmetric encryption algorithm by the client;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 168
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 169
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 170
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 171
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 172
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 173
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 174
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 175
+                            }
+                        ],
+                        "gate:gateId": 167
+                    },
+                    {
+                        "content": [
+                            "(a02) sending the test data X",
+                            "to the client;"
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 177
+                        },
+                        "gate:gateId": 176
+                    },
+                    {
+                        "content": [
+                            "(a03) decrypting the test data X",
+                            "using a secret key SK of the asymmetric encryption algorithm, to obtain a first decrypted value R\u2032",
+                            ", a second decrypted value K\u2032",
+                            ", and a decrypted function value H(R\u2032",
+                            ") of the first decrypted value R\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 179
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 180
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 181
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 182
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 183
+                            }
+                        ],
+                        "gate:gateId": 178
+                    },
+                    {
+                        "content": [
+                            "(a04) determining a one-way function value H\u2032(R\u2032",
+                            ") of the first decrypted value R\u2032",
+                            "using the one-way hash function;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 185
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 186
+                            }
+                        ],
+                        "gate:gateId": 184
+                    },
+                    {
+                        "content": [
+                            "(a05) checking if the one-way function value H\u2032(R\u2032",
+                            ") is the same as the decrypted function value H(R\u2032",
+                            "), to determine if the public key PK matches the private key SK;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 188
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 189
+                            }
+                        ],
+                        "gate:gateId": 187
+                    },
+                    {
+                        "content": [
+                            "(a06) determining that the host fails in the initial validation and ending the procedure if the one-way function value H\u2032(R\u2032",
+                            ") is different from the decrypted function value H(R\u2032",
+                            "), or going to block (a07) if the one-way function value H\u2032(R\u2032",
+                            ") is the same as the decrypted function value H(R\u2032",
+                            ");"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 191
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 192
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 193
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 194
+                            }
+                        ],
+                        "gate:gateId": 190
+                    },
+                    {
+                        "content": [
+                            "(a07) determining that the public key PK matches the private key SK, and storing the second decrypted value K\u2032",
+                            "in the client as the client initial key;"
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 196
+                        },
+                        "gate:gateId": 195
+                    },
+                    {
+                        "content": [
+                            "(a08) encrypting the first decrypted value R\u2032",
+                            "using the symmetric encryption algorithm and the client initial key K\u2032",
+                            ", to obtain an encrypted value E(R\u2032",
+                            "), and sending the encrypted value E(R\u2032",
+                            ") to the host;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 198
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 199
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 200
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 201
+                            }
+                        ],
+                        "gate:gateId": 197
+                    },
+                    {
+                        "content": [
+                            "(a09) obtaining the first decrypted value R\u2032",
+                            "by decrypting the encrypted value E(R\u2032",
+                            ") using the symmetric decryption algorithm and the client initial key K\u2032",
+                            ";"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 203
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 204
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 205
+                            }
+                        ],
+                        "gate:gateId": 202
+                    },
+                    {
+                        "content": [
+                            "(a10) checking if the first decrypted value R\u2032",
+                            "is the same as the first random number R",
+                            ", to determine if the client passes the initial validation;"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 207
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 208
+                            }
+                        ],
+                        "gate:gateId": 206
+                    },
+                    {
+                        "content": [
+                            "(a11) determining the client fails in the initial validation and ending the procedure if the first decrypted value R\u2032",
+                            "is different from the first random number R",
+                            ", or going to block (a12) if the first decrypted value R\u2032",
+                            "is the same as the first random number R",
+                            "; and"
+                        ],
+                        "sub": [
+                            {
+                                "content": 0,
+                                "gate:gateId": 210
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 212
+                            },
+                            {
+                                "content": 0,
+                                "gate:gateId": 213
+                            }
+                        ],
+                        "b": {
+                            "content": 0,
+                            "gate:gateId": 211
+                        },
+                        "gate:gateId": 209
+                    },
+                    {
+                        "content": [
+                            "(a12) determining that the client passes the initial validation, storing the second random number K",
+                            "in the host as the host initial key, and going to block (a1)."
+                        ],
+                        "sub": {
+                            "content": 0,
+                            "gate:gateId": 215
+                        },
+                        "gate:gateId": 214
+                    }
+                ]
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the one-way hash function is selected from the group consisting of a message digest algorithm (MD5), a secure hash algorithm (SHA), a message authentication code (MAC), and a cyclic redundancy check (CRC).\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 57,
+            "gate:gateId": 216,
+            "claimNumber": 11,
+            "claim_preamble": "The non-transitory computer readable medium",
+            "claim-text": {
+                "content": [
+                    "11. The non-transitory computer readable medium of",
+                    ", wherein the one-way hash function is selected from the group consisting of a message digest algorithm (MD5), a secure hash algorithm (SHA), a message authentication code (MAC), and a cyclic redundancy check (CRC)."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 218,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 217
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the symmetrical encryption algorithm is an advanced encryption standard (AES), or a data encryption standard (DES). \n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 34,
+            "gate:gateId": 219,
+            "claimNumber": 12,
+            "claim_preamble": "The non-transitory computer readable medium",
+            "claim-text": {
+                "content": [
+                    "12. The non-transitory computer readable medium of",
+                    ", wherein the symmetrical encryption algorithm is an advanced encryption standard (AES), or a data encryption standard (DES)."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 221,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 220
+            },
+            "depends_on": 7
+        }
+    ],
+    "numberIndependentClaims": 266
+}}

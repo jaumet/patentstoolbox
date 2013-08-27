@@ -1,0 +1,461 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502069-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 55,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2568,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "lengths of material such as electrical cable, hoses, ropes, hydraulic lines, tethers, and lanyards used in environments such as airports, docks, and construction sites in which said lengths of material are moved back and forth across abrasive surfaces and subjected to abrasion, chemicals, moisture, and weather extremes, said protective sleeve encasing said length of material, having open ends and formed of an elongated sheet consisting of a woven, lightweight fabric, with a thermoplastic film bonded to at least one side thereof, the fabric being made substantially of yarns formed primarily of long chain polyethylene fibers having a tensile modulus equal to or greater than 150 grams/denier, and a tenacity equal to or greater than 20 grams/denier, the yarns having a denier between 400 and 1000, the fabric having a warp and fill density of between 30 and 36 ends per inch, and the thermoplastic film selected from the group consisting of polyethylene and ethylene vinyl acetate, wherein the protective sleeve not only protects the lengths of material thereunder, but the fabric yarns themselves are resistant to deterioration from chemicals, fuels, as well as being highly resistant to abrasion, cuts, and the fabric of the sleeve is resistant to heat build-up as a result of relative movement between the sleeve and the length of material.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 250,
+            "gate:gateId": 1,
+            "claim_preamble": "A protective sleeve",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A protective sleeve for lengths of material such as electrical cable, hoses, ropes, hydraulic lines, tethers, and lanyards used in environments such as airports, docks, and construction sites in which said lengths of material are moved back and forth across abrasive surfaces and subjected to abrasion, chemicals, moisture, and weather extremes, said protective sleeve encasing said length of material, having open ends and formed of an elongated sheet consisting of a woven, lightweight fabric, with a thermoplastic film bonded to at least one side thereof, the fabric being made substantially of yarns formed primarily of long chain polyethylene fibers having a tensile modulus equal to or greater than 150 grams/denier, and a tenacity equal to or greater than 20 grams/denier, the yarns having a denier between 400 and 1000, the fabric having a warp and fill density of between 30 and 36 ends per inch, and the thermoplastic film selected from the group consisting of polyethylene and ethylene vinyl acetate, wherein the protective sleeve not only protects the lengths of material thereunder, but the fabric yarns themselves are resistant to deterioration from chemicals, fuels, as well as being highly resistant to abrasion, cuts, and the fabric of the sleeve is resistant to heat build-up as a result of relative movement between the sleeve and the length of material.",
+                "gate:gateId": 2
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "fabric is formed from yarns containing at least 70 percent high performance yarns long chain polyethylene fibers.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 3,
+            "claimNumber": 2,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "2. The protective sleeve of",
+                    "wherein said fabric is formed from yarns containing at least 70 percent high performance yarns long chain polyethylene fibers."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 5,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 4
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "fabric has a weight of between about 5 and 8 ounces per square yard.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 25,
+            "gate:gateId": 6,
+            "claimNumber": 3,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "3. The protective sleeve of",
+                    "wherein said fabric has a weight of between about 5 and 8 ounces per square yard."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "sleeve is formed as an elongated sheet having opposed longitudinal edges, said opposed longitudinal edges including means releasably attaching said opposed longitudinal edges together around the length of said material.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 42,
+            "gate:gateId": 9,
+            "claimNumber": 4,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "4. The protective sleeve of",
+                    "wherein said sleeve is formed as an elongated sheet having opposed longitudinal edges, said opposed longitudinal edges including means releasably attaching said opposed longitudinal edges together around the length of said material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "means for fastening said opposed longitudinal edges comprises hook and loop material.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 23,
+            "gate:gateId": 12,
+            "claimNumber": 5,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "5. The protective sleeve of",
+                    "wherein said means for fastening said opposed longitudinal edges comprises hook and loop material."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "sleeve is formed as a plurality of bands, each band comprising a short length of said fabric, said bands being spaced apart along the length of said material.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 41,
+            "gate:gateId": 15,
+            "claimNumber": 6,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "6. The protective sleeve of",
+                    "wherein said sleeve is formed as a plurality of bands, each band comprising a short length of said fabric, said bands being spaced apart along the length of said material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "each of said bands is formed as a short length of fabric having opposed longitudinal edges, said opposed longitudinal edges including means for fastening said opposed longitudinal edges together around the length of said material.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 46,
+            "gate:gateId": 18,
+            "claimNumber": 7,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "7. The protective sleeve of",
+                    "wherein each of said bands is formed as a short length of fabric having opposed longitudinal edges, said opposed longitudinal edges including means for fastening said opposed longitudinal edges together around the length of said material."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "means for fastening said opposed longitudinal edges comprises hook and loop material.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 23,
+            "gate:gateId": 21,
+            "claimNumber": 8,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "8. The protective sleeve of",
+                    "wherein said means for fastening said opposed longitudinal edges comprises hook and loop material."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a hood formed of the same fabric as said sleeve and fastened to at least one end of said sleeve for protecting an exposed end of said length of material.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "further including ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 41,
+            "gate:gateId": 24,
+            "claimNumber": 9,
+            "claim_preamble": "The protective sleeve",
+            "claim-text": {
+                "content": [
+                    "9. The protective sleeve of",
+                    "further including a hood formed of the same fabric as said sleeve and fastened to at least one end of said sleeve for protecting an exposed end of said length of material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "tear-resistant protective cover system for airports, docks, and construction sites comprising:\n(a) a length of material selected from the group consisting of electrical cables, hoses, ropes, hydraulic lines, tethers, and lanyards that must be periodically moved or pulled across abrasive surfaces and subjected to chemicals, moisture, and weather conditions; and\n(b) a protective sleeve having open ends and encasing said length of material and formed of an elongated sheet consisting of a lightweight, woven fabric and a thermoplastic film bonded to at least one side thereof, the fabric made substantially of yarns formed primarily of long chain polyethylene fibers having a tensile modulus equal to or greater than 150 grams/denier and a tenacity equal to or greater than 20 grams/denier, the yarns having a denier between 400 and 1000, the fabric having a warp and fill density of between 30 and 36 ends per inch, and the thermoplastic film selected from the group consisting of polyethylene film and ethylene vinyl acetate, wherein said protective sleeve not only protects the lengths of material thereunder, but the fabric yarns themselves are resistant to deterioration from chemicals, fuels, as well as being highly resistant to abrasion, and the fabric of the sleeve is moisture-resistant, fuel-resistant, oil-resistant, abrasion-resistant, cut-resistant, tear-resistant, and resistant to heat build-up as a result of relative movement between the sleeve and the length of material.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": ", cut-resistant, and ",
+            "claimSize": 269,
+            "gate:gateId": 27,
+            "claim_preamble": "An abrasion-resistant",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. An abrasion-resistant, cut-resistant, and tear-resistant protective cover system for airports, docks, and construction sites comprising:",
+                "gate:gateId": 28,
+                "claim-text": [
+                    {
+                        "content": "(a) a length of material selected from the group consisting of electrical cables, hoses, ropes, hydraulic lines, tethers, and lanyards that must be periodically moved or pulled across abrasive surfaces and subjected to chemicals, moisture, and weather conditions; and",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "(b) a protective sleeve having open ends and encasing said length of material and formed of an elongated sheet consisting of a lightweight, woven fabric and a thermoplastic film bonded to at least one side thereof, the fabric made substantially of yarns formed primarily of long chain polyethylene fibers having a tensile modulus equal to or greater than 150 grams/denier and a tenacity equal to or greater than 20 grams/denier, the yarns having a denier between 400 and 1000, the fabric having a warp and fill density of between 30 and 36 ends per inch, and the thermoplastic film selected from the group consisting of polyethylene film and ethylene vinyl acetate, wherein said protective sleeve not only protects the lengths of material thereunder, but the fabric yarns themselves are resistant to deterioration from chemicals, fuels, as well as being highly resistant to abrasion, and the fabric of the sleeve is moisture-resistant, fuel-resistant, oil-resistant, abrasion-resistant, cut-resistant, tear-resistant, and resistant to heat build-up as a result of relative movement between the sleeve and the length of material.",
+                        "gate:gateId": 30
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "fabric is formed from yarns containing at least 70 percent long chain polyethylene fibers.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 24,
+            "gate:gateId": 31,
+            "claimNumber": 11,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "11. The system of",
+                    "wherein said fabric is formed from yarns containing at least 70 percent long chain polyethylene fibers."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "fabric has a weight of between about 5 and 8 ounces per square yard.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 24,
+            "gate:gateId": 34,
+            "claimNumber": 12,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "12. The system of",
+                    "wherein said fabric has a weight of between about 5 and 8 ounces per square yard."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00013",
+            "body": "sleeve is formed as an elongated sheet having opposed longitudinal edges, said opposed longitudinal edges including means for releasably attaching said opposed longitudinal edges together around the length of said material.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 42,
+            "gate:gateId": 37,
+            "claimNumber": 13,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "13. The system of",
+                    "wherein said sleeve is formed as an elongated sheet having opposed longitudinal edges, said opposed longitudinal edges including means for releasably attaching said opposed longitudinal edges together around the length of said material."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00014",
+            "body": "13 further including means for securing said open ends of the sleeve to said length of material.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 13",
+            "claimSize": 24,
+            "gate:gateId": 40,
+            "claimNumber": 14,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "14. The system of",
+                    "further including means for securing said open ends of the sleeve to said length of material."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "sleeve is formed as a plurality of bands, each band comprising a short length of said fabric, said bands being spaced apart along the length of a material to be protected.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 43,
+            "gate:gateId": 43,
+            "claimNumber": 15,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "15. The system of",
+                    "wherein said sleeve is formed as a plurality of bands, each band comprising a short length of said fabric, said bands being spaced apart along the length of a material to be protected."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00016",
+            "body": "each of said bands is formed as a short length of fabric having opposed longitudinal edges, said opposed longitudinal edges including means for fastening said opposed longitudinal edges together around the length of a material to be protected.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 48,
+            "gate:gateId": 46,
+            "claimNumber": 16,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "16. The system of",
+                    "wherein each of said bands is formed as a short length of fabric having opposed longitudinal edges, said opposed longitudinal edges including means for fastening said opposed longitudinal edges together around the length of a material to be protected."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "means for fastening said opposed longitudinal edges comprises hook and loop material.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 22,
+            "gate:gateId": 49,
+            "claimNumber": 17,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "17. The system of",
+                    "wherein said means for fastening said opposed longitudinal edges comprises hook and loop material."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "a hood formed of the same fabric as said sleeve and fastened to at least one end of said sleeve for protecting an exposed end of said length of material.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "further including ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 40,
+            "gate:gateId": 52,
+            "claimNumber": 18,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "18. The system of",
+                    "further including a hood formed of the same fabric as said sleeve and fastened to at least one end of said sleeve for protecting an exposed end of said length of material."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 53
+            },
+            "depends_on": 10
+        }
+    ],
+    "numberIndependentClaims": 62
+}}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="3670" id="claims" numberDependentClaims="0" numberIndependentClaims="234">
+<claim gate:gateId="1" id="CLM-00001" body="source or destination information from a data packet flowing from a user device with an analysis component of a processing device;
+examining a payload of the data packet for one or more keywords;
+comparing data within the payload of the data packet to the one or more keywords, the keywords are associated with a common subject of interest;
+establishing a number of times in which one of the keywords matches at least a portion of the data;
+ranking an interest in the common subject in part based on the established number of matches;
+and
+defining, with an interest compilation component of the processing device, a user interest vector that correlates the source or destination information, the common subject and the ranked interest, and records a time stamp when the correlation occurs for the packet, the time stamp including an indication of a time when an occurrence value associated with the user interest vector is updated, enabling the tracking of a frequency of interest during a plurality of predetermined periods of time, the defining further including performing statistical analysis on time-based trends based on the time stamp and based on a time period selected subsequent to the recording of the time stamp.
+
+" num="00001" claimType="independent" transPhrase=", comprising:
+obtaining " claimSize="223" claimNumber="1" claim_preamble="A method">
+<claim-text gate:gateId="2">1. A method, comprising:
+<claim-text gate:gateId="3">obtaining source or destination information from a data packet flowing from a user device with an analysis component of a processing device;</claim-text>
+<claim-text gate:gateId="4">examining a payload of the data packet for one or more keywords;</claim-text>
+<claim-text gate:gateId="5">comparing data within the payload of the data packet to the one or more keywords, the keywords are associated with a common subject of interest;</claim-text>
+<claim-text gate:gateId="6">establishing a number of times in which one of the keywords matches at least a portion of the data;</claim-text>
+<claim-text gate:gateId="7">ranking an interest in the common subject in part based on the established number of matches;</claim-text>
+<claim-text gate:gateId="8">and</claim-text>
+<claim-text gate:gateId="9">defining, with an interest compilation component of the processing device, a user interest vector that correlates the source or destination information, the common subject and the ranked interest, and records a time stamp when the correlation occurs for the packet, the time stamp including an indication of a time when an occurrence value associated with the user interest vector is updated, enabling the tracking of a frequency of interest during a plurality of predetermined periods of time, the defining further including performing statistical analysis on time-based trends based on the time stamp and based on a time period selected subsequent to the recording of the time stamp.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00002" body="comparing the common subject with respect to an additional subject of interest based in part on the ranking.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", further comprising " claimSize="29" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="11">2. The method of <claim-ref gate:gateId="12" idref="CLM-00001">claim 1</claim-ref> , further comprising comparing the common subject with respect to an additional subject of interest based in part on the ranking.</claim-text>
+</claim>
+<claim gate:gateId="13" id="CLM-00003" body="further comprising:
+accessing an additional data packet that comprises the identified source or addressing information;
+identifying instances in which one of the keywords matches a portion of data within the additional data packet; and
+updating the ranked interest based in part on a number of times that one of the keywords is found within the additional data packet.
+
+" claimType="dependent" num="00003" claimBackReference="of claim 1" transPhrase=", " claimSize="70" claim_preamble="The method" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="14">3. The method of <claim-ref gate:gateId="15" idref="CLM-00001">claim 1</claim-ref> , further comprising:
+<claim-text gate:gateId="16">accessing an additional data packet that comprises the identified source or addressing information;</claim-text>
+<claim-text gate:gateId="17">identifying instances in which one of the keywords matches a portion of data within the additional data packet; and</claim-text>
+<claim-text gate:gateId="18">updating the ranked interest based in part on a number of times that one of the keywords is found within the additional data packet.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00004" body="a time when each match to data within the data packet is established;
+recording a time when each match to data within the additional data packet is identified; and
+determining a change in the ranked interest as a function of at least one or more recorded times.
+
+" claimType="dependent" num="00004" claimBackReference="of claim 3" transPhrase=", further comprising:
+recording " claimSize="62" claim_preamble="The method" claimNumber="4" depends_on="3">
+<claim-text gate:gateId="20">4. The method of <claim-ref gate:gateId="21" idref="CLM-00003">claim 3</claim-ref> , further comprising:
+<claim-text gate:gateId="22">recording a time when each match to data within the data packet is established;</claim-text>
+<claim-text gate:gateId="23">recording a time when each match to data within the additional data packet is identified; and</claim-text>
+<claim-text gate:gateId="24">determining a change in the ranked interest as a function of at least one or more recorded times.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="25" id="CLM-00005" body="machine learning to decompose a user interest vector that contains a ranked interest for each of a plurality of subject matters.
+" claimType="dependent" num="00005" claimBackReference="of claim 1" transPhrase=", further comprising employing " claimSize="33" claim_preamble="The method" claimNumber="5" depends_on="1">
+<claim-text gate:gateId="26">5. The method of <claim-ref gate:gateId="27" idref="CLM-00001">claim 1</claim-ref> , further comprising employing machine learning to decompose a user interest vector that contains a ranked interest for each of a plurality of subject matters.</claim-text>
+</claim>
+<claim gate:gateId="28" id="CLM-00006" body="one or more of the plurality of subject matters that have a predetermined probability of being associated with a single user or device.
+" claimType="dependent" num="00006" claimBackReference="of claim 5" transPhrase=", further comprising identifying " claimSize="35" claim_preamble="The method" claimNumber="6" depends_on="5">
+<claim-text gate:gateId="29">6. The method of <claim-ref gate:gateId="30" idref="CLM-00005">claim 5</claim-ref> , further comprising identifying one or more of the plurality of subject matters that have a predetermined probability of being associated with a single user or device.</claim-text>
+</claim>
+<claim gate:gateId="31" id="CLM-00007" body="further comprising:
+aggregating ranked interests associated with multiple user interest vectors; and
+identifying a group of device users that share interest in the common subject based in part on the aggregation.
+
+" claimType="dependent" num="00007" claimBackReference="of claim 1" transPhrase=", " claimSize="42" claim_preamble="The method" claimNumber="7" depends_on="1">
+<claim-text gate:gateId="32">7. The method of <claim-ref gate:gateId="33" idref="CLM-00001">claim 1</claim-ref> , further comprising:
+<claim-text gate:gateId="34">aggregating ranked interests associated with multiple user interest vectors; and</claim-text>
+<claim-text gate:gateId="35">identifying a group of device users that share interest in the common subject based in part on the aggregation.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="36" id="CLM-00008" body="the predetermined periods of time are times of year.
+" claimType="dependent" num="00008" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="19" claim_preamble="The method" claimNumber="8" depends_on="1">
+<claim-text gate:gateId="37">8. The method of <claim-ref gate:gateId="38" idref="CLM-00001">claim 1</claim-ref> , wherein the predetermined periods of time are times of year.</claim-text>
+</claim>
+<claim gate:gateId="39" id="CLM-00009" body="the predetermined periods of time are times of day.
+" claimType="dependent" num="00009" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="19" claim_preamble="The method" claimNumber="9" depends_on="1">
+<claim-text gate:gateId="40">9. The method of <claim-ref gate:gateId="41" idref="CLM-00001">claim 1</claim-ref> , wherein the predetermined periods of time are times of day.</claim-text>
+</claim>
+<claim gate:gateId="42" id="CLM-00010" body="the predetermined periods of time are days of the week.
+" claimType="dependent" num="00010" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="20" claim_preamble="The method" claimNumber="10" depends_on="1">
+<claim-text gate:gateId="43">10. The method of <claim-ref gate:gateId="44" idref="CLM-00001">claim 1</claim-ref> , wherein the predetermined periods of time are days of the week.</claim-text>
+</claim>
+<claim gate:gateId="45" id="CLM-00011" body="further comprising: grouping device users together based on tracked frequencies of interests during shared predetermined periods of time.
+" claimType="dependent" num="00011" claimBackReference="of claim 1" transPhrase=", " claimSize="28" claim_preamble="The method" claimNumber="11" depends_on="1">
+<claim-text gate:gateId="46">11. The method of <claim-ref gate:gateId="47" idref="CLM-00001">claim 1</claim-ref> , further comprising: grouping device users together based on tracked frequencies of interests during shared predetermined periods of time.</claim-text>
+</claim>
+<claim gate:gateId="48" id="CLM-00012" body="an analysis component of a processing device that obtains source or destination information from a received data packet flowing from a user device;
+an inspection component of the processing device that examines a payload of a data packet and updates an occurrence value each time that an interest indicator is identified within the payload of the data packet, wherein the interest indicator is correlated with a subject, and time stamps the data packet to enable tracking of a frequency of interest during one particular period of time among a plurality of predetermined periods of time; and
+an interest compilation component of the processing device that defines a user interest vector having a user identity field and a user interest field, the user identity field includes the obtained source or destination information and the user interest field couples the subject with the updated occurrence value, and records a time stamp when the correlation occurs for the packet, the time stare stamp including an indication of a time when an occurrence value associated with the user interest vector is updated, enabling the tracking of a frequency of interest during the plurality of predetermined periods of time, the defining further including performing statistical analysis on time-based trends based on the time stamp and based on a time period selected subsequent to the recording of the time stamp.
+
+" num="00012" claimType="independent" transPhrase=", comprising:
+" claimSize="241" claimNumber="12" claim_preamble="A switch">
+<claim-text gate:gateId="49">12. A switch, comprising:
+<claim-text gate:gateId="50">an analysis component of a processing device that obtains source or destination information from a received data packet flowing from a user device;</claim-text>
+<claim-text gate:gateId="51">an inspection component of the processing device that examines a payload of a data packet and updates an occurrence value each time that an interest indicator is identified within the payload of the data packet, wherein the interest indicator is correlated with a subject, and time stamps the data packet to enable tracking of a frequency of interest during one particular period of time among a plurality of predetermined periods of time; and</claim-text>
+<claim-text gate:gateId="52">an interest compilation component of the processing device that defines a user interest vector having a user identity field and a user interest field, the user identity field includes the obtained source or destination information and the user interest field couples the subject with the updated occurrence value, and records a time stamp when the correlation occurs for the packet, the time stare stamp including an indication of a time when an occurrence value associated with the user interest vector is updated, enabling the tracking of a frequency of interest during the plurality of predetermined periods of time, the defining further including performing statistical analysis on time-based trends based on the time stamp and based on a time period selected subsequent to the recording of the time stamp.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="53" id="CLM-00013" body="an interest categorization component that ranks the subject based at least on the updated occurrence value.
+" claimType="dependent" num="00013" claimBackReference="of claim 12" transPhrase=", further comprising " claimSize="27" claim_preamble="The switch" claimNumber="13" depends_on="12">
+<claim-text gate:gateId="54">13. The switch of <claim-ref gate:gateId="55" idref="CLM-00012">claim 12</claim-ref> , further comprising an interest categorization component that ranks the subject based at least on the updated occurrence value.</claim-text>
+</claim>
+<claim gate:gateId="56" id="CLM-00014" body="an aggregation component that clusters the user interest vector with at least one additional user interest vector based in part on the updated occurrence value.
+" claimType="dependent" num="00014" claimBackReference="of claim 12" transPhrase=", further comprising " claimSize="36" claim_preamble="The switch" claimNumber="14" depends_on="12">
+<claim-text gate:gateId="57">14. The switch of <claim-ref gate:gateId="58" idref="CLM-00012">claim 12</claim-ref> , further comprising an aggregation component that clusters the user interest vector with at least one additional user interest vector based in part on the updated occurrence value.</claim-text>
+</claim>
+<claim gate:gateId="59" id="CLM-00015" body="a reference component that compiles a list of synonyms pertinent to the interest indicator, the inspection component updates the occurrence value each time the interest indicator matches an entry in the list of synonyms.
+" claimType="dependent" num="00015" claimBackReference="of claim 12" transPhrase=", further comprising " claimSize="46" claim_preamble="The switch" claimNumber="15" depends_on="12">
+<claim-text gate:gateId="60">15. The switch of <claim-ref gate:gateId="61" idref="CLM-00012">claim 12</claim-ref> , further comprising a reference component that compiles a list of synonyms pertinent to the interest indicator, the inspection component updates the occurrence value each time the interest indicator matches an entry in the list of synonyms.</claim-text>
+</claim>
+<claim gate:gateId="62" id="CLM-00016" body="a time stamp component that records an update time for each instance that the inspection component updates the occurrence value.
+" claimType="dependent" num="00016" claimBackReference="of claim 12" transPhrase=", further comprising " claimSize="31" claim_preamble="The switch" claimNumber="16" depends_on="12">
+<claim-text gate:gateId="63">16. The switch of <claim-ref gate:gateId="64" idref="CLM-00012">claim 12</claim-ref> , further comprising a time stamp component that records an update time for each instance that the inspection component updates the occurrence value.</claim-text>
+</claim>
+<claim gate:gateId="65" id="CLM-00017" body="an interest monitoring component that determines a frequency with which the occurrence value is updated and ascertains a degree of interest based in part on the determined update frequency.
+" claimType="dependent" num="00017" claimBackReference="of claim 16" transPhrase=", further comprising " claimSize="40" claim_preamble="The switch" claimNumber="17" depends_on="16">
+<claim-text gate:gateId="66">17. The switch of <claim-ref gate:gateId="67" idref="CLM-00016">claim 16</claim-ref> , further comprising an interest monitoring component that determines a frequency with which the occurrence value is updated and ascertains a degree of interest based in part on the determined update frequency.</claim-text>
+</claim>
+<claim gate:gateId="68" id="CLM-00018" body="an interest evolution component that analyzes changes in the determined update frequency, the interest monitoring component employs the analyzed changes in part to ascertain the degree of interest.
+" claimType="dependent" num="00018" claimBackReference="of claim 17" transPhrase=", further comprising " claimSize="40" claim_preamble="The switch" claimNumber="18" depends_on="17">
+<claim-text gate:gateId="69">18. The switch of <claim-ref gate:gateId="70" idref="CLM-00017">claim 17</claim-ref> , further comprising an interest evolution component that analyzes changes in the determined update frequency, the interest monitoring component employs the analyzed changes in part to ascertain the degree of interest.</claim-text>
+</claim>
+<claim gate:gateId="71" id="CLM-00019" body="a query engine that receives a request for data, inspects the user interest vector for the requested data and provides a response to the request.
+" claimType="dependent" num="00019" claimBackReference="of claim 12" transPhrase=", further comprising " claimSize="37" claim_preamble="The switch" claimNumber="19" depends_on="12">
+<claim-text gate:gateId="72">19. The switch of <claim-ref gate:gateId="73" idref="CLM-00012">claim 12</claim-ref> , further comprising a query engine that receives a request for data, inspects the user interest vector for the requested data and provides a response to the request.</claim-text>
+</claim>
+<claim gate:gateId="74" id="CLM-00020" body="the requested data includes at least one of:
+a number of users having at least a threshold interest in the subject;
+a number of users having at least the threshold interest in the subject during a period of time;
+source or destination information of a cluster of user interest vectors, wherein each of the cluster of user interest vectors comprises a ranked occurrence value pertinent to the subject; or
+a time of day in which the occurrence value is updated substantially at a threshold update frequency.
+
+" claimType="dependent" num="00020" claimBackReference="of claim 19" transPhrase=", wherein " claimSize="101" claim_preamble="The switch" claimNumber="20" depends_on="19">
+<claim-text gate:gateId="75">20. The switch of <claim-ref gate:gateId="76" idref="CLM-00019">claim 19</claim-ref> , wherein the requested data includes at least one of:
+<claim-text gate:gateId="77">a number of users having at least a threshold interest in the subject;</claim-text>
+<claim-text gate:gateId="78">a number of users having at least the threshold interest in the subject during a period of time;</claim-text>
+<claim-text gate:gateId="79">source or destination information of a cluster of user interest vectors, wherein each of the cluster of user interest vectors comprises a ranked occurrence value pertinent to the subject; or</claim-text>
+<claim-text gate:gateId="80">a time of day in which the occurrence value is updated substantially at a threshold update frequency.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="81" id="CLM-00021" body="the inspection component compares the interest indicator to data within the data packet by employing substantially line rate deep packet inspection.
+" claimType="dependent" num="00021" claimBackReference="of claim 12" transPhrase=", wherein " claimSize="31" claim_preamble="The switch" claimNumber="21" depends_on="12">
+<claim-text gate:gateId="82">21. The switch of <claim-ref gate:gateId="83" idref="CLM-00012">claim 12</claim-ref> , wherein the inspection component compares the interest indicator to data within the data packet by employing substantially line rate deep packet inspection.</claim-text>
+</claim>
+<claim gate:gateId="84" id="CLM-00022" body="the interest compilation component defines the user interest vector to have a user interest field for each of a plurality of subjects of interest;
+the inspection component compares the data packet to at least one interest indicator correlated with each of the plurality of subjects of interest; and
+the inspection component updates an interest counter associated with a particular subject of interest when an interest indicator correlated with the particular subject of interest matches data within the data packet.
+
+" claimType="dependent" num="00022" claimBackReference="of claim 12" transPhrase=", wherein:
+" claimSize="92" claim_preamble="The switch" claimNumber="22" depends_on="12">
+<claim-text gate:gateId="85">22. The switch of <claim-ref gate:gateId="86" idref="CLM-00012">claim 12</claim-ref> , wherein:
+<claim-text gate:gateId="87">the interest compilation component defines the user interest vector to have a user interest field for each of a plurality of subjects of interest;</claim-text>
+<claim-text gate:gateId="88">the inspection component compares the data packet to at least one interest indicator correlated with each of the plurality of subjects of interest; and</claim-text>
+<claim-text gate:gateId="89">the inspection component updates an interest counter associated with a particular subject of interest when an interest indicator correlated with the particular subject of interest matches data within the data packet.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="90" id="CLM-00023" body="a user parsing component that employs machine learning to distinguish a subject of interest from the plurality of subjects of interest that is attributable to an individual user.
+" claimType="dependent" num="00023" claimBackReference="of claim 22" transPhrase=", further comprising " claimSize="39" claim_preamble="The switch" claimNumber="23" depends_on="22">
+<claim-text gate:gateId="91">23. The switch of <claim-ref gate:gateId="92" idref="CLM-00022">claim 22</claim-ref> , further comprising a user parsing component that employs machine learning to distinguish a subject of interest from the plurality of subjects of interest that is attributable to an individual user.</claim-text>
+</claim>
+<claim gate:gateId="93" id="CLM-00024" body="an interest parsing component that analyzes changes in the user interest vector over a threshold period and identifies a dominant user based on a dominant or persistent subject of interest.
+" claimType="dependent" num="00024" claimBackReference="of claim 22" transPhrase=", further comprising " claimSize="41" claim_preamble="The switch" claimNumber="24" depends_on="22">
+<claim-text gate:gateId="94">24. The switch of <claim-ref gate:gateId="95" idref="CLM-00022">claim 22</claim-ref> , further comprising an interest parsing component that analyzes changes in the user interest vector over a threshold period and identifies a dominant user based on a dominant or persistent subject of interest.</claim-text>
+</claim>
+<claim gate:gateId="96" id="CLM-00025" body="an artificial intelligence component that decomposes data in the user interest vector and identifies a number of potential users associated with the data.
+" claimType="dependent" num="00025" claimBackReference="of claim 22" transPhrase=", further comprising " claimSize="34" claim_preamble="The switch" claimNumber="25" depends_on="22">
+<claim-text gate:gateId="97">25. The switch of <claim-ref gate:gateId="98" idref="CLM-00022">claim 22</claim-ref> , further comprising an artificial intelligence component that decomposes data in the user interest vector and identifies a number of potential users associated with the data.</claim-text>
+</claim>
+<claim gate:gateId="99" id="CLM-00026" body="the interest compilation component generates at least one additional user interest vector during an established period of time, or is associated with one or more selected network devices. 
+" claimType="dependent" num="00026" claimBackReference="of claim 12" transPhrase=", wherein " claimSize="39" claim_preamble="The switch" claimNumber="26" depends_on="12">
+<claim-text gate:gateId="100">26. The switch of <claim-ref gate:gateId="101" idref="CLM-00012">claim 12</claim-ref> , wherein the interest compilation component generates at least one additional user interest vector during an established period of time, or is associated with one or more selected network devices. </claim-text>
+</claim>
+<us-patent-grant gate:gateId="102" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08504488-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130724" lang="EN" country="US"></us-patent-grant></claims>

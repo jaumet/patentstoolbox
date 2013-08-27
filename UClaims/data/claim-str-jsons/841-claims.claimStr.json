@@ -1,0 +1,794 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499747-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 126,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2077,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "an internal combustion engine in the form of a spark-ignition engine ( 2 ), the internal combustion engine ( 2 ) having gas exchange valves ( 28 ), the method comprising:\npre-compressing the air which is supplied to the combustion chambers ( 15 A- 15 D) of the internal combustion engine ( 2 ),\ndirect injection of fuel into the combustion chambers ( 15 A- 15 D) of the internal combustion engine ( 2 ),\nadjusting valve overlap of the gas-exchange valves ( 28 ) corresponding to the load range in which the internal combustion engine ( 2 ) is operated,\ncarrying out the pre-compression in a supercharging device in the form of an exhaust-gas turbocharger having a turbine ( 5 ) with variable turbine geometry (VTG), with the engine exhaust gas being supplied to the turbine ( 5 ) via separate spiral ducts ( 17 A, 18 A; 17 B, 18 B) of a multi-flow turbine housing ( 16 A; 16 B), and\njoining the separate turbine streams, which are formed by the separate spiral ducts ( 17 A, 18 A; 17 B, 18 B), at medium and/or high engine rotational speeds by opening a switching valve ( 19 ), whereby at least a portion of the joined turbine streams are supplied to the turbine ( 5 ).\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for operating ",
+            "claimSize": 253,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": [
+                    "1. A method for operating an internal combustion engine in the form of a spark-ignition engine (",
+                    "), the internal combustion engine (",
+                    ") having gas exchange valves (",
+                    "), the method comprising:"
+                ],
+                "b": [
+                    {
+                        "content": 2,
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": 2,
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": 28,
+                        "gate:gateId": 5
+                    }
+                ],
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": [
+                            "pre-compressing the air which is supplied to the combustion chambers (",
+                            "A-",
+                            "D) of the internal combustion engine (",
+                            "),"
+                        ],
+                        "b": [
+                            {
+                                "content": 15,
+                                "gate:gateId": 7
+                            },
+                            {
+                                "content": 15,
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 9
+                            }
+                        ],
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": [
+                            "direct injection of fuel into the combustion chambers (",
+                            "A-",
+                            "D) of the internal combustion engine (",
+                            "),"
+                        ],
+                        "b": [
+                            {
+                                "content": 15,
+                                "gate:gateId": 11
+                            },
+                            {
+                                "content": 15,
+                                "gate:gateId": 12
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 13
+                            }
+                        ],
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": [
+                            "adjusting valve overlap of the gas-exchange valves (",
+                            ") corresponding to the load range in which the internal combustion engine (",
+                            ") is operated,"
+                        ],
+                        "b": [
+                            {
+                                "content": 28,
+                                "gate:gateId": 15
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 16
+                            }
+                        ],
+                        "gate:gateId": 14
+                    },
+                    {
+                        "content": [
+                            "carrying out the pre-compression in a supercharging device in the form of an exhaust-gas turbocharger having a turbine (",
+                            ") with variable turbine geometry (VTG), with the engine exhaust gas being supplied to the turbine (",
+                            ") via separate spiral ducts (",
+                            "A,",
+                            "A;",
+                            "B,",
+                            "B) of a multi-flow turbine housing (",
+                            "A;",
+                            "B), and"
+                        ],
+                        "b": [
+                            {
+                                "content": 5,
+                                "gate:gateId": 18
+                            },
+                            {
+                                "content": 5,
+                                "gate:gateId": 19
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 20
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 21
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 22
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 23
+                            },
+                            {
+                                "content": 16,
+                                "gate:gateId": 24
+                            },
+                            {
+                                "content": 16,
+                                "gate:gateId": 25
+                            }
+                        ],
+                        "gate:gateId": 17
+                    },
+                    {
+                        "content": [
+                            "joining the separate turbine streams, which are formed by the separate spiral ducts (",
+                            "A,",
+                            "A;",
+                            "B,",
+                            "B), at medium and/or high engine rotational speeds by opening a switching valve (",
+                            "), whereby at least a portion of the joined turbine streams are supplied to the turbine (",
+                            ")."
+                        ],
+                        "b": [
+                            {
+                                "content": 17,
+                                "gate:gateId": 27
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 28
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 29
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 30
+                            },
+                            {
+                                "content": 19,
+                                "gate:gateId": 31
+                            },
+                            {
+                                "content": 5,
+                                "gate:gateId": 32
+                            }
+                        ],
+                        "gate:gateId": 26
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "a double-flow turbine housing ( 16 B) is used as a multi-flow turbine housing.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 27,
+            "gate:gateId": 33,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method as claimed in",
+                    ", wherein a double-flow turbine housing (",
+                    "B) is used as a multi-flow turbine housing."
+                ],
+                "b": {
+                    "content": 16,
+                    "gate:gateId": 36
+                },
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a twin-flow turbine housing ( 16 A) is used as a multi-flow turbine housing.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 27,
+            "gate:gateId": 37,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method as claimed in",
+                    ", wherein a twin-flow turbine housing (",
+                    "A) is used as a multi-flow turbine housing."
+                ],
+                "b": {
+                    "content": 16,
+                    "gate:gateId": 40
+                },
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the method step of operating the switching valve ( 19 ) as a wastegate.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 27,
+            "gate:gateId": 41,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method as claimed in",
+                    ", further comprising the method step of operating the switching valve (",
+                    ") as a wastegate."
+                ],
+                "b": {
+                    "content": 19,
+                    "gate:gateId": 44
+                },
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "an internal combustion engine in the form of a spark-ignition engine ( 2 ), the internal combustion engine ( 2 ) having gas exchange valves ( 28 ), comprising:\na supercharging device in the form of an exhaust-gas turbocharger ( 5 , 6 ),\na fuel direct injection device ( 3 ),\na device ( 14 ) for adjusting valve overlap of the gas-exchange valves ( 28 ) of the internal combustion engine ( 2 ), the device ( 14 ) being configured to adjust the valve overlap of the gas-exchange valves ( 28 ) corresponding to the load range in which the internal combustion engine ( 2 ) is operated,\nthe exhaust-gas turbocharger ( 5 , 6 ) being provided with a variable turbine geometry (VTG) and a turbine ( 5 ), the turbine ( 5 ) being provided with a multi-flow turbine housing ( 16 A; 16 B) which has two separately-guided spiral ducts ( 17 A, 18 A; 17 B, 18 B), and\na switching valve ( 19 ) for connecting the spiral ducts ( 17 A, 18 A; 17 B, 18 B) of the multi-flow turbine housing ( 16 A; 16 B), the switching valve ( 19 ) being configured to open at medium and/or high engine rotational speeds, whereby exhaust gases in the two separately-guided spiral ducts ( 17 A, 18 A; 17 B, 18 B) mix and pressure equalization between the two ducts ( 17 A, 18 A; 17 B, 18 B) is permitted.\n\n",
+            "claimType": "independent",
+            "num": "00005",
+            "transPhrase": " for operating ",
+            "claimSize": 292,
+            "gate:gateId": 45,
+            "claim_preamble": "A device",
+            "claimNumber": 5,
+            "claim-text": {
+                "content": [
+                    "5. A device for operating an internal combustion engine in the form of a spark-ignition engine (",
+                    "), the internal combustion engine (",
+                    ") having gas exchange valves (",
+                    "), comprising:"
+                ],
+                "b": [
+                    {
+                        "content": 2,
+                        "gate:gateId": 47
+                    },
+                    {
+                        "content": 2,
+                        "gate:gateId": 48
+                    },
+                    {
+                        "content": 28,
+                        "gate:gateId": 49
+                    }
+                ],
+                "gate:gateId": 46,
+                "claim-text": [
+                    {
+                        "content": [
+                            "a supercharging device in the form of an exhaust-gas turbocharger (",
+                            ",",
+                            "),"
+                        ],
+                        "b": [
+                            {
+                                "content": 5,
+                                "gate:gateId": 51
+                            },
+                            {
+                                "content": 6,
+                                "gate:gateId": 52
+                            }
+                        ],
+                        "gate:gateId": 50
+                    },
+                    {
+                        "content": [
+                            "a fuel direct injection device (",
+                            "),"
+                        ],
+                        "b": {
+                            "content": 3,
+                            "gate:gateId": 54
+                        },
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": [
+                            "a device (",
+                            ") for adjusting valve overlap of the gas-exchange valves (",
+                            ") of the internal combustion engine (",
+                            "), the device (",
+                            ") being configured to adjust the valve overlap of the gas-exchange valves (",
+                            ") corresponding to the load range in which the internal combustion engine (",
+                            ") is operated,"
+                        ],
+                        "b": [
+                            {
+                                "content": 14,
+                                "gate:gateId": 56
+                            },
+                            {
+                                "content": 28,
+                                "gate:gateId": 57
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 58
+                            },
+                            {
+                                "content": 14,
+                                "gate:gateId": 59
+                            },
+                            {
+                                "content": 28,
+                                "gate:gateId": 60
+                            },
+                            {
+                                "content": 2,
+                                "gate:gateId": 61
+                            }
+                        ],
+                        "gate:gateId": 55
+                    },
+                    {
+                        "content": [
+                            "the exhaust-gas turbocharger (",
+                            ",",
+                            ") being provided with a variable turbine geometry (VTG) and a turbine (",
+                            "), the turbine (",
+                            ") being provided with a multi-flow turbine housing (",
+                            "A;",
+                            "B) which has two separately-guided spiral ducts (",
+                            "A,",
+                            "A;",
+                            "B,",
+                            "B), and"
+                        ],
+                        "b": [
+                            {
+                                "content": 5,
+                                "gate:gateId": 63
+                            },
+                            {
+                                "content": 6,
+                                "gate:gateId": 64
+                            },
+                            {
+                                "content": 5,
+                                "gate:gateId": 65
+                            },
+                            {
+                                "content": 5,
+                                "gate:gateId": 66
+                            },
+                            {
+                                "content": 16,
+                                "gate:gateId": 67
+                            },
+                            {
+                                "content": 16,
+                                "gate:gateId": 68
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 69
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 70
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 71
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 72
+                            }
+                        ],
+                        "gate:gateId": 62
+                    },
+                    {
+                        "content": [
+                            "a switching valve (",
+                            ") for connecting the spiral ducts (",
+                            "A,",
+                            "A;",
+                            "B,",
+                            "B) of the multi-flow turbine housing (",
+                            "A;",
+                            "B), the switching valve (",
+                            ") being configured to open at medium and/or high engine rotational speeds, whereby exhaust gases in the two separately-guided spiral ducts (",
+                            "A,",
+                            "A;",
+                            "B,",
+                            "B) mix and pressure equalization between the two ducts (",
+                            "A,",
+                            "A;",
+                            "B,",
+                            "B) is permitted."
+                        ],
+                        "b": [
+                            {
+                                "content": 19,
+                                "gate:gateId": 74
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 75
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 76
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 77
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 78
+                            },
+                            {
+                                "content": 16,
+                                "gate:gateId": 79
+                            },
+                            {
+                                "content": 16,
+                                "gate:gateId": 80
+                            },
+                            {
+                                "content": 19,
+                                "gate:gateId": 81
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 82
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 83
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 84
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 85
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 86
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 87
+                            },
+                            {
+                                "content": 17,
+                                "gate:gateId": 88
+                            },
+                            {
+                                "content": 18,
+                                "gate:gateId": 89
+                            }
+                        ],
+                        "gate:gateId": 73
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the turbine housing is designed as a twin-flow turbine housing ( 16 A).\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 5 ,",
+            "claimSize": 26,
+            "gate:gateId": 90,
+            "claimNumber": 6,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "6. The device as claimed in",
+                    ", wherein the turbine housing is designed as a twin-flow turbine housing (",
+                    "A)."
+                ],
+                "b": {
+                    "content": 16,
+                    "gate:gateId": 93
+                },
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 92,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 91
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the turbine housing is designed as a double-flow turbine housing ( 16 B).\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 5 ,",
+            "claimSize": 26,
+            "gate:gateId": 94,
+            "claimNumber": 7,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "7. The device as claimed in",
+                    ", wherein the turbine housing is designed as a double-flow turbine housing (",
+                    "B)."
+                ],
+                "b": {
+                    "content": 16,
+                    "gate:gateId": 97
+                },
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 96,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 95
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the turbine housing ( 16 A; 16 B) has a bypass duct ( 24 ) which can be opened and closed by means of the switching valve ( 19 ).\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 5 ,",
+            "claimSize": 44,
+            "gate:gateId": 98,
+            "claimNumber": 8,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "8. The device as claimed in",
+                    ", wherein the turbine housing (",
+                    "A;",
+                    "B) has a bypass duct (",
+                    ") which can be opened and closed by means of the switching valve (",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 16,
+                        "gate:gateId": 101
+                    },
+                    {
+                        "content": 16,
+                        "gate:gateId": 102
+                    },
+                    {
+                        "content": 24,
+                        "gate:gateId": 103
+                    },
+                    {
+                        "content": 19,
+                        "gate:gateId": 104
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 100,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 99
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00009",
+            "body": "an exhaust-gas catalytic converter ( 12 ) which is arranged downstream of the turbine ( 5 ) in the exhaust tract ( 4 ).\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "as claimed in claim 5 ,",
+            "claimSize": 37,
+            "gate:gateId": 105,
+            "claimNumber": 9,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "9. The device as claimed in",
+                    ", further comprising an exhaust-gas catalytic converter (",
+                    ") which is arranged downstream of the turbine (",
+                    ") in the exhaust tract (",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 12,
+                        "gate:gateId": 108
+                    },
+                    {
+                        "content": 5,
+                        "gate:gateId": 109
+                    },
+                    {
+                        "content": 4,
+                        "gate:gateId": 110
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 107,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 106
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the turbine housing ( 16 A; 16 B) has a tongue ( 21 ), wherein the switching valve ( 19 ) is located upstream of the tongue ( 21 ).\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 5 ,",
+            "claimSize": 45,
+            "gate:gateId": 111,
+            "claimNumber": 10,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "10. The device as claimed in",
+                    ", wherein the turbine housing (",
+                    "A;",
+                    "B) has a tongue (",
+                    "), wherein the switching valve (",
+                    ") is located upstream of the tongue (",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 16,
+                        "gate:gateId": 114
+                    },
+                    {
+                        "content": 16,
+                        "gate:gateId": 115
+                    },
+                    {
+                        "content": 21,
+                        "gate:gateId": 116
+                    },
+                    {
+                        "content": 19,
+                        "gate:gateId": 117
+                    },
+                    {
+                        "content": 21,
+                        "gate:gateId": 118
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 113,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 112
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the turbine housing ( 16 A; 16 B) has a tongue ( 21 ), wherein the joining is performed upstream of the tongue ( 21 ).\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 40,
+            "gate:gateId": 119,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method as claimed in",
+                    ", the turbine housing (",
+                    "A;",
+                    "B) has a tongue (",
+                    "), wherein the joining is performed upstream of the tongue (",
+                    ")."
+                ],
+                "b": [
+                    {
+                        "content": 16,
+                        "gate:gateId": 122
+                    },
+                    {
+                        "content": 16,
+                        "gate:gateId": 123
+                    },
+                    {
+                        "content": 21,
+                        "gate:gateId": 124
+                    },
+                    {
+                        "content": 21,
+                        "gate:gateId": 125
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 121,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 120
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 282
+}}

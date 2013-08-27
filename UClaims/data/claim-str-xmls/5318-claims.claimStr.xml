@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="1163" id="claims" numberDependentClaims="0" numberIndependentClaims="213">
+<claim gate:gateId="1" id="CLM-00001" body="a power assisted steering system of a vehicle, the method comprising:
+receiving at least two signals from at least two sensors of the power assisted steering system, each of the signals corresponding to at least one of a vehicle speed, a longitudinal acceleration, a lateral acceleration, and a vertical acceleration, wherein the two signals are different;
+allowing unimpeded steering within a permissible steering rack travel that is based on at least one of the vehicle speed, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration;
+when a steering rack position has reached a boundary of the permissible steering rack travel, providing counter assist torque to prohibit movement of a steering rack of the vehicle beyond the permissible steering rack travel;
+when the steering rack position has exceeded the permissible steering rack travel, providing counter assist torque to return the steering rack of the vehicle to a position within the permissible steering rack travel; and
+further comprising, if the vehicle speed is less than a predetermined speed, setting the permissible steering rack travel to an optimum steering rack travel;
+wherein the optimum steering rack travel is based on at least the vehicle speed, a suspension travel, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration.
+
+" num="00001" claimType="independent" transPhrase=" for controlling " claimSize="236" claimNumber="1" claim_preamble="A method">
+<claim-text gate:gateId="2">1. A method for controlling a power assisted steering system of a vehicle, the method comprising:
+<claim-text gate:gateId="3">receiving at least two signals from at least two sensors of the power assisted steering system, each of the signals corresponding to at least one of a vehicle speed, a longitudinal acceleration, a lateral acceleration, and a vertical acceleration, wherein the two signals are different;</claim-text>
+<claim-text gate:gateId="4">allowing unimpeded steering within a permissible steering rack travel that is based on at least one of the vehicle speed, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration;</claim-text>
+<claim-text gate:gateId="5">when a steering rack position has reached a boundary of the permissible steering rack travel, providing counter assist torque to prohibit movement of a steering rack of the vehicle beyond the permissible steering rack travel;</claim-text>
+<claim-text gate:gateId="6">when the steering rack position has exceeded the permissible steering rack travel, providing counter assist torque to return the steering rack of the vehicle to a position within the permissible steering rack travel; and</claim-text>
+<claim-text gate:gateId="7">further comprising, if the vehicle speed is less than a predetermined speed, setting the permissible steering rack travel to an optimum steering rack travel;</claim-text>
+<claim-text gate:gateId="8">wherein the optimum steering rack travel is based on at least the vehicle speed, a suspension travel, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="9" id="CLM-00002" body="1 further comprising, if the vehicle speed is equal to or greater than a predetermined speed, setting the permissible steering rack travel to a value equal to the optimum steering rack travel minus a travel reduction.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase="" claimSize="45" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="10">2. The method of <claim-ref gate:gateId="11" idref="CLM-00001">claim 1</claim-ref> further comprising, if the vehicle speed is equal to or greater than a predetermined speed, setting the permissible steering rack travel to a value equal to the optimum steering rack travel minus a travel reduction.</claim-text>
+</claim>
+<claim gate:gateId="12" id="CLM-00003" body="the travel reduction is equal to about 5 millimeters.
+" claimType="dependent" num="00003" claimBackReference="of claim 2" transPhrase=", wherein " claimSize="19" claim_preamble="The method" claimNumber="3" depends_on="2">
+<claim-text gate:gateId="13">3. The method of <claim-ref gate:gateId="14" idref="CLM-00002">claim 2</claim-ref> , wherein the travel reduction is equal to about 5 millimeters.</claim-text>
+</claim>
+<claim gate:gateId="15" id="CLM-00004" body="the permissible steering rack travel is calculated by subtracting, from an optimum steering rack travel, an amount obtained by dividing a maximum of a right and a left suspension travel amount by the optimum steering rack travel amount multiplied by a travel reduction based on vehicle speed.
+" claimType="dependent" num="00004" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="59" claim_preamble="The method" claimNumber="4" depends_on="1">
+<claim-text gate:gateId="16">4. The method of <claim-ref gate:gateId="17" idref="CLM-00001">claim 1</claim-ref> , wherein the permissible steering rack travel is calculated by subtracting, from an optimum steering rack travel, an amount obtained by dividing a maximum of a right and a left suspension travel amount by the optimum steering rack travel amount multiplied by a travel reduction based on vehicle speed.</claim-text>
+</claim>
+<claim gate:gateId="18" id="CLM-00005" body="the travel reduction is equal to about 5 millimeters.
+" claimType="dependent" num="00005" claimBackReference="of claim 4" transPhrase=", wherein " claimSize="19" claim_preamble="The method" claimNumber="5" depends_on="4">
+<claim-text gate:gateId="19">5. The method of <claim-ref gate:gateId="20" idref="CLM-00004">claim 4</claim-ref> , wherein the travel reduction is equal to about 5 millimeters.</claim-text>
+</claim>
+<claim gate:gateId="21" id="CLM-00006" body="the counter assist torque is provided via a motor of the vehicle.
+" claimType="dependent" num="00006" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="22" claim_preamble="The method" claimNumber="6" depends_on="1">
+<claim-text gate:gateId="22">6. The method of <claim-ref gate:gateId="23" idref="CLM-00001">claim 1</claim-ref> , wherein the counter assist torque is provided via a motor of the vehicle.</claim-text>
+</claim>
+<claim gate:gateId="24" id="CLM-00007" body="steering rack travel based on the optimum steering rack travel.
+" claimType="dependent" num="00007" claimBackReference="of claim 1" transPhrase=", further comprising limiting " claimSize="22" claim_preamble="The method" claimNumber="7" depends_on="1">
+<claim-text gate:gateId="25">7. The method of <claim-ref gate:gateId="26" idref="CLM-00001">claim 1</claim-ref> , further comprising limiting steering rack travel based on the optimum steering rack travel.</claim-text>
+</claim>
+<claim gate:gateId="27" id="CLM-00008" body="further comprising providing a feedback to a vehicle driver when a current steering rack travel exceeds the optimum steering rack travel.
+" claimType="dependent" num="00008" claimBackReference="of claim 1" transPhrase=", " claimSize="30" claim_preamble="The method" claimNumber="8" depends_on="1">
+<claim-text gate:gateId="28">8. The method of <claim-ref gate:gateId="29" idref="CLM-00001">claim 1</claim-ref> , further comprising providing a feedback to a vehicle driver when a current steering rack travel exceeds the optimum steering rack travel.</claim-text>
+</claim>
+<claim gate:gateId="30" id="CLM-00009" body="the feedback to the vehicle driver is the counter assist torque.
+" claimType="dependent" num="00009" claimBackReference="of claim 8" transPhrase=", wherein " claimSize="21" claim_preamble="The method" claimNumber="9" depends_on="8">
+<claim-text gate:gateId="31">9. The method of <claim-ref gate:gateId="32" idref="CLM-00008">claim 8</claim-ref> , wherein the feedback to the vehicle driver is the counter assist torque.</claim-text>
+</claim>
+<us-patent-grant gate:gateId="33" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08504246-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130724" lang="EN" country="US"></us-patent-grant></claims>

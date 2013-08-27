@@ -1,0 +1,824 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501014-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 115,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 4885,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "oil from a fluid comprising oil and water in a first oil-to-water ratio, the separation unit comprising:\na housing defining an inner chamber having a bottom end defined by a first end-wall, a top end defined by a second end-wall, and one or more side-walls extending between the first end-wall and the second end-wall, the inner chamber being at least partly delimited by the first end-wall, the second end-wall, and the one or more side-walls;\na first set of separation walls extending from the first end-wall towards the second end-wall and defining a first set of fluid passages below the second end-wall and above the separation walls of the first set;\na second set of separation walls extending from the second end-wall towards the first end-wall and defining a second set of fluid passages above the first end-wall and below the separation walls of the second set, the second set of separation walls being interlayered between the first set of separation walls;\nan inlet into the inner chamber at or near the bottom end thereof;\na first outlet from the inner chamber at or near the bottom end thereof;\na set of further outlets from the inner chamber above the separation walls of the first set of separation walls;\na fluid path extending from the inlet to the first outlet within the inner chamber, the fluid path passing through the first set of fluid passages and the second set of fluid passages and having a gradually increasing flow restriction from the inlet to the first outlet so as to separate fractions of the fluid having higher oil-to-water ratios than the first oil-to-water ratio flowing from the fluid path to the set of further outlets, and so as to expel fluid having a lower oil-to-water ratio than the first oil-to-water ratio from the first outlet; and\na pump connected at the inlet and operable to establish an elevated pressure of the fluid throughout the fluid path.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for separating ",
+            "claimSize": 350,
+            "gate:gateId": 1,
+            "claim_preamble": "A separation unit",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A separation unit for separating oil from a fluid comprising oil and water in a first oil-to-water ratio, the separation unit comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a housing defining an inner chamber having a bottom end defined by a first end-wall, a top end defined by a second end-wall, and one or more side-walls extending between the first end-wall and the second end-wall, the inner chamber being at least partly delimited by the first end-wall, the second end-wall, and the one or more side-walls;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a first set of separation walls extending from the first end-wall towards the second end-wall and defining a first set of fluid passages below the second end-wall and above the separation walls of the first set;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a second set of separation walls extending from the second end-wall towards the first end-wall and defining a second set of fluid passages above the first end-wall and below the separation walls of the second set, the second set of separation walls being interlayered between the first set of separation walls;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "an inlet into the inner chamber at or near the bottom end thereof;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a first outlet from the inner chamber at or near the bottom end thereof;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "a set of further outlets from the inner chamber above the separation walls of the first set of separation walls;",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "a fluid path extending from the inlet to the first outlet within the inner chamber, the fluid path passing through the first set of fluid passages and the second set of fluid passages and having a gradually increasing flow restriction from the inlet to the first outlet so as to separate fractions of the fluid having higher oil-to-water ratios than the first oil-to-water ratio flowing from the fluid path to the set of further outlets, and so as to expel fluid having a lower oil-to-water ratio than the first oil-to-water ratio from the first outlet; and",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "a pump connected at the inlet and operable to establish an elevated pressure of the fluid throughout the fluid path.",
+                        "gate:gateId": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the separation walls of the first and second sets define a plurality of sub-chambers between the first inlet and the first outlet.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 11,
+            "claimNumber": 2,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "2. The separation unit of",
+                    ", wherein the separation walls of the first and second sets define a plurality of sub-chambers between the first inlet and the first outlet."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the gradually increasing flow restriction along the fluid path is established by volumetric reduction of successive sub-chambers along the fluid path.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 32,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "3. The separation unit of",
+                    ", wherein the gradually increasing flow restriction along the fluid path is established by volumetric reduction of successive sub-chambers along the fluid path."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the volumetric reduction is in the range of about 0.5%-50% from one sub-chamber to the succeeding sub-chamber.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 34,
+            "gate:gateId": 17,
+            "claimNumber": 0,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "4. The separation unit of",
+                    ", wherein the volumetric reduction is in the range of about 0.5%-50% from one sub-chamber to the succeeding sub-chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the first set of separation walls includes a first number of separation walls, and the second set of separation walls includes a second number of separation walls that is one less than the first number.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 47,
+            "gate:gateId": 20,
+            "claimNumber": 5,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "5. The separation unit of",
+                    ", wherein the first set of separation walls includes a first number of separation walls, and the second set of separation walls includes a second number of separation walls that is one less than the first number."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the first end-wall comprises two separate walls displaced relative to each other.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 23,
+            "claimNumber": 6,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "6. The separation unit of",
+                    ", wherein the first end-wall comprises two separate walls displaced relative to each other."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the first end-wall and the second end-wall are arranged so as to define an angle between 0 degrees and 90 degrees.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 32,
+            "gate:gateId": 26,
+            "claimNumber": 7,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "7. The separation unit of",
+                    ", wherein the first end-wall and the second end-wall are arranged so as to define an angle between 0 degrees and 90 degrees."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "further comprising:\nan oil sensor configured to generate an oil presence signal in response to the presence of oil in the fluid; and\na valve at the first outlet, the valve being selectively operable from a closed state to an open state in response to the oil presence signal.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 62,
+            "gate:gateId": 29,
+            "claimNumber": 8,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "8. The separation unit of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30,
+                "claim-text": [
+                    {
+                        "content": "an oil sensor configured to generate an oil presence signal in response to the presence of oil in the fluid; and",
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": "a valve at the first outlet, the valve being selectively operable from a closed state to an open state in response to the oil presence signal.",
+                        "gate:gateId": 33
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the pump is further operable to establish laminar fluid flow in the fluid path.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 25,
+            "gate:gateId": 34,
+            "claimNumber": 9,
+            "claim_preamble": "The separation unit",
+            "claim-text": {
+                "content": [
+                    "9. The separation unit of",
+                    ", wherein the pump is further operable to establish laminar fluid flow in the fluid path."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "oil from a fluid comprising oil and water in a first oil-to-water ratio, the system comprising a plurality of separation units, each of the separation units comprising:\na housing defining an inner chamber and having a bottom end defined by a first end-wall, a top end defined by a second end-wall, and one or more side-walls extending between the first end-wall and the second end-wall, said inner chamber being at least partly delimited by the first end-wall, the second end-wall, and the one or more side-walls;\na first set of separation walls extending from the first end-wall towards the second end-wall and defining a first set of fluid passages below the second end-wall and above the separation walls of the first set;\na second set of separation walls extending from the second end-wall towards said first end-wall and defining a second set of fluid passages above the first end-wall and below the separation walls of the second set, the second set of separation walls being interlayered between the first set of separation walls;\nan inlet into the inner chamber at or near the bottom end thereof;\na first outlet from the inner chamber at or near the bottom end thereof;\na set of further outlets from the inner chamber above the separation walls of the first set of separation walls; and\na fluid path extending from the inlet to the first outlet within the inner chamber, the fluid path passing through the first set of fluid passages and the second set of fluid passages and having a gradually increasing flow restriction from the inlet to the first outlet so as to separate fractions of the fluid having higher oil-to-water ratios than the first oil-to-water ratio flowing from the fluid path to the set of further outlets, and so as to expel fluid having a lower oil-to-water ratio than the first oil-to-water ratio from the first outlet;\nwherein the separation units in the plurality of separation units are arranged so that an inlet of one separation unit is in fluid communication with one of the further outlets of another separation unit; and\nwherein at least one of the separation units further comprises a pump connected at the inlet and operable to establish an elevated pressure of the fluid throughout the fluid path.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " for separating ",
+            "claimSize": 407,
+            "gate:gateId": 37,
+            "claim_preamble": "A system",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A system for separating oil from a fluid comprising oil and water in a first oil-to-water ratio, the system comprising a plurality of separation units, each of the separation units comprising:",
+                "gate:gateId": 38,
+                "claim-text": [
+                    {
+                        "content": "a housing defining an inner chamber and having a bottom end defined by a first end-wall, a top end defined by a second end-wall, and one or more side-walls extending between the first end-wall and the second end-wall, said inner chamber being at least partly delimited by the first end-wall, the second end-wall, and the one or more side-walls;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "a first set of separation walls extending from the first end-wall towards the second end-wall and defining a first set of fluid passages below the second end-wall and above the separation walls of the first set;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "a second set of separation walls extending from the second end-wall towards said first end-wall and defining a second set of fluid passages above the first end-wall and below the separation walls of the second set, the second set of separation walls being interlayered between the first set of separation walls;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "an inlet into the inner chamber at or near the bottom end thereof;",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "a first outlet from the inner chamber at or near the bottom end thereof;",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "a set of further outlets from the inner chamber above the separation walls of the first set of separation walls; and",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "a fluid path extending from the inlet to the first outlet within the inner chamber, the fluid path passing through the first set of fluid passages and the second set of fluid passages and having a gradually increasing flow restriction from the inlet to the first outlet so as to separate fractions of the fluid having higher oil-to-water ratios than the first oil-to-water ratio flowing from the fluid path to the set of further outlets, and so as to expel fluid having a lower oil-to-water ratio than the first oil-to-water ratio from the first outlet;",
+                        "gate:gateId": 45
+                    },
+                    {
+                        "content": "wherein the separation units in the plurality of separation units are arranged so that an inlet of one separation unit is in fluid communication with one of the further outlets of another separation unit; and",
+                        "gate:gateId": 46
+                    },
+                    {
+                        "content": "wherein at least one of the separation units further comprises a pump connected at the inlet and operable to establish an elevated pressure of the fluid throughout the fluid path.",
+                        "gate:gateId": 47
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the separation walls of the first and second sets define a plurality of sub-chambers between the first inlet and the first outlet.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 33,
+            "gate:gateId": 48,
+            "claimNumber": 11,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "11. The separation system of",
+                    ", wherein the separation walls of the first and second sets define a plurality of sub-chambers between the first inlet and the first outlet."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the first end-wall and the second end-wall are arranged so as to define an angle between 0 degrees and 90 degrees.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 32,
+            "gate:gateId": 51,
+            "claimNumber": 12,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "12. The separation system of",
+                    ", wherein the first end-wall and the second end-wall are arranged so as to define an angle between 0 degrees and 90 degrees."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the first set of separation walls includes a first number of separation walls, and the second set of separation walls includes a second number of separation walls that is one less than the first number.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 47,
+            "gate:gateId": 54,
+            "claimNumber": 13,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "13. The separation system of",
+                    ", wherein the first set of separation walls includes a first number of separation walls, and the second set of separation walls includes a second number of separation walls that is one less than the first number."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the gradually increasing flow restriction along the fluid path is established by volumetric reduction of successive sub-chambers along the fluid path.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 13",
+            "claimSize": 32,
+            "gate:gateId": 57,
+            "claimNumber": 14,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "14. The separation system of",
+                    ", wherein the gradually increasing flow restriction along the fluid path is established by volumetric reduction of successive sub-chambers along the fluid path."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 58
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the volumetric reduction is in the range of about 0.5%-50% from one sub-chamber to the succeeding sub-chamber.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 34,
+            "gate:gateId": 60,
+            "claimNumber": 0,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "15. The separation system of",
+                    ", wherein the volumetric reduction is in the range of about 0.5%-50% from one sub-chamber to the succeeding sub-chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 62,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 61
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the first end-wall comprises two separate walls displaced relative to each other.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 23,
+            "gate:gateId": 63,
+            "claimNumber": 16,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "16. The separation system of",
+                    ", wherein the first end-wall comprises two separate walls displaced relative to each other."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 65,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 64
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00017",
+            "body": "at least one of the separation units further comprises:\nan oil sensor configured to generate an oil presence signal in response to the presence of oil in the fluid; and\na valve at the first outlet, the valve being selectively operable from a closed state to an open state in response to the oil presence signal.\n\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 70,
+            "gate:gateId": 66,
+            "claimNumber": 17,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "17. The separation system of",
+                    ", wherein at least one of the separation units further comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 68,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 67,
+                "claim-text": [
+                    {
+                        "content": "an oil sensor configured to generate an oil presence signal in response to the presence of oil in the fluid; and",
+                        "gate:gateId": 69
+                    },
+                    {
+                        "content": "a valve at the first outlet, the valve being selectively operable from a closed state to an open state in response to the oil presence signal.",
+                        "gate:gateId": 70
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the pump is further operable to establish laminar fluid flow in the fluid path.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 25,
+            "gate:gateId": 71,
+            "claimNumber": 18,
+            "claim_preamble": "The separation system",
+            "claim-text": {
+                "content": [
+                    "18. The separation system of",
+                    ", wherein the pump is further operable to establish laminar fluid flow in the fluid path."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 73,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 72
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00019",
+            "body": "oil from a fluid comprising oil and water in a first oil-to-water ratio, the method comprising:\n(a) providing a fluid comprising oil and water in a first oil-to-water ratio;\n(b) providing a separation unit, comprising:\na housing defining an inner chamber having a bottom end defined by a first end-wall, a top end defined by a second end-wall, and one or more side-walls extending between the first end-wall and the second end-wall, the inner chamber being at least partly delimited by the first end-wall, the second end-wall, and the one or more side-walls;\na first set of separation walls extending from the first end-wall towards the second end-wall and defining a first set of fluid passages below the second end-wall and above the separation walls of the first set;\na second set of separation walls extending from the second end-wall towards the first end-wall and defining a second set of fluid passages above the first end-wall and below the separation walls of the second set, the second set of separation walls being interlayered between the first set of separation walls;\nan inlet into the inner chamber at or near the bottom end thereof;\na first outlet from inner chamber at or near the bottom end thereof;\na set of further outlets from the inner chamber above the separation walls of the first set of separation walls; and\na fluid path extending from the inlet to the first outlet within the inner chamber, the fluid path passing through the first set of fluid passages and the second set of fluid passages and having a gradually increasing flow restriction from the inlet to the first outlet;\n\n(c) separating fractions of the fluid having higher oil-to-water ratios than the first oil-to-water ratio from the fluid path to the set of further outlets;\n(d) expelling fluid having a lower oil-to-water ration than the first oil-to-water ration from the first outlet; and\n(e) elevating the pressure of the fluid throughout the fluid path using a pump connected at the inlet.\n\n",
+            "claimType": "independent",
+            "num": "00019",
+            "transPhrase": " for separating ",
+            "claimSize": 373,
+            "gate:gateId": 74,
+            "claim_preamble": "A method",
+            "claimNumber": 19,
+            "claim-text": {
+                "content": "19. A method for separating oil from a fluid comprising oil and water in a first oil-to-water ratio, the method comprising:",
+                "gate:gateId": 75,
+                "claim-text": [
+                    {
+                        "content": "(a) providing a fluid comprising oil and water in a first oil-to-water ratio;",
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": "(b) providing a separation unit, comprising:",
+                        "gate:gateId": 77,
+                        "claim-text": [
+                            {
+                                "content": "a housing defining an inner chamber having a bottom end defined by a first end-wall, a top end defined by a second end-wall, and one or more side-walls extending between the first end-wall and the second end-wall, the inner chamber being at least partly delimited by the first end-wall, the second end-wall, and the one or more side-walls;",
+                                "gate:gateId": 78
+                            },
+                            {
+                                "content": "a first set of separation walls extending from the first end-wall towards the second end-wall and defining a first set of fluid passages below the second end-wall and above the separation walls of the first set;",
+                                "gate:gateId": 79
+                            },
+                            {
+                                "content": "a second set of separation walls extending from the second end-wall towards the first end-wall and defining a second set of fluid passages above the first end-wall and below the separation walls of the second set, the second set of separation walls being interlayered between the first set of separation walls;",
+                                "gate:gateId": 80
+                            },
+                            {
+                                "content": "an inlet into the inner chamber at or near the bottom end thereof;",
+                                "gate:gateId": 81
+                            },
+                            {
+                                "content": "a first outlet from inner chamber at or near the bottom end thereof;",
+                                "gate:gateId": 82
+                            },
+                            {
+                                "content": "a set of further outlets from the inner chamber above the separation walls of the first set of separation walls; and",
+                                "gate:gateId": 83
+                            },
+                            {
+                                "content": "a fluid path extending from the inlet to the first outlet within the inner chamber, the fluid path passing through the first set of fluid passages and the second set of fluid passages and having a gradually increasing flow restriction from the inlet to the first outlet;",
+                                "gate:gateId": 84
+                            }
+                        ]
+                    },
+                    {
+                        "content": "(c) separating fractions of the fluid having higher oil-to-water ratios than the first oil-to-water ratio from the fluid path to the set of further outlets;",
+                        "gate:gateId": 85
+                    },
+                    {
+                        "content": "(d) expelling fluid having a lower oil-to-water ration than the first oil-to-water ration from the first outlet; and",
+                        "gate:gateId": 86
+                    },
+                    {
+                        "content": "(e) elevating the pressure of the fluid throughout the fluid path using a pump connected at the inlet.",
+                        "gate:gateId": 87
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the first and second sets of separation walls of the separation unit define a plurality of sub-chambers between the first inlet and the first outlet.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 35,
+            "gate:gateId": 88,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    ", wherein the first and second sets of separation walls of the separation unit define a plurality of sub-chambers between the first inlet and the first outlet."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 90,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 89
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00021",
+            "body": "the first set of separation walls of the separation unit includes a first number of separation walls, and the second set of separation walls of the separation unit includes a second number of separation walls that is one less than the first number.\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 54,
+            "gate:gateId": 91,
+            "claimNumber": 21,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "21. The method of",
+                    ", wherein the first set of separation walls of the separation unit includes a first number of separation walls, and the second set of separation walls of the separation unit includes a second number of separation walls that is one less than the first number."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 93,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 92
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00022",
+            "body": "the gradually increasing flow restriction along the fluid path of the separation unit is established by volumetric reduction of successive sub-chambers along the fluid path.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 35,
+            "gate:gateId": 94,
+            "claimNumber": 22,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "22. The method of",
+                    ", wherein the gradually increasing flow restriction along the fluid path of the separation unit is established by volumetric reduction of successive sub-chambers along the fluid path."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 96,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 95
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the volumetric reduction is in the range of about 0.5%-50% from one sub-chamber to the succeeding sub-chamber.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 22",
+            "claimSize": 33,
+            "gate:gateId": 97,
+            "claimNumber": 23,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "23. The method of",
+                    ", wherein the volumetric reduction is in the range of about 0.5%-50% from one sub-chamber to the succeeding sub-chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 22",
+                    "gate:gateId": 99,
+                    "idref": "CLM-00022"
+                },
+                "gate:gateId": 98
+            },
+            "depends_on": 22
+        },
+        {
+            "id": "CLM-00024",
+            "body": "the first end-wall comprises two separate walls displaced relative to each other.\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 22,
+            "gate:gateId": 100,
+            "claimNumber": 24,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "24. The method of",
+                    ", wherein the first end-wall comprises two separate walls displaced relative to each other."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 102,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 101
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00025",
+            "body": "the first end-wall and the second end-wall of the separation unit are arranged so as to define an angle between 0 degrees and 90 degrees.\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 35,
+            "gate:gateId": 103,
+            "claimNumber": 25,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "25. The method of",
+                    ", wherein the first end-wall and the second end-wall of the separation unit are arranged so as to define an angle between 0 degrees and 90 degrees."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 105,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 104
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00026",
+            "body": "further comprising:\n(f) sensing the presence of oil in the fluid;\n(g) generating an oil presence signal in response to the presence of oil in the fluid; and\n(h) opening a valve at the first outlet in response to the oil presence signal.\n\n",
+            "num": "00026",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 61,
+            "gate:gateId": 106,
+            "claimNumber": 26,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "26. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 108,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 107,
+                "claim-text": [
+                    {
+                        "content": "(f) sensing the presence of oil in the fluid;",
+                        "gate:gateId": 109
+                    },
+                    {
+                        "content": "(g) generating an oil presence signal in response to the presence of oil in the fluid; and",
+                        "gate:gateId": 110
+                    },
+                    {
+                        "content": "(h) opening a valve at the first outlet in response to the oil presence signal.",
+                        "gate:gateId": 111
+                    }
+                ]
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00027",
+            "body": "a laminar fluid flow in the fluid path is established when the pressure of the fluid is elevated. \n",
+            "num": "00027",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 28,
+            "gate:gateId": 112,
+            "claimNumber": 27,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "27. The method of",
+                    ", wherein a laminar fluid flow in the fluid path is established when the pressure of the fluid is elevated."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 114,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 113
+            },
+            "depends_on": 19
+        }
+    ],
+    "numberIndependentClaims": 40
+}}

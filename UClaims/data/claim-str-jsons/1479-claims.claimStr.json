@@ -1,0 +1,286 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500386-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 33,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1738,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "an upright loader mounting frame and an upright loader mast detachably secured together by a latching assembly, comprising: said mounting frame including a forwardly opening receptacle at an upper region thereof and an upwardly opening receptacle spaced vertically below said upper receptacle; said mast including a lower cross pin located at a lower region of the mast and being received in said upwardly opening receptacle, and including an upper cross pin located in said forwardly opening receptacle; said latching assembly including a latch member having a forward end defining a downwardly opening receptacle, with the latch member being mounted to said mounting frame for pivoting about a horizontal axis between a lowered latching position, wherein said downwardly opening receptacle is engaged with said upper cross pin, and a raised unlatching position, wherein said downwardly opening receptacle is elevated above said upper cross pin; and an over-center biasing spring arrangement being coupled to said latch member for selectively retaining said latch member is said latching and unlatching positions, thereby permitting forward movement of said upper cross pin relative to said forwardly opening receptacle.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " including ",
+            "claimSize": 199,
+            "gate:gateId": 1,
+            "claim_preamble": "A combination",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A combination including an upright loader mounting frame and an upright loader mast detachably secured together by a latching assembly, comprising: said mounting frame including a forwardly opening receptacle at an upper region thereof and an upwardly opening receptacle spaced vertically below said upper receptacle; said mast including a lower cross pin located at a lower region of the mast and being received in said upwardly opening receptacle, and including an upper cross pin located in said forwardly opening receptacle; said latching assembly including a latch member having a forward end defining a downwardly opening receptacle, with the latch member being mounted to said mounting frame for pivoting about a horizontal axis between a lowered latching position, wherein said downwardly opening receptacle is engaged with said upper cross pin, and a raised unlatching position, wherein said downwardly opening receptacle is elevated above said upper cross pin; and an over-center biasing spring arrangement being coupled to said latch member for selectively retaining said latch member is said latching and unlatching positions, thereby permitting forward movement of said upper cross pin relative to said forwardly opening receptacle.",
+                "gate:gateId": 2
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "upper region of said loader mounting frame includes transversely spaced, frame side plates; and said latch member being received between said frame side plates.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 1 ,",
+            "claimSize": 40,
+            "gate:gateId": 3,
+            "claimNumber": 2,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "2. The combination, as defined in",
+                    ", wherein said upper region of said loader mounting frame includes transversely spaced, frame side plates; and said latch member being received between said frame side plates."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 5,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 4
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "mast includes transversely spaced mast side plates; and said upper region of said mounting frame being received between said mast side plates.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 6,
+            "claimNumber": 3,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "3. The combination, as defined in",
+                    ", wherein said mast includes transversely spaced mast side plates; and said upper region of said mounting frame being received between said mast side plates."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "upper region of said loader mounting frame includes transversely spaced frame side plates; and said latch member being received between said frame side plates.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 3 ,",
+            "claimSize": 39,
+            "gate:gateId": 9,
+            "claimNumber": 4,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "4. The combination, as defined in",
+                    ", wherein said upper region of said loader mounting frame includes transversely spaced frame side plates; and said latch member being received between said frame side plates."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "receptacle has a lower forward region bounded by an upwardly projecting lip, and wherein said latch member includes a forward nose portion projecting downwardly and defining a front of said downwardly opening receptacle of said latch member and having a front surface engaged with a rear surface of said upwardly projecting lip when said latch member is in said latching position.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein said forwardly opening ",
+            "claimBackReference": "as defined in claim 1 ,",
+            "claimSize": 78,
+            "gate:gateId": 12,
+            "claimNumber": 5,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "5. The combination, as defined in",
+                    ", wherein said forwardly opening receptacle has a lower forward region bounded by an upwardly projecting lip, and wherein said latch member includes a forward nose portion projecting downwardly and defining a front of said downwardly opening receptacle of said latch member and having a front surface engaged with a rear surface of said upwardly projecting lip when said latch member is in said latching position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "front surface extends above said upwardly projecting lip and is located relative to said horizontal axis and so shaped that, when contacted by said upper cross pin moving into said forwardly opening receptacle during attaching of said mast to said loader mounting frame, said latch member pivots upwardly and over said upper cross pin.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 5 ,",
+            "claimSize": 70,
+            "gate:gateId": 15,
+            "claimNumber": 6,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "6. The combination, as defined in",
+                    ", wherein said front surface extends above said upwardly projecting lip and is located relative to said horizontal axis and so shaped that, when contacted by said upper cross pin moving into said forwardly opening receptacle during attaching of said mast to said loader mounting frame, said latch member pivots upwardly and over said upper cross pin."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "latch member includes a lever which extends rearward of said horizontal axis and is operable, when pressed downwardly, for pivoting said latch member from said latching position to said unlatching position.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 1 ,",
+            "claimSize": 47,
+            "gate:gateId": 18,
+            "claimNumber": 7,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "7. The combination, as defined in",
+                    ", wherein said latch member includes a lever which extends rearward of said horizontal axis and is operable, when pressed downwardly, for pivoting said latch member from said latching position to said unlatching position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a handle is joined to, and projects laterally outwardly from, a rear end of said lever so as to be positioned for being grasped by an operator seated on a tractor carrying the mounting frame.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as defined in claim 7 ,",
+            "claimSize": 50,
+            "gate:gateId": 21,
+            "claimNumber": 8,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "8. The combination, as defined in",
+                    ", wherein a handle is joined to, and projects laterally outwardly from, a rear end of said lever so as to be positioned for being grasped by an operator seated on a tractor carrying the mounting frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "handle is defined by a rod and said mounting frame being provided with a slot receiving said handle and being formed at a radius about said horizontal axis.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 8 ,",
+            "claimSize": 42,
+            "gate:gateId": 24,
+            "claimNumber": 9,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "9. The combination, as defined in",
+                    ", wherein said handle is defined by a rod and said mounting frame being provided with a slot receiving said handle and being formed at a radius about said horizontal axis."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "mast is provided with a mast contact surface located closely behind a latch member contact surface located above said pivot axis so that forward movement of said mast relative to said mounting frame, when said latch member is in said unlatching position, will result in said mast contact surface engaging said latch member contact surface so as to cause said latch member to pivot from its unlatching to its latching position.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 1 ,",
+            "claimSize": 87,
+            "gate:gateId": 27,
+            "claimNumber": 10,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "10. The combination, as defined in",
+                    ", wherein said mast is provided with a mast contact surface located closely behind a latch member contact surface located above said pivot axis so that forward movement of said mast relative to said mounting frame, when said latch member is in said unlatching position, will result in said mast contact surface engaging said latch member contact surface so as to cause said latch member to pivot from its unlatching to its latching position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "mast comprises laterally spaced mast side plates; and said mast contact surface comprises a horizontal rod having opposite ends respectively coupled to said mast side plates. \n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as defined in claim 10 ,",
+            "claimSize": 41,
+            "gate:gateId": 30,
+            "claimNumber": 11,
+            "claim_preamble": "The combination",
+            "claim-text": {
+                "content": [
+                    "11. The combination, as defined in",
+                    ", wherein said mast comprises laterally spaced mast side plates; and said mast contact surface comprises a horizontal rod having opposite ends respectively coupled to said mast side plates."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 10
+        }
+    ],
+    "numberIndependentClaims": 30
+}}

@@ -1,0 +1,254 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504491-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 32,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1443,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a variational EM algorithm on a computing device to compute a mixture model from data items in computer storage, the computing device comprising a processor and storage, the method comprising:\ngenerating, by the processor, and storing in the storage, a hierarchical data partition of the data items;\ninitializing, by the processor, and storing in the storage, component-dependent data partitions of the data items in the hierarchical data partition that are specific to the mixture components, respectively, wherein each mixture component has its own respective different data partition;\nperforming, by the processor, a variational Expectation Maximization (EM) algorithm until convergence is determined, the performing comprising iteratively performing:\na variational E-step that computes, and stores in the storage, a variational distribution by treating all data in a given component-dependent data partition as similar for a given mixture component that corresponds to the given component-dependent data partition, wherein at least two of the component-dependent data partitions are different partitionings of the data items for different mixture components and are partially overlapping and partially non-overlapping; and\na variational M-step where a current parameter estimate for the mixture model is stored in the storage and updated based on the variational distribution.\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of performing ",
+            "claimSize": 228,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of performing a variational EM algorithm on a computing device to compute a mixture model from data items in computer storage, the computing device comprising a processor and storage, the method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "generating, by the processor, and storing in the storage, a hierarchical data partition of the data items;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "initializing, by the processor, and storing in the storage, component-dependent data partitions of the data items in the hierarchical data partition that are specific to the mixture components, respectively, wherein each mixture component has its own respective different data partition;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "performing, by the processor, a variational Expectation Maximization (EM) algorithm until convergence is determined, the performing comprising iteratively performing:",
+                        "gate:gateId": 5,
+                        "claim-text": [
+                            {
+                                "content": "a variational E-step that computes, and stores in the storage, a variational distribution by treating all data in a given component-dependent data partition as similar for a given mixture component that corresponds to the given component-dependent data partition, wherein at least two of the component-dependent data partitions are different partitionings of the data items for different mixture components and are partially overlapping and partially non-overlapping; and",
+                                "gate:gateId": 6
+                            },
+                            {
+                                "content": "a variational M-step where a current parameter estimate for the mixture model is stored in the storage and updated based on the variational distribution.",
+                                "gate:gateId": 7
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the performing of the variational EM algorithm further comprises a variational R-step that refines at least one of the component-dependent data partitions.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 34,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "2. A method according to",
+                    ", wherein the performing of the variational EM algorithm further comprises a variational R-step that refines at least one of the component-dependent data partitions."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "convergence is reached, the following is performed iteratively: the variational E-step and the variational M-step are performed iteratively, and then the variational R-step is performed.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein until ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 43,
+            "gate:gateId": 11,
+            "claimNumber": 3,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "3. A method according to",
+                    ", wherein until convergence is reached, the following is performed iteratively: the variational E-step and the variational M-step are performed iteratively, and then the variational R-step is performed."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the variational E-step and the variational M-step are not run to convergence between performances of the R-steps.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 3 ,",
+            "claimSize": 31,
+            "gate:gateId": 14,
+            "claimNumber": 4,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "4. A method according to",
+                    ", wherein the variational E-step and the variational M-step are not run to convergence between performances of the R-steps."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the hierarchical data partitioning comprises computing a KD-tree or an n-ary tree, and where nodes of such a tree contain sufficient statistics of data items that correspond to the nodes.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein generating ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 43,
+            "gate:gateId": 17,
+            "claimNumber": 5,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "5. A method according to",
+                    ", wherein generating the hierarchical data partitioning comprises computing a KD-tree or an n-ary tree, and where nodes of such a tree contain sufficient statistics of data items that correspond to the nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the sufficient statistics are geometric means.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "where ",
+            "claimBackReference": "according to claim 5",
+            "claimSize": 16,
+            "gate:gateId": 20,
+            "claimNumber": 6,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "6. A method according to",
+                    "where the sufficient statistics are geometric means."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "one or more computing devices comprising a processor and storage, the method comprising:\nperforming, by the processor, a variational EM algorithm on a set of data items in the storage based on a mixture model comprised of mixture components in the storage, wherein the variational E-step of the variational EM algorithm is performed by the processor on component-dependent partitions of the data items in a hierarchical data structure, a given component-dependent partition comprising a partitioning of the data items where the data items that will be included in the given component-dependent data partition is dependent on a corresponding component of the mixture model such that each component-dependent data partition comprises a partitioning of the data items that is specific to a corresponding component.\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " performed by ",
+            "claimSize": 137,
+            "gate:gateId": 23,
+            "claim_preamble": "A method",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A method performed by one or more computing devices comprising a processor and storage, the method comprising:",
+                "gate:gateId": 24,
+                "claim-text": {
+                    "content": "performing, by the processor, a variational EM algorithm on a set of data items in the storage based on a mixture model comprised of mixture components in the storage, wherein the variational E-step of the variational EM algorithm is performed by the processor on component-dependent partitions of the data items in a hierarchical data structure, a given component-dependent partition comprising a partitioning of the data items where the data items that will be included in the given component-dependent data partition is dependent on a corresponding component of the mixture model such that each component-dependent data partition comprises a partitioning of the data items that is specific to a corresponding component.",
+                    "gate:gateId": 25
+                }
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the method begins with a coarse initialization of the component-dependent partitions.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 22,
+            "gate:gateId": 26,
+            "claimNumber": 8,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "8. A method according to",
+                    ", wherein the method begins with a coarse initialization of the component-dependent partitions."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "initial component-dependent partitions, the following is repeated until convergence: the variational E-step and a variational M-step are repeated one or more times followed by an R-step.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein, starting from ",
+            "claimBackReference": "according to claim 8 ,",
+            "claimSize": 45,
+            "gate:gateId": 29,
+            "claimNumber": 9,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "9. A method according to",
+                    ", wherein, starting from initial component-dependent partitions, the following is repeated until convergence: the variational E-step and a variational M-step are repeated one or more times followed by an R-step."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 8
+        }
+    ],
+    "numberIndependentClaims": 236
+}}

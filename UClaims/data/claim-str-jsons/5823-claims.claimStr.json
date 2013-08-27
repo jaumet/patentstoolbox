@@ -1,0 +1,590 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504756-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 78,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3366,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "one or more bus masters;\nat least one high bandwidth bus slave;\na high bandwidth bus communicatively coupled to the one or more bus masters and the at least one high bandwidth bus slave;\na low bandwidth bus;\na bridge circuit coupled between the high bandwidth bus and the low bandwidth bus; and\nat least one low bandwidth bus slave coupled to the low bandwidth bus, wherein the one or more bus masters are configured to access the at least one low bandwidth bus slave, wherein the one or more bus masters issue an early read transaction request in advance to a scheduled read transaction request associated with one of the at least one low bandwidth bus slave,\nwherein the bridge circuit is configured to receive the early read transaction request and convert the early read transaction request to a low bandwidth bus read transaction request and send the low bandwidth bus read transaction request to one of the at least one low bandwidth bus slave via the low bandwidth bus to fetch data associated with the early read transaction request, and\nwherein the bridge circuit is further configured to receive the scheduled read transaction request and convert the scheduled read transaction request to a low bandwidth bus read transaction request, and wherein the fetched data associated with the early read transaction request corresponding to the one of the at least one low bandwidth bus slave is sent to the one or more bus masters via the bridge circuit and the high bandwidth bus upon receiving the scheduled read transaction request.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 282,
+            "gate:gateId": 1,
+            "claim_preamble": "A system-on-chip (SoC)",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A system-on-chip (SoC), comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "one or more bus masters;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "at least one high bandwidth bus slave;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a high bandwidth bus communicatively coupled to the one or more bus masters and the at least one high bandwidth bus slave;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a low bandwidth bus;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a bridge circuit coupled between the high bandwidth bus and the low bandwidth bus; and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "at least one low bandwidth bus slave coupled to the low bandwidth bus, wherein the one or more bus masters are configured to access the at least one low bandwidth bus slave, wherein the one or more bus masters issue an early read transaction request in advance to a scheduled read transaction request associated with one of the at least one low bandwidth bus slave,",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein the bridge circuit is configured to receive the early read transaction request and convert the early read transaction request to a low bandwidth bus read transaction request and send the low bandwidth bus read transaction request to one of the at least one low bandwidth bus slave via the low bandwidth bus to fetch data associated with the early read transaction request, and",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "wherein the bridge circuit is further configured to receive the scheduled read transaction request and convert the scheduled read transaction request to a low bandwidth bus read transaction request, and wherein the fetched data associated with the early read transaction request corresponding to the one of the at least one low bandwidth bus slave is sent to the one or more bus masters via the bridge circuit and the high bandwidth bus upon receiving the scheduled read transaction request.",
+                        "gate:gateId": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the one or more bus masters are selected from the group consisting of one or more processors, one or more direct memory accesses (DMAs) and one or more digital signal processors (DSPs).\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 47,
+            "gate:gateId": 11,
+            "claimNumber": 2,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "2. The SoC of",
+                    ", wherein the one or more bus masters are selected from the group consisting of one or more processors, one or more direct memory accesses (DMAs) and one or more digital signal processors (DSPs)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the at least one high bandwidth bus slave comprises a peripheral DMA.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "3. The SoC of",
+                    ", wherein the at least one high bandwidth bus slave comprises a peripheral DMA."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the at least one low bandwidth bus slave comprises at least one peripheral device selected from the group consisting of a general purpose I/O (GPIO), a universal asynchronous receiver/transmitter (UART), and a synchronous serial peripheral interface (SSP).\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 59,
+            "gate:gateId": 17,
+            "claimNumber": 4,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "4. The SoC of",
+                    ", wherein the at least one low bandwidth bus slave comprises at least one peripheral device selected from the group consisting of a general purpose I/O (GPIO), a universal asynchronous receiver/transmitter (UART), and a synchronous serial peripheral interface (SSP)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the high bandwidth bus comprises an advanced high performance bus (AHB) or an advanced extensible interface (AXI).\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 31,
+            "gate:gateId": 20,
+            "claimNumber": 5,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "5. The SoC of",
+                    ", wherein the high bandwidth bus comprises an advanced high performance bus (AHB) or an advanced extensible interface (AXI)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the low bandwidth bus comprises an advanced peripheral bus (APB).\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 23,
+            "claimNumber": 6,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "6. The SoC of",
+                    ", wherein the low bandwidth bus comprises an advanced peripheral bus (APB)."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the bridge circuit is further configured to process substantially simultaneously the early read transaction request and a scheduled read/write transaction request to the at least one low bandwidth bus slave.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 42,
+            "gate:gateId": 26,
+            "claimNumber": 7,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "7. The SoC of",
+                    ", wherein the bridge circuit is further configured to process substantially simultaneously the early read transaction request and a scheduled read/write transaction request to the at least one low bandwidth bus slave."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the bridge circuit is further configured to initiate substantially simultaneously a read transaction in response to the early read transaction request and a write transaction in response to a scheduled write transaction request to the at least one low bandwidth bus slave.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 52,
+            "gate:gateId": 29,
+            "claimNumber": 8,
+            "claim_preamble": "The SoC",
+            "claim-text": {
+                "content": [
+                    "8. The SoC of",
+                    ", wherein the bridge circuit is further configured to initiate substantially simultaneously a read transaction in response to the early read transaction request and a write transaction in response to a scheduled write transaction request to the at least one low bandwidth bus slave."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "an early read control block configured to interface with a high bandwidth bus and a low bandwidth bus, process an early read transaction request from one or more bus masters and initiate a read transaction to one of the at least one low bandwidth bus slave via the low bandwidth bus;\na control block configured to interface with the high bandwidth bus and the low bandwidth bus, process a scheduled read/write transaction request from the one or more bus masters and initiate a write transaction to one of the at least one low bandwidth bus slave via the low bandwidth bus;\na write data block configured to interface with the high bandwidth bus and the low bandwidth bus, receive write data from the one or more bus masters via the high bandwidth bus and convert the received write data to a low bandwidth bus write data format and forward the converted low bandwidth write data to an associated one of the at least one low bandwidth bus slave via the low bandwidth bus; and\na read data block configured to interface with the high bandwidth bus and the low bandwidth bus, read data received from the at least one low bandwidth bus slave via the low bandwidth bus in response to the early read transaction request from the one or more bus masters and convert it to high bandwidth bus read data format and forward the converted high bandwidth read data to the one of the one or more bus masters via the high bandwidth bus on receiving the scheduled read transaction request from one of the one or more bus masters.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 290,
+            "gate:gateId": 32,
+            "claim_preamble": "A bridge circuit",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A bridge circuit, comprising:",
+                "gate:gateId": 33,
+                "claim-text": [
+                    {
+                        "content": "an early read control block configured to interface with a high bandwidth bus and a low bandwidth bus, process an early read transaction request from one or more bus masters and initiate a read transaction to one of the at least one low bandwidth bus slave via the low bandwidth bus;",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "a control block configured to interface with the high bandwidth bus and the low bandwidth bus, process a scheduled read/write transaction request from the one or more bus masters and initiate a write transaction to one of the at least one low bandwidth bus slave via the low bandwidth bus;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "a write data block configured to interface with the high bandwidth bus and the low bandwidth bus, receive write data from the one or more bus masters via the high bandwidth bus and convert the received write data to a low bandwidth bus write data format and forward the converted low bandwidth write data to an associated one of the at least one low bandwidth bus slave via the low bandwidth bus; and",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "a read data block configured to interface with the high bandwidth bus and the low bandwidth bus, read data received from the at least one low bandwidth bus slave via the low bandwidth bus in response to the early read transaction request from the one or more bus masters and convert it to high bandwidth bus read data format and forward the converted high bandwidth read data to the one of the one or more bus masters via the high bandwidth bus on receiving the scheduled read transaction request from one of the one or more bus masters.",
+                        "gate:gateId": 37
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the read data block comprises an early read block and wherein the early read block stores the data corresponding to the early read transaction request.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 35,
+            "gate:gateId": 38,
+            "claimNumber": 10,
+            "claim_preamble": "The circuit",
+            "claim-text": {
+                "content": [
+                    "10. The circuit of",
+                    ", wherein the read data block comprises an early read block and wherein the early read block stores the data corresponding to the early read transaction request."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the one or more bus masters are selected from the group consisting of one or more processors, one or more direct memory accesses (DMAs) and one or more digital signal processors (DSPs).\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 47,
+            "gate:gateId": 41,
+            "claimNumber": 11,
+            "claim_preamble": "The circuit",
+            "claim-text": {
+                "content": [
+                    "11. The circuit of",
+                    ", wherein the one or more bus masters are selected from the group consisting of one or more processors, one or more direct memory accesses (DMAs) and one or more digital signal processors (DSPs)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00012",
+            "body": "at least one low bandwidth bus slave comprises at least one peripheral device selected from the group consisting of a general purpose I/O (GPIO), a universal asynchronous receiver/transmitter (UART) and a synchronous serial peripheral interface (SSP).\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 57,
+            "gate:gateId": 44,
+            "claimNumber": 12,
+            "claim_preamble": "The circuit",
+            "claim-text": {
+                "content": [
+                    "12. The circuit of",
+                    ", wherein at least one low bandwidth bus slave comprises at least one peripheral device selected from the group consisting of a general purpose I/O (GPIO), a universal asynchronous receiver/transmitter (UART) and a synchronous serial peripheral interface (SSP)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the high bandwidth bus comprises an advanced high performance bus (AHB) or an advanced extensible interface (AXI).\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 31,
+            "gate:gateId": 47,
+            "claimNumber": 13,
+            "claim_preamble": "The circuit",
+            "claim-text": {
+                "content": [
+                    "13. The circuit of",
+                    ", wherein the high bandwidth bus comprises an advanced high performance bus (AHB) or an advanced extensible interface (AXI)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the low bandwidth bus comprises an advanced peripheral bus (APB).\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 22,
+            "gate:gateId": 50,
+            "claimNumber": 14,
+            "claim_preamble": "The circuit",
+            "claim-text": {
+                "content": [
+                    "14. The circuit of",
+                    ", wherein the low bandwidth bus comprises an advanced peripheral bus (APB)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00015",
+            "body": "system-on-chip (SoC) bandwidth performance during high latency peripheral read accesses, wherein the SoC includes a bridge circuit, one or more bus masters, at least one high bandwidth bus slave and at least one low bandwidth bus slave that are communicatively coupled via a high bandwidth bus and a low bandwidth bus, the method comprising:\nprocessing an early read transaction request received from the one or more bus masters and initiating a read transaction to one of the at least one low bandwidth bus slave via the low bandwidth bus by the bridge circuit;\nreading data from the at least one low bandwidth bus slave in response to the early read transaction request received from the one or more bus masters, and converting the read data to a high bandwidth bus read data;\nprocessing a scheduled read transaction request received from the one or more bus masters; and\ntransferring the converted high bandwidth read data to one of the one or more bus masters via the high bandwidth bus by the bridge circuit in response to the scheduled read transaction request.\n\n",
+            "claimType": "independent",
+            "num": "00015",
+            "transPhrase": " for improving ",
+            "claimSize": 198,
+            "gate:gateId": 53,
+            "claim_preamble": "A method",
+            "claimNumber": 15,
+            "claim-text": {
+                "content": "15. A method for improving system-on-chip (SoC) bandwidth performance during high latency peripheral read accesses, wherein the SoC includes a bridge circuit, one or more bus masters, at least one high bandwidth bus slave and at least one low bandwidth bus slave that are communicatively coupled via a high bandwidth bus and a low bandwidth bus, the method comprising:",
+                "gate:gateId": 54,
+                "claim-text": [
+                    {
+                        "content": "processing an early read transaction request received from the one or more bus masters and initiating a read transaction to one of the at least one low bandwidth bus slave via the low bandwidth bus by the bridge circuit;",
+                        "gate:gateId": 55
+                    },
+                    {
+                        "content": "reading data from the at least one low bandwidth bus slave in response to the early read transaction request received from the one or more bus masters, and converting the read data to a high bandwidth bus read data;",
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": "processing a scheduled read transaction request received from the one or more bus masters; and",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "transferring the converted high bandwidth read data to one of the one or more bus masters via the high bandwidth bus by the bridge circuit in response to the scheduled read transaction request.",
+                        "gate:gateId": 58
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the data corresponding to the early read transaction request by the bridge circuit.\n\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nstoring ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 26,
+            "gate:gateId": 59,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 60,
+                "claim-text": {
+                    "content": "storing the data corresponding to the early read transaction request by the bridge circuit.",
+                    "gate:gateId": 62
+                }
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the one or more bus masters are selected from the group consisting of one or more processors, one or more direct memory accesses (DMAs) and one or more digital signal processors (DSPs).\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 47,
+            "gate:gateId": 63,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", wherein the one or more bus masters are selected from the group consisting of one or more processors, one or more direct memory accesses (DMAs) and one or more digital signal processors (DSPs)."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 65,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 64
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the at least one high bandwidth bus slave comprises a peripheral DMA.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 22,
+            "gate:gateId": 66,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    ", wherein the at least one high bandwidth bus slave comprises a peripheral DMA."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 68,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 67
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the at least one low bandwidth bus slave comprises at least one peripheral device selected from the group consisting of a general purpose I/O (GPIO), a universal asynchronous receiver/transmitter (UART) and a synchronous serial peripheral interface (SSP).\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 58,
+            "gate:gateId": 69,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method of",
+                    ", wherein the at least one low bandwidth bus slave comprises at least one peripheral device selected from the group consisting of a general purpose I/O (GPIO), a universal asynchronous receiver/transmitter (UART) and a synchronous serial peripheral interface (SSP)."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 71,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 70
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the high bandwidth bus comprises an advanced high performance bus (AHB) or an advanced extensible interface (AXI).\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 31,
+            "gate:gateId": 72,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    ", wherein the high bandwidth bus comprises an advanced high performance bus (AHB) or an advanced extensible interface (AXI)."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 74,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 73
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00021",
+            "body": "the low bandwidth bus comprises an advanced peripheral bus (APB). \n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 22,
+            "gate:gateId": 75,
+            "claimNumber": 21,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "21. The method of",
+                    ", wherein the low bandwidth bus comprises an advanced peripheral bus (APB)."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 77,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 76
+            },
+            "depends_on": 15
+        }
+    ],
+    "numberIndependentClaims": 262
+}}

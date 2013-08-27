@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="1664" id="claims" numberDependentClaims="0" numberIndependentClaims="57">
+<claim gate:gateId="1" id="CLM-00001" body="a multiwell plate, the multiwell plate having a plurality of wells, each of the wells having an opening and a base surface;
+an insert plate, the insert plate having a plurality of inserts positioned to align with a corresponding one of the wells whereby the insert plate can be coupled to the multiwell plate with each insert disposed in the corresponding well;
+each of the inserts including:
+a supply port arranged for flow communication with a supply source;
+an exhaust port;
+a bottom portion;
+a gas permeable membrane secured to the bottom portion; and
+a flow channel formed between the gas permeable membrane and the bottom portion of the insert, the flow channel providing flow communication between the supply port and the exhaust port; and
+
+wherein at least one of the inserts further includes:
+a second supply port arranged for flow communication with a second supply source;
+a second exhaust port; and
+a second flow channel formed between the gas permeable membrane and the bottom portion of the insert, the second flow channel providing flow communication between the second supply port and the second exhaust port, the second supply port connectable to a second supply source;
+
+wherein the first flow channel and the second flow channel are separated from one another by a boundary; and
+each of the inserts having a length sized to position the gas permeable membrane a desired distance from the base surface of the multiwell plate when the multiwell plate and the insert plate are coupled to one another.
+
+" num="00001" claimType="independent" transPhrase=":
+" claimSize="279" claimNumber="1" claim_preamble="An assembly comprising">
+<claim-text gate:gateId="2">1. An assembly comprising:
+<claim-text gate:gateId="3">a multiwell plate, the multiwell plate having a plurality of wells, each of the wells having an opening and a base surface;</claim-text>
+<claim-text gate:gateId="4">an insert plate, the insert plate having a plurality of inserts positioned to align with a corresponding one of the wells whereby the insert plate can be coupled to the multiwell plate with each insert disposed in the corresponding well;</claim-text>
+<claim-text gate:gateId="5">each of the inserts including:
+<claim-text gate:gateId="6">a supply port arranged for flow communication with a supply source;</claim-text>
+<claim-text gate:gateId="7">an exhaust port;</claim-text>
+<claim-text gate:gateId="8">a bottom portion;</claim-text>
+<claim-text gate:gateId="9">a gas permeable membrane secured to the bottom portion; and</claim-text>
+<claim-text gate:gateId="10">a flow channel formed between the gas permeable membrane and the bottom portion of the insert, the flow channel providing flow communication between the supply port and the exhaust port; and</claim-text>
+</claim-text>
+<claim-text gate:gateId="11">wherein at least one of the inserts further includes:
+<claim-text gate:gateId="12">a second supply port arranged for flow communication with a second supply source;</claim-text>
+<claim-text gate:gateId="13">a second exhaust port; and</claim-text>
+<claim-text gate:gateId="14">a second flow channel formed between the gas permeable membrane and the bottom portion of the insert, the second flow channel providing flow communication between the second supply port and the second exhaust port, the second supply port connectable to a second supply source;</claim-text>
+</claim-text>
+<claim-text gate:gateId="15">wherein the first flow channel and the second flow channel are separated from one another by a boundary; and</claim-text>
+<claim-text gate:gateId="16">each of the inserts having a length sized to position the gas permeable membrane a desired distance from the base surface of the multiwell plate when the multiwell plate and the insert plate are coupled to one another.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="17" id="CLM-00002" body="the bottom portion of each of the inserts is parallel to the base surface of the corresponding well.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="28" claim_preamble="The assembly" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="18">2. The assembly of <claim-ref gate:gateId="19" idref="CLM-00001">claim 1</claim-ref> , wherein the bottom portion of each of the inserts is parallel to the base surface of the corresponding well.</claim-text>
+</claim>
+<claim gate:gateId="20" id="CLM-00003" body="the multiwell plate has a support surface and a portion of the insert plate rests on the upper surface, and wherein the length of each of the inserts is sized based on a distance from the support surface to the base surface.
+" claimType="dependent" num="00003" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="53" claim_preamble="The assembly" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="21">3. The assembly of <claim-ref gate:gateId="22" idref="CLM-00001">claim 1</claim-ref> , wherein the multiwell plate has a support surface and a portion of the insert plate rests on the upper surface, and wherein the length of each of the inserts is sized based on a distance from the support surface to the base surface.</claim-text>
+</claim>
+<claim gate:gateId="23" id="CLM-00004" body="the gas permeable membrane includes a plurality of upwardly extending protrusions, the first and second flow channels extending between adjacent protrusions.
+" claimType="dependent" num="00004" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="32" claim_preamble="The assembly" claimNumber="4" depends_on="1">
+<claim-text gate:gateId="24">4. The assembly of <claim-ref gate:gateId="25" idref="CLM-00001">claim 1</claim-ref> , wherein the gas permeable membrane includes a plurality of upwardly extending protrusions, the first and second flow channels extending between adjacent protrusions.</claim-text>
+</claim>
+<claim gate:gateId="26" id="CLM-00005" body="the membrane is constructed polydimethylsiloxane (PDMS).
+" claimType="dependent" num="00005" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="18" claim_preamble="The assembly" claimNumber="5" depends_on="1">
+<claim-text gate:gateId="27">5. The assembly of <claim-ref gate:gateId="28" idref="CLM-00001">claim 1</claim-ref> , wherein the membrane is constructed polydimethylsiloxane (PDMS).</claim-text>
+</claim>
+<claim gate:gateId="29" id="CLM-00006" body="the desired distance is about 100 μm to about 200 μm.
+" claimType="dependent" num="00006" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="21" claim_preamble="The assembly" claimNumber="6" depends_on="1">
+<claim-text gate:gateId="30">6. The assembly of <claim-ref gate:gateId="31" idref="CLM-00001">claim 1</claim-ref> , wherein the desired distance is about 100 μm to about 200 μm.</claim-text>
+</claim>
+<claim gate:gateId="32" id="CLM-00007" body="gas permeable membrane has a thickness of about 50 μm to about 200 μm.
+" claimType="dependent" num="00007" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="24" claim_preamble="The assembly" claimNumber="7" depends_on="1">
+<claim-text gate:gateId="33">7. The assembly of <claim-ref gate:gateId="34" idref="CLM-00001">claim 1</claim-ref> , wherein gas permeable membrane has a thickness of about 50 μm to about 200 μm.</claim-text>
+</claim>
+<claim gate:gateId="35" id="CLM-00008" body="the supply port of each insert is in flow communication with a supply manifold, an exhaust manifold, or both.
+" claimType="dependent" num="00008" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="31" claim_preamble="The assembly" claimNumber="8" depends_on="1">
+<claim-text gate:gateId="36">8. The assembly of <claim-ref gate:gateId="37" idref="CLM-00001">claim 1</claim-ref> , wherein the supply port of each insert is in flow communication with a supply manifold, an exhaust manifold, or both.</claim-text>
+</claim>
+<claim gate:gateId="38" id="CLM-00009" body="the bottom portion of the insert includes a bottom surface, and wherein the membrane includes a plurality of upwardly extending protrusions arranged to maintain a portion of the gas permeable membrane spaced away from the bottom surface of the insert.
+" claimType="dependent" num="00009" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="51" claim_preamble="The assembly" claimNumber="9" depends_on="1">
+<claim-text gate:gateId="39">9. The assembly of <claim-ref gate:gateId="40" idref="CLM-00001">claim 1</claim-ref> , wherein the bottom portion of the insert includes a bottom surface, and wherein the membrane includes a plurality of upwardly extending protrusions arranged to maintain a portion of the gas permeable membrane spaced away from the bottom surface of the insert.</claim-text>
+</claim>
+<claim gate:gateId="41" id="CLM-00010" body="the protrusions are spaced apart from one another in a pattern, and wherein the pattern forms a plurality of flow spaces between adjacent protrusions.
+" claimType="dependent" num="00010" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="35" claim_preamble="The assembly" claimNumber="10" depends_on="9">
+<claim-text gate:gateId="42">10. The assembly of <claim-ref gate:gateId="43" idref="CLM-00009">claim 9</claim-ref> , wherein the protrusions are spaced apart from one another in a pattern, and wherein the pattern forms a plurality of flow spaces between adjacent protrusions.</claim-text>
+</claim>
+<claim gate:gateId="44" id="CLM-00011" body="the protrusions include top portions, and wherein the top portions are attached to the bottom surface of the insert.
+" claimType="dependent" num="00011" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="30" claim_preamble="The assembly" claimNumber="11" depends_on="9">
+<claim-text gate:gateId="45">11. The assembly of <claim-ref gate:gateId="46" idref="CLM-00009">claim 9</claim-ref> , wherein the protrusions include top portions, and wherein the top portions are attached to the bottom surface of the insert.</claim-text>
+</claim>
+<claim gate:gateId="47" id="CLM-00012" body="the bottom portion defines a bottom surface, and wherein the supply port and the exhaust port extend through insert to the bottom surface.
+" claimType="dependent" num="00012" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="34" claim_preamble="The assembly" claimNumber="12" depends_on="1">
+<claim-text gate:gateId="48">12. The assembly of <claim-ref gate:gateId="49" idref="CLM-00001">claim 1</claim-ref> , wherein the bottom portion defines a bottom surface, and wherein the supply port and the exhaust port extend through insert to the bottom surface.</claim-text>
+</claim>
+<claim gate:gateId="50" id="CLM-00013" body="the second flow channel comprises a plurality of flow channels.
+" claimType="dependent" num="00013" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="20" claim_preamble="The assembly" claimNumber="13" depends_on="1">
+<claim-text gate:gateId="51">13. The assembly of <claim-ref gate:gateId="52" idref="CLM-00001">claim 1</claim-ref> , wherein the second flow channel comprises a plurality of flow channels.</claim-text>
+</claim>
+<us-patent-grant gate:gateId="53" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08501462-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130723" lang="EN" country="US"></us-patent-grant></claims>

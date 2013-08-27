@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="5239" id="claims" numberDependentClaims="0" numberIndependentClaims="96">
+<claim gate:gateId="1" id="CLM-00001" body="a liquid crystal panel to display a character having a tilted or curved stroke, the liquid crystal panel including a plurality of original physical pixels arranged in a matrix array, the method comprising:
+dividing each original physical pixel into three color dots of red, green and blue;
+forming a plurality of display units, wherein each display unit includes three horizontally consecutive color dots, and at least one of the plurality of display units includes color dots from two of the original physical pixels;
+constructing a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the step of constructing the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke, the plurality of straight line segments including at least one of: a first straight line segment with a slope of
+
+
+
+
+
+  
+    
+      n
+      ×
+      h
+    
+    
+      
+        (
+        
+          n
+          +
+          2
+        
+        )
+      
+      ×
+      w
+    
+  
+  ,
+
+
+
+
+and a second straight line segment with a slope of
+
+
+
+
+
+
+  
+    
+      m
+      ×
+      h
+    
+    
+      
+        (
+        
+          
+            3
+            ⁢
+            m
+          
+          -
+          1
+        
+        )
+      
+      ×
+      w
+    
+  
+  ,
+
+
+
+
+wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and
+
+driving the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically adjacent to each other and are horizontally offset by one or two color dots with respect to each other.
+
+" num="00001" claimType="independent" transPhrase=" for controlling " claimSize="294" claimNumber="1" claim_preamble="A method">
+<claim-text gate:gateId="2">1. A method for controlling a liquid crystal panel to display a character having a tilted or curved stroke, the liquid crystal panel including a plurality of original physical pixels arranged in a matrix array, the method comprising:
+<claim-text gate:gateId="3">dividing each original physical pixel into three color dots of red, green and blue;</claim-text>
+<claim-text gate:gateId="4">forming a plurality of display units, wherein each display unit includes three horizontally consecutive color dots, and at least one of the plurality of display units includes color dots from two of the original physical pixels;</claim-text>
+<claim-text gate:gateId="5">constructing a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the step of constructing the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke, the plurality of straight line segments including at least one of: a first straight line segment with a slope of</claim-text>
+</claim-text>
+<claim-text gate:gateId="6">
+<maths gate:gateId="7" id="MATH-US-00007" num="00007">
+<math gate:gateId="8" overflow="scroll">
+<mrow gate:gateId="9">
+  <mfrac gate:gateId="10">
+    <mrow gate:gateId="11">
+      <mi gate:gateId="12">n</mi>
+      <mo gate:gateId="13">×</mo>
+      <mi gate:gateId="14">h</mi>
+    </mrow>
+    <mrow gate:gateId="15">
+      <mrow gate:gateId="16">
+        <mo gate:gateId="17">(</mo>
+        <mrow gate:gateId="18">
+          <mi gate:gateId="19">n</mi>
+          <mo gate:gateId="20">+</mo>
+          <mn gate:gateId="21">2</mn>
+        </mrow>
+        <mo gate:gateId="22">)</mo>
+      </mrow>
+      <mo gate:gateId="23">×</mo>
+      <mi gate:gateId="24">w</mi>
+    </mrow>
+  </mfrac>
+  <mo gate:gateId="25">,</mo>
+</mrow>
+</math>
+</maths>
+<claim-text gate:gateId="26">
+<claim-text gate:gateId="27">and a second straight line segment with a slope of</claim-text>
+</claim-text>
+</claim-text>
+<claim-text gate:gateId="28">
+<maths gate:gateId="29" id="MATH-US-00008" num="00008">
+<math gate:gateId="30" overflow="scroll">
+<mrow gate:gateId="31">
+  <mfrac gate:gateId="32">
+    <mrow gate:gateId="33">
+      <mi gate:gateId="34">m</mi>
+      <mo gate:gateId="35">×</mo>
+      <mi gate:gateId="36">h</mi>
+    </mrow>
+    <mrow gate:gateId="37">
+      <mrow gate:gateId="38">
+        <mo gate:gateId="39">(</mo>
+        <mrow gate:gateId="40">
+          <mrow gate:gateId="41">
+            <mn gate:gateId="42">3</mn>
+            <mo gate:gateId="43">⁢</mo>
+            <mi gate:gateId="44">m</mi>
+          </mrow>
+          <mo gate:gateId="45">-</mo>
+          <mn gate:gateId="46">1</mn>
+        </mrow>
+        <mo gate:gateId="47">)</mo>
+      </mrow>
+      <mo gate:gateId="48">×</mo>
+      <mi gate:gateId="49">w</mi>
+    </mrow>
+  </mfrac>
+  <mo gate:gateId="50">,</mo>
+</mrow>
+</math>
+</maths>
+<claim-text gate:gateId="51">
+<claim-text gate:gateId="52">wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and</claim-text>
+</claim-text>
+<claim-text gate:gateId="53">driving the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically adjacent to each other and are horizontally offset by one or two color dots with respect to each other.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="54" id="CLM-00002" body="comprising:
+obtaining an untreated lattice diagram of the tilted or curved stroke;
+shifting at least two of the original physical pixels which are vertically adjacent to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to one or two color dots; and
+replacing at least one of the original physical pixels with the shifted pixels.
+
+" claimType="dependent" num="00002" claimBackReference="according to claim 1 ," transPhrase="further comprises " claimSize="85" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="55">2. The method according to <claim-ref gate:gateId="56" idref="CLM-00001">claim 1</claim-ref> , further comprises comprising:
+<claim-text gate:gateId="57">obtaining an untreated lattice diagram of the tilted or curved stroke;</claim-text>
+<claim-text gate:gateId="58">shifting at least two of the original physical pixels which are vertically adjacent to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to one or two color dots; and</claim-text>
+<claim-text gate:gateId="59">replacing at least one of the original physical pixels with the shifted pixels.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="60" id="CLM-00003" body="the lattice diagram is constructed and created in real time when displaying the character.
+" claimType="dependent" num="00003" claimBackReference="according to claim 1 ," transPhrase="wherein " claimSize="25" claim_preamble="The method" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="61">3. The method according to <claim-ref gate:gateId="62" idref="CLM-00001">claim 1</claim-ref> , wherein the lattice diagram is constructed and created in real time when displaying the character.</claim-text>
+</claim>
+<claim gate:gateId="63" id="CLM-00004" body="at least one of the plurality of display units is formed by three color dots of green, blue and red which are horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots which are horizontally consecutively positioned in a sequence of blue, red and green color dots.
+" claimType="dependent" num="00004" claimBackReference="according to claim 1 ," transPhrase="wherein " claimSize="71" claim_preamble="The method" claimNumber="4" depends_on="1">
+<claim-text gate:gateId="64">4. The method according to <claim-ref gate:gateId="65" idref="CLM-00001">claim 1</claim-ref> , wherein at least one of the plurality of display units is formed by three color dots of green, blue and red which are horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots which are horizontally consecutively positioned in a sequence of blue, red and green color dots.</claim-text>
+</claim>
+<claim gate:gateId="66" id="CLM-00005" body="the character is a Chinese character.
+" claimType="dependent" num="00005" claimBackReference="according to claim 1 ," transPhrase="wherein " claimSize="17" claim_preamble="The method" claimNumber="5" depends_on="1">
+<claim-text gate:gateId="67">5. The method according to <claim-ref gate:gateId="68" idref="CLM-00001">claim 1</claim-ref> , wherein the character is a Chinese character.</claim-text>
+</claim>
+<claim gate:gateId="69" id="CLM-00006" body="a liquid crystal panel comprising a plurality of original physical pixels arranged in a matrix array; and
+a display control unit configured to control the liquid crystal panel to display an input character having a tilted or curved stroke, wherein the display control unit configured to:
+divide each original physical pixel into three color dots of red, green and blue;
+use three horizontally consecutive positioned color dots to form each of a plurality of display units irrespective of whether the three color dots are from the same original physical pixel;
+construct a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the constructing step of the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments comprising at least one of: a first straight line segment with a slope of
+
+
+
+
+
+
+  
+    
+      n
+      ×
+      h
+    
+    
+      
+        (
+        
+          n
+          +
+          2
+        
+        )
+      
+      ×
+      w
+    
+  
+  ,
+
+
+
+
+
+and a second straight line segment with a slope of
+
+
+
+
+
+
+
+  
+    
+      m
+      ×
+      h
+    
+    
+      
+        (
+        
+          
+            3
+            ⁢
+            m
+          
+          -
+          1
+        
+        )
+      
+      ×
+      w
+    
+  
+  ,
+
+
+
+
+
+wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and
+
+control the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically next to each other and are horizontally offset by at most two color dots with respect to each other.
+
+
+" num="00006" claimType="independent" transPhrase=", comprising:
+" claimSize="305" claimNumber="6" claim_preamble="A display device">
+<claim-text gate:gateId="70">6. A display device, comprising:
+<claim-text gate:gateId="71">a liquid crystal panel comprising a plurality of original physical pixels arranged in a matrix array; and</claim-text>
+<claim-text gate:gateId="72">a display control unit configured to control the liquid crystal panel to display an input character having a tilted or curved stroke, wherein the display control unit configured to:
+<claim-text gate:gateId="73">divide each original physical pixel into three color dots of red, green and blue;</claim-text>
+<claim-text gate:gateId="74">use three horizontally consecutive positioned color dots to form each of a plurality of display units irrespective of whether the three color dots are from the same original physical pixel;</claim-text>
+<claim-text gate:gateId="75">construct a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the constructing step of the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments comprising at least one of: a first straight line segment with a slope of</claim-text>
+</claim-text>
+</claim-text>
+<claim-text gate:gateId="76">
+<maths gate:gateId="77" id="MATH-US-00009" num="00009">
+<math gate:gateId="78" overflow="scroll">
+<mrow gate:gateId="79">
+  <mfrac gate:gateId="80">
+    <mrow gate:gateId="81">
+      <mi gate:gateId="82">n</mi>
+      <mo gate:gateId="83">×</mo>
+      <mi gate:gateId="84">h</mi>
+    </mrow>
+    <mrow gate:gateId="85">
+      <mrow gate:gateId="86">
+        <mo gate:gateId="87">(</mo>
+        <mrow gate:gateId="88">
+          <mi gate:gateId="89">n</mi>
+          <mo gate:gateId="90">+</mo>
+          <mn gate:gateId="91">2</mn>
+        </mrow>
+        <mo gate:gateId="92">)</mo>
+      </mrow>
+      <mo gate:gateId="93">×</mo>
+      <mi gate:gateId="94">w</mi>
+    </mrow>
+  </mfrac>
+  <mo gate:gateId="95">,</mo>
+</mrow>
+</math>
+</maths>
+<claim-text gate:gateId="96">
+<claim-text gate:gateId="97">
+<claim-text gate:gateId="98">and a second straight line segment with a slope of</claim-text>
+</claim-text>
+</claim-text>
+</claim-text>
+<claim-text gate:gateId="99">
+<maths gate:gateId="100" id="MATH-US-00010" num="00010">
+<math gate:gateId="101" overflow="scroll">
+<mrow gate:gateId="102">
+  <mfrac gate:gateId="103">
+    <mrow gate:gateId="104">
+      <mi gate:gateId="105">m</mi>
+      <mo gate:gateId="106">×</mo>
+      <mi gate:gateId="107">h</mi>
+    </mrow>
+    <mrow gate:gateId="108">
+      <mrow gate:gateId="109">
+        <mo gate:gateId="110">(</mo>
+        <mrow gate:gateId="111">
+          <mrow gate:gateId="112">
+            <mn gate:gateId="113">3</mn>
+            <mo gate:gateId="114">⁢</mo>
+            <mi gate:gateId="115">m</mi>
+          </mrow>
+          <mo gate:gateId="116">-</mo>
+          <mn gate:gateId="117">1</mn>
+        </mrow>
+        <mo gate:gateId="118">)</mo>
+      </mrow>
+      <mo gate:gateId="119">×</mo>
+      <mi gate:gateId="120">w</mi>
+    </mrow>
+  </mfrac>
+  <mo gate:gateId="121">,</mo>
+</mrow>
+</math>
+</maths>
+<claim-text gate:gateId="122">
+<claim-text gate:gateId="123">
+<claim-text gate:gateId="124">wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and</claim-text>
+</claim-text>
+<claim-text gate:gateId="125">control the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically next to each other and are horizontally offset by at most two color dots with respect to each other.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="126" id="CLM-00007" body="the display control unit is configured to perform the steps of:
+obtaining an untreated lattice diagram of the tilted or curved stroke; and
+shifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.
+
+" claimType="dependent" num="00007" claimBackReference="according to claim 6 ," transPhrase="wherein " claimSize="81" claim_preamble="The display device" claimNumber="7" depends_on="6">
+<claim-text gate:gateId="127">7. The display device according to <claim-ref gate:gateId="128" idref="CLM-00006">claim 6</claim-ref> , wherein the display control unit is configured to perform the steps of:
+<claim-text gate:gateId="129">obtaining an untreated lattice diagram of the tilted or curved stroke; and</claim-text>
+<claim-text gate:gateId="130">shifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="131" id="CLM-00008" body="the lattice diagram is pre-created and is stored in a storage medium.
+" claimType="dependent" num="00008" claimBackReference="according to claim 6 ," transPhrase="wherein " claimSize="24" claim_preamble="The display device" claimNumber="8" depends_on="6">
+<claim-text gate:gateId="132">8. The display device according to <claim-ref gate:gateId="133" idref="CLM-00006">claim 6</claim-ref> , wherein the lattice diagram is pre-created and is stored in a storage medium.</claim-text>
+</claim>
+<claim gate:gateId="134" id="CLM-00009" body="the lattice diagram is created in real time when displaying the character.
+" claimType="dependent" num="00009" claimBackReference="according to claim 6 ," transPhrase="wherein " claimSize="24" claim_preamble="The display device" claimNumber="9" depends_on="6">
+<claim-text gate:gateId="135">9. The display device according to <claim-ref gate:gateId="136" idref="CLM-00006">claim 6</claim-ref> , wherein the lattice diagram is created in real time when displaying the character.</claim-text>
+</claim>
+<claim gate:gateId="137" id="CLM-00010" body="at least one of the plurality of display units is formed by three color dots horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots horizontally consecutively positioned in a sequence of blue, red and green color dots.
+" claimType="dependent" num="00010" claimBackReference="according claim 6 ," transPhrase="wherein " claimSize="61" claim_preamble="The display device" claimNumber="10" depends_on="6">
+<claim-text gate:gateId="138">10. The display device according <claim-ref gate:gateId="139" idref="CLM-00006">claim 6</claim-ref> , wherein at least one of the plurality of display units is formed by three color dots horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots horizontally consecutively positioned in a sequence of blue, red and green color dots.</claim-text>
+</claim>
+<claim gate:gateId="140" id="CLM-00011" body="the input character is a Chinese character.
+" claimType="dependent" num="00011" claimBackReference="according to claim 6 ," transPhrase="wherein " claimSize="19" claim_preamble="The display device" claimNumber="11" depends_on="6">
+<claim-text gate:gateId="141">11. The display device according to <claim-ref gate:gateId="142" idref="CLM-00006">claim 6</claim-ref> , wherein the input character is a Chinese character.</claim-text>
+</claim>
+<claim gate:gateId="143" id="CLM-00012" body="a computer system to display content, the computer system including a liquid crystal display, a main unit and an input system, the liquid crystal display having a plurality of original physical pixels arranged in a matrix array, each original physical pixel formed by three horizontally consecutive color dots of red, green, and blue, the method comprising steps of:
+generating a lattice diagram, wherein the step of generating the lattice diagram comprises:
+dividing each original physical pixel into three color dots of red, green and blue;
+forming a plurality of display units, each display unit including three horizontally consecutive color dots, at least one of the plurality of display units including color dots from two of the original physical pixels;
+using the plurality of display units to construct the lattice diagram, by using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments including at least one of: a first straight line segment with a slope of
+
+
+
+
+
+
+  
+    
+      n
+      ×
+      h
+    
+    
+      
+        (
+        
+          n
+          +
+          2
+        
+        )
+      
+      ×
+      w
+    
+  
+  ,
+
+
+
+
+
+and a second straight line segment with a slope of
+
+
+
+
+
+
+
+  
+    
+      m
+      ×
+      h
+    
+    
+      
+        (
+        
+          
+            3
+            ⁢
+            m
+          
+          -
+          1
+        
+        )
+      
+      ×
+      w
+    
+  
+  ,
+
+
+
+
+
+wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and
+
+storing the constructed lattice diagram in the main unit of the computer system;
+
+using the input system to input a character; and
+determining whether the input character has a tilted or curved stroke, wherein the step of determining whether the input character has a titled or curved stroke comprises:
+if the input character has a tilted or curved stroke, using the constructed lattice diagram to control the liquid crystal display to display the input character;
+if the input character has no tilted or curved stroke, using an untreated lattice diagram stored in the main unit to control the liquid crystal display to display the input character, and using the original physical pixels of the untreated lattice diagram to form the character.
+
+" num="00012" claimType="independent" transPhrase=" for using " claimSize="406" claimNumber="12" claim_preamble="A method">
+<claim-text gate:gateId="144">12. A method for using a computer system to display content, the computer system including a liquid crystal display, a main unit and an input system, the liquid crystal display having a plurality of original physical pixels arranged in a matrix array, each original physical pixel formed by three horizontally consecutive color dots of red, green, and blue, the method comprising steps of:
+<claim-text gate:gateId="145">generating a lattice diagram, wherein the step of generating the lattice diagram comprises:
+<claim-text gate:gateId="146">dividing each original physical pixel into three color dots of red, green and blue;</claim-text>
+<claim-text gate:gateId="147">forming a plurality of display units, each display unit including three horizontally consecutive color dots, at least one of the plurality of display units including color dots from two of the original physical pixels;</claim-text>
+<claim-text gate:gateId="148">using the plurality of display units to construct the lattice diagram, by using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments including at least one of: a first straight line segment with a slope of</claim-text>
+</claim-text>
+</claim-text>
+<claim-text gate:gateId="149">
+<maths gate:gateId="150" id="MATH-US-00011" num="00011">
+<math gate:gateId="151" overflow="scroll">
+<mrow gate:gateId="152">
+  <mfrac gate:gateId="153">
+    <mrow gate:gateId="154">
+      <mi gate:gateId="155">n</mi>
+      <mo gate:gateId="156">×</mo>
+      <mi gate:gateId="157">h</mi>
+    </mrow>
+    <mrow gate:gateId="158">
+      <mrow gate:gateId="159">
+        <mo gate:gateId="160">(</mo>
+        <mrow gate:gateId="161">
+          <mi gate:gateId="162">n</mi>
+          <mo gate:gateId="163">+</mo>
+          <mn gate:gateId="164">2</mn>
+        </mrow>
+        <mo gate:gateId="165">)</mo>
+      </mrow>
+      <mo gate:gateId="166">×</mo>
+      <mi gate:gateId="167">w</mi>
+    </mrow>
+  </mfrac>
+  <mo gate:gateId="168">,</mo>
+</mrow>
+</math>
+</maths>
+<claim-text gate:gateId="169">
+<claim-text gate:gateId="170">
+<claim-text gate:gateId="171">and a second straight line segment with a slope of</claim-text>
+</claim-text>
+</claim-text>
+</claim-text>
+<claim-text gate:gateId="172">
+<maths gate:gateId="173" id="MATH-US-00012" num="00012">
+<math gate:gateId="174" overflow="scroll">
+<mrow gate:gateId="175">
+  <mfrac gate:gateId="176">
+    <mrow gate:gateId="177">
+      <mi gate:gateId="178">m</mi>
+      <mo gate:gateId="179">×</mo>
+      <mi gate:gateId="180">h</mi>
+    </mrow>
+    <mrow gate:gateId="181">
+      <mrow gate:gateId="182">
+        <mo gate:gateId="183">(</mo>
+        <mrow gate:gateId="184">
+          <mrow gate:gateId="185">
+            <mn gate:gateId="186">3</mn>
+            <mo gate:gateId="187">⁢</mo>
+            <mi gate:gateId="188">m</mi>
+          </mrow>
+          <mo gate:gateId="189">-</mo>
+          <mn gate:gateId="190">1</mn>
+        </mrow>
+        <mo gate:gateId="191">)</mo>
+      </mrow>
+      <mo gate:gateId="192">×</mo>
+      <mi gate:gateId="193">w</mi>
+    </mrow>
+  </mfrac>
+  <mo gate:gateId="194">,</mo>
+</mrow>
+</math>
+</maths>
+<claim-text gate:gateId="195">
+<claim-text gate:gateId="196">
+<claim-text gate:gateId="197">wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and</claim-text>
+</claim-text>
+<claim-text gate:gateId="198">storing the constructed lattice diagram in the main unit of the computer system;</claim-text>
+</claim-text>
+<claim-text gate:gateId="199">using the input system to input a character; and</claim-text>
+<claim-text gate:gateId="200">determining whether the input character has a tilted or curved stroke, wherein the step of determining whether the input character has a titled or curved stroke comprises:</claim-text>
+<claim-text gate:gateId="201">if the input character has a tilted or curved stroke, using the constructed lattice diagram to control the liquid crystal display to display the input character;</claim-text>
+<claim-text gate:gateId="202">if the input character has no tilted or curved stroke, using an untreated lattice diagram stored in the main unit to control the liquid crystal display to display the input character, and using the original physical pixels of the untreated lattice diagram to form the character.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="203" id="CLM-00013" body="the step of generating the lattice diagram further comprises:
+obtaining an untreated lattice diagram of the tilted or curved stroke; and
+shifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.
+
+" claimType="dependent" num="00013" claimBackReference="according to claim 12 ," transPhrase="wherein " claimSize="78" claim_preamble="The method" claimNumber="13" depends_on="12">
+<claim-text gate:gateId="204">13. The method according to <claim-ref gate:gateId="205" idref="CLM-00012">claim 12</claim-ref> , wherein the step of generating the lattice diagram further comprises:
+<claim-text gate:gateId="206">obtaining an untreated lattice diagram of the tilted or curved stroke; and</claim-text>
+<claim-text gate:gateId="207">shifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="208" id="CLM-00014" body="the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of green, blue and red.
+" claimType="dependent" num="00014" claimBackReference="according claim 12 ," transPhrase="wherein " claimSize="33" claim_preamble="The method" claimNumber="14" depends_on="12">
+<claim-text gate:gateId="209">14. The method according <claim-ref gate:gateId="210" idref="CLM-00012">claim 12</claim-ref> , wherein the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of green, blue and red.</claim-text>
+</claim>
+<claim gate:gateId="211" id="CLM-00015" body="the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of blue, red and green.
+" claimType="dependent" num="00015" claimBackReference="according claim 12 ," transPhrase="wherein " claimSize="33" claim_preamble="The method" claimNumber="15" depends_on="12">
+<claim-text gate:gateId="212">15. The method according <claim-ref gate:gateId="213" idref="CLM-00012">claim 12</claim-ref> , wherein the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of blue, red and green.</claim-text>
+</claim>
+<claim gate:gateId="214" id="CLM-00016" body="the input character is a Chinese character. 
+" claimType="dependent" num="00016" claimBackReference="according to claim 12 ," transPhrase="wherein " claimSize="18" claim_preamble="The method" claimNumber="16" depends_on="12">
+<claim-text gate:gateId="215">16. The method according to <claim-ref gate:gateId="216" idref="CLM-00012">claim 12</claim-ref> , wherein the input character is a Chinese character. </claim-text>
+</claim>
+<us-patent-grant gate:gateId="217" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08502824-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130723" lang="EN" country="US"></us-patent-grant></claims>

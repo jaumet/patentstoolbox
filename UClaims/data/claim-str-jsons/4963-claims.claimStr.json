@@ -1,0 +1,424 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503890-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 59,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1843,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "device comprising:\na filter module for receiving a multi-channel signal comprising:\nat least two band pass filters configured for filtering the multi-channel signal and outputting a single channel signal respectively;\na first selector selectively coupled to one of the band pass filter to output the selected single channel signal;\n\na demodulation module coupled to the filter module, configured for demodulating the selected single channel signal and outputting a demodulated signal, the demodulation module further comprising:\na demodulator;\nat least two resonators corresponding to the band pass filters;\na second selector configured between the demodulator and the resonators configured for selectively coupling the demodulator with the resonators; and\n\na band control module coupled to the first selector and the second selector configured for controlling the coupling of the first selector and the band pass filters and the corresponding coupling of the demodulator and the resonators by the second selector.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " processing ",
+            "claimSize": 164,
+            "gate:gateId": 1,
+            "claim_preamble": "A signal",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A signal processing device comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a filter module for receiving a multi-channel signal comprising:",
+                        "gate:gateId": 3,
+                        "claim-text": [
+                            {
+                                "content": "at least two band pass filters configured for filtering the multi-channel signal and outputting a single channel signal respectively;",
+                                "gate:gateId": 4
+                            },
+                            {
+                                "content": "a first selector selectively coupled to one of the band pass filter to output the selected single channel signal;",
+                                "gate:gateId": 5
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a demodulation module coupled to the filter module, configured for demodulating the selected single channel signal and outputting a demodulated signal, the demodulation module further comprising:",
+                        "gate:gateId": 6,
+                        "claim-text": [
+                            {
+                                "content": "a demodulator;",
+                                "gate:gateId": 7
+                            },
+                            {
+                                "content": "at least two resonators corresponding to the band pass filters;",
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": "a second selector configured between the demodulator and the resonators configured for selectively coupling the demodulator with the resonators; and",
+                                "gate:gateId": 9
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a band control module coupled to the first selector and the second selector configured for controlling the coupling of the first selector and the band pass filters and the corresponding coupling of the demodulator and the resonators by the second selector.",
+                        "gate:gateId": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the device further comprises an amplifier, coupled to the filter module, configured for amplifying the multi-channel signal.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 11,
+            "claimNumber": 2,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "2. The device of",
+                    "wherein the device further comprises an amplifier, coupled to the filter module, configured for amplifying the multi-channel signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the device further comprises a limiting amplifier, arranged between the filter module and the demodulation module, and configured for amplifying amplitude of the single channel signal.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 37,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "3. The device of",
+                    "wherein the device further comprises a limiting amplifier, arranged between the filter module and the demodulation module, and configured for amplifying amplitude of the single channel signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the device further comprises a filter, coupled to the demodulation module, configured for filtering the demodulated signal.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 17,
+            "claimNumber": 4,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "4. The device of",
+                    "wherein the device further comprises a filter, coupled to the demodulation module, configured for filtering the demodulated signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the device further comprises a baseband amplifier, coupled to the demodulation module, configured for amplifying the demodulated signal.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 20,
+            "claimNumber": 5,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "5. The device of",
+                    "wherein the device further comprises a baseband amplifier, coupled to the demodulation module, configured for amplifying the demodulated signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "an optical sensor configured for transducing an infrared multi-channel signal to an electrical multi-channel signal;\na filter module, coupled to the optical sensor, further comprising:\nat least two band pass filters, coupled to the optical sensor, configured for filtering the multi-channel signal into plurality of single channel signals;\na first selector, selectively coupled to one of the band pass filters, configured for outputting a selected single channel signal;\n\nan amplifier, coupled to the filter module, configured for amplifying the selected single channel signal;\na demodulation module, coupled to the amplifier, configured for outputting a demodulated signal, further comprising:\na demodulator;\nat least two resonators corresponding to the band pass filters; and\na second selector selecting one of the resonators to couple to the demodulator;\n\na band control module coupled to the first selector and the second selector and configured for controlling the coupling of the first selector and the band pass filters and the corresponding coupling of the demodulator and the resonators by the second selector.\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": ":\n",
+            "claimSize": 195,
+            "gate:gateId": 23,
+            "claim_preamble": "An infrared multi-channel receiver comprising",
+            "claimNumber": 6,
+            "claim-text": {
+                "content": "6. An infrared multi-channel receiver comprising:",
+                "gate:gateId": 24,
+                "claim-text": [
+                    {
+                        "content": "an optical sensor configured for transducing an infrared multi-channel signal to an electrical multi-channel signal;",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "a filter module, coupled to the optical sensor, further comprising:",
+                        "gate:gateId": 26,
+                        "claim-text": [
+                            {
+                                "content": "at least two band pass filters, coupled to the optical sensor, configured for filtering the multi-channel signal into plurality of single channel signals;",
+                                "gate:gateId": 27
+                            },
+                            {
+                                "content": "a first selector, selectively coupled to one of the band pass filters, configured for outputting a selected single channel signal;",
+                                "gate:gateId": 28
+                            }
+                        ]
+                    },
+                    {
+                        "content": "an amplifier, coupled to the filter module, configured for amplifying the selected single channel signal;",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "a demodulation module, coupled to the amplifier, configured for outputting a demodulated signal, further comprising:",
+                        "gate:gateId": 30,
+                        "claim-text": [
+                            {
+                                "content": "a demodulator;",
+                                "gate:gateId": 31
+                            },
+                            {
+                                "content": "at least two resonators corresponding to the band pass filters; and",
+                                "gate:gateId": 32
+                            },
+                            {
+                                "content": "a second selector selecting one of the resonators to couple to the demodulator;",
+                                "gate:gateId": 33
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a band control module coupled to the first selector and the second selector and configured for controlling the coupling of the first selector and the band pass filters and the corresponding coupling of the demodulator and the resonators by the second selector.",
+                        "gate:gateId": 34
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00007",
+            "body": "an amplifier, arranged between the optical sensor and the filter module, configured for amplifying the electrical multi-channel signal.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 30,
+            "gate:gateId": 35,
+            "claimNumber": 7,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "7. The receiver of",
+                    "further comprising an amplifier, arranged between the optical sensor and the filter module, configured for amplifying the electrical multi-channel signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a filter, coupled to the demodulation module, configured for filtering the demodulated signal.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 25,
+            "gate:gateId": 38,
+            "claimNumber": 8,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "8. The receiver of",
+                    "further comprising a filter, coupled to the demodulation module, configured for filtering the demodulated signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a baseband amplifier, coupled to the demodulation module, configured for amplifying the demodulated signal.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 26,
+            "gate:gateId": 41,
+            "claimNumber": 9,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "9. The receiver of",
+                    "further comprising a baseband amplifier, coupled to the demodulation module, configured for amplifying the demodulated signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the amplifier coupled to the filter module further configured for generating a received signal strength indicator signal.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 26,
+            "gate:gateId": 44,
+            "claimNumber": 10,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "10. The receiver of",
+                    "wherein the amplifier coupled to the filter module further configured for generating a received signal strength indicator signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a mute module, coupled to the amplifier, configured for comparing the received signal strength indicator signal with a threshold level and turning off the baseband amplifier when the received signal strength indicator signal is lower than the threshold level.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 51,
+            "gate:gateId": 47,
+            "claimNumber": 11,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "11. The receiver of",
+                    "further comprising a mute module, coupled to the amplifier, configured for comparing the received signal strength indicator signal with a threshold level and turning off the baseband amplifier when the received signal strength indicator signal is lower than the threshold level."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the mute module also sending out a turn off signal when turning off the baseband amplifier.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 25,
+            "gate:gateId": 50,
+            "claimNumber": 12,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "12. The receiver of",
+                    "wherein the mute module also sending out a turn off signal when turning off the baseband amplifier."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "a power management block coupled to the mute module wherein the power management block comprises:\na power management module;\na bias module, coupled to the power management module, configured for biasing the infrared multi-channel receiver; and\na power switch, coupled to the power management module, configured for sending a first trigger signal to the power management module to control the on/off state of the bias module.\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 85,
+            "gate:gateId": 53,
+            "claimNumber": 13,
+            "claim_preamble": "The receiver",
+            "claim-text": {
+                "content": [
+                    "13. The receiver of",
+                    "further comprising a power management block coupled to the mute module wherein the power management block comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 54,
+                "claim-text": [
+                    {
+                        "content": "a power management module;",
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": "a bias module, coupled to the power management module, configured for biasing the infrared multi-channel receiver; and",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "a power switch, coupled to the power management module, configured for sending a first trigger signal to the power management module to control the on/off state of the bias module.",
+                        "gate:gateId": 58
+                    }
+                ]
+            },
+            "depends_on": 6
+        }
+    ],
+    "numberIndependentClaims": 198
+}}

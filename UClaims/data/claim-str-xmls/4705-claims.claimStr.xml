@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="4320" id="claims" numberDependentClaims="0" numberIndependentClaims="195">
+<claim gate:gateId="1" id="CLM-00001" body="a telecommunications system of an Internet fax system, an inbound fax call having associated therewith a source address, a destination address and a fax signal, wherein the destination address corresponds to a particular subscriber of the Internet fax system;
+switching, by the telecommunications system, the inbound fax call to a call mediation system of a plurality of call mediation systems within the Internet fax system;
+determining, by the call mediation system, desired fax protocol technical call processing capabilities for processing the fax signal based on a plurality of the source address, the destination address and whether the inbound fax call was received through a circuit-switched or packet-switched connection;
+identifying, by the call mediation system a subset of fax processing resources of a plurality of fax processing resources associated with the call mediation system that have the desired fax protocol technical call processing capabilities;
+switching, by the call mediation system, the inbound fax call to a selected fax processing resource of the subset of fax processing resources;
+translating, by the selected fax processing resource, the fax signal into a digital representation; and
+causing the digital representation to be delivered or otherwise made available to one or more users associated with the particular subscriber.
+
+" num="00001" claimType="independent" transPhrase=":
+receiving, at " claimSize="231" claimNumber="1" claim_preamble="A method comprising">
+<claim-text gate:gateId="2">1. A method comprising:
+<claim-text gate:gateId="3">receiving, at a telecommunications system of an Internet fax system, an inbound fax call having associated therewith a source address, a destination address and a fax signal, wherein the destination address corresponds to a particular subscriber of the Internet fax system;</claim-text>
+<claim-text gate:gateId="4">switching, by the telecommunications system, the inbound fax call to a call mediation system of a plurality of call mediation systems within the Internet fax system;</claim-text>
+<claim-text gate:gateId="5">determining, by the call mediation system, desired fax protocol technical call processing capabilities for processing the fax signal based on a plurality of the source address, the destination address and whether the inbound fax call was received through a circuit-switched or packet-switched connection;</claim-text>
+<claim-text gate:gateId="6">identifying, by the call mediation system a subset of fax processing resources of a plurality of fax processing resources associated with the call mediation system that have the desired fax protocol technical call processing capabilities;</claim-text>
+<claim-text gate:gateId="7">switching, by the call mediation system, the inbound fax call to a selected fax processing resource of the subset of fax processing resources;</claim-text>
+<claim-text gate:gateId="8">translating, by the selected fax processing resource, the fax signal into a digital representation; and</claim-text>
+<claim-text gate:gateId="9">causing the digital representation to be delivered or otherwise made available to one or more users associated with the particular subscriber.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00002" body="switching, by the telecommunications system, the inbound fax call to a call mediation system further comprises performing round-robin load balancing among the plurality of call mediation systems.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", wherein said " claimSize="40" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="11">2. The method of <claim-ref gate:gateId="12" idref="CLM-00001">claim 1</claim-ref> , wherein said switching, by the telecommunications system, the inbound fax call to a call mediation system further comprises performing round-robin load balancing among the plurality of call mediation systems.</claim-text>
+</claim>
+<claim gate:gateId="13" id="CLM-00003" body="the plurality of call mediation systems comprise a plurality of private branch exchanges (PBXs), wherein said switching, by the telecommunications system, the inbound fax call to a call mediation system comprises switching the inbound fax call to a PBX of the plurality of PBXs and wherein said switching, by the call mediation system, the inbound fax call to a selected fax processing resource comprises calling a digital access cross connect system (DACS) logically interposed between the PBX and the fax processing resource.
+" claimType="dependent" num="00003" claimBackReference="of claim 2" transPhrase=", wherein " claimSize="101" claim_preamble="The method" claimNumber="3" depends_on="2">
+<claim-text gate:gateId="14">3. The method of <claim-ref gate:gateId="15" idref="CLM-00002">claim 2</claim-ref> , wherein the plurality of call mediation systems comprise a plurality of private branch exchanges (PBXs), wherein said switching, by the telecommunications system, the inbound fax call to a call mediation system comprises switching the inbound fax call to a PBX of the plurality of PBXs and wherein said switching, by the call mediation system, the inbound fax call to a selected fax processing resource comprises calling a digital access cross connect system (DACS) logically interposed between the PBX and the fax processing resource.</claim-text>
+</claim>
+<claim gate:gateId="16" id="CLM-00004" body="a decision, by the PBX switch, whether to accept or reject the inbound fax call based on one or more of the source address, the destination address and a specific circuit or packet switched connection through which the inbound fax call was received.
+" claimType="dependent" num="00004" claimBackReference="of claim 3" transPhrase=", further comprising prior to said determining, making " claimSize="63" claim_preamble="The method" claimNumber="4" depends_on="3">
+<claim-text gate:gateId="17">4. The method of <claim-ref gate:gateId="18" idref="CLM-00003">claim 3</claim-ref> , further comprising prior to said determining, making a decision, by the PBX switch, whether to accept or reject the inbound fax call based on one or more of the source address, the destination address and a specific circuit or packet switched connection through which the inbound fax call was received.</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00005" body="the PBX remaining in a call path of the inbound fax call until completion of the inbound fax call and upon the completion the PBX recording billing information in a database.
+" claimType="dependent" num="00005" claimBackReference="of claim 4" transPhrase=", further comprising " claimSize="42" claim_preamble="The method" claimNumber="5" depends_on="4">
+<claim-text gate:gateId="20">5. The method of <claim-ref gate:gateId="21" idref="CLM-00004">claim 4</claim-ref> , further comprising the PBX remaining in a call path of the inbound fax call until completion of the inbound fax call and upon the completion the PBX recording billing information in a database.</claim-text>
+</claim>
+<claim gate:gateId="22" id="CLM-00006" body="a delivery method to employ in connection with delivery of the digital representation to the one or more users based on the destination address or user account specific preferences associated with the one or more users.
+" claimType="dependent" num="00006" claimBackReference="of claim 1" transPhrase=", further comprising determining " claimSize="48" claim_preamble="The method" claimNumber="6" depends_on="1">
+<claim-text gate:gateId="23">6. The method of <claim-ref gate:gateId="24" idref="CLM-00001">claim 1</claim-ref> , further comprising determining a delivery method to employ in connection with delivery of the digital representation to the one or more users based on the destination address or user account specific preferences associated with the one or more users.</claim-text>
+</claim>
+<claim gate:gateId="25" id="CLM-00007" body="the determined delivery method is electronic mail (email) delivery.
+" claimType="dependent" num="00007" claimBackReference="of claim 6" transPhrase=", wherein " claimSize="21" claim_preamble="The method" claimNumber="7" depends_on="6">
+<claim-text gate:gateId="26">7. The method of <claim-ref gate:gateId="27" idref="CLM-00006">claim 6</claim-ref> , wherein the determined delivery method is electronic mail (email) delivery.</claim-text>
+</claim>
+<claim gate:gateId="28" id="CLM-00008" body="the determined delivery method is delivery via a web site associated with the Internet fax system.
+" claimType="dependent" num="00008" claimBackReference="of claim 6" transPhrase=", wherein " claimSize="26" claim_preamble="The method" claimNumber="8" depends_on="6">
+<claim-text gate:gateId="29">8. The method of <claim-ref gate:gateId="30" idref="CLM-00006">claim 6</claim-ref> , wherein the determined delivery method is delivery via a web site associated with the Internet fax system.</claim-text>
+</claim>
+<claim gate:gateId="31" id="CLM-00009" body="the determined delivery method is delivery via an application programming interface (API) associated with the Internet fax system.
+" claimType="dependent" num="00009" claimBackReference="of claim 6" transPhrase=", wherein " claimSize="30" claim_preamble="The method" claimNumber="9" depends_on="6">
+<claim-text gate:gateId="32">9. The method of <claim-ref gate:gateId="33" idref="CLM-00006">claim 6</claim-ref> , wherein the determined delivery method is delivery via an application programming interface (API) associated with the Internet fax system.</claim-text>
+</claim>
+<claim gate:gateId="34" id="CLM-00010" body="the API supports programmatic listing of a plurality of received faxes and programmatic downloading of a received fax of the plurality of received faxes.
+" claimType="dependent" num="00010" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="34" claim_preamble="The method" claimNumber="10" depends_on="9">
+<claim-text gate:gateId="35">10. The method of <claim-ref gate:gateId="36" idref="CLM-00009">claim 9</claim-ref> , wherein the API supports programmatic listing of a plurality of received faxes and programmatic downloading of a received fax of the plurality of received faxes.</claim-text>
+</claim>
+<claim gate:gateId="37" id="CLM-00011" body="a web services interface of the Internet fax system a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber that conveys a request for a list of received faxes.
+" claimType="dependent" num="00011" claimBackReference="of claim 9" transPhrase=", further comprising receiving by " claimSize="54" claim_preamble="The method" claimNumber="11" depends_on="9">
+<claim-text gate:gateId="38">11. The method of <claim-ref gate:gateId="39" idref="CLM-00009">claim 9</claim-ref> , further comprising receiving by a web services interface of the Internet fax system a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber that conveys a request for a list of received faxes.</claim-text>
+</claim>
+<claim gate:gateId="40" id="CLM-00012" body="a web services interface of the Internet fax system a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber that conveys a request for retrieval of a particular received fax.
+" claimType="dependent" num="00012" claimBackReference="of claim 9" transPhrase=", further comprising receiving by " claimSize="55" claim_preamble="The method" claimNumber="12" depends_on="9">
+<claim-text gate:gateId="41">12. The method of <claim-ref gate:gateId="42" idref="CLM-00009">claim 9</claim-ref> , further comprising receiving by a web services interface of the Internet fax system a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber that conveys a request for retrieval of a particular received fax.</claim-text>
+</claim>
+<claim gate:gateId="43" id="CLM-00013" body="a set of instructions, which when executed by one or more processors of a call mediation system of an Internet fax system, cause the one or more processors to perform a method comprising:
+receiving, from a telecommunications system of the Internet fax system, an inbound fax call having associated therewith a source address, a destination address and a fax signal, wherein the destination address corresponds to a particular subscriber of the Internet fax system;
+determining desired fax protocol technical call processing capabilities for processing the fax signal based on a plurality of the source address, the destination address and whether the inbound fax call was received through a circuit-switched or packet-switched connection;
+identifying a subset of fax processing resources of a plurality of fax processing resources associated with the call mediation system that have the desired fax protocol technical call processing capabilities;
+causing a digital representation of the fax signal to be delivered or otherwise made available to one or more users associated with the particular subscriber switching the inbound fax call to a selected fax processing resource of the subset of fax processing resources, which translates the fax signal into the digital representation.
+
+" num="00013" claimType="independent" transPhrase=" " claimSize="216" claimNumber="13" claim_preamble="A non-transitory computer-readable storage medium tangibly embodying">
+<claim-text gate:gateId="44">13. A non-transitory computer-readable storage medium tangibly embodying a set of instructions, which when executed by one or more processors of a call mediation system of an Internet fax system, cause the one or more processors to perform a method comprising:
+<claim-text gate:gateId="45">receiving, from a telecommunications system of the Internet fax system, an inbound fax call having associated therewith a source address, a destination address and a fax signal, wherein the destination address corresponds to a particular subscriber of the Internet fax system;</claim-text>
+<claim-text gate:gateId="46">determining desired fax protocol technical call processing capabilities for processing the fax signal based on a plurality of the source address, the destination address and whether the inbound fax call was received through a circuit-switched or packet-switched connection;</claim-text>
+<claim-text gate:gateId="47">identifying a subset of fax processing resources of a plurality of fax processing resources associated with the call mediation system that have the desired fax protocol technical call processing capabilities;</claim-text>
+<claim-text gate:gateId="48">causing a digital representation of the fax signal to be delivered or otherwise made available to one or more users associated with the particular subscriber switching the inbound fax call to a selected fax processing resource of the subset of fax processing resources, which translates the fax signal into the digital representation.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="49" id="CLM-00014" body="the call mediation system comprises a private branch exchange (PBX) and wherein said switching comprises calling a digital access cross connect system (DACS) logically interposed between the PBX and the fax processing resource.
+" claimType="dependent" num="00014" claimBackReference="of claim 13" transPhrase=", wherein " claimSize="50" claim_preamble="The non-transitory computer-readable storage medium" claimNumber="14" depends_on="13">
+<claim-text gate:gateId="50">14. The non-transitory computer-readable storage medium of <claim-ref gate:gateId="51" idref="CLM-00013">claim 13</claim-ref> , wherein the call mediation system comprises a private branch exchange (PBX) and wherein said switching comprises calling a digital access cross connect system (DACS) logically interposed between the PBX and the fax processing resource.</claim-text>
+</claim>
+<claim gate:gateId="52" id="CLM-00015" body="the method further comprises remaining in a call path of the inbound fax call until completion of the inbound fax call and upon the completion recording billing information in a database.
+" claimType="dependent" num="00015" claimBackReference="of claim 14" transPhrase=", wherein " claimSize="44" claim_preamble="The non-transitory computer-readable storage medium" claimNumber="15" depends_on="14">
+<claim-text gate:gateId="53">15. The non-transitory computer-readable storage medium of <claim-ref gate:gateId="54" idref="CLM-00014">claim 14</claim-ref> , wherein the method further comprises remaining in a call path of the inbound fax call until completion of the inbound fax call and upon the completion recording billing information in a database.</claim-text>
+</claim>
+<claim gate:gateId="55" id="CLM-00016" body="a plurality of call mediation systems;
+a plurality of fax processing resources associated with each of the plurality of call mediation systems;
+a telecommunications system having a plurality of circuit and packet switched connections, the telecommunications system configured to receive an inbound fax call and switch the inbound fax call to a call mediation system of the plurality of call mediation systems, the inbound fax call having associated therewith a source address, a destination address and a fax signal, wherein the destination address corresponds to a particular subscriber of the Internet fax system;
+wherein the call mediation system:
+determines desired fax protocol technical call processing capabilities for processing the fax signal based on a plurality of the source address, the destination address and a type of connection of the plurality of circuit and packet switched connections through which the inbound fax call was received;
+identifies a subset of fax processing resources of the plurality of fax processing resources that has the desired fax protocol technical call processing capabilities; and
+switches the inbound fax call to a selected fax processing resource of the subset of fax processing resources; and
+
+wherein the selected fax processing resource translates the fax signal into a digital representation causes the digital representation to be delivered or otherwise made available to one or more users associated with the particular subscriber.
+
+" num="00016" claimType="independent" transPhrase=" comprising:
+" claimSize="244" claimNumber="16" claim_preamble="An Internet fax system">
+<claim-text gate:gateId="56">16. An Internet fax system comprising:
+<claim-text gate:gateId="57">a plurality of call mediation systems;</claim-text>
+<claim-text gate:gateId="58">a plurality of fax processing resources associated with each of the plurality of call mediation systems;</claim-text>
+<claim-text gate:gateId="59">a telecommunications system having a plurality of circuit and packet switched connections, the telecommunications system configured to receive an inbound fax call and switch the inbound fax call to a call mediation system of the plurality of call mediation systems, the inbound fax call having associated therewith a source address, a destination address and a fax signal, wherein the destination address corresponds to a particular subscriber of the Internet fax system;</claim-text>
+<claim-text gate:gateId="60">wherein the call mediation system:
+<claim-text gate:gateId="61">determines desired fax protocol technical call processing capabilities for processing the fax signal based on a plurality of the source address, the destination address and a type of connection of the plurality of circuit and packet switched connections through which the inbound fax call was received;</claim-text>
+<claim-text gate:gateId="62">identifies a subset of fax processing resources of the plurality of fax processing resources that has the desired fax protocol technical call processing capabilities; and</claim-text>
+<claim-text gate:gateId="63">switches the inbound fax call to a selected fax processing resource of the subset of fax processing resources; and</claim-text>
+</claim-text>
+<claim-text gate:gateId="64">wherein the selected fax processing resource translates the fax signal into a digital representation causes the digital representation to be delivered or otherwise made available to one or more users associated with the particular subscriber.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="65" id="CLM-00017" body="the telecommunications system performs round-robin load balancing among the plurality of call mediation systems.
+" claimType="dependent" num="00017" claimBackReference="of claim 16" transPhrase=", wherein " claimSize="26" claim_preamble="The Internet fax system" claimNumber="17" depends_on="16">
+<claim-text gate:gateId="66">17. The Internet fax system of <claim-ref gate:gateId="67" idref="CLM-00016">claim 16</claim-ref> , wherein the telecommunications system performs round-robin load balancing among the plurality of call mediation systems.</claim-text>
+</claim>
+<claim gate:gateId="68" id="CLM-00018" body="a plurality of digital access cross connect systems (DACS) logically interposed between the plurality of call mediation systems and the plurality of fax processing resources;
+wherein the plurality of call mediation systems comprise a plurality of private branch exchanges (PBXs); and
+wherein a PBX of the plurality of PBXs to which the inbound call is switched further switches the inbound fax call to the selected fax processing resource by calling a DACS of the plurality of DACS.
+
+" claimType="dependent" num="00018" claimBackReference="of claim 17" transPhrase=", further comprising:
+" claimSize="97" claim_preamble="The Internet fax system" claimNumber="18" depends_on="17">
+<claim-text gate:gateId="69">18. The Internet fax system of <claim-ref gate:gateId="70" idref="CLM-00017">claim 17</claim-ref> , further comprising:
+<claim-text gate:gateId="71">a plurality of digital access cross connect systems (DACS) logically interposed between the plurality of call mediation systems and the plurality of fax processing resources;</claim-text>
+<claim-text gate:gateId="72">wherein the plurality of call mediation systems comprise a plurality of private branch exchanges (PBXs); and</claim-text>
+<claim-text gate:gateId="73">wherein a PBX of the plurality of PBXs to which the inbound call is switched further switches the inbound fax call to the selected fax processing resource by calling a DACS of the plurality of DACS.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="74" id="CLM-00019" body="the PBX determines, based on one or more of the source address, the destination address and a specific circuit or packet switched connection of the plurality of circuit and packet switched connections through which the inbound fax call was received, whether to accept or reject the inbound fax call.
+" claimType="dependent" num="00019" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="64" claim_preamble="The Internet fax system" claimNumber="19" depends_on="18">
+<claim-text gate:gateId="75">19. The Internet fax system of <claim-ref gate:gateId="76" idref="CLM-00018">claim 18</claim-ref> , wherein the PBX determines, based on one or more of the source address, the destination address and a specific circuit or packet switched connection of the plurality of circuit and packet switched connections through which the inbound fax call was received, whether to accept or reject the inbound fax call.</claim-text>
+</claim>
+<claim gate:gateId="77" id="CLM-00020" body="the PBX remains in a call path of the inbound fax call until completion of the inbound fax call and upon the completion the PBX records billing information in a database.
+" claimType="dependent" num="00020" claimBackReference="of claim 19" transPhrase=", wherein " claimSize="43" claim_preamble="The Internet fax system" claimNumber="20" depends_on="19">
+<claim-text gate:gateId="78">20. The Internet fax system of <claim-ref gate:gateId="79" idref="CLM-00019">claim 19</claim-ref> , wherein the PBX remains in a call path of the inbound fax call until completion of the inbound fax call and upon the completion the PBX records billing information in a database.</claim-text>
+</claim>
+<claim gate:gateId="80" id="CLM-00021" body="the selected fax server determines a delivery method to employ in connection with delivery of the digital representation to the one or more users based on the destination address or user account specific preferences associated with the one or more users.
+" claimType="dependent" num="00021" claimBackReference="of claim 16" transPhrase=", wherein " claimSize="53" claim_preamble="The Internet fax system" claimNumber="21" depends_on="16">
+<claim-text gate:gateId="81">21. The Internet fax system of <claim-ref gate:gateId="82" idref="CLM-00016">claim 16</claim-ref> , wherein the selected fax server determines a delivery method to employ in connection with delivery of the digital representation to the one or more users based on the destination address or user account specific preferences associated with the one or more users.</claim-text>
+</claim>
+<claim gate:gateId="83" id="CLM-00022" body="the determined delivery method is electronic mail (email) delivery.
+" claimType="dependent" num="00022" claimBackReference="of claim 21" transPhrase=", wherein " claimSize="23" claim_preamble="The Internet fax system" claimNumber="22" depends_on="21">
+<claim-text gate:gateId="84">22. The Internet fax system of <claim-ref gate:gateId="85" idref="CLM-00021">claim 21</claim-ref> , wherein the determined delivery method is electronic mail (email) delivery.</claim-text>
+</claim>
+<claim gate:gateId="86" id="CLM-00023" body="a web site and wherein the determined delivery method is delivery via the web site.
+" claimType="dependent" num="00023" claimBackReference="of claim 21" transPhrase=", further comprising " claimSize="28" claim_preamble="The Internet fax system" claimNumber="23" depends_on="21">
+<claim-text gate:gateId="87">23. The Internet fax system of <claim-ref gate:gateId="88" idref="CLM-00021">claim 21</claim-ref> , further comprising a web site and wherein the determined delivery method is delivery via the web site.</claim-text>
+</claim>
+<claim gate:gateId="89" id="CLM-00024" body="an application programming interface (API) and wherein the determined delivery method is delivery via the API.
+" claimType="dependent" num="00024" claimBackReference="of claim 21" transPhrase=", further comprising " claimSize="31" claim_preamble="The Internet fax system" claimNumber="24" depends_on="21">
+<claim-text gate:gateId="90">24. The Internet fax system of <claim-ref gate:gateId="91" idref="CLM-00021">claim 21</claim-ref> , further comprising an application programming interface (API) and wherein the determined delivery method is delivery via the API.</claim-text>
+</claim>
+<claim gate:gateId="92" id="CLM-00025" body="the API supports programmatic listing of a plurality of received faxes and programmatic downloading of a received fax of the plurality of received faxes.
+" claimType="dependent" num="00025" claimBackReference="of claim 24" transPhrase=", wherein " claimSize="36" claim_preamble="The Internet fax system" claimNumber="25" depends_on="24">
+<claim-text gate:gateId="93">25. The Internet fax system of <claim-ref gate:gateId="94" idref="CLM-00024">claim 24</claim-ref> , wherein the API supports programmatic listing of a plurality of received faxes and programmatic downloading of a received fax of the plurality of received faxes.</claim-text>
+</claim>
+<claim gate:gateId="95" id="CLM-00026" body="the API is configured to receive a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber that conveys a request for a list of received faxes.
+" claimType="dependent" num="00026" claimBackReference="of claim 25" transPhrase=", wherein " claimSize="50" claim_preamble="The Internet fax system" claimNumber="26" depends_on="25">
+<claim-text gate:gateId="96">26. The Internet fax system of <claim-ref gate:gateId="97" idref="CLM-00025">claim 25</claim-ref> , wherein the API is configured to receive a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber that conveys a request for a list of received faxes.</claim-text>
+</claim>
+<claim gate:gateId="98" id="CLM-00027" body="the API is configured to receive a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber and conveying a request for retrieval of a particular received fax. 
+" claimType="dependent" num="00027" claimBackReference="of claim 25" transPhrase=", wherein " claimSize="51" claim_preamble="The Internet fax system" claimNumber="27" depends_on="25">
+<claim-text gate:gateId="99">27. The Internet fax system of <claim-ref gate:gateId="100" idref="CLM-00025">claim 25</claim-ref> , wherein the API is configured to receive a Hypertext Transfer Protocol (HTTP) or a HTTP secure (HTTPS) POST generated by an application of the subscriber and conveying a request for retrieval of a particular received fax. </claim-text>
+</claim>
+<us-patent-grant gate:gateId="101" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08503630-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130723" lang="EN" country="US"></us-patent-grant></claims>

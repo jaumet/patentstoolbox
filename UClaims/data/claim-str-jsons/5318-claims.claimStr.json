@@ -1,0 +1,262 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504246-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 33,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1163,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a power assisted steering system of a vehicle, the method comprising:\nreceiving at least two signals from at least two sensors of the power assisted steering system, each of the signals corresponding to at least one of a vehicle speed, a longitudinal acceleration, a lateral acceleration, and a vertical acceleration, wherein the two signals are different;\nallowing unimpeded steering within a permissible steering rack travel that is based on at least one of the vehicle speed, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration;\nwhen a steering rack position has reached a boundary of the permissible steering rack travel, providing counter assist torque to prohibit movement of a steering rack of the vehicle beyond the permissible steering rack travel;\nwhen the steering rack position has exceeded the permissible steering rack travel, providing counter assist torque to return the steering rack of the vehicle to a position within the permissible steering rack travel; and\nfurther comprising, if the vehicle speed is less than a predetermined speed, setting the permissible steering rack travel to an optimum steering rack travel;\nwherein the optimum steering rack travel is based on at least the vehicle speed, a suspension travel, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for controlling ",
+            "claimSize": 236,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for controlling a power assisted steering system of a vehicle, the method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "receiving at least two signals from at least two sensors of the power assisted steering system, each of the signals corresponding to at least one of a vehicle speed, a longitudinal acceleration, a lateral acceleration, and a vertical acceleration, wherein the two signals are different;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "allowing unimpeded steering within a permissible steering rack travel that is based on at least one of the vehicle speed, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "when a steering rack position has reached a boundary of the permissible steering rack travel, providing counter assist torque to prohibit movement of a steering rack of the vehicle beyond the permissible steering rack travel;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "when the steering rack position has exceeded the permissible steering rack travel, providing counter assist torque to return the steering rack of the vehicle to a position within the permissible steering rack travel; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "further comprising, if the vehicle speed is less than a predetermined speed, setting the permissible steering rack travel to an optimum steering rack travel;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein the optimum steering rack travel is based on at least the vehicle speed, a suspension travel, the longitudinal acceleration, the lateral acceleration, and the vertical acceleration.",
+                        "gate:gateId": 8
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "1 further comprising, if the vehicle speed is equal to or greater than a predetermined speed, setting the permissible steering rack travel to a value equal to the optimum steering rack travel minus a travel reduction.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 1",
+            "claimSize": 45,
+            "gate:gateId": 9,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    "further comprising, if the vehicle speed is equal to or greater than a predetermined speed, setting the permissible steering rack travel to a value equal to the optimum steering rack travel minus a travel reduction."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the travel reduction is equal to about 5 millimeters.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 19,
+            "gate:gateId": 12,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the travel reduction is equal to about 5 millimeters."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the permissible steering rack travel is calculated by subtracting, from an optimum steering rack travel, an amount obtained by dividing a maximum of a right and a left suspension travel amount by the optimum steering rack travel amount multiplied by a travel reduction based on vehicle speed.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 59,
+            "gate:gateId": 15,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein the permissible steering rack travel is calculated by subtracting, from an optimum steering rack travel, an amount obtained by dividing a maximum of a right and a left suspension travel amount by the optimum steering rack travel amount multiplied by a travel reduction based on vehicle speed."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the travel reduction is equal to about 5 millimeters.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 19,
+            "gate:gateId": 18,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein the travel reduction is equal to about 5 millimeters."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the counter assist torque is provided via a motor of the vehicle.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 21,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein the counter assist torque is provided via a motor of the vehicle."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "steering rack travel based on the optimum steering rack travel.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising limiting ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 24,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", further comprising limiting steering rack travel based on the optimum steering rack travel."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "further comprising providing a feedback to a vehicle driver when a current steering rack travel exceeds the optimum steering rack travel.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 30,
+            "gate:gateId": 27,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", further comprising providing a feedback to a vehicle driver when a current steering rack travel exceeds the optimum steering rack travel."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the feedback to the vehicle driver is the counter assist torque.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 21,
+            "gate:gateId": 30,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", wherein the feedback to the vehicle driver is the counter assist torque."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 8
+        }
+    ],
+    "numberIndependentClaims": 213
+}}

@@ -1,0 +1,186 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503107-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 35,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1116,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "image comprising, in order from the object side to the image side:\na first lens element with positive refractive power having a convex object-side surface;\na second lens element with negative refractive power having a concave image-side surface, and an object-side surface of the second lens element being cemented to an image-side surface of the first lens element;\na third plastic lens element with negative refractive power having a concave object-side surface and a convex image-side surface, at least one of the object-side and the image-side surfaces of the third lens element being aspheric;\na fourth plastic lens element with positive refractive power having a concave image-side surface, at least one of an object-side surface and the image-side surface of the fourth lens element being formed with at least one inflection point; and\nan aperture stop being located before the first lens element; in the optical lens system for taking image, the number of the lens elements with refractive power being limited to four; a focal length of the optical lens system for taking image being f, a focal length of the first lens element being f1, a focal length of the fourth lens element being f4, a focal length of the first lens element and the second lens element combined being f12, an Abbe number of the first lens element being V1, an Abbe number of the second lens element being V2, they satisfy the relation:\n\n\n0.8 <f/f 1<2.1;\n\n\n\n0.6 <f/f 12<1.3;\n\n\n\n0 <|f/f 4 |<0.4;\n\n\n\n30 <V 1- V 2<40.\n\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for taking ",
+            "claimSize": 318,
+            "gate:gateId": 1,
+            "claim_preamble": "An optical lens system",
+            "claimNumber": 0,
+            "claim-text": {
+                "content": "1. An optical lens system for taking image comprising, in order from the object side to the image side:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a first lens element with positive refractive power having a convex object-side surface;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a second lens element with negative refractive power having a concave image-side surface, and an object-side surface of the second lens element being cemented to an image-side surface of the first lens element;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a third plastic lens element with negative refractive power having a concave object-side surface and a convex image-side surface, at least one of the object-side and the image-side surfaces of the third lens element being aspheric;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a fourth plastic lens element with positive refractive power having a concave image-side surface, at least one of an object-side surface and the image-side surface of the fourth lens element being formed with at least one inflection point; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "an aperture stop being located before the first lens element; in the optical lens system for taking image, the number of the lens elements with refractive power being limited to four; a focal length of the optical lens system for taking image being f, a focal length of the first lens element being f1, a focal length of the fourth lens element being f4, a focal length of the first lens element and the second lens element combined being f12, an Abbe number of the first lens element being V1, an Abbe number of the second lens element being V2, they satisfy the relation:",
+                        "gate:gateId": 7,
+                        "claim-text": [
+                            {
+                                "content": [
+                                    0.8,
+                                    "1<2.1;"
+                                ],
+                                "gate:gateId": 8,
+                                "br": {"gate:gateId": 9},
+                                "i": {
+                                    "content": "<f/f",
+                                    "gate:gateId": 10
+                                }
+                            },
+                            {
+                                "content": [
+                                    0.6,
+                                    "12<1.3;"
+                                ],
+                                "gate:gateId": 11,
+                                "br": {"gate:gateId": 12},
+                                "i": {
+                                    "content": "<f/f",
+                                    "gate:gateId": 13
+                                }
+                            },
+                            {
+                                "content": [
+                                    0,
+                                    "4 |<0.4;"
+                                ],
+                                "gate:gateId": 14,
+                                "br": {"gate:gateId": 15},
+                                "i": {
+                                    "content": "<|f/f",
+                                    "gate:gateId": 16
+                                }
+                            },
+                            {
+                                "content": [
+                                    30,
+                                    "1-",
+                                    "2<40."
+                                ],
+                                "gate:gateId": 17,
+                                "br": {"gate:gateId": 18},
+                                "i": [
+                                    {
+                                        "content": "<V",
+                                        "gate:gateId": 19
+                                    },
+                                    {
+                                        "content": "V",
+                                        "gate:gateId": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the focal length of the optical lens system for taking image is f, the focal length of the first lens element and the second lens element combined is f12, they satisfy the relation:\n\n\n0.9 <f/f 12<1.1;\n\nthe focal length of the optical lens system for taking image is f, a focal length of the third lens element is f3, they satisfy the relation:\n\n\n0 <|f/f 3 |<0.2;\n\n\nthe focal length of the optical lens system for taking image is f, the focal length of the fourth lens element is f4, and they satisfy the relation:\n\n\n0 <|f/f 4 |<0.2.\n\n\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 155,
+            "gate:gateId": 21,
+            "claimNumber": 1,
+            "claim_preamble": "The optical lens systemimage",
+            "claim-text": {
+                "content": [
+                    "2. The optical lens system for taking image as claimed in",
+                    ", wherein the focal length of the optical lens system for taking image is f, the focal length of the first lens element and the second lens element combined is f12, they satisfy the relation:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22,
+                "claim-text": [
+                    {
+                        "content": [
+                            0.9,
+                            "12<1.1;"
+                        ],
+                        "gate:gateId": 24,
+                        "br": {"gate:gateId": 25},
+                        "i": {
+                            "content": "<f/f",
+                            "gate:gateId": 26
+                        }
+                    },
+                    {
+                        "content": "the focal length of the optical lens system for taking image is f, a focal length of the third lens element is f3, they satisfy the relation:",
+                        "gate:gateId": 27,
+                        "claim-text": {
+                            "content": [
+                                0,
+                                "3 |<0.2;"
+                            ],
+                            "gate:gateId": 28,
+                            "br": {"gate:gateId": 29},
+                            "i": {
+                                "content": "<|f/f",
+                                "gate:gateId": 30
+                            }
+                        }
+                    },
+                    {
+                        "content": "the focal length of the optical lens system for taking image is f, the focal length of the fourth lens element is f4, and they satisfy the relation:",
+                        "gate:gateId": 31,
+                        "claim-text": {
+                            "content": [
+                                0,
+                                "4 |<0.2."
+                            ],
+                            "gate:gateId": 32,
+                            "br": {"gate:gateId": 33},
+                            "i": {
+                                "content": "<|f/f",
+                                "gate:gateId": 34
+                            }
+                        }
+                    }
+                ]
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 126
+}}

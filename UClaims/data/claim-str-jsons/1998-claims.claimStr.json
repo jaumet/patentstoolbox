@@ -1,0 +1,141 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500905-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 19,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 707,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "an elliptic crucible, the apparatus comprising:\na chamber filled with heat-insulating material;\na heating element fixedly installed inside the heat-insulating material;\nan elliptic crucible located inside the heating element, to accommodate raw material of sapphire single crystals, and having a horizontal cross section in an elliptic shape;\na support member configured to prevent the crucible from drooping down due to a weight of the accommodated material; and\na stand located on an upper end of the support member to allow the crucible to be put on the stand,\nwherein a seed crystal is positioned such that a horizontal direction of a C-axis is provided in a long-axis direction of the ellipse, and a vertical direction of the C-axis is provided in a short-axis direction of the ellipse, and\nwherein the heating element is divided into a short-axis heating element located outside the crucible in the short-axis direction, and a long-axis heating element located outside the crucible in the long-axis direction.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " using ",
+            "claimSize": 185,
+            "gate:gateId": 1,
+            "claim_preamble": "A Kyropoulos sapphire single crystal growing apparatus",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A Kyropoulos sapphire single crystal growing apparatus using an elliptic crucible, the apparatus comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a chamber filled with heat-insulating material;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a heating element fixedly installed inside the heat-insulating material;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "an elliptic crucible located inside the heating element, to accommodate raw material of sapphire single crystals, and having a horizontal cross section in an elliptic shape;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a support member configured to prevent the crucible from drooping down due to a weight of the accommodated material; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a stand located on an upper end of the support member to allow the crucible to be put on the stand,",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein a seed crystal is positioned such that a horizontal direction of a C-axis is provided in a long-axis direction of the ellipse, and a vertical direction of the C-axis is provided in a short-axis direction of the ellipse, and",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein the heating element is divided into a short-axis heating element located outside the crucible in the short-axis direction, and a long-axis heating element located outside the crucible in the long-axis direction.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the crucible having the horizontal cross section in the elliptic shape, a ratio of a short axis of the ellipse to a long axis thereof is 20% or less.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein, in ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 44,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "2. The apparatus according to",
+                    ", wherein, in the crucible having the horizontal cross section in the elliptic shape, a ratio of a short axis of the ellipse to a long axis thereof is 20% or less."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the long-axis heating element uses a single heater and the short axis heating element uses a multi-heater.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 28,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "3. The apparatus according to",
+                    ", wherein the long-axis heating element uses a single heater and the short axis heating element uses a multi-heater."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the short-axis heating element includes heater rods which are more densely arranged than those in the long-axis heating element. \n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 30,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "4. The apparatus according to",
+                    ", wherein the short-axis heating element includes heater rods which are more densely arranged than those in the long-axis heating element."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 34
+}}

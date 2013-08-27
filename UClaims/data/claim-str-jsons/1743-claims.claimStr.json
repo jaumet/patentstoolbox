@@ -1,0 +1,661 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500650-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 94,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3284,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a cardiac sensing circuit configured to sense at least one electrogram;\na cardiac event detector coupled to the cardiac sensing circuit and configured to produce a cardiac signal indicative of heart beats using the at least one electrogram;\nan acoustic sensor configured to sense an acoustic signal indicative of third heart sounds (S3);\na sensor processing circuit coupled to the acoustic sensor and configured to precondition the sensed acoustic signal;\na heart sound processor coupled to the cardiac event detector and the sensor processing circuit, the heart sound processor including:\na beat counter configured to count the heart beats using the cardiac signal;\na heart sound detector configured to detect S3 using the preconditioned acoustic signal;\na heart sound counter configured to count S3 beats each being a heart beat during which one of S3 is detected; and\na heart sound analyzer including a ratio calculator to calculate an S3 index being a ratio of a number of the S3 beats counted during a predetermined time period to the number of the heart beats counted during the predetermined time period; and\n\na hermetically sealed can housing at least the cardiac sensing circuit, the cardiac event detector, the sensor processing circuit, and the heart sound processor.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 238,
+            "gate:gateId": 1,
+            "claim_preamble": "An implantable cardiac rhythm management system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. An implantable cardiac rhythm management system, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a cardiac sensing circuit configured to sense at least one electrogram;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a cardiac event detector coupled to the cardiac sensing circuit and configured to produce a cardiac signal indicative of heart beats using the at least one electrogram;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "an acoustic sensor configured to sense an acoustic signal indicative of third heart sounds (S3);",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a sensor processing circuit coupled to the acoustic sensor and configured to precondition the sensed acoustic signal;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a heart sound processor coupled to the cardiac event detector and the sensor processing circuit, the heart sound processor including:",
+                        "gate:gateId": 7,
+                        "claim-text": [
+                            {
+                                "content": "a beat counter configured to count the heart beats using the cardiac signal;",
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": "a heart sound detector configured to detect S3 using the preconditioned acoustic signal;",
+                                "gate:gateId": 9
+                            },
+                            {
+                                "content": "a heart sound counter configured to count S3 beats each being a heart beat during which one of S3 is detected; and",
+                                "gate:gateId": 10
+                            },
+                            {
+                                "content": "a heart sound analyzer including a ratio calculator to calculate an S3 index being a ratio of a number of the S3 beats counted during a predetermined time period to the number of the heart beats counted during the predetermined time period; and",
+                                "gate:gateId": 11
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a hermetically sealed can housing at least the cardiac sensing circuit, the cardiac event detector, the sensor processing circuit, and the heart sound processor.",
+                        "gate:gateId": 12
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the heart sound processor further comprises a measurement timer configured to time predetermined measurement sessions and predetermined measurement periods each including a plurality of the predetermined measurement sessions, the ratio calculator is configured to calculate an S3 session ratio being a ratio of a number of the S3 beats counted during one of the predetermined measurement sessions to the number of the heart beats counted during that one of the predetermined measurement sessions, and the heart sound analyzer further comprises an averaging module configured to calculate an average of the S3 session ratios for one of the predetermined measurement periods.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 115,
+            "gate:gateId": 13,
+            "claimNumber": 2,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "2. The system of",
+                    ", wherein the heart sound processor further comprises a measurement timer configured to time predetermined measurement sessions and predetermined measurement periods each including a plurality of the predetermined measurement sessions, the ratio calculator is configured to calculate an S3 session ratio being a ratio of a number of the S3 beats counted during one of the predetermined measurement sessions to the number of the heart beats counted during that one of the predetermined measurement sessions, and the heart sound analyzer further comprises an averaging module configured to calculate an average of the S3 session ratios for one of the predetermined measurement periods."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the heart sound analyzer further comprises a trend generator adapted to generate a trend of the S3 index as a moving average of the S3 session ratios over the predetermined measurement periods.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 44,
+            "gate:gateId": 16,
+            "claimNumber": 3,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "3. The system of",
+                    ", wherein the heart sound analyzer further comprises a trend generator adapted to generate a trend of the S3 index as a moving average of the S3 session ratios over the predetermined measurement periods."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the heart sound detector is configured to improve a signal-to-noise ratio of the acoustic signal by ensemble averaging.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 19,
+            "claimNumber": 4,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "4. The system of",
+                    ", wherein the heart sound detector is configured to improve a signal-to-noise ratio of the acoustic signal by ensemble averaging."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the cardiac signal is indicative of ventricular events, the acoustic signal is further indicative of first heart sounds (S1) and second heart sounds (S2), and the heart sound detector comprises:\nan S2 window generator to generate an S2 window after a first predetermined delay starting with each of the ventricular events;\nan S2 detector to detect S2 using an S2 threshold during the S2 windows;\nan S3 window generator, coupled to the S2 detector, to generate an S3 window after a second predetermined delay starting with each of the detected S2; and\nan S3 detector to detect S3 using an S3 threshold during the S3 windows.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 144,
+            "gate:gateId": 22,
+            "claimNumber": 5,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "5. The system of",
+                    ", wherein the cardiac signal is indicative of ventricular events, the acoustic signal is further indicative of first heart sounds (S1) and second heart sounds (S2), and the heart sound detector comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23,
+                "claim-text": [
+                    {
+                        "content": "an S2 window generator to generate an S2 window after a first predetermined delay starting with each of the ventricular events;",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "an S2 detector to detect S2 using an S2 threshold during the S2 windows;",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "an S3 window generator, coupled to the S2 detector, to generate an S3 window after a second predetermined delay starting with each of the detected S2; and",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "an S3 detector to detect S3 using an S3 threshold during the S3 windows.",
+                        "gate:gateId": 28
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the heart sound detector further comprises:\na measurement module to detect an acoustic energy using the acoustic signal; and\nan S3 threshold generator adapted to determine the S3 threshold based on the acoustic energy.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 48,
+            "gate:gateId": 29,
+            "claimNumber": 6,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "6. The system of",
+                    ", wherein the heart sound detector further comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 30,
+                "claim-text": [
+                    {
+                        "content": "a measurement module to detect an acoustic energy using the acoustic signal; and",
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": "an S3 threshold generator adapted to determine the S3 threshold based on the acoustic energy.",
+                        "gate:gateId": 33
+                    }
+                ]
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the heart sound detector further comprises an S3 threshold generator configured to dynamically adjust the S3 threshold based on an estimated background sound level (μ B ) measured during a predetermined period between an occurrence of S1 and an adjacent occurrence of S2.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 58,
+            "gate:gateId": 34,
+            "claimNumber": 2,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "7. The system of",
+                    ", wherein the heart sound detector further comprises an S3 threshold generator configured to dynamically adjust the S3 threshold based on an estimated background sound level (μ",
+                    ") measured during a predetermined period between an occurrence of S1 and an adjacent occurrence of S2."
+                ],
+                "sub": {
+                    "content": "B",
+                    "gate:gateId": 37
+                },
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the S3 threshold generator comprises an S3 threshold calculator configured to calculate the S3 threshold as μ B *K, where K is an adjustable multiplier.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 40,
+            "gate:gateId": 38,
+            "claimNumber": 8,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "8. The system of",
+                    ", wherein the S3 threshold generator comprises an S3 threshold calculator configured to calculate the S3 threshold as μ",
+                    "*K, where K is an adjustable multiplier."
+                ],
+                "sub": {
+                    "content": "B",
+                    "gate:gateId": 41
+                },
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the hermetically sealed can further houses the acoustic sensor.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 19,
+            "gate:gateId": 42,
+            "claimNumber": 9,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "9. The system of",
+                    ", wherein the hermetically sealed can further houses the acoustic sensor."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the implantable acoustic sensor comprises an implantable accelerometer.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 18,
+            "gate:gateId": 45,
+            "claimNumber": 10,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "10. The system of",
+                    ", wherein the implantable acoustic sensor comprises an implantable accelerometer."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "heart sounds, comprising:\nsensing at least one electrogram;\nproducing a cardiac signal indicative of heart beats using the at least one electrogram;\nsensing an acoustic signal indicative of third heart sounds (S3) using an implantable acoustic sensor;\npreconditioning the sensed acoustic signal;\nprocessing the cardiac signal and the acoustic signal using an implantable medical device, the processing including:\ncounting the heart beats using the cardiac signal;\ndetecting S3 using the preconditioned acoustic signal;\ncounting S3 beats each being a heart beat during which one of S3 is detected; and\ncalculating an S3 index being a ratio of a number of the S3 beats counted during a predetermined time period to the number of the heart beats counted during the predetermined time period.\n\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": " for analyzing ",
+            "claimSize": 148,
+            "gate:gateId": 48,
+            "claim_preamble": "A method",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. A method for analyzing heart sounds, comprising:",
+                "gate:gateId": 49,
+                "claim-text": [
+                    {
+                        "content": "sensing at least one electrogram;",
+                        "gate:gateId": 50
+                    },
+                    {
+                        "content": "producing a cardiac signal indicative of heart beats using the at least one electrogram;",
+                        "gate:gateId": 51
+                    },
+                    {
+                        "content": "sensing an acoustic signal indicative of third heart sounds (S3) using an implantable acoustic sensor;",
+                        "gate:gateId": 52
+                    },
+                    {
+                        "content": "preconditioning the sensed acoustic signal;",
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": "processing the cardiac signal and the acoustic signal using an implantable medical device, the processing including:",
+                        "gate:gateId": 54,
+                        "claim-text": [
+                            {
+                                "content": "counting the heart beats using the cardiac signal;",
+                                "gate:gateId": 55
+                            },
+                            {
+                                "content": "detecting S3 using the preconditioned acoustic signal;",
+                                "gate:gateId": 56
+                            },
+                            {
+                                "content": "counting S3 beats each being a heart beat during which one of S3 is detected; and",
+                                "gate:gateId": 57
+                            },
+                            {
+                                "content": "calculating an S3 index being a ratio of a number of the S3 beats counted during a predetermined time period to the number of the heart beats counted during the predetermined time period.",
+                                "gate:gateId": 58
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the processing further comprises timing predetermined measurement sessions and predetermined measurement periods each including a plurality of the predetermined measurement sessions, calculating an S3 session ratio being a ratio of a number of the S3 beats counted during one of the predetermined measurement sessions to the number of the heart beats counted during that one of the predetermined measurement sessions, and calculating an average of the S3 session ratios for one of the predetermined measurement periods.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 91,
+            "gate:gateId": 59,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", wherein the processing further comprises timing predetermined measurement sessions and predetermined measurement periods each including a plurality of the predetermined measurement sessions, calculating an S3 session ratio being a ratio of a number of the S3 beats counted during one of the predetermined measurement sessions to the number of the heart beats counted during that one of the predetermined measurement sessions, and calculating an average of the S3 session ratios for one of the predetermined measurement periods."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the processing further comprises generating a trend of the S3 index as a moving average of the S3 session ratios over the predetermined measurement periods.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 37,
+            "gate:gateId": 62,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", wherein the processing further comprises generating a trend of the S3 index as a moving average of the S3 session ratios over the predetermined measurement periods."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the processing further comprises improving a signal-to-noise ratio of the acoustic signal by ensemble averaging, and wherein detecting S3 comprises detecting S3 using the ensemble averaged acoustic signal.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 41,
+            "gate:gateId": 65,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein the processing further comprises improving a signal-to-noise ratio of the acoustic signal by ensemble averaging, and wherein detecting S3 comprises detecting S3 using the ensemble averaged acoustic signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the cardiac signal is indicative of ventricular events, and the ensemble averaging comprises aligning segments of the acoustic signal using the ventricular events.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 34,
+            "gate:gateId": 68,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", wherein the cardiac signal is indicative of ventricular events, and the ensemble averaging comprises aligning segments of the acoustic signal using the ventricular events."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 69
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the acoustic signal is further indicative of second heart sounds (S2), and wherein the ensemble averaging comprises aligning segments of the acoustic signal using occurrences of the S2 detection.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 44,
+            "gate:gateId": 71,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", wherein the acoustic signal is further indicative of second heart sounds (S2), and wherein the ensemble averaging comprises aligning segments of the acoustic signal using occurrences of the S2 detection."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 73,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 72
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the cardiac signal is indicative of ventricular events, the acoustic signal is further indicative of first heart sounds (S1) and second heart sounds (S2), and detecting S3 comprises:\ngenerating an S2 window after a first predetermined delay starting with each of the ventricular events;\ndetecting S2 using an S2 threshold during the S2 windows;\ngenerating an S3 window after a second predetermined delay starting with each of the detected S2; and\ndetecting S3 using an S3 threshold during the S3 windows.\n\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 113,
+            "gate:gateId": 74,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", wherein the cardiac signal is indicative of ventricular events, the acoustic signal is further indicative of first heart sounds (S1) and second heart sounds (S2), and detecting S3 comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 76,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 75,
+                "claim-text": [
+                    {
+                        "content": "generating an S2 window after a first predetermined delay starting with each of the ventricular events;",
+                        "gate:gateId": 77
+                    },
+                    {
+                        "content": "detecting S2 using an S2 threshold during the S2 windows;",
+                        "gate:gateId": 78
+                    },
+                    {
+                        "content": "generating an S3 window after a second predetermined delay starting with each of the detected S2; and",
+                        "gate:gateId": 79
+                    },
+                    {
+                        "content": "detecting S3 using an S3 threshold during the S3 windows.",
+                        "gate:gateId": 80
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00018",
+            "body": "S3 further comprises:\ndetecting an acoustic energy using the acoustic signal; and\ndetermining the S3 threshold based on the acoustic energy.\n\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein detecting ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 36,
+            "gate:gateId": 81,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    ", wherein detecting S3 further comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 83,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 82,
+                "claim-text": [
+                    {
+                        "content": "detecting an acoustic energy using the acoustic signal; and",
+                        "gate:gateId": 84
+                    },
+                    {
+                        "content": "determining the S3 threshold based on the acoustic energy.",
+                        "gate:gateId": 85
+                    }
+                ]
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00019",
+            "body": "S3 further comprises dynamically adjusting the S3 threshold based on an estimated background sound level (μ B ) measured during a predetermined period between an occurrence of S1 and an adjacent occurrence of S2.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein detecting ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 50,
+            "gate:gateId": 86,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method of",
+                    ", wherein detecting S3 further comprises dynamically adjusting the S3 threshold based on an estimated background sound level (μ",
+                    ") measured during a predetermined period between an occurrence of S1 and an adjacent occurrence of S2."
+                ],
+                "sub": {
+                    "content": "B",
+                    "gate:gateId": 89
+                },
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 88,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 87
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the S3 threshold comprises calculating the S3 threshold as μ B *K, where K is an adjustable multiplier. \n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein dynamically adjusting ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 34,
+            "gate:gateId": 90,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    ", wherein dynamically adjusting the S3 threshold comprises calculating the S3 threshold as μ",
+                    "*K, where K is an adjustable multiplier."
+                ],
+                "sub": {
+                    "content": "B",
+                    "gate:gateId": 93
+                },
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 92,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 91
+            },
+            "depends_on": 19
+        }
+    ],
+    "numberIndependentClaims": 33
+}}

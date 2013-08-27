@@ -1,0 +1,746 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502172-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 97,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3082,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a fiducial on a sample to locate an area of interest on the sample, the method comprising:\nforming a fiducial by:\ndepositing a block of material on a sample proximal to an area of interest on the sample, the block of material extending from the surface of the sample to a detectable extent above the surface of the sample; and\nmilling, using a charged particle beam, a predetermined pattern into at least two exposed faces of the block of material;\n\nsubsequent to forming the fiducial, detecting the location of the area of interest by detecting the location of the fiducial; and\nsubsequent to detecting the location of the area of interest, imaging or milling the area of interest with a charged particle beam.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of forming and using ",
+            "claimSize": 143,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of forming and using a fiducial on a sample to locate an area of interest on the sample, the method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "forming a fiducial by:",
+                        "gate:gateId": 3,
+                        "claim-text": [
+                            {
+                                "content": "depositing a block of material on a sample proximal to an area of interest on the sample, the block of material extending from the surface of the sample to a detectable extent above the surface of the sample; and",
+                                "gate:gateId": 4
+                            },
+                            {
+                                "content": "milling, using a charged particle beam, a predetermined pattern into at least two exposed faces of the block of material;",
+                                "gate:gateId": 5
+                            }
+                        ]
+                    },
+                    {
+                        "content": "subsequent to forming the fiducial, detecting the location of the area of interest by detecting the location of the fiducial; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "subsequent to detecting the location of the area of interest, imaging or milling the area of interest with a charged particle beam.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "which detecting the location of the fiducial includes:\nimaging at least a portion of the surface of the sample using a charged particle beam; and\ndetecting the predetermined pattern of the fiducial in the image of the portion of the sample.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 53,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", in which detecting the location of the fiducial includes:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9,
+                "claim-text": [
+                    {
+                        "content": "imaging at least a portion of the surface of the sample using a charged particle beam; and",
+                        "gate:gateId": 11
+                    },
+                    {
+                        "content": "detecting the predetermined pattern of the fiducial in the image of the portion of the sample.",
+                        "gate:gateId": 12
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "which the predetermined pattern of the fiducial in the image of the portion of the sample is automatically detected by image recognition software.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 33,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", in which the predetermined pattern of the fiducial in the image of the portion of the sample is automatically detected by image recognition software."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "which the predetermined pattern is milled into the fiducial so that the fiducial will have a brightness or contrast value that is distinct from the block of material when the fiducial is imaged by a charged particle beam.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 48,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", in which the predetermined pattern is milled into the fiducial so that the fiducial will have a brightness or contrast value that is distinct from the block of material when the fiducial is imaged by a charged particle beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "which the deposited block of material is capable of being imaged or milled by a charged particle beam in at least two dimensions.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", in which the deposited block of material is capable of being imaged or milled by a charged particle beam in at least two dimensions."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "which the fiducial is positioned at a location where the fiducial can be simultaneously imaged by at least two charged particle beams.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 32,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", in which the fiducial is positioned at a location where the fiducial can be simultaneously imaged by at least two charged particle beams."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "which imaging is performed by an electron beam and milling is performed by a focused ion beam.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 27,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", in which imaging is performed by an electron beam and milling is performed by a focused ion beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "which the deposited block of material has a substantially parallelepiped geometry.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 21,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", in which the deposited block of material has a substantially parallelepiped geometry."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "an area of interest on a sample, the fiducial comprising:\na block of material deposited proximal to an area of interest on a sample; the block of material extending from the surface of the sample to a detectable extent above the surface of the sample; and\na predetermined pattern milled into at least two exposed faces of the block of material.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " for locating ",
+            "claimSize": 72,
+            "gate:gateId": 31,
+            "claim_preamble": "A fiducial",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A fiducial for locating an area of interest on a sample, the fiducial comprising:",
+                "gate:gateId": 32,
+                "claim-text": [
+                    {
+                        "content": "a block of material deposited proximal to an area of interest on a sample; the block of material extending from the surface of the sample to a detectable extent above the surface of the sample; and",
+                        "gate:gateId": 33
+                    },
+                    {
+                        "content": "a predetermined pattern milled into at least two exposed faces of the block of material.",
+                        "gate:gateId": 34
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "which the largest dimension of the fiducial is no greater than one hundred micrometers (100 μm).\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 28,
+            "gate:gateId": 35,
+            "claimNumber": 10,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "10. The fiducial of",
+                    ", in which the largest dimension of the fiducial is no greater than one hundred micrometers (100 μm)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "which the largest dimension of the fiducial is no greater than ten micrometers (10 μm).\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 27,
+            "gate:gateId": 38,
+            "claimNumber": 11,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "11. The fiducial of",
+                    ", in which the largest dimension of the fiducial is no greater than ten micrometers (10 μm)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00012",
+            "body": "which the largest dimension of the fiducial is no greater than one micrometer (1 μm).\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 27,
+            "gate:gateId": 41,
+            "claimNumber": 12,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "12. The fiducial of",
+                    ", in which the largest dimension of the fiducial is no greater than one micrometer (1 μm)."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00013",
+            "body": "which the block of material comprises a raised Platinum pad.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 20,
+            "gate:gateId": 44,
+            "claimNumber": 13,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "13. The fiducial of",
+                    ", in which the block of material comprises a raised Platinum pad."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00014",
+            "body": "which the predetermined pattern is milled into the fiducial so that the fiducial will have a brightness or contrast value that is distinct from the block of material when the fiducial is imaged by a charged particle beam.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 48,
+            "gate:gateId": 47,
+            "claimNumber": 14,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "14. The fiducial of",
+                    ", in which the predetermined pattern is milled into the fiducial so that the fiducial will have a brightness or contrast value that is distinct from the block of material when the fiducial is imaged by a charged particle beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00015",
+            "body": "which the fiducial is positioned at a location where the fiducial can be simultaneously imaged by at least two charged particle beams.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 32,
+            "gate:gateId": 50,
+            "claimNumber": 15,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "15. The fiducial of",
+                    ", in which the fiducial is positioned at a location where the fiducial can be simultaneously imaged by at least two charged particle beams."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00016",
+            "body": "which the deposited block of material has a substantially parallelepiped geometry.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 21,
+            "gate:gateId": 53,
+            "claimNumber": 16,
+            "claim_preamble": "The fiducial",
+            "claim-text": {
+                "content": [
+                    "16. The fiducial of",
+                    ", in which the deposited block of material has a substantially parallelepiped geometry."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00017",
+            "body": "at least one charged particle beam;\na sample stage;\na sample disposed upon the sample stage;\na fiducial disposed upon the sample, the fiducial comprising:\na block of material deposited proximal to an area of interest on the sample; the block of material extending from the surface of the sample to a detectable extent above the surface of the sample; and\na predetermined pattern milled into at least two exposed faces of the block of material.\n\n\n",
+            "claimType": "independent",
+            "num": "00017",
+            "transPhrase": " comprising:\n",
+            "claimSize": 90,
+            "gate:gateId": 56,
+            "claim_preamble": "A system",
+            "claimNumber": 17,
+            "claim-text": {
+                "content": "17. A system comprising:",
+                "gate:gateId": 57,
+                "claim-text": [
+                    {
+                        "content": "at least one charged particle beam;",
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": "a sample stage;",
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "a sample disposed upon the sample stage;",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "a fiducial disposed upon the sample, the fiducial comprising:",
+                        "gate:gateId": 61,
+                        "claim-text": [
+                            {
+                                "content": "a block of material deposited proximal to an area of interest on the sample; the block of material extending from the surface of the sample to a detectable extent above the surface of the sample; and",
+                                "gate:gateId": 62
+                            },
+                            {
+                                "content": "a predetermined pattern milled into at least two exposed faces of the block of material.",
+                                "gate:gateId": 63
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00018",
+            "body": "which the largest dimension of the fiducial is no greater than one hundred micrometers (100 μm).\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 28,
+            "gate:gateId": 64,
+            "claimNumber": 18,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "18. The system of",
+                    ", in which the largest dimension of the fiducial is no greater than one hundred micrometers (100 μm)."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00019",
+            "body": "which the largest dimension of the fiducial is no greater than ten micrometers (10 μm).\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 27,
+            "gate:gateId": 67,
+            "claimNumber": 19,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "19. The system of",
+                    ", in which the largest dimension of the fiducial is no greater than ten micrometers (10 μm)."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00020",
+            "body": "which the largest dimension of the fiducial is no greater than one micrometer (1 μm).\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 27,
+            "gate:gateId": 70,
+            "claimNumber": 20,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "20. The system of",
+                    ", in which the largest dimension of the fiducial is no greater than one micrometer (1 μm)."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00021",
+            "body": "which the block of material comprises a raised Platinum pad.\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 20,
+            "gate:gateId": 73,
+            "claimNumber": 21,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "21. The system of",
+                    ", in which the block of material comprises a raised Platinum pad."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00022",
+            "body": "which the predetermined pattern is milled into the fiducial so that the fiducial will have a brightness or contrast value that is distinct from the block of material when the fiducial is imaged by a charged particle beam.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 48,
+            "gate:gateId": 76,
+            "claimNumber": 22,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "22. The system of",
+                    ", in which the predetermined pattern is milled into the fiducial so that the fiducial will have a brightness or contrast value that is distinct from the block of material when the fiducial is imaged by a charged particle beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 78,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 77
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00023",
+            "body": "which the fiducial is positioned at a location where the fiducial can be simultaneously imaged by at least two charged particle beams.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 32,
+            "gate:gateId": 79,
+            "claimNumber": 23,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "23. The system of",
+                    ", in which the fiducial is positioned at a location where the fiducial can be simultaneously imaged by at least two charged particle beams."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 81,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 80
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00024",
+            "body": "which the deposited block of material has a substantially parallelepiped geometry.\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 21,
+            "gate:gateId": 82,
+            "claimNumber": 24,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "24. The system of",
+                    ", in which the deposited block of material has a substantially parallelepiped geometry."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 84,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 83
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00025",
+            "body": "a fiducial on a sample to locate an area of interest on the sample, the method comprising:\nrotating the sample substantially ninety (90) degrees from an imaging position;\nsubsequent to rotating the sample substantially ninety (90) degrees from the imaging position, depositing a block of material on or near the area of interest using a charged particle beam that is directed toward the surface of the sample at an angle that is not perpendicular to the surface of the sample; and\nsubsequent to depositing the block of material and prior to detecting the location of the area of interest, rotating the sample substantially ninety (90) degrees to return the sample back to its initial position.\n\n",
+            "claimType": "independent",
+            "num": "00025",
+            "transPhrase": " of forming ",
+            "claimSize": 134,
+            "gate:gateId": 85,
+            "claim_preamble": "A method",
+            "claimNumber": 25,
+            "claim-text": {
+                "content": "25. A method of forming a fiducial on a sample to locate an area of interest on the sample, the method comprising:",
+                "gate:gateId": 86,
+                "claim-text": [
+                    {
+                        "content": "rotating the sample substantially ninety (90) degrees from an imaging position;",
+                        "gate:gateId": 87
+                    },
+                    {
+                        "content": "subsequent to rotating the sample substantially ninety (90) degrees from the imaging position, depositing a block of material on or near the area of interest using a charged particle beam that is directed toward the surface of the sample at an angle that is not perpendicular to the surface of the sample; and",
+                        "gate:gateId": 88
+                    },
+                    {
+                        "content": "subsequent to depositing the block of material and prior to detecting the location of the area of interest, rotating the sample substantially ninety (90) degrees to return the sample back to its initial position.",
+                        "gate:gateId": 89
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00026",
+            "body": "which the charged particle beam is an electron beam of a scanning electron microscope, the electron beam being directed at the sample surface at an angle that is not orthogonal to the sample surface.\n",
+            "num": "00026",
+            "claimType": "dependent",
+            "transPhrase": ", in ",
+            "claimBackReference": "of claim 25",
+            "claimSize": 45,
+            "gate:gateId": 90,
+            "claimNumber": 26,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "26. The method of",
+                    ", in which the charged particle beam is an electron beam of a scanning electron microscope, the electron beam being directed at the sample surface at an angle that is not orthogonal to the sample surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 92,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 91
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00027",
+            "body": "further comprising:\nsubsequent to forming the fiducial, locating the area of interest by locating the fiducial and directing a focused ion beam toward the area of interest, the focused ion beam being directed at the sample surface at an angle that is substantially orthogonal to the sample surface.\n\n",
+            "num": "00027",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 26",
+            "claimSize": 60,
+            "gate:gateId": 93,
+            "claimNumber": 27,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "27. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 26",
+                    "gate:gateId": 95,
+                    "idref": "CLM-00026"
+                },
+                "gate:gateId": 94,
+                "claim-text": {
+                    "content": "subsequent to forming the fiducial, locating the area of interest by locating the fiducial and directing a focused ion beam toward the area of interest, the focused ion beam being directed at the sample surface at an angle that is substantially orthogonal to the sample surface.",
+                    "gate:gateId": 96
+                }
+            },
+            "depends_on": 26
+        }
+    ],
+    "numberIndependentClaims": 66
+}}

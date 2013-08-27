@@ -1,0 +1,214 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500226-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 27,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1028,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a predetermined pressure change at a port of a liquid container for supplying liquid to a printer, the system comprising a liquid delivery apparatus connected to a liquid container via a fluid line and a sensing arrangement connected to the fluid line,\nwherein the liquid container comprises an internal fluid pressure changing member configured so that contact with liquid being delivered by the liquid delivery apparatus causes said predetermined pressure change in the fluid line, and\nthe sensing arrangement is configured to sense said predetermined pressure change in the fluid line.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for sensing ",
+            "claimSize": 101,
+            "gate:gateId": 1,
+            "claim_preamble": "A system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A system for sensing a predetermined pressure change at a port of a liquid container for supplying liquid to a printer, the system comprising a liquid delivery apparatus connected to a liquid container via a fluid line and a sensing arrangement connected to the fluid line,",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "wherein the liquid container comprises an internal fluid pressure changing member configured so that contact with liquid being delivered by the liquid delivery apparatus causes said predetermined pressure change in the fluid line, and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "the sensing arrangement is configured to sense said predetermined pressure change in the fluid line.",
+                        "gate:gateId": 4
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the liquid container further comprises:\na body having an interior space for containing liquid to a predetermined capacity;\na port through the body connected to the fluid line for delivery of the liquid from the liquid delivery apparatus into the body to said predetermined capacity; and\nan aperture through the body at which the interior space of the body is in communication with atmosphere external to the fluid container,\nwherein the fluid pressure changing member is arranged between the aperture and the interior space of the body.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 102,
+            "gate:gateId": 5,
+            "claimNumber": 2,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "2. A system according to",
+                    ", wherein the liquid container further comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 7,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 6,
+                "claim-text": [
+                    {
+                        "content": "a body having an interior space for containing liquid to a predetermined capacity;",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "a port through the body connected to the fluid line for delivery of the liquid from the liquid delivery apparatus into the body to said predetermined capacity; and",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "an aperture through the body at which the interior space of the body is in communication with atmosphere external to the fluid container,",
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": "wherein the fluid pressure changing member is arranged between the aperture and the interior space of the body.",
+                        "gate:gateId": 11
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the port and aperture are located through an upper surface of the body so that the liquid being delivered into the interior space of the body fills said interior space from a lower surface of the body to said upper surface.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 52,
+            "gate:gateId": 12,
+            "claimNumber": 3,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "3. A system according to",
+                    ", wherein the port and aperture are located through an upper surface of the body so that the liquid being delivered into the interior space of the body fills said interior space from a lower surface of the body to said upper surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the member comprises a hydrophobic film located between the interior space and the aperture.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 25,
+            "gate:gateId": 15,
+            "claimNumber": 4,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "4. A system according to",
+                    ", wherein the member comprises a hydrophobic film located between the interior space and the aperture."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the member comprises a protrusion within an opening of the aperture in an interior surface of the body.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 29,
+            "gate:gateId": 18,
+            "claimNumber": 5,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "5. A system according to",
+                    ", wherein the member comprises a protrusion within an opening of the aperture in an interior surface of the body."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the aperture has a gas vent on an exterior surface of the body, the gas vent being configured to be closed to atmosphere until the container is installed in the printer.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 43,
+            "gate:gateId": 21,
+            "claimNumber": 6,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "6. A system according to",
+                    ", wherein the aperture has a gas vent on an exterior surface of the body, the gas vent being configured to be closed to atmosphere until the container is installed in the printer."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a valve within the aperture, the valve being biased closed and having an engagement portion which engages with the printer so as to open valve against said bias when the container is installed in the printer. \n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "comprising ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 48,
+            "gate:gateId": 24,
+            "claimNumber": 7,
+            "claim_preamble": "A system",
+            "claim-text": {
+                "content": [
+                    "7. A system according to",
+                    ", comprising a valve within the aperture, the valve being biased closed and having an engagement portion which engages with the printer so as to open valve against said bias when the container is installed in the printer."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 2
+        }
+    ],
+    "numberIndependentClaims": 13
+}}

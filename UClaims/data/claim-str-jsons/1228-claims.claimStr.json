@@ -1,0 +1,490 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500134-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 65,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2978,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a support frame having a first portion, a second portion spaced distally from the first portion, and user supporting means provided on the support frame;\na grip handlebar mechanically connected to the support frame, wherein the support frame is mechanically connectible to and disconnectible from the grip handlebar in order to assume a first vehicle use mode having a first configuration and a second vehicle use mode having a second configuration,\na front wheel set connected to one of the first portion and the second portion and to the grip handlebar, in accordance with the one of the first configuration and the second configuration;\na rear wheel set connected to the other of the first and the second portion; and\nat least a first rotatory movement transmitting pin having a first end connected to the front wheel set and a second end reversibly connectible to the grip handlebar, the first pin being hinged to one of the first portion and the second portion of the support frame in accordance with one of the first configuration and the second configuration,\nwherein the grip handlebar is connected to the first portion and the second portion, respectively, and such that the user supporting means assumes different positions when in the first vehicle use mode and in the second vehicle use mode,\nwherein in the first configuration the vehicle permits the user to be placed in a sitting position, and in the second configuration the vehicle permits the user to be placed in a standing position,\nwherein the first portion and the second portion are spaced relative to each other along a vertical direction with respect to a travelling surface of the vehicle so that the first portion in the first configuration is higher than the second portion and in the second configuration the first portion is lower than the second portion,\nwherein in the first configuration the user supporting means is mounted at a first height and in the second configuration the user supporting means is mounted at a second height lower than the first height.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ":\n",
+            "claimSize": 367,
+            "gate:gateId": 1,
+            "claim_preamble": "A toy vehicle comprising",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A toy vehicle comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a support frame having a first portion, a second portion spaced distally from the first portion, and user supporting means provided on the support frame;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a grip handlebar mechanically connected to the support frame, wherein the support frame is mechanically connectible to and disconnectible from the grip handlebar in order to assume a first vehicle use mode having a first configuration and a second vehicle use mode having a second configuration,",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a front wheel set connected to one of the first portion and the second portion and to the grip handlebar, in accordance with the one of the first configuration and the second configuration;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a rear wheel set connected to the other of the first and the second portion; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "at least a first rotatory movement transmitting pin having a first end connected to the front wheel set and a second end reversibly connectible to the grip handlebar, the first pin being hinged to one of the first portion and the second portion of the support frame in accordance with one of the first configuration and the second configuration,",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein the grip handlebar is connected to the first portion and the second portion, respectively, and such that the user supporting means assumes different positions when in the first vehicle use mode and in the second vehicle use mode,",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein in the first configuration the vehicle permits the user to be placed in a sitting position, and in the second configuration the vehicle permits the user to be placed in a standing position,",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "wherein the first portion and the second portion are spaced relative to each other along a vertical direction with respect to a travelling surface of the vehicle so that the first portion in the first configuration is higher than the second portion and in the second configuration the first portion is lower than the second portion,",
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": "wherein in the first configuration the user supporting means is mounted at a first height and in the second configuration the user supporting means is mounted at a second height lower than the first height.",
+                        "gate:gateId": 11
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the user supporting means are fixed to the first portion in the first configuration and the second configuration.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 12,
+            "claimNumber": 2,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "2. The toy vehicle of",
+                    ", wherein the user supporting means are fixed to the first portion in the first configuration and the second configuration."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "user supporting means comprises a first support base to be employed in the first configuration and an alternative second support base to be employed in the second configuration.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 40,
+            "gate:gateId": 15,
+            "claimNumber": 3,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "3. The toy vehicle of",
+                    ", wherein said user supporting means comprises a first support base to be employed in the first configuration and an alternative second support base to be employed in the second configuration."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the first base is adapted to permit the user to sit thereon and the second base is a footrest adapted to permit at least one of the user's feet to be placed thereon.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 45,
+            "gate:gateId": 18,
+            "claimNumber": 4,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "4. The toy vehicle of",
+                    ", wherein the first base is adapted to permit the user to sit thereon and the second base is a footrest adapted to permit at least one of the user's feet to be placed thereon."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the support frame longitudinally defines a broken line and comprises a central portion having an end connected to the first portion and an opposite end connected to the second portion, said central portion being inclined in respect to the first portion and the second portion, parallel to each other.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 62,
+            "gate:gateId": 21,
+            "claimNumber": 5,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "5. The toy vehicle of",
+                    ", wherein the support frame longitudinally defines a broken line and comprises a central portion having an end connected to the first portion and an opposite end connected to the second portion, said central portion being inclined in respect to the first portion and the second portion, parallel to each other."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the support frame in the second configuration is rotated by 180° with respect to a position assumed in the first configuration.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 24,
+            "claimNumber": 6,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "6. The toy vehicle of",
+                    ", wherein the support frame in the second configuration is rotated by 180° with respect to a position assumed in the first configuration."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the support frame defines, in the first configuration and the second configuration, an upper face and a lower face, the first base and the second base being mounted, in the respective configurations, on the corresponding upper face of the frame.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 56,
+            "gate:gateId": 27,
+            "claimNumber": 7,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "7. The toy vehicle of",
+                    ", wherein the support frame defines, in the first configuration and the second configuration, an upper face and a lower face, the first base and the second base being mounted, in the respective configurations, on the corresponding upper face of the frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00008",
+            "body": "one or more wheels mechanically coupled to the support frame.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 30,
+            "claimNumber": 8,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "8. The toy vehicle of",
+                    ", further comprising one or more wheels mechanically coupled to the support frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "sliders mechanically coupled to the support frame.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 19,
+            "gate:gateId": 33,
+            "claimNumber": 9,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "9. The toy vehicle of",
+                    ", further comprising sliders mechanically coupled to the support frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a vertical extension element interposable in the second configuration between the grip handlebar and the front wheel set and fixable to said second end of the first hinge pin.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 41,
+            "gate:gateId": 36,
+            "claimNumber": 10,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "10. The toy vehicle of",
+                    ", further comprising a vertical extension element interposable in the second configuration between the grip handlebar and the front wheel set and fixable to said second end of the first hinge pin."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 38,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 37
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a second hinge pin having a lower end fixed to the vertical extension element and an upper end reversibly fixable to the grip handlebar.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 36,
+            "gate:gateId": 39,
+            "claimNumber": 11,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "11. The toy vehicle of",
+                    ", further comprising a second hinge pin having a lower end fixed to the vertical extension element and an upper end reversibly fixable to the grip handlebar."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 41,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 40
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the first configuration, the first portion is in a forward position with respect to the second portion, and in the second configuration the first portion is disposed backward with respect to the second portion, with reference to a forward travelling direction of the vehicle.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 59,
+            "gate:gateId": 42,
+            "claimNumber": 12,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "12. The toy vehicle of",
+                    ", wherein in the first configuration, the first portion is in a forward position with respect to the second portion, and in the second configuration the first portion is disposed backward with respect to the second portion, with reference to a forward travelling direction of the vehicle."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the support frame is adapted to reversibly assume the first configuration and the second configuration.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 26,
+            "gate:gateId": 45,
+            "claimNumber": 13,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "13. The toy vehicle of",
+                    ", wherein the support frame is adapted to reversibly assume the first configuration and the second configuration."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the first support base and the second support base are each adapted to be reversibly fixed to said support frame.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 31,
+            "gate:gateId": 48,
+            "claimNumber": 14,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "14. The toy vehicle of",
+                    ", wherein the first support base and the second support base are each adapted to be reversibly fixed to said support frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the grip handlebar, the support frame, the first base and the second base are made of wood.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 30,
+            "gate:gateId": 51,
+            "claimNumber": 15,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "15. The toy vehicle of",
+                    ", wherein the grip handlebar, the support frame, the first base and the second base are made of wood."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the first portion and the second portion are opposite ends of the support frame having a broken line shape.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 30,
+            "gate:gateId": 54,
+            "claimNumber": 16,
+            "claim_preamble": "The toy vehicle",
+            "claim-text": {
+                "content": [
+                    "16. The toy vehicle of",
+                    ", wherein the first portion and the second portion are opposite ends of the support frame having a broken line shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00017",
+            "body": "a first usage mode that permits a user to be placed in a sitting position during operation and a second usage mode that permits the user to be placed in a standing position during operation, the toy vehicle comprising:\na support frame having a first portion and a second portion spaced distally from the first portion, the first portion being spatially higher than the second portion when the toy vehicle is in the first usage mode and spatially lower than the second portion when the toy vehicle is in the second usage mode;\nuser supporting means provided on the support frame such that in the first usage mode the user supporting means is mounted at a first height and in the second usage mode the user supporting means is mounted at a second height lower than the first height;\na grip handlebar connected to the first portion when the toy vehicle is in the first usage mode and to the second portion when the toy vehicle is in the second usage mode;\na first wheel set connected to the first portion when the toy vehicle is in the first usage mode and to the second portion when the toy vehicle is in the second usage mode; and\na second wheel set connected to the second portion when the toy vehicle is in the first usage mode and to the first portion when the toy vehicle is in the second usage mode,\nwherein in the first usage mode, the first portion is in a forward position with respect to the second portion, and in the second usage mode the first portion is disposed backward with respect to the second portion, with reference to a forward travelling direction of the toy vehicle. \n\n",
+            "claimType": "independent",
+            "num": "00017",
+            "transPhrase": " between ",
+            "claimSize": 309,
+            "gate:gateId": 57,
+            "claim_preamble": "A toy vehicle convertible",
+            "claimNumber": 17,
+            "claim-text": {
+                "content": "17. A toy vehicle convertible between a first usage mode that permits a user to be placed in a sitting position during operation and a second usage mode that permits the user to be placed in a standing position during operation, the toy vehicle comprising:",
+                "gate:gateId": 58,
+                "claim-text": [
+                    {
+                        "content": "a support frame having a first portion and a second portion spaced distally from the first portion, the first portion being spatially higher than the second portion when the toy vehicle is in the first usage mode and spatially lower than the second portion when the toy vehicle is in the second usage mode;",
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "user supporting means provided on the support frame such that in the first usage mode the user supporting means is mounted at a first height and in the second usage mode the user supporting means is mounted at a second height lower than the first height;",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "a grip handlebar connected to the first portion when the toy vehicle is in the first usage mode and to the second portion when the toy vehicle is in the second usage mode;",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": "a first wheel set connected to the first portion when the toy vehicle is in the first usage mode and to the second portion when the toy vehicle is in the second usage mode; and",
+                        "gate:gateId": 62
+                    },
+                    {
+                        "content": "a second wheel set connected to the second portion when the toy vehicle is in the first usage mode and to the first portion when the toy vehicle is in the second usage mode,",
+                        "gate:gateId": 63
+                    },
+                    {
+                        "content": "wherein in the first usage mode, the first portion is in a forward position with respect to the second portion, and in the second usage mode the first portion is disposed backward with respect to the second portion, with reference to a forward travelling direction of the toy vehicle.",
+                        "gate:gateId": 64
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 10
+}}

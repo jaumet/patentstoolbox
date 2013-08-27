@@ -1,0 +1,318 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502543-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 40,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1161,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "impulse voltage testing of electrical high-voltage components comprising:\na cuboid container having a first and a second container end and at least one movable cover on an upper face; and\nan impulse voltage generator that is a tower-like structure,\nwherein the impulse voltage generator is movable between a substantially horizontal position within the cuboid container, and a substantially vertical position relative to the container,\nwherein a respective movement between the vertical and horizontal positions includes a transverse pivoting movement about a rotation axis with respect to a longitudinal direction of the impulse voltage generator, and\nwherein the container is closable on its upper face by the at least one movable cover.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 124,
+            "gate:gateId": 1,
+            "claim_preamble": "A test arrangement",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A test arrangement for impulse voltage testing of electrical high-voltage components comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a cuboid container having a first and a second container end and at least one movable cover on an upper face; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "an impulse voltage generator that is a tower-like structure,",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "wherein the impulse voltage generator is movable between a substantially horizontal position within the cuboid container, and a substantially vertical position relative to the container,",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "wherein a respective movement between the vertical and horizontal positions includes a transverse pivoting movement about a rotation axis with respect to a longitudinal direction of the impulse voltage generator, and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein the container is closable on its upper face by the at least one movable cover.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "at least one surge arrestor,\nwherein the at least one surge arrester can be pivoted together with the high-voltage generator between a substantially horizontal position within the container and a substantially vertical position.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "comprising:\n",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 48,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "2. The test arrangement as claimed in",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9,
+                "claim-text": [
+                    {
+                        "content": "at least one surge arrestor,",
+                        "gate:gateId": 11
+                    },
+                    {
+                        "content": "wherein the at least one surge arrester can be pivoted together with the high-voltage generator between a substantially horizontal position within the container and a substantially vertical position.",
+                        "gate:gateId": 12
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the surge arrester has at least one spark gap.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 22,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "3. The test arrangement as claimed in",
+                    ", wherein the surge arrester has at least one spark gap."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the surge arrester has at least one semiconductor element.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 22,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "4. The test arrangement as claimed in",
+                    ", wherein the surge arrester has at least one semiconductor element."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the surge arrester is arranged in the interior of the structure of the impulse voltage generator.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 29,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "5. The test arrangement as claimed in",
+                    ", wherein the surge arrester is arranged in the interior of the structure of the impulse voltage generator."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the surge arrester is integrated in the tower-like structure of the impulse voltage generator.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 27,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "6. The test arrangement as claimed in",
+                    ", wherein the surge arrester is integrated in the tower-like structure of the impulse voltage generator."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the surge arrester is arranged outside the tower-like structure, of the impulse voltage generator and is aligned parallel to it.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 34,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "7. The test arrangement as claimed in",
+                    ", wherein the surge arrester is arranged outside the tower-like structure, of the impulse voltage generator and is aligned parallel to it."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the surge arrester and the impulse voltage generator are connected through a variable-length movement apparatus which acts transversely with respect to their parallel longitudinal axes.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 7 ,",
+            "claimSize": 38,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "8. The test arrangement as claimed in",
+                    ", wherein the surge arrester and the impulse voltage generator are connected through a variable-length movement apparatus which acts transversely with respect to their parallel longitudinal axes."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a voltage divider is pivotable together with the impulse voltage generator between a substantially horizontal position within the container and a substantially vertical position.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 31,
+            "claimNumber": 9,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "9. The test arrangement as claimed in",
+                    ", wherein a voltage divider is pivotable together with the impulse voltage generator between a substantially horizontal position within the container and a substantially vertical position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the voltage divider and the impulse voltage generator are connected through a variable-length movement apparatus which acts transversely with respect to respective parallel longitudinal axes of the voltage divider and the impulse generator.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 9 ,",
+            "claimSize": 46,
+            "gate:gateId": 34,
+            "claimNumber": 10,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "10. The test arrangement as claimed in",
+                    ", wherein the voltage divider and the impulse voltage generator are connected through a variable-length movement apparatus which acts transversely with respect to respective parallel longitudinal axes of the voltage divider and the impulse generator."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the container is a standard freight container. \n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 20,
+            "gate:gateId": 37,
+            "claimNumber": 11,
+            "claim_preamble": "The test arrangement",
+            "claim-text": {
+                "content": [
+                    "11. The test arrangement as claimed in",
+                    ", wherein the container is a standard freight container."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 80
+}}

@@ -1,0 +1,475 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504581-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 59,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2496,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a preferred data set, comprising:\ngenerating, by one or more processors, a candidate data set based on a first data set having a first join attribute, a first aggregate attribute and a first local attribute, and a second data set having a second join attribute compatible with the first join attribute and a second aggregate attribute, wherein the candidate data set includes a total attribute having a value that is based on aggregating a value associated with the first aggregate attribute and a value associated with the second aggregate attribute, and the candidate data set further includes the first local attribute selected from the first data set; and\nselecting, by one or more processors, the preferred data set from the candidate data set based on the total attribute and the first local attribute, wherein no tuple in the preferred data set is fully dominated by any other tuples in the preferred data set.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for selecting ",
+            "claimSize": 172,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for selecting a preferred data set, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "generating, by one or more processors, a candidate data set based on a first data set having a first join attribute, a first aggregate attribute and a first local attribute, and a second data set having a second join attribute compatible with the first join attribute and a second aggregate attribute, wherein the candidate data set includes a total attribute having a value that is based on aggregating a value associated with the first aggregate attribute and a value associated with the second aggregate attribute, and the candidate data set further includes the first local attribute selected from the first data set; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "selecting, by one or more processors, the preferred data set from the candidate data set based on the total attribute and the first local attribute, wherein no tuple in the preferred data set is fully dominated by any other tuples in the preferred data set.",
+                        "gate:gateId": 4
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the aggregating is associated with a monotonic function including one or more of a sum function, an average function, a minimum function, and a maximum function.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 39,
+            "gate:gateId": 5,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein the aggregating is associated with a monotonic function including one or more of a sum function, an average function, a minimum function, and a maximum function."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 7,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 6
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the first join attribute and the second join attribute have a logical relationship.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 8,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the first join attribute and the second join attribute have a logical relationship."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the logical relationship includes one of equal to, less than, less than or equal to, greater than, and greater than or equal to.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 37,
+            "gate:gateId": 11,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein the logical relationship includes one of equal to, less than, less than or equal to, greater than, and greater than or equal to."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the generating, further comprising processing the first data set to retain tuples which are not fully dominated.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", before ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 14,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", before the generating, further comprising processing the first data set to retain tuples which are not fully dominated."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the generating, further comprising selecting a first tuple from the first data set that locally dominates a second tuple based on a third local attribute in the first data set.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", before ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 41,
+            "gate:gateId": 17,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", before the generating, further comprising selecting a first tuple from the first data set that locally dominates a second tuple based on a third local attribute in the first data set."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the candidate data set includes the first tuple.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 18,
+            "gate:gateId": 20,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein the candidate data set includes the first tuple."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the candidate data set includes the second tuple.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 18,
+            "gate:gateId": 23,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", wherein the candidate data set includes the second tuple."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the selecting the first tuple, further comprising finding a dominance relationship among the first tuple and other tuples based on the third local attribute in the first data set.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", after ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 40,
+            "gate:gateId": 26,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", after the selecting the first tuple, further comprising finding a dominance relationship among the first tuple and other tuples based on the third local attribute in the first data set."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the selecting the preferred data set from the candidate data set is also based on the dominance relationship.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 28,
+            "gate:gateId": 29,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    ", wherein the selecting the preferred data set from the candidate data set is also based on the dominance relationship."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a third tuple from the first data set that is locally dominated by the second tuple based on a fourth local attribute in the first data set.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising selecting ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 39,
+            "gate:gateId": 32,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    ", further comprising selecting a third tuple from the first data set that is locally dominated by the second tuple based on a fourth local attribute in the first data set."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00012",
+            "body": "a preferred data set, comprising:\nprocessing, by one or more processors, a first data set to retain tuples which are not fully dominated;\ngenerating, by one or more processors, a candidate data set based on the first data set having a first join attribute and a first aggregate attribute, and a second data set having a second join attribute compatible with the first join attribute and a second aggregate attribute, wherein the candidate data set includes a total attribute having a value that is based on aggregating a value associated with the first aggregate attribute and a value associated with the second aggregate attribute, and the candidate data set further includes a first local attribute selected from the first data set; and\nafter the processing, selecting, by one or more processors, the preferred data set from the candidate data set based on the total attribute, wherein no tuple in the preferred data set is fully dominated by any other tuples in the preferred data set.\n\n",
+            "claimType": "independent",
+            "num": "00012",
+            "transPhrase": " for selecting ",
+            "claimSize": 187,
+            "gate:gateId": 35,
+            "claim_preamble": "A method",
+            "claimNumber": 12,
+            "claim-text": {
+                "content": "12. A method for selecting a preferred data set, comprising:",
+                "gate:gateId": 36,
+                "claim-text": [
+                    {
+                        "content": "processing, by one or more processors, a first data set to retain tuples which are not fully dominated;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "generating, by one or more processors, a candidate data set based on the first data set having a first join attribute and a first aggregate attribute, and a second data set having a second join attribute compatible with the first join attribute and a second aggregate attribute, wherein the candidate data set includes a total attribute having a value that is based on aggregating a value associated with the first aggregate attribute and a value associated with the second aggregate attribute, and the candidate data set further includes a first local attribute selected from the first data set; and",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "after the processing, selecting, by one or more processors, the preferred data set from the candidate data set based on the total attribute, wherein no tuple in the preferred data set is fully dominated by any other tuples in the preferred data set.",
+                        "gate:gateId": 39
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the generating, further comprising selecting a first tuple from the first data set that locally dominates a second tuple based on a third local attribute in the first data set.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", before ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 41,
+            "gate:gateId": 40,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", before the generating, further comprising selecting a first tuple from the first data set that locally dominates a second tuple based on a third local attribute in the first data set."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the candidate data set includes the first tuple.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 13",
+            "claimSize": 18,
+            "gate:gateId": 43,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein the candidate data set includes the first tuple."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the candidate data set includes the second tuple.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 13",
+            "claimSize": 18,
+            "gate:gateId": 46,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", wherein the candidate data set includes the second tuple."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00016",
+            "body": "computer-executable instructions for selecting a preferred data set, which when executed by a computing device, causes the computing device to:\ngenerate a candidate data set based on a first data set having a first join attribute, a first aggregate attribute and a first local attribute, and a second data set having a second join attribute compatible with the first join attribute and a second aggregate attribute, wherein the candidate data set includes a total attribute having a value that is based on aggregating a value associated with the first aggregate attribute and a value associated with the second aggregate attribute and the first local attribute selected from the first data set; and\nselect the preferred data set from the candidate data set based on the total attribute and the first local attribute, wherein no tuple in the preferred data set is fully dominated by any other tuples in the preferred data set.\n\n",
+            "claimType": "independent",
+            "num": "00016",
+            "transPhrase": " encoded with ",
+            "claimSize": 170,
+            "gate:gateId": 49,
+            "claim_preamble": "A non-transitory computer-readable storage medium",
+            "claimNumber": 16,
+            "claim-text": {
+                "content": "16. A non-transitory computer-readable storage medium encoded with computer-executable instructions for selecting a preferred data set, which when executed by a computing device, causes the computing device to:",
+                "gate:gateId": 50,
+                "claim-text": [
+                    {
+                        "content": "generate a candidate data set based on a first data set having a first join attribute, a first aggregate attribute and a first local attribute, and a second data set having a second join attribute compatible with the first join attribute and a second aggregate attribute, wherein the candidate data set includes a total attribute having a value that is based on aggregating a value associated with the first aggregate attribute and a value associated with the second aggregate attribute and the first local attribute selected from the first data set; and",
+                        "gate:gateId": 51
+                    },
+                    {
+                        "content": "select the preferred data set from the candidate data set based on the total attribute and the first local attribute, wherein no tuple in the preferred data set is fully dominated by any other tuples in the preferred data set.",
+                        "gate:gateId": 52
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00017",
+            "body": "additional instructions, which when executed by the computing device, causes the computing device to, before generating the candidate data set, process the first data set to retain tuples which are not fully dominated.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", further containing ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 51,
+            "gate:gateId": 53,
+            "claimNumber": 17,
+            "claim_preamble": "The non-transitory computer-readable storage medium",
+            "claim-text": {
+                "content": [
+                    "17. The non-transitory computer-readable storage medium of",
+                    ", further containing additional instructions, which when executed by the computing device, causes the computing device to, before generating the candidate data set, process the first data set to retain tuples which are not fully dominated."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "additional instructions, which when executed by the computing device, causes the computing device to, before generating the candidate data set, select a first tuple from the first data set that locally dominates a second tuple based on a third local attribute in the first data set.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", further containing ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 64,
+            "gate:gateId": 56,
+            "claimNumber": 18,
+            "claim_preamble": "The non-transitory computer-readable storage medium",
+            "claim-text": {
+                "content": [
+                    "18. The non-transitory computer-readable storage medium of",
+                    ", further containing additional instructions, which when executed by the computing device, causes the computing device to, before generating the candidate data set, select a first tuple from the first data set that locally dominates a second tuple based on a third local attribute in the first data set."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 17
+        }
+    ],
+    "numberIndependentClaims": 246
+}}

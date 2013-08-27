@@ -1,0 +1,1293 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502822-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 183,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 7521,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a video game console of a type that is responsive to a handheld controller input to execute a video game program and provide interactive animated displays, a method of collecting and transforming profile data of performance measurements from the video game program and visualizing and interactively manipulating the transformed data to visually present a dynamic behavior of the video game program that shows correlation of impacts that functions have on performance of the executing video game program, the method comprising:\ncollecting the profile data;\ndisplaying, by a profile analyzer, a list of one or more functions of the video game program in a Functions List window of a display device based on the profile data, each displayed function in the Functions List window being user selectable, the profile analyzer being implemented at least in part in hardware;\nreceiving user input selecting a function from the Functions List window; and\ndisplaying, by the profile analyzer, a function graph of the selected function in a Function Graph window of the display device based on the profile data,\nwherein the Function Graph and the Functions List windows are separate windows and are simultaneously displayed on the display device, and\nwherein the function graph includes a data line and a highlight band tracking the data line, the data line representing a graph of instantaneous performance values of the selected function, a thickness of the highlight band representing a margin of error of the selected function, and the highlight band being simultaneously displayed with and surrounding the data line.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " with ",
+            "claimSize": 277,
+            "gate:gateId": 1,
+            "claim_preamble": "use",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. For use with a video game console of a type that is responsive to a handheld controller input to execute a video game program and provide interactive animated displays, a method of collecting and transforming profile data of performance measurements from the video game program and visualizing and interactively manipulating the transformed data to visually present a dynamic behavior of the video game program that shows correlation of impacts that functions have on performance of the executing video game program, the method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "collecting the profile data;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "displaying, by a profile analyzer, a list of one or more functions of the video game program in a Functions List window of a display device based on the profile data, each displayed function in the Functions List window being user selectable, the profile analyzer being implemented at least in part in hardware;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "receiving user input selecting a function from the Functions List window; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "displaying, by the profile analyzer, a function graph of the selected function in a Function Graph window of the display device based on the profile data,",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein the Function Graph and the Functions List windows are separate windows and are simultaneously displayed on the display device, and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein the function graph includes a data line and a highlight band tracking the data line, the data line representing a graph of instantaneous performance values of the selected function, a thickness of the highlight band representing a margin of error of the selected function, and the highlight band being simultaneously displayed with and surrounding the data line.",
+                        "gate:gateId": 8
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the step of displaying the list of one or more functions in the Functions List window comprises:\ngenerating a mini-graph for each function based on the profile data, each mini-graph being a graph of the corresponding function's performance over a duration of the profile data; and\ndisplaying the mini-graph in the Functions List window within a predetermined area footprint.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 73,
+            "gate:gateId": 9,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein the step of displaying the list of one or more functions in the Functions List window comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10,
+                "claim-text": [
+                    {
+                        "content": "generating a mini-graph for each function based on the profile data, each mini-graph being a graph of the corresponding function's performance over a duration of the profile data; and",
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": "displaying the mini-graph in the Functions List window within a predetermined area footprint.",
+                        "gate:gateId": 13
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the step of generating the mini-graph for each function comprises generating each mini-graph using non-linear scaling.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 26,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the step of generating the mini-graph for each function comprises generating each mini-graph using non-linear scaling."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the step of generating the mini-graph for each function comprises generating each mini-graph using exponential scaling.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 26,
+            "gate:gateId": 17,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein the step of generating the mini-graph for each function comprises generating each mini-graph using exponential scaling."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the step of displaying the function graph of the selected function comprises visually correlating the highlight band in the Function Graph window with the selected function in the Functions List window.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 41,
+            "gate:gateId": 20,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein the step of displaying the function graph of the selected function comprises visually correlating the highlight band in the Function Graph window with the selected function in the Functions List window."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the step of displaying the function graph of the selected function comprises:\ndisplaying the data line; and\nsmoothing the highlight band based on the data line such that the highlight band is on the data line.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 49,
+            "gate:gateId": 23,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein in the step of displaying the function graph of the selected function comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24,
+                "claim-text": [
+                    {
+                        "content": "displaying the data line; and",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "smoothing the highlight band based on the data line such that the highlight band is on the data line.",
+                        "gate:gateId": 27
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the step of smoothing the highlight band comprises tracking a moving average of the data line within a predetermined window when a change in the data line within the predetermined window is within a predetermined percentage of the margin of error, and tracking the data line substantially exactly otherwise.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 60,
+            "gate:gateId": 28,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein the step of smoothing the highlight band comprises tracking a moving average of the data line within a predetermined window when a change in the data line within the predetermined window is within a predetermined percentage of the margin of error, and tracking the data line substantially exactly otherwise."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the step of smoothing the highlight band comprises:\n(1) setting a window size parameter n=0;\n(2) incrementing the window size parameter n=n+1;\n(3) determining whether a moving window of size 2n+1 centered on a current time t lies within data line bounds of the profile data and proceeding to (4) when the moving window lies within the data line bounds and proceeding to (6) otherwise;\n(4) determining whether either a first difference of data values d(t+n)−d(t) or a second difference d(t−n)−d(t) of the data line is within a predetermined margin of error percentage and proceeding to (5) when both first and second differences are within the predetermined margin of error percentage and proceeding to (6) otherwise;\n(5) determining whether the window size parameter n is less than a predetermined maximum window size parameter and proceeding to (2) when the window size parameter n is less than the predetermined maximum window size parameter and proceeding to (7) otherwise;\n(6) decrementing the window size parameter; and\n(7) averaging the data values within the window of size 2n+1 centered on the current time t.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 256,
+            "gate:gateId": 31,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", wherein the step of smoothing the highlight band comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 32,
+                "claim-text": [
+                    {
+                        "content": "(1) setting a window size parameter n=0;",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "(2) incrementing the window size parameter n=n+1;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "(3) determining whether a moving window of size 2n+1 centered on a current time t lies within data line bounds of the profile data and proceeding to (4) when the moving window lies within the data line bounds and proceeding to (6) otherwise;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "(4) determining whether either a first difference of data values d(t+n)−d(t) or a second difference d(t−n)−d(t) of the data line is within a predetermined margin of error percentage and proceeding to (5) when both first and second differences are within the predetermined margin of error percentage and proceeding to (6) otherwise;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "(5) determining whether the window size parameter n is less than a predetermined maximum window size parameter and proceeding to (2) when the window size parameter n is less than the predetermined maximum window size parameter and proceeding to (7) otherwise;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "(6) decrementing the window size parameter; and",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "(7) averaging the data values within the window of size 2n+1 centered on the current time t.",
+                        "gate:gateId": 40
+                    }
+                ]
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a graph representing range and average performance values for the data line of the selected function for a portion of the corresponding function graph currently displayed in the Function Graph window based on the profile data.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising displaying ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 48,
+            "gate:gateId": 41,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", further comprising displaying a graph representing range and average performance values for the data line of the selected function for a portion of the corresponding function graph currently displayed in the Function Graph window based on the profile data."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the graph representing the range and average performance values is simultaneously displayed with and is visually correlated to the corresponding function graph.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 32,
+            "gate:gateId": 44,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    ", wherein the graph representing the range and average performance values is simultaneously displayed with and is visually correlated to the corresponding function graph."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a Performance Graph window of the display device, a performance graph of instantaneous performance values of the video game program based on the profile data,\nwherein the Performance Graph window is separate from the Functions List and the Function Graph windows and is simultaneously displayed with the Functions List and the Function Graph windows.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising displaying, in ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 70,
+            "gate:gateId": 47,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    ", further comprising displaying, in a Performance Graph window of the display device, a performance graph of instantaneous performance values of the video game program based on the profile data,"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 48,
+                "claim-text": {
+                    "content": "wherein the Performance Graph window is separate from the Functions List and the Function Graph windows and is simultaneously displayed with the Functions List and the Function Graph windows.",
+                    "gate:gateId": 50
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the performance graph to visually alert the user when the performance graph drops below a predetermined instantaneous performance value.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising displaying ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 31,
+            "gate:gateId": 51,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", further comprising displaying the performance graph to visually alert the user when the performance graph drops below a predetermined instantaneous performance value."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the Function and Performance Graph windows so that X-axis scales of the Function and Performance Graph windows correspond one-to-one to each other;\nreceiving a user input for non-linear scaling; and\nperforming non-linear scaling along the X-axis scales of the Function and Performance Graph windows in response to the user input while maintaining the one-to-one correspondence.\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nscaling ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 72,
+            "gate:gateId": 54,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 55,
+                "claim-text": [
+                    {
+                        "content": "scaling the Function and Performance Graph windows so that X-axis scales of the Function and Performance Graph windows correspond one-to-one to each other;",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "receiving a user input for non-linear scaling; and",
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": "performing non-linear scaling along the X-axis scales of the Function and Performance Graph windows in response to the user input while maintaining the one-to-one correspondence.",
+                        "gate:gateId": 59
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the performance graph in the Performance Graph window is a graph of an instantaneous frame rate of the video game program at each frame of the profile data, and\nthe selected function's data line in the Function Graph window represents a percentage of a frame time spent executing the function at each frame of the profile data.\n\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 11",
+            "claimSize": 69,
+            "gate:gateId": 60,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 62,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 61,
+                "claim-text": [
+                    {
+                        "content": "the performance graph in the Performance Graph window is a graph of an instantaneous frame rate of the video game program at each frame of the profile data, and",
+                        "gate:gateId": 63
+                    },
+                    {
+                        "content": "the selected function's data line in the Function Graph window represents a percentage of a frame time spent executing the function at each frame of the profile data.",
+                        "gate:gateId": 64
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "further comprising:\nidentifying one or more functions of the video game program for modification based on the dynamic behavior of the video game program visually presented in the Functions List window and/or the Function Graph window; and\nmodifying the identified function(s) to optimize the performance of the video game program.\n\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 66,
+            "gate:gateId": 65,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 66,
+                "claim-text": [
+                    {
+                        "content": "identifying one or more functions of the video game program for modification based on the dynamic behavior of the video game program visually presented in the Functions List window and/or the Function Graph window; and",
+                        "gate:gateId": 68
+                    },
+                    {
+                        "content": "modifying the identified function(s) to optimize the performance of the video game program.",
+                        "gate:gateId": 69
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00016",
+            "body": "profile data of performance measurements from a video game program to visually present a dynamic behavior of the video game program, the analyzer comprising:\na processor, a memory, and a display controller,\nwherein the processor, in conjunction with the memory, is structured to process the profile data received from a profiler,\nwherein the display controller is to control a display device to display\na list of one or more functions of the video game program in a Functions List window of the display device based on the profile data analysis, each displayed function in the Functions List window being user selectable, and\na function graph of a user selected function in a Function Graph window of the display device based on the profile data analysis,\n\nwherein the Function Graph and the Functions List windows are separate windows and are simultaneously displayed on the display device, and\nwherein the function graph includes a data line and a highlight band tracking the data line, the data line representing a graph of instantaneous performance values of the selected function, a thickness of the highlight band representing a margin of error of the selected function, and the highlight band being simultaneously displayed with and surrounding the data line.\n\n",
+            "claimType": "independent",
+            "num": "00016",
+            "transPhrase": " structured to transform ",
+            "claimSize": 228,
+            "gate:gateId": 70,
+            "claim_preamble": "A profile analyzer",
+            "claimNumber": 16,
+            "claim-text": {
+                "content": "16. A profile analyzer structured to transform profile data of performance measurements from a video game program to visually present a dynamic behavior of the video game program, the analyzer comprising:",
+                "gate:gateId": 71,
+                "claim-text": [
+                    {
+                        "content": "a processor, a memory, and a display controller,",
+                        "gate:gateId": 72
+                    },
+                    {
+                        "content": "wherein the processor, in conjunction with the memory, is structured to process the profile data received from a profiler,",
+                        "gate:gateId": 73
+                    },
+                    {
+                        "content": "wherein the display controller is to control a display device to display",
+                        "gate:gateId": 74,
+                        "claim-text": [
+                            {
+                                "content": "a list of one or more functions of the video game program in a Functions List window of the display device based on the profile data analysis, each displayed function in the Functions List window being user selectable, and",
+                                "gate:gateId": 75
+                            },
+                            {
+                                "content": "a function graph of a user selected function in a Function Graph window of the display device based on the profile data analysis,",
+                                "gate:gateId": 76
+                            }
+                        ]
+                    },
+                    {
+                        "content": "wherein the Function Graph and the Functions List windows are separate windows and are simultaneously displayed on the display device, and",
+                        "gate:gateId": 77
+                    },
+                    {
+                        "content": "wherein the function graph includes a data line and a highlight band tracking the data line, the data line representing a graph of instantaneous performance values of the selected function, a thickness of the highlight band representing a margin of error of the selected function, and the highlight band being simultaneously displayed with and surrounding the data line.",
+                        "gate:gateId": 78
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the processor is structured to generate a mini-graph for each function based on the profile data, each mini-graph being a graph of the corresponding function's performance over a duration of the profile data, and\nthe display controller is structured to control the display device to display the mini-graph in the Functions List Window within a predetermined area footprint.\n\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 16",
+            "claimSize": 71,
+            "gate:gateId": 79,
+            "claimNumber": 17,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "17. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 81,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 80,
+                "claim-text": [
+                    {
+                        "content": "the processor is structured to generate a mini-graph for each function based on the profile data, each mini-graph being a graph of the corresponding function's performance over a duration of the profile data, and",
+                        "gate:gateId": 82
+                    },
+                    {
+                        "content": "the display controller is structured to control the display device to display the mini-graph in the Functions List Window within a predetermined area footprint.",
+                        "gate:gateId": 83
+                    }
+                ]
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the processor is structured to perform non-linear scaling to generate each mini-graph.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 22,
+            "gate:gateId": 84,
+            "claimNumber": 18,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "18. The analyzer of",
+                    ", wherein the processor is structured to perform non-linear scaling to generate each mini-graph."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 86,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 85
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the processor is structured to perform exponential scaling to generate each mini-graph.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 22,
+            "gate:gateId": 87,
+            "claimNumber": 19,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "19. The analyzer of",
+                    ", wherein the processor is structured to perform exponential scaling to generate each mini-graph."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 89,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 88
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the display controller is structured to control the display device to display the function graph of the selected function to visually correlate the highlight band in the Function Graph window with the selected function in the Functions List window.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 49,
+            "gate:gateId": 90,
+            "claimNumber": 20,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "20. The analyzer of",
+                    ", wherein the display controller is structured to control the display device to display the function graph of the selected function to visually correlate the highlight band in the Function Graph window with the selected function in the Functions List window."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 92,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 91
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00021",
+            "body": "the processor is structured to smooth the highlight band based on the data line such that the highlight band is on the data line, and\nthe display controller is structured to control the display device to display the data line and the smoothed highlight band.\n\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 16",
+            "claimSize": 56,
+            "gate:gateId": 93,
+            "claimNumber": 21,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "21. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 95,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 94,
+                "claim-text": [
+                    {
+                        "content": "the processor is structured to smooth the highlight band based on the data line such that the highlight band is on the data line, and",
+                        "gate:gateId": 96
+                    },
+                    {
+                        "content": "the display controller is structured to control the display device to display the data line and the smoothed highlight band.",
+                        "gate:gateId": 97
+                    }
+                ]
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00022",
+            "body": "the processor is structured to smooth the highlight band so that the highlight band tracks a moving average of the data line within a predetermined window when a change in the data line within the predetermined window is within a predetermined percentage of the margin of error and tracks the data line substantially exactly otherwise.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", wherein in ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 66,
+            "gate:gateId": 98,
+            "claimNumber": 22,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "22. The analyzer of",
+                    ", wherein in the processor is structured to smooth the highlight band so that the highlight band tracks a moving average of the data line within a predetermined window when a change in the data line within the predetermined window is within a predetermined percentage of the margin of error and tracks the data line substantially exactly otherwise."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 100,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 99
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the processor is structured to:\n(1) set a window size parameter n=0;\n(2) increment the window size parameter n=n+1;\n(3) determine whether a moving window of size 2n+1 centered on a current time t lies within data line bounds of the profile data and proceed to (4) when the moving size lies within the data line bounds and proceed to (6) otherwise;\n(4) determine whether either a first difference d(t+n)−d(t) or a second difference d(t−n)−d(t) of the data line is within a predetermined margin of error percentage and proceed to (5) when both first and second differences are within the predetermined margin of error percentage and proceed to (6) otherwise;\n(5) determine whether the window size parameter n is less than a predetermined maximum window size parameter and proceed to (2) when the window size parameter is less than the predetermined maximum window size parameter and proceed to (7) otherwise;\n(6) decrement the window size parameter n=n−1; and\n(7) average the data values within the window of size 2n+1 centered on the current time t.\n\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 254,
+            "gate:gateId": 101,
+            "claimNumber": 23,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "23. The analyzer of",
+                    ", wherein the processor is structured to:"
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 103,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 102,
+                "claim-text": [
+                    {
+                        "content": "(1) set a window size parameter n=0;",
+                        "gate:gateId": 104
+                    },
+                    {
+                        "content": "(2) increment the window size parameter n=n+1;",
+                        "gate:gateId": 105
+                    },
+                    {
+                        "content": "(3) determine whether a moving window of size 2n+1 centered on a current time t lies within data line bounds of the profile data and proceed to (4) when the moving size lies within the data line bounds and proceed to (6) otherwise;",
+                        "gate:gateId": 106
+                    },
+                    {
+                        "content": "(4) determine whether either a first difference d(t+n)−d(t) or a second difference d(t−n)−d(t) of the data line is within a predetermined margin of error percentage and proceed to (5) when both first and second differences are within the predetermined margin of error percentage and proceed to (6) otherwise;",
+                        "gate:gateId": 107
+                    },
+                    {
+                        "content": "(5) determine whether the window size parameter n is less than a predetermined maximum window size parameter and proceed to (2) when the window size parameter is less than the predetermined maximum window size parameter and proceed to (7) otherwise;",
+                        "gate:gateId": 108
+                    },
+                    {
+                        "content": "(6) decrement the window size parameter n=n−1; and",
+                        "gate:gateId": 109
+                    },
+                    {
+                        "content": "(7) average the data values within the window of size 2n+1 centered on the current time t.",
+                        "gate:gateId": 110
+                    }
+                ]
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00024",
+            "body": "the processor is structured to determine average performance values of the data line of the selected function for a portion of the corresponding function graph displayed in the Function Graph window, and\nthe display controller is structured to control the display device to display a graph representing the range and average performance values.\n\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 16",
+            "claimSize": 64,
+            "gate:gateId": 111,
+            "claimNumber": 24,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "24. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 113,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 112,
+                "claim-text": [
+                    {
+                        "content": "the processor is structured to determine average performance values of the data line of the selected function for a portion of the corresponding function graph displayed in the Function Graph window, and",
+                        "gate:gateId": 114
+                    },
+                    {
+                        "content": "the display controller is structured to control the display device to display a graph representing the range and average performance values.",
+                        "gate:gateId": 115
+                    }
+                ]
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00025",
+            "body": "the display controller is structured to such that the graph representing the range and average performance values is simultaneously displayed with and is visually correlated to the corresponding function graph.\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 24",
+            "claimSize": 40,
+            "gate:gateId": 116,
+            "claimNumber": 25,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "25. The analyzer of",
+                    ", wherein the display controller is structured to such that the graph representing the range and average performance values is simultaneously displayed with and is visually correlated to the corresponding function graph."
+                ],
+                "claim-ref": {
+                    "content": "claim 24",
+                    "gate:gateId": 118,
+                    "idref": "CLM-00024"
+                },
+                "gate:gateId": 117
+            },
+            "depends_on": 24
+        },
+        {
+            "id": "CLM-00026",
+            "body": "the processor is structured to generate a performance graph of instantaneous performance values of the video game program, and\nthe display controller is structured to control the display device to display the performance graph in a Performance Graph window of the display device,\nwherein the Performance Graph window is separate from the Functions List and the Function Graph windows and is simultaneously displayed with the Functions List and the Function Graph windows.\n\n",
+            "num": "00026",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 16",
+            "claimSize": 84,
+            "gate:gateId": 119,
+            "claimNumber": 26,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "26. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 121,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 120,
+                "claim-text": [
+                    {
+                        "content": "the processor is structured to generate a performance graph of instantaneous performance values of the video game program, and",
+                        "gate:gateId": 122
+                    },
+                    {
+                        "content": "the display controller is structured to control the display device to display the performance graph in a Performance Graph window of the display device,",
+                        "gate:gateId": 123
+                    },
+                    {
+                        "content": "wherein the Performance Graph window is separate from the Functions List and the Function Graph windows and is simultaneously displayed with the Functions List and the Function Graph windows.",
+                        "gate:gateId": 124
+                    }
+                ]
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00027",
+            "body": "the processor is structured to determine whether or not the performance graph is below a predetermined instantaneous performance value, and\nthe display controller is structured to control the display device to visually alert the user when the processor makes the determination.\n\n",
+            "num": "00027",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 26",
+            "claimSize": 52,
+            "gate:gateId": 125,
+            "claimNumber": 27,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "27. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 26",
+                    "gate:gateId": 127,
+                    "idref": "CLM-00026"
+                },
+                "gate:gateId": 126,
+                "claim-text": [
+                    {
+                        "content": "the processor is structured to determine whether or not the performance graph is below a predetermined instantaneous performance value, and",
+                        "gate:gateId": 128
+                    },
+                    {
+                        "content": "the display controller is structured to control the display device to visually alert the user when the processor makes the determination.",
+                        "gate:gateId": 129
+                    }
+                ]
+            },
+            "depends_on": 26
+        },
+        {
+            "id": "CLM-00028",
+            "body": "the processor is structured to scale along X-axis scales of the Function and Performance Graph windows so that the X-axis scales of the Function and Performance Graph windows correspond one-to-one to each other and to non-linearly scale along the X-axis scales of the Function and Performance Graph windows in response to the user input while maintaining the one-to-one correspondence, and\nthe display controller is structured to control the display device to display the scaled function graphs in the Function Graph window and the scaled performance graph in the Performance Graph window.\n\n",
+            "num": "00028",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 26",
+            "claimSize": 105,
+            "gate:gateId": 130,
+            "claimNumber": 28,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "28. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 26",
+                    "gate:gateId": 132,
+                    "idref": "CLM-00026"
+                },
+                "gate:gateId": 131,
+                "claim-text": [
+                    {
+                        "content": "the processor is structured to scale along X-axis scales of the Function and Performance Graph windows so that the X-axis scales of the Function and Performance Graph windows correspond one-to-one to each other and to non-linearly scale along the X-axis scales of the Function and Performance Graph windows in response to the user input while maintaining the one-to-one correspondence, and",
+                        "gate:gateId": 133
+                    },
+                    {
+                        "content": "the display controller is structured to control the display device to display the scaled function graphs in the Function Graph window and the scaled performance graph in the Performance Graph window.",
+                        "gate:gateId": 134
+                    }
+                ]
+            },
+            "depends_on": 26
+        },
+        {
+            "id": "CLM-00029",
+            "body": "the performance graph in the Performance Graph window is a graph of an instantaneous frame rate of the video game program at each frame of the profile data, and\nthe selected function's data line in the Function Graph window represents a percentage of a frame time spent executing the function at each frame of the profile data.\n\n",
+            "num": "00029",
+            "claimType": "dependent",
+            "transPhrase": ", wherein\n",
+            "claimBackReference": "of claim 26",
+            "claimSize": 69,
+            "gate:gateId": 135,
+            "claimNumber": 29,
+            "claim_preamble": "The analyzer",
+            "claim-text": {
+                "content": [
+                    "29. The analyzer of",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 26",
+                    "gate:gateId": 137,
+                    "idref": "CLM-00026"
+                },
+                "gate:gateId": 136,
+                "claim-text": [
+                    {
+                        "content": "the performance graph in the Performance Graph window is a graph of an instantaneous frame rate of the video game program at each frame of the profile data, and",
+                        "gate:gateId": 138
+                    },
+                    {
+                        "content": "the selected function's data line in the Function Graph window represents a percentage of a frame time spent executing the function at each frame of the profile data.",
+                        "gate:gateId": 139
+                    }
+                ]
+            },
+            "depends_on": 26
+        },
+        {
+            "id": "CLM-00030",
+            "body": "a video game console of a type that is responsive to a handheld controller input to execute a video game program and provide interactive animated displays, a method of collecting and transforming profile data of performance measurements from the video game program and visualizing and interactively manipulating the transformed data to visually present a dynamic behavior of the video game program that shows correlation of impacts that functions have on performance of the executing video game program, the method comprising:\ncollecting the profile data; and\ndisplaying, by a profile analyzer, a function graph a function of the video game program selected by a user on a display device based on the profile data, the profile analyzer being implemented at least in part in hardware,\nwherein the function graph includes a data line and a highlight band tracking the data line, the data line representing a graph of instantaneous performance values of the selected function, a thickness of the highlight band representing a margin of error of the selected function, and the highlight band being simultaneously displayed with and surrounding the data line.\n\n",
+            "claimType": "independent",
+            "num": "00030",
+            "transPhrase": " with ",
+            "claimSize": 199,
+            "gate:gateId": 140,
+            "claim_preamble": "use",
+            "claimNumber": 30,
+            "claim-text": {
+                "content": "30. For use with a video game console of a type that is responsive to a handheld controller input to execute a video game program and provide interactive animated displays, a method of collecting and transforming profile data of performance measurements from the video game program and visualizing and interactively manipulating the transformed data to visually present a dynamic behavior of the video game program that shows correlation of impacts that functions have on performance of the executing video game program, the method comprising:",
+                "gate:gateId": 141,
+                "claim-text": [
+                    {
+                        "content": "collecting the profile data; and",
+                        "gate:gateId": 142
+                    },
+                    {
+                        "content": "displaying, by a profile analyzer, a function graph a function of the video game program selected by a user on a display device based on the profile data, the profile analyzer being implemented at least in part in hardware,",
+                        "gate:gateId": 143
+                    },
+                    {
+                        "content": "wherein the function graph includes a data line and a highlight band tracking the data line, the data line representing a graph of instantaneous performance values of the selected function, a thickness of the highlight band representing a margin of error of the selected function, and the highlight band being simultaneously displayed with and surrounding the data line.",
+                        "gate:gateId": 144
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00031",
+            "body": "the step of displaying the function graph comprises smoothing the highlight band such that the highlight band is always on the data line but does not always exactly track the data line.\n",
+            "num": "00031",
+            "claimType": "dependent",
+            "transPhrase": ", wherein in ",
+            "claimBackReference": "of claim 30",
+            "claimSize": 43,
+            "gate:gateId": 145,
+            "claimNumber": 31,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "31. The method of",
+                    ", wherein in the step of displaying the function graph comprises smoothing the highlight band such that the highlight band is always on the data line but does not always exactly track the data line."
+                ],
+                "claim-ref": {
+                    "content": "claim 30",
+                    "gate:gateId": 147,
+                    "idref": "CLM-00030"
+                },
+                "gate:gateId": 146
+            },
+            "depends_on": 30
+        },
+        {
+            "id": "CLM-00032",
+            "body": "the step of smoothing the highlight band comprises tracking a moving average of the data line within a predetermined window when a change in the data line within the predetermined window is within a predetermined percentage of the margin of error, and tracking the data line substantially exactly otherwise.\n",
+            "num": "00032",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 31",
+            "claimSize": 60,
+            "gate:gateId": 148,
+            "claimNumber": 32,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "32. The method of",
+                    ", wherein the step of smoothing the highlight band comprises tracking a moving average of the data line within a predetermined window when a change in the data line within the predetermined window is within a predetermined percentage of the margin of error, and tracking the data line substantially exactly otherwise."
+                ],
+                "claim-ref": {
+                    "content": "claim 31",
+                    "gate:gateId": 150,
+                    "idref": "CLM-00031"
+                },
+                "gate:gateId": 149
+            },
+            "depends_on": 31
+        },
+        {
+            "id": "CLM-00033",
+            "body": "further comprising scaling the function graph along an X-axis scale of the function graph in response to an input from the user requesting non-uniform scaling.\n",
+            "num": "00033",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 30",
+            "claimSize": 35,
+            "gate:gateId": 151,
+            "claimNumber": 33,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "33. The method of",
+                    ", further comprising scaling the function graph along an X-axis scale of the function graph in response to an input from the user requesting non-uniform scaling."
+                ],
+                "claim-ref": {
+                    "content": "claim 30",
+                    "gate:gateId": 153,
+                    "idref": "CLM-00030"
+                },
+                "gate:gateId": 152
+            },
+            "depends_on": 30
+        },
+        {
+            "id": "CLM-00034",
+            "body": "further comprising displaying a performance graph of instantaneous performance values of the video game program on the display device based on the profile data such that X-axis scales of the function graph and the performance graph correspond one-to-one to each other,\nwherein the function graph is displayed in a window of the display device, the performance graph is displayed in a window of the display device separate from the window of the function graph, and the performance graph is simultaneously displayed with the function graph.\n\n",
+            "num": "00034",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 30",
+            "claimSize": 98,
+            "gate:gateId": 154,
+            "claimNumber": 34,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "34. The method of",
+                    ", further comprising displaying a performance graph of instantaneous performance values of the video game program on the display device based on the profile data such that X-axis scales of the function graph and the performance graph correspond one-to-one to each other,"
+                ],
+                "claim-ref": {
+                    "content": "claim 30",
+                    "gate:gateId": 156,
+                    "idref": "CLM-00030"
+                },
+                "gate:gateId": 155,
+                "claim-text": {
+                    "content": "wherein the function graph is displayed in a window of the display device, the performance graph is displayed in a window of the display device separate from the window of the function graph, and the performance graph is simultaneously displayed with the function graph.",
+                    "gate:gateId": 157
+                }
+            },
+            "depends_on": 30
+        },
+        {
+            "id": "CLM-00035",
+            "body": "the performance graph to visually alert the user when the performance graph drops below a predetermined instantaneous performance value.\n",
+            "num": "00035",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising displaying ",
+            "claimBackReference": "of claim 34",
+            "claimSize": 31,
+            "gate:gateId": 158,
+            "claimNumber": 35,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "35. The method of",
+                    ", further comprising displaying the performance graph to visually alert the user when the performance graph drops below a predetermined instantaneous performance value."
+                ],
+                "claim-ref": {
+                    "content": "claim 34",
+                    "gate:gateId": 160,
+                    "idref": "CLM-00034"
+                },
+                "gate:gateId": 159
+            },
+            "depends_on": 34
+        },
+        {
+            "id": "CLM-00036",
+            "body": "further comprising:\ndisplaying a graph representing range and average performance values for the data line of the selected function for a portion of the function graph currently being displayed based on the profile data,\nwherein the graph is simultaneously displayed with and is visually correlated to the function graph.\n\n",
+            "num": "00036",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 30",
+            "claimSize": 60,
+            "gate:gateId": 161,
+            "claimNumber": 36,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "36. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 30",
+                    "gate:gateId": 163,
+                    "idref": "CLM-00030"
+                },
+                "gate:gateId": 162,
+                "claim-text": [
+                    {
+                        "content": "displaying a graph representing range and average performance values for the data line of the selected function for a portion of the function graph currently being displayed based on the profile data,",
+                        "gate:gateId": 164
+                    },
+                    {
+                        "content": "wherein the graph is simultaneously displayed with and is visually correlated to the function graph.",
+                        "gate:gateId": 165
+                    }
+                ]
+            },
+            "depends_on": 30
+        },
+        {
+            "id": "CLM-00037",
+            "body": "the graph representing the range and average performance values is simultaneously displayed with and is visually correlated to the corresponding function graph.\n",
+            "num": "00037",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 36",
+            "claimSize": 32,
+            "gate:gateId": 166,
+            "claimNumber": 37,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "37. The method of",
+                    ", wherein the graph representing the range and average performance values is simultaneously displayed with and is visually correlated to the corresponding function graph."
+                ],
+                "claim-ref": {
+                    "content": "claim 36",
+                    "gate:gateId": 168,
+                    "idref": "CLM-00036"
+                },
+                "gate:gateId": 167
+            },
+            "depends_on": 36
+        },
+        {
+            "id": "CLM-00038",
+            "body": "further comprising:\ndisplaying a list of one or more functions of the video game program based on the profile data, the selected function being selected by the user from the displayed list; and\nvisually correlating the highlight band of the function graph with the selected function in the displayed list,\nwherein the function graph is displayed in a window of the display device, the list is displayed in a window of the display device separate from the window of the function graph, and the list is simultaneously displayed with the function graph.\n\n",
+            "num": "00038",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 30",
+            "claimSize": 107,
+            "gate:gateId": 169,
+            "claimNumber": 38,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "38. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 30",
+                    "gate:gateId": 171,
+                    "idref": "CLM-00030"
+                },
+                "gate:gateId": 170,
+                "claim-text": [
+                    {
+                        "content": "displaying a list of one or more functions of the video game program based on the profile data, the selected function being selected by the user from the displayed list; and",
+                        "gate:gateId": 172
+                    },
+                    {
+                        "content": "visually correlating the highlight band of the function graph with the selected function in the displayed list,",
+                        "gate:gateId": 173
+                    },
+                    {
+                        "content": "wherein the function graph is displayed in a window of the display device, the list is displayed in a window of the display device separate from the window of the function graph, and the list is simultaneously displayed with the function graph.",
+                        "gate:gateId": 174
+                    }
+                ]
+            },
+            "depends_on": 30
+        },
+        {
+            "id": "CLM-00039",
+            "body": "each function in the list is displayed as a mini-graph of a corresponding function's performance over a duration of the profile data, each mini-graph occupying a predetermined area footprint of the display device.\n",
+            "num": "00039",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 38",
+            "claimSize": 45,
+            "gate:gateId": 175,
+            "claimNumber": 39,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "39. The method of",
+                    ", wherein each function in the list is displayed as a mini-graph of a corresponding function's performance over a duration of the profile data, each mini-graph occupying a predetermined area footprint of the display device."
+                ],
+                "claim-ref": {
+                    "content": "claim 38",
+                    "gate:gateId": 177,
+                    "idref": "CLM-00038"
+                },
+                "gate:gateId": 176
+            },
+            "depends_on": 38
+        },
+        {
+            "id": "CLM-00040",
+            "body": "further comprising:\nidentifying one or more functions of the video game program for modification based on the dynamic behavior of the video game program visually presented in corresponding function graphs; and\nmodifying the identified function(s) to optimize the performance of the video game program. \n\n",
+            "num": "00040",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 30",
+            "claimSize": 58,
+            "gate:gateId": 178,
+            "claimNumber": 40,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "40. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 30",
+                    "gate:gateId": 180,
+                    "idref": "CLM-00030"
+                },
+                "gate:gateId": 179,
+                "claim-text": [
+                    {
+                        "content": "identifying one or more functions of the video game program for modification based on the dynamic behavior of the video game program visually presented in corresponding function graphs; and",
+                        "gate:gateId": 181
+                    },
+                    {
+                        "content": "modifying the identified function(s) to optimize the performance of the video game program.",
+                        "gate:gateId": 182
+                    }
+                ]
+            },
+            "depends_on": 30
+        }
+    ],
+    "numberIndependentClaims": 93
+}}

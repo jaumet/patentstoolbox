@@ -1,0 +1,653 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500283-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 94,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3533,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "an afocal relay defining an optical axis, a front object plane, and a back image plane, wherein said image plane is conjugated to said object plane;\na Hartmann-Shack wavefront sensor positioned at said image plane and capable of measuring wavefront aberrations of a beam emerging from said object plane and propagating through said afocal relay;\na folding reflector disposed between said afocal relay and said object plane;\na probe beam projected along said optical axis and propagating toward said object plane;\na mounting mechanism to attach said aberrometer onto said ophthalmic microscope such that said aberrometer, in its operation position, is movable with said ophthalmic microscope while said optical axis remains in alignment with an observation axis of said ophthalmic microscope; and\na positioning mechanism enabling to position said optical axis to:\na first position in alignment with said observation axis to perform wavefront measurement, and\na second position away from alignment with said observation axis, to avoid interfering in any way with either working space or image quality of said ophthalmic microscope;\n\nwherein said positioning system enables back and forth positioning and repositioning said aberrometer at said first and second positions, and wherein said aberrometer remains attached and installed with said ophthalmic microscope.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 230,
+            "gate:gateId": 1,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. An ophthalmic microscope-attachable aberrometer, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "an afocal relay defining an optical axis, a front object plane, and a back image plane, wherein said image plane is conjugated to said object plane;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a Hartmann-Shack wavefront sensor positioned at said image plane and capable of measuring wavefront aberrations of a beam emerging from said object plane and propagating through said afocal relay;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a folding reflector disposed between said afocal relay and said object plane;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a probe beam projected along said optical axis and propagating toward said object plane;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a mounting mechanism to attach said aberrometer onto said ophthalmic microscope such that said aberrometer, in its operation position, is movable with said ophthalmic microscope while said optical axis remains in alignment with an observation axis of said ophthalmic microscope; and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "a positioning mechanism enabling to position said optical axis to:",
+                        "gate:gateId": 8,
+                        "claim-text": [
+                            {
+                                "content": "a first position in alignment with said observation axis to perform wavefront measurement, and",
+                                "gate:gateId": 9
+                            },
+                            {
+                                "content": "a second position away from alignment with said observation axis, to avoid interfering in any way with either working space or image quality of said ophthalmic microscope;",
+                                "gate:gateId": 10
+                            }
+                        ]
+                    },
+                    {
+                        "content": "wherein said positioning system enables back and forth positioning and repositioning said aberrometer at said first and second positions, and wherein said aberrometer remains attached and installed with said ophthalmic microscope.",
+                        "gate:gateId": 11
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "further comprising:\na plurality of illuminators disposed along a ring centered with respect to said optical axis, wherein image of said plurality of illuminators is obtained to measure radius of curvature of a subject cornea, and wherein said plurality of illuminators are used for observing or measuring alignment of intraocular elements via Purkinje images I, III and IV;\nwherein said aberrometer is capable of measuring both wavefront aberrations and radius of curvature of a subject cornea, and wherein said Purkinje images can be used to determine whether said intraocular elements are properly aligned inside a patient's eye.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 115,
+            "gate:gateId": 12,
+            "claimNumber": 2,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "2. An ophthalmic microscope-attachable aberrometer of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13,
+                "claim-text": [
+                    {
+                        "content": "a plurality of illuminators disposed along a ring centered with respect to said optical axis, wherein image of said plurality of illuminators is obtained to measure radius of curvature of a subject cornea, and wherein said plurality of illuminators are used for observing or measuring alignment of intraocular elements via Purkinje images I, III and IV;",
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": "wherein said aberrometer is capable of measuring both wavefront aberrations and radius of curvature of a subject cornea, and wherein said Purkinje images can be used to determine whether said intraocular elements are properly aligned inside a patient's eye.",
+                        "gate:gateId": 16
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "object plane is located approximately 200 mm away from said afocal relay.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 25,
+            "gate:gateId": 17,
+            "claimNumber": 3,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "3. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said object plane is located approximately 200 mm away from said afocal relay."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "probe beam is a non-coherent or a low-coherent light beam.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 20,
+            "claimNumber": 4,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "4. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said probe beam is a non-coherent or a low-coherent light beam."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "Hartmann-Shack wavefront sensor is conjugated with said object plane.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 23,
+            "gate:gateId": 23,
+            "claimNumber": 5,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "5. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said Hartmann-Shack wavefront sensor is conjugated with said object plane."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "mounting mechanism is a machine part affixed onto the body of said ophthalmic microscope.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 27,
+            "gate:gateId": 26,
+            "claimNumber": 6,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "6. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said mounting mechanism is a machine part affixed onto the body of said ophthalmic microscope."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "positioning mechanism includes a sliding mechanism or a swinging mechanism, and wherein said sliding mechanism or swinging mechanism is to position said wavefront aberrometer with respect to said surgical microscope.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 44,
+            "gate:gateId": 29,
+            "claimNumber": 7,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "7. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said positioning mechanism includes a sliding mechanism or a swinging mechanism, and wherein said sliding mechanism or swinging mechanism is to position said wavefront aberrometer with respect to said surgical microscope."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "ophthalmic microscope is a surgical microscope or a slit lamp microscope.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 24,
+            "gate:gateId": 32,
+            "claimNumber": 8,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "8. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said ophthalmic microscope is a surgical microscope or a slit lamp microscope."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "an afocal relay defining an optical axis, a front object plane, and a back image plane, wherein said image plane is conjugated to said object plane;\na Hartmann-Shack wavefront sensor positioned at said image plane and capable of measuring wavefront aberrations of a beam emerging from said object plane and propagating through said afocal relay;\na folding reflector disposed between said afocal relay and said object plane;\na probe beam projected along said optical axis and propagating toward said object plane;\na plurality of illuminators disposed along a ring or rings centered with respect to said optical axis, wherein image of said plurality of illuminators is obtained to measure radius of curvature of a subject cornea, and wherein said plurality of illuminators are used for observing or measuring alignment of intraocular elements via Purkinje images I, III and IV; and\na mounting mechanism to attach said aberrometer onto said ophthalmic microscope such that said aberrometer, in its operation position, is movable with said ophthalmic microscope while said optical axis remains in alignment with an observation axis of said ophthalmic microscope;\nand\na positioning mechanism enabling back and forth positioning and repositioning said aberrometer at a first position and a second position, wherein said aberrometer remains attached and installed with said ophthalmic microscope;\nwherein said aberrometer is capable of both measuring wavefront aberrations and measuring radius of curvature of a subject cornea, and wherein said Purkinje images can be used to determine whether said intraocular elements are properly aligned inside a patient's eye.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 281,
+            "gate:gateId": 35,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. An ophthalmic microscope-attachable aberrometer, comprising:",
+                "gate:gateId": 36,
+                "claim-text": [
+                    {
+                        "content": "an afocal relay defining an optical axis, a front object plane, and a back image plane, wherein said image plane is conjugated to said object plane;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "a Hartmann-Shack wavefront sensor positioned at said image plane and capable of measuring wavefront aberrations of a beam emerging from said object plane and propagating through said afocal relay;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "a folding reflector disposed between said afocal relay and said object plane;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "a probe beam projected along said optical axis and propagating toward said object plane;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "a plurality of illuminators disposed along a ring or rings centered with respect to said optical axis, wherein image of said plurality of illuminators is obtained to measure radius of curvature of a subject cornea, and wherein said plurality of illuminators are used for observing or measuring alignment of intraocular elements via Purkinje images I, III and IV; and",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "a mounting mechanism to attach said aberrometer onto said ophthalmic microscope such that said aberrometer, in its operation position, is movable with said ophthalmic microscope while said optical axis remains in alignment with an observation axis of said ophthalmic microscope;",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "and",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "a positioning mechanism enabling back and forth positioning and repositioning said aberrometer at a first position and a second position, wherein said aberrometer remains attached and installed with said ophthalmic microscope;",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "wherein said aberrometer is capable of both measuring wavefront aberrations and measuring radius of curvature of a subject cornea, and wherein said Purkinje images can be used to determine whether said intraocular elements are properly aligned inside a patient's eye.",
+                        "gate:gateId": 45
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "first position is to position said optical axis in alignment with said observation axis to perform a wavefront measurement, and\nsaid second position is to position said optical axis away from alignment with said observation axis, to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ",\nwherein said ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 68,
+            "gate:gateId": 46,
+            "claimNumber": 10,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "10. An ophthalmic microscope-attachable aberrometer of",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 47,
+                "claim-text": [
+                    {
+                        "content": "wherein said first position is to position said optical axis in alignment with said observation axis to perform a wavefront measurement, and",
+                        "gate:gateId": 49
+                    },
+                    {
+                        "content": "said second position is to position said optical axis away from alignment with said observation axis, to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.",
+                        "gate:gateId": 50
+                    }
+                ]
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "first position is to position said object plane overlapped with the observation plane of said ophthalmic microscope to perform a wavefront measurement, and\nsaid second position is to position said object plane away from overlapped with the observation plane to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ",\nwherein said ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 70,
+            "gate:gateId": 51,
+            "claimNumber": 11,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "11. An ophthalmic microscope-attachable aberrometer of",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 52,
+                "claim-text": [
+                    {
+                        "content": "wherein said first position is to position said object plane overlapped with the observation plane of said ophthalmic microscope to perform a wavefront measurement, and",
+                        "gate:gateId": 54
+                    },
+                    {
+                        "content": "said second position is to position said object plane away from overlapped with the observation plane to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.",
+                        "gate:gateId": 55
+                    }
+                ]
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00012",
+            "body": "plurality of illuminators is incorporated to produce a keratometer image, in addition to said measuring said wavefront aberrations.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 32,
+            "gate:gateId": 56,
+            "claimNumber": 12,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "12. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said plurality of illuminators is incorporated to produce a keratometer image, in addition to said measuring said wavefront aberrations."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00013",
+            "body": "plurality of illuminators is incorporated to produce, Purkinje images I, III and IV from various ocular surfaces.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 32,
+            "gate:gateId": 59,
+            "claimNumber": 13,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "13. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said plurality of illuminators is incorporated to produce, Purkinje images I, III and IV from various ocular surfaces."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00014",
+            "body": "an afocal relay defining an optical axis, a front object plane, and a back image plane, wherein said image plane is conjugated to said object plane;\na Hartmann-Shack wavefront sensor positioned at said image plane and being capable of measuring the wavefront aberrations of a beam emerging from said object plane and propagating through said afocal relay;\na folding reflector disposed between said afocal relay and said object plane;\na probe beam projected along said optical axis and propagating toward said object plane;\na topographer illuminator centered with said optical axis, wherein topography image is obtained to measure corneal power and profile, in addition to said measuring said wavefront aberrations; and\na mounting mechanism to attach said aberrometer onto said ophthalmic microscope such that said aberrometer is movable with said ophthalmic microscope while said optical axis remains in alignment with an observation axis of said ophthalmic microscope; and\na positioning mechanism enabling back and forth positioning and repositioning said aberrometer at a first position and a second position, wherein said aberrometer remains attached and installed with said ophthalmic microscope;\nwherein said aberrometer is capable of both measuring wavefront aberrations and measuring corneal power and profile, of which measuring corneal power and profile can be used to confirm the corneal status at the time of measuring wavefront aberrations.\n\n",
+            "claimType": "independent",
+            "num": "00014",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 242,
+            "gate:gateId": 62,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claimNumber": 14,
+            "claim-text": {
+                "content": "14. An ophthalmic microscope-attachable aberrometer, comprising:",
+                "gate:gateId": 63,
+                "claim-text": [
+                    {
+                        "content": "an afocal relay defining an optical axis, a front object plane, and a back image plane, wherein said image plane is conjugated to said object plane;",
+                        "gate:gateId": 64
+                    },
+                    {
+                        "content": "a Hartmann-Shack wavefront sensor positioned at said image plane and being capable of measuring the wavefront aberrations of a beam emerging from said object plane and propagating through said afocal relay;",
+                        "gate:gateId": 65
+                    },
+                    {
+                        "content": "a folding reflector disposed between said afocal relay and said object plane;",
+                        "gate:gateId": 66
+                    },
+                    {
+                        "content": "a probe beam projected along said optical axis and propagating toward said object plane;",
+                        "gate:gateId": 67
+                    },
+                    {
+                        "content": "a topographer illuminator centered with said optical axis, wherein topography image is obtained to measure corneal power and profile, in addition to said measuring said wavefront aberrations; and",
+                        "gate:gateId": 68
+                    },
+                    {
+                        "content": "a mounting mechanism to attach said aberrometer onto said ophthalmic microscope such that said aberrometer is movable with said ophthalmic microscope while said optical axis remains in alignment with an observation axis of said ophthalmic microscope; and",
+                        "gate:gateId": 69
+                    },
+                    {
+                        "content": "a positioning mechanism enabling back and forth positioning and repositioning said aberrometer at a first position and a second position, wherein said aberrometer remains attached and installed with said ophthalmic microscope;",
+                        "gate:gateId": 70
+                    },
+                    {
+                        "content": "wherein said aberrometer is capable of both measuring wavefront aberrations and measuring corneal power and profile, of which measuring corneal power and profile can be used to confirm the corneal status at the time of measuring wavefront aberrations.",
+                        "gate:gateId": 71
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00015",
+            "body": "first position is to position said optical axis in alignment with said observation axis to perform a wavefront measurement, and\nsaid second position is to position said optical axis away from alignment with said observation to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.\n\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ",\nwherein said ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 66,
+            "gate:gateId": 72,
+            "claimNumber": 15,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "15. An ophthalmic microscope-attachable aberrometer of",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 74,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 73,
+                "claim-text": [
+                    {
+                        "content": "wherein said first position is to position said optical axis in alignment with said observation axis to perform a wavefront measurement, and",
+                        "gate:gateId": 75
+                    },
+                    {
+                        "content": "said second position is to position said optical axis away from alignment with said observation to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.",
+                        "gate:gateId": 76
+                    }
+                ]
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00016",
+            "body": "first position is to position said object plane overlapped with the observation plane of said ophthalmic microscope to perform a wavefront measurement, and\nsaid second position is to position said object plane away from overlapped with the observation plane to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.\n\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ",\nwherein said ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 70,
+            "gate:gateId": 77,
+            "claimNumber": 16,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "16. An ophthalmic microscope-attachable aberrometer of",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 79,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 78,
+                "claim-text": [
+                    {
+                        "content": "wherein said first position is to position said object plane overlapped with the observation plane of said ophthalmic microscope to perform a wavefront measurement, and",
+                        "gate:gateId": 80
+                    },
+                    {
+                        "content": "said second position is to position said object plane away from overlapped with the observation plane to avoid interfering in any way with either working space or image quality of said ophthalmic microscope.",
+                        "gate:gateId": 81
+                    }
+                ]
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00017",
+            "body": "topographer illuminator is incorporated to produce an image of Placido rings.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 24,
+            "gate:gateId": 82,
+            "claimNumber": 17,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "17. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said topographer illuminator is incorporated to produce an image of Placido rings."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 84,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 83
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00018",
+            "body": "topographer illuminator is incorporated to produce an image of patterned spots.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 14",
+            "claimSize": 24,
+            "gate:gateId": 85,
+            "claimNumber": 18,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "18. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said topographer illuminator is incorporated to produce an image of patterned spots."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 87,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 86
+            },
+            "depends_on": 14
+        },
+        {
+            "id": "CLM-00019",
+            "body": "plurality of illuminators is made of an array of LED's.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 24,
+            "gate:gateId": 88,
+            "claimNumber": 19,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "19. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said plurality of illuminators is made of an array of LED's."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 90,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 89
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00020",
+            "body": "folding reflector is a dichroic mirror. \n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 19,
+            "gate:gateId": 91,
+            "claimNumber": 20,
+            "claim_preamble": "An ophthalmic microscope-attachable aberrometer",
+            "claim-text": {
+                "content": [
+                    "20. An ophthalmic microscope-attachable aberrometer of",
+                    ", wherein said folding reflector is a dichroic mirror."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 93,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 92
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 25
+}}

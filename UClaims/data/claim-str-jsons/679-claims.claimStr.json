@@ -1,0 +1,245 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499584-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 34,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1375,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a melting furnace configured to contain a quantity of molten glass with a free surface, and\na stirring device that comprises at least one stirrer configured for pumping action to provide hydrostatic pressure to move glass against gravitational forces from the melting furnace to a greater elevation relative to the free surface of the molten glass in the melting furnace to a glass forming process.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " comprising:\n",
+            "claimSize": 76,
+            "gate:gateId": 1,
+            "claim_preamble": "A molten glass delivery system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A molten glass delivery system comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a melting furnace configured to contain a quantity of molten glass with a free surface, and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a stirring device that comprises at least one stirrer configured for pumping action to provide hydrostatic pressure to move glass against gravitational forces from the melting furnace to a greater elevation relative to the free surface of the molten glass in the melting furnace to a glass forming process.",
+                        "gate:gateId": 4
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the stirrer is positioned to be located below the free surface in a forebay of the melting furnace.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 31,
+            "gate:gateId": 5,
+            "claimNumber": 2,
+            "claim_preamble": "The molten glass delivery system",
+            "claim-text": {
+                "content": [
+                    "2. The molten glass delivery system of",
+                    ", wherein the stirrer is positioned to be located below the free surface in a forebay of the melting furnace."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 7,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 6
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a bottom of a casing of the stirring device is positioned to be located below the glass free surface in the forebay.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 35,
+            "gate:gateId": 8,
+            "claimNumber": 3,
+            "claim_preamble": "The molten glass delivery system",
+            "claim-text": {
+                "content": [
+                    "3. The molten glass delivery system of",
+                    ", wherein a bottom of a casing of the stirring device is positioned to be located below the glass free surface in the forebay."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "a bottom of a casing of the stirring device is positioned to be located above the glass free surface in the forebay.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 35,
+            "gate:gateId": 11,
+            "claimNumber": 4,
+            "claim_preamble": "The molten glass delivery system",
+            "claim-text": {
+                "content": [
+                    "4. The molten glass delivery system of",
+                    ", wherein a bottom of a casing of the stirring device is positioned to be located above the glass free surface in the forebay."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a) a stirring device configured to receive molten glass from a melting furnace, wherein the stirring device is configured for pumping action and configured to homogenize the glass;\nb) a finer configured to receive molten glass from the stirring device;\nc) a cooling and conditioning section configured to receive glass from the finer; and\nd) a transition section configured to receive the glass from the cooling and conditioning section;\nwherein a bottom of the cooling and conditioning section is positioned to be located above a level of glass in the melting furnace and the stirring device is configured such that the pumping action of the stirring device moves glass into an overflow downdraw process; and\nwherein the stirring device is configured to provide hydrostatic pressure to move glass against gravitational forces from the melting furnace to a greater elevation relative to the level of glass in the melting furnace.\n\n",
+            "claimType": "independent",
+            "num": "00005",
+            "transPhrase": " comprising:\n",
+            "claimSize": 169,
+            "gate:gateId": 14,
+            "claim_preamble": "A molten glass delivery system",
+            "claimNumber": 5,
+            "claim-text": {
+                "content": "5. A molten glass delivery system comprising:",
+                "gate:gateId": 15,
+                "claim-text": [
+                    {
+                        "content": "a) a stirring device configured to receive molten glass from a melting furnace, wherein the stirring device is configured for pumping action and configured to homogenize the glass;",
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": "b) a finer configured to receive molten glass from the stirring device;",
+                        "gate:gateId": 17
+                    },
+                    {
+                        "content": "c) a cooling and conditioning section configured to receive glass from the finer; and",
+                        "gate:gateId": 18
+                    },
+                    {
+                        "content": "d) a transition section configured to receive the glass from the cooling and conditioning section;",
+                        "gate:gateId": 19
+                    },
+                    {
+                        "content": "wherein a bottom of the cooling and conditioning section is positioned to be located above a level of glass in the melting furnace and the stirring device is configured such that the pumping action of the stirring device moves glass into an overflow downdraw process; and",
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": "wherein the stirring device is configured to provide hydrostatic pressure to move glass against gravitational forces from the melting furnace to a greater elevation relative to the level of glass in the melting furnace.",
+                        "gate:gateId": 21
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a) a melting furnace comprising a forebay configured to contain a quantity of molten glass with a free surface;\nb) a stirring device configured to receive the glass from the forebay of the melting furnace, comprising at least one stirrer configured for pumping action, wherein the stirrer is positioned to be located below the free surface of the glass in the forebay; and\nc) a finer , wherein a bottom of the finer is positioned to be elevated with respect to the free surface;\nwherein the stirrer is configured to provide hydrostatic pressure to move glass upward against gravitational forces from the melting furnace to a greater elevation relative to the free surface of the molten glass in the melting furnace, through the finer, and to a glass forming process.\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": " comprising:\n",
+            "claimSize": 149,
+            "gate:gateId": 22,
+            "claim_preamble": "A molten glass system",
+            "claimNumber": 6,
+            "claim-text": {
+                "content": "6. A molten glass system comprising:",
+                "gate:gateId": 23,
+                "claim-text": [
+                    {
+                        "content": "a) a melting furnace comprising a forebay configured to contain a quantity of molten glass with a free surface;",
+                        "gate:gateId": 24
+                    },
+                    {
+                        "content": "b) a stirring device configured to receive the glass from the forebay of the melting furnace, comprising at least one stirrer configured for pumping action, wherein the stirrer is positioned to be located below the free surface of the glass in the forebay; and",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "c) a finer , wherein a bottom of the finer is positioned to be elevated with respect to the free surface;",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "wherein the stirrer is configured to provide hydrostatic pressure to move glass upward against gravitational forces from the melting furnace to a greater elevation relative to the free surface of the molten glass in the melting furnace, through the finer, and to a glass forming process.",
+                        "gate:gateId": 27
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a bottom of a casing of the stirring device is positioned to be located below the free surface of the glass in the forebay.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 36,
+            "gate:gateId": 28,
+            "claimNumber": 7,
+            "claim_preamble": "The molten glass system",
+            "claim-text": {
+                "content": [
+                    "7. The molten glass system of",
+                    ", wherein a bottom of a casing of the stirring device is positioned to be located below the free surface of the glass in the forebay."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the bottom of casing of the stirring device is positioned to be located above the free surface of the glass in the forebay. \n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 34,
+            "gate:gateId": 31,
+            "claimNumber": 8,
+            "claim_preamble": "The stirring device",
+            "claim-text": {
+                "content": [
+                    "8. The stirring device of",
+                    ", wherein the bottom of casing of the stirring device is positioned to be located above the free surface of the glass in the forebay."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 6
+        }
+    ],
+    "numberIndependentClaims": 280
+}}

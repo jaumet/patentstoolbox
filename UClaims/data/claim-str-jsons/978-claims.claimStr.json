@@ -1,0 +1,361 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499884-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 42,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1667,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "two vehicle units of an articulated bus, with the joint comprising two cantilevers, wherein each cantilever is arranged on one of the vehicle units, with each cantilever comprising a slewing ring, wherein a first one of the slewing rings of the cantilever is mounted in the other of the two slewing rings so that they can be pivoted, wherein a damping device is provided for damping the rotational motion of the two cantilevers relative to each other, characterized in that in the space enclosed by the inner slewing ring, there is arranged an annular chamber damper, wherein the annular chamber damper comprises two inter-mounted housing parts that are rotatable relative to each other, wherein the one housing part is in connection with the one cantilever and the other housing part is in connection with the other cantilever.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " between ",
+            "claimSize": 153,
+            "gate:gateId": 1,
+            "claim_preamble": "A ring-mount joint",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A ring-mount joint between two vehicle units of an articulated bus, with the joint comprising two cantilevers, wherein each cantilever is arranged on one of the vehicle units, with each cantilever comprising a slewing ring, wherein a first one of the slewing rings of the cantilever is mounted in the other of the two slewing rings so that they can be pivoted, wherein a damping device is provided for damping the rotational motion of the two cantilevers relative to each other, characterized in that in the space enclosed by the inner slewing ring, there is arranged an annular chamber damper, wherein the annular chamber damper comprises two inter-mounted housing parts that are rotatable relative to each other, wherein the one housing part is in connection with the one cantilever and the other housing part is in connection with the other cantilever.",
+                "gate:gateId": 2
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the one housing part of the annular chamber damper is designed as a pot, which is arranged on a first cantilever, wherein the other housing is designed as a rotor, with the pot receiving the rotor, wherein the rotor is mounted in the pot so that it is rotatable relative to the pot, with the rotor being connected to the other, second cantilever.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 83,
+            "gate:gateId": 3,
+            "claimNumber": 2,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "2. The ring-mount joint according to",
+                    ", characterized in that the one housing part of the annular chamber damper is designed as a pot, which is arranged on a first cantilever, wherein the other housing is designed as a rotor, with the pot receiving the rotor, wherein the rotor is mounted in the pot so that it is rotatable relative to the pot, with the rotor being connected to the other, second cantilever."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 5,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 4
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a cross-bar is provided for the connection between the rotor and the other, second cantilever.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 30,
+            "gate:gateId": 6,
+            "claimNumber": 3,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "3. The ring-mount joint according to",
+                    ", characterized in that a cross-bar is provided for the connection between the rotor and the other, second cantilever."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the annular chamber damper is decoupled from the power flow between the two vehicle units by the two cantilevers.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 33,
+            "gate:gateId": 9,
+            "claimNumber": 4,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "4. The ring-mount joint according to",
+                    ", characterized in that the annular chamber damper is decoupled from the power flow between the two vehicle units by the two cantilevers."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "that at least one housing part of the annular chamber damper is mounted elastically yielding relative to the at least one cantilever.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 35,
+            "gate:gateId": 12,
+            "claimNumber": 5,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "5. The ring-mount joint according to",
+                    ", characterized in that at least one housing part of the annular chamber damper is mounted elastically yielding relative to the at least one cantilever."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the cross-bar is mounted, in an elastically yielding manner, in the cantilever and/or the rotor.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 3 ,",
+            "claimSize": 33,
+            "gate:gateId": 15,
+            "claimNumber": 6,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "6. The ring-mount joint according to",
+                    ", characterized in that the cross-bar is mounted, in an elastically yielding manner, in the cantilever and/or the rotor."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the cross-bar at its end comprises ends studs, wherein at least one of the studs engages with a socket of the cantilever, wherein the socket comprises a lining made of elastically resilient material.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 3 ,",
+            "claimSize": 49,
+            "gate:gateId": 18,
+            "claimNumber": 7,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "7. The ring-mount joint according to",
+                    ", characterized in that the cross-bar at its end comprises ends studs, wherein at least one of the studs engages with a socket of the cantilever, wherein the socket comprises a lining made of elastically resilient material."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the rotor or the pot of the housing of the annular chamber damper comprises at least one damping rib, which protrudes into the annular chamber formed by the pot and the rotor.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 47,
+            "gate:gateId": 21,
+            "claimNumber": 8,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "8. The ring-mount joint according to",
+                    ", characterized in that the rotor or the pot of the housing of the annular chamber damper comprises at least one damping rib, which protrudes into the annular chamber formed by the pot and the rotor."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the at least one damping rib forms two annular chamber compartments, wherein a throttle connection is formed between the annular chamber compartments.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 8 ,",
+            "claimSize": 37,
+            "gate:gateId": 24,
+            "claimNumber": 9,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "9. The ring-mount joint according to",
+                    ", characterized in that the at least one damping rib forms two annular chamber compartments, wherein a throttle connection is formed between the annular chamber compartments."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the annular chamber is divisible into several sub-chambers by at least one wall element, wherein a damping rib protrudes into every sub-chamber.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 8 ,",
+            "claimSize": 37,
+            "gate:gateId": 27,
+            "claimNumber": 10,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "10. The ring-mount joint according to",
+                    ", characterized in that the annular chamber is divisible into several sub-chambers by at least one wall element, wherein a damping rib protrudes into every sub-chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the damping rib is constructed as a piston.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 22,
+            "gate:gateId": 30,
+            "claimNumber": 11,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "11. The ring-mount joint according to",
+                    ", characterized in that the damping rib is constructed as a piston."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the damping rib and/or at least one wall element comprise a sealing device to seal the annular chamber.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 34,
+            "gate:gateId": 33,
+            "claimNumber": 12,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "12. The ring-mount joint according to",
+                    ", characterized in that the damping rib and/or at least one wall element comprise a sealing device to seal the annular chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the sealing device comprises a static seal, e.g., an O-ring, on which rests a dynamic seal.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 37,
+            "gate:gateId": 36,
+            "claimNumber": 13,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "13. The ring-mount joint according to",
+                    ", characterized in that the sealing device comprises a static seal, e.g., an O-ring, on which rests a dynamic seal."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 38,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 37
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the sealing device is mounted in a groove of the damping rib and/or the wall element. \n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 32,
+            "gate:gateId": 39,
+            "claimNumber": 14,
+            "claim_preamble": "The ring-mount",
+            "claim-text": {
+                "content": [
+                    "14. The ring-mount joint according to",
+                    ", characterized in that the sealing device is mounted in a groove of the damping rib and/or the wall element."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 41,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 40
+            },
+            "depends_on": 12
+        }
+    ],
+    "numberIndependentClaims": 288
+}}

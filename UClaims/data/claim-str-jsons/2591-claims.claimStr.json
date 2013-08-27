@@ -1,0 +1,395 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501502-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 50,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1889,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "electronic components by a thin substrate, comprising:\nproviding a carrier;\nforming at least one metal layer and at least one dielectric layer on the carrier for manufacturing the thin substrate, and the thin substrate comprises at least one package unit for connecting at least one chip;\nforming at least one pad layer on a surface of the thin substrate;\nparting the thin substrate from the carrier;\nperforming test to the thin substrate to weed out the package unit with defects in the at least one package unit and select the package units for connecting the chips;\ndicing the thin substrate according to the package units to select the package units for connecting the chips;\nreassembling the selected package units according to a molding panel size and connecting the chips with the selected package units by flip chip bonding respectively; and\nperforming a molding to the chips which are flip chip bonded on the thin substrate to build the electronic components.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 177,
+            "gate:gateId": 1,
+            "claim_preamble": "A package method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A package method for electronic components by a thin substrate, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "providing a carrier;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "forming at least one metal layer and at least one dielectric layer on the carrier for manufacturing the thin substrate, and the thin substrate comprises at least one package unit for connecting at least one chip;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "forming at least one pad layer on a surface of the thin substrate;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "parting the thin substrate from the carrier;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "performing test to the thin substrate to weed out the package unit with defects in the at least one package unit and select the package units for connecting the chips;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "dicing the thin substrate according to the package units to select the package units for connecting the chips;",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "reassembling the selected package units according to a molding panel size and connecting the chips with the selected package units by flip chip bonding respectively; and",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "performing a molding to the chips which are flip chip bonded on the thin substrate to build the electronic components.",
+                        "gate:gateId": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "a step of clamping the thin substrate with a clamp system to reveal the pad layers on a top surface and a bottom surface of the thin substrate simultaneously for test during the step of performing test to the thin substrate.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 58,
+            "gate:gateId": 11,
+            "claimNumber": 2,
+            "claim_preamble": "The package methodthe thin substrate",
+            "claim-text": {
+                "content": [
+                    "2. The package method of the thin substrate according to",
+                    ", further comprising a step of clamping the thin substrate with a clamp system to reveal the pad layers on a top surface and a bottom surface of the thin substrate simultaneously for test during the step of performing test to the thin substrate."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a step of controlling a tension to the thin substrate and a contact resistance of the thin substrate within predetermined values during the step of clamping the thin substrate.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 42,
+            "gate:gateId": 14,
+            "claimNumber": 3,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "3. The package method according to",
+                    ", further comprising a step of controlling a tension to the thin substrate and a contact resistance of the thin substrate within predetermined values during the step of clamping the thin substrate."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the package units are connected to the chips through the pad layers by flip chip bonding.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 28,
+            "gate:gateId": 17,
+            "claimNumber": 4,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "4. The package method according to",
+                    ", wherein the package units are connected to the chips through the pad layers by flip chip bonding."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the molding is transfer molding.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 21,
+            "gate:gateId": 20,
+            "claimNumber": 5,
+            "claim_preamble": "The package methoda thin substrate",
+            "claim-text": {
+                "content": [
+                    "5. The package method of a thin substrate according to",
+                    ", wherein the molding is transfer molding."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "1 further comprising a step of connecting the package units with a plurality of solder balls to form ball grid arrays and complete the electronic component after the step of performing the molding.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 42,
+            "gate:gateId": 23,
+            "claimNumber": 6,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "6. The package method according to",
+                    "further comprising a step of connecting the package units with a plurality of solder balls to form ball grid arrays and complete the electronic component after the step of performing the molding."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a step of dicing the electronic components according to the package units after the step of forming the ball grid arrays.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 34,
+            "gate:gateId": 26,
+            "claimNumber": 7,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "7. The package method according to",
+                    ", further comprising a step of dicing the electronic components according to the package units after the step of forming the ball grid arrays."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a step of performing test to the electronic components respectively after the step of dicing the electronic components.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 31,
+            "gate:gateId": 29,
+            "claimNumber": 8,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "8. The package method according to",
+                    ", further comprising a step of performing test to the electronic components respectively after the step of dicing the electronic components."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a step of connecting each of the package units with a ball grid array package component before the step of performing the molding and this step is implemented on the same surface of the package units where the chips are packaged by flip chip bonding.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 58,
+            "gate:gateId": 32,
+            "claimNumber": 9,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "9. The package method according to",
+                    ", further comprising a step of connecting each of the package units with a ball grid array package component before the step of performing the molding and this step is implemented on the same surface of the package units where the chips are packaged by flip chip bonding."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a step of printing flux or solder paste on the package units before the step of connecting each of the package units with a ball grid array package component.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 9 ,",
+            "claimSize": 42,
+            "gate:gateId": 35,
+            "claimNumber": 10,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "10. The package method according to",
+                    ", further comprising a step of printing flux or solder paste on the package units before the step of connecting each of the package units with a ball grid array package component."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a step of connecting each of the package units with a ball grid array package component before the step of connecting the chips by flip chip bonding.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 40,
+            "gate:gateId": 38,
+            "claimNumber": 11,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "11. The package method according to",
+                    ", further comprising a step of connecting each of the package units with a ball grid array package component before the step of connecting the chips by flip chip bonding."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the step of connecting each of the package units with a ball grid array package component is implemented on the same surface of the package units where the chips are respectively packaged by flip chip bonding.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 48,
+            "gate:gateId": 41,
+            "claimNumber": 12,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "12. The package method according to",
+                    ", wherein the step of connecting each of the package units with a ball grid array package component is implemented on the same surface of the package units where the chips are respectively packaged by flip chip bonding."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 43,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 42
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "a step of a step of connecting each of the package units with a ball grid array package component during the step of connecting the chips by flip chip bonding and the ball grid array package component is connected on the same surface of the package units where the chips are packaged by flip chip bonding.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "further comprising ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 69,
+            "gate:gateId": 44,
+            "claimNumber": 13,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "13. The package method according to",
+                    ", further comprising a step of a step of connecting each of the package units with a ball grid array package component during the step of connecting the chips by flip chip bonding and the ball grid array package component is connected on the same surface of the package units where the chips are packaged by flip chip bonding."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the flip chip bonding is implemented with gold bumps during the step of reassembling the selected package units according to a molding panel size and connecting the chips with the selected package units by flip chip bonding respectively. \n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 50,
+            "gate:gateId": 47,
+            "claimNumber": 14,
+            "claim_preamble": "The package method",
+            "claim-text": {
+                "content": [
+                    "14. The package method according to",
+                    ", wherein the flip chip bonding is implemented with gold bumps during the step of reassembling the selected package units according to a molding panel size and connecting the chips with the selected package units by flip chip bonding respectively."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 58
+}}

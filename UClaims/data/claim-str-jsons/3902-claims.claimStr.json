@@ -1,0 +1,1090 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502824-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 217,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 5239,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a liquid crystal panel to display a character having a tilted or curved stroke, the liquid crystal panel including a plurality of original physical pixels arranged in a matrix array, the method comprising:\ndividing each original physical pixel into three color dots of red, green and blue;\nforming a plurality of display units, wherein each display unit includes three horizontally consecutive color dots, and at least one of the plurality of display units includes color dots from two of the original physical pixels;\nconstructing a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the step of constructing the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke, the plurality of straight line segments including at least one of: a first straight line segment with a slope of\n\n\n\n\n\n  \n    \n      n\n      ×\n      h\n    \n    \n      \n        (\n        \n          n\n          +\n          2\n        \n        )\n      \n      ×\n      w\n    \n  \n  ,\n\n\n\n\nand a second straight line segment with a slope of\n\n\n\n\n\n\n  \n    \n      m\n      ×\n      h\n    \n    \n      \n        (\n        \n          \n            3\n            \u2062\n            m\n          \n          -\n          1\n        \n        )\n      \n      ×\n      w\n    \n  \n  ,\n\n\n\n\nwherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and\n\ndriving the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically adjacent to each other and are horizontally offset by one or two color dots with respect to each other.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for controlling ",
+            "claimSize": 294,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": [
+                {
+                    "content": "1. A method for controlling a liquid crystal panel to display a character having a tilted or curved stroke, the liquid crystal panel including a plurality of original physical pixels arranged in a matrix array, the method comprising:",
+                    "gate:gateId": 2,
+                    "claim-text": [
+                        {
+                            "content": "dividing each original physical pixel into three color dots of red, green and blue;",
+                            "gate:gateId": 3
+                        },
+                        {
+                            "content": "forming a plurality of display units, wherein each display unit includes three horizontally consecutive color dots, and at least one of the plurality of display units includes color dots from two of the original physical pixels;",
+                            "gate:gateId": 4
+                        },
+                        {
+                            "content": "constructing a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the step of constructing the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke, the plurality of straight line segments including at least one of: a first straight line segment with a slope of",
+                            "gate:gateId": 5
+                        }
+                    ]
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": ",",
+                                    "gate:gateId": 25
+                                },
+                                "gate:gateId": 9,
+                                "mfrac": {
+                                    "mrow": [
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 13
+                                            },
+                                            "gate:gateId": 11,
+                                            "mi": [
+                                                {
+                                                    "content": "n",
+                                                    "gate:gateId": 12
+                                                },
+                                                {
+                                                    "content": "h",
+                                                    "gate:gateId": 14
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 23
+                                            },
+                                            "mrow": {
+                                                "mo": [
+                                                    {
+                                                        "content": "(",
+                                                        "gate:gateId": 17
+                                                    },
+                                                    {
+                                                        "content": ")",
+                                                        "gate:gateId": 22
+                                                    }
+                                                ],
+                                                "mrow": {
+                                                    "mn": {
+                                                        "content": 2,
+                                                        "gate:gateId": 21
+                                                    },
+                                                    "mo": {
+                                                        "content": "+",
+                                                        "gate:gateId": 20
+                                                    },
+                                                    "gate:gateId": 18,
+                                                    "mi": {
+                                                        "content": "n",
+                                                        "gate:gateId": 19
+                                                    }
+                                                },
+                                                "gate:gateId": 16
+                                            },
+                                            "gate:gateId": 15,
+                                            "mi": {
+                                                "content": "w",
+                                                "gate:gateId": 24
+                                            }
+                                        }
+                                    ],
+                                    "gate:gateId": 10
+                                }
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 8
+                        },
+                        "id": "MATH-US-00007",
+                        "num": "00007",
+                        "gate:gateId": 7
+                    },
+                    "gate:gateId": 6,
+                    "claim-text": {
+                        "gate:gateId": 26,
+                        "claim-text": {
+                            "content": "and a second straight line segment with a slope of",
+                            "gate:gateId": 27
+                        }
+                    }
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": ",",
+                                    "gate:gateId": 50
+                                },
+                                "gate:gateId": 31,
+                                "mfrac": {
+                                    "mrow": [
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 35
+                                            },
+                                            "gate:gateId": 33,
+                                            "mi": [
+                                                {
+                                                    "content": "m",
+                                                    "gate:gateId": 34
+                                                },
+                                                {
+                                                    "content": "h",
+                                                    "gate:gateId": 36
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 48
+                                            },
+                                            "mrow": {
+                                                "mo": [
+                                                    {
+                                                        "content": "(",
+                                                        "gate:gateId": 39
+                                                    },
+                                                    {
+                                                        "content": ")",
+                                                        "gate:gateId": 47
+                                                    }
+                                                ],
+                                                "mrow": {
+                                                    "mn": {
+                                                        "content": 1,
+                                                        "gate:gateId": 46
+                                                    },
+                                                    "mo": {
+                                                        "content": "-",
+                                                        "gate:gateId": 45
+                                                    },
+                                                    "mrow": {
+                                                        "mn": {
+                                                            "content": 3,
+                                                            "gate:gateId": 42
+                                                        },
+                                                        "mo": {
+                                                            "content": "\u2062",
+                                                            "gate:gateId": 43
+                                                        },
+                                                        "gate:gateId": 41,
+                                                        "mi": {
+                                                            "content": "m",
+                                                            "gate:gateId": 44
+                                                        }
+                                                    },
+                                                    "gate:gateId": 40
+                                                },
+                                                "gate:gateId": 38
+                                            },
+                                            "gate:gateId": 37,
+                                            "mi": {
+                                                "content": "w",
+                                                "gate:gateId": 49
+                                            }
+                                        }
+                                    ],
+                                    "gate:gateId": 32
+                                }
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 30
+                        },
+                        "id": "MATH-US-00008",
+                        "num": "00008",
+                        "gate:gateId": 29
+                    },
+                    "gate:gateId": 28,
+                    "claim-text": [
+                        {
+                            "gate:gateId": 51,
+                            "claim-text": {
+                                "content": "wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and",
+                                "gate:gateId": 52
+                            }
+                        },
+                        {
+                            "content": "driving the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically adjacent to each other and are horizontally offset by one or two color dots with respect to each other.",
+                            "gate:gateId": 53
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00002",
+            "body": "comprising:\nobtaining an untreated lattice diagram of the tilted or curved stroke;\nshifting at least two of the original physical pixels which are vertically adjacent to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to one or two color dots; and\nreplacing at least one of the original physical pixels with the shifted pixels.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "further comprises ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 85,
+            "gate:gateId": 54,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method according to",
+                    ", further comprises comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 55,
+                "claim-text": [
+                    {
+                        "content": "obtaining an untreated lattice diagram of the tilted or curved stroke;",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "shifting at least two of the original physical pixels which are vertically adjacent to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to one or two color dots; and",
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": "replacing at least one of the original physical pixels with the shifted pixels.",
+                        "gate:gateId": 59
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the lattice diagram is constructed and created in real time when displaying the character.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 25,
+            "gate:gateId": 60,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method according to",
+                    ", wherein the lattice diagram is constructed and created in real time when displaying the character."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 62,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 61
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "at least one of the plurality of display units is formed by three color dots of green, blue and red which are horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots which are horizontally consecutively positioned in a sequence of blue, red and green color dots.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 71,
+            "gate:gateId": 63,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method according to",
+                    ", wherein at least one of the plurality of display units is formed by three color dots of green, blue and red which are horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots which are horizontally consecutively positioned in a sequence of blue, red and green color dots."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 65,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 64
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the character is a Chinese character.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 17,
+            "gate:gateId": 66,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method according to",
+                    ", wherein the character is a Chinese character."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 68,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 67
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a liquid crystal panel comprising a plurality of original physical pixels arranged in a matrix array; and\na display control unit configured to control the liquid crystal panel to display an input character having a tilted or curved stroke, wherein the display control unit configured to:\ndivide each original physical pixel into three color dots of red, green and blue;\nuse three horizontally consecutive positioned color dots to form each of a plurality of display units irrespective of whether the three color dots are from the same original physical pixel;\nconstruct a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the constructing step of the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments comprising at least one of: a first straight line segment with a slope of\n\n\n\n\n\n\n  \n    \n      n\n      ×\n      h\n    \n    \n      \n        (\n        \n          n\n          +\n          2\n        \n        )\n      \n      ×\n      w\n    \n  \n  ,\n\n\n\n\n\nand a second straight line segment with a slope of\n\n\n\n\n\n\n\n  \n    \n      m\n      ×\n      h\n    \n    \n      \n        (\n        \n          \n            3\n            \u2062\n            m\n          \n          -\n          1\n        \n        )\n      \n      ×\n      w\n    \n  \n  ,\n\n\n\n\n\nwherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and\n\ncontrol the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically next to each other and are horizontally offset by at most two color dots with respect to each other.\n\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 305,
+            "gate:gateId": 69,
+            "claim_preamble": "A display device",
+            "claimNumber": 6,
+            "claim-text": [
+                {
+                    "content": "6. A display device, comprising:",
+                    "gate:gateId": 70,
+                    "claim-text": [
+                        {
+                            "content": "a liquid crystal panel comprising a plurality of original physical pixels arranged in a matrix array; and",
+                            "gate:gateId": 71
+                        },
+                        {
+                            "content": "a display control unit configured to control the liquid crystal panel to display an input character having a tilted or curved stroke, wherein the display control unit configured to:",
+                            "gate:gateId": 72,
+                            "claim-text": [
+                                {
+                                    "content": "divide each original physical pixel into three color dots of red, green and blue;",
+                                    "gate:gateId": 73
+                                },
+                                {
+                                    "content": "use three horizontally consecutive positioned color dots to form each of a plurality of display units irrespective of whether the three color dots are from the same original physical pixel;",
+                                    "gate:gateId": 74
+                                },
+                                {
+                                    "content": "construct a lattice diagram including the plurality of display units for displaying the tilted or bended stroke, wherein the constructing step of the lattice diagram comprises using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments comprising at least one of: a first straight line segment with a slope of",
+                                    "gate:gateId": 75
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": ",",
+                                    "gate:gateId": 95
+                                },
+                                "gate:gateId": 79,
+                                "mfrac": {
+                                    "mrow": [
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 83
+                                            },
+                                            "gate:gateId": 81,
+                                            "mi": [
+                                                {
+                                                    "content": "n",
+                                                    "gate:gateId": 82
+                                                },
+                                                {
+                                                    "content": "h",
+                                                    "gate:gateId": 84
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 93
+                                            },
+                                            "mrow": {
+                                                "mo": [
+                                                    {
+                                                        "content": "(",
+                                                        "gate:gateId": 87
+                                                    },
+                                                    {
+                                                        "content": ")",
+                                                        "gate:gateId": 92
+                                                    }
+                                                ],
+                                                "mrow": {
+                                                    "mn": {
+                                                        "content": 2,
+                                                        "gate:gateId": 91
+                                                    },
+                                                    "mo": {
+                                                        "content": "+",
+                                                        "gate:gateId": 90
+                                                    },
+                                                    "gate:gateId": 88,
+                                                    "mi": {
+                                                        "content": "n",
+                                                        "gate:gateId": 89
+                                                    }
+                                                },
+                                                "gate:gateId": 86
+                                            },
+                                            "gate:gateId": 85,
+                                            "mi": {
+                                                "content": "w",
+                                                "gate:gateId": 94
+                                            }
+                                        }
+                                    ],
+                                    "gate:gateId": 80
+                                }
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 78
+                        },
+                        "id": "MATH-US-00009",
+                        "num": "00009",
+                        "gate:gateId": 77
+                    },
+                    "gate:gateId": 76,
+                    "claim-text": {
+                        "gate:gateId": 96,
+                        "claim-text": {
+                            "gate:gateId": 97,
+                            "claim-text": {
+                                "content": "and a second straight line segment with a slope of",
+                                "gate:gateId": 98
+                            }
+                        }
+                    }
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": ",",
+                                    "gate:gateId": 121
+                                },
+                                "gate:gateId": 102,
+                                "mfrac": {
+                                    "mrow": [
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 106
+                                            },
+                                            "gate:gateId": 104,
+                                            "mi": [
+                                                {
+                                                    "content": "m",
+                                                    "gate:gateId": 105
+                                                },
+                                                {
+                                                    "content": "h",
+                                                    "gate:gateId": 107
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 119
+                                            },
+                                            "mrow": {
+                                                "mo": [
+                                                    {
+                                                        "content": "(",
+                                                        "gate:gateId": 110
+                                                    },
+                                                    {
+                                                        "content": ")",
+                                                        "gate:gateId": 118
+                                                    }
+                                                ],
+                                                "mrow": {
+                                                    "mn": {
+                                                        "content": 1,
+                                                        "gate:gateId": 117
+                                                    },
+                                                    "mo": {
+                                                        "content": "-",
+                                                        "gate:gateId": 116
+                                                    },
+                                                    "mrow": {
+                                                        "mn": {
+                                                            "content": 3,
+                                                            "gate:gateId": 113
+                                                        },
+                                                        "mo": {
+                                                            "content": "\u2062",
+                                                            "gate:gateId": 114
+                                                        },
+                                                        "gate:gateId": 112,
+                                                        "mi": {
+                                                            "content": "m",
+                                                            "gate:gateId": 115
+                                                        }
+                                                    },
+                                                    "gate:gateId": 111
+                                                },
+                                                "gate:gateId": 109
+                                            },
+                                            "gate:gateId": 108,
+                                            "mi": {
+                                                "content": "w",
+                                                "gate:gateId": 120
+                                            }
+                                        }
+                                    ],
+                                    "gate:gateId": 103
+                                }
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 101
+                        },
+                        "id": "MATH-US-00010",
+                        "num": "00010",
+                        "gate:gateId": 100
+                    },
+                    "gate:gateId": 99,
+                    "claim-text": {
+                        "gate:gateId": 122,
+                        "claim-text": [
+                            {
+                                "gate:gateId": 123,
+                                "claim-text": {
+                                    "content": "wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and",
+                                    "gate:gateId": 124
+                                }
+                            },
+                            {
+                                "content": "control the liquid crystal panel to display the character based on the lattice diagram, so that in the lattice diagram, at least two of the display units are vertically next to each other and are horizontally offset by at most two color dots with respect to each other.",
+                                "gate:gateId": 125
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the display control unit is configured to perform the steps of:\nobtaining an untreated lattice diagram of the tilted or curved stroke; and\nshifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 6 ,",
+            "claimSize": 81,
+            "gate:gateId": 126,
+            "claimNumber": 7,
+            "claim_preamble": "The display device",
+            "claim-text": {
+                "content": [
+                    "7. The display device according to",
+                    ", wherein the display control unit is configured to perform the steps of:"
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 128,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 127,
+                "claim-text": [
+                    {
+                        "content": "obtaining an untreated lattice diagram of the tilted or curved stroke; and",
+                        "gate:gateId": 129
+                    },
+                    {
+                        "content": "shifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.",
+                        "gate:gateId": 130
+                    }
+                ]
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the lattice diagram is pre-created and is stored in a storage medium.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 6 ,",
+            "claimSize": 24,
+            "gate:gateId": 131,
+            "claimNumber": 8,
+            "claim_preamble": "The display device",
+            "claim-text": {
+                "content": [
+                    "8. The display device according to",
+                    ", wherein the lattice diagram is pre-created and is stored in a storage medium."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 133,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 132
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the lattice diagram is created in real time when displaying the character.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 6 ,",
+            "claimSize": 24,
+            "gate:gateId": 134,
+            "claimNumber": 9,
+            "claim_preamble": "The display device",
+            "claim-text": {
+                "content": [
+                    "9. The display device according to",
+                    ", wherein the lattice diagram is created in real time when displaying the character."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 136,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 135
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00010",
+            "body": "at least one of the plurality of display units is formed by three color dots horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots horizontally consecutively positioned in a sequence of blue, red and green color dots.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according claim 6 ,",
+            "claimSize": 61,
+            "gate:gateId": 137,
+            "claimNumber": 10,
+            "claim_preamble": "The display device",
+            "claim-text": {
+                "content": [
+                    "10. The display device according",
+                    ", wherein at least one of the plurality of display units is formed by three color dots horizontally consecutively positioned in a sequence of green, blue and red color dots, or formed by three color dots horizontally consecutively positioned in a sequence of blue, red and green color dots."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 139,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 138
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the input character is a Chinese character.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 6 ,",
+            "claimSize": 19,
+            "gate:gateId": 140,
+            "claimNumber": 11,
+            "claim_preamble": "The display device",
+            "claim-text": {
+                "content": [
+                    "11. The display device according to",
+                    ", wherein the input character is a Chinese character."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 142,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 141
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00012",
+            "body": "a computer system to display content, the computer system including a liquid crystal display, a main unit and an input system, the liquid crystal display having a plurality of original physical pixels arranged in a matrix array, each original physical pixel formed by three horizontally consecutive color dots of red, green, and blue, the method comprising steps of:\ngenerating a lattice diagram, wherein the step of generating the lattice diagram comprises:\ndividing each original physical pixel into three color dots of red, green and blue;\nforming a plurality of display units, each display unit including three horizontally consecutive color dots, at least one of the plurality of display units including color dots from two of the original physical pixels;\nusing the plurality of display units to construct the lattice diagram, by using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments including at least one of: a first straight line segment with a slope of\n\n\n\n\n\n\n  \n    \n      n\n      ×\n      h\n    \n    \n      \n        (\n        \n          n\n          +\n          2\n        \n        )\n      \n      ×\n      w\n    \n  \n  ,\n\n\n\n\n\nand a second straight line segment with a slope of\n\n\n\n\n\n\n\n  \n    \n      m\n      ×\n      h\n    \n    \n      \n        (\n        \n          \n            3\n            \u2062\n            m\n          \n          -\n          1\n        \n        )\n      \n      ×\n      w\n    \n  \n  ,\n\n\n\n\n\nwherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and\n\nstoring the constructed lattice diagram in the main unit of the computer system;\n\nusing the input system to input a character; and\ndetermining whether the input character has a tilted or curved stroke, wherein the step of determining whether the input character has a titled or curved stroke comprises:\nif the input character has a tilted or curved stroke, using the constructed lattice diagram to control the liquid crystal display to display the input character;\nif the input character has no tilted or curved stroke, using an untreated lattice diagram stored in the main unit to control the liquid crystal display to display the input character, and using the original physical pixels of the untreated lattice diagram to form the character.\n\n",
+            "claimType": "independent",
+            "num": "00012",
+            "transPhrase": " for using ",
+            "claimSize": 406,
+            "gate:gateId": 143,
+            "claim_preamble": "A method",
+            "claimNumber": 12,
+            "claim-text": [
+                {
+                    "content": "12. A method for using a computer system to display content, the computer system including a liquid crystal display, a main unit and an input system, the liquid crystal display having a plurality of original physical pixels arranged in a matrix array, each original physical pixel formed by three horizontally consecutive color dots of red, green, and blue, the method comprising steps of:",
+                    "gate:gateId": 144,
+                    "claim-text": {
+                        "content": "generating a lattice diagram, wherein the step of generating the lattice diagram comprises:",
+                        "gate:gateId": 145,
+                        "claim-text": [
+                            {
+                                "content": "dividing each original physical pixel into three color dots of red, green and blue;",
+                                "gate:gateId": 146
+                            },
+                            {
+                                "content": "forming a plurality of display units, each display unit including three horizontally consecutive color dots, at least one of the plurality of display units including color dots from two of the original physical pixels;",
+                                "gate:gateId": 147
+                            },
+                            {
+                                "content": "using the plurality of display units to construct the lattice diagram, by using a plurality of straight line segments to construct the tilted or curved stroke in the lattice diagram, the plurality of straight line segments including at least one of: a first straight line segment with a slope of",
+                                "gate:gateId": 148
+                            }
+                        ]
+                    }
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": ",",
+                                    "gate:gateId": 168
+                                },
+                                "gate:gateId": 152,
+                                "mfrac": {
+                                    "mrow": [
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 156
+                                            },
+                                            "gate:gateId": 154,
+                                            "mi": [
+                                                {
+                                                    "content": "n",
+                                                    "gate:gateId": 155
+                                                },
+                                                {
+                                                    "content": "h",
+                                                    "gate:gateId": 157
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 166
+                                            },
+                                            "mrow": {
+                                                "mo": [
+                                                    {
+                                                        "content": "(",
+                                                        "gate:gateId": 160
+                                                    },
+                                                    {
+                                                        "content": ")",
+                                                        "gate:gateId": 165
+                                                    }
+                                                ],
+                                                "mrow": {
+                                                    "mn": {
+                                                        "content": 2,
+                                                        "gate:gateId": 164
+                                                    },
+                                                    "mo": {
+                                                        "content": "+",
+                                                        "gate:gateId": 163
+                                                    },
+                                                    "gate:gateId": 161,
+                                                    "mi": {
+                                                        "content": "n",
+                                                        "gate:gateId": 162
+                                                    }
+                                                },
+                                                "gate:gateId": 159
+                                            },
+                                            "gate:gateId": 158,
+                                            "mi": {
+                                                "content": "w",
+                                                "gate:gateId": 167
+                                            }
+                                        }
+                                    ],
+                                    "gate:gateId": 153
+                                }
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 151
+                        },
+                        "id": "MATH-US-00011",
+                        "num": "00011",
+                        "gate:gateId": 150
+                    },
+                    "gate:gateId": 149,
+                    "claim-text": {
+                        "gate:gateId": 169,
+                        "claim-text": {
+                            "gate:gateId": 170,
+                            "claim-text": {
+                                "content": "and a second straight line segment with a slope of",
+                                "gate:gateId": 171
+                            }
+                        }
+                    }
+                },
+                {
+                    "maths": {
+                        "math": {
+                            "mrow": {
+                                "mo": {
+                                    "content": ",",
+                                    "gate:gateId": 194
+                                },
+                                "gate:gateId": 175,
+                                "mfrac": {
+                                    "mrow": [
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 179
+                                            },
+                                            "gate:gateId": 177,
+                                            "mi": [
+                                                {
+                                                    "content": "m",
+                                                    "gate:gateId": 178
+                                                },
+                                                {
+                                                    "content": "h",
+                                                    "gate:gateId": 180
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "mo": {
+                                                "content": "×",
+                                                "gate:gateId": 192
+                                            },
+                                            "mrow": {
+                                                "mo": [
+                                                    {
+                                                        "content": "(",
+                                                        "gate:gateId": 183
+                                                    },
+                                                    {
+                                                        "content": ")",
+                                                        "gate:gateId": 191
+                                                    }
+                                                ],
+                                                "mrow": {
+                                                    "mn": {
+                                                        "content": 1,
+                                                        "gate:gateId": 190
+                                                    },
+                                                    "mo": {
+                                                        "content": "-",
+                                                        "gate:gateId": 189
+                                                    },
+                                                    "mrow": {
+                                                        "mn": {
+                                                            "content": 3,
+                                                            "gate:gateId": 186
+                                                        },
+                                                        "mo": {
+                                                            "content": "\u2062",
+                                                            "gate:gateId": 187
+                                                        },
+                                                        "gate:gateId": 185,
+                                                        "mi": {
+                                                            "content": "m",
+                                                            "gate:gateId": 188
+                                                        }
+                                                    },
+                                                    "gate:gateId": 184
+                                                },
+                                                "gate:gateId": 182
+                                            },
+                                            "gate:gateId": 181,
+                                            "mi": {
+                                                "content": "w",
+                                                "gate:gateId": 193
+                                            }
+                                        }
+                                    ],
+                                    "gate:gateId": 176
+                                }
+                            },
+                            "overflow": "scroll",
+                            "gate:gateId": 174
+                        },
+                        "id": "MATH-US-00012",
+                        "num": "00012",
+                        "gate:gateId": 173
+                    },
+                    "gate:gateId": 172,
+                    "claim-text": [
+                        {
+                            "gate:gateId": 195,
+                            "claim-text": [
+                                {
+                                    "gate:gateId": 196,
+                                    "claim-text": {
+                                        "content": "wherein h represents a height of each color dot, w represents a width of each color dot, n represents a total number of rows of the first straight line segment, and m represents a total number of rows of the second straight line segment; and",
+                                        "gate:gateId": 197
+                                    }
+                                },
+                                {
+                                    "content": "storing the constructed lattice diagram in the main unit of the computer system;",
+                                    "gate:gateId": 198
+                                }
+                            ]
+                        },
+                        {
+                            "content": "using the input system to input a character; and",
+                            "gate:gateId": 199
+                        },
+                        {
+                            "content": "determining whether the input character has a tilted or curved stroke, wherein the step of determining whether the input character has a titled or curved stroke comprises:",
+                            "gate:gateId": 200
+                        },
+                        {
+                            "content": "if the input character has a tilted or curved stroke, using the constructed lattice diagram to control the liquid crystal display to display the input character;",
+                            "gate:gateId": 201
+                        },
+                        {
+                            "content": "if the input character has no tilted or curved stroke, using an untreated lattice diagram stored in the main unit to control the liquid crystal display to display the input character, and using the original physical pixels of the untreated lattice diagram to form the character.",
+                            "gate:gateId": 202
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the step of generating the lattice diagram further comprises:\nobtaining an untreated lattice diagram of the tilted or curved stroke; and\nshifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 78,
+            "gate:gateId": 203,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method according to",
+                    ", wherein the step of generating the lattice diagram further comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 205,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 204,
+                "claim-text": [
+                    {
+                        "content": "obtaining an untreated lattice diagram of the tilted or curved stroke; and",
+                        "gate:gateId": 206
+                    },
+                    {
+                        "content": "shifting at least two of the original physical pixels which are vertically next to each other and horizontally offset with respect to each other by at least three color dots, so that the offset distance is reduced to at most two color dots.",
+                        "gate:gateId": 207
+                    }
+                ]
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of green, blue and red.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according claim 12 ,",
+            "claimSize": 33,
+            "gate:gateId": 208,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method according",
+                    ", wherein the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of green, blue and red."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 210,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 209
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of blue, red and green.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according claim 12 ,",
+            "claimSize": 33,
+            "gate:gateId": 211,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method according",
+                    ", wherein the plurality of display units includes the display unit formed by three horizontally consecutively positioned color dots of blue, red and green."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 213,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 212
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the input character is a Chinese character. \n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 18,
+            "gate:gateId": 214,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method according to",
+                    ", wherein the input character is a Chinese character."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 216,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 215
+            },
+            "depends_on": 12
+        }
+    ],
+    "numberIndependentClaims": 96
+}}

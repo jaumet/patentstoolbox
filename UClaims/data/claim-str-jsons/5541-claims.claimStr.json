@@ -1,0 +1,486 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504470-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 76,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2741,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a lender, said method comprising:\na lender computing device receiving a loan application, regarding a customer, from a lender application receiving device;\nsaid lender computing device receiving credit information regarding said customer from one or more credit bureau databases;\nwherein said credit information comprises one or more credit scores;\na ranking and calculating device assigning a first weight to said credit information;\nsaid ranking and calculating device receiving performance definitions from a performance definitions database;\nsaid lender computing device receiving past relationship information regarding said customer, from one or more of said lender's databases;\nassigning a second weight to said past relationship information, based on said performance definitions;\na segmentation analyzer performing segmentation analysis based on a first sub-population of potential loan applicants;\nsaid segmentation analyzer performing segmentation analysis based on a second sub-population of potential loan applicants;\nwherein said first sub-population of potential loan applicants corresponds to a first characteristic of said customer;\nwherein said second sub-population of potential loan applicants corresponds to a second characteristic;\nwherein said first characteristic of said customer is predictive in isolating risk for said first sub-population of potential loan applicants;\noptimizing said first characteristic of said customer for said first sub-population of potential loan applicants;\nwherein said second characteristic is predictive in isolating risk for said second sub-population of potential loan applicants;\noptimizing said second characteristic for said second sub-population of potential loan applicants;\nperforming a second segmenting step based on an observation window and a performance window for specified periods of time for people with past-due accounts, versus people with not-past-due accounts;\nwherein said observation window represents points in time at which said customer is observed to generate statistics for predicting said customer's future behavior;\nwherein said performance window represents points in time which determines risk on said customer's account;\nwherein said observation window and said performance window are staggered with respect to each other, and wherein a beginning of said observation window is different from a beginning of said performance window, and an end of said observation window is different from an end of said performance window;\nwherein said performance window is wider in time for accounts which are not past due, as compared to past-due accounts;\nsaid lender computing device down-sampling said potential loan applicants;\nsaid lender computing device selecting credit variables based on said down-sampled potential loan applicants;\nsaid lender computing device applying a regression technique, to reduce a number of said credit variables;\na modeling processor fitting a first credit model, based on said reduced number of said credit variables, for said first characteristic;\nsaid modeling processor fitting a second credit model, based on said reduced number of said credit variables, for said second characteristic;\nusing a rejection inference technique to improve said first credit model;\nusing a rejection inference technique to improve said second credit model;\nvalidating said improved first credit model, based on test data points;\nvalidating said improved second credit model, based on test data points;\nusing a weight of evidence analysis to modify said improved first credit model;\nusing a weight of evidence analysis to modify said improved second credit model;\nbased on said modified improved first credit model and said modified improved second credit model, combining four parameters to calculate a relationship-based score for said customer;\nwherein said four parameters comprises said first weight, said second weight, said credit information, and said past relationship information;\napproving or disapproving said loan application for said customer, by a loan product package processing device, based on said relationship-based score for said customer and said one or more credit scores for said customer;\nassigning an interest rate to said loan application by a rate determination device based in part on said relationship based score for said customer and a current market interest rate; and\nnotifying said customer about an outcome of said loan application.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " by ",
+            "claimSize": 707,
+            "gate:gateId": 1,
+            "claim_preamble": "A loan product approval method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A loan product approval method by a lender, said method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a lender computing device receiving a loan application, regarding a customer, from a lender application receiving device;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "said lender computing device receiving credit information regarding said customer from one or more credit bureau databases;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "wherein said credit information comprises one or more credit scores;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a ranking and calculating device assigning a first weight to said credit information;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "said ranking and calculating device receiving performance definitions from a performance definitions database;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "said lender computing device receiving past relationship information regarding said customer, from one or more of said lender's databases;",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "assigning a second weight to said past relationship information, based on said performance definitions;",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "a segmentation analyzer performing segmentation analysis based on a first sub-population of potential loan applicants;",
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": "said segmentation analyzer performing segmentation analysis based on a second sub-population of potential loan applicants;",
+                        "gate:gateId": 11
+                    },
+                    {
+                        "content": "wherein said first sub-population of potential loan applicants corresponds to a first characteristic of said customer;",
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": "wherein said second sub-population of potential loan applicants corresponds to a second characteristic;",
+                        "gate:gateId": 13
+                    },
+                    {
+                        "content": "wherein said first characteristic of said customer is predictive in isolating risk for said first sub-population of potential loan applicants;",
+                        "gate:gateId": 14
+                    },
+                    {
+                        "content": "optimizing said first characteristic of said customer for said first sub-population of potential loan applicants;",
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": "wherein said second characteristic is predictive in isolating risk for said second sub-population of potential loan applicants;",
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": "optimizing said second characteristic for said second sub-population of potential loan applicants;",
+                        "gate:gateId": 17
+                    },
+                    {
+                        "content": "performing a second segmenting step based on an observation window and a performance window for specified periods of time for people with past-due accounts, versus people with not-past-due accounts;",
+                        "gate:gateId": 18
+                    },
+                    {
+                        "content": "wherein said observation window represents points in time at which said customer is observed to generate statistics for predicting said customer's future behavior;",
+                        "gate:gateId": 19
+                    },
+                    {
+                        "content": "wherein said performance window represents points in time which determines risk on said customer's account;",
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": "wherein said observation window and said performance window are staggered with respect to each other, and wherein a beginning of said observation window is different from a beginning of said performance window, and an end of said observation window is different from an end of said performance window;",
+                        "gate:gateId": 21
+                    },
+                    {
+                        "content": "wherein said performance window is wider in time for accounts which are not past due, as compared to past-due accounts;",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "said lender computing device down-sampling said potential loan applicants;",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "said lender computing device selecting credit variables based on said down-sampled potential loan applicants;",
+                        "gate:gateId": 24
+                    },
+                    {
+                        "content": "said lender computing device applying a regression technique, to reduce a number of said credit variables;",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "a modeling processor fitting a first credit model, based on said reduced number of said credit variables, for said first characteristic;",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "said modeling processor fitting a second credit model, based on said reduced number of said credit variables, for said second characteristic;",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "using a rejection inference technique to improve said first credit model;",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "using a rejection inference technique to improve said second credit model;",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "validating said improved first credit model, based on test data points;",
+                        "gate:gateId": 30
+                    },
+                    {
+                        "content": "validating said improved second credit model, based on test data points;",
+                        "gate:gateId": 31
+                    },
+                    {
+                        "content": "using a weight of evidence analysis to modify said improved first credit model;",
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": "using a weight of evidence analysis to modify said improved second credit model;",
+                        "gate:gateId": 33
+                    },
+                    {
+                        "content": "based on said modified improved first credit model and said modified improved second credit model, combining four parameters to calculate a relationship-based score for said customer;",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "wherein said four parameters comprises said first weight, said second weight, said credit information, and said past relationship information;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "approving or disapproving said loan application for said customer, by a loan product package processing device, based on said relationship-based score for said customer and said one or more credit scores for said customer;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "assigning an interest rate to said loan application by a rate determination device based in part on said relationship based score for said customer and a current market interest rate; and",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "notifying said customer about an outcome of said loan application.",
+                        "gate:gateId": 38
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "loan application is related to one or more of the following: automobile, motorcycle, bike, RV, marine, unsecured installment, credit card, mortgage, home equity installment, or home equity line of credit.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 59,
+            "gate:gateId": 39,
+            "claimNumber": 2,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "2. The loan product approval method by a lender as recited in",
+                    ", wherein said loan application is related to one or more of the following: automobile, motorcycle, bike, RV, marine, unsecured installment, credit card, mortgage, home equity installment, or home equity line of credit."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 41,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 40
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "loan product package processing device considers one or more of the following: income, own or rent, housing expenditure, collateral type, collateral value, requested amount, down payment, estimated closing cost, or information about said customer.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 62,
+            "gate:gateId": 42,
+            "claimNumber": 3,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "3. The loan product approval method by a lender as recited in",
+                    ", wherein said loan product package processing device considers one or more of the following: income, own or rent, housing expenditure, collateral type, collateral value, requested amount, down payment, estimated closing cost, or information about said customer."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "performance windows for observations are the same.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 25,
+            "gate:gateId": 45,
+            "claimNumber": 4,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "4. The loan product approval method by a lender as recited in",
+                    ", wherein performance windows for observations are the same."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "performance windows are staggered.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 22,
+            "gate:gateId": 48,
+            "claimNumber": 5,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "5. The loan product approval method by a lender as recited in",
+                    ", wherein performance windows are staggered."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "method further comprising: assigning one or more future interest rates.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 29,
+            "gate:gateId": 51,
+            "claimNumber": 6,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "6. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: assigning one or more future interest rates."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "method further comprising: assigning one or more future interest rates, with corresponding conditions.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 33,
+            "gate:gateId": 54,
+            "claimNumber": 7,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "7. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: assigning one or more future interest rates, with corresponding conditions."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "method further comprising:\nsaid ranking and calculating device taking a weighted average.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 57,
+            "claimNumber": 8,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "8. The loan product approval method by a lender as recited in",
+                    ", said method further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 58,
+                "claim-text": {
+                    "content": "said ranking and calculating device taking a weighted average.",
+                    "gate:gateId": 60
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "method further comprising: updating said relationship-based score for said customer, periodically.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 61,
+            "claimNumber": 9,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "9. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: updating said relationship-based score for said customer, periodically."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "method further comprising: updating said relationship-based score for said customer, based on a predetermined or trigger event.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 64,
+            "claimNumber": 10,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "10. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: updating said relationship-based score for said customer, based on a predetermined or trigger event."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "method further comprising: updating said relationship-based score for said customer, based on a predetermined market index.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 36,
+            "gate:gateId": 67,
+            "claimNumber": 11,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "11. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: updating said relationship-based score for said customer, based on a predetermined market index."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "method further comprising: updating said relationship-based score for said customer, based on a random variable or based on random time intervals.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 41,
+            "gate:gateId": 70,
+            "claimNumber": 12,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "12. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: updating said relationship-based score for said customer, based on a random variable or based on random time intervals."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "method further comprising: classifying said customer, in terms of a preferred interest rate. \n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "said ",
+            "claimBackReference": "as recited in claim 1 ,",
+            "claimSize": 33,
+            "gate:gateId": 73,
+            "claimNumber": 13,
+            "claim_preamble": "The loan product approval methoda lender",
+            "claim-text": {
+                "content": [
+                    "13. The loan product approval method by a lender as recited in",
+                    ", said method further comprising: classifying said customer, in terms of a preferred interest rate."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 232
+}}

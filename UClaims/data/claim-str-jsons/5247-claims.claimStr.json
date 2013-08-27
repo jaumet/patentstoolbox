@@ -1,0 +1,470 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504175-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 62,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3161,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "model predictive control of a controlled system with one or more physical components, comprising:\nat time t, sampling a current state of the controlled system and computing a cost function minimizing manipulated variables trajectories with a model predictive control (MPC) for a time horizon in the future, wherein the MPC uses a quadratic programming (QP) algorithm to find an optimal solution, and wherein the QP algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the optimal solution;\nimplementing a move of the manipulated variables trajectories including outputting a control signal for directly or indirectly controlling the controlled system; and\nshifting the prediction horizon forward in time and repeating the sampling, computing and implementing steps.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of ",
+            "claimSize": 179,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of model predictive control of a controlled system with one or more physical components, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "at time t, sampling a current state of the controlled system and computing a cost function minimizing manipulated variables trajectories with a model predictive control (MPC) for a time horizon in the future, wherein the MPC uses a quadratic programming (QP) algorithm to find an optimal solution, and wherein the QP algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the optimal solution;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "implementing a move of the manipulated variables trajectories including outputting a control signal for directly or indirectly controlling the controlled system; and",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "shifting the prediction horizon forward in time and repeating the sampling, computing and implementing steps.",
+                        "gate:gateId": 5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the active set class algorithm uses constraints for optimization variables, wherein the constraints are defined as the lower and upper bounds.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 33,
+            "gate:gateId": 6,
+            "claimNumber": 2,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "2. A method according to",
+                    ", wherein the active set class algorithm uses constraints for optimization variables, wherein the constraints are defined as the lower and upper bounds."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the gradient projection facilitates adding or removing of multiple constraints from a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the optimal solution.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "further wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 46,
+            "gate:gateId": 9,
+            "claimNumber": 3,
+            "claim_preamble": "A method",
+            "claim-text": {
+                "content": [
+                    "3. A method according to",
+                    ", further wherein the gradient projection facilitates adding or removing of multiple constraints from a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the optimal solution."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "a controlled system with one or more physical components, comprising:\na computer system including one or more computer programs operative on the computer system to:\nat time t, sample a current state of the controlled system and compute a cost function minimizing manipulated variables trajectories with a model predictive control (MPC) model for a time horizon in the future, wherein the MPC uses a quadratic programming (QP) algorithm to find an improved solution, and wherein the QP algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution; and\nimplement a move of the manipulated variables trajectories by outputting a control signal used directly or indirectly to control the controlled system.\n\n\n",
+            "claimType": "independent",
+            "num": "00004",
+            "transPhrase": " used to control ",
+            "claimSize": 178,
+            "gate:gateId": 12,
+            "claim_preamble": "A controller",
+            "claimNumber": 4,
+            "claim-text": {
+                "content": "4. A controller used to control a controlled system with one or more physical components, comprising:",
+                "gate:gateId": 13,
+                "claim-text": {
+                    "content": "a computer system including one or more computer programs operative on the computer system to:",
+                    "gate:gateId": 14,
+                    "claim-text": [
+                        {
+                            "content": "at time t, sample a current state of the controlled system and compute a cost function minimizing manipulated variables trajectories with a model predictive control (MPC) model for a time horizon in the future, wherein the MPC uses a quadratic programming (QP) algorithm to find an improved solution, and wherein the QP algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution; and",
+                            "gate:gateId": 15
+                        },
+                        {
+                            "content": "implement a move of the manipulated variables trajectories by outputting a control signal used directly or indirectly to control the controlled system.",
+                            "gate:gateId": 16
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the active set class algorithm uses constraints for optimization variables wherein the constraints are defined as the lower and upper bounds.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 32,
+            "gate:gateId": 17,
+            "claimNumber": 5,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "5. A controller according to",
+                    ", wherein the active set class algorithm uses constraints for optimization variables wherein the constraints are defined as the lower and upper bounds."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the gradient projection facilitates adding or removing of multiple constraints from a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "further wherein ",
+            "claimBackReference": "according to claim 4 ,",
+            "claimSize": 46,
+            "gate:gateId": 20,
+            "claimNumber": 6,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "6. A controller according to",
+                    ", further wherein the gradient projection facilitates adding or removing of multiple constraints from a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00007",
+            "body": "an automotive system with one or more physical components, wherein the automotive system comprises one or more automotive components requiring control, the controller comprising:\na computer system including one or more computer programs operative on the computer system to:\nat time t, sampling a current state of the one or more automotive components and computing a cost function minimizing manipulated variables trajectories with a model predictive control (MPC) for a time horizon in the future, wherein the MPC uses a quadratic programming (QP) algorithm to find an improved solution, and wherein the QP algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution using a specified maximum number of iterations; and\nimplementing a move of the manipulated variables trajectories to facilitate control the one or more automotive components.\n\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " used to control ",
+            "claimSize": 197,
+            "gate:gateId": 23,
+            "claim_preamble": "A controller",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A controller used to control an automotive system with one or more physical components, wherein the automotive system comprises one or more automotive components requiring control, the controller comprising:",
+                "gate:gateId": 24,
+                "claim-text": {
+                    "content": "a computer system including one or more computer programs operative on the computer system to:",
+                    "gate:gateId": 25,
+                    "claim-text": [
+                        {
+                            "content": "at time t, sampling a current state of the one or more automotive components and computing a cost function minimizing manipulated variables trajectories with a model predictive control (MPC) for a time horizon in the future, wherein the MPC uses a quadratic programming (QP) algorithm to find an improved solution, and wherein the QP algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution using a specified maximum number of iterations; and",
+                            "gate:gateId": 26
+                        },
+                        {
+                            "content": "implementing a move of the manipulated variables trajectories to facilitate control the one or more automotive components.",
+                            "gate:gateId": 27
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the AS class algorithm uses constraints for optimization variables wherein the constraints are defined as the lower and upper bounds.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 31,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "8. A controller according to",
+                    ", wherein the AS class algorithm uses constraints for optimization variables wherein the constraints are defined as the lower and upper bounds."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the gradient projection facilitates adding or removing of multiple constraints from a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "further wherein ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 46,
+            "gate:gateId": 31,
+            "claimNumber": 9,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "9. A controller according to",
+                    ", further wherein the gradient projection facilitates adding or removing of multiple constraints from a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in the improved solution."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the control horizon forward and repeating the determination of manipulated variable trajectories.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "further including moving ",
+            "claimBackReference": "according to claim 7 ,",
+            "claimSize": 25,
+            "gate:gateId": 34,
+            "claimNumber": 10,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "10. A controller according to",
+                    ", further including moving the control horizon forward and repeating the determination of manipulated variable trajectories."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00011",
+            "body": "an automotive system, comprising:\nprocessing unit;\nan input for providing one or more controlled variables (CV) and/or disturbance variables (DV) to the processing unit from the automotive system;\nan output for providing one or more manipulated variables (MV) from the processing unit to the automotive system, wherein each of the one or more manipulated variables (MV) have a trajectory;\nthe processing unit configured to sample one or more of the one or more controlled variables (CV) and/or disturbance variables (DV) at a time \u201ct\u201d, and to compute a cost function minimizing the trajectory of one or more of the manipulated variables (MV) using a model predictive control (MPC) over a time horizon, wherein the MPC uses a quadratic programming (QP) algorithm that has constraints and that uses Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in an improved solution using a specified maximum number of iterations; and\nimplementing a move of the trajectory of one or more of the manipulated variables (MV), and outputting one or more of the manipulated variables (MV) to the automotive system.\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": " for ",
+            "claimSize": 246,
+            "gate:gateId": 37,
+            "claim_preamble": "A controller",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. A controller for an automotive system, comprising:",
+                "gate:gateId": 38,
+                "claim-text": [
+                    {
+                        "content": "processing unit;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "an input for providing one or more controlled variables (CV) and/or disturbance variables (DV) to the processing unit from the automotive system;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "an output for providing one or more manipulated variables (MV) from the processing unit to the automotive system, wherein each of the one or more manipulated variables (MV) have a trajectory;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "the processing unit configured to sample one or more of the one or more controlled variables (CV) and/or disturbance variables (DV) at a time \u201ct\u201d, and to compute a cost function minimizing the trajectory of one or more of the manipulated variables (MV) using a model predictive control (MPC) over a time horizon, wherein the MPC uses a quadratic programming (QP) algorithm that has constraints and that uses Newton step projection, wherein the Newton step projection facilitates adding of multiple constraints to a working set in each iteration of the algorithm, to facilitate identification of a set of active constraints in an improved solution using a specified maximum number of iterations; and",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "implementing a move of the trajectory of one or more of the manipulated variables (MV), and outputting one or more of the manipulated variables (MV) to the automotive system.",
+                        "gate:gateId": 43
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the quadratic programming (QP) algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 41,
+            "gate:gateId": 44,
+            "claimNumber": 12,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "12. A controller according to",
+                    ", wherein the quadratic programming (QP) algorithm is solved using an Active Sets solver (AS) class algorithm with constraints based on gradient projection and using Newton step projection."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 45
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the processing unit shifts the time horizon forward, and then samples one or more of the one or more controlled variables (CV) and/or disturbance variables (DV) a second time.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 47,
+            "gate:gateId": 47,
+            "claimNumber": 13,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "13. A controller according to",
+                    ", wherein the processing unit shifts the time horizon forward, and then samples one or more of the one or more controlled variables (CV) and/or disturbance variables (DV) a second time."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the processing unit samples one or more of the one or more controlled variables (CV) and/or disturbance variables (DV) for the second time, the processing unit again compute a cost function minimizing the trajectory of one or more of the manipulated variables (MV) using a model predictive control (MPC) over a time horizon, and implements a move of the trajectory of one or more of the manipulated variables (MV), and further outputs one or more of the manipulated variables (MV) to the automotive system.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein after ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 113,
+            "gate:gateId": 50,
+            "claimNumber": 14,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "14. A controller according to",
+                    ", wherein after the processing unit samples one or more of the one or more controlled variables (CV) and/or disturbance variables (DV) for the second time, the processing unit again compute a cost function minimizing the trajectory of one or more of the manipulated variables (MV) using a model predictive control (MPC) over a time horizon, and implements a move of the trajectory of one or more of the manipulated variables (MV), and further outputs one or more of the manipulated variables (MV) to the automotive system."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the automotive system includes one or more actuators, and wherein the one or more manipulated variables (MV) are used to control one or more of the actuators.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 41,
+            "gate:gateId": 53,
+            "claimNumber": 15,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "15. A controller according to",
+                    ", wherein the automotive system includes one or more actuators, and wherein the one or more manipulated variables (MV) are used to control one or more of the actuators."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "one or more of the actuators include an EGR valve.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 15 ,",
+            "claimSize": 21,
+            "gate:gateId": 56,
+            "claimNumber": 16,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "16. A controller according to",
+                    ", wherein one or more of the actuators include an EGR valve."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "one or more of the actuators include an Waste Gate Valve.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 15 ,",
+            "claimSize": 22,
+            "gate:gateId": 59,
+            "claimNumber": 17,
+            "claim_preamble": "A controller",
+            "claim-text": {
+                "content": [
+                    "17. A controller according to",
+                    ", wherein one or more of the actuators include an Waste Gate Valve."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 15
+        }
+    ],
+    "numberIndependentClaims": 212
+}}

@@ -1,0 +1,754 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504959-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 104,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3668,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a computer,\nreceiving a set of target layout data that defines a number of features to be printed on a wafer;\ndetermining that a first set of one or more of the features or areas of the target layout are not to be considered by an analysis tool; and\nrevising the target layout data so that the first set of features or areas remain in the target layout data but are not considered by the analysis tool.\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\nby ",
+            "claimSize": 89,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method, comprising:",
+                "gate:gateId": 2,
+                "claim-text": {
+                    "content": "by a computer,",
+                    "gate:gateId": 3,
+                    "claim-text": [
+                        {
+                            "content": "receiving a set of target layout data that defines a number of features to be printed on a wafer;",
+                            "gate:gateId": 4
+                        },
+                        {
+                            "content": "determining that a first set of one or more of the features or areas of the target layout are not to be considered by an analysis tool; and",
+                            "gate:gateId": 5
+                        },
+                        {
+                            "content": "revising the target layout data so that the first set of features or areas remain in the target layout data but are not considered by the analysis tool.",
+                            "gate:gateId": 6
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the determining comprises determining whether the first set of features or areas have been subjected to a photolithographic analysis confirming that the first set of features or areas will print as desired.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 42,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein the determining comprises determining whether the first set of features or areas have been subjected to a photolithographic analysis confirming that the first set of features or areas will print as desired."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "further comprising combining two or more of the features that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter of a photolithographic process used to print the features on the wafer.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 63,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", further comprising combining two or more of the features that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter of a photolithographic process used to print the features on the wafer."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the target layout data for patterns of duplicate features that match the combined feature, wherein the revising comprises revising the target layout data so that the duplicate features are not considered by the analysis tool.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising searching ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 48,
+            "gate:gateId": 13,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", further comprising searching the target layout data for patterns of duplicate features that match the combined feature, wherein the revising comprises revising the target layout data so that the duplicate features are not considered by the analysis tool."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the revising comprises removing, marking, or tagging the first set of features, the removing, marking, or tagging causing the analysis tool to not consider the first set of features.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 44,
+            "gate:gateId": 16,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein the revising comprises removing, marking, or tagging the first set of features, the removing, marking, or tagging causing the analysis tool to not consider the first set of features."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the revising comprises removing, marking, or tagging simulation sites for edge fragments associated with the first set of features.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 31,
+            "gate:gateId": 19,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein the revising comprises removing, marking, or tagging simulation sites for edge fragments associated with the first set of features."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the revised target layout data in a computer-readable medium.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising storing ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 21,
+            "gate:gateId": 22,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", further comprising storing the revised target layout data in a computer-readable medium."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "an integrated circuit based at least in part on the revised target layout data.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising manufacturing ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 26,
+            "gate:gateId": 25,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", further comprising manufacturing an integrated circuit based at least in part on the revised target layout data."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "computer-readable instructions that when executed by a computer, cause the computer to perform a method, the method comprising:\nreceiving a set of target layout data that defines a number of features to be printed on a wafer;\ndetermining that a first set of one or more of the features or areas of the target layout are to be removed from consideration by an analysis tool; and\nrevising the target layout data so that the first set of features or areas are removed from consideration by the analysis tool.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " storing ",
+            "claimSize": 103,
+            "gate:gateId": 28,
+            "claim_preamble": "One or more computer-readable storage devices",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. One or more computer-readable storage devices storing computer-readable instructions that when executed by a computer, cause the computer to perform a method, the method comprising:",
+                "gate:gateId": 29,
+                "claim-text": [
+                    {
+                        "content": "receiving a set of target layout data that defines a number of features to be printed on a wafer;",
+                        "gate:gateId": 30
+                    },
+                    {
+                        "content": "determining that a first set of one or more of the features or areas of the target layout are to be removed from consideration by an analysis tool; and",
+                        "gate:gateId": 31
+                    },
+                    {
+                        "content": "revising the target layout data so that the first set of features or areas are removed from consideration by the analysis tool.",
+                        "gate:gateId": 32
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the determining comprises determining whether the first set of features or areas have been subjected to a photolithographic analysis confirming that the first set of features or areas will print as desired.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 44,
+            "gate:gateId": 33,
+            "claimNumber": 10,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "10. The computer-readable storage devices of",
+                    ", wherein the determining comprises determining whether the first set of features or areas have been subjected to a photolithographic analysis confirming that the first set of features or areas will print as desired."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the method further comprises combining two or more of the features that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter of a photolithographic process used to print the features on the wafer.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 68,
+            "gate:gateId": 36,
+            "claimNumber": 11,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "11. The computer-readable storage devices of",
+                    ", wherein the method further comprises combining two or more of the features that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter of a photolithographic process used to print the features on the wafer."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 38,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 37
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the method further comprises searching the target layout data for patterns of duplicate features that match the combined feature, wherein the revising comprises revising the target layout data so that the duplicate features are not considered by the analysis tool.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 53,
+            "gate:gateId": 39,
+            "claimNumber": 12,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "12. The computer-readable storage devices of",
+                    ", wherein the method further comprises searching the target layout data for patterns of duplicate features that match the combined feature, wherein the revising comprises revising the target layout data so that the duplicate features are not considered by the analysis tool."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 41,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 40
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the revising comprises removing, marking, or tagging the first set of features, the removing, marking, or tagging causing the analysis tool to not consider the first set of features.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 46,
+            "gate:gateId": 42,
+            "claimNumber": 13,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "13. The computer-readable storage devices of",
+                    ", wherein the revising comprises removing, marking, or tagging the first set of features, the removing, marking, or tagging causing the analysis tool to not consider the first set of features."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the revising comprises removing, marking, or tagging simulation sites for edge fragments associated with the first set of features.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 33,
+            "gate:gateId": 45,
+            "claimNumber": 14,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "14. The computer-readable storage devices of",
+                    ", wherein the revising comprises removing, marking, or tagging simulation sites for edge fragments associated with the first set of features."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00015",
+            "body": "a computer,\ndetermining whether any areas of a target layout having a number of features have been previously analyzed, and if so, removing portions of the areas except for one or more border areas of the areas, the border areas providing local context for features of the target layout that are not in the removed portions;\nfragmenting the remaining features in the target layout into edge fragments; and\nproviding the fragmented features for analysis of a photolithographic process.\n\n\n",
+            "claimType": "independent",
+            "num": "00015",
+            "transPhrase": ", comprising,\nby ",
+            "claimSize": 93,
+            "gate:gateId": 48,
+            "claim_preamble": "A method",
+            "claimNumber": 15,
+            "claim-text": {
+                "content": "15. A method, comprising,",
+                "gate:gateId": 49,
+                "claim-text": {
+                    "content": "by a computer,",
+                    "gate:gateId": 50,
+                    "claim-text": [
+                        {
+                            "content": "determining whether any areas of a target layout having a number of features have been previously analyzed, and if so, removing portions of the areas except for one or more border areas of the areas, the border areas providing local context for features of the target layout that are not in the removed portions;",
+                            "gate:gateId": 51
+                        },
+                        {
+                            "content": "fragmenting the remaining features in the target layout into edge fragments; and",
+                            "gate:gateId": 52
+                        },
+                        {
+                            "content": "providing the fragmented features for analysis of a photolithographic process.",
+                            "gate:gateId": 53
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00016",
+            "body": "further comprising:\nfor each of the edge fragments, if the edge fragment is not at a corner or next to a corner, removing the edge fragment.\n\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 38,
+            "gate:gateId": 54,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 55,
+                "claim-text": {
+                    "content": "for each of the edge fragments, if the edge fragment is not at a corner or next to a corner, removing the edge fragment.",
+                    "gate:gateId": 57
+                }
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the fragmented features;\ndetermining that one or more of the fragmented features will not print correctly; and\nadjusting target layout and/or process condition parameters of the photolithographic process such that the one or more of the fragmented features determined to not print correctly will print correctly.\n\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nanalyzing ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 63,
+            "gate:gateId": 58,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 60,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 59,
+                "claim-text": [
+                    {
+                        "content": "analyzing the fragmented features;",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": "determining that one or more of the fragmented features will not print correctly; and",
+                        "gate:gateId": 62
+                    },
+                    {
+                        "content": "adjusting target layout and/or process condition parameters of the photolithographic process such that the one or more of the fragmented features determined to not print correctly will print correctly.",
+                        "gate:gateId": 63
+                    }
+                ]
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00018",
+            "body": "an integrated circuit using the adjusted target layout and/or process condition parameters.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising manufacturing ",
+            "claimBackReference": "of claim 17",
+            "claimSize": 26,
+            "gate:gateId": 64,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    ", further comprising manufacturing an integrated circuit using the adjusted target layout and/or process condition parameters."
+                ],
+                "claim-ref": {
+                    "content": "claim 17",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00017"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 17
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the fragmented features to determine a sensitivity of a selected number of the fragmented features to variations in process conditions;\nremoving one or more of the selected number of features from the target layout based on its respective sensitivity, producing an updated target layout; and\nanalyzing the updated target layout using a lithography friendly design analysis tool.\n\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nanalyzing ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 73,
+            "gate:gateId": 67,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 68,
+                "claim-text": [
+                    {
+                        "content": "analyzing the fragmented features to determine a sensitivity of a selected number of the fragmented features to variations in process conditions;",
+                        "gate:gateId": 70
+                    },
+                    {
+                        "content": "removing one or more of the selected number of features from the target layout based on its respective sensitivity, producing an updated target layout; and",
+                        "gate:gateId": 71
+                    },
+                    {
+                        "content": "analyzing the updated target layout using a lithography friendly design analysis tool.",
+                        "gate:gateId": 72
+                    }
+                ]
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00020",
+            "body": "further comprising:\ncombining two or more of the features of the target layout that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter; and\nprior to the fragmenting, searching the target layout for patterns of duplicate features that match the combined feature and removing one or more of the duplicate features to produce the remaining features for the fragmenting.\n\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 94,
+            "gate:gateId": 73,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 74,
+                "claim-text": [
+                    {
+                        "content": "combining two or more of the features of the target layout that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter; and",
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": "prior to the fragmenting, searching the target layout for patterns of duplicate features that match the combined feature and removing one or more of the duplicate features to produce the remaining features for the fragmenting.",
+                        "gate:gateId": 77
+                    }
+                ]
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00021",
+            "body": "computer-readable instructions that when executed by a computer, cause the computer to perform a method, the method comprising:\ndetermining whether any areas of a target layout having a number of features have been previously analyzed, and if so, removing portions of the areas except for one or more border areas of the areas, the border areas providing local context for features of the target layout that are not in the removed portions;\nfragmenting the remaining features in the target layout into edge fragments; and\nproviding the fragmented features for analysis of a photolithographic process.\n\n",
+            "claimType": "independent",
+            "num": "00021",
+            "transPhrase": " storing ",
+            "claimSize": 112,
+            "gate:gateId": 78,
+            "claim_preamble": "One or more computer-readable storage devices",
+            "claimNumber": 21,
+            "claim-text": {
+                "content": "21. One or more computer-readable storage devices storing computer-readable instructions that when executed by a computer, cause the computer to perform a method, the method comprising:",
+                "gate:gateId": 79,
+                "claim-text": [
+                    {
+                        "content": "determining whether any areas of a target layout having a number of features have been previously analyzed, and if so, removing portions of the areas except for one or more border areas of the areas, the border areas providing local context for features of the target layout that are not in the removed portions;",
+                        "gate:gateId": 80
+                    },
+                    {
+                        "content": "fragmenting the remaining features in the target layout into edge fragments; and",
+                        "gate:gateId": 81
+                    },
+                    {
+                        "content": "providing the fragmented features for analysis of a photolithographic process.",
+                        "gate:gateId": 82
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00022",
+            "body": "further comprising:\nfor each of the edge fragments, if the edge fragment is not at a corner or next to a corner, removing the edge fragment.\n\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 40,
+            "gate:gateId": 83,
+            "claimNumber": 22,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "22. The computer-readable storage devices of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 85,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 84,
+                "claim-text": {
+                    "content": "for each of the edge fragments, if the edge fragment is not at a corner or next to a corner, removing the edge fragment.",
+                    "gate:gateId": 86
+                }
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the fragmented features;\ndetermining that one or more of the fragmented features will not print correctly; and\nadjusting target layout and/or process condition parameters of the photolithographic process such that the one or more of the fragmented features determined to not print correctly will print correctly.\n\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nanalyzing ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 65,
+            "gate:gateId": 87,
+            "claimNumber": 23,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "23. The computer-readable storage devices of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 89,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 88,
+                "claim-text": [
+                    {
+                        "content": "analyzing the fragmented features;",
+                        "gate:gateId": 90
+                    },
+                    {
+                        "content": "determining that one or more of the fragmented features will not print correctly; and",
+                        "gate:gateId": 91
+                    },
+                    {
+                        "content": "adjusting target layout and/or process condition parameters of the photolithographic process such that the one or more of the fragmented features determined to not print correctly will print correctly.",
+                        "gate:gateId": 92
+                    }
+                ]
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00024",
+            "body": "the fragmented features to determine a sensitivity of a selected number of the fragmented features to variations in process conditions;\nremoving one or more of the selected number of features from the target layout based on its respective sensitivity, producing an updated target layout; and\nanalyzing the updated target layout using a lithography friendly design analysis tool.\n\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nanalyzing ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 75,
+            "gate:gateId": 93,
+            "claimNumber": 24,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "24. The computer-readable storage devices of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 95,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 94,
+                "claim-text": [
+                    {
+                        "content": "analyzing the fragmented features to determine a sensitivity of a selected number of the fragmented features to variations in process conditions;",
+                        "gate:gateId": 96
+                    },
+                    {
+                        "content": "removing one or more of the selected number of features from the target layout based on its respective sensitivity, producing an updated target layout; and",
+                        "gate:gateId": 97
+                    },
+                    {
+                        "content": "analyzing the updated target layout using a lithography friendly design analysis tool.",
+                        "gate:gateId": 98
+                    }
+                ]
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00025",
+            "body": "further comprising:\ncombining two or more of the features of the target layout that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter; and\nprior to the fragmenting, searching the target layout for patterns of duplicate features that match the combined feature and removing one or more of the duplicate features to produce the remaining features for the fragmenting. \n\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 96,
+            "gate:gateId": 99,
+            "claimNumber": 25,
+            "claim_preamble": "The computer-readable storage devices",
+            "claim-text": {
+                "content": [
+                    "25. The computer-readable storage devices of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 101,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 100,
+                "claim-text": [
+                    {
+                        "content": "combining two or more of the features of the target layout that each have a size smaller than an optical diameter of a photolithographic process into a combined feature, the combined feature having a size at least as large as the optical diameter; and",
+                        "gate:gateId": 102
+                    },
+                    {
+                        "content": "prior to the fragmenting, searching the target layout for patterns of duplicate features that match the combined feature and removing one or more of the duplicate features to produce the remaining features for the fragmenting.",
+                        "gate:gateId": 103
+                    }
+                ]
+            },
+            "depends_on": 21
+        }
+    ],
+    "numberIndependentClaims": 270
+}}

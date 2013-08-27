@@ -1,0 +1,691 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504144-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 109,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 4608,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "sensing electrical cardiac signals via leads implanted within a heart of a patient;\nfiltering the signals using a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\nfiltering the signals using a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\ndetecting tachyarrhythmia using a processor configured to detect tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter in combination with ventricular rates determined from signals filtered by the second filter:\nwherein detecting tachyarrhythmia further comprises:\ndetecting a preliminary indication of tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter; and\nin response, confirming detection of tachyarrhythmia using the ventricular rates determined from signals filtered by the second filter.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ":\n",
+            "claimSize": 156,
+            "gate:gateId": 1,
+            "claim_preamble": "A method comprising",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "sensing electrical cardiac signals via leads implanted within a heart of a patient;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "filtering the signals using a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "filtering the signals using a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "detecting tachyarrhythmia using a processor configured to detect tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter in combination with ventricular rates determined from signals filtered by the second filter:",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein detecting tachyarrhythmia further comprises:",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "detecting a preliminary indication of tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter; and",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "in response, confirming detection of tachyarrhythmia using the ventricular rates determined from signals filtered by the second filter.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "a preliminary indication of tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter comprises:\ndetermining a ventricular rate based on the ventricular depolarization events; and\ncomparing the ventricular rate to a detection threshold indicative of ventricular tachyarrhythmia.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein detecting ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 52,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    "wherein detecting a preliminary indication of tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11,
+                "claim-text": [
+                    {
+                        "content": "determining a ventricular rate based on the ventricular depolarization events; and",
+                        "gate:gateId": 13
+                    },
+                    {
+                        "content": "comparing the ventricular rate to a detection threshold indicative of ventricular tachyarrhythmia.",
+                        "gate:gateId": 14
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "therapy in response to detecting tachyarrhythmia.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "further including delivering ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 17,
+            "gate:gateId": 15,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    "further including delivering therapy in response to detecting tachyarrhythmia."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the first filter is a bradycardia filter and the second filter is a tachycardia filter.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 24,
+            "gate:gateId": 18,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    "wherein the first filter is a bradycardia filter and the second filter is a tachycardia filter."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the first filter has a passband beginning at 20 Hz and the second filter has a passband beginning at 10 Hz.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 30,
+            "gate:gateId": 21,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    "wherein the first filter has a passband beginning at 20 Hz and the second filter has a passband beginning at 10 Hz."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a preliminary indication of tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter includes:\ndetermining a ventricular morphology for the ventricular depolarizations; and\ncomparing the ventricular morphology to a criteria indicative of ventricular tachyarrhythmia.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein detecting ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 49,
+            "gate:gateId": 24,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    "wherein detecting a preliminary indication of tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter includes:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25,
+                "claim-text": [
+                    {
+                        "content": "determining a ventricular morphology for the ventricular depolarizations; and",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "comparing the ventricular morphology to a criteria indicative of ventricular tachyarrhythmia.",
+                        "gate:gateId": 28
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the ventricular morphology comprises at least one of R-wave shape and R-wave size and the criteria comprises a predetermined threshold number (X) of irregular shaped or irregular sized R-waves, out of a predetermined total number (Y) of R-waves.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 56,
+            "gate:gateId": 29,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    "wherein the ventricular morphology comprises at least one of R-wave shape and R-wave size and the criteria comprises a predetermined threshold number (X) of irregular shaped or irregular sized R-waves, out of a predetermined total number (Y) of R-waves."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "detection of tachyarrhythmia comprises verifying that the ventricular rates determined from signals filtered by the second filter exceed a detection threshold indicative of ventricular tachyarrhythmia.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein confirming ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 35,
+            "gate:gateId": 32,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    "wherein confirming detection of tachyarrhythmia comprises verifying that the ventricular rates determined from signals filtered by the second filter exceed a detection threshold indicative of ventricular tachyarrhythmia."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "sensing electrical cardiac signals via leads implanted within a heart of a patient;\nfiltering the signals using a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\nfiltering the signals using a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\ndetecting tachyarrhythmia using a processor configured to detect tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter in combination with ventricular rates determined from signals filtered by the second filter;\nwherein detecting tachyarrhythmia further comprises:\ncomparing the ventricular rates determined from signals filtered by the second filter with ventricular rates determined using ventricular depolarization events from signals filtered by the first filter to detect ventricular tachyarrhythmia.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": ":\n",
+            "claimSize": 149,
+            "gate:gateId": 35,
+            "claim_preamble": "A method comprising",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A method comprising:",
+                "gate:gateId": 36,
+                "claim-text": [
+                    {
+                        "content": "sensing electrical cardiac signals via leads implanted within a heart of a patient;",
+                        "gate:gateId": 37
+                    },
+                    {
+                        "content": "filtering the signals using a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "filtering the signals using a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "detecting tachyarrhythmia using a processor configured to detect tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter in combination with ventricular rates determined from signals filtered by the second filter;",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "wherein detecting tachyarrhythmia further comprises:",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "comparing the ventricular rates determined from signals filtered by the second filter with ventricular rates determined using ventricular depolarization events from signals filtered by the first filter to detect ventricular tachyarrhythmia.",
+                        "gate:gateId": 42
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "9 further comprising:\nprior to comparing ventricular rates determined from signals filtered by the second filter with ventricular rates determined from signals filtered by the first filter, comparing the ventricular rates determined from signals filtered by the second filter to a detection threshold indicative of ventricular tachyarrhythmia.\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 9",
+            "claimSize": 56,
+            "gate:gateId": 43,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    "further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 44,
+                "claim-text": {
+                    "content": "prior to comparing ventricular rates determined from signals filtered by the second filter with ventricular rates determined from signals filtered by the first filter, comparing the ventricular rates determined from signals filtered by the second filter to a detection threshold indicative of ventricular tachyarrhythmia.",
+                    "gate:gateId": 46
+                }
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "10 further comprising:\nif the ventricular rates determined from signals filtered by the second filter exceed the threshold, comparing signals filtered by the first filter with signals filtered by the second filter to distinguish between true ventricular depolarization events and false ventricular depolarization events; and\ndetecting tachyarrhythmia based on the true ventricular depolarization events.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 10",
+            "claimSize": 64,
+            "gate:gateId": 47,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    "further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 48,
+                "claim-text": [
+                    {
+                        "content": "if the ventricular rates determined from signals filtered by the second filter exceed the threshold, comparing signals filtered by the first filter with signals filtered by the second filter to distinguish between true ventricular depolarization events and false ventricular depolarization events; and",
+                        "gate:gateId": 50
+                    },
+                    {
+                        "content": "detecting tachyarrhythmia based on the true ventricular depolarization events.",
+                        "gate:gateId": 51
+                    }
+                ]
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "tachyarrhythmia based on the true ventricular depolarization events comprises:\ndetermining a true ventricular rate based only on the true ventricular depolarization events; and\ncomparing the true ventricular rate to a detection threshold indicative of ventricular tachyarrhythmia.\n\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein detecting ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 48,
+            "gate:gateId": 52,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    "wherein detecting tachyarrhythmia based on the true ventricular depolarization events comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 53,
+                "claim-text": [
+                    {
+                        "content": "determining a true ventricular rate based only on the true ventricular depolarization events; and",
+                        "gate:gateId": 55
+                    },
+                    {
+                        "content": "comparing the true ventricular rate to a detection threshold indicative of ventricular tachyarrhythmia.",
+                        "gate:gateId": 56
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "tachyarrhythmia based on the true ventricular depolarization events comprises:\ndetermining a count corresponding to the number of false ventricular depolarization events within a predetermined number of combined false ventricular depolarization events and true ventricular depolarization events; and\ncomparing the count to a count threshold indicative of indicative of tachyarrhythmia.\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein detecting ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 61,
+            "gate:gateId": 57,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    "wherein detecting tachyarrhythmia based on the true ventricular depolarization events comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 58,
+                "claim-text": [
+                    {
+                        "content": "determining a count corresponding to the number of false ventricular depolarization events within a predetermined number of combined false ventricular depolarization events and true ventricular depolarization events; and",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "comparing the count to a count threshold indicative of indicative of tachyarrhythmia.",
+                        "gate:gateId": 61
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "10 further comprising:\nif the ventricular rates determined from signals filtered by the second filter exceed the threshold, then comparing ventricular rates determined from signals filtered by the second filter to a multiple of the ventricular rates determined from signals filtered by the first filter.\n\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 10",
+            "claimSize": 54,
+            "gate:gateId": 62,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    "further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 63,
+                "claim-text": {
+                    "content": "if the ventricular rates determined from signals filtered by the second filter exceed the threshold, then comparing ventricular rates determined from signals filtered by the second filter to a multiple of the ventricular rates determined from signals filtered by the first filter.",
+                    "gate:gateId": 65
+                }
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00015",
+            "body": "sensing electrical cardiac signals via leads implanted within a heart of a patient;\nfiltering the signals using a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\nfiltering the signals using a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events;\nfiltering the signals using a wideband filter configured to have a substantially wider bandwidth than the bandwidths of the first and second filters; and\ndetecting tachyarrhythmia using a processor configured to detect tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter in combination with ventricular rates determined from signals filtered by the second filter;\nwherein detecting tachyarrhythmia comprises detecting possible ventricular depolarization events in each of the signals filtered by the first filter, filtered by the second filter and filtered by the wideband filter; comparing the timing of the possible ventricular depolarization events to identify true ventricular depolarization events; calculating a true ventricular rate based on the identified true ventricular depolarizations; and comparing the true ventricular rate to a detection threshold.\n\n",
+            "claimType": "independent",
+            "num": "00015",
+            "transPhrase": ":\n",
+            "claimSize": 207,
+            "gate:gateId": 66,
+            "claim_preamble": "A method comprising",
+            "claimNumber": 15,
+            "claim-text": {
+                "content": "15. A method comprising:",
+                "gate:gateId": 67,
+                "claim-text": [
+                    {
+                        "content": "sensing electrical cardiac signals via leads implanted within a heart of a patient;",
+                        "gate:gateId": 68
+                    },
+                    {
+                        "content": "filtering the signals using a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 69
+                    },
+                    {
+                        "content": "filtering the signals using a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events;",
+                        "gate:gateId": 70
+                    },
+                    {
+                        "content": "filtering the signals using a wideband filter configured to have a substantially wider bandwidth than the bandwidths of the first and second filters; and",
+                        "gate:gateId": 71
+                    },
+                    {
+                        "content": "detecting tachyarrhythmia using a processor configured to detect tachyarrhythmia using ventricular depolarization events from signals filtered by the first filter in combination with ventricular rates determined from signals filtered by the second filter;",
+                        "gate:gateId": 72
+                    },
+                    {
+                        "content": "wherein detecting tachyarrhythmia comprises detecting possible ventricular depolarization events in each of the signals filtered by the first filter, filtered by the second filter and filtered by the wideband filter; comparing the timing of the possible ventricular depolarization events to identify true ventricular depolarization events; calculating a true ventricular rate based on the identified true ventricular depolarizations; and comparing the true ventricular rate to a detection threshold.",
+                        "gate:gateId": 73
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00016",
+            "body": "use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:\na first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\na second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\na combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;\nwherein the combined first filter/second filter-based detection system includes:\na first filter-based preliminary detection unit configured to detect a preliminary indication of tachyarrhythmia using signals filtered by the first filter; and\na second filter-based confirmation unit to then confirm detection of tachyarrhythmia using ventricular rates determined from signals filtered by the second filter.\n\n",
+            "claimType": "independent",
+            "num": "00016",
+            "transPhrase": " for ",
+            "claimSize": 183,
+            "gate:gateId": 74,
+            "claim_preamble": "A tachyarrhythmia detection system",
+            "claimNumber": 16,
+            "claim-text": {
+                "content": "16. A tachyarrhythmia detection system for use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:",
+                "gate:gateId": 75,
+                "claim-text": [
+                    {
+                        "content": "a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": "a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 77
+                    },
+                    {
+                        "content": "a combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;",
+                        "gate:gateId": 78
+                    },
+                    {
+                        "content": "wherein the combined first filter/second filter-based detection system includes:",
+                        "gate:gateId": 79
+                    },
+                    {
+                        "content": "a first filter-based preliminary detection unit configured to detect a preliminary indication of tachyarrhythmia using signals filtered by the first filter; and",
+                        "gate:gateId": 80
+                    },
+                    {
+                        "content": "a second filter-based confirmation unit to then confirm detection of tachyarrhythmia using ventricular rates determined from signals filtered by the second filter.",
+                        "gate:gateId": 81
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00017",
+            "body": "use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:\na first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\na second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\na combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;\nwherein the combined first filter/second filter-based detection system includes a comparison unit configured to compare the ventricular rates determined from signals filtered by the second filter with ventricular rates determined from signals filtered by the first filter to detect ventricular tachyarrhythmia.\n\n",
+            "claimType": "independent",
+            "num": "00017",
+            "transPhrase": " for ",
+            "claimSize": 169,
+            "gate:gateId": 82,
+            "claim_preamble": "A tachyarrhythmia detection system",
+            "claimNumber": 17,
+            "claim-text": {
+                "content": "17. A tachyarrhythmia detection system for use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:",
+                "gate:gateId": 83,
+                "claim-text": [
+                    {
+                        "content": "a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 84
+                    },
+                    {
+                        "content": "a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 85
+                    },
+                    {
+                        "content": "a combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;",
+                        "gate:gateId": 86
+                    },
+                    {
+                        "content": "wherein the combined first filter/second filter-based detection system includes a comparison unit configured to compare the ventricular rates determined from signals filtered by the second filter with ventricular rates determined from signals filtered by the first filter to detect ventricular tachyarrhythmia.",
+                        "gate:gateId": 87
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00018",
+            "body": "use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:\na first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\na second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\na combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;\nwherein the combined first filter/second filter-based detection system comprises:\na second filter-based preliminary detection unit configured to detect a preliminary indication of tachyarrhythmia using signals filtered by the second filter; and\na second filter-based confirmation unit configured to detect oversensing of ventricular repolarization events by the second filter and to confirm detection of tachyarrhythmia only in the absence of oversensing of ventricular repolarization events.\n\n",
+            "claimType": "independent",
+            "num": "00018",
+            "transPhrase": " for ",
+            "claimSize": 194,
+            "gate:gateId": 88,
+            "claim_preamble": "A tachyarrhythmia detection system",
+            "claimNumber": 18,
+            "claim-text": {
+                "content": "18. A tachyarrhythmia detection system for use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:",
+                "gate:gateId": 89,
+                "claim-text": [
+                    {
+                        "content": "a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 90
+                    },
+                    {
+                        "content": "a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 91
+                    },
+                    {
+                        "content": "a combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;",
+                        "gate:gateId": 92
+                    },
+                    {
+                        "content": "wherein the combined first filter/second filter-based detection system comprises:",
+                        "gate:gateId": 93
+                    },
+                    {
+                        "content": "a second filter-based preliminary detection unit configured to detect a preliminary indication of tachyarrhythmia using signals filtered by the second filter; and",
+                        "gate:gateId": 94
+                    },
+                    {
+                        "content": "a second filter-based confirmation unit configured to detect oversensing of ventricular repolarization events by the second filter and to confirm detection of tachyarrhythmia only in the absence of oversensing of ventricular repolarization events.",
+                        "gate:gateId": 95
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00019",
+            "body": "use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:\na first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\na second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\na combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;\nwherein the implantable device additionally includes a wideband filter having a substantially wider bandwidth than bandwidths of the first and second filters; and\nwherein the combined first filter/second filter-based detection system includes a comparison unit configured to detect tachyarrhythmia using signals filtered by the wideband filter in combination with signals filters by the first and second filters.\n\n",
+            "claimType": "independent",
+            "num": "00019",
+            "transPhrase": " for ",
+            "claimSize": 186,
+            "gate:gateId": 96,
+            "claim_preamble": "A tachyarrhythmia detection system",
+            "claimNumber": 19,
+            "claim-text": {
+                "content": "19. A tachyarrhythmia detection system for use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:",
+                "gate:gateId": 97,
+                "claim-text": [
+                    {
+                        "content": "a first filter configured to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 98
+                    },
+                    {
+                        "content": "a second filter configured to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 99
+                    },
+                    {
+                        "content": "a combined first filter/second filter-based arrhythmia detection system configured to detect tachyarrhythmia within the patient using ventricular depolarization events from signals filtered by the first filter in-combination with ventricular rates determined from signals filtered by the second filter;",
+                        "gate:gateId": 100
+                    },
+                    {
+                        "content": "wherein the implantable device additionally includes a wideband filter having a substantially wider bandwidth than bandwidths of the first and second filters; and",
+                        "gate:gateId": 101
+                    },
+                    {
+                        "content": "wherein the combined first filter/second filter-based detection system includes a comparison unit configured to detect tachyarrhythmia using signals filtered by the wideband filter in combination with signals filters by the first and second filters.",
+                        "gate:gateId": 102
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00020",
+            "body": "use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:\nmeans for sensing electrical cardiac signals within the patient;\nfirst means for filtering the signals to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;\nsecond means for filtering the signals to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and\nmeans for detecting tachyarrhythmia within the patient by comparing signals filtered by the second means for filtering with signals filtered by the first means for filtering. \n\n",
+            "claimType": "independent",
+            "num": "00020",
+            "transPhrase": " for ",
+            "claimSize": 125,
+            "gate:gateId": 103,
+            "claim_preamble": "A tachyarrhythmia detection system",
+            "claimNumber": 20,
+            "claim-text": {
+                "content": "20. A tachyarrhythmia detection system for use in an implantable medical device having filters for filtering electrical cardiac signals sensed via leads implanted within a heart of a patient, the system comprising:",
+                "gate:gateId": 104,
+                "claim-text": [
+                    {
+                        "content": "means for sensing electrical cardiac signals within the patient;",
+                        "gate:gateId": 105
+                    },
+                    {
+                        "content": "first means for filtering the signals to substantially eliminate signals having frequencies associated with ventricular repolarization events while retaining signals having frequencies associated with at least some ventricular depolarization events;",
+                        "gate:gateId": 106
+                    },
+                    {
+                        "content": "second means for filtering the signals to pass signals having frequencies associated with ventricular depolarization events and ventricular repolarization events; and",
+                        "gate:gateId": 107
+                    },
+                    {
+                        "content": "means for detecting tachyarrhythmia within the patient by comparing signals filtered by the second means for filtering with signals filtered by the first means for filtering.",
+                        "gate:gateId": 108
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 208
+}}

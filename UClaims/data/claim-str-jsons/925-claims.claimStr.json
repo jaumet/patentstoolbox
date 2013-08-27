@@ -1,0 +1,541 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499831-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 68,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2096,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a downhole tool configured for conveyance within a wellbore extending into a subterranean formation, the downhole tool comprising:\na probe assembly comprising an inlet having one or more filter openings, a packer comprising an elastomeric material surrounding the inlet, and a filter piston actuatable between an extended position and a retracted position and having an external end, wherein:\nin the extended position, the external end protrudes past the inlet to form an opening in the subterranean formation and substantially close the filter openings in the inlet; and\nin the retracted position, the filter piston is retracted within the inlet to expose the filter openings to the subterranean formation through the opening.\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 128,
+            "gate:gateId": 1,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. An apparatus, comprising:",
+                "gate:gateId": 2,
+                "claim-text": {
+                    "content": "a downhole tool configured for conveyance within a wellbore extending into a subterranean formation, the downhole tool comprising:",
+                    "gate:gateId": 3,
+                    "claim-text": [
+                        {
+                            "content": "a probe assembly comprising an inlet having one or more filter openings, a packer comprising an elastomeric material surrounding the inlet, and a filter piston actuatable between an extended position and a retracted position and having an external end, wherein:",
+                            "gate:gateId": 4
+                        },
+                        {
+                            "content": "in the extended position, the external end protrudes past the inlet to form an opening in the subterranean formation and substantially close the filter openings in the inlet; and",
+                            "gate:gateId": 5
+                        },
+                        {
+                            "content": "in the retracted position, the filter piston is retracted within the inlet to expose the filter openings to the subterranean formation through the opening.",
+                            "gate:gateId": 6
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the external end of the filter piston has a tapered profile.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 20,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "2. The apparatus of",
+                    "wherein the external end of the filter piston has a tapered profile."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the tapered profile has a taper angle ranging between about 30° and about 120°.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 25,
+            "gate:gateId": 10,
+            "claimNumber": 3,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "3. The apparatus of",
+                    "wherein the tapered profile has a taper angle ranging between about 30° and about 120°."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the tapered profile has a taper angle ranging between about 70° and about 100°.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 25,
+            "gate:gateId": 13,
+            "claimNumber": 4,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "4. The apparatus of",
+                    "wherein the tapered profile has a taper angle ranging between about 70° and about 100°."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the tapered profile has a taper angle of about 90°.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 20,
+            "gate:gateId": 16,
+            "claimNumber": 5,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "5. The apparatus of",
+                    "wherein the tapered profile has a taper angle of about 90°."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the tapered profile tapers to a point.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 16,
+            "gate:gateId": 19,
+            "claimNumber": 6,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "6. The apparatus of",
+                    "wherein the tapered profile tapers to a point."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the external end of the filter piston is configured to expel filtered particulate from the inlet when translating from the retracted position to the extended position.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 35,
+            "gate:gateId": 22,
+            "claimNumber": 7,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "7. The apparatus of",
+                    "wherein the external end of the filter piston is configured to expel filtered particulate from the inlet when translating from the retracted position to the extended position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the probe assembly further comprises an actuator configured to translate the filter piston within the inlet between the extended position and the retracted position.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 25,
+            "claimNumber": 8,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "8. The apparatus of",
+                    "wherein the probe assembly further comprises an actuator configured to translate the filter piston within the inlet between the extended position and the retracted position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the probe assembly is configured to measure pressure of the formation surrounding the wellbore when the probe assembly is positioned in engagement with a wall of the wellbore.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 37,
+            "gate:gateId": 28,
+            "claimNumber": 9,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "9. The apparatus of",
+                    "wherein the probe assembly is configured to measure pressure of the formation surrounding the wellbore when the probe assembly is positioned in engagement with a wall of the wellbore."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the probe assembly is extendable from the downhole tool for sealing engagement with a mudcake or wall of the wellbore.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 29,
+            "gate:gateId": 31,
+            "claimNumber": 10,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "10. The apparatus of",
+                    "wherein the probe assembly is extendable from the downhole tool for sealing engagement with a mudcake or wall of the wellbore."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the probe assembly is extendable from the downhole tool via hydraulic, mechanical, electrical, or electromechanical actuation.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 28,
+            "gate:gateId": 34,
+            "claimNumber": 11,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "11. The apparatus of",
+                    "wherein the probe assembly is extendable from the downhole tool via hydraulic, mechanical, electrical, or electromechanical actuation."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the downhole tool further comprises a controller and circuitry coupling pressure-representative signals from the probe assembly to the controller.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 37,
+            "claimNumber": 12,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "12. The apparatus of",
+                    "wherein the downhole tool further comprises a controller and circuitry coupling pressure-representative signals from the probe assembly to the controller."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the downhole tool is configured for conveyance within the wellbore via wireline or drill string.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 24,
+            "gate:gateId": 40,
+            "claimNumber": 13,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "13. The apparatus of",
+                    "wherein the downhole tool is configured for conveyance within the wellbore via wireline or drill string."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the inlet comprises a cylindrical annulus extendable to engage the subterranean formation and wherein the filter piston is translatably disposed within the cylindrical annulus.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 43,
+            "claimNumber": 14,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "14. The apparatus of",
+                    "wherein the inlet comprises a cylindrical annulus extendable to engage the subterranean formation and wherein the filter piston is translatably disposed within the cylindrical annulus."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the filter piston is configured to extend within the inlet adjacent to the filter openings when the filter piston is in the extended position to block the filter openings, and to retract within the inlet past the filter openings to expose the filter openings to the subterranean formation when the filter piston is in the retracted position.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 67,
+            "gate:gateId": 46,
+            "claimNumber": 15,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "15. The apparatus of",
+                    "wherein the filter piston is configured to extend within the inlet adjacent to the filter openings when the filter piston is in the extended position to block the filter openings, and to retract within the inlet past the filter openings to expose the filter openings to the subterranean formation when the filter piston is in the retracted position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00016",
+            "body": "a downhole tool within a wellbore extending into a subterranean formation, wherein the downhole tool comprises:\na probe assembly comprising an inlet having a one or more filter openings, a packer comprising an elastomeric material surrounding the inlet, and a filter piston actuatable between an extended position and a retracted position and having an external end;\n\nengaging the probe assembly with a wall of the wellbore, such that the inlet is positioned proximate a mudcake lining the wellbore wall;\ntranslating the filter piston to the extended position, such that the external end protrudes past the inlet to form an opening in the subterranean formation and substantially close the filter openings in the inlet; and\ntranslating the filter piston to the retracted position, such that the filter piston is retracted within the inlet to expose the filter openings to the subterranean formation through the opening.\n\n",
+            "claimType": "independent",
+            "num": "00016",
+            "transPhrase": ", comprising:\npositioning ",
+            "claimSize": 163,
+            "gate:gateId": 49,
+            "claim_preamble": "A method",
+            "claimNumber": 16,
+            "claim-text": {
+                "content": "16. A method, comprising:",
+                "gate:gateId": 50,
+                "claim-text": [
+                    {
+                        "content": "positioning a downhole tool within a wellbore extending into a subterranean formation, wherein the downhole tool comprises:",
+                        "gate:gateId": 51,
+                        "claim-text": {
+                            "content": "a probe assembly comprising an inlet having a one or more filter openings, a packer comprising an elastomeric material surrounding the inlet, and a filter piston actuatable between an extended position and a retracted position and having an external end;",
+                            "gate:gateId": 52
+                        }
+                    },
+                    {
+                        "content": "engaging the probe assembly with a wall of the wellbore, such that the inlet is positioned proximate a mudcake lining the wellbore wall;",
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": "translating the filter piston to the extended position, such that the external end protrudes past the inlet to form an opening in the subterranean formation and substantially close the filter openings in the inlet; and",
+                        "gate:gateId": 54
+                    },
+                    {
+                        "content": "translating the filter piston to the retracted position, such that the filter piston is retracted within the inlet to expose the filter openings to the subterranean formation through the opening.",
+                        "gate:gateId": 55
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the probe assembly with the wall of the wellbore causes the inlet to protrude into the mudcake.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "wherein engaging ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 27,
+            "gate:gateId": 56,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    "wherein engaging the probe assembly with the wall of the wellbore causes the inlet to protrude into the mudcake."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the filter piston causes the external end of the filter piston to extend beyond the mudcake and into the formation.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "wherein translating ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 30,
+            "gate:gateId": 59,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    "wherein translating the filter piston causes the external end of the filter piston to extend beyond the mudcake and into the formation."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the opening comprises a flowpath from the formation through the mudcake to the probe assembly.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 24,
+            "gate:gateId": 62,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method of",
+                    "wherein the opening comprises a flowpath from the formation through the mudcake to the probe assembly."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00020",
+            "body": "16 further comprising conveying the downhole tool within the wellbore via wireline or drill string.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "of claim 16",
+            "claimSize": 22,
+            "gate:gateId": 65,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    "further comprising conveying the downhole tool within the wellbore via wireline or drill string."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 16
+        }
+    ],
+    "numberIndependentClaims": 287
+}}

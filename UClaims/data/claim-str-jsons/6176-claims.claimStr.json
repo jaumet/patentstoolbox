@@ -1,0 +1,336 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08505109-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 39,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1286,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a probe microscope, in particular a scanning probe microscope, with a measuring probe holder and, arranged on the measuring probe holder, a measuring probe, which is set up for a probe microscopic investigation of a sample, wherein on the measuring probe holder, a measuring probe chamber is formed, which receives the measuring probe at least partially and is open on a side away from the measuring probe holder, and is configured to receive a liquid surrounding the measuring probe, wherein the measuring probe chamber is configured to hold a liquid when separating the measuring probe chamber from a liquid level in which the sample to be examined is arranged, such that the measuring probe is completely covered by the liquid when the measuring probe chamber is separated from the liquid level.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 150,
+            "gate:gateId": 1,
+            "claim_preamble": "A measuring probe device",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A measuring probe device for a probe microscope, in particular a scanning probe microscope, with a measuring probe holder and, arranged on the measuring probe holder, a measuring probe, which is set up for a probe microscopic investigation of a sample, wherein on the measuring probe holder, a measuring probe chamber is formed, which receives the measuring probe at least partially and is open on a side away from the measuring probe holder, and is configured to receive a liquid surrounding the measuring probe, wherein the measuring probe chamber is configured to hold a liquid when separating the measuring probe chamber from a liquid level in which the sample to be examined is arranged, such that the measuring probe is completely covered by the liquid when the measuring probe chamber is separated from the liquid level.",
+                "gate:gateId": 2
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the measuring probe chamber has a sleeve structure.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 21,
+            "gate:gateId": 3,
+            "claimNumber": 2,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "2. The measuring probe device according to",
+                    ", wherein the measuring probe chamber has a sleeve structure."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 5,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 4
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the measuring probe chamber is configured to form, with the liquid that is to be received, a liquid bell surrounding the measuring probe.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 38,
+            "gate:gateId": 6,
+            "claimNumber": 3,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "3. The measuring probe device according to",
+                    ", wherein the measuring probe chamber is configured to form, with the liquid that is to be received, a liquid bell surrounding the measuring probe."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "segments of the wall of the measuring probe chamber are made at least partially of a flexible material.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 9,
+            "claimNumber": 4,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "4. The measuring probe device according to",
+                    ", wherein segments of the wall of the measuring probe chamber are made at least partially of a flexible material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "segments of the wall of the measuring probe chamber have, at least partially, a hydrophilic surface coating at least on an inside surface.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 38,
+            "gate:gateId": 12,
+            "claimNumber": 5,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "5. The measuring probe device according to",
+                    ", wherein segments of the wall of the measuring probe chamber have, at least partially, a hydrophilic surface coating at least on an inside surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the measuring probe chamber is formed with several partial chambers.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 23,
+            "gate:gateId": 15,
+            "claimNumber": 6,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "6. The measuring probe device according to",
+                    ", wherein the measuring probe chamber is formed with several partial chambers."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the measuring probe chamber is formed from an inner and an outer measuring probe chamber.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 28,
+            "gate:gateId": 18,
+            "claimNumber": 7,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "7. The measuring probe device according to",
+                    ", wherein the measuring probe chamber is formed from an inner and an outer measuring probe chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a volume enclosed by the measuring probe chamber can be adjusted.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 24,
+            "gate:gateId": 21,
+            "claimNumber": 8,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "8. The measuring probe device according to",
+                    ", wherein a volume enclosed by the measuring probe chamber can be adjusted."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a fluid channel, which is in fluid connection with an internal space of the measuring probe chamber and is configured for introducing the liquid into the measuring probe chamber and for carrying it away from the measuring probe chamber.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 53,
+            "gate:gateId": 24,
+            "claimNumber": 9,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "9. The measuring probe device according to",
+                    ", wherein a fluid channel, which is in fluid connection with an internal space of the measuring probe chamber and is configured for introducing the liquid into the measuring probe chamber and for carrying it away from the measuring probe chamber."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the measuring probe chamber is made at least in some sections of an optically transparent material.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 29,
+            "gate:gateId": 27,
+            "claimNumber": 10,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "10. The measuring probe device according to",
+                    ", wherein the measuring probe chamber is made at least in some sections of an optically transparent material."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the measuring probe is removably fastened to the measuring probe holder.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 24,
+            "gate:gateId": 30,
+            "claimNumber": 11,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "11. The measuring probe device according to",
+                    ", wherein the measuring probe is removably fastened to the measuring probe holder."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the measuring probe is a cantilever.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 19,
+            "gate:gateId": 33,
+            "claimNumber": 12,
+            "claim_preamble": "The measuring probe device",
+            "claim-text": {
+                "content": [
+                    "12. The measuring probe device according to",
+                    ", wherein the measuring probe is a cantilever."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 34
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "\n\n1. A measuring probe device for a probe microscope, in particular a scanning probe microscope, with a measuring probe holder and, arranged on the measuring probe holder, a measuring probe, which is set up for a probe microscopic investigation of a sample, wherein on the measuring probe holder, a measuring probe chamber is formed, which receives the measuring probe at least partially and is open on a side away from the measuring probe holder, and is configured to receive a liquid surrounding the measuring probe, wherein the measuring probe chamber is configured to hold a liquid when separating the measuring probe chamber from a liquid level in which the sample to be examined is arranged, such that the measuring probe is completely covered by the liquid when the measuring probe chamber is separated from the liquid level.\n\n\n2. The measuring probe device according to claim 1 , wherein the measuring probe chamber has a sleeve structure.\n\n\n3. The measuring probe device according to claim 1 , wherein the measuring probe chamber is configured to form, with the liquid that is to be received, a liquid bell surrounding the measuring probe.\n\n\n4. The measuring probe device according to claim 1 , wherein segments of the wall of the measuring probe chamber are made at least partially of a flexible material.\n\n\n5. The measuring probe device according to claim 1 , wherein segments of the wall of the measuring probe chamber have, at least partially, a hydrophilic surface coating at least on an inside surface.\n\n\n6. The measuring probe device according to claim 1 , wherein the measuring probe chamber is formed with several partial chambers.\n\n\n7. The measuring probe device according to claim 5 , wherein the measuring probe chamber is formed from an inner and an outer measuring probe chamber.\n\n\n8. The measuring probe device according to claim 1 , wherein a volume enclosed by the measuring probe chamber can be adjusted.\n\n\n9. The measuring probe device according to claim 1 , wherein a fluid channel, which is in fluid connection with an internal space of the measuring probe chamber and is configured for introducing the liquid into the measuring probe chamber and for carrying it away from the measuring probe chamber.\n\n\n10. The measuring probe device according to claim 1 , wherein the measuring probe chamber is made at least in some sections of an optically transparent material.\n\n\n11. The measuring probe device according to claim 1 , wherein the measuring probe is removably fastened to the measuring probe holder.\n\n\n12. The measuring probe device according to claim 1 , wherein the measuring probe is a cantilever.\n\n\n13. A scanning probe microscope with a measuring probe device according to claim 1 . \n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 16,
+            "gate:gateId": 36,
+            "claimNumber": "1 ",
+            "claim_preamble": "A scanning probe microscopea measuring probe device",
+            "claim-text": {
+                "content": [
+                    "13. A scanning probe microscope with a measuring probe device according to",
+                    "."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 38,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 37
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 277
+}}

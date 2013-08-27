@@ -1,0 +1,907 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501234-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 142,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 5193,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "the following ingredients (A), (B), (C), (D), and (F):\n(A) a sphingosine represented by formula (1):\n\n\n\n\nfrom 0.001 to 10 mass % based on the total composition,\nwherein R 1 represents a C4 to C30 linear alkyl group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group; Y represents a methylene group, a methine group, or an oxygen atom; each of X 1 , X 2 , and X 3 represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X 4 represents a hydrogen atom, an acetyl group, or a glyceryl group, or forms an oxo group together with the adjacent oxygen atom;\nwherein when Y is a methine group, one of X 1 and X 2 is a hydrogen atom, and the other is absent, and when X 4 forms an oxo group, X 3 is absent;\neach of R 2 and R 3 represents a hydrogen atom, a hydroxyl group, a hydroxymethyl group, or an acetoxymethyl group; a is a number of 2 or 3; each of (R) a represents a hydrogen atom, an amidino group, or a linear-chain alkyl group optionally having a substituent selected from the group consisting of a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 8 carbon atoms in total; and the broken line represents an optional unsaturated bond,\n(B) a C16 to C30 fatty acid, from 0.001 to 10 mass % based on the total composition,\n(C) a hydrocarbon oil, from 0.1 to 50 mass % based on the total composition,\n(D) an ester oil which is in liquid form at 25° C., from 0.01 to 50 mass % based on the total composition, and\n(F) water,\nwherein the ratio by mass of ingredient (C) to ingredient (D) satisfies the following relationship: 1≦(C)/(D)<1000, and the composition contains a surfactant having a molecular weight of 1,000 or less in an amount of 1 mass % or less, and wherein the reverse vesicle composition has a reverse vesicle structure in which the vesicle interface is a lipid bi-layer membrane and in which there is anisotropy at the vesicle interface.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " comprising ",
+            "claimSize": 470,
+            "gate:gateId": 1,
+            "claim_preamble": "A reverse vesicle composition",
+            "claimNumber": 0,
+            "claim-text": [
+                {
+                    "content": "1. A reverse vesicle composition comprising the following ingredients (A), (B), (C), (D), and (F):",
+                    "gate:gateId": 2,
+                    "claim-text": {
+                        "content": "(A) a sphingosine represented by formula (1):",
+                        "gate:gateId": 3
+                    }
+                },
+                {
+                    "chemistry": {
+                        "id": "CHEM-US-00014",
+                        "num": "00014",
+                        "img": {
+                            "id": "EMI-C00014",
+                            "wi": "55.20mm",
+                            "img-format": "tif",
+                            "img-content": "chem",
+                            "file": "US08501234-20130806-C00014.TIF",
+                            "alt": "embedded image",
+                            "gate:gateId": 6,
+                            "he": "22.78mm"
+                        },
+                        "gate:gateId": 5
+                    },
+                    "gate:gateId": 4,
+                    "claim-text": [
+                        {
+                            "content": "from 0.001 to 10 mass % based on the total composition,",
+                            "gate:gateId": 7
+                        },
+                        {
+                            "content": [
+                                "wherein R",
+                                "represents a C4 to C30 linear alkyl group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group; Y represents a methylene group, a methine group, or an oxygen atom; each of X",
+                                ", X",
+                                ", and X",
+                                "represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X",
+                                "represents a hydrogen atom, an acetyl group, or a glyceryl group, or forms an oxo group together with the adjacent oxygen atom;"
+                            ],
+                            "gate:gateId": 8,
+                            "sup": [
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 9
+                                },
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 10
+                                },
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 11
+                                },
+                                {
+                                    "content": 3,
+                                    "gate:gateId": 12
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 13
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "wherein when Y is a methine group, one of X",
+                                "and X",
+                                "is a hydrogen atom, and the other is absent, and when X",
+                                "forms an oxo group, X",
+                                "is absent;"
+                            ],
+                            "gate:gateId": 14,
+                            "sup": [
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 15
+                                },
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 16
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 17
+                                },
+                                {
+                                    "content": 3,
+                                    "gate:gateId": 18
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "each of R",
+                                "and R",
+                                "represents a hydrogen atom, a hydroxyl group, a hydroxymethyl group, or an acetoxymethyl group; a is a number of 2 or 3; each of (R)",
+                                "represents a hydrogen atom, an amidino group, or a linear-chain alkyl group optionally having a substituent selected from the group consisting of a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 8 carbon atoms in total; and the broken line represents an optional unsaturated bond,"
+                            ],
+                            "sub": {
+                                "content": "a",
+                                "gate:gateId": 22
+                            },
+                            "gate:gateId": 19,
+                            "sup": [
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 20
+                                },
+                                {
+                                    "content": 3,
+                                    "gate:gateId": 21
+                                }
+                            ]
+                        },
+                        {
+                            "content": "(B) a C16 to C30 fatty acid, from 0.001 to 10 mass % based on the total composition,",
+                            "gate:gateId": 23
+                        },
+                        {
+                            "content": "(C) a hydrocarbon oil, from 0.1 to 50 mass % based on the total composition,",
+                            "gate:gateId": 24
+                        },
+                        {
+                            "content": "(D) an ester oil which is in liquid form at 25° C., from 0.01 to 50 mass % based on the total composition, and",
+                            "gate:gateId": 25
+                        },
+                        {
+                            "content": "(F) water,",
+                            "gate:gateId": 26
+                        },
+                        {
+                            "content": "wherein the ratio by mass of ingredient (C) to ingredient (D) satisfies the following relationship: 1≦(C)/(D)<1000, and the composition contains a surfactant having a molecular weight of 1,000 or less in an amount of 1 mass % or less, and wherein the reverse vesicle composition has a reverse vesicle structure in which the vesicle interface is a lipid bi-layer membrane and in which there is anisotropy at the vesicle interface.",
+                            "gate:gateId": 27
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00002",
+            "body": "which further comprises, as ingredient (E), a ceramide represented by formula (2):\n\n\n\nwherein R 7 represents a hydrogen atom or a C4 to C30 linear, branched or cyclic, saturated or unsaturated hydrocarbon group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group; Z represents a methylene group, a methine group, or an oxygen atom; each of X 5 , X 6 , and X 7 represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X 4 represents a hydrogen atom, an acetyl group, or a glyceryl group, or forms an oxo group together with the adjacent oxygen atom;\nwherein when Z is a methine group, one of X 5 and X 6 is a hydrogen atom, and the other is absent, and when X 4 forms an oxo group, X 7 is absent;\neach of R 8 and R 9 represents a hydrogen atom, a hydroxyl group, a hydroxymethyl group, or an acetoxymethyl group; R 10 represents a C5 to C60 linear, branched or cyclic, saturated or unsaturated hydrocarbon group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group, and which may have an ether bond, an ester bond, or an amido bond in a main chain thereof; R 11 represents a hydrogen atom or a linear-chain or branched-chain, saturated or unsaturated hydrocarbon group optionally having a substituent selected from the group consisting of a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 30 carbon atoms in total;\nwherein, when R 7 is a hydrogen atom and Z is an oxygen atom, R 11 is a hydrocarbon group having 10 to 30 carbon atoms in total, and when R 7 is a hydrocarbon group, R 11 is a hydrocarbon group having 1 to 8 carbon atoms in total; and the broken line represents an optional unsaturated bond.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 384,
+            "gate:gateId": 28,
+            "claimNumber": 2,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": [
+                {
+                    "content": [
+                        "2. The reverse vesicle composition according to",
+                        ", which further comprises, as ingredient (E), a ceramide represented by formula (2):"
+                    ],
+                    "claim-ref": {
+                        "content": "claim 1",
+                        "gate:gateId": 30,
+                        "idref": "CLM-00001"
+                    },
+                    "gate:gateId": 29
+                },
+                {
+                    "chemistry": {
+                        "id": "CHEM-US-00015",
+                        "num": "00015",
+                        "img": {
+                            "id": "EMI-C00015",
+                            "wi": "57.57mm",
+                            "img-format": "tif",
+                            "img-content": "chem",
+                            "file": "US08501234-20130806-C00015.TIF",
+                            "alt": "embedded image",
+                            "gate:gateId": 33,
+                            "he": "27.77mm"
+                        },
+                        "gate:gateId": 32
+                    },
+                    "gate:gateId": 31,
+                    "claim-text": [
+                        {
+                            "content": [
+                                "wherein R",
+                                "represents a hydrogen atom or a C4 to C30 linear, branched or cyclic, saturated or unsaturated hydrocarbon group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group; Z represents a methylene group, a methine group, or an oxygen atom; each of X",
+                                ", X",
+                                ", and X",
+                                "represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X",
+                                "represents a hydrogen atom, an acetyl group, or a glyceryl group, or forms an oxo group together with the adjacent oxygen atom;"
+                            ],
+                            "gate:gateId": 34,
+                            "sup": [
+                                {
+                                    "content": 7,
+                                    "gate:gateId": 35
+                                },
+                                {
+                                    "content": 5,
+                                    "gate:gateId": 36
+                                },
+                                {
+                                    "content": 6,
+                                    "gate:gateId": 37
+                                },
+                                {
+                                    "content": 7,
+                                    "gate:gateId": 38
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 39
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "wherein when Z is a methine group, one of X",
+                                "and X",
+                                "is a hydrogen atom, and the other is absent, and when X",
+                                "forms an oxo group, X",
+                                "is absent;"
+                            ],
+                            "gate:gateId": 40,
+                            "sup": [
+                                {
+                                    "content": 5,
+                                    "gate:gateId": 41
+                                },
+                                {
+                                    "content": 6,
+                                    "gate:gateId": 42
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 43
+                                },
+                                {
+                                    "content": 7,
+                                    "gate:gateId": 44
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "each of R",
+                                "and R",
+                                "represents a hydrogen atom, a hydroxyl group, a hydroxymethyl group, or an acetoxymethyl group; R",
+                                "represents a C5 to C60 linear, branched or cyclic, saturated or unsaturated hydrocarbon group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group, and which may have an ether bond, an ester bond, or an amido bond in a main chain thereof; R",
+                                "represents a hydrogen atom or a linear-chain or branched-chain, saturated or unsaturated hydrocarbon group optionally having a substituent selected from the group consisting of a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 30 carbon atoms in total;"
+                            ],
+                            "gate:gateId": 45,
+                            "sup": [
+                                {
+                                    "content": 8,
+                                    "gate:gateId": 46
+                                },
+                                {
+                                    "content": 9,
+                                    "gate:gateId": 47
+                                },
+                                {
+                                    "content": 10,
+                                    "gate:gateId": 48
+                                },
+                                {
+                                    "content": 11,
+                                    "gate:gateId": 49
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "wherein, when R",
+                                "is a hydrogen atom and Z is an oxygen atom, R",
+                                "is a hydrocarbon group having 10 to 30 carbon atoms in total, and when R",
+                                "is a hydrocarbon group, R",
+                                "is a hydrocarbon group having 1 to 8 carbon atoms in total; and the broken line represents an optional unsaturated bond."
+                            ],
+                            "gate:gateId": 50,
+                            "sup": [
+                                {
+                                    "content": 7,
+                                    "gate:gateId": 51
+                                },
+                                {
+                                    "content": 11,
+                                    "gate:gateId": 52
+                                },
+                                {
+                                    "content": 7,
+                                    "gate:gateId": 53
+                                },
+                                {
+                                    "content": 11,
+                                    "gate:gateId": 54
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the ingredient (A) is contained in the amount of 0,01 to 3 mass % based on the total composition.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 36,
+            "gate:gateId": 55,
+            "claimNumber": 3,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "3. The reverse vesicle composition according to",
+                    ", wherein the ingredient (A) is contained in the amount of 0,01 to 3 mass % based on the total composition."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "ingredient (A) is sphingosine.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 19,
+            "gate:gateId": 58,
+            "claimNumber": 4,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "4. The reverse vesicle composition according to",
+                    ", wherein ingredient (A) is sphingosine."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 60,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 59
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "ingredient (A) is phytosphingosine.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 19,
+            "gate:gateId": 61,
+            "claimNumber": 5,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "5. The reverse vesicle composition according to",
+                    ", wherein ingredient (A) is phytosphingosine."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "reverse vesicle contains ingredient (B) in an amount of 0,01 to 3 mass % based on the total composition.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 64,
+            "claimNumber": 6,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "6. The reverse vesicle composition according to",
+                    ", wherein said reverse vesicle contains ingredient (B) in an amount of 0,01 to 3 mass % based on the total composition."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "reverse vesicle contains ingredient (C) in an amount of 0.1 to 30 mass % based on the total composition. \n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 67,
+            "claimNumber": 7,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "7. The reverse vesicle composition according to",
+                    ", wherein said reverse vesicle contains ingredient (C) in an amount of 0.1 to 30 mass % based on the total composition."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "reverse vesicle contains ingredient (D) in an amount of 0.01 to 30 mass % based on the total composition.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 37,
+            "gate:gateId": 70,
+            "claimNumber": 8,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "8. The reverse vesicle composition according to",
+                    ", wherein said reverse vesicle contains ingredient (D) in an amount of 0.01 to 30 mass % based on the total composition."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the ratio by mass of ingredient (C) to ingredient (D) is within a range in which 1<(C)/(D)<70.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 44,
+            "gate:gateId": 73,
+            "claimNumber": 9,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "9. The reverse vesicle composition according to",
+                    ", wherein the ratio by mass of ingredient (C) to ingredient (D) is within a range in which 1<(C)/(D)<70."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the ratio by mass of ingredient (C)to ingredient (D) is within a range in which 1≦(C) ;D)<30.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 9",
+            "claimSize": 42,
+            "gate:gateId": 76,
+            "claimNumber": 10,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "10. The reverse vesicle composition according to",
+                    "wherein the ratio by mass of ingredient (C)to ingredient (D) is within a range in which 1≦(C) ;D)<30."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 78,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 77
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the fatty acid (B) is a C16 to C22 saturated or unsaturated fatty acid.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 79,
+            "claimNumber": 11,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "11. The reverse vesicle composition according to",
+                    ", wherein the fatty acid (B) is a C16 to C22 saturated or unsaturated fatty acid."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 81,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 80
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "A), (B), (C) (D), and (F), wherein the ingredient (A) is a sphingosine represented by formula (3):\n\n\n\nwherein R 12 represents a C7 to C24 linear alkyl group which may be substituted by a hydroxyl group; Y 1 represents a methylene group or a methine group; each of X 8 X 9 , and X 10 represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X 11 represents a hydrogen atom or forms an oxo group together with the adjacent oxygen atom wherein when Y 1 is a methine group, one of X 8 and X 9 is a hydrogen atom, and the other is absent, and when X 11 forms an oxo group, X 10 is absent; R 13 represents a hydroxymethyl group or an acetoxymethyl group; a is a number of 2 or 3; each of (R 1 )a represents a hydrogen atom, an amidino group, or a linear alkyl group optionally having a substituent selected from the group consisting of a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 4 carbon atoms in total; and the broken line represents an optional unsaturated bond,\n(B) a C16 to C30 fatty acid, from 0.001 to 10 mass % based on the total composition,\n(C) a hydrocarbon oil, from 0.1 to 50 mass % based on the total composition,\n(D) an ester oil which is in liquid form at 25° C., from 0.01 to 50 mass % based on the total composition, and\n(F) water,\nwherein the ratio by mass of ingredient (C) to ingredient (D) satisfies the following relationship: 1≦(C)/(D)<1000, and the composition containis a surfactant having a molecular weight of 1,000 or less in an amount of 1 mass % or less, and wherein the reverse vesicle composition has a reverse vesicle structure in which the vesicle interface is a lipid bi-layer membrane and in which there is anisotropy at the vesicle interface.\n\n",
+            "claimType": "independent",
+            "num": "00012",
+            "transPhrase": " (",
+            "claimSize": 420,
+            "gate:gateId": 82,
+            "claim_preamble": "A reverse vesicle composition comprising ingredients",
+            "claimNumber": 0,
+            "claim-text": [
+                {
+                    "content": "12. A reverse vesicle composition comprising ingredients (A), (B), (C) (D), and (F), wherein the ingredient (A) is a sphingosine represented by formula (3):",
+                    "gate:gateId": 83
+                },
+                {
+                    "chemistry": {
+                        "id": "CHEM-US-00016",
+                        "num": "00016",
+                        "img": {
+                            "id": "EMI-C00016",
+                            "wi": "56.73mm",
+                            "img-format": "tif",
+                            "img-content": "chem",
+                            "file": "US08501234-20130806-C00016.TIF",
+                            "alt": "embedded image",
+                            "gate:gateId": 86,
+                            "he": "22.69mm"
+                        },
+                        "gate:gateId": 85
+                    },
+                    "gate:gateId": 84,
+                    "claim-text": [
+                        {
+                            "content": [
+                                "wherein R",
+                                "represents a C7 to C24 linear alkyl group which may be substituted by a hydroxyl group; Y",
+                                "represents a methylene group or a methine group; each of X",
+                                "X",
+                                ", and X",
+                                "represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X",
+                                "represents a hydrogen atom or forms an oxo group together with the adjacent oxygen atom wherein when Y",
+                                "is a methine group, one of X",
+                                "and X",
+                                "is a hydrogen atom, and the other is absent, and when X",
+                                "forms an oxo group, X",
+                                "is absent; R",
+                                "represents a hydroxymethyl group or an acetoxymethyl group; a is a number of 2 or 3; each of (R",
+                                ")a represents a hydrogen atom, an amidino group, or a linear alkyl group optionally having a substituent selected from the group consisting of a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 4 carbon atoms in total; and the broken line represents an optional unsaturated bond,"
+                            ],
+                            "sub": [
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 89
+                                },
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 100
+                                }
+                            ],
+                            "gate:gateId": 87,
+                            "sup": [
+                                {
+                                    "content": 12,
+                                    "gate:gateId": 88
+                                },
+                                {
+                                    "content": 8,
+                                    "gate:gateId": 90
+                                },
+                                {
+                                    "content": 9,
+                                    "gate:gateId": 91
+                                },
+                                {
+                                    "content": 10,
+                                    "gate:gateId": 92
+                                },
+                                {
+                                    "content": 11,
+                                    "gate:gateId": 93
+                                },
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 94
+                                },
+                                {
+                                    "content": 8,
+                                    "gate:gateId": 95
+                                },
+                                {
+                                    "content": 9,
+                                    "gate:gateId": 96
+                                },
+                                {
+                                    "content": 11,
+                                    "gate:gateId": 97
+                                },
+                                {
+                                    "content": 10,
+                                    "gate:gateId": 98
+                                },
+                                {
+                                    "content": 13,
+                                    "gate:gateId": 99
+                                }
+                            ]
+                        },
+                        {
+                            "content": "(B) a C16 to C30 fatty acid, from 0.001 to 10 mass % based on the total composition,",
+                            "gate:gateId": 101
+                        },
+                        {
+                            "content": "(C) a hydrocarbon oil, from 0.1 to 50 mass % based on the total composition,",
+                            "gate:gateId": 102
+                        },
+                        {
+                            "content": "(D) an ester oil which is in liquid form at 25° C., from 0.01 to 50 mass % based on the total composition, and",
+                            "gate:gateId": 103
+                        },
+                        {
+                            "content": "(F) water,",
+                            "gate:gateId": 104
+                        },
+                        {
+                            "content": "wherein the ratio by mass of ingredient (C) to ingredient (D) satisfies the following relationship: 1≦(C)/(D)<1000, and the composition containis a surfactant having a molecular weight of 1,000 or less in an amount of 1 mass % or less, and wherein the reverse vesicle composition has a reverse vesicle structure in which the vesicle interface is a lipid bi-layer membrane and in which there is anisotropy at the vesicle interface.",
+                            "gate:gateId": 105
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the sphingosine represented by formula (3) is selected from the group consisting of sphingosine, dihydrosphingosine, phytosphingosine, sphingadienine, dehydrosphingosine, and dehydrophytosphingosine, and N-alkyl derivatives thereof.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 12 ,",
+            "claimSize": 46,
+            "gate:gateId": 106,
+            "claimNumber": 13,
+            "claim_preamble": "The reverse vesicle composition",
+            "claim-text": {
+                "content": [
+                    "13. The reverse vesicle composition according to",
+                    ", wherein the sphingosine represented by formula (3) is selected from the group consisting of sphingosine, dihydrosphingosine, phytosphingosine, sphingadienine, dehydrosphingosine, and dehydrophytosphingosine, and N-alkyl derivatives thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 108,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 107
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "a reverse vesicle composition, the composition comprising the following ingredients (A), (B), (C), (D), and (F):\n(A) a sphingosine represented by formula (1):\n\n\n\n\nwherein R 1 represents a C4 to C30 linear-chain alkyl group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group; Y represents a methylene group, a methine group, or an oxygen atom; each of X 1 , X 2 , and X 3 represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X 4 represents a hydrogen atom, an acetyl group, or a glyceryl group, or forms an oxo group together with the adjacent oxygen atom;\nwherein when Y is a methine group, one of X 1 and X 2 is a hydrogen atom, and the other is absent, and when X 4 forms an oxo group, X 3 is absent;\neach of R 2 and R 3 represents a hydrogen atom, a hydroxyl group, a hydroxymethyl group, or an acetoxymethyl group; a is a number of 2 or 3; each of the each of (R) a represents a hydrogen atom, an amidino group, or a linear-chain alkyl group optionally having a substituent selected from among a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 8 carbon atoms in total; and the broken line represents an optional unsaturated bond,\n(B) a C16 to C30 fatty acid,\n(C) a hydrocarbon oil,\n(D) an ester oil which is in liquid form at 25° C., and\n(F) water,\nwherein the ratio by mass of ingredient (C) to ingredient (D) satisfies the following relationship: 1≦(C)/(D)<1000, and the composition contains a surfactant having a molecular weight of 1,000 or less in an amount of 1 mass % or less,\nthe method comprising the steps of mixing ingredients (A), (B), (C), and (D), to thereby form an oil phase; heating the oil phase at a temperature at which ingredients (A), (B), and (C) are dissolved or higher; adding, to the oil layer, an aqueous phase which contains ingredient (F) and which has been heated to a temperature equivalent to the temperature of the oil phase, to thereby form an emulsion; and cooling the emulsion to room temperature, thereby forming a reverse vesicle structure in which the vesicle interface is a lipid bi-laver membrane and in which there is anisotropy at the vesicle interface, wherein, in said reverse vesicle composition, ingredient (A) is of from 0,001 to 10 mass % based on the total composition, ingredient (B) is of from 0.001 to 10 mass % based on the total composition, ingredient(C) is of from 0.1 to 50 mass % based on the total composition, and ingredient (D) is of from 0.01 to 50 mass % based on the total composition.\n\n",
+            "claimType": "independent",
+            "num": "00014",
+            "transPhrase": " for producing ",
+            "claimSize": 611,
+            "gate:gateId": 109,
+            "claim_preamble": "A method",
+            "claimNumber": 0,
+            "claim-text": [
+                {
+                    "content": "14. A method for producing a reverse vesicle composition, the composition comprising the following ingredients (A), (B), (C), (D), and (F):",
+                    "gate:gateId": 110,
+                    "claim-text": {
+                        "content": "(A) a sphingosine represented by formula (1):",
+                        "gate:gateId": 111
+                    }
+                },
+                {
+                    "chemistry": {
+                        "id": "CHEM-US-00017",
+                        "num": "00017",
+                        "img": {
+                            "id": "EMI-C00017",
+                            "wi": "55.20mm",
+                            "img-format": "tif",
+                            "img-content": "chem",
+                            "file": "US08501234-20130806-C00017.TIF",
+                            "alt": "embedded image",
+                            "gate:gateId": 114,
+                            "he": "22.78mm"
+                        },
+                        "gate:gateId": 113
+                    },
+                    "gate:gateId": 112,
+                    "claim-text": [
+                        {
+                            "content": [
+                                "wherein R",
+                                "represents a C4 to C30 linear-chain alkyl group which may be substituted by a hydroxyl group, a carbonyl group, or an amino group; Y represents a methylene group, a methine group, or an oxygen atom; each of X",
+                                ", X",
+                                ", and X",
+                                "represents a hydrogen atom, a hydroxyl group, or an acetoxy group; X",
+                                "represents a hydrogen atom, an acetyl group, or a glyceryl group, or forms an oxo group together with the adjacent oxygen atom;"
+                            ],
+                            "gate:gateId": 115,
+                            "sup": [
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 116
+                                },
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 117
+                                },
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 118
+                                },
+                                {
+                                    "content": 3,
+                                    "gate:gateId": 119
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 120
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "wherein when Y is a methine group, one of X",
+                                "and X",
+                                "is a hydrogen atom, and the other is absent, and when X",
+                                "forms an oxo group, X",
+                                "is absent;"
+                            ],
+                            "gate:gateId": 121,
+                            "sup": [
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 122
+                                },
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 123
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 124
+                                },
+                                {
+                                    "content": 3,
+                                    "gate:gateId": 125
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                "each of R",
+                                "and R",
+                                "represents a hydrogen atom, a hydroxyl group, a hydroxymethyl group, or an acetoxymethyl group; a is a number of 2 or 3; each of the each of (R)",
+                                "represents a hydrogen atom, an amidino group, or a linear-chain alkyl group optionally having a substituent selected from among a hydroxyl group, a hydroxyalkoxy group, an alkoxy group, and an acetoxy group and containing 1 to 8 carbon atoms in total; and the broken line represents an optional unsaturated bond,"
+                            ],
+                            "sub": {
+                                "content": "a",
+                                "gate:gateId": 129
+                            },
+                            "gate:gateId": 126,
+                            "sup": [
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 127
+                                },
+                                {
+                                    "content": 3,
+                                    "gate:gateId": 128
+                                }
+                            ]
+                        },
+                        {
+                            "content": "(B) a C16 to C30 fatty acid,",
+                            "gate:gateId": 130
+                        },
+                        {
+                            "content": "(C) a hydrocarbon oil,",
+                            "gate:gateId": 131
+                        },
+                        {
+                            "content": "(D) an ester oil which is in liquid form at 25° C., and",
+                            "gate:gateId": 132
+                        },
+                        {
+                            "content": "(F) water,",
+                            "gate:gateId": 133
+                        },
+                        {
+                            "content": "wherein the ratio by mass of ingredient (C) to ingredient (D) satisfies the following relationship: 1≦(C)/(D)<1000, and the composition contains a surfactant having a molecular weight of 1,000 or less in an amount of 1 mass % or less,",
+                            "gate:gateId": 134
+                        },
+                        {
+                            "content": "the method comprising the steps of mixing ingredients (A), (B), (C), and (D), to thereby form an oil phase; heating the oil phase at a temperature at which ingredients (A), (B), and (C) are dissolved or higher; adding, to the oil layer, an aqueous phase which contains ingredient (F) and which has been heated to a temperature equivalent to the temperature of the oil phase, to thereby form an emulsion; and cooling the emulsion to room temperature, thereby forming a reverse vesicle structure in which the vesicle interface is a lipid bi-laver membrane and in which there is anisotropy at the vesicle interface, wherein, in said reverse vesicle composition, ingredient (A) is of from 0,001 to 10 mass % based on the total composition, ingredient (B) is of from 0.001 to 10 mass % based on the total composition, ingredient(C) is of from 0.1 to 50 mass % based on the total composition, and ingredient (D) is of from 0.01 to 50 mass % based on the total composition.",
+                            "gate:gateId": 135
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "CLM-00015",
+            "body": "Wherein, during cooling, the emulsion to room temperature, the emulsion is stirred such that the power consumption per unit volume of the emulsion falls within a range of 1,000 W/m 3 /h to 100,000 W/m 3 /h; wherein W is the watts required for stirring, m 3 is the volume of the composition stirred, and h is the time.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 14 ,",
+            "claimSize": 94,
+            "gate:gateId": 136,
+            "claimNumber": 15,
+            "claim_preamble": "The methoda compositiona reverse vesicle structure",
+            "claim-text": {
+                "content": [
+                    "15. The method for producing a composition having a reverse vesicle structure according to",
+                    ", Wherein, during cooling, the emulsion to room temperature, the emulsion is stirred such that the power consumption per unit volume of the emulsion falls within a range of 1,000 W/m",
+                    "/h to 100,000 W/m",
+                    "/h; wherein W is the watts required for stirring, m",
+                    "is the volume of the composition stirred, and h is the time."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 138,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 137,
+                "sup": [
+                    {
+                        "content": 3,
+                        "gate:gateId": 139
+                    },
+                    {
+                        "content": 3,
+                        "gate:gateId": 140
+                    },
+                    {
+                        "content": 3,
+                        "gate:gateId": 141
+                    }
+                ]
+            },
+            "depends_on": 14
+        }
+    ],
+    "numberIndependentClaims": 49
+}}

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="3630" id="claims" numberDependentClaims="0" numberIndependentClaims="133">
+<claim gate:gateId="1" id="CLM-00001" body="a fluid in a reservoir, the method comprising:
+using a first burst of focused acoustic energy to raise temporarily a protuberance on the free surface of the fluid,
+directing a second burst of focused acoustic energy to the free surface of the fluid a delay time after a start time of the first burst of focused acoustic energy, the delay time being greater than zero and sufficiently short so that the second burst of energy will reflect from the protuberance before the protuberance relaxes back into the free surface of the fluid,
+detecting a set of echoes from the second burst of focused acoustic energy, and
+using the detected echoes from the second burst of focused acoustic energy to determine a height of the fluid.
+
+" num="00001" claimType="independent" transPhrase=" for measuring " claimSize="138" claimNumber="1" claim_preamble="A method">
+<claim-text gate:gateId="2">1. A method for measuring a fluid in a reservoir, the method comprising:
+<claim-text gate:gateId="3">using a first burst of focused acoustic energy to raise temporarily a protuberance on the free surface of the fluid,</claim-text>
+<claim-text gate:gateId="4">directing a second burst of focused acoustic energy to the free surface of the fluid a delay time after a start time of the first burst of focused acoustic energy, the delay time being greater than zero and sufficiently short so that the second burst of energy will reflect from the protuberance before the protuberance relaxes back into the free surface of the fluid,</claim-text>
+<claim-text gate:gateId="5">detecting a set of echoes from the second burst of focused acoustic energy, and</claim-text>
+<claim-text gate:gateId="6">using the detected echoes from the second burst of focused acoustic energy to determine a height of the fluid.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="7" id="CLM-00002" body="the second burst of focused acoustic energy begins at a time which is between 0.3 and 3.0 times the time at which the protuberance reaches its maximum height.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="42" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="8">2. The method of <claim-ref gate:gateId="9" idref="CLM-00001">claim 1</claim-ref> , wherein the second burst of focused acoustic energy begins at a time which is between 0.3 and 3.0 times the time at which the protuberance reaches its maximum height.</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00003" body="the second burst of focused acoustic energy at a time which is between 0.6 and 1.5 times the time by which the protuberance reaches its maximum height.
+" claimType="dependent" num="00003" claimBackReference="of claim 2" transPhrase=", wherein " claimSize="41" claim_preamble="The method" claimNumber="1" depends_on="2">
+<claim-text gate:gateId="11">3. The method of <claim-ref gate:gateId="12" idref="CLM-00002">claim 2</claim-ref> , wherein the second burst of focused acoustic energy at a time which is between 0.6 and 1.5 times the time by which the protuberance reaches its maximum height.</claim-text>
+</claim>
+<claim gate:gateId="13" id="CLM-00004" body="the free surface of the fluid is tilted.
+" claimType="dependent" num="00004" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="18" claim_preamble="The method" claimNumber="4" depends_on="1">
+<claim-text gate:gateId="14">4. The method of <claim-ref gate:gateId="15" idref="CLM-00001">claim 1</claim-ref> , wherein the free surface of the fluid is tilted.</claim-text>
+</claim>
+<claim gate:gateId="16" id="CLM-00005" body="the free surface is tilted by at least about 5 degrees relative to horizontal before the second burst of focused acoustic energy is directed to the free surface of the fluid.
+" claimType="dependent" num="00005" claimBackReference="of claim 4" transPhrase=", wherein " claimSize="41" claim_preamble="The method" claimNumber="5" depends_on="4">
+<claim-text gate:gateId="17">5. The method of <claim-ref gate:gateId="18" idref="CLM-00004">claim 4</claim-ref> , wherein the free surface is tilted by at least about 5 degrees relative to horizontal before the second burst of focused acoustic energy is directed to the free surface of the fluid.</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00006" body="the free surface is tilted by at least about 30 degrees relative to horizontal before the second burst of focused acoustic energy is directed to the free surface of the fluid.
+" claimType="dependent" num="00006" claimBackReference="of claim 5" transPhrase=", wherein " claimSize="41" claim_preamble="The method" claimNumber="6" depends_on="5">
+<claim-text gate:gateId="20">6. The method of <claim-ref gate:gateId="21" idref="CLM-00005">claim 5</claim-ref> , wherein the free surface is tilted by at least about 30 degrees relative to horizontal before the second burst of focused acoustic energy is directed to the free surface of the fluid.</claim-text>
+</claim>
+<claim gate:gateId="22" id="CLM-00007" body="a preliminary burst of focused acoustic energy is directed along a line which intersects the free surface of the fluid at a point and wherein a normal to a plane tangent to the free surface of the fluid at the point is at an angle of no more than about 15 degrees relative to the line before the second burst of focused acoustic energy is directed to the free surface of the fluid.
+" claimType="dependent" num="00007" claimBackReference="of claim 4" transPhrase=", wherein " claimSize="83" claim_preamble="The method" claimNumber="7" depends_on="4">
+<claim-text gate:gateId="23">7. The method of <claim-ref gate:gateId="24" idref="CLM-00004">claim 4</claim-ref> , wherein a preliminary burst of focused acoustic energy is directed along a line which intersects the free surface of the fluid at a point and wherein a normal to a plane tangent to the free surface of the fluid at the point is at an angle of no more than about 15 degrees relative to the line before the second burst of focused acoustic energy is directed to the free surface of the fluid.</claim-text>
+</claim>
+<claim gate:gateId="25" id="CLM-00008" body="the normal is at an angle of no more than about 30 degrees relative to the line, before the second burst of focused acoustic energy is directed to the free surface of the fluid.
+" claimType="dependent" num="00008" claimBackReference="of claim 7" transPhrase=", wherein " claimSize="45" claim_preamble="The method" claimNumber="8" depends_on="7">
+<claim-text gate:gateId="26">8. The method of <claim-ref gate:gateId="27" idref="CLM-00007">claim 7</claim-ref> , wherein the normal is at an angle of no more than about 30 degrees relative to the line, before the second burst of focused acoustic energy is directed to the free surface of the fluid.</claim-text>
+</claim>
+<claim gate:gateId="28" id="CLM-00009" body="the reservoir each of the wells of a well plate in succession.
+" claimType="dependent" num="00009" claimBackReference="of claim 1" transPhrase=", carried out taking as " claimSize="25" claim_preamble="The method" claimNumber="9" depends_on="1">
+<claim-text gate:gateId="29">9. The method of <claim-ref gate:gateId="30" idref="CLM-00001">claim 1</claim-ref> , carried out taking as the reservoir each of the wells of a well plate in succession.</claim-text>
+</claim>
+<claim gate:gateId="31" id="CLM-00010" body="there is a minimum height of fluid for successful ejection, wherein the heights as determined in the method are subject to error, and wherein in no more than about 3% of the wells in the well plate is the error large enough that a well which in fact has the minimum height is incorrectly determined not to have the minimum height.
+" claimType="dependent" num="00010" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="74" claim_preamble="The method" claimNumber="10" depends_on="9">
+<claim-text gate:gateId="32">10. The method of <claim-ref gate:gateId="33" idref="CLM-00009">claim 9</claim-ref> , wherein there is a minimum height of fluid for successful ejection, wherein the heights as determined in the method are subject to error, and wherein in no more than about 3% of the wells in the well plate is the error large enough that a well which in fact has the minimum height is incorrectly determined not to have the minimum height.</claim-text>
+</claim>
+<claim gate:gateId="34" id="CLM-00011" body="the time between height determination for successive wells is no more than about 0.1 s.
+" claimType="dependent" num="00011" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="27" claim_preamble="The method" claimNumber="0" depends_on="9">
+<claim-text gate:gateId="35">11. The method of <claim-ref gate:gateId="36" idref="CLM-00009">claim 9</claim-ref> , wherein the time between height determination for successive wells is no more than about 0.1 s.</claim-text>
+</claim>
+<claim gate:gateId="37" id="CLM-00012" body="the time between height determination for successive wells is no more than about 20 ms.
+" claimType="dependent" num="00012" claimBackReference="of claim 11" transPhrase=", wherein " claimSize="25" claim_preamble="The method" claimNumber="12" depends_on="11">
+<claim-text gate:gateId="38">12. The method of <claim-ref gate:gateId="39" idref="CLM-00011">claim 11</claim-ref> , wherein the time between height determination for successive wells is no more than about 20 ms.</claim-text>
+</claim>
+<claim gate:gateId="40" id="CLM-00013" body="the second burst of acoustic energy is generated at a point in time when the protuberance height is at least about 50% of its maximum height.
+" claimType="dependent" num="00013" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="37" claim_preamble="The method" claimNumber="13" depends_on="1">
+<claim-text gate:gateId="41">13. The method of <claim-ref gate:gateId="42" idref="CLM-00001">claim 1</claim-ref> , wherein the second burst of acoustic energy is generated at a point in time when the protuberance height is at least about 50% of its maximum height.</claim-text>
+</claim>
+<claim gate:gateId="43" id="CLM-00014" body="the control of a microprocessor-based system which contains information regarding the material properties of the reservoir and/or the fluid in the reservoir.
+" claimType="dependent" num="00014" claimBackReference="of claim 1" transPhrase=", carried out under " claimSize="36" claim_preamble="The method" claimNumber="14" depends_on="1">
+<claim-text gate:gateId="44">14. The method of <claim-ref gate:gateId="45" idref="CLM-00001">claim 1</claim-ref> , carried out under the control of a microprocessor-based system which contains information regarding the material properties of the reservoir and/or the fluid in the reservoir.</claim-text>
+</claim>
+<claim gate:gateId="46" id="CLM-00015" body="further comprising:
+prior to generating the first burst of focused acoustic energy, sending a preliminary burst of focused acoustic energy towards the fluid,
+detecting the echoes from the preliminary burst of focused acoustic energy, and
+comparing the echoes from the preliminary burst and the second burst as part of the process of determining fluid height.
+
+" claimType="dependent" num="00015" claimBackReference="of claim 1" transPhrase=", " claimSize="68" claim_preamble="The method" claimNumber="15" depends_on="1">
+<claim-text gate:gateId="47">15. The method of <claim-ref gate:gateId="48" idref="CLM-00001">claim 1</claim-ref> , further comprising:
+<claim-text gate:gateId="49">prior to generating the first burst of focused acoustic energy, sending a preliminary burst of focused acoustic energy towards the fluid,</claim-text>
+<claim-text gate:gateId="50">detecting the echoes from the preliminary burst of focused acoustic energy, and</claim-text>
+<claim-text gate:gateId="51">comparing the echoes from the preliminary burst and the second burst as part of the process of determining fluid height.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="52" id="CLM-00016" body="the echoes comprises computing a difference between the echo waveforms from the preliminary burst and the second burst.
+" claimType="dependent" num="00016" claimBackReference="of claim 15" transPhrase=", wherein comparing " claimSize="29" claim_preamble="The method" claimNumber="16" depends_on="15">
+<claim-text gate:gateId="53">16. The method of <claim-ref gate:gateId="54" idref="CLM-00015">claim 15</claim-ref> , wherein comparing the echoes comprises computing a difference between the echo waveforms from the preliminary burst and the second burst.</claim-text>
+</claim>
+<claim gate:gateId="55" id="CLM-00017" body="the height which is determined is employed to position a focused acoustic radiation generator so that the focal point of the focused acoustic radiation is near the surface of the fluid.
+" claimType="dependent" num="00017" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="41" claim_preamble="The method" claimNumber="17" depends_on="1">
+<claim-text gate:gateId="56">17. The method of <claim-ref gate:gateId="57" idref="CLM-00001">claim 1</claim-ref> , wherein the height which is determined is employed to position a focused acoustic radiation generator so that the focal point of the focused acoustic radiation is near the surface of the fluid.</claim-text>
+</claim>
+<claim gate:gateId="58" id="CLM-00018" body="the height is determined by use of a correction factor which accounts at least in part for the additional height of the fluid caused by the dimple.
+" claimType="dependent" num="00018" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="37" claim_preamble="The method" claimNumber="18" depends_on="1">
+<claim-text gate:gateId="59">18. The method of <claim-ref gate:gateId="60" idref="CLM-00001">claim 1</claim-ref> , wherein the height is determined by use of a correction factor which accounts at least in part for the additional height of the fluid caused by the dimple.</claim-text>
+</claim>
+<claim gate:gateId="61" id="CLM-00019" body="the reservoir comprises polypropylene, polystyrene, or a cyclic olefin copolymer.
+" claimType="dependent" num="00019" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="22" claim_preamble="The method" claimNumber="19" depends_on="1">
+<claim-text gate:gateId="62">19. The method of <claim-ref gate:gateId="63" idref="CLM-00001">claim 1</claim-ref> , wherein the reservoir comprises polypropylene, polystyrene, or a cyclic olefin copolymer.</claim-text>
+</claim>
+<claim gate:gateId="64" id="CLM-00020" body="the free surface of the fluid is concave.
+" claimType="dependent" num="00020" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="18" claim_preamble="The method" claimNumber="20" depends_on="1">
+<claim-text gate:gateId="65">20. The method of <claim-ref gate:gateId="66" idref="CLM-00001">claim 1</claim-ref> , wherein the free surface of the fluid is concave.</claim-text>
+</claim>
+<claim gate:gateId="67" id="CLM-00021" body="the free surface of the fluid is convex.
+" claimType="dependent" num="00021" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="18" claim_preamble="The method" claimNumber="21" depends_on="1">
+<claim-text gate:gateId="68">21. The method of <claim-ref gate:gateId="69" idref="CLM-00001">claim 1</claim-ref> , wherein the free surface of the fluid is convex.</claim-text>
+</claim>
+<claim gate:gateId="70" id="CLM-00022" body="a fluid in a reservoir, the system comprising:
+an acoustic radiation generator,
+a focusing means for focusing the acoustic radiation,
+a mechanism for moving the acoustic radiation generator and focusing means relative to the reservoir,
+a detector to detect reflected acoustic energy, and
+a controller which
+causes the generator to generate a first burst of focused acoustic energy to raise temporarily a protuberance on the free surface of the fluid,
+causes the generator to direct a second burst of focused acoustic energy to the free surface of the fluid a delay time after a start time of the first burst of focused acoustic energy, the delay time being greater than zero and sufficiently short so that the second burst of energy will reflect from the protuberance before the protuberance relaxes back into the free surface of the fluid,
+causes the detector to detect a set of echoes from the second burst of focused acoustic energy, and
+uses the detected echoes from the second burst of focused acoustic energy to compute a height of the fluid.
+
+
+" num="00022" claimType="independent" transPhrase=" for measuring " claimSize="192" claimNumber="22" claim_preamble="A system">
+<claim-text gate:gateId="71">22. A system for measuring a fluid in a reservoir, the system comprising:
+<claim-text gate:gateId="72">an acoustic radiation generator,</claim-text>
+<claim-text gate:gateId="73">a focusing means for focusing the acoustic radiation,</claim-text>
+<claim-text gate:gateId="74">a mechanism for moving the acoustic radiation generator and focusing means relative to the reservoir,</claim-text>
+<claim-text gate:gateId="75">a detector to detect reflected acoustic energy, and</claim-text>
+<claim-text gate:gateId="76">a controller which
+<claim-text gate:gateId="77">causes the generator to generate a first burst of focused acoustic energy to raise temporarily a protuberance on the free surface of the fluid,</claim-text>
+<claim-text gate:gateId="78">causes the generator to direct a second burst of focused acoustic energy to the free surface of the fluid a delay time after a start time of the first burst of focused acoustic energy, the delay time being greater than zero and sufficiently short so that the second burst of energy will reflect from the protuberance before the protuberance relaxes back into the free surface of the fluid,</claim-text>
+<claim-text gate:gateId="79">causes the detector to detect a set of echoes from the second burst of focused acoustic energy, and</claim-text>
+<claim-text gate:gateId="80">uses the detected echoes from the second burst of focused acoustic energy to compute a height of the fluid.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="81" id="CLM-00023" body="the generator and detector share a single piezoelectric transducer.
+" claimType="dependent" num="00023" claimBackReference="of claim 22" transPhrase=", wherein " claimSize="19" claim_preamble="The system" claimNumber="23" depends_on="22">
+<claim-text gate:gateId="82">23. The system of <claim-ref gate:gateId="83" idref="CLM-00022">claim 22</claim-ref> , wherein the generator and detector share a single piezoelectric transducer.</claim-text>
+</claim>
+<claim gate:gateId="84" id="CLM-00024" body="a fluid in a plurality of reservoirs, the method comprising:
+using a first burst of focused acoustic energy at sub-ejection first power level to raise temporarily a first protuberance on a first free surface of a fluid in a first reservoir;
+directing a second burst of acoustic energy to the free surface of the fluid a delay time after a start time of the first burst of focused acoustic energy at a second power level, the delay time being greater than zero and sufficiently short so that the second burst of energy reflects from the protuberance before the protuberance relaxes back into the free surface of the fluid;
+detecting a first set of echoes from the second burst of acoustic energy;
+determining the height of the fluid of the first free surface using the detected first set of echoes;
+using a third burst of focused acoustic energy at a sub-ejection third power level to raise temporarily a second protuberance on a second free surface of a fluid in a second reservoir;
+directing a fourth burst of acoustic energy to the free surface of the fluid a delay time after a start time of the third burst of focused acoustic energy at a fourth power level, the delay time being greater than zero and sufficiently short so that the fourth burst of energy reflects from the protuberance before the protuberance relaxes back into the free surface of the fluid;
+detecting a second set of echoes from the fourth burst of acoustic energy; and
+determining the height of the fluid of the second free surface using the detected second set of echoes,
+wherein the first power level and the third power level are not the same.
+
+" num="00024" claimType="independent" transPhrase=" for measuring " claimSize="303" claimNumber="24" claim_preamble="A method">
+<claim-text gate:gateId="85">24. A method for measuring a fluid in a plurality of reservoirs, the method comprising:
+<claim-text gate:gateId="86">using a first burst of focused acoustic energy at sub-ejection first power level to raise temporarily a first protuberance on a first free surface of a fluid in a first reservoir;</claim-text>
+<claim-text gate:gateId="87">directing a second burst of acoustic energy to the free surface of the fluid a delay time after a start time of the first burst of focused acoustic energy at a second power level, the delay time being greater than zero and sufficiently short so that the second burst of energy reflects from the protuberance before the protuberance relaxes back into the free surface of the fluid;</claim-text>
+<claim-text gate:gateId="88">detecting a first set of echoes from the second burst of acoustic energy;</claim-text>
+<claim-text gate:gateId="89">determining the height of the fluid of the first free surface using the detected first set of echoes;</claim-text>
+<claim-text gate:gateId="90">using a third burst of focused acoustic energy at a sub-ejection third power level to raise temporarily a second protuberance on a second free surface of a fluid in a second reservoir;</claim-text>
+<claim-text gate:gateId="91">directing a fourth burst of acoustic energy to the free surface of the fluid a delay time after a start time of the third burst of focused acoustic energy at a fourth power level, the delay time being greater than zero and sufficiently short so that the fourth burst of energy reflects from the protuberance before the protuberance relaxes back into the free surface of the fluid;</claim-text>
+<claim-text gate:gateId="92">detecting a second set of echoes from the fourth burst of acoustic energy; and</claim-text>
+<claim-text gate:gateId="93">determining the height of the fluid of the second free surface using the detected second set of echoes,</claim-text>
+<claim-text gate:gateId="94">wherein the first power level and the third power level are not the same.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="95" id="CLM-00025" body="one of the sub-ejection pulses is at a power level where it would cause drop ejection if applied to the other free surface.
+" claimType="dependent" num="00025" claimBackReference="of claim 24" transPhrase=", wherein " claimSize="33" claim_preamble="The method" claimNumber="25" depends_on="24">
+<claim-text gate:gateId="96">25. The method of <claim-ref gate:gateId="97" idref="CLM-00024">claim 24</claim-ref> , wherein one of the sub-ejection pulses is at a power level where it would cause drop ejection if applied to the other free surface.</claim-text>
+</claim>
+<us-patent-grant gate:gateId="98" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08503266-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130723" lang="EN" country="US"></us-patent-grant></claims>

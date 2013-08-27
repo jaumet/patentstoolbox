@@ -1,0 +1,157 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503921-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 24,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 959,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "apparatus comprising:\nan image forming unit for forming an image on a medium,\na placing portion disposed to be movable in a vertical direction for placing the medium;\na medium supply device for supplying the medium to the image forming unit, said medium supply device including a medium supply unit for supplying the medium urged against the medium supply unit to the image forming unit;\na first cover member for covering the image forming unit to open and close;\na second cover member for covering the medium thus placed;\na regulating member attached to the second cover member for separating the placing portion from the medium supply unit when the second cover member opens; and\na gear row for opening the second cover member when the first cover member opens.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " forming ",
+            "claimSize": 144,
+            "gate:gateId": 1,
+            "claim_preamble": "An image",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. An image forming apparatus comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "an image forming unit for forming an image on a medium,",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a placing portion disposed to be movable in a vertical direction for placing the medium;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a medium supply device for supplying the medium to the image forming unit, said medium supply device including a medium supply unit for supplying the medium urged against the medium supply unit to the image forming unit;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a first cover member for covering the image forming unit to open and close;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a second cover member for covering the medium thus placed;",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "a regulating member attached to the second cover member for separating the placing portion from the medium supply unit when the second cover member opens; and",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "a gear row for opening the second cover member when the first cover member opens.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "gear row includes a torque limiter for disconnecting the second cover member from the first cover member.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 31,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The imageapparatus",
+            "claim-text": {
+                "content": [
+                    "2. The image forming apparatus according to",
+                    ", wherein said gear row includes a torque limiter for disconnecting the second cover member from the first cover member."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "apparatus comprising:\nan image forming portion for forming an image on a medium;\na medium supply unit for transporting the medium urged against the medium supply unit to the image forming portion;\na placing portion to be movable in a first direction approaching toward the medium supply unit and a second direction away from the medium supply unit for placing the medium;\na cover member disposed to be capable of opening and closing the image forming portion; and\na regulating member attached to the cover member for separating the placing portion from the medium supply unit when the cover member moves,\nwherein said regulating member includes a link lever connected to the cover member to be rotatable, and a boss portion disposed at an end portion of the link lever to be movable between above and below the placing portion.\n\n",
+            "claimType": "independent",
+            "num": "00003",
+            "transPhrase": " forming ",
+            "claimSize": 153,
+            "gate:gateId": 13,
+            "claim_preamble": "An image",
+            "claimNumber": 3,
+            "claim-text": {
+                "content": "3. An image forming apparatus comprising:",
+                "gate:gateId": 14,
+                "claim-text": [
+                    {
+                        "content": "an image forming portion for forming an image on a medium;",
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": "a medium supply unit for transporting the medium urged against the medium supply unit to the image forming portion;",
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": "a placing portion to be movable in a first direction approaching toward the medium supply unit and a second direction away from the medium supply unit for placing the medium;",
+                        "gate:gateId": 17
+                    },
+                    {
+                        "content": "a cover member disposed to be capable of opening and closing the image forming portion; and",
+                        "gate:gateId": 18
+                    },
+                    {
+                        "content": "a regulating member attached to the cover member for separating the placing portion from the medium supply unit when the cover member moves,",
+                        "gate:gateId": 19
+                    },
+                    {
+                        "content": "wherein said regulating member includes a link lever connected to the cover member to be rotatable, and a boss portion disposed at an end portion of the link lever to be movable between above and below the placing portion.",
+                        "gate:gateId": 20
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00004",
+            "body": "regulating member is arranged to move the medium placed on the placing portion away from the medium supply unit when the cover member moves to an open position, said regulating member being arranged to move the medium placed on the placing portion toward the medium supply unit when the cover member moves to a close position.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 3 ,",
+            "claimSize": 71,
+            "gate:gateId": 21,
+            "claimNumber": 4,
+            "claim_preamble": "The imageapparatus",
+            "claim-text": {
+                "content": [
+                    "4. The image forming apparatus according to",
+                    ", wherein said regulating member is arranged to move the medium placed on the placing portion away from the medium supply unit when the cover member moves to an open position, said regulating member being arranged to move the medium placed on the placing portion toward the medium supply unit when the cover member moves to a close position."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 3
+        }
+    ],
+    "numberIndependentClaims": 200
+}}

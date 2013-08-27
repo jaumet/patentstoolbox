@@ -1,0 +1,678 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502821-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 86,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3400,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a visual representation of one or more signals for facilitating test and measurement, comprising:\nacquiring a first set of signal values that each represent a measurement of at least a first signal of one or more signals over a period of time; and wherein each said signal value has an associated time value;\nsegmenting said signal values into ne or more signal segments in accordance with an ordering of said signal values;\ndisplaying a three dimensional representation of said first signal over time by displaying each of said signal values with respect to three axes, said axes including a first (X) axis, a second (Y) axis and a third. (Z) axis that are each oriented in a direction that is orthogonal relative to any other said axis; and\nwherein said signal values within each said signal segment are each displayed relative to said first (X) axis in accordance with a time value that is associated with each of said signal values; and\nwherein said signal values within each said signal segment are each also displayed relative to said second (Y) axis in accordance with each of said signal values, and\nwherein said signal values within each said signal segment are each displayed relative to said third (Z) axis in accordance with a location of each said signal segment along said third (Z) axis; and\nwherein a set of renderable planes are constructed and are connected in a series to form at least one ribbon, each of said planes having a surface that is oriented parallel to said third (Z) axis and said ribbon representing one or more signal values during a period of time within a first one of said signal segments.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for displaying ",
+            "claimSize": 318,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for displaying a visual representation of one or more signals for facilitating test and measurement, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "acquiring a first set of signal values that each represent a measurement of at least a first signal of one or more signals over a period of time; and wherein each said signal value has an associated time value;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "segmenting said signal values into ne or more signal segments in accordance with an ordering of said signal values;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "displaying a three dimensional representation of said first signal over time by displaying each of said signal values with respect to three axes, said axes including a first (X) axis, a second (Y) axis and a third. (Z) axis that are each oriented in a direction that is orthogonal relative to any other said axis; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "wherein said signal values within each said signal segment are each displayed relative to said first (X) axis in accordance with a time value that is associated with each of said signal values; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "wherein said signal values within each said signal segment are each also displayed relative to said second (Y) axis in accordance with each of said signal values, and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein said signal values within each said signal segment are each displayed relative to said third (Z) axis in accordance with a location of each said signal segment along said third (Z) axis; and",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein a set of renderable planes are constructed and are connected in a series to form at least one ribbon, each of said planes having a surface that is oriented parallel to said third (Z) axis and said ribbon representing one or more signal values during a period of time within a first one of said signal segments.",
+                        "gate:gateId": 9
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "planes are further extended to at least another second one of said signal segments to extend said surface to include multiple ribbons and wherein each of said multiple ribbons represents a respective one of said signal segments.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 47,
+            "gate:gateId": 10,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    "wherein said planes are further extended to at least another second one of said signal segments to extend said surface to include multiple ribbons and wherein each of said multiple ribbons represents a respective one of said signal segments."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 12,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 11
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "ribbon is displayed as a translucent ribbon.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 17,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The Method",
+            "claim-text": {
+                "content": [
+                    "3. The Method of",
+                    "wherein said ribbon is displayed as a translucent ribbon."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "surface is displayed as a translucent surface.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 17,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    "wherein said surface is displayed as a translucent surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "ribbon is displayed as a solid ribbon.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 17,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    "wherein said ribbon is displayed as a solid ribbon."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "surface is displayed as a solid surface.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 17,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    "wherein said surface is displayed as a solid surface."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00007",
+            "body": "multiple signals including said first signal are displayed in a layered order along said second (Y) axis.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    "wherein multiple signals including said first signal are displayed in a layered order along said second (Y) axis."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "each of said multiple signals are represented by a different color or translucency.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 22,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    "wherein each of said multiple signals are represented by a different color or translucency."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "a first signal is represented by a first color that is a translucent color and wherein a second signal is represented by a second color that is displayed behind said first signal from as current viewing position and wherein said second signal is visible through said first signal when viewed from said current viewing position.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 64,
+            "gate:gateId": 31,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    "wherein a first signal is represented by a first color that is a translucent color and wherein a second signal is represented by a second color that is displayed behind said first signal from as current viewing position and wherein said second signal is visible through said first signal when viewed from said current viewing position."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "display of said first signal and said second signal are aligned with respect to time along said first (X) axis and along said third (Z) axis.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 9",
+            "claimSize": 39,
+            "gate:gateId": 34,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    "wherein display of said first signal and said second signal are aligned with respect to time along said first (X) axis and along said third (Z) axis."
+                ],
+                "claim-ref": {
+                    "content": "claim 9",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00009"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 9
+        },
+        {
+            "id": "CLM-00011",
+            "body": "ordering of said signal values is with respect to a time of acquisition for each signal value and wherein said signal segments are displayed in sequence over time and wherein said location of each of said signal segments advances in depth along said third axis in response to display of a signal segment that is displayed later in time than a time of display of other displayed signal segments.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 79,
+            "gate:gateId": 37,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method of",
+                    "wherein said ordering of said signal values is with respect to a time of acquisition for each signal value and wherein said signal segments are displayed in sequence over time and wherein said location of each of said signal segments advances in depth along said third axis in response to display of a signal segment that is displayed later in time than a time of display of other displayed signal segments."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "a user interface provides a first viewing position from which to view a representation of one or more signals including said first signal, and provides for selection of a different second viewing position from which to view said representation of one or more signals, and wherein a view from said first viewing position is transitioned to said second viewing position via a display of a plurality of viewing positions located between said first and said second viewing positions.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 89,
+            "gate:gateId": 40,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    "wherein a user interface provides a first viewing position from which to view a representation of one or more signals including said first signal, and provides for selection of a different second viewing position from which to view said representation of one or more signals, and wherein a view from said first viewing position is transitioned to said second viewing position via a display of a plurality of viewing positions located between said first and said second viewing positions."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 42,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 41
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "a level of perspective changes from a first amount of perspective at a first viewing position to a second amount of perspective at a second viewing position via a display of a plurality of viewing perspectives at viewing positions located between said first viewing position and said second viewing position.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 59,
+            "gate:gateId": 43,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    "wherein a level of perspective changes from a first amount of perspective at a first viewing position to a second amount of perspective at a second viewing position via a display of a plurality of viewing perspectives at viewing positions located between said first viewing position and said second viewing position."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "a user can specify any viewing angle in combination with any viewing position.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 46,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    "wherein a user can specify any viewing angle in combination with any viewing position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00015",
+            "body": "a user can specify any amount of perspective for a current viewing position.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 49,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    "wherein a user can specify any amount of perspective for a current viewing position."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00016",
+            "body": "signal is a digital signal.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 15,
+            "gate:gateId": 52,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    "wherein said signal is a digital signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 53
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00017",
+            "body": "signal is an analog signal.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 15,
+            "gate:gateId": 55,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    "wherein said signal is an analog signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00018",
+            "body": "a visual representation of one or more signal channels for facilitating test and measurement, including:\na data input component for acquiring a first set of signal values that each represent a measurement of at least a first signal of one or more signals over a period of time and wherein each said signal value has an associated time value;\na computing component for segmenting said signal values into one or more signal segments in accordance with an ordering of said signal values and for computing a three dimensional representation of at least said first signal over time by representing each of said signal values with respect to X, Y and Z axes that are each oriented in a direction that is orthogonal relative to any other of said axes; and\nwherein said signal values within each said signal segment are each displayed relative to said third (Z) axis in accordance with a location of each said signal segment along said third (Z) axis; and\nwherein a set of renderable planes are constructed and are connected in a series to form at least one ribbon, each of said planes having a surface that is oriented parallel to said third (Z) axis and said one ribbon representing one or more signal values during a period of time within a first one of said signal segments; and said system further including:\na display component for display of said signal values in accordance with said three dimensional representation.\n\n",
+            "claimType": "independent",
+            "num": "00018",
+            "transPhrase": " for displaying ",
+            "claimSize": 266,
+            "gate:gateId": 58,
+            "claim_preamble": "A system",
+            "claimNumber": 18,
+            "claim-text": {
+                "content": "18. A system for displaying a visual representation of one or more signal channels for facilitating test and measurement, including:",
+                "gate:gateId": 59,
+                "claim-text": [
+                    {
+                        "content": "a data input component for acquiring a first set of signal values that each represent a measurement of at least a first signal of one or more signals over a period of time and wherein each said signal value has an associated time value;",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "a computing component for segmenting said signal values into one or more signal segments in accordance with an ordering of said signal values and for computing a three dimensional representation of at least said first signal over time by representing each of said signal values with respect to X, Y and Z axes that are each oriented in a direction that is orthogonal relative to any other of said axes; and",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": "wherein said signal values within each said signal segment are each displayed relative to said third (Z) axis in accordance with a location of each said signal segment along said third (Z) axis; and",
+                        "gate:gateId": 62
+                    },
+                    {
+                        "content": "wherein a set of renderable planes are constructed and are connected in a series to form at least one ribbon, each of said planes having a surface that is oriented parallel to said third (Z) axis and said one ribbon representing one or more signal values during a period of time within a first one of said signal segments; and said system further including:",
+                        "gate:gateId": 63
+                    },
+                    {
+                        "content": "a display component for display of said signal values in accordance with said three dimensional representation.",
+                        "gate:gateId": 64
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00019",
+            "body": "a second set of signal values representing a measurement of a second signal is acquired and displayed in accordance with said three dimensional representation.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 33,
+            "gate:gateId": 65,
+            "claimNumber": 19,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "19. The system of",
+                    "wherein a second set of signal values representing a measurement of a second signal is acquired and displayed in accordance with said three dimensional representation."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00020",
+            "body": "first signal and a second signal are displayed in a layered order along said second (Y) axis.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 29,
+            "gate:gateId": 68,
+            "claimNumber": 20,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "20. The system of",
+                    "wherein said first signal and a second signal are displayed in a layered order along said second (Y) axis."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 69
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00021",
+            "body": "different signals are displayed in different colors.\n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 16,
+            "gate:gateId": 71,
+            "claimNumber": 21,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "21. The system of",
+                    "wherein different signals are displayed in different colors."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 73,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 72
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00022",
+            "body": "different signals are each displayed in a. different color or translucency.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 19",
+            "claimSize": 21,
+            "gate:gateId": 74,
+            "claimNumber": 22,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "22. The system of",
+                    "wherein different signals are each displayed in a. different color or translucency."
+                ],
+                "claim-ref": {
+                    "content": "claim 19",
+                    "gate:gateId": 76,
+                    "idref": "CLM-00019"
+                },
+                "gate:gateId": 75
+            },
+            "depends_on": 19
+        },
+        {
+            "id": "CLM-00023",
+            "body": "signal is a digital signal.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 15,
+            "gate:gateId": 77,
+            "claimNumber": 23,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "23. The system of",
+                    "wherein said signal is a digital signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 79,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 78
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00024",
+            "body": "signal is an analog signal\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 14,
+            "gate:gateId": 80,
+            "claimNumber": 24,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "24. The system of",
+                    "wherein said signal is an analog signal"
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 82,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 81
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00025",
+            "body": "ordering of said signal values is with respect to a time of acquisition for each signal value and wherein said signal segments are displayed in sequence over time and wherein said location of each of said signal segments advances in depth along said third axis in response to display of a signal segment that is displayed later in time than a time of display of other displayed signal segments.\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "of claim 18",
+            "claimSize": 79,
+            "gate:gateId": 83,
+            "claimNumber": 25,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "25. The system of",
+                    "wherein said ordering of said signal values is with respect to a time of acquisition for each signal value and wherein said signal segments are displayed in sequence over time and wherein said location of each of said signal segments advances in depth along said third axis in response to display of a signal segment that is displayed later in time than a time of display of other displayed signal segments."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 85,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 84
+            },
+            "depends_on": 18
+        }
+    ],
+    "numberIndependentClaims": 90
+}}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="2458" id="claims" numberDependentClaims="0" numberIndependentClaims="46">
+<claim gate:gateId="1" id="CLM-00001" body="cancerous tissue comprising:
+(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;
+(b) disposing the composition in contact with cancerous tissue, and
+(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,
+
+wherein irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 39° C. in a time period of less than 10 seconds.
+" num="00001" claimType="independent" transPhrase=" of treating " claimSize="99" claimNumber="1" claim_preamble="A method">
+<claim-text gate:gateId="2">1. A method of treating cancerous tissue comprising:
+<claim-text gate:gateId="3">(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;</claim-text>
+<claim-text gate:gateId="4">(b) disposing the composition in contact with cancerous tissue, and</claim-text>
+<claim-text gate:gateId="5">(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,</claim-text>
+</claim-text>
+<claim-text gate:gateId="6">wherein irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 39° C. in a time period of less than 10 seconds.</claim-text>
+</claim>
+<claim gate:gateId="7" id="CLM-00002" body="the cancerous tissue is heated to a temperature ranging from about 39° C. to about 42° C.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="30" claim_preamble="The method" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="8">2. The method of <claim-ref gate:gateId="9" idref="CLM-00001">claim 1</claim-ref> , wherein the cancerous tissue is heated to a temperature ranging from about 39° C. to about 42° C.</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00003" body="the plurality of nanoparticles comprises carbon nanotubes.
+" claimType="dependent" num="00003" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="17" claim_preamble="The method" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="11">3. The method of <claim-ref gate:gateId="12" idref="CLM-00001">claim 1</claim-ref> , wherein the plurality of nanoparticles comprises carbon nanotubes.</claim-text>
+</claim>
+<claim gate:gateId="13" id="CLM-00004" body="carbon nanotubes comprise multi-walled carbon nanotubes.
+" claimType="dependent" num="00004" claimBackReference="of claim 3" transPhrase=", wherein " claimSize="16" claim_preamble="The method" claimNumber="4" depends_on="3">
+<claim-text gate:gateId="14">4. The method of <claim-ref gate:gateId="15" idref="CLM-00003">claim 3</claim-ref> , wherein carbon nanotubes comprise multi-walled carbon nanotubes.</claim-text>
+</claim>
+<claim gate:gateId="16" id="CLM-00005" body="the carbon nanotubes have a length ranging from about 500 nm to about 2 μm.
+" claimType="dependent" num="00005" claimBackReference="of claim 3" transPhrase=", wherein " claimSize="25" claim_preamble="The method" claimNumber="5" depends_on="3">
+<claim-text gate:gateId="17">5. The method of <claim-ref gate:gateId="18" idref="CLM-00003">claim 3</claim-ref> , wherein the carbon nanotubes have a length ranging from about 500 nm to about 2 μm.</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00006" body="the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C.
+" claimType="dependent" num="00006" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="21" claim_preamble="The method" claimNumber="6" depends_on="1">
+<claim-text gate:gateId="20">6. The method of <claim-ref gate:gateId="21" idref="CLM-00001">claim 1</claim-ref> , wherein the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C.</claim-text>
+</claim>
+<claim gate:gateId="22" id="CLM-00007" body="the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml.
+" claimType="dependent" num="00007" claimBackReference="of claim 3" transPhrase=", wherein " claimSize="34" claim_preamble="The method" claimNumber="7" depends_on="3">
+<claim-text gate:gateId="23">7. The method of <claim-ref gate:gateId="24" idref="CLM-00003">claim 3</claim-ref> , wherein the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml.</claim-text>
+</claim>
+<claim gate:gateId="25" id="CLM-00008" body="the at least one chemotherapeutic agent is present in the composition at a concentration ranging from about 1 μM to about 300μM.
+" claimType="dependent" num="00008" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="33" claim_preamble="The method" claimNumber="8" depends_on="1">
+<claim-text gate:gateId="26">8. The method of <claim-ref gate:gateId="27" idref="CLM-00001">claim 1</claim-ref> , wherein the at least one chemotherapeutic agent is present in the composition at a concentration ranging from about 1 μM to about 300μM.</claim-text>
+</claim>
+<claim gate:gateId="28" id="CLM-00009" body="the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes.
+" claimType="dependent" num="00009" claimBackReference="of claim 3" transPhrase=", wherein " claimSize="25" claim_preamble="The method" claimNumber="9" depends_on="3">
+<claim-text gate:gateId="29">9. The method of <claim-ref gate:gateId="30" idref="CLM-00003">claim 3</claim-ref> , wherein the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes.</claim-text>
+</claim>
+<claim gate:gateId="31" id="CLM-00010" body="the composition in contact with cancerous tissue comprises applying the composition locally to the cancerous tissue.
+" claimType="dependent" num="00010" claimBackReference="of claim 1" transPhrase=", wherein disposing " claimSize="27" claim_preamble="The method" claimNumber="10" depends_on="1">
+<claim-text gate:gateId="32">10. The method of <claim-ref gate:gateId="33" idref="CLM-00001">claim 1</claim-ref> , wherein disposing the composition in contact with cancerous tissue comprises applying the composition locally to the cancerous tissue.</claim-text>
+</claim>
+<claim gate:gateId="34" id="CLM-00011" body="repeating steps (b) and (c) at a plurality of localized areas of the cancerous tissue.
+" claimType="dependent" num="00011" claimBackReference="of claim 10" transPhrase=", further comprising " claimSize="30" claim_preamble="The method" claimNumber="11" depends_on="10">
+<claim-text gate:gateId="35">11. The method of <claim-ref gate:gateId="36" idref="CLM-00010">claim 10</claim-ref> , further comprising repeating steps (b) and (c) at a plurality of localized areas of the cancerous tissue.</claim-text>
+</claim>
+<claim gate:gateId="37" id="CLM-00012" body="the plurality of localized areas are in the peritoneal cavity.
+" claimType="dependent" num="00012" claimBackReference="of claim 11" transPhrase=", wherein " claimSize="20" claim_preamble="The method" claimNumber="12" depends_on="11">
+<claim-text gate:gateId="38">12. The method of <claim-ref gate:gateId="39" idref="CLM-00011">claim 11</claim-ref> , wherein the plurality of localized areas are in the peritoneal cavity.</claim-text>
+</claim>
+<claim gate:gateId="40" id="CLM-00013" body="the electromagnetic radiation comprises ultra-violet, visible, infrared radiation or combinations thereof.
+" claimType="dependent" num="00013" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="23" claim_preamble="The method" claimNumber="13" depends_on="1">
+<claim-text gate:gateId="41">13. The method of <claim-ref gate:gateId="42" idref="CLM-00001">claim 1</claim-ref> , wherein the electromagnetic radiation comprises ultra-violet, visible, infrared radiation or combinations thereof.</claim-text>
+</claim>
+<claim gate:gateId="43" id="CLM-00014" body="the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof.
+" claimType="dependent" num="00014" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="59" claim_preamble="The method" claimNumber="14" depends_on="1">
+<claim-text gate:gateId="44">14. The method of <claim-ref gate:gateId="45" idref="CLM-00001">claim 1</claim-ref> , wherein the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof.</claim-text>
+</claim>
+<claim gate:gateId="46" id="CLM-00015" body="the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to irradiation of the plurality of nanoparticles for the 10 seconds is substantially equivalent to the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to heating the cancerous tissue at a temperature of 42° C. for two hours in the presence of the at least one chemotherapeutic agent alone.
+" claimType="dependent" num="00015" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="80" claim_preamble="The method" claimNumber="15" depends_on="1">
+<claim-text gate:gateId="47">15. The method of <claim-ref gate:gateId="48" idref="CLM-00001">claim 1</claim-ref> , wherein the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to irradiation of the plurality of nanoparticles for the 10 seconds is substantially equivalent to the uptake of the at least one chemotherapeutic agent by the cancerous tissue subsequent to heating the cancerous tissue at a temperature of 42° C. for two hours in the presence of the at least one chemotherapeutic agent alone.</claim-text>
+</claim>
+<claim gate:gateId="49" id="CLM-00016" body="irradiating comprises providing a surgeon with a hand-held laser wherein the surgeon positions the laser proximate the cancerous tissue.
+" claimType="dependent" num="00016" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="29" claim_preamble="The method" claimNumber="16" depends_on="1">
+<claim-text gate:gateId="50">16. The method of <claim-ref gate:gateId="51" idref="CLM-00001">claim 1</claim-ref> , wherein irradiating comprises providing a surgeon with a hand-held laser wherein the surgeon positions the laser proximate the cancerous tissue.</claim-text>
+</claim>
+<claim gate:gateId="52" id="CLM-00017" body="the at least one chemotherapeutic agent is not disposed in a nanoparticle.
+" claimType="dependent" num="00017" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="22" claim_preamble="The method" claimNumber="17" depends_on="1">
+<claim-text gate:gateId="53">17. The method of <claim-ref gate:gateId="54" idref="CLM-00001">claim 1</claim-ref> , wherein the at least one chemotherapeutic agent is not disposed in a nanoparticle.</claim-text>
+</claim>
+<claim gate:gateId="55" id="CLM-00018" body="cancerous tissue comprising:
+(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;
+(b) disposing the composition in contact with cancerous tissue, and
+(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,
+
+wherein the plurality of nanoparticles comprises carbon nanotubes and irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 42° C. in a time period of less than 30 seconds.
+" num="00018" claimType="independent" transPhrase=" of treating " claimSize="107" claimNumber="18" claim_preamble="A method">
+<claim-text gate:gateId="56">18. A method of treating cancerous tissue comprising:
+<claim-text gate:gateId="57">(a) providing a composition comprising a plurality of nanoparticles and at least one chemotherapeutic agent;</claim-text>
+<claim-text gate:gateId="58">(b) disposing the composition in contact with cancerous tissue, and</claim-text>
+<claim-text gate:gateId="59">(c) accelerating the uptake of the at least one chemotherapeutic agent by the cancerous tissue by irradiating the plurality of nanoparticles with electromagnetic radiation,</claim-text>
+</claim-text>
+<claim-text gate:gateId="60">wherein the plurality of nanoparticles comprises carbon nanotubes and irradiating the plurality of nanoparticles heats the cancerous tissue to a temperature of at least about 42° C. in a time period of less than 30 seconds.</claim-text>
+</claim>
+<claim gate:gateId="61" id="CLM-00019" body="the carbon nanotubes comprise multi-walled carbon nanotubes.
+" claimType="dependent" num="00019" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="17" claim_preamble="The method" claimNumber="19" depends_on="18">
+<claim-text gate:gateId="62">19. The method of <claim-ref gate:gateId="63" idref="CLM-00018">claim 18</claim-ref> , wherein the carbon nanotubes comprise multi-walled carbon nanotubes.</claim-text>
+</claim>
+<claim gate:gateId="64" id="CLM-00020" body="the carbon nanotubes have a length ranging from about 500 nm to about 2 μm.
+" claimType="dependent" num="00020" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="25" claim_preamble="The method" claimNumber="20" depends_on="18">
+<claim-text gate:gateId="65">20. The method of <claim-ref gate:gateId="66" idref="CLM-00018">claim 18</claim-ref> , wherein the carbon nanotubes have a length ranging from about 500 nm to about 2 μm.</claim-text>
+</claim>
+<claim gate:gateId="67" id="CLM-00021" body="the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml.
+" claimType="dependent" num="00021" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="34" claim_preamble="The method" claimNumber="21" depends_on="18">
+<claim-text gate:gateId="68">21. The method of <claim-ref gate:gateId="69" idref="CLM-00018">claim 18</claim-ref> , wherein the carbon nanotubes are present in the composition at a concentration ranging from about 1 μg/ml to about 100 μg/ml.</claim-text>
+</claim>
+<claim gate:gateId="70" id="CLM-00022" body="the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C.
+" claimType="dependent" num="00022" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="21" claim_preamble="The method" claimNumber="22" depends_on="18">
+<claim-text gate:gateId="71">22. The method of <claim-ref gate:gateId="72" idref="CLM-00018">claim 18</claim-ref> , wherein the at least one chemotherapeutic agent comprises oxaliplatin or Mitomycin C.</claim-text>
+</claim>
+<claim gate:gateId="73" id="CLM-00023" body="the at least one chemotherapeutic agent is not disposed in a nanoparticle.
+" claimType="dependent" num="00023" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="22" claim_preamble="The method" claimNumber="23" depends_on="18">
+<claim-text gate:gateId="74">23. The method of <claim-ref gate:gateId="75" idref="CLM-00018">claim 18</claim-ref> , wherein the at least one chemotherapeutic agent is not disposed in a nanoparticle.</claim-text>
+</claim>
+<claim gate:gateId="76" id="CLM-00024" body="the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes.
+" claimType="dependent" num="00024" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="25" claim_preamble="The method" claimNumber="24" depends_on="18">
+<claim-text gate:gateId="77">24. The method of <claim-ref gate:gateId="78" idref="CLM-00018">claim 18</claim-ref> , wherein the at least one chemotherapeutic agent is at least partially disposed within the carbon nanotubes.</claim-text>
+</claim>
+<claim gate:gateId="79" id="CLM-00025" body="at least one carbon nanotube is capped with a polymeric material.
+" claimType="dependent" num="00025" claimBackReference="of claim 24" transPhrase=", wherein " claimSize="21" claim_preamble="The method" claimNumber="25" depends_on="24">
+<claim-text gate:gateId="80">25. The method of <claim-ref gate:gateId="81" idref="CLM-00024">claim 24</claim-ref> , wherein at least one carbon nanotube is capped with a polymeric material.</claim-text>
+</claim>
+<claim gate:gateId="82" id="CLM-00026" body="the polymeric material comprises alginate, poly(lactic)-co-glycolic acid, polylactic acid, poly(decandiol) citrate, or combinations thereof.
+" claimType="dependent" num="00026" claimBackReference="of claim 25" transPhrase=", wherein " claimSize="36" claim_preamble="The method" claimNumber="26" depends_on="25">
+<claim-text gate:gateId="83">26. The method of <claim-ref gate:gateId="84" idref="CLM-00025">claim 25</claim-ref> , wherein the polymeric material comprises alginate, poly(lactic)-co-glycolic acid, polylactic acid, poly(decandiol) citrate, or combinations thereof.</claim-text>
+</claim>
+<claim gate:gateId="85" id="CLM-00027" body="the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof. 
+" claimType="dependent" num="00027" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="59" claim_preamble="The method" claimNumber="27" depends_on="18">
+<claim-text gate:gateId="86">27. The method of <claim-ref gate:gateId="87" idref="CLM-00018">claim 18</claim-ref> , wherein the cancerous tissue comprises colorectal cancerous tissue, bladder cancerous tissue, breast cancerous tissue, endometrial cancerous tissue, kidney cancerous tissue, lung cancerous tissue, leukemia, melanoma cancerous tissue, pancreatic cancerous tissue, prostate cancerous tissue, thyroid cancerous tissue, or combinations thereof. </claim-text>
+</claim>
+<us-patent-grant gate:gateId="88" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08501233-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130723" lang="EN" country="US"></us-patent-grant></claims>

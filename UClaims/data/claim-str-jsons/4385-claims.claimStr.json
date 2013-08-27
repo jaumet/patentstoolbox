@@ -1,0 +1,609 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503310-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 84,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2668,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a value for an option for a particular policy of a plurality of policies that are ranked in a priority order;\napplying, by a node in a computer network, a variance to the value associated with the option for the particular policy to define a range of acceptable values for the particular policy;\ndetermining, by the node, whether one or more other options exist that have values within the range of acceptable values for the particular policy; and\nin response to the determining,\nif no other options exist that have values within the range of acceptable values for the particular policy, selecting the option, and\nif one or more other options exist that have values within the range of acceptable values for the particular policy, repeating the ascertaining, applying and determining for a next lower priority policy of the plurality of policies to consider the one or more other options, the repeating to occur successively until an option is selected.\n\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ":\nascertaining ",
+            "claimSize": 181,
+            "gate:gateId": 1,
+            "claim_preamble": "A method comprising",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "ascertaining a value for an option for a particular policy of a plurality of policies that are ranked in a priority order;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "applying, by a node in a computer network, a variance to the value associated with the option for the particular policy to define a range of acceptable values for the particular policy;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "determining, by the node, whether one or more other options exist that have values within the range of acceptable values for the particular policy; and",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "in response to the determining,",
+                        "gate:gateId": 6,
+                        "claim-text": [
+                            {
+                                "content": "if no other options exist that have values within the range of acceptable values for the particular policy, selecting the option, and",
+                                "gate:gateId": 7
+                            },
+                            {
+                                "content": "if one or more other options exist that have values within the range of acceptable values for the particular policy, repeating the ascertaining, applying and determining for a next lower priority policy of the plurality of policies to consider the one or more other options, the repeating to occur successively until an option is selected.",
+                                "gate:gateId": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "each option is a path in the computer network and the plurality of policies are rules regarding selection of a best path.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 32,
+            "gate:gateId": 9,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein each option is a path in the computer network and the plurality of policies are rules regarding selection of a best path."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "each path is a path to a particular destination prefix.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 20,
+            "gate:gateId": 12,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein each path is a path to a particular destination prefix."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the plurality of policies include one or more policies selected from the group consisting of: reachability, lowest round trip time, lowest packet loss, lowest cost, and lowest utilization.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 43,
+            "gate:gateId": 15,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein the plurality of policies include one or more policies selected from the group consisting of: reachability, lowest round trip time, lowest packet loss, lowest cost, and lowest utilization."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "further comprising:\nif there is not another lower priority policy, selecting one of the one or more other options as the selected option.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 34,
+            "gate:gateId": 18,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19,
+                "claim-text": {
+                    "content": "if there is not another lower priority policy, selecting one of the one or more other options as the selected option.",
+                    "gate:gateId": 21
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "one of the one or more other options as the selected option is by random selection.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein selecting ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 27,
+            "gate:gateId": 22,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein selecting one of the one or more other options as the selected option is by random selection."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 23
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "further comprising:\nassigning a separate respective variance to each policy of the plurality of policies.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 25,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 26,
+                "claim-text": {
+                    "content": "assigning a separate respective variance to each policy of the plurality of policies.",
+                    "gate:gateId": 28
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "further comprising:\nassigning each of the plurality of policies a respective exclusive priority value to rank the plurality of policies in the priority order.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 34,
+            "gate:gateId": 29,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 30,
+                "claim-text": {
+                    "content": "assigning each of the plurality of policies a respective exclusive priority value to rank the plurality of policies in the priority order.",
+                    "gate:gateId": 32
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "further comprising:\nassigning the variance as a percentage value.\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 19,
+            "gate:gateId": 33,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 35,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 34,
+                "claim-text": {
+                    "content": "assigning the variance as a percentage value.",
+                    "gate:gateId": 36
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the node in the computer network is an Optimized Edge Router in the computer network.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 25,
+            "gate:gateId": 37,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    ", wherein the node in the computer network is an Optimized Edge Router in the computer network."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 39,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 38
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00011",
+            "body": "one or more network interfaces;\na processor coupled to the one or more network interfaces and configured to execute software processes; and\na memory configured store a decision making software process executable by the processor, the decision making software process configured to:\nascertain a value for an option for a particular policy of a plurality of policies that are ranked in a priority order,\napply a variance to the value associated with the option for the particular policy to define a range of acceptable values for the particular policy,\ndetermine whether one or more other options exist that have values within the range of acceptable values for the particular policy, and\nin response to the determining,\nif no other options exist that have values within the range of acceptable values for the particular policy, select the option, and\nif one or more other options exist that have values within the range of acceptable values for the particular policy, further execute the decision making software process for a next lower priority policy of the plurality of policies to consider the one or more other options, the decision making software process to continue to be executed for successively next lower priority policies until an option is selected.\n\n\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": ":\n",
+            "claimSize": 224,
+            "gate:gateId": 40,
+            "claim_preamble": "An apparatus comprising",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. An apparatus comprising:",
+                "gate:gateId": 41,
+                "claim-text": [
+                    {
+                        "content": "one or more network interfaces;",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "a processor coupled to the one or more network interfaces and configured to execute software processes; and",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "a memory configured store a decision making software process executable by the processor, the decision making software process configured to:",
+                        "gate:gateId": 44,
+                        "claim-text": [
+                            {
+                                "content": "ascertain a value for an option for a particular policy of a plurality of policies that are ranked in a priority order,",
+                                "gate:gateId": 45
+                            },
+                            {
+                                "content": "apply a variance to the value associated with the option for the particular policy to define a range of acceptable values for the particular policy,",
+                                "gate:gateId": 46
+                            },
+                            {
+                                "content": "determine whether one or more other options exist that have values within the range of acceptable values for the particular policy, and",
+                                "gate:gateId": 47
+                            },
+                            {
+                                "content": "in response to the determining,",
+                                "gate:gateId": 48,
+                                "claim-text": [
+                                    {
+                                        "content": "if no other options exist that have values within the range of acceptable values for the particular policy, select the option, and",
+                                        "gate:gateId": 49
+                                    },
+                                    {
+                                        "content": "if one or more other options exist that have values within the range of acceptable values for the particular policy, further execute the decision making software process for a next lower priority policy of the plurality of policies to consider the one or more other options, the decision making software process to continue to be executed for successively next lower priority policies until an option is selected.",
+                                        "gate:gateId": 50
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "each option is a path in the computer network.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 19,
+            "gate:gateId": 51,
+            "claimNumber": 12,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "12. The apparatus of",
+                    ", wherein each option is a path in the computer network."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the plurality of policies are rules regarding selection of a best path.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 22,
+            "gate:gateId": 54,
+            "claimNumber": 13,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "13. The apparatus of",
+                    ", wherein the plurality of policies are rules regarding selection of a best path."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 56,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 55
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the plurality of policies include one or more policies selected from the group consisting of: reachability, lowest round trip time, lowest packet loss, lowest cost, and lowest utilization.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 43,
+            "gate:gateId": 57,
+            "claimNumber": 14,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "14. The apparatus of",
+                    ", wherein the plurality of policies include one or more policies selected from the group consisting of: reachability, lowest round trip time, lowest packet loss, lowest cost, and lowest utilization."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 58
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the decision making software process is further configured to:\nif there is not another lower priority policy, select one of the one or more other options as the selected option.\n\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 42,
+            "gate:gateId": 60,
+            "claimNumber": 15,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "15. The apparatus of",
+                    ", wherein the decision making software process is further configured to:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 62,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 61,
+                "claim-text": {
+                    "content": "if there is not another lower priority policy, select one of the one or more other options as the selected option.",
+                    "gate:gateId": 63
+                }
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the selection of one of the one or more other options as the selected option is by random selection.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 15",
+            "claimSize": 29,
+            "gate:gateId": 64,
+            "claimNumber": 16,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "16. The apparatus of",
+                    ", wherein the selection of one of the one or more other options as the selected option is by random selection."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "each policy of the plurality of policies is assigned a separate respective variance.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 23,
+            "gate:gateId": 67,
+            "claimNumber": 17,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "17. The apparatus of",
+                    ", wherein each policy of the plurality of policies is assigned a separate respective variance."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the variance of at least one policy of the plurality of policies is a percentage value.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 26,
+            "gate:gateId": 70,
+            "claimNumber": 18,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "18. The apparatus of",
+                    ", wherein the variance of at least one policy of the plurality of policies is a percentage value."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the apparatus is an Optimized Edge Router.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 17,
+            "gate:gateId": 73,
+            "claimNumber": 19,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "19. The apparatus of",
+                    ", wherein the apparatus is an Optimized Edge Router."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00020",
+            "body": "software that when executed is operable to:\nascertain a value for a path that may be selected by a particular path selection policy of a plurality of path selection policies that are ranked in a priority order;\napply a variance to the value to define a range of acceptable values for the particular path selection policy;\ndetermine whether one or more other paths exist that have values within the range of acceptable values for the particular path selection policy; and\nin response to the determination,\nselect the path, if no other paths exist that have values within the range of acceptable values for the particular path selection policy, and\napply a next lower priority path selection policy of the plurality of path selection policies, if one or more other paths exist that have values within the range of acceptable values for the particular path selection policy. \n\n\n",
+            "claimType": "independent",
+            "num": "00020",
+            "transPhrase": " encoded with ",
+            "claimSize": 166,
+            "gate:gateId": 76,
+            "claim_preamble": "One or more non-transitory computer readable media",
+            "claimNumber": 20,
+            "claim-text": {
+                "content": "20. One or more non-transitory computer readable media encoded with software that when executed is operable to:",
+                "gate:gateId": 77,
+                "claim-text": [
+                    {
+                        "content": "ascertain a value for a path that may be selected by a particular path selection policy of a plurality of path selection policies that are ranked in a priority order;",
+                        "gate:gateId": 78
+                    },
+                    {
+                        "content": "apply a variance to the value to define a range of acceptable values for the particular path selection policy;",
+                        "gate:gateId": 79
+                    },
+                    {
+                        "content": "determine whether one or more other paths exist that have values within the range of acceptable values for the particular path selection policy; and",
+                        "gate:gateId": 80
+                    },
+                    {
+                        "content": "in response to the determination,",
+                        "gate:gateId": 81,
+                        "claim-text": [
+                            {
+                                "content": "select the path, if no other paths exist that have values within the range of acceptable values for the particular path selection policy, and",
+                                "gate:gateId": 82
+                            },
+                            {
+                                "content": "apply a next lower priority path selection policy of the plurality of path selection policies, if one or more other paths exist that have values within the range of acceptable values for the particular path selection policy.",
+                                "gate:gateId": 83
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 146
+}}

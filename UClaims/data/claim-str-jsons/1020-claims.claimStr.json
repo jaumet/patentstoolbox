@@ -1,0 +1,380 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08499926-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 46,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3715,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a skid buffer system, each of the modular plastic belt modules having a width, and a length, where the width and the length define a plane, and having a thickness orthogonal to said plane, such that each module is limited by two longitudinal sides and a front and rear side, where each module along the front and rear sides is provided with plural eye parts, spaced by openings, such that an eye part on one edge fits inside an opening between two eye parts on an adjacent module, wherein said eye parts have apertures parallel to the front and rear sides-configured to accommodate hinge pins, wherein adjacent modules are connected by fitting eye parts on one module inside openings between two eye parts on an adjacent module and connecting the adjacent modules by inserting hinge pins laterally through overlapping apertures and wherein spaced in parallel lines of the modules connected by the hinge pins and wherein spaced modules in the lines of connected modules have upstanding flanges connected to and parallel to the two longitudinal sides, where each flange has an axle accommodation surface in the shape of either a U-shaped cradle or an aperture, and an axle in said axle accommodation surfaces said axle being arranged parallel to the front and rear sides in said accommodation surface and where said axle between the upstanding flanges is provided with a first larger inner roller, and where smaller outer rollers are provided in either end of the axle, outside the sides of the flanges, wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle.\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 315,
+            "gate:gateId": 1,
+            "claim_preamble": "Modular plastic belt modules",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. Modular plastic belt modules for a skid buffer system, each of the modular plastic belt modules having a width, and a length, where the width and the length define a plane, and having a thickness orthogonal to said plane, such that each module is limited by two longitudinal sides and a front and rear side, where each module along the front and rear sides is provided with plural eye parts, spaced by openings, such that an eye part on one edge fits inside an opening between two eye parts on an adjacent module, wherein said eye parts have apertures parallel to the front and rear sides-configured to accommodate hinge pins, wherein adjacent modules are connected by fitting eye parts on one module inside openings between two eye parts on an adjacent module and connecting the adjacent modules by inserting hinge pins laterally through overlapping apertures and wherein spaced in parallel lines of the modules connected by the hinge pins and wherein spaced modules in the lines of connected modules have upstanding flanges connected to and parallel to the two longitudinal sides, where each flange has an axle accommodation surface in the shape of either a U-shaped cradle or an aperture, and an axle in said axle accommodation surfaces said axle being arranged parallel to the front and rear sides in said accommodation surface and where said axle between the upstanding flanges is provided with a first larger inner roller, and where smaller outer rollers are provided in either end of the axle, outside the sides of the flanges, wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle.",
+                "gate:gateId": 2
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "molded reinforcements are provided between the upstanding flanges and the plane, where the molded reinforcements are in the shape of ribs, either spanning between the flanges or only partly between the flanges.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 45,
+            "gate:gateId": 3,
+            "claimNumber": 2,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "2. Modular belt modules according to",
+                    "wherein molded reinforcements are provided between the upstanding flanges and the plane, where the molded reinforcements are in the shape of ribs, either spanning between the flanges or only partly between the flanges."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 5,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 4
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the modules are injection moulded in a one step moulding process.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 22,
+            "gate:gateId": 6,
+            "claimNumber": 3,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "3. Modular belt modules according to",
+                    "wherein the modules are injection moulded in a one step moulding process."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the axle accommodation surface in the shape of either a U-shaped cradle or an aperture is coated with a friction reducing agent or a friction reducing layer added to the accommodation surface, such that the axle is rotatably accommodated in the accommodation surface in the shape of either a U-shaped cradle or an aperture.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "where ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 69,
+            "gate:gateId": 9,
+            "claimNumber": 4,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "4. Modular belt modules according to",
+                    ", where the axle accommodation surface in the shape of either a U-shaped cradle or an aperture is coated with a friction reducing agent or a friction reducing layer added to the accommodation surface, such that the axle is rotatably accommodated in the accommodation surface in the shape of either a U-shaped cradle or an aperture."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "each axle further comprises five different sections:\nfirst and second sections arranged in either end of the axle which extend outside the flanges, where said first and second sections have outer coaxially arranged load carrying rollers on bearings which are rotatable relative to the axle;\nthird and fourth sections arranged inside from the first and second sections, where the third and fourth sections are dimensioned to engage the accommodation surfaces for accommodating the axle, thereby preventing the axle from rotating;\na fifth section arranged inside the third and fourth sections, where said fifth section has the first larger inner roller on a bearing which is rotatable relative to the axle.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "where ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 129,
+            "gate:gateId": 12,
+            "claimNumber": 5,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "5. Modular belt modules according to",
+                    ", where each axle further comprises five different sections:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13,
+                "claim-text": [
+                    {
+                        "content": "first and second sections arranged in either end of the axle which extend outside the flanges, where said first and second sections have outer coaxially arranged load carrying rollers on bearings which are rotatable relative to the axle;",
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": "third and fourth sections arranged inside from the first and second sections, where the third and fourth sections are dimensioned to engage the accommodation surfaces for accommodating the axle, thereby preventing the axle from rotating;",
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": "a fifth section arranged inside the third and fourth sections, where said fifth section has the first larger inner roller on a bearing which is rotatable relative to the axle.",
+                        "gate:gateId": 17
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 48,
+            "gate:gateId": 18,
+            "claimNumber": 6,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "6. Modular belt modules according to",
+                    "wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the U-shaped cradle or aperture has a flat, wherein the axle has a complementary flat, and wherein the flats cooperate and prevent the axle from rotating.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 40,
+            "gate:gateId": 21,
+            "claimNumber": 7,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "7. Modular belt modules of",
+                    ", wherein the U-shaped cradle or aperture has a flat, wherein the axle has a complementary flat, and wherein the flats cooperate and prevent the axle from rotating."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the first larger inner roller is a skid-contacting roller and the smaller outer rollers are load supporting rollers supporting the skid, the inner roller and the axle.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 39,
+            "gate:gateId": 24,
+            "claimNumber": 8,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "8. Modular belt modules of",
+                    ", wherein the first larger inner roller is a skid-contacting roller and the smaller outer rollers are load supporting rollers supporting the skid, the inner roller and the axle."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the modules are configured to pull the axles and rollers forward without supporting weight of the axles, rollers and skid.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 32,
+            "gate:gateId": 27,
+            "claimNumber": 9,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "9. Modular belt modules of",
+                    ", wherein the modules are configured to pull the axles and rollers forward without supporting weight of the axles, rollers and skid."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "a skid buffer system, each of the modular plastic belt modules having a width, and a length, where the width and the length define a plane, and having a thickness orthogonal to said plane, such that each module is limited by two longitudinal sides and a front and rear side, where each module along the front and rear sides is provided with plural eye parts, spaced by openings, such that an eye part on one edge fits inside an opening between two eye parts on an adjacent module, wherein said eye parts have apertures parallel to the front and rear sides-configured to accommodate hinge pins, wherein adjacent modules are connected by fitting eye parts on one module inside openings between two eye parts on an adjacent module and connecting the adjacent modules by inserting hinge pins laterally through overlapping apertures and wherein spaced in parallel lines of the modules connected by the hinge pins and wherein spaced modules in the lines of connected modules have upstanding flanges connected to and parallel to the two longitudinal sides, where each flange has an axle accommodation surface in the shape of either a U-shaped cradle or an aperture, and an axle in said axle accommodation surfaces said axle being arranged parallel to the front and rear sides in said accommodation surface and where said axle between the upstanding flanges is provided with a first larger inner roller, and where smaller outer rollers are provided in either end of the axle, outside the sides of the flanges, wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle, wherein the flange elements are bolted onto two adjacent modular belt modules.\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " for ",
+            "claimSize": 328,
+            "gate:gateId": 30,
+            "claim_preamble": "Modular plastic belt modules",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. Modular plastic belt modules for a skid buffer system, each of the modular plastic belt modules having a width, and a length, where the width and the length define a plane, and having a thickness orthogonal to said plane, such that each module is limited by two longitudinal sides and a front and rear side, where each module along the front and rear sides is provided with plural eye parts, spaced by openings, such that an eye part on one edge fits inside an opening between two eye parts on an adjacent module, wherein said eye parts have apertures parallel to the front and rear sides-configured to accommodate hinge pins, wherein adjacent modules are connected by fitting eye parts on one module inside openings between two eye parts on an adjacent module and connecting the adjacent modules by inserting hinge pins laterally through overlapping apertures and wherein spaced in parallel lines of the modules connected by the hinge pins and wherein spaced modules in the lines of connected modules have upstanding flanges connected to and parallel to the two longitudinal sides, where each flange has an axle accommodation surface in the shape of either a U-shaped cradle or an aperture, and an axle in said axle accommodation surfaces said axle being arranged parallel to the front and rear sides in said accommodation surface and where said axle between the upstanding flanges is provided with a first larger inner roller, and where smaller outer rollers are provided in either end of the axle, outside the sides of the flanges, wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle, wherein the flange elements are bolted onto two adjacent modular belt modules.",
+                "gate:gateId": 31
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the U-shaped cradle or aperture has a flat, wherein the axle has a complementary flat, and wherein the flats cooperate and prevent the axle from rotating.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 8",
+            "claimSize": 41,
+            "gate:gateId": 32,
+            "claimNumber": 11,
+            "claim_preamble": "The skid buffer system",
+            "claim-text": {
+                "content": [
+                    "11. The skid buffer system of",
+                    ", wherein the U-shaped cradle or aperture has a flat, wherein the axle has a complementary flat, and wherein the flats cooperate and prevent the axle from rotating."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the first larger inner roller is a skid-contacting roller and the smaller outer rollers are load supporting rollers supporting the skid, the inner roller and the axle.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 40,
+            "gate:gateId": 35,
+            "claimNumber": 12,
+            "claim_preamble": "The skid buffer system",
+            "claim-text": {
+                "content": [
+                    "12. The skid buffer system of",
+                    ", wherein the first larger inner roller is a skid-contacting roller and the smaller outer rollers are load supporting rollers supporting the skid, the inner roller and the axle."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the modules are configured to pull the axles and rollers forward without supporting weight of the axles, rollers and skid.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 33,
+            "gate:gateId": 38,
+            "claimNumber": 13,
+            "claim_preamble": "The skid buffer system",
+            "claim-text": {
+                "content": [
+                    "13. The skid buffer system of",
+                    ", wherein the modules are configured to pull the axles and rollers forward without supporting weight of the axles, rollers and skid."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00014",
+            "body": "a skid buffer system, each of the modular plastic belt modules having a width, and a length, where the width and the length define a plane, and having a thickness orthogonal to said plane, such that each module is limited by two longitudinal sides and a front and rear side, where each module along the front and rear sides is provided with plural eye parts, spaced by openings, such that an eye part on one edge fits inside an opening between two eye parts on an adjacent module, wherein said eye parts have apertures parallel to the front and rear sides-configured to accommodate hinge pins, wherein adjacent modules are connected by fitting eye parts on one module inside openings between two eye parts on an adjacent module and connecting the adjacent modules by inserting hinge pins laterally through overlapping apertures and wherein spaced in parallel lines of the modules connected by the hinge pins and wherein spaced modules in the lines of connected modules have upstanding flanges connected to and parallel to the two longitudinal sides, where each flange has an axle accommodation surface in the shape of either a U-shaped cradle or an aperture, and an axle in said axle accommodation surfaces said axle being arranged parallel to the front and rear sides in said accommodation surface and where said axle between the upstanding flanges is provided with a first larger inner roller, and where smaller outer rollers are provided in either end of the axle, outside the sides of the flanges, wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle, wherein the flange elements in addition to the upstanding flanges further comprises secondary flanges adapted to be placed in contact with a side of the modular belt module, and that extended pins are provided on said secondary flanges, such that the extended pins on the flange elements are inserted into the modular belt modules eye parts instead of the hinge pins.\n",
+            "claimType": "independent",
+            "num": "00014",
+            "transPhrase": " for ",
+            "claimSize": 379,
+            "gate:gateId": 41,
+            "claim_preamble": "Modular plastic belt modules",
+            "claimNumber": 14,
+            "claim-text": {
+                "content": "14. Modular plastic belt modules for a skid buffer system, each of the modular plastic belt modules having a width, and a length, where the width and the length define a plane, and having a thickness orthogonal to said plane, such that each module is limited by two longitudinal sides and a front and rear side, where each module along the front and rear sides is provided with plural eye parts, spaced by openings, such that an eye part on one edge fits inside an opening between two eye parts on an adjacent module, wherein said eye parts have apertures parallel to the front and rear sides-configured to accommodate hinge pins, wherein adjacent modules are connected by fitting eye parts on one module inside openings between two eye parts on an adjacent module and connecting the adjacent modules by inserting hinge pins laterally through overlapping apertures and wherein spaced in parallel lines of the modules connected by the hinge pins and wherein spaced modules in the lines of connected modules have upstanding flanges connected to and parallel to the two longitudinal sides, where each flange has an axle accommodation surface in the shape of either a U-shaped cradle or an aperture, and an axle in said axle accommodation surfaces said axle being arranged parallel to the front and rear sides in said accommodation surface and where said axle between the upstanding flanges is provided with a first larger inner roller, and where smaller outer rollers are provided in either end of the axle, outside the sides of the flanges, wherein the upstanding flanges are one or two separate flange elements, where each flange element is mechanically fastened to the modular belt module, and where each flange element comprises the accommodation surface for accommodating the axle, wherein the flange elements in addition to the upstanding flanges further comprises secondary flanges adapted to be placed in contact with a side of the modular belt module, and that extended pins are provided on said secondary flanges, such that the extended pins on the flange elements are inserted into the modular belt modules eye parts instead of the hinge pins.",
+                "gate:gateId": 42
+            }
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the upstanding flanges are separate U-shaped elements, wherein the upstanding flanges and the secondary flanges are connected to the belt module with threaded members and nuts.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 14 ,",
+            "claimSize": 40,
+            "gate:gateId": 43,
+            "claimNumber": 15,
+            "claim_preamble": "Modular belt modules",
+            "claim-text": {
+                "content": [
+                    "15. Modular belt modules according to",
+                    ", wherein the upstanding flanges are separate U-shaped elements, wherein the upstanding flanges and the secondary flanges are connected to the belt module with threaded members and nuts."
+                ],
+                "claim-ref": {
+                    "content": "claim 14",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00014"
+                },
+                "gate:gateId": 44
+            },
+            "depends_on": 14
+        }
+    ],
+    "numberIndependentClaims": 3
+}}

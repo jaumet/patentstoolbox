@@ -1,0 +1,181 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08500598-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 27,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 976,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a powertrain comprising an electro-mechanical transmission mechanically-operatively coupled to an internal combustion engine and first and second electric machines adapted to selectively transmit mechanical power to an output member, said apparatus comprising:\nsaid first and second electric machines;\na first electric machine cooling circuit directing a cooling hydraulic flow to said first electric machine comprising\na first hydraulic circuit providing a first electric machine base cooling flow to said first electric machine, and\na second hydraulic circuit selectively providing a first electric machine active cooling flow to said first electric machine;\n\na second electric machine cooling circuit directing a cooling hydraulic flow to said second electric machine comprising\na third hydraulic circuit providing a second electric machine base cooling flow to said second electric machine, and\na fourth hydraulic circuit selectively providing a second electric machine active cooling flow to said second electric machine;\n\na hydraulic control system receiving a hydraulic flow and selectively channeling said hydraulic flow to said first and second electric machine cooling circuits; and\nan active electric machine cooling control system monitoring temperatures of said first and second electric machines, monitoring operation of said hydraulic control system, and selectively controlling said hydraulic control system.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for controlling ",
+            "claimSize": 214,
+            "gate:gateId": 1,
+            "claim_preamble": "Apparatus",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. Apparatus for controlling a powertrain comprising an electro-mechanical transmission mechanically-operatively coupled to an internal combustion engine and first and second electric machines adapted to selectively transmit mechanical power to an output member, said apparatus comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "said first and second electric machines;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a first electric machine cooling circuit directing a cooling hydraulic flow to said first electric machine comprising",
+                        "gate:gateId": 4,
+                        "claim-text": [
+                            {
+                                "content": "a first hydraulic circuit providing a first electric machine base cooling flow to said first electric machine, and",
+                                "gate:gateId": 5
+                            },
+                            {
+                                "content": "a second hydraulic circuit selectively providing a first electric machine active cooling flow to said first electric machine;",
+                                "gate:gateId": 6
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a second electric machine cooling circuit directing a cooling hydraulic flow to said second electric machine comprising",
+                        "gate:gateId": 7,
+                        "claim-text": [
+                            {
+                                "content": "a third hydraulic circuit providing a second electric machine base cooling flow to said second electric machine, and",
+                                "gate:gateId": 8
+                            },
+                            {
+                                "content": "a fourth hydraulic circuit selectively providing a second electric machine active cooling flow to said second electric machine;",
+                                "gate:gateId": 9
+                            }
+                        ]
+                    },
+                    {
+                        "content": "a hydraulic control system receiving a hydraulic flow and selectively channeling said hydraulic flow to said first and second electric machine cooling circuits; and",
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": "an active electric machine cooling control system monitoring temperatures of said first and second electric machines, monitoring operation of said hydraulic control system, and selectively controlling said hydraulic control system.",
+                        "gate:gateId": 11
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "active electric machine cooling control system comprises:\na first hydraulic powertrain cooling module inputting said temperatures of said first and second electric machines and outputting cooling flow requirements of said first and second electric machines;\na second hydraulic powertrain cooling module inputting said cooling flow requirements of said first and second electric machines and outputting an active electric machine cooling request; and\na hydraulic control command module inputting said active electric machine cooling request, monitoring operation of said hydraulic control system, and selectively controlling said hydraulic control system.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 104,
+            "gate:gateId": 12,
+            "claimNumber": 2,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "2. The apparatus of",
+                    ", wherein said active electric machine cooling control system comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13,
+                "claim-text": [
+                    {
+                        "content": "a first hydraulic powertrain cooling module inputting said temperatures of said first and second electric machines and outputting cooling flow requirements of said first and second electric machines;",
+                        "gate:gateId": 15
+                    },
+                    {
+                        "content": "a second hydraulic powertrain cooling module inputting said cooling flow requirements of said first and second electric machines and outputting an active electric machine cooling request; and",
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": "a hydraulic control command module inputting said active electric machine cooling request, monitoring operation of said hydraulic control system, and selectively controlling said hydraulic control system.",
+                        "gate:gateId": 17
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "hydraulic control system comprises:\na flow management valve selectively enabling said cooling hydraulic flows to said first and second electric machines.\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 33,
+            "gate:gateId": 18,
+            "claimNumber": 3,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "3. The apparatus of",
+                    ", wherein said hydraulic control system comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19,
+                "claim-text": {
+                    "content": "a flow management valve selectively enabling said cooling hydraulic flows to said first and second electric machines.",
+                    "gate:gateId": 21
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "hydraulic control system further comprises:\na pressure control solenoid selectively directing said hydraulic flow to said first electric machine cooling circuit; and\na pressure control solenoid selectively directing said hydraulic flow to said second electric machine cooling circuit. \n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 3",
+            "claimSize": 51,
+            "gate:gateId": 22,
+            "claimNumber": 4,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "4. The apparatus of",
+                    ", wherein said hydraulic control system further comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 24,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 23,
+                "claim-text": [
+                    {
+                        "content": "a pressure control solenoid selectively directing said hydraulic flow to said first electric machine cooling circuit; and",
+                        "gate:gateId": 25
+                    },
+                    {
+                        "content": "a pressure control solenoid selectively directing said hydraulic flow to said second electric machine cooling circuit.",
+                        "gate:gateId": 26
+                    }
+                ]
+            },
+            "depends_on": 3
+        }
+    ],
+    "numberIndependentClaims": 31
+}}

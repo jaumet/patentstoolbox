@@ -1,0 +1,280 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503365-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 38,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1291,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a cell in a mobile device, the method comprising:\nwhen a signal is received from at least one base station, detecting a primary synchronization channel (PSCH) symbol in the signal;\nascertaining a valid value of the PSCH symbol and determining whether the valid value is greater than a given threshold;\nif the valid value of the PSCH symbol is greater than the threshold, estimating a position of a secondary synchronization channel (SSCH) symbol in the signal using the PSCH symbol;\ndetecting the SSCH symbol at the estimated position; and\nfinding a neighboring cell through the detected SSCH symbol.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for detecting ",
+            "claimSize": 117,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for detecting a cell in a mobile device, the method comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "when a signal is received from at least one base station, detecting a primary synchronization channel (PSCH) symbol in the signal;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "ascertaining a valid value of the PSCH symbol and determining whether the valid value is greater than a given threshold;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "if the valid value of the PSCH symbol is greater than the threshold, estimating a position of a secondary synchronization channel (SSCH) symbol in the signal using the PSCH symbol;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "detecting the SSCH symbol at the estimated position; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "finding a neighboring cell through the detected SSCH symbol.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "further comprising:\nif the PSCH symbol is smaller than the threshold, determining whether a detection of the PSCH symbol is finished; and\nif the detection of the PSCH symbol is not finished, further detecting the PSCH symbol in the signal.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 53,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9,
+                "claim-text": [
+                    {
+                        "content": "if the PSCH symbol is smaller than the threshold, determining whether a detection of the PSCH symbol is finished; and",
+                        "gate:gateId": 11
+                    },
+                    {
+                        "content": "if the detection of the PSCH symbol is not finished, further detecting the PSCH symbol in the signal.",
+                        "gate:gateId": 12
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the valid value of the PSCH symbol is a correlation value obtained through a matched filter.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 26,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the valid value of the PSCH symbol is a correlation value obtained through a matched filter."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the PSCH symbol includes finding a position of the PSCH symbol through observations on the signal during a time window corresponding to a half frame.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein detecting ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 36,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein detecting the PSCH symbol includes finding a position of the PSCH symbol through observations on the signal during a time window corresponding to a half frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a cell, the apparatus receiving a signal in the form of a frame from a base station through a downlink, the apparatus comprising:\na primary synchronization channel (PSCH) detector configured to detect a PSCH symbol in the signal;\na PSCH validity determiner configured to ascertain a valid value of the PSCH symbol and to determine whether the valid value is greater than a given threshold;\na secondary synchronization channel (SSCH) allocator configured to, if the PSCH symbol is greater than the threshold, estimate a position of an SSCH symbol in the signal using the PSCH symbol; and\nan SSCH detector configured to detect the SSCH symbol at the estimated position.\n\n",
+            "claimType": "independent",
+            "num": "00005",
+            "transPhrase": " for detecting ",
+            "claimSize": 129,
+            "gate:gateId": 19,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 5,
+            "claim-text": {
+                "content": "5. An apparatus for detecting a cell, the apparatus receiving a signal in the form of a frame from a base station through a downlink, the apparatus comprising:",
+                "gate:gateId": 20,
+                "claim-text": [
+                    {
+                        "content": "a primary synchronization channel (PSCH) detector configured to detect a PSCH symbol in the signal;",
+                        "gate:gateId": 21
+                    },
+                    {
+                        "content": "a PSCH validity determiner configured to ascertain a valid value of the PSCH symbol and to determine whether the valid value is greater than a given threshold;",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "a secondary synchronization channel (SSCH) allocator configured to, if the PSCH symbol is greater than the threshold, estimate a position of an SSCH symbol in the signal using the PSCH symbol; and",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "an SSCH detector configured to detect the SSCH symbol at the estimated position.",
+                        "gate:gateId": 24
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00006",
+            "body": "a symbol memory configured to store the signal while the PSCH detector detects the PSCH symbol, and to store at least one SSCH symbol detected through the SSCH detector.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\n",
+            "claimBackReference": "of claim 5",
+            "claimSize": 42,
+            "gate:gateId": 25,
+            "claimNumber": 6,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "6. The apparatus of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 26,
+                "claim-text": {
+                    "content": "a symbol memory configured to store the signal while the PSCH detector detects the PSCH symbol, and to store at least one SSCH symbol detected through the SSCH detector.",
+                    "gate:gateId": 28
+                }
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the SSCH allocator is further configured to, if the PSCH symbol is smaller than the threshold, determine whether a detection of the PSCH symbol is finished, and if the detection of the PSCH symbol is not finished, to detect the PSCH symbol in the signal.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 59,
+            "gate:gateId": 29,
+            "claimNumber": 7,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "7. The apparatus of",
+                    ", wherein the SSCH allocator is further configured to, if the PSCH symbol is smaller than the threshold, determine whether a detection of the PSCH symbol is finished, and if the detection of the PSCH symbol is not finished, to detect the PSCH symbol in the signal."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the valid value of the PSCH symbol is a correlation value obtained through a matched filter.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 26,
+            "gate:gateId": 32,
+            "claimNumber": 8,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "8. The apparatus of",
+                    ", wherein the valid value of the PSCH symbol is a correlation value obtained through a matched filter."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the PSCH detector is further configured to find a position of the PSCH symbol through observations on the signal during a time window corresponding to a half frame. \n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 38,
+            "gate:gateId": 35,
+            "claimNumber": 9,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "9. The apparatus of",
+                    ", wherein the PSCH detector is further configured to find a position of the PSCH symbol through observations on the signal during a time window corresponding to a half frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 5
+        }
+    ],
+    "numberIndependentClaims": 186
+}}

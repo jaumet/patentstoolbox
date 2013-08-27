@@ -1,0 +1,238 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503116-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 33,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1258,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "device comprising:\na lens mounting member to which at least one lens is installed;\na guiding member that guides movement of the lens mounting member;\na driver that moves the lens mounting member and includes a lead screw;\nan operation member installation unit that is formed at an end of the lens mounting member and has first and second end portions;\nan operation member that includes a screw unit that contacts the lead screw, an installation unit that has first and second end portions and is installed to the operation member installation unit, and a connection unit connecting the screw unit and the installation unit; and\nan elastic member including a first end that contacts the installation unit and a second end that contacts the operation member installation unit, wherein the elastic member is configured in both a shape of a compression coil spring and a shape of a torsion coil spring and exerts both compression elasticity that pushes the operation member with respect to the operation member installation unit, and torsional elasticity that pushes the screw unit toward a base unit of the operation member installation unit;\nwherein the connection unit extends from the operation member installation unit toward the lead screw to connect the screw unit and the installation unit,\na first propping member that contacts the first end portion of the installation unit, while the operation member moves along the lead screw and prevents tilting of the operation member, is formed on the first end portion of the operation member installation unit, and\nat least one second propping member is formed on the second end of the operation member installation unit, protrudes toward the screw unit further than the second end portion of the installation unit, contacts a portion of the connection unit, and prevents tilting of the operation member.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " transferring ",
+            "claimSize": 327,
+            "gate:gateId": 1,
+            "claim_preamble": "A lens",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A lens transferring device comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a lens mounting member to which at least one lens is installed;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a guiding member that guides movement of the lens mounting member;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "a driver that moves the lens mounting member and includes a lead screw;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "an operation member installation unit that is formed at an end of the lens mounting member and has first and second end portions;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "an operation member that includes a screw unit that contacts the lead screw, an installation unit that has first and second end portions and is installed to the operation member installation unit, and a connection unit connecting the screw unit and the installation unit; and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "an elastic member including a first end that contacts the installation unit and a second end that contacts the operation member installation unit, wherein the elastic member is configured in both a shape of a compression coil spring and a shape of a torsion coil spring and exerts both compression elasticity that pushes the operation member with respect to the operation member installation unit, and torsional elasticity that pushes the screw unit toward a base unit of the operation member installation unit;",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein the connection unit extends from the operation member installation unit toward the lead screw to connect the screw unit and the installation unit,",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "a first propping member that contacts the first end portion of the installation unit, while the operation member moves along the lead screw and prevents tilting of the operation member, is formed on the first end portion of the operation member installation unit, and",
+                        "gate:gateId": 10
+                    },
+                    {
+                        "content": "at least one second propping member is formed on the second end of the operation member installation unit, protrudes toward the screw unit further than the second end portion of the installation unit, contacts a portion of the connection unit, and prevents tilting of the operation member.",
+                        "gate:gateId": 11
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "at least one guiding hole is formed in the lens mounting unit, and\nthe guiding member is inserted into the guiding hole and guides movement of the lens mounting unit.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 43,
+            "gate:gateId": 12,
+            "claimNumber": 2,
+            "claim_preamble": "The lens transferring device",
+            "claim-text": {
+                "content": [
+                    "2. The lens transferring device of",
+                    ", wherein at least one guiding hole is formed in the lens mounting unit, and"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13,
+                "claim-text": {
+                    "content": "the guiding member is inserted into the guiding hole and guides movement of the lens mounting unit.",
+                    "gate:gateId": 15
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the driver comprises a driving motor.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 18,
+            "gate:gateId": 16,
+            "claimNumber": 3,
+            "claim_preamble": "The lens transferring device",
+            "claim-text": {
+                "content": [
+                    "3. The lens transferring device of",
+                    ", wherein the driver comprises a driving motor."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the installation unit comprises:\nshafts arranged on two opposite ends of the installation unit; and\nan intermediate unit that is disposed between the shafts and contacts the first propping member.\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 44,
+            "gate:gateId": 19,
+            "claimNumber": 4,
+            "claim_preamble": "The lens transferring device",
+            "claim-text": {
+                "content": [
+                    "4. The lens transferring device of",
+                    ", wherein the installation unit comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20,
+                "claim-text": [
+                    {
+                        "content": "shafts arranged on two opposite ends of the installation unit; and",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "an intermediate unit that is disposed between the shafts and contacts the first propping member.",
+                        "gate:gateId": 23
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the intermediate unit has a cylindrical shape.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 19,
+            "gate:gateId": 24,
+            "claimNumber": 5,
+            "claim_preamble": "The lens transferring device",
+            "claim-text": {
+                "content": [
+                    "5. The lens transferring device of",
+                    ", wherein the intermediate unit has a cylindrical shape."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "installation holes are formed in the operation member installation unit, and the shafts are rotatably inserted into the installation holes.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 33,
+            "gate:gateId": 27,
+            "claimNumber": 6,
+            "claim_preamble": "The lens transferring device",
+            "claim-text": {
+                "content": [
+                    "6. The lens transferring device of",
+                    ", wherein installation holes are formed in the operation member installation unit, and the shafts are rotatably inserted into the installation holes."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 28
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a holding unit that holds an end of the elastic member is formed on the intermediate unit. \n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 29,
+            "gate:gateId": 30,
+            "claimNumber": 7,
+            "claim_preamble": "The lens transferring device",
+            "claim-text": {
+                "content": [
+                    "7. The lens transferring device of",
+                    ", wherein a holding unit that holds an end of the elastic member is formed on the intermediate unit."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 31
+            },
+            "depends_on": 4
+        }
+    ],
+    "numberIndependentClaims": 130
+}}

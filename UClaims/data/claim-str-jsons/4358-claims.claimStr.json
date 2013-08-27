@@ -1,0 +1,871 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503283-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 126,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 6517,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a first plurality of Orthogonal Frequency-Division Multiple Access (OFDMA) subcarriers to a group of wireless receiving devices, for delivering wireless messages comprising real-time traffic streams, with high access categories, the first plurality of OFDMA subcarriers being a portion of a group of OFDMA subcarriers occupying an available spectrum;\nallocating a second plurality of OFDMA subcarriers for contention based access by wireless receiving devices, for delivering wireless messages with other access categories than said high access categories, the second plurality of OFDMA subcarriers being a remaining portion of the group of OFDMA subcarriers occupying the available spectrum not including the first plurality of OFDMA subcarriers; and\nexchanging at least one OFDMA symbol including at least one of said reserved subcarriers of the first plurality of OFMDA subcarriers and including said subcarriers of the second plurality of OFMDA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", comprising:\nreserving ",
+            "claimSize": 160,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "reserving a first plurality of Orthogonal Frequency-Division Multiple Access (OFDMA) subcarriers to a group of wireless receiving devices, for delivering wireless messages comprising real-time traffic streams, with high access categories, the first plurality of OFDMA subcarriers being a portion of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "allocating a second plurality of OFDMA subcarriers for contention based access by wireless receiving devices, for delivering wireless messages with other access categories than said high access categories, the second plurality of OFDMA subcarriers being a remaining portion of the group of OFDMA subcarriers occupying the available spectrum not including the first plurality of OFDMA subcarriers; and",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "exchanging at least one OFDMA symbol including at least one of said reserved subcarriers of the first plurality of OFMDA subcarriers and including said subcarriers of the second plurality of OFMDA subcarriers for contention based access.",
+                        "gate:gateId": 5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "wireless messages with high access categories include at least one of voice messages and low-rate video messages.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 28,
+            "gate:gateId": 6,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein said wireless messages with high access categories include at least one of voice messages and low-rate video messages."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "first plurality of OFDMA subcarriers deliver management and control information messages.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 9,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein said first plurality of OFDMA subcarriers deliver management and control information messages."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "subcarrier reservation is based on a channel quality information.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 19,
+            "gate:gateId": 12,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", wherein subcarrier reservation is based on a channel quality information."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "subcarrier reservation is OFDMA subcarrier allocation on top of existing carrier sense multiple access/collision avoidance contention based channel access.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 31,
+            "gate:gateId": 15,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein subcarrier reservation is OFDMA subcarrier allocation on top of existing carrier sense multiple access/collision avoidance contention based channel access."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\nreserving at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;\nallocating a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;\ntransmitting to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and\ntransmitting at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": ", comprising:\nreceiving from ",
+            "claimSize": 193,
+            "gate:gateId": 18,
+            "claim_preamble": "A method",
+            "claimNumber": 6,
+            "claim-text": {
+                "content": "6. A method, comprising:",
+                "gate:gateId": 19,
+                "claim-text": [
+                    {
+                        "content": "receiving from at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 20
+                    },
+                    {
+                        "content": "reserving at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;",
+                        "gate:gateId": 21
+                    },
+                    {
+                        "content": "allocating a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "transmitting to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "transmitting at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 24
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00007",
+            "body": "allocation criteria include at least one of traffic load and configuration, high access categories for voice messages, high access categories for low-rate video messages, channel quality information (CQI), Quality of Service (QoS) requirements and subcarrier interference.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 55,
+            "gate:gateId": 25,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein said allocation criteria include at least one of traffic load and configuration, high access categories for voice messages, high access categories for low-rate video messages, channel quality information (CQI), Quality of Service (QoS) requirements and subcarrier interference."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 26
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "request is received in an association request or reassociation request frame.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 22,
+            "gate:gateId": 28,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method of",
+                    ", wherein said request is received in an association request or reassociation request frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 30,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 29
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "subcarrier reservation map is transmitted in at least one of an association response or reassociation response frame, a beacon frame, and a probe response frame.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 38,
+            "gate:gateId": 31,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method of",
+                    ", wherein said subcarrier reservation map is transmitted in at least one of an association response or reassociation response frame, a beacon frame, and a probe response frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 32
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00010",
+            "body": "subcarrier reservation map is transmitted for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 39,
+            "gate:gateId": 34,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method of",
+                    ", wherein said subcarrier reservation map is transmitted for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 35
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\nreceiving from said access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and\nreceiving at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": ", comprising:\ntransmitting to ",
+            "claimSize": 164,
+            "gate:gateId": 37,
+            "claim_preamble": "A method",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. A method, comprising:",
+                "gate:gateId": 38,
+                "claim-text": [
+                    {
+                        "content": "transmitting to a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "receiving from said access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and",
+                        "gate:gateId": 40
+                    },
+                    {
+                        "content": "receiving at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 41
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "high access categories include at least one of voice messages and low-rate video messages.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 25,
+            "gate:gateId": 42,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", wherein said high access categories include at least one of voice messages and low-rate video messages."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 44,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 43
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "request is transmitted in an association request or reassociation request frame.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 22,
+            "gate:gateId": 45,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", wherein said request is transmitted in an association request or reassociation request frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 47,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 46
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "subcarrier reservation map is received in at least one of an association response or reassociation response frame, a beacon frame and a probe response frame.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 37,
+            "gate:gateId": 48,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", wherein said subcarrier reservation map is received in at least one of an association response or reassociation response frame, a beacon frame and a probe response frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 50,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 49
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "subcarrier reservation map is received for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 39,
+            "gate:gateId": 51,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", wherein said subcarrier reservation map is received for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 53,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 52
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "a receiver configured to receive from at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\na processor configured to reserve at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;\nsaid processor configured to allocate a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;\na transmitter configured to transmit to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and\nsaid transmitter further configured to transmit at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00016",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 214,
+            "gate:gateId": 54,
+            "claim_preamble": "A device",
+            "claimNumber": 16,
+            "claim-text": {
+                "content": "16. A device, comprising:",
+                "gate:gateId": 55,
+                "claim-text": [
+                    {
+                        "content": "a receiver configured to receive from at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": "a processor configured to reserve at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "said processor configured to allocate a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;",
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": "a transmitter configured to transmit to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and",
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "said transmitter further configured to transmit at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 60
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00017",
+            "body": "allocation criteria include at least one of traffic load and configuration, high access categories for voice messages, high access categories for low-rate video messages, channel quality information (CQI), Quality of Service (QoS) requirements and subcarrier interference.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 55,
+            "gate:gateId": 61,
+            "claimNumber": 17,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "17. The device of",
+                    ", wherein said allocation criteria include at least one of traffic load and configuration, high access categories for voice messages, high access categories for low-rate video messages, channel quality information (CQI), Quality of Service (QoS) requirements and subcarrier interference."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00018",
+            "body": "request is received in an association request or reassociation request frame.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 22,
+            "gate:gateId": 64,
+            "claimNumber": 18,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "18. The device of",
+                    ", wherein said request is received in an association request or reassociation request frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00019",
+            "body": "subcarrier reservation map is transmitted in at least one of an association response or reassociation response frame, a beacon frame, and a probe response frame.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 38,
+            "gate:gateId": 67,
+            "claimNumber": 19,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "19. The device of",
+                    ", wherein said subcarrier reservation map is transmitted in at least one of an association response or reassociation response frame, a beacon frame, and a probe response frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00020",
+            "body": "subcarrier reservation map is transmitted for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 16",
+            "claimSize": 39,
+            "gate:gateId": 70,
+            "claimNumber": 20,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "20. The device of",
+                    ", wherein said subcarrier reservation map is transmitted for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble."
+                ],
+                "claim-ref": {
+                    "content": "claim 16",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00016"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 16
+        },
+        {
+            "id": "CLM-00021",
+            "body": "a transmitter configured to transmit to a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\na receiver configured to receive from said wireless access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and\nsaid receiver further configured to receive at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00021",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 178,
+            "gate:gateId": 73,
+            "claim_preamble": "A device",
+            "claimNumber": 21,
+            "claim-text": {
+                "content": "21. A device, comprising:",
+                "gate:gateId": 74,
+                "claim-text": [
+                    {
+                        "content": "a transmitter configured to transmit to a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 75
+                    },
+                    {
+                        "content": "a receiver configured to receive from said wireless access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and",
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": "said receiver further configured to receive at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 77
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00022",
+            "body": "wireless messages with high access categories include at least one of voice messages and low-rate video messages.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 28,
+            "gate:gateId": 78,
+            "claimNumber": 22,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "22. The device of",
+                    ", wherein said wireless messages with high access categories include at least one of voice messages and low-rate video messages."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 80,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 79
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00023",
+            "body": "request is transmitted in an association request or reassociation request frame.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 22,
+            "gate:gateId": 81,
+            "claimNumber": 23,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "23. The device of",
+                    ", wherein said request is transmitted in an association request or reassociation request frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 83,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 82
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00024",
+            "body": "subcarrier reservation map is received in at least one of an association response or reassociation response frame, a beacon frame and a probe response frame.\n",
+            "num": "00024",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 37,
+            "gate:gateId": 84,
+            "claimNumber": 24,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "24. The device of",
+                    ", wherein said subcarrier reservation map is received in at least one of an association response or reassociation response frame, a beacon frame and a probe response frame."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 86,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 85
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00025",
+            "body": "subcarrier reservation map is received for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble.\n",
+            "num": "00025",
+            "claimType": "dependent",
+            "transPhrase": ", wherein said ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 39,
+            "gate:gateId": 87,
+            "claimNumber": 25,
+            "claim_preamble": "The device",
+            "claim-text": {
+                "content": [
+                    "25. The device of",
+                    ", wherein said subcarrier reservation map is received for each physical layer protocol data unit (PPDU) inside signaling field of its physical layer convergence procedure (PLCP) preamble."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 89,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 88
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00026",
+            "body": "at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\nmeans for reserving at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;\nmeans for allocating a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;\nmeans for transmitting to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and\nmeans for transmitting at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00026",
+            "transPhrase": ", comprising:\nmeans for receiving from ",
+            "claimSize": 203,
+            "gate:gateId": 90,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 26,
+            "claim-text": {
+                "content": "26. An apparatus, comprising:",
+                "gate:gateId": 91,
+                "claim-text": [
+                    {
+                        "content": "means for receiving from at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 92
+                    },
+                    {
+                        "content": "means for reserving at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;",
+                        "gate:gateId": 93
+                    },
+                    {
+                        "content": "means for allocating a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;",
+                        "gate:gateId": 94
+                    },
+                    {
+                        "content": "means for transmitting to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and",
+                        "gate:gateId": 95
+                    },
+                    {
+                        "content": "means for transmitting at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 96
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00027",
+            "body": "a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\nmeans for receiving from said wireless access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and\nmeans for receiving at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00027",
+            "transPhrase": ", comprising:\nmeans for transmitting to ",
+            "claimSize": 171,
+            "gate:gateId": 97,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 27,
+            "claim-text": {
+                "content": "27. An apparatus, comprising:",
+                "gate:gateId": 98,
+                "claim-text": [
+                    {
+                        "content": "means for transmitting to a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 99
+                    },
+                    {
+                        "content": "means for receiving from said wireless access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and",
+                        "gate:gateId": 100
+                    },
+                    {
+                        "content": "means for receiving at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 101
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00028",
+            "body": "comprising:\na computer readable non-transitory storage medium storing computer program code which are executable in a computer processor;\nprogram code in said computer readable non-transitory storage medium for receiving from at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\nprogram code in said computer readable non-transitory storage medium for reserving at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;\nprogram code in said computer readable non-transitory storage medium for allocating a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;\nprogram code in said computer readable non-transitory storage medium for transmitting to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and\nprogram code in said computer readable non-transitory storage medium for transmitting at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00028",
+            "transPhrase": ", ",
+            "claimSize": 263,
+            "gate:gateId": 102,
+            "claim_preamble": "A computer program product",
+            "claimNumber": 28,
+            "claim-text": {
+                "content": "28. A computer program product, comprising:",
+                "gate:gateId": 103,
+                "claim-text": [
+                    {
+                        "content": "a computer readable non-transitory storage medium storing computer program code which are executable in a computer processor;",
+                        "gate:gateId": 104
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for receiving from at least one wireless device a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 105
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for reserving at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages comprising real-time traffic streams, with high access categories;",
+                        "gate:gateId": 106
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for allocating a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;",
+                        "gate:gateId": 107
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for transmitting to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers; and",
+                        "gate:gateId": 108
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for transmitting at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 109
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00029",
+            "body": "comprising:\na computer readable non-transitory storage medium storing computer program code which are executable in a computer processor;\nprogram code in said computer readable non-transitory storage medium for transmitting to a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\nprogram code in said computer readable non-transitory storage medium for receiving from said wireless access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and\nprogram code in said computer readable non-transitory storage medium for receiving at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.\n\n",
+            "claimType": "independent",
+            "num": "00029",
+            "transPhrase": ", ",
+            "claimSize": 215,
+            "gate:gateId": 110,
+            "claim_preamble": "A computer program product",
+            "claimNumber": 29,
+            "claim-text": {
+                "content": "29. A computer program product, comprising:",
+                "gate:gateId": 111,
+                "claim-text": [
+                    {
+                        "content": "a computer readable non-transitory storage medium storing computer program code which are executable in a computer processor;",
+                        "gate:gateId": 112
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for transmitting to a wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 113
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for receiving from said wireless access point a subcarrier reservation map designating at least one allocated OFDMA subcarrier for exchanging wireless messages comprising real-time traffic streams, with high access categories, and a plurality of OFDMA subcarriers occupying a remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories; and",
+                        "gate:gateId": 114
+                    },
+                    {
+                        "content": "program code in said computer readable non-transitory storage medium for receiving at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 115
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00030",
+            "body": "a wireless access point having a receiver;\nat least one wireless device having a transmitter configured to transmit to said receiver in said wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;\na processor in said wireless access point configured to reserve at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages with high access categories;\nsaid processor configured to allocate a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;\na transmitter in said wireless access point configured to transmit to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers;\na receiver in said at least one wireless device configured to receive from said wireless access point said subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers occupying said remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories;\nsaid transmitter in said wireless access point further configured to transmit at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access; and\nsaid receiver in said at least one wireless device further configured to receive said at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and said at least one of said plurality of OFDMA subcarriers for contention based access. \n\n",
+            "claimType": "independent",
+            "num": "00030",
+            "transPhrase": ", comprising:\n",
+            "claimSize": 367,
+            "gate:gateId": 116,
+            "claim_preamble": "A system",
+            "claimNumber": 30,
+            "claim-text": {
+                "content": "30. A system, comprising:",
+                "gate:gateId": 117,
+                "claim-text": [
+                    {
+                        "content": "a wireless access point having a receiver;",
+                        "gate:gateId": 118
+                    },
+                    {
+                        "content": "at least one wireless device having a transmitter configured to transmit to said receiver in said wireless access point a request for at least one Orthogonal Frequency-Division Multiple Access (OFDMA) subcarrier for delivering wireless messages comprising real-time traffic streams, with high access categories, the at least one OFDMA subcarrier being a member of a group of OFDMA subcarriers occupying an available spectrum;",
+                        "gate:gateId": 119
+                    },
+                    {
+                        "content": "a processor in said wireless access point configured to reserve at least one allocated OFDMA subcarrier to said at least one wireless device in response to said request, based on allocation criteria, for exchanging wireless messages with high access categories;",
+                        "gate:gateId": 120
+                    },
+                    {
+                        "content": "said processor configured to allocate a remaining portion of said available spectrum to a plurality of OFDMA subcarriers not including said at least one allocated OFDMA subcarrier, for contention based access by wireless receiving devices, for exchanging wireless messages with other access categories than said high access categories;",
+                        "gate:gateId": 121
+                    },
+                    {
+                        "content": "a transmitter in said wireless access point configured to transmit to the at least one wireless device a subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers;",
+                        "gate:gateId": 122
+                    },
+                    {
+                        "content": "a receiver in said at least one wireless device configured to receive from said wireless access point said subcarrier reservation map designating said at least one allocated OFDMA subcarrier and said plurality of OFDMA subcarriers occupying said remaining portion of said available spectrum not including said at least one allocated OFDMA subcarrier, for contention based access to deliver wireless messages with other access categories than said high access categories;",
+                        "gate:gateId": 123
+                    },
+                    {
+                        "content": "said transmitter in said wireless access point further configured to transmit at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and at least one of said plurality of OFDMA subcarriers for contention based access; and",
+                        "gate:gateId": 124
+                    },
+                    {
+                        "content": "said receiver in said at least one wireless device further configured to receive said at least one OFDMA symbol including said at least one allocated OFDMA subcarrier and said at least one of said plurality of OFDMA subcarriers for contention based access.",
+                        "gate:gateId": 125
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 143
+}}

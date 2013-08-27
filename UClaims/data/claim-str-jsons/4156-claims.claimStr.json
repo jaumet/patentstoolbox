@@ -1,0 +1,565 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503081-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 91,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3729,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "comprising:\na transparent plastic film substrate; and\na hard-coating antiglare layer containing fine particles, on at least one surface of the transparent plastic film substrate, wherein\nthe hard-coated antiglare film has a total haze value Ht in a range of 10% to 35%,\nthe total haze value Ht and an internal haze value Hin satisfy an relationship expressed by the following formula (1),\na surface of the hard-coating antiglare layer has an uneven shape and the following arithmetic average surface roughness Ra in a range of 0.1 to 0.3 μm, and\nthe hard-coated antiglare film includes: convexities that exceed a roughness mean line of a surface roughness profile; no convexities in which line segments of portions of the mean line that cross the convexities each have length of 80 μm or longer; convexities that exceed a standard line that is in parallel with the mean line and is located at a height of 0.1 μm; and at least 50 convexities in which line segments of portions of the standard line that cross the convexities each have a length of 20 μm or shorter in a 4-mm long portion at an arbitrary location of the surface of the hard-coating antiglare layer,\n\n\n0.5 ≦Hin/Ht≦ 0.9\u2003\u2003(1)\n\n\nTotal haze value Ht: a haze value (cloudiness) (%) of an entire hard-coated antiglare film, according to JIS K 7136 (2000 version),\nInternal haze value Hin: a haze value (%) of the entire hard-coated antiglare film measured in the case where a surface of the hard-coated antiglare film is smooth,\nRa: an arithmetic average surface roughness (μm) defined in JIS B 0601 (1994 version).\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": ", ",
+            "claimSize": 328,
+            "gate:gateId": 1,
+            "claim_preamble": "A hard-coated antiglare film",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A hard-coated antiglare film, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a transparent plastic film substrate; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a hard-coating antiglare layer containing fine particles, on at least one surface of the transparent plastic film substrate, wherein",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "the hard-coated antiglare film has a total haze value Ht in a range of 10% to 35%,",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "the total haze value Ht and an internal haze value Hin satisfy an relationship expressed by the following formula (1),",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "a surface of the hard-coating antiglare layer has an uneven shape and the following arithmetic average surface roughness Ra in a range of 0.1 to 0.3 μm, and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "the hard-coated antiglare film includes: convexities that exceed a roughness mean line of a surface roughness profile; no convexities in which line segments of portions of the mean line that cross the convexities each have length of 80 μm or longer; convexities that exceed a standard line that is in parallel with the mean line and is located at a height of 0.1 μm; and at least 50 convexities in which line segments of portions of the standard line that cross the convexities each have a length of 20 μm or shorter in a 4-mm long portion at an arbitrary location of the surface of the hard-coating antiglare layer,",
+                        "gate:gateId": 8,
+                        "claim-text": {
+                            "content": [
+                                0.5,
+                                "0.9\u2003\u2003(1)"
+                            ],
+                            "gate:gateId": 9,
+                            "br": {"gate:gateId": 10},
+                            "i": {
+                                "content": "≦Hin/Ht≦",
+                                "gate:gateId": 11
+                            }
+                        }
+                    },
+                    {
+                        "content": "Total haze value Ht: a haze value (cloudiness) (%) of an entire hard-coated antiglare film, according to JIS K 7136 (2000 version),",
+                        "gate:gateId": 12
+                    },
+                    {
+                        "content": "Internal haze value Hin: a haze value (%) of the entire hard-coated antiglare film measured in the case where a surface of the hard-coated antiglare film is smooth,",
+                        "gate:gateId": 13
+                    },
+                    {
+                        "content": "Ra: an arithmetic average surface roughness (μm) defined in JIS B 0601 (1994 version).",
+                        "gate:gateId": 14
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the hard-coating antiglare layer is formed using the fine particles and a material for forming a hard-coating layer, which contains the following components (A) and (B):\nthe component (A): a curable compound having at least one of an acrylate group and a methacrylate group, and\nthe component (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 104,
+            "gate:gateId": 15,
+            "claimNumber": 2,
+            "claim_preamble": "The hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "2. The hard-coated antiglare film according to",
+                    ", wherein the hard-coating antiglare layer is formed using the fine particles and a material for forming a hard-coating layer, which contains the following components (A) and (B):"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16,
+                "claim-text": [
+                    {
+                        "content": "the component (A): a curable compound having at least one of an acrylate group and a methacrylate group, and",
+                        "gate:gateId": 18
+                    },
+                    {
+                        "content": "the component (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.",
+                        "gate:gateId": 19
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the component (B), the inorganic oxide particles include particles of at least one type selected from the group consisting of silicon oxide, titanium oxide, aluminum oxide, zinc oxide, tin oxide, and zirconium oxide.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein in ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 55,
+            "gate:gateId": 20,
+            "claimNumber": 3,
+            "claim_preamble": "The hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "3. The hard-coated antiglare film according to",
+                    ", wherein in the component (B), the inorganic oxide particles include particles of at least one type selected from the group consisting of silicon oxide, titanium oxide, aluminum oxide, zinc oxide, tin oxide, and zirconium oxide."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the material for forming a hard-coating layer contains the component (B) in a range of 100 to 200 parts by weight per 100 parts by weight of the component (A).\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 47,
+            "gate:gateId": 23,
+            "claimNumber": 4,
+            "claim_preamble": "The hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "4. The hard-coated antiglare film according to",
+                    ", wherein the material for forming a hard-coating layer contains the component (B) in a range of 100 to 200 parts by weight per 100 parts by weight of the component (A)."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a difference in refractive index between a material for forming a hard-coating layer and the fine particles is in a range of 0.01 to 0.04,\nthe hard-coating antiglare layer contains at least one type of spherical and amorphous fine particles, each of which have a weight average particle size in a range of 0.5 to 8 μm as the fine particles, and\nthe hard-coated antiglare film contains the fine particles in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein\n",
+            "claimBackReference": "according claim 1 ,",
+            "claimSize": 114,
+            "gate:gateId": 26,
+            "claimNumber": 0,
+            "claim_preamble": "The hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "5. The hard-coated antiglare film according",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 27,
+                "claim-text": [
+                    {
+                        "content": "a difference in refractive index between a material for forming a hard-coating layer and the fine particles is in a range of 0.01 to 0.04,",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "the hard-coating antiglare layer contains at least one type of spherical and amorphous fine particles, each of which have a weight average particle size in a range of 0.5 to 8 μm as the fine particles, and",
+                        "gate:gateId": 30
+                    },
+                    {
+                        "content": "the hard-coated antiglare film contains the fine particles in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer.",
+                        "gate:gateId": 31
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the hard-coating antiglare layer has a thickness in a range that is 1.2 to 3 times weight average particle size of the fine particles.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 39,
+            "gate:gateId": 32,
+            "claimNumber": 6,
+            "claim_preamble": "The hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "6. The hard-coated antiglare film according to",
+                    ", wherein the hard-coating antiglare layer has a thickness in a range that is 1.2 to 3 times weight average particle size of the fine particles."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "further comprising:\nan antireflection layer formed on the hard-coating antiglare layer.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 24,
+            "gate:gateId": 35,
+            "claimNumber": 7,
+            "claim_preamble": "The hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "7. The hard-coated antiglare film according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 36,
+                "claim-text": {
+                    "content": "an antireflection layer formed on the hard-coating antiglare layer.",
+                    "gate:gateId": 38
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00008",
+            "body": "a polarizer.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "; and\n",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 21,
+            "gate:gateId": 39,
+            "claimNumber": 8,
+            "claim_preamble": "A polarizing platethe hard-coated antiglare film",
+            "claim-text": {
+                "content": "8. A polarizing plate, comprising:",
+                "gate:gateId": 40,
+                "claim-text": [
+                    {
+                        "content": [
+                            "the hard-coated antiglare film according to",
+                            "; and"
+                        ],
+                        "claim-ref": {
+                            "content": "claim 1",
+                            "gate:gateId": 42,
+                            "idref": "CLM-00001"
+                        },
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "a polarizer.",
+                        "gate:gateId": 43
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "\n\n1. A hard-coated antiglare film, comprising:\na transparent plastic film substrate; and\na hard-coating antiglare layer containing fine particles, on at least one surface of the transparent plastic film substrate, wherein\nthe hard-coated antiglare film has a total haze value Ht in a range of 10% to 35%,\nthe total haze value Ht and an internal haze value Hin satisfy an relationship expressed by the following formula (1),\na surface of the hard-coating antiglare layer has an uneven shape and the following arithmetic average surface roughness Ra in a range of 0.1 to 0.3 μm, and\nthe hard-coated antiglare film includes: convexities that exceed a roughness mean line of a surface roughness profile; no convexities in which line segments of portions of the mean line that cross the convexities each have length of 80 μm or longer; convexities that exceed a standard line that is in parallel with the mean line and is located at a height of 0.1 μm; and at least 50 convexities in which line segments of portions of the standard line that cross the convexities each have a length of 20 μm or shorter in a 4-mm long portion at an arbitrary location of the surface of the hard-coating antiglare layer,\n\n\n0.5 ≦Hin/Ht≦ 0.9\u2003\u2003(1)\n\n\nTotal haze value Ht: a haze value (cloudiness) (%) of an entire hard-coated antiglare film, according to JIS K 7136 (2000 version),\nInternal haze value Hin: a haze value (%) of the entire hard-coated antiglare film measured in the case where a surface of the hard-coated antiglare film is smooth,\nRa: an arithmetic average surface roughness (μm) defined in JIS B 0601 (1994 version).\n\n\n\n2. The hard-coated antiglare film according to claim 1 , wherein the hard-coating antiglare layer is formed using the fine particles and a material for forming a hard-coating layer, which contains the following components (A) and (B):\nthe component (A): a curable compound having at least one of an acrylate group and a methacrylate group, and\nthe component (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.\n\n\n\n3. The hard-coated antiglare film according to claim 2 , wherein in the component (B), the inorganic oxide particles include particles of at least one type selected from the group consisting of silicon oxide, titanium oxide, aluminum oxide, zinc oxide, tin oxide, and zirconium oxide.\n\n\n4. The hard-coated antiglare film according to claim 2 , wherein the material for forming a hard-coating layer contains the component (B) in a range of 100 to 200 parts by weight per 100 parts by weight of the component (A).\n\n\n5. The hard-coated antiglare film according claim 1 , wherein\na difference in refractive index between a material for forming a hard-coating layer and the fine particles is in a range of 0.01 to 0.04,\nthe hard-coating antiglare layer contains at least one type of spherical and amorphous fine particles, each of which have a weight average particle size in a range of 0.5 to 8 μm as the fine particles, and\nthe hard-coated antiglare film contains the fine particles in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer.\n\n\n\n6. The hard-coated antiglare film according to claim 1 , wherein the hard-coating antiglare layer has a thickness in a range that is 1.2 to 3 times weight average particle size of the fine particles.\n\n\n7. The hard-coated antiglare film according to claim 1 , further comprising:\nan antireflection layer formed on the hard-coating antiglare layer.\n\n\n\n8. A polarizing plate, comprising:\nthe hard-coated antiglare film according to claim 1 ; and\na polarizer.\n\n\n\n9. An image display, comprising:\nthe hard-coated antiglare film according to claim 1 .\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 17,
+            "gate:gateId": 44,
+            "claimNumber": 9,
+            "claim_preamble": "An image displaycomprisingthe hard-coated antiglare film",
+            "claim-text": {
+                "content": "9. An image display, comprising:",
+                "gate:gateId": 45,
+                "claim-text": {
+                    "content": [
+                        "the hard-coated antiglare film according to",
+                        "."
+                    ],
+                    "claim-ref": {
+                        "content": "claim 1",
+                        "gate:gateId": 47,
+                        "idref": "CLM-00001"
+                    },
+                    "gate:gateId": 46
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00010",
+            "body": "\n\n1. A hard-coated antiglare film, comprising:\na transparent plastic film substrate; and\na hard-coating antiglare layer containing fine particles, on at least one surface of the transparent plastic film substrate, wherein\nthe hard-coated antiglare film has a total haze value Ht in a range of 10% to 35%,\nthe total haze value Ht and an internal haze value Hin satisfy an relationship expressed by the following formula (1),\na surface of the hard-coating antiglare layer has an uneven shape and the following arithmetic average surface roughness Ra in a range of 0.1 to 0.3 μm, and\nthe hard-coated antiglare film includes: convexities that exceed a roughness mean line of a surface roughness profile; no convexities in which line segments of portions of the mean line that cross the convexities each have length of 80 μm or longer; convexities that exceed a standard line that is in parallel with the mean line and is located at a height of 0.1 μm; and at least 50 convexities in which line segments of portions of the standard line that cross the convexities each have a length of 20 μm or shorter in a 4-mm long portion at an arbitrary location of the surface of the hard-coating antiglare layer,\n\n\n0.5 ≦Hin/Ht≦ 0.9\u2003\u2003(1)\n\n\nTotal haze value Ht: a haze value (cloudiness) (%) of an entire hard-coated antiglare film, according to JIS K 7136 (2000 version),\nInternal haze value Hin: a haze value (%) of the entire hard-coated antiglare film measured in the case where a surface of the hard-coated antiglare film is smooth,\nRa: an arithmetic average surface roughness (μm) defined in JIS B 0601 (1994 version).\n\n\n\n2. The hard-coated antiglare film according to claim 1 , wherein the hard-coating antiglare layer is formed using the fine particles and a material for forming a hard-coating layer, which contains the following components (A) and (B):\nthe component (A): a curable compound having at least one of an acrylate group and a methacrylate group, and\nthe component (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.\n\n\n\n3. The hard-coated antiglare film according to claim 2 , wherein in the component (B), the inorganic oxide particles include particles of at least one type selected from the group consisting of silicon oxide, titanium oxide, aluminum oxide, zinc oxide, tin oxide, and zirconium oxide.\n\n\n4. The hard-coated antiglare film according to claim 2 , wherein the material for forming a hard-coating layer contains the component (B) in a range of 100 to 200 parts by weight per 100 parts by weight of the component (A).\n\n\n5. The hard-coated antiglare film according claim 1 , wherein\na difference in refractive index between a material for forming a hard-coating layer and the fine particles is in a range of 0.01 to 0.04,\nthe hard-coating antiglare layer contains at least one type of spherical and amorphous fine particles, each of which have a weight average particle size in a range of 0.5 to 8 μm as the fine particles, and\nthe hard-coated antiglare film contains the fine particles in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer.\n\n\n\n6. The hard-coated antiglare film according to claim 1 , wherein the hard-coating antiglare layer has a thickness in a range that is 1.2 to 3 times weight average particle size of the fine particles.\n\n\n7. The hard-coated antiglare film according to claim 1 , further comprising:\nan antireflection layer formed on the hard-coating antiglare layer.\n\n\n\n8. A polarizing plate, comprising:\nthe hard-coated antiglare film according to claim 1 ; and\na polarizer.\n\n\n\n9. An image display, comprising:\nthe hard-coated antiglare film according to claim 1 .\n\n\n\n10. An image display, comprising:\nthe polarizing plate according to claim 8 .\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 8",
+            "claimSize": 16,
+            "gate:gateId": 48,
+            "claimNumber": 10,
+            "claim_preamble": "An image displaycomprisingthe polarizing plate",
+            "claim-text": {
+                "content": "10. An image display, comprising:",
+                "gate:gateId": 49,
+                "claim-text": {
+                    "content": [
+                        "the polarizing plate according to",
+                        "."
+                    ],
+                    "claim-ref": {
+                        "content": "claim 8",
+                        "gate:gateId": 51,
+                        "idref": "CLM-00008"
+                    },
+                    "gate:gateId": 50
+                }
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00011",
+            "body": "comprising:\nproviding a material for forming a hard-coating antiglare layer, which contains fine particles,\na material for forming a hard-coating layer, which contains the following component (A) and component (B), and\na solvent;\nforming a film by applying the material for forming a hard-coating antiglare layer onto at least one surface of a transparent plastic film substrate; and\nforming a hard-coating antiglare layer by curing the film, wherein\nthe fine particles are added in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer,\na mixed solvent of butyl acetate and methyl ethyl ketone (MEK) is used as the solvent, and\na ratio of butyl acetate to MEK in the mixed solvent is in a range of 1.5/1 to 6.0/1 as a weight ratio\nComponent (A): a curable compound having at least one of an acrylate group and a methacrylate group,\nComponent (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 232,
+            "gate:gateId": 52,
+            "claimNumber": 6,
+            "claim_preamble": "A methodthe hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "11. A method for producing the hard-coated antiglare film according to",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 54,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 53,
+                "claim-text": [
+                    {
+                        "content": "providing a material for forming a hard-coating antiglare layer, which contains fine particles,",
+                        "gate:gateId": 55
+                    },
+                    {
+                        "content": "a material for forming a hard-coating layer, which contains the following component (A) and component (B), and",
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": "a solvent;",
+                        "gate:gateId": 57
+                    },
+                    {
+                        "content": "forming a film by applying the material for forming a hard-coating antiglare layer onto at least one surface of a transparent plastic film substrate; and",
+                        "gate:gateId": 58
+                    },
+                    {
+                        "content": "forming a hard-coating antiglare layer by curing the film, wherein",
+                        "gate:gateId": 59
+                    },
+                    {
+                        "content": "the fine particles are added in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer,",
+                        "gate:gateId": 60
+                    },
+                    {
+                        "content": "a mixed solvent of butyl acetate and methyl ethyl ketone (MEK) is used as the solvent, and",
+                        "gate:gateId": 61
+                    },
+                    {
+                        "content": "a ratio of butyl acetate to MEK in the mixed solvent is in a range of 1.5/1 to 6.0/1 as a weight ratio",
+                        "gate:gateId": 62
+                    },
+                    {
+                        "content": "Component (A): a curable compound having at least one of an acrylate group and a methacrylate group,",
+                        "gate:gateId": 63
+                    },
+                    {
+                        "content": "Component (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.",
+                        "gate:gateId": 64
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "comprising:\nproviding a material for forming a hard-coating antiglare layer, which contains fine particles,\na material for forming a hard-coating layer, which contains the following component (A) and component (B), and\na solvent;\nforming a film by applying the material for forming a hard-coating antiglare layer onto at least one surface of a transparent plastic film substrate; and\nforming a hard-coating antiglare layer by curing the film, wherein\nthe fine particles are added in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer,\na mixed solvent of methyl isobutyl ketone (MIBK) and methyl ethyl ketone (MEK) is used as the solvent, and\na ratio of MIBK to MEK in the mixed solvent is in a range of 1.5/1 to 6.0/1 as a weight ratio\nComponent (A): a curable compound having at least one of an acrylate group and a methacrylate group,\nComponent (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.\n\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 235,
+            "gate:gateId": 65,
+            "claimNumber": 6,
+            "claim_preamble": "A methodthe hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "12. A method for producing the hard-coated antiglare film according to",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 66,
+                "claim-text": [
+                    {
+                        "content": "providing a material for forming a hard-coating antiglare layer, which contains fine particles,",
+                        "gate:gateId": 68
+                    },
+                    {
+                        "content": "a material for forming a hard-coating layer, which contains the following component (A) and component (B), and",
+                        "gate:gateId": 69
+                    },
+                    {
+                        "content": "a solvent;",
+                        "gate:gateId": 70
+                    },
+                    {
+                        "content": "forming a film by applying the material for forming a hard-coating antiglare layer onto at least one surface of a transparent plastic film substrate; and",
+                        "gate:gateId": 71
+                    },
+                    {
+                        "content": "forming a hard-coating antiglare layer by curing the film, wherein",
+                        "gate:gateId": 72
+                    },
+                    {
+                        "content": "the fine particles are added in a range of 5 to 20 parts by weight per 100 parts by weight of the material for forming a hard-coating layer,",
+                        "gate:gateId": 73
+                    },
+                    {
+                        "content": "a mixed solvent of methyl isobutyl ketone (MIBK) and methyl ethyl ketone (MEK) is used as the solvent, and",
+                        "gate:gateId": 74
+                    },
+                    {
+                        "content": "a ratio of MIBK to MEK in the mixed solvent is in a range of 1.5/1 to 6.0/1 as a weight ratio",
+                        "gate:gateId": 75
+                    },
+                    {
+                        "content": "Component (A): a curable compound having at least one of an acrylate group and a methacrylate group,",
+                        "gate:gateId": 76
+                    },
+                    {
+                        "content": "Component (B): particles with a weight-average particle size of 200 nm or shorter, which are formed by binding between inorganic oxide particles and an organic compound having a polymerizable unsaturated group.",
+                        "gate:gateId": 77
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00013",
+            "body": "a hard-coated antiglare film, comprising:\nevaluating visibility of a hard-coated antiglare film using:\na total haze value Ht, an internal haze value Hin, and a arithmetic average surface roughness Ra of a surface of the hard-coated antiglare film having an uneven shape, which are defined below;\na size and the number of convexities that exceed a roughness mean line of a surface roughness profile in a 4-mm long portion at an arbitrary location of the surface of the hard-coated antiglare film; and\na size and the number of convexities that exceed a standard line that is in parallel with the mean line and is located at a height of 0.1 μm, assuming that the total haze value Ht of the hard-coated antiglare film is in a range of 10% to 35%\nTotal haze value Ht: a haze value (cloudiness) (%) of an entire hard-coated antiglare film, according to JIS K 7136 (2000 version),\nInternal haze value Hin: a haze value (%) of the entire hard-coated antiglare film measured in the case where a surface of the hard-coated antiglare film is smooth,\nRa: an arithmetic average surface roughness (μm) defined in JIS B 0601(1994 version).\n\n",
+            "claimType": "independent",
+            "num": "00013",
+            "transPhrase": " for evaluating ",
+            "claimSize": 235,
+            "gate:gateId": 78,
+            "claim_preamble": "A method",
+            "claimNumber": 0,
+            "claim-text": {
+                "content": "13. A method for evaluating a hard-coated antiglare film, comprising:",
+                "gate:gateId": 79,
+                "claim-text": [
+                    {
+                        "content": "evaluating visibility of a hard-coated antiglare film using:",
+                        "gate:gateId": 80
+                    },
+                    {
+                        "content": "a total haze value Ht, an internal haze value Hin, and a arithmetic average surface roughness Ra of a surface of the hard-coated antiglare film having an uneven shape, which are defined below;",
+                        "gate:gateId": 81
+                    },
+                    {
+                        "content": "a size and the number of convexities that exceed a roughness mean line of a surface roughness profile in a 4-mm long portion at an arbitrary location of the surface of the hard-coated antiglare film; and",
+                        "gate:gateId": 82
+                    },
+                    {
+                        "content": "a size and the number of convexities that exceed a standard line that is in parallel with the mean line and is located at a height of 0.1 μm, assuming that the total haze value Ht of the hard-coated antiglare film is in a range of 10% to 35%",
+                        "gate:gateId": 83
+                    },
+                    {
+                        "content": "Total haze value Ht: a haze value (cloudiness) (%) of an entire hard-coated antiglare film, according to JIS K 7136 (2000 version),",
+                        "gate:gateId": 84
+                    },
+                    {
+                        "content": "Internal haze value Hin: a haze value (%) of the entire hard-coated antiglare film measured in the case where a surface of the hard-coated antiglare film is smooth,",
+                        "gate:gateId": 85
+                    },
+                    {
+                        "content": "Ra: an arithmetic average surface roughness (μm) defined in JIS B 0601(1994 version).",
+                        "gate:gateId": 86
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the hard-coated antiglare film is evaluated as acceptable when the Ht and the Hin satisfy a relationship expressed by the following formula (1), the Ra is in a range of 0.1 to 0.3 μm, the hard-coated antiglare film includes no convexities in which line segments of portions of the mean line that cross the convexities each have a length of 80 μm or longer, and includes at least 50 convexities in which line segments of portions of the standard line that cross the convexities each have a length of 20 μm or shorter. \n\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein\n",
+            "claimBackReference": "according to claim 13 ,",
+            "claimSize": 119,
+            "gate:gateId": 87,
+            "claimNumber": 0,
+            "claim_preamble": "The methoda hard-coated antiglare film",
+            "claim-text": {
+                "content": [
+                    "14. The method for evaluating a hard-coated antiglare film according to",
+                    ", wherein"
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 89,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 88,
+                "claim-text": {
+                    "content": "the hard-coated antiglare film is evaluated as acceptable when the Ht and the Hin satisfy a relationship expressed by the following formula (1), the Ra is in a range of 0.1 to 0.3 μm, the hard-coated antiglare film includes no convexities in which line segments of portions of the mean line that cross the convexities each have a length of 80 μm or longer, and includes at least 50 convexities in which line segments of portions of the standard line that cross the convexities each have a length of 20 μm or shorter.",
+                    "gate:gateId": 90
+                }
+            },
+            "depends_on": 13
+        }
+    ],
+    "numberIndependentClaims": 121
+}}

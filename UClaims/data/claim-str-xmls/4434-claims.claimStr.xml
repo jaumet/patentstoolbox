@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<claims xmlns:gate="http://www.gate.ac.uk" gate:gateId="0" gate:annotMaxId="3417" id="claims" numberDependentClaims="0" numberIndependentClaims="162">
+<claim gate:gateId="1" id="CLM-00001" body="a first device for performing wireless directional communications with a second device, the wireless directional communications comprising:
+setting a network allocation vector (NAV) in response to detecting a network reservation from a third device;
+receiving, during a time period indicated by the NAV, a request-to-send (RTS) from the second device;
+transmitting, to the second device, either a denial-to-send (DTS) for a time period before expiration of the NAV or a delayed clear-to-send (D-CTS) for a time period after expiration of the NAV, the DTS indicating to the second device not to initiate communications until after expiration of the NAV; and
+performing communications with the second device after the expiration of the NAV and after said transmitting, said communications taking place during a time period indicated by the RTS from the second device;
+wherein said transmitting comprises transmitting a DTS; and
+the first device is to receive a second RTS from the second device after the expiration of the NAV and is to transmit a clear-to-send (CTS) after receiving the second RTS but before said performing.
+
+" num="00001" claimType="independent" transPhrase=", comprising:
+" claimSize="206" claimNumber="1" claim_preamble="A system">
+<claim-text gate:gateId="2">1. A system, comprising:
+<claim-text gate:gateId="3">a first device for performing wireless directional communications with a second device, the wireless directional communications comprising:</claim-text>
+<claim-text gate:gateId="4">setting a network allocation vector (NAV) in response to detecting a network reservation from a third device;</claim-text>
+<claim-text gate:gateId="5">receiving, during a time period indicated by the NAV, a request-to-send (RTS) from the second device;</claim-text>
+<claim-text gate:gateId="6">transmitting, to the second device, either a denial-to-send (DTS) for a time period before expiration of the NAV or a delayed clear-to-send (D-CTS) for a time period after expiration of the NAV, the DTS indicating to the second device not to initiate communications until after expiration of the NAV; and</claim-text>
+<claim-text gate:gateId="7">performing communications with the second device after the expiration of the NAV and after said transmitting, said communications taking place during a time period indicated by the RTS from the second device;</claim-text>
+<claim-text gate:gateId="8">wherein said transmitting comprises transmitting a DTS; and</claim-text>
+<claim-text gate:gateId="9">the first device is to receive a second RTS from the second device after the expiration of the NAV and is to transmit a clear-to-send (CTS) after receiving the second RTS but before said performing.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="10" id="CLM-00002" body="the DTS comprises a frame control message indicating a time remaining in the NAV.
+" claimType="dependent" num="00002" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="24" claim_preamble="The system" claimNumber="2" depends_on="1">
+<claim-text gate:gateId="11">2. The system of <claim-ref gate:gateId="12" idref="CLM-00001">claim 1</claim-ref> , wherein the DTS comprises a frame control message indicating a time remaining in the NAV.</claim-text>
+</claim>
+<claim gate:gateId="13" id="CLM-00003" body="the network reservation comprises either an RTS or a CTS transmitted by the third device and not addressed to the first device.
+" claimType="dependent" num="00003" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="32" claim_preamble="The system" claimNumber="3" depends_on="1">
+<claim-text gate:gateId="14">3. The system of <claim-ref gate:gateId="15" idref="CLM-00001">claim 1</claim-ref> , wherein the network reservation comprises either an RTS or a CTS transmitted by the third device and not addressed to the first device.</claim-text>
+</claim>
+<claim gate:gateId="16" id="CLM-00004" body="at least one antenna.
+" claimType="dependent" num="00004" claimBackReference="of claim 1" transPhrase=", further comprising " claimSize="15" claim_preamble="The system" claimNumber="4" depends_on="1">
+<claim-text gate:gateId="17">4. The system of <claim-ref gate:gateId="18" idref="CLM-00001">claim 1</claim-ref> , further comprising at least one antenna.</claim-text>
+</claim>
+<claim gate:gateId="19" id="CLM-00005" body="the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.
+" claimType="dependent" num="00005" claimBackReference="of claim 1" transPhrase=", wherein " claimSize="38" claim_preamble="The apparatus" claimNumber="5" depends_on="1">
+<claim-text gate:gateId="20">5. The apparatus of <claim-ref gate:gateId="21" idref="CLM-00001">claim 1</claim-ref> , wherein the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.</claim-text>
+</claim>
+<claim gate:gateId="22" id="CLM-00006" body="a second device, by performing operations in a first device, said operations comprising:
+setting a network allocation vector (NAV) in response to detecting either a request to send (RTS) from a third device or a clear-to-send (CTS) from the third device;
+receiving, during a time period indicated by the NAV, a request-to-send (RTS) from the second device;
+transmitting, to the second device, in response to receiving the RTS, a denial-to-send (DTS) before expiration of the NAV, the DTS indicating to the second device not to initiate communications until after expiration of the NAV;
+performing communications with the second device after the expiration of the NAV, wherein said receiving, said transmitting, and said performing communications each comprise using a directional link;
+receiving a second RTS from the second device after the expiration of the NAV; and
+transmitting a clear-to-send (CTS) after receiving the second RTS but before said performing.
+
+
+" num="00006" claimType="independent" transPhrase=", comprising:
+communicating wirelessly with " claimSize="188" claimNumber="6" claim_preamble="A method">
+<claim-text gate:gateId="23">6. A method, comprising:
+<claim-text gate:gateId="24">communicating wirelessly with a second device, by performing operations in a first device, said operations comprising:
+<claim-text gate:gateId="25">setting a network allocation vector (NAV) in response to detecting either a request to send (RTS) from a third device or a clear-to-send (CTS) from the third device;</claim-text>
+<claim-text gate:gateId="26">receiving, during a time period indicated by the NAV, a request-to-send (RTS) from the second device;</claim-text>
+<claim-text gate:gateId="27">transmitting, to the second device, in response to receiving the RTS, a denial-to-send (DTS) before expiration of the NAV, the DTS indicating to the second device not to initiate communications until after expiration of the NAV;</claim-text>
+<claim-text gate:gateId="28">performing communications with the second device after the expiration of the NAV, wherein said receiving, said transmitting, and said performing communications each comprise using a directional link;</claim-text>
+<claim-text gate:gateId="29">receiving a second RTS from the second device after the expiration of the NAV; and</claim-text>
+<claim-text gate:gateId="30">transmitting a clear-to-send (CTS) after receiving the second RTS but before said performing.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="31" id="CLM-00007" body="the DTS comprises a duration field indicating a time remaining in the NAV.
+" claimType="dependent" num="00007" claimBackReference="of claim 6" transPhrase=", wherein " claimSize="23" claim_preamble="The method" claimNumber="7" depends_on="6">
+<claim-text gate:gateId="32">7. The method of <claim-ref gate:gateId="33" idref="CLM-00006">claim 6</claim-ref> , wherein the DTS comprises a duration field indicating a time remaining in the NAV.</claim-text>
+</claim>
+<claim gate:gateId="34" id="CLM-00008" body="the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.
+" claimType="dependent" num="00008" claimBackReference="of claim 6" transPhrase=", wherein " claimSize="38" claim_preamble="The method" claimNumber="8" depends_on="6">
+<claim-text gate:gateId="35">8. The method of <claim-ref gate:gateId="36" idref="CLM-00006">claim 6</claim-ref> , wherein the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.</claim-text>
+</claim>
+<claim gate:gateId="37" id="CLM-00009" body="a non-transitory computer-readable storage medium that contains non-transitory instructions, which when executed by one or more processors result in performing operations comprising:
+setting a network allocation vector (NAV) in response to detecting either a request to send (RTS) from a third device or a clear-to-send (CTS) from the third device;
+receiving, during a time period indicated by the NAV, a request-to-send (RTS) from the second device;
+transmitting, to the second device, a denial-to-send (DTS) before expiration of the NAV, the DTS indicating to the second device not to initiate communications until after expiration of the NAV;
+performing communications with the second device after the expiration of the NAV, wherein the operations of receiving, transmitting, and performing take place over a directional link;
+receiving another RTS from the second device after the expiration of the NAV; and
+transmitting a clear-to-send (CTS) after receiving the second RTS but before said performing.
+
+" num="00009" claimType="independent" transPhrase=":
+" claimSize="183" claimNumber="9" claim_preamble="An article comprising">
+<claim-text gate:gateId="38">9. An article comprising:
+<claim-text gate:gateId="39">a non-transitory computer-readable storage medium that contains non-transitory instructions, which when executed by one or more processors result in performing operations comprising:</claim-text>
+<claim-text gate:gateId="40">setting a network allocation vector (NAV) in response to detecting either a request to send (RTS) from a third device or a clear-to-send (CTS) from the third device;</claim-text>
+<claim-text gate:gateId="41">receiving, during a time period indicated by the NAV, a request-to-send (RTS) from the second device;</claim-text>
+<claim-text gate:gateId="42">transmitting, to the second device, a denial-to-send (DTS) before expiration of the NAV, the DTS indicating to the second device not to initiate communications until after expiration of the NAV;</claim-text>
+<claim-text gate:gateId="43">performing communications with the second device after the expiration of the NAV, wherein the operations of receiving, transmitting, and performing take place over a directional link;</claim-text>
+<claim-text gate:gateId="44">receiving another RTS from the second device after the expiration of the NAV; and</claim-text>
+<claim-text gate:gateId="45">transmitting a clear-to-send (CTS) after receiving the second RTS but before said performing.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="46" id="CLM-00010" body="the DTS comprises a frame control message indicating a time remaining in the NAV.
+" claimType="dependent" num="00010" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="24" claim_preamble="The article" claimNumber="10" depends_on="9">
+<claim-text gate:gateId="47">10. The article of <claim-ref gate:gateId="48" idref="CLM-00009">claim 9</claim-ref> , wherein the DTS comprises a frame control message indicating a time remaining in the NAV.</claim-text>
+</claim>
+<claim gate:gateId="49" id="CLM-00011" body="the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.
+" claimType="dependent" num="00011" claimBackReference="of claim 9" transPhrase=", wherein " claimSize="38" claim_preamble="The article" claimNumber="11" depends_on="9">
+<claim-text gate:gateId="50">11. The article of <claim-ref gate:gateId="51" idref="CLM-00009">claim 9</claim-ref> , wherein the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.</claim-text>
+</claim>
+<claim gate:gateId="52" id="CLM-00012" body="a first device for performing wireless directional communications with a second device over a directional link, the first device including a radio, a processor, and a memory, the wireless directional communications comprising:
+transmitting a request-to-send (RTS) to the second device;
+receiving a denial-to-send (DTS) from the second device, the DTS containing a duration value indicating a time remaining for a network allocation vector (NAV) that has been set in the second device, the DTS indicating to the first device not to initiate communications until after expiration of the NAV;
+performing subsequent communications with the second device only after the expiration of the NAV;
+transmitting a second RTS to the second device after said expiration of the NAV; and
+receiving a clear-to-send (CTS) from the second device after transmitting the second RTS but before said performing the subsequent communication.
+
+" num="00012" claimType="independent" transPhrase=", comprising:
+" claimSize="165" claimNumber="12" claim_preamble="A system">
+<claim-text gate:gateId="53">12. A system, comprising:
+<claim-text gate:gateId="54">a first device for performing wireless directional communications with a second device over a directional link, the first device including a radio, a processor, and a memory, the wireless directional communications comprising:</claim-text>
+<claim-text gate:gateId="55">transmitting a request-to-send (RTS) to the second device;</claim-text>
+<claim-text gate:gateId="56">receiving a denial-to-send (DTS) from the second device, the DTS containing a duration value indicating a time remaining for a network allocation vector (NAV) that has been set in the second device, the DTS indicating to the first device not to initiate communications until after expiration of the NAV;</claim-text>
+<claim-text gate:gateId="57">performing subsequent communications with the second device only after the expiration of the NAV;</claim-text>
+<claim-text gate:gateId="58">transmitting a second RTS to the second device after said expiration of the NAV; and</claim-text>
+<claim-text gate:gateId="59">receiving a clear-to-send (CTS) from the second device after transmitting the second RTS but before said performing the subsequent communication.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="60" id="CLM-00013" body="at least one antenna.
+" claimType="dependent" num="00013" claimBackReference="of claim 12" transPhrase=", further comprising " claimSize="15" claim_preamble="The system" claimNumber="13" depends_on="12">
+<claim-text gate:gateId="61">13. The system of <claim-ref gate:gateId="62" idref="CLM-00012">claim 12</claim-ref> , further comprising at least one antenna.</claim-text>
+</claim>
+<claim gate:gateId="63" id="CLM-00014" body="the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.
+" claimType="dependent" num="00014" claimBackReference="of claim 12" transPhrase=", wherein " claimSize="38" claim_preamble="The apparatus" claimNumber="14" depends_on="12">
+<claim-text gate:gateId="64">14. The apparatus of <claim-ref gate:gateId="65" idref="CLM-00012">claim 12</claim-ref> , wherein the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.</claim-text>
+</claim>
+<claim gate:gateId="66" id="CLM-00015" body="communicating wirelessly with a second device, by performing operations in a first device, said communicating comprising:
+transmitting a request-to-send (RTS) to the second device;
+receiving a denial-to-send (DTS) from the second device, the DTS containing a duration value indicating a time remaining for a network allocation vector (NAV) that has been set in the second device, the DTS indicating to the first device not to initiate communications until after expiration of the NAV;
+performing subsequent communications with the second device only after the expiration of the NAV, wherein said transmitting, said receiving, and said performing each comprise using a directional link;
+transmitting a second RTS to the second device after said expiration of the NAV; and
+receiving a clear-to-send (CTS) from the second device after transmitting the second RTS but before said performing the subsequent communication.
+
+" num="00015" claimType="independent" transPhrase=", comprising " claimSize="163" claimNumber="15" claim_preamble="A method">
+<claim-text gate:gateId="67">15. A method, comprising communicating wirelessly with a second device, by performing operations in a first device, said communicating comprising:
+<claim-text gate:gateId="68">transmitting a request-to-send (RTS) to the second device;</claim-text>
+<claim-text gate:gateId="69">receiving a denial-to-send (DTS) from the second device, the DTS containing a duration value indicating a time remaining for a network allocation vector (NAV) that has been set in the second device, the DTS indicating to the first device not to initiate communications until after expiration of the NAV;</claim-text>
+<claim-text gate:gateId="70">performing subsequent communications with the second device only after the expiration of the NAV, wherein said transmitting, said receiving, and said performing each comprise using a directional link;</claim-text>
+<claim-text gate:gateId="71">transmitting a second RTS to the second device after said expiration of the NAV; and</claim-text>
+<claim-text gate:gateId="72">receiving a clear-to-send (CTS) from the second device after transmitting the second RTS but before said performing the subsequent communication.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="73" id="CLM-00016" body="the DTS comprises a frame control message.
+" claimType="dependent" num="00016" claimBackReference="of claim 15" transPhrase=", wherein " claimSize="17" claim_preamble="The method" claimNumber="16" depends_on="15">
+<claim-text gate:gateId="74">16. The method of <claim-ref gate:gateId="75" idref="CLM-00015">claim 15</claim-ref> , wherein the DTS comprises a frame control message.</claim-text>
+</claim>
+<claim gate:gateId="76" id="CLM-00017" body="the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.
+" claimType="dependent" num="00017" claimBackReference="of claim 15" transPhrase=", wherein " claimSize="38" claim_preamble="The method" claimNumber="17" depends_on="15">
+<claim-text gate:gateId="77">17. The method of <claim-ref gate:gateId="78" idref="CLM-00015">claim 15</claim-ref> , wherein the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field.</claim-text>
+</claim>
+<claim gate:gateId="79" id="CLM-00018" body="a non-transitory computer-readable storage medium that contains non-transitory instructions, which when executed by one or more processors result in performing operations comprising:
+transmitting a request-to-send (RTS) to a wireless communications device;
+receiving a denial-to-send (DTS) from the wireless communication device, the DTS containing a duration value indicating a time remaining for a network allocation vector (NAV) that has been set, the DTS indicating not to initiate communications until after expiration of the NAV;
+performing subsequent communications with the wireless communications device only after the expiration of the NAV;
+transmitting a second RTS to a second device after said expiration of the NAV; and
+receiving a clear-to-send (CTS) from the second device after transmitting the second RTS but before said performing the subsequent communication.
+
+" num="00018" claimType="independent" transPhrase=":
+" claimSize="146" claimNumber="18" claim_preamble="An article comprising">
+<claim-text gate:gateId="80">18. An article comprising:
+<claim-text gate:gateId="81">a non-transitory computer-readable storage medium that contains non-transitory instructions, which when executed by one or more processors result in performing operations comprising:</claim-text>
+<claim-text gate:gateId="82">transmitting a request-to-send (RTS) to a wireless communications device;</claim-text>
+<claim-text gate:gateId="83">receiving a denial-to-send (DTS) from the wireless communication device, the DTS containing a duration value indicating a time remaining for a network allocation vector (NAV) that has been set, the DTS indicating not to initiate communications until after expiration of the NAV;</claim-text>
+<claim-text gate:gateId="84">performing subsequent communications with the wireless communications device only after the expiration of the NAV;</claim-text>
+<claim-text gate:gateId="85">transmitting a second RTS to a second device after said expiration of the NAV; and</claim-text>
+<claim-text gate:gateId="86">receiving a clear-to-send (CTS) from the second device after transmitting the second RTS but before said performing the subsequent communication.</claim-text>
+</claim-text>
+</claim>
+<claim gate:gateId="87" id="CLM-00019" body="the DTS comprises a frame control message.
+" claimType="dependent" num="00019" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="17" claim_preamble="The article" claimNumber="19" depends_on="18">
+<claim-text gate:gateId="88">19. The article of <claim-ref gate:gateId="89" idref="CLM-00018">claim 18</claim-ref> , wherein the DTS comprises a frame control message.</claim-text>
+</claim>
+<claim gate:gateId="90" id="CLM-00020" body="the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field. 
+" claimType="dependent" num="00020" claimBackReference="of claim 18" transPhrase=", wherein " claimSize="38" claim_preamble="The article" claimNumber="20" depends_on="18">
+<claim-text gate:gateId="91">20. The article of <claim-ref gate:gateId="92" idref="CLM-00018">claim 18</claim-ref> , wherein the DTS includes a Frame Control Field, a Duration field, an RA field, a NAV-SA field, a NAV-DA field, and an FCS field. </claim-text>
+</claim>
+<us-patent-grant gate:gateId="93" id="us-patent-grant" date-publ="20130806" status="PRODUCTION" file="US08503359-20130806.XML" dtd-version="v4.3 2012-12-04" date-produced="20130723" lang="EN" country="US"></us-patent-grant></claims>

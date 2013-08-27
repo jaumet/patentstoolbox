@@ -1,0 +1,468 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504447-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 65,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2557,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a cost entry in the context of a job, which is issued in a networked print shop by a management information system, comprising:\nexecuting an application to continuously run as an entry module in a background on an operating system in a management information system, wherein the application monitors a cost relevant area in data storage for newly stored status reports in the cost relevant area;\nsubsequently receiving, at the management information system, a job related status report in Job Definition Format from an execution system;\ncategorizing the status report into one of multiple categories with a parser, wherein the multiple categories include at least one cost relevant category and at least one category that is not cost relevant;\nwhen the status report is categorized to the at least one cost relevant category, storing the status report to the cost relevant area;\nwhen the status report is stored in the cost relevant area, the application, in response to its monitoring of the cost relevant area, triggering a cost entry; and\nwhen the status report is categorized to the at least one category that is not cost relevant, storing the status report in another area in the data storage outside the cost relevant area.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for triggering ",
+            "claimSize": 227,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method for triggering a cost entry in the context of a job, which is issued in a networked print shop by a management information system, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "executing an application to continuously run as an entry module in a background on an operating system in a management information system, wherein the application monitors a cost relevant area in data storage for newly stored status reports in the cost relevant area;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "subsequently receiving, at the management information system, a job related status report in Job Definition Format from an execution system;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "categorizing the status report into one of multiple categories with a parser, wherein the multiple categories include at least one cost relevant category and at least one category that is not cost relevant;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "when the status report is categorized to the at least one cost relevant category, storing the status report to the cost relevant area;",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "when the status report is stored in the cost relevant area, the application, in response to its monitoring of the cost relevant area, triggering a cost entry; and",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "when the status report is categorized to the at least one category that is not cost relevant, storing the status report in another area in the data storage outside the cost relevant area.",
+                        "gate:gateId": 8
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "further comprising:\nmoving the status report from the cost relevant area into a storage area after completion of the cost entry.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 32,
+            "gate:gateId": 9,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method according to",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10,
+                "claim-text": {
+                    "content": "moving the status report from the cost relevant area into a storage area after completion of the cost entry.",
+                    "gate:gateId": 12
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the triggering of the cost entry is decoupled from a program performing the receiving and the storing of the status report.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 32,
+            "gate:gateId": 13,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method according to",
+                    ", wherein the triggering of the cost entry is decoupled from a program performing the receiving and the storing of the status report."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 15,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 14
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the job includes plural partial processes that are processed on different execution systems.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 24,
+            "gate:gateId": 16,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method according to",
+                    ", wherein the job includes plural partial processes that are processed on different execution systems."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 17
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "storing a table specifying a directory tree, and the table includes fields for status reports and a corresponding directory in the directory tree for each field;\nprior to the storing of the status report in the cost relevant area or the another area in the data storage, identifying a field from the status report that is in the table and storing the status report in one of the directories specified in the table that corresponds to the identified field.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "comprising:\n",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 94,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method according to",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20,
+                "claim-text": [
+                    {
+                        "content": "storing a table specifying a directory tree, and the table includes fields for status reports and a corresponding directory in the directory tree for each field;",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "prior to the storing of the status report in the cost relevant area or the another area in the data storage, identifying a field from the status report that is in the table and storing the status report in one of the directories specified in the table that corresponds to the identified field.",
+                        "gate:gateId": 23
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the fields in the table include a field for creating jobs, a field for page approval, a field for pre-press operation, and a field for job definition format.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 42,
+            "gate:gateId": 24,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method according to",
+                    ", wherein the fields in the table include a field for creating jobs, a field for page approval, a field for pre-press operation, and a field for job definition format."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 26,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 25
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the storing of the status report to the cost relevant area comprises:\nstoring the status report from the one of the directories into the cost relevant area, wherein the cost relevant area comprises a costs folder in the one of the directories.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 5 ,",
+            "claimSize": 55,
+            "gate:gateId": 27,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method according to",
+                    ", wherein the storing of the status report to the cost relevant area comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 29,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 28,
+                "claim-text": {
+                    "content": "storing the status report from the one of the directories into the cost relevant area, wherein the cost relevant area comprises a costs folder in the one of the directories.",
+                    "gate:gateId": 30
+                }
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the triggering of the cost entry comprises:\nthe application, in response to its monitoring of the cost relevant area, triggering the parser to determine if a logic condition in a field in the status report is satisfied, and triggering the cost entry in response to the parser determining the logic condition is satisfied.\n\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 68,
+            "gate:gateId": 31,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method according to",
+                    ", wherein the triggering of the cost entry comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 33,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 32,
+                "claim-text": {
+                    "content": "the application, in response to its monitoring of the cost relevant area, triggering the parser to determine if a logic condition in a field in the status report is satisfied, and triggering the cost entry in response to the parser determining the logic condition is satisfied.",
+                    "gate:gateId": 34
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00009",
+            "body": "comprising:\nidentifying parameters for the field in the status report, and including the parameters in the cost entry, wherein the parameters include cost chapter, work process, time to be billed and ID.\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 8 ,",
+            "claimSize": 47,
+            "gate:gateId": 35,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method according to",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 36,
+                "claim-text": {
+                    "content": "identifying parameters for the field in the status report, and including the parameters in the cost entry, wherein the parameters include cost chapter, work process, time to be billed and ID.",
+                    "gate:gateId": 38
+                }
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "an application to monitor a cost relevant area in data storage for newly stored status reports in the cost relevant area;\nreceiving, at a management information system, job related status reports from execution systems;\ndetermining whether the status reports fall into a cost relevant category or a category that is not cost relevant;\nin response to a status report of the status reports falling into the cost relevant category, storing the status report to the cost relevant area; and\nwhen the status report is stored in the cost relevant area the application, in response to its monitoring of the cost relevant area, triggering a cost entry, wherein the triggering of the cost entry includes determining if a logic condition in a field in the status report is satisfied, and triggering the cost entry in response to determining the logic condition is satisfied.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": ":\nexecuting ",
+            "claimSize": 161,
+            "gate:gateId": 39,
+            "claim_preamble": "A method comprising",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A method comprising:",
+                "gate:gateId": 40,
+                "claim-text": [
+                    {
+                        "content": "executing an application to monitor a cost relevant area in data storage for newly stored status reports in the cost relevant area;",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "receiving, at a management information system, job related status reports from execution systems;",
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": "determining whether the status reports fall into a cost relevant category or a category that is not cost relevant;",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "in response to a status report of the status reports falling into the cost relevant category, storing the status report to the cost relevant area; and",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "when the status report is stored in the cost relevant area the application, in response to its monitoring of the cost relevant area, triggering a cost entry, wherein the triggering of the cost entry includes determining if a logic condition in a field in the status report is satisfied, and triggering the cost entry in response to determining the logic condition is satisfied.",
+                        "gate:gateId": 45
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the triggering of the cost entry comprises:\nidentifying parameters for the field in the status report, and including the parameters in the cost entry.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 37,
+            "gate:gateId": 46,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method according to",
+                    ", wherein the triggering of the cost entry comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 47,
+                "claim-text": {
+                    "content": "identifying parameters for the field in the status report, and including the parameters in the cost entry.",
+                    "gate:gateId": 49
+                }
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the parameters include cost chapter, work process, time to be billed and ID.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 11 ,",
+            "claimSize": 26,
+            "gate:gateId": 50,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method according to",
+                    ", wherein the parameters include cost chapter, work process, time to be billed and ID."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "storing a table specifying a directory tree, and the table includes fields for status reports and a corresponding directory in the directory tree for each field; and\nprior to the storing of the status report in the cost relevant area, identifying a field from the status report that is in the table and storing the status report in one of the directories specified in the table that corresponds to the identified field.\n\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "comprising:\n",
+            "claimBackReference": "according to claim 10 ,",
+            "claimSize": 87,
+            "gate:gateId": 53,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method according to",
+                    ", comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 54,
+                "claim-text": [
+                    {
+                        "content": "storing a table specifying a directory tree, and the table includes fields for status reports and a corresponding directory in the directory tree for each field; and",
+                        "gate:gateId": 56
+                    },
+                    {
+                        "content": "prior to the storing of the status report in the cost relevant area, identifying a field from the status report that is in the table and storing the status report in one of the directories specified in the table that corresponds to the identified field.",
+                        "gate:gateId": 57
+                    }
+                ]
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the storing of the status report to the cost relevant area comprises:\nstoring the status report from the one of the directories into the cost relevant area, wherein the cost relevant area comprises a costs folder in the one of the directories.\n\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 13 ,",
+            "claimSize": 54,
+            "gate:gateId": 58,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method according to",
+                    ", the storing of the status report to the cost relevant area comprises:"
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 60,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 59,
+                "claim-text": {
+                    "content": "storing the status report from the one of the directories into the cost relevant area, wherein the cost relevant area comprises a costs folder in the one of the directories.",
+                    "gate:gateId": 61
+                }
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the fields in the table include a field for creating jobs, a field for page approval, a field for pre-press operation, and a field for job definition format. \n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 13 ,",
+            "claimSize": 42,
+            "gate:gateId": 62,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method according to",
+                    ", wherein the fields in the table include a field for creating jobs, a field for page approval, a field for pre-press operation, and a field for job definition format."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 13
+        }
+    ],
+    "numberIndependentClaims": 223
+}}

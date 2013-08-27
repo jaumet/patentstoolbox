@@ -1,0 +1,287 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503109-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 41,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1354,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a main mirror having a shape of a portion of a convex paraboloid which includes an opening in a center and is rotationally symmetric;\na second-reflection mirror which further reflects light reflected by said main mirror, said second-reflection mirror having a shape of a portion of a concave paraboloid which is rotationally symmetric;\nat least one lens which forms an image of the light reflected by said second-reflection mirror;\na lens barrel holding said at least one lens; and\nat least one sub mirror each being formed separately from said main mirror and having a shape of a convex paraboloid which is rotationally symmetric,\nwherein a position of a front principal point of said at least one lens coincides with a focal position of said second-reflection mirror,\nwherein an optical axis of said at least one lens is tilted with respect to a rotational axis of each of the convex paraboloid and the concave paraboloid, and\nwherein said at least one sub mirror is positioned such that the light reflected by said at least one sub mirror is further reflected by said second-reflection mirror and is formed into an image through said at least one lens.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " comprising:\n",
+            "claimSize": 212,
+            "gate:gateId": 1,
+            "claim_preamble": "An optical system",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. An optical system comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a main mirror having a shape of a portion of a convex paraboloid which includes an opening in a center and is rotationally symmetric;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a second-reflection mirror which further reflects light reflected by said main mirror, said second-reflection mirror having a shape of a portion of a concave paraboloid which is rotationally symmetric;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "at least one lens which forms an image of the light reflected by said second-reflection mirror;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "a lens barrel holding said at least one lens; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "at least one sub mirror each being formed separately from said main mirror and having a shape of a convex paraboloid which is rotationally symmetric,",
+                        "gate:gateId": 7
+                    },
+                    {
+                        "content": "wherein a position of a front principal point of said at least one lens coincides with a focal position of said second-reflection mirror,",
+                        "gate:gateId": 8
+                    },
+                    {
+                        "content": "wherein an optical axis of said at least one lens is tilted with respect to a rotational axis of each of the convex paraboloid and the concave paraboloid, and",
+                        "gate:gateId": 9
+                    },
+                    {
+                        "content": "wherein said at least one sub mirror is positioned such that the light reflected by said at least one sub mirror is further reflected by said second-reflection mirror and is formed into an image through said at least one lens.",
+                        "gate:gateId": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "at least one lens is a lens group including at least two lenses, and\nwherein said lens group is included in a zoom lens.\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 38,
+            "gate:gateId": 11,
+            "claimNumber": 2,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "2. The optical system according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12,
+                "claim-text": [
+                    {
+                        "content": "wherein said at least one lens is a lens group including at least two lenses, and",
+                        "gate:gateId": 14
+                    },
+                    {
+                        "content": "wherein said lens group is included in a zoom lens.",
+                        "gate:gateId": 15
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "a movement portion having a structure with which said lens barrel is moved forward and backward along an optical axis of said lens group,\nwherein said movement portion has a structure with which said lens barrel is moved to a point at which a variation in the position of the front principal point is offset, and at which the position of the front principal point of said lens group coincides with the focal position of said second-reflection mirror, the variation being caused by change in a zoom factor of said lens group.\n\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "further comprising\n",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 108,
+            "gate:gateId": 16,
+            "claimNumber": 3,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "3. The optical system according to",
+                    ", further comprising"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 18,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 17,
+                "claim-text": [
+                    {
+                        "content": "a movement portion having a structure with which said lens barrel is moved forward and backward along an optical axis of said lens group,",
+                        "gate:gateId": 19
+                    },
+                    {
+                        "content": "wherein said movement portion has a structure with which said lens barrel is moved to a point at which a variation in the position of the front principal point is offset, and at which the position of the front principal point of said lens group coincides with the focal position of said second-reflection mirror, the variation being caused by change in a zoom factor of said lens group.",
+                        "gate:gateId": 20
+                    }
+                ]
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "lens group has a configuration in which the front principal point is not moved by change in a zoom factor.\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein said ",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 33,
+            "gate:gateId": 21,
+            "claimNumber": 4,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "4. The optical system according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 22,
+                "claim-text": {
+                    "content": "wherein said lens group has a configuration in which the front principal point is not moved by change in a zoom factor.",
+                    "gate:gateId": 24
+                }
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00005",
+            "body": "a gimbal mechanism holding said lens barrel and allowing the optical axis of said lens group to rotate in a biaxial direction,\nwherein a rotational axis in each direction of said gimbal mechanism passes through the focal position of said second-reflection mirror.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "further comprising\n",
+            "claimBackReference": "according to claim 2 ,",
+            "claimSize": 56,
+            "gate:gateId": 25,
+            "claimNumber": 5,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "5. The optical system according to",
+                    ", further comprising"
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 27,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 26,
+                "claim-text": [
+                    {
+                        "content": "a gimbal mechanism holding said lens barrel and allowing the optical axis of said lens group to rotate in a biaxial direction,",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "wherein a rotational axis in each direction of said gimbal mechanism passes through the focal position of said second-reflection mirror.",
+                        "gate:gateId": 29
+                    }
+                ]
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00006",
+            "body": "two sub mirrors are provided, said two sub mirrors being said at least one sub mirror.\n\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 29,
+            "gate:gateId": 30,
+            "claimNumber": 6,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "6. The optical system according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 32,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 31,
+                "claim-text": {
+                    "content": "wherein two sub mirrors are provided, said two sub mirrors being said at least one sub mirror.",
+                    "gate:gateId": 33
+                }
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "30°≦θ≦90° where θ is an opening angle between a central axis of each of said two sub mirrors and a central axis of said main mirror.\n\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "according to claim 6 ,",
+            "claimSize": 44,
+            "gate:gateId": 34,
+            "claimNumber": 7,
+            "claim_preamble": "The optical system",
+            "claim-text": {
+                "content": [
+                    "7. The optical system according to",
+                    ","
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 36,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 35,
+                "claim-text": {
+                    "content": "wherein 30°≦θ≦90° where θ is an opening angle between a central axis of each of said two sub mirrors and a central axis of said main mirror.",
+                    "gate:gateId": 37
+                }
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "\n\n1. An optical system comprising:\na main mirror having a shape of a portion of a convex paraboloid which includes an opening in a center and is rotationally symmetric;\na second-reflection mirror which further reflects light reflected by said main mirror, said second-reflection mirror having a shape of a portion of a concave paraboloid which is rotationally symmetric;\nat least one lens which forms an image of the light reflected by said second-reflection mirror;\na lens barrel holding said at least one lens; and\nat least one sub mirror each being formed separately from said main mirror and having a shape of a convex paraboloid which is rotationally symmetric,\nwherein a position of a front principal point of said at least one lens coincides with a focal position of said second-reflection mirror,\nwherein an optical axis of said at least one lens is tilted with respect to a rotational axis of each of the convex paraboloid and the concave paraboloid, and\nwherein said at least one sub mirror is positioned such that the light reflected by said at least one sub mirror is further reflected by said second-reflection mirror and is formed into an image through said at least one lens.\n\n\n\n2. The optical system according to claim 1 ,\nwherein said at least one lens is a lens group including at least two lenses, and\nwherein said lens group is included in a zoom lens.\n\n\n\n3. The optical system according to claim 2 , further comprising\na movement portion having a structure with which said lens barrel is moved forward and backward along an optical axis of said lens group,\nwherein said movement portion has a structure with which said lens barrel is moved to a point at which a variation in the position of the front principal point is offset, and at which the position of the front principal point of said lens group coincides with the focal position of said second-reflection mirror, the variation being caused by change in a zoom factor of said lens group.\n\n\n\n4. The optical system according to claim 2 ,\nwherein said lens group has a configuration in which the front principal point is not moved by change in a zoom factor.\n\n\n\n5. The optical system according to claim 2 , further comprising\na gimbal mechanism holding said lens barrel and allowing the optical axis of said lens group to rotate in a biaxial direction,\nwherein a rotational axis in each direction of said gimbal mechanism passes through the focal position of said second-reflection mirror.\n\n\n\n6. The optical system according to claim 1 ,\nwherein two sub mirrors are provided, said two sub mirrors being said at least one sub mirror.\n\n\n\n7. The optical system according to claim 6 ,\nwherein 30°≦θ≦90° where θ is an opening angle between a central axis of each of said two sub mirrors and a central axis of said main mirror.\n\n\n\n8. An imaging device including the optical system according to claim 1 . \n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 14,
+            "gate:gateId": 38,
+            "claimNumber": "1 ",
+            "claim_preamble": "An imaging devicethe optical system",
+            "claim-text": {
+                "content": [
+                    "8. An imaging device including the optical system according to",
+                    "."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 129
+}}

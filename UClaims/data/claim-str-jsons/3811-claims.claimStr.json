@@ -1,0 +1,480 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502732-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 65,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3682,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a component of a wireless receiver comprising:\nreceiving an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window;\ndetecting a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and\ndetermining a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein determining the search range includes determining the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and reducing the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " in ",
+            "claimSize": 200,
+            "gate:gateId": 1,
+            "claim_preamble": "A computer-implemented method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A computer-implemented method in a component of a wireless receiver comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "receiving an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "detecting a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "determining a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein determining the search range includes determining the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and reducing the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.",
+                        "gate:gateId": 5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the determining the search range further comprises determining a center of the search range based, at least in part, on the detected first Doppler frequency.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 36,
+            "gate:gateId": 6,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    "wherein the determining the search range further comprises determining a center of the search range based, at least in part, on the detected first Doppler frequency."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the determining the search range further comprises determining a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 2",
+            "claimSize": 45,
+            "gate:gateId": 9,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    "wherein the determining the search range further comprises determining a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "a tangible computer-readable storage medium comprising machine-readable instructions stored thereon that, when executed by a computing platform, are adapted to cause the computing platform to:\nreceive an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window;\ndetermine a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and\ndetermine a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the instructions to cause the computing platform to determine the search range include instructions to cause the computing platform to determine the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and instructions to cause the computing platform to reduce the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.\n\n\n",
+            "claimType": "independent",
+            "num": "00004",
+            "transPhrase": ":\n",
+            "claimSize": 242,
+            "gate:gateId": 12,
+            "claim_preamble": "An article comprising",
+            "claimNumber": 4,
+            "claim-text": {
+                "content": "4. An article comprising:",
+                "gate:gateId": 13,
+                "claim-text": {
+                    "content": "a tangible computer-readable storage medium comprising machine-readable instructions stored thereon that, when executed by a computing platform, are adapted to cause the computing platform to:",
+                    "gate:gateId": 14,
+                    "claim-text": [
+                        {
+                            "content": "receive an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window;",
+                            "gate:gateId": 15
+                        },
+                        {
+                            "content": "determine a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and",
+                            "gate:gateId": 16
+                        },
+                        {
+                            "content": "determine a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the instructions to cause the computing platform to determine the search range include instructions to cause the computing platform to determine the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and instructions to cause the computing platform to reduce the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.",
+                            "gate:gateId": 17
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the instructions adapted to cause the computing platform to determine the search range further comprise instructions adapted to cause the computing platform to determine a center of the search range based, at least in part, on the detected first Doppler frequency.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 4",
+            "claimSize": 52,
+            "gate:gateId": 18,
+            "claimNumber": 5,
+            "claim_preamble": "The article",
+            "claim-text": {
+                "content": [
+                    "5. The article of",
+                    "wherein the instructions adapted to cause the computing platform to determine the search range further comprise instructions adapted to cause the computing platform to determine a center of the search range based, at least in part, on the detected first Doppler frequency."
+                ],
+                "claim-ref": {
+                    "content": "claim 4",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00004"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 4
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the instructions adapted to cause the computing platform to determine the search range further comprise instructions adapted to cause the computing platform to determine a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 61,
+            "gate:gateId": 21,
+            "claimNumber": 6,
+            "claim_preamble": "The article",
+            "claim-text": {
+                "content": [
+                    "6. The article of",
+                    "wherein the instructions adapted to cause the computing platform to determine the search range further comprise instructions adapted to cause the computing platform to determine a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "a receiver configured to receive an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window, the subscriber unit being adapted to:\ndetect a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and\ndetermine a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the receiver is further configured to determine the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and select the smaller of the first Doppler search window and the second Doppler search window to use as the search range.\n\n\n",
+            "claimType": "independent",
+            "num": "00007",
+            "transPhrase": " comprising:\n",
+            "claimSize": 197,
+            "gate:gateId": 24,
+            "claim_preamble": "A subscriber unit",
+            "claimNumber": 7,
+            "claim-text": {
+                "content": "7. A subscriber unit comprising:",
+                "gate:gateId": 25,
+                "claim-text": {
+                    "content": "a receiver configured to receive an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window, the subscriber unit being adapted to:",
+                    "gate:gateId": 26,
+                    "claim-text": [
+                        {
+                            "content": "detect a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and",
+                            "gate:gateId": 27
+                        },
+                        {
+                            "content": "determine a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the receiver is further configured to determine the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and select the smaller of the first Doppler search window and the second Doppler search window to use as the search range.",
+                            "gate:gateId": 28
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the subscriber unit is further adapted to receive the AA message over a wireless communication link.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 26,
+            "gate:gateId": 29,
+            "claimNumber": 8,
+            "claim_preamble": "The subscriber unit",
+            "claim-text": {
+                "content": [
+                    "8. The subscriber unit of",
+                    "wherein the subscriber unit is further adapted to receive the AA message over a wireless communication link."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the subscriber unit is further adapted to determine the search range based, at least in part, on an uncertainty in an estimate of the reference location.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 38,
+            "gate:gateId": 32,
+            "claimNumber": 9,
+            "claim_preamble": "The subscriber unit",
+            "claim-text": {
+                "content": [
+                    "9. The subscriber unit of",
+                    "wherein the subscriber unit is further adapted to determine the search range based, at least in part, on an uncertainty in an estimate of the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the subscriber unit is further adapted to determine the search range by determining a center of the search range based, at least in part, on the detected first Doppler frequency.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 7",
+            "claimSize": 42,
+            "gate:gateId": 35,
+            "claimNumber": 10,
+            "claim_preamble": "The subscriber unit",
+            "claim-text": {
+                "content": [
+                    "10. The subscriber unit of",
+                    "wherein the subscriber unit is further adapted to determine the search range by determining a center of the search range based, at least in part, on the detected first Doppler frequency."
+                ],
+                "claim-ref": {
+                    "content": "claim 7",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00007"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 7
+        },
+        {
+            "id": "CLM-00011",
+            "body": "the subscriber unit is further adapted to determine the search range by determining a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location.\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 10",
+            "claimSize": 51,
+            "gate:gateId": 38,
+            "claimNumber": 11,
+            "claim_preamble": "The subscriber unit",
+            "claim-text": {
+                "content": [
+                    "11. The subscriber unit of",
+                    "wherein the subscriber unit is further adapted to determine the search range by determining a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 10",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00010"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 10
+        },
+        {
+            "id": "CLM-00012",
+            "body": "means for receiving an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window;\nmeans for detecting a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and\nmeans for determining a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the means for determining the search range includes means for determining the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and means for reducing the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.\n\n",
+            "claimType": "independent",
+            "num": "00012",
+            "transPhrase": " comprising:\n",
+            "claimSize": 205,
+            "gate:gateId": 41,
+            "claim_preamble": "A system",
+            "claimNumber": 12,
+            "claim-text": {
+                "content": "12. A system comprising:",
+                "gate:gateId": 42,
+                "claim-text": [
+                    {
+                        "content": "means for receiving an acquisition assistance (AA) message comprising information indicative of a reference location and information defining a first Doppler search window;",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "means for detecting a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "means for determining a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the means for determining the search range includes means for determining the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and means for reducing the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.",
+                        "gate:gateId": 45
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the means for determining the search range are configured to determine a center of the search range based, at least in part, on the detected first Doppler frequency.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 12",
+            "claimSize": 39,
+            "gate:gateId": 46,
+            "claimNumber": 13,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "13. The system of",
+                    "wherein the means for determining the search range are configured to determine a center of the search range based, at least in part, on the detected first Doppler frequency."
+                ],
+                "claim-ref": {
+                    "content": "claim 12",
+                    "gate:gateId": 48,
+                    "idref": "CLM-00012"
+                },
+                "gate:gateId": 47
+            },
+            "depends_on": 12
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the means for determining the search range are configured to determine a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "wherein ",
+            "claimBackReference": "of claim 13",
+            "claimSize": 48,
+            "gate:gateId": 49,
+            "claimNumber": 14,
+            "claim_preamble": "The system",
+            "claim-text": {
+                "content": [
+                    "14. The system of",
+                    "wherein the means for determining the search range are configured to determine a Doppler search window about the center of the search range based, at least in part, on an uncertainty in an estimate of the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 13",
+                    "gate:gateId": 51,
+                    "idref": "CLM-00013"
+                },
+                "gate:gateId": 50
+            },
+            "depends_on": 13
+        },
+        {
+            "id": "CLM-00015",
+            "body": "a position determination entity (PDE); and\na subscriber unit adapted to:\nreceive an acquisition assistance (AA) message from the PDE over a wireless communication link, the AA message comprising information indicative of a reference location and information defining a first Doppler search window;\ndetect a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and\ndetermine a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the subscriber unit is configured to determine the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and reduce the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.\n\n\n",
+            "claimType": "independent",
+            "num": "00015",
+            "transPhrase": " comprising:\n",
+            "claimSize": 220,
+            "gate:gateId": 52,
+            "claim_preamble": "A system",
+            "claimNumber": 15,
+            "claim-text": {
+                "content": "15. A system comprising:",
+                "gate:gateId": 53,
+                "claim-text": [
+                    {
+                        "content": "a position determination entity (PDE); and",
+                        "gate:gateId": 54
+                    },
+                    {
+                        "content": "a subscriber unit adapted to:",
+                        "gate:gateId": 55,
+                        "claim-text": [
+                            {
+                                "content": "receive an acquisition assistance (AA) message from the PDE over a wireless communication link, the AA message comprising information indicative of a reference location and information defining a first Doppler search window;",
+                                "gate:gateId": 56
+                            },
+                            {
+                                "content": "detect a first Doppler frequency in a first signal received from a first space vehicle (SV) at the reference location; and",
+                                "gate:gateId": 57
+                            },
+                            {
+                                "content": "determine a search range defining a range of frequencies to be searched for detecting a second Doppler frequency in a second signal received at the reference location from a second SV based, at least in part, on the detected first Doppler frequency, the information defining the first Doppler search window, and a second Doppler search window, wherein the subscriber unit is configured to determine the second Doppler search window based at least in part on an estimated azimuth angle to the first SV relative to the reference location and an estimated azimuth angle to the second SV relative to the reference location, and reduce the size of the search range by selecting the smaller of the first Doppler search window and the second Doppler search window to use as the search range.",
+                                "gate:gateId": 58
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the estimated coordinates of the first SV include an estimated azimuth angle to said first SV from the reference location and an estimated azimuth angle to said second SV from the reference location.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 43,
+            "gate:gateId": 59,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", wherein the estimated coordinates of the first SV include an estimated azimuth angle to said first SV from the reference location and an estimated azimuth angle to said second SV from the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the estimated coordinates of the first SV include an estimated elevation angle to said first SV from the reference location and an estimated elevation angle to said second SV from the reference location.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 43,
+            "gate:gateId": 62,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", wherein the estimated coordinates of the first SV include an estimated elevation angle to said first SV from the reference location and an estimated elevation angle to said second SV from the reference location."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 1
+        }
+    ],
+    "numberIndependentClaims": 88
+}}

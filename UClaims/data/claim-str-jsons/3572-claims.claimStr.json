@@ -1,0 +1,173 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08502493-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 27,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 2298,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "an alternating-current motor to which a voltage controlled by an inverter is applied, the control device comprising:\na pulse width modulation control unit for generating a control command for said inverter by means of pulse width modulation control performed based on a comparison between a voltage command signal of a sinusoidal wave and a carrier signal, said voltage command signal being for operating said alternating-current motor in accordance with an operating command; and\na mode-switching determining unit for instructing which control mode of an overmodulation mode and a sinusoidal wave modulation mode is to be employed for said pulse width modulation control performed by said pulse width modulation control unit, in said overmodulation mode, said voltage command signal having an amplitude larger than that of said carrier signal, in said sinusoidal wave modulation mode, said voltage command signal having an amplitude equal to or smaller than that of said carrier signal,\nsaid inverter including a power semiconductor switching element to be turned on/off in accordance with said control command from said pulse width modulation control unit, wherein\nwhen said mode-switching determining unit instructs to switch the control modes between said overmodulation mode and said sinusoidal wave modulation mode, said pulse width modulation control unit corrects the amplitude of said voltage command signal based on a state of a power conversion operation performed by said inverter, so as to suppress a change in an influence of dead time over the voltage applied to said alternating-current motor upon switching the control modes.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " for ",
+            "claimSize": 271,
+            "gate:gateId": 1,
+            "claim_preamble": "A control device",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A control device for an alternating-current motor to which a voltage controlled by an inverter is applied, the control device comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a pulse width modulation control unit for generating a control command for said inverter by means of pulse width modulation control performed based on a comparison between a voltage command signal of a sinusoidal wave and a carrier signal, said voltage command signal being for operating said alternating-current motor in accordance with an operating command; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "a mode-switching determining unit for instructing which control mode of an overmodulation mode and a sinusoidal wave modulation mode is to be employed for said pulse width modulation control performed by said pulse width modulation control unit, in said overmodulation mode, said voltage command signal having an amplitude larger than that of said carrier signal, in said sinusoidal wave modulation mode, said voltage command signal having an amplitude equal to or smaller than that of said carrier signal,",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "said inverter including a power semiconductor switching element to be turned on/off in accordance with said control command from said pulse width modulation control unit, wherein",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "when said mode-switching determining unit instructs to switch the control modes between said overmodulation mode and said sinusoidal wave modulation mode, said pulse width modulation control unit corrects the amplitude of said voltage command signal based on a state of a power conversion operation performed by said inverter, so as to suppress a change in an influence of dead time over the voltage applied to said alternating-current motor upon switching the control modes.",
+                        "gate:gateId": 6
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "pulse width modulation control unit includes\na frequency control unit for controlling, in said overmodulation mode, a frequency of said carrier signal to be an integral multiple of a rotational frequency of said alternating-current motor, in accordance with a rotational speed of said alternating-current motor, and controlling, in said sinusoidal wave modulation mode, the frequency of said carrier signal in accordance with operation states of said inverter and said alternating-current motor irrespective of the rotational speed of said alternating-current motor,\n\na voltage change amount estimating unit for estimating an amount of change, to be caused upon switching the control modes, in the voltage applied to said alternating-current motor, based on at least one of a present value of the frequency of said carrier signal in a control mode currently employed, an estimated value of the frequency of said carrier signal to be obtained when switching the control modes, a length of the dead time, a power factor of alternating-current power exchanged between said inverter and said alternating-current motor, and a driving state of said alternating-current motor, and\na voltage command correcting unit for correcting the amplitude of said voltage command signal so as to compensate the amount of change in the voltage applied to said alternating-current motor, the amount of change having been estimated by said voltage change amount estimating unit.\n\n\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "wherein:\nsaid ",
+            "claimBackReference": "according to claim 1 ,",
+            "claimSize": 255,
+            "gate:gateId": 7,
+            "claimNumber": 2,
+            "claim_preamble": "The control devicethe alternating-current motor",
+            "claim-text": {
+                "content": [
+                    "2. The control device for the alternating-current motor according to",
+                    ", wherein:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 9,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 8,
+                "claim-text": [
+                    {
+                        "content": "said pulse width modulation control unit includes",
+                        "gate:gateId": 10,
+                        "claim-text": {
+                            "content": "a frequency control unit for controlling, in said overmodulation mode, a frequency of said carrier signal to be an integral multiple of a rotational frequency of said alternating-current motor, in accordance with a rotational speed of said alternating-current motor, and controlling, in said sinusoidal wave modulation mode, the frequency of said carrier signal in accordance with operation states of said inverter and said alternating-current motor irrespective of the rotational speed of said alternating-current motor,",
+                            "gate:gateId": 11
+                        }
+                    },
+                    {
+                        "content": "a voltage change amount estimating unit for estimating an amount of change, to be caused upon switching the control modes, in the voltage applied to said alternating-current motor, based on at least one of a present value of the frequency of said carrier signal in a control mode currently employed, an estimated value of the frequency of said carrier signal to be obtained when switching the control modes, a length of the dead time, a power factor of alternating-current power exchanged between said inverter and said alternating-current motor, and a driving state of said alternating-current motor, and",
+                        "gate:gateId": 12,
+                        "claim-text": {
+                            "content": "a voltage command correcting unit for correcting the amplitude of said voltage command signal so as to compensate the amount of change in the voltage applied to said alternating-current motor, the amount of change having been estimated by said voltage change amount estimating unit.",
+                            "gate:gateId": 13
+                        }
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "an alternating-current motor to which a voltage controlled by an inverter is applied, the control method comprising the steps of:\ngenerating a control command for said inverter by means of pulse width modulation control performed based on a comparison between a voltage command signal of a sinusoidal wave and a carrier signal, said voltage command signal being for operating said alternating-current motor in accordance with an operating command; and\ninstructing which control mode of an overmodulation mode and a sinusoidal wave modulation mode is to be employed for said pulse width modulation control, in said overmodulation mode, said voltage command signal having an amplitude larger than that of said carrier signal, in said sinusoidal wave modulation mode, said voltage command signal having an amplitude equal to or smaller than that of said carrier signal,\nsaid inverter including a power semiconductor switching element to be turned on/off in accordance with said control command,\nwhen instructed to switch the control modes between said overmodulation mode and said sinusoidal wave modulation mode, the step of generating said control command for said inverter correcting the amplitude of said voltage command signal based on a state of a power conversion operation performed by said inverter, so as to suppress a change in an influence of dead time over the voltage applied to said alternating-current motor upon switching the control modes.\n\n",
+            "claimType": "independent",
+            "num": "00003",
+            "transPhrase": " for ",
+            "claimSize": 246,
+            "gate:gateId": 14,
+            "claim_preamble": "A control method",
+            "claimNumber": 3,
+            "claim-text": {
+                "content": "3. A control method for an alternating-current motor to which a voltage controlled by an inverter is applied, the control method comprising the steps of:",
+                "gate:gateId": 15,
+                "claim-text": [
+                    {
+                        "content": "generating a control command for said inverter by means of pulse width modulation control performed based on a comparison between a voltage command signal of a sinusoidal wave and a carrier signal, said voltage command signal being for operating said alternating-current motor in accordance with an operating command; and",
+                        "gate:gateId": 16
+                    },
+                    {
+                        "content": "instructing which control mode of an overmodulation mode and a sinusoidal wave modulation mode is to be employed for said pulse width modulation control, in said overmodulation mode, said voltage command signal having an amplitude larger than that of said carrier signal, in said sinusoidal wave modulation mode, said voltage command signal having an amplitude equal to or smaller than that of said carrier signal,",
+                        "gate:gateId": 17
+                    },
+                    {
+                        "content": "said inverter including a power semiconductor switching element to be turned on/off in accordance with said control command,",
+                        "gate:gateId": 18
+                    },
+                    {
+                        "content": "when instructed to switch the control modes between said overmodulation mode and said sinusoidal wave modulation mode, the step of generating said control command for said inverter correcting the amplitude of said voltage command signal based on a state of a power conversion operation performed by said inverter, so as to suppress a change in an influence of dead time over the voltage applied to said alternating-current motor upon switching the control modes.",
+                        "gate:gateId": 19
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the step of generating said control command for said inverter including the steps of\ncontrolling, in said overmodulation mode, a frequency of said carrier signal to be an integral multiple of a rotational frequency of said alternating-current motor, in accordance with a rotational speed of said alternating-current motor, and controlling, in said sinusoidal wave modulation mode, the frequency of said carrier signal in accordance with operation states of said inverter and said alternating-current motor irrespective of the rotational speed of said alternating-current motor,\nestimating an amount of change, to be caused upon switching the control modes, in the voltage applied to said alternating-current motor, based on at least one of a present value of the frequency of said carrier signal in a control mode currently employed, an estimated value of the frequency of said carrier signal to be obtained when switching the control modes, a length of the dead time, a power factor of alternating-current power exchanged between said inverter and said alternating-current motor, and a driving state of said alternating-current motor, and\ncorrecting the amplitude of said voltage command signal so as to compensate the estimated amount of change in the voltage applied to said alternating-current motor. \n\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "wherein:\n",
+            "claimBackReference": "according to claim 3 ,",
+            "claimSize": 230,
+            "gate:gateId": 20,
+            "claimNumber": 4,
+            "claim_preamble": "The control methodthe alternating-current motor",
+            "claim-text": {
+                "content": [
+                    "4. The control method for the alternating-current motor according to",
+                    ", wherein:"
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 21,
+                "claim-text": {
+                    "content": "the step of generating said control command for said inverter including the steps of",
+                    "gate:gateId": 23,
+                    "claim-text": [
+                        {
+                            "content": "controlling, in said overmodulation mode, a frequency of said carrier signal to be an integral multiple of a rotational frequency of said alternating-current motor, in accordance with a rotational speed of said alternating-current motor, and controlling, in said sinusoidal wave modulation mode, the frequency of said carrier signal in accordance with operation states of said inverter and said alternating-current motor irrespective of the rotational speed of said alternating-current motor,",
+                            "gate:gateId": 24
+                        },
+                        {
+                            "content": "estimating an amount of change, to be caused upon switching the control modes, in the voltage applied to said alternating-current motor, based on at least one of a present value of the frequency of said carrier signal in a control mode currently employed, an estimated value of the frequency of said carrier signal to be obtained when switching the control modes, a length of the dead time, a power factor of alternating-current power exchanged between said inverter and said alternating-current motor, and a driving state of said alternating-current motor, and",
+                            "gate:gateId": 25
+                        },
+                        {
+                            "content": "correcting the amplitude of said voltage command signal so as to compensate the estimated amount of change in the voltage applied to said alternating-current motor.",
+                            "gate:gateId": 26
+                        }
+                    ]
+                }
+            },
+            "depends_on": 3
+        }
+    ],
+    "numberIndependentClaims": 79
+}}

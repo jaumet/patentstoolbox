@@ -1,0 +1,1410 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08503364-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 204,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 6546,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "uplink transmit power control, comprising:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node;\ndetecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of performing ",
+            "claimSize": 88,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of performing uplink transmit power control, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 5
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the transmit power control comprises adjusting transmit power spectral density.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein performing ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 21,
+            "gate:gateId": 6,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein performing the transmit power control comprises adjusting transmit power spectral density."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 8,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 7
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 21,
+            "gate:gateId": 9,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 11,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 10
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the overload indication as a bit carried by the PBCH.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising detecting ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 22,
+            "gate:gateId": 12,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", further comprising detecting the overload indication as a bit carried by the PBCH."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 14,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 13
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the overload indication at an access terminal.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein receiving comprises receiving ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 20,
+            "gate:gateId": 15,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein receiving comprises receiving the overload indication at an access terminal."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 17,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 16
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the overload indication at a small base node comprising a selected one of a femto access point, a home base node, and a closed subscription cell.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": ", wherein receiving comprises receiving ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 41,
+            "gate:gateId": 18,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method of",
+                    ", wherein receiving comprises receiving the overload indication at a small base node comprising a selected one of a femto access point, a home base node, and a closed subscription cell."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 20,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 19
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00007",
+            "body": "an access terminal in a coverage area of the small base node to adjust transmit power spectral density based upon the received overload indication to reduce an interference level at the neighboring node.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein performing comprises instructing ",
+            "claimBackReference": "of claim 5",
+            "claimSize": 46,
+            "gate:gateId": 21,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method of",
+                    ", wherein performing comprises instructing an access terminal in a coverage area of the small base node to adjust transmit power spectral density based upon the received overload indication to reduce an interference level at the neighboring node."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 23,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 22
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00008",
+            "body": "uplink transmit power control, comprising:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node,\ndetecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node;\nmasking a PBCH Cyclic Redundancy Check (CRC) based on the overload indication; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00008",
+            "transPhrase": " of performing ",
+            "claimSize": 80,
+            "gate:gateId": 24,
+            "claim_preamble": "A method",
+            "claimNumber": 8,
+            "claim-text": {
+                "content": "8. A method of performing uplink transmit power control, comprising:",
+                "gate:gateId": 25,
+                "claim-text": [
+                    {
+                        "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node,",
+                        "gate:gateId": 26
+                    },
+                    {
+                        "content": "detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node;",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "masking a PBCH Cyclic Redundancy Check (CRC) based on the overload indication; and",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 29
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00009",
+            "body": "uplink transmit power control, comprising:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node;\ndetecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node;\nscrambling the PBCH based on the overload indication; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00009",
+            "transPhrase": " of performing ",
+            "claimSize": 74,
+            "gate:gateId": 30,
+            "claim_preamble": "A method",
+            "claimNumber": 9,
+            "claim-text": {
+                "content": "9. A method of performing uplink transmit power control, comprising:",
+                "gate:gateId": 31,
+                "claim-text": [
+                    {
+                        "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                        "gate:gateId": 32
+                    },
+                    {
+                        "content": "detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node;",
+                        "gate:gateId": 33
+                    },
+                    {
+                        "content": "scrambling the PBCH based on the overload indication; and",
+                        "gate:gateId": 34
+                    },
+                    {
+                        "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 35
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00010",
+            "body": "uplink transmit power control, comprising:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node;\ndetecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node as a bit per subband carried by the PBCH; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00010",
+            "transPhrase": " of performing ",
+            "claimSize": 74,
+            "gate:gateId": 36,
+            "claim_preamble": "A method",
+            "claimNumber": 10,
+            "claim-text": {
+                "content": "10. A method of performing uplink transmit power control, comprising:",
+                "gate:gateId": 37,
+                "claim-text": [
+                    {
+                        "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                        "gate:gateId": 38
+                    },
+                    {
+                        "content": "detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node as a bit per subband carried by the PBCH; and",
+                        "gate:gateId": 39
+                    },
+                    {
+                        "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 40
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00011",
+            "body": "uplink transmit power control, comprising:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node;\ndetecting the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);\nreserving PHICH resources per cell to convey the overload indication; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": " of performing ",
+            "claimSize": 76,
+            "gate:gateId": 41,
+            "claim_preamble": "A method",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. A method of performing uplink transmit power control, comprising:",
+                "gate:gateId": 42,
+                "claim-text": [
+                    {
+                        "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                        "gate:gateId": 43
+                    },
+                    {
+                        "content": "detecting the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);",
+                        "gate:gateId": 44
+                    },
+                    {
+                        "content": "reserving PHICH resources per cell to convey the overload indication; and",
+                        "gate:gateId": 45
+                    },
+                    {
+                        "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 46
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising receiving ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 34,
+            "gate:gateId": 47,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method of",
+                    ", further comprising receiving the PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 49,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 48
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "a plurality of the PHICH resources to detect the overload indication.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising combining ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 23,
+            "gate:gateId": 50,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method of",
+                    ", further comprising combining a plurality of the PHICH resources to detect the overload indication."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 52,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 51
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "a center portion of bandwidth used by the neighboring node.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising receiving ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 22,
+            "gate:gateId": 53,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method of",
+                    ", further comprising receiving a center portion of bandwidth used by the neighboring node."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 55,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 54
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the overload indication as a Walsh code that is a function of a cell identifier for the neighboring node.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising detecting ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 31,
+            "gate:gateId": 56,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method of",
+                    ", further comprising detecting the overload indication as a Walsh code that is a function of a cell identifier for the neighboring node."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 58,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 57
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the PHICH is time division multiplexed (TDM) modulated in a different time slot from a plurality of neighboring nodes.\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 31,
+            "gate:gateId": 59,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method of",
+                    ", wherein the PHICH is time division multiplexed (TDM) modulated in a different time slot from a plurality of neighboring nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 61,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 60
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00017",
+            "body": "the PHICH is frequency division multiplexed (FDM) modulated in a different frequency resource from a plurality of neighboring nodes.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 31,
+            "gate:gateId": 62,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method of",
+                    ", wherein the PHICH is frequency division multiplexed (FDM) modulated in a different frequency resource from a plurality of neighboring nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 64,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 63
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00018",
+            "body": "the PHICH is code division multiplexed (CDM) modulated in a different Walsh code from a plurality of neighboring nodes.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 31,
+            "gate:gateId": 65,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method of",
+                    ", wherein the PHICH is code division multiplexed (CDM) modulated in a different Walsh code from a plurality of neighboring nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 67,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 66
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the PHICH by receiving a plurality of PHICH resources assigned to the overload indication; and\ncombining log likelihood ratios for the plurality of PHICH resources prior to detecting the overload indication.\n\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising:\nreceiving ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 45,
+            "gate:gateId": 68,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 69,
+                "claim-text": [
+                    {
+                        "content": "receiving the PHICH by receiving a plurality of PHICH resources assigned to the overload indication; and",
+                        "gate:gateId": 71
+                    },
+                    {
+                        "content": "combining log likelihood ratios for the plurality of PHICH resources prior to detecting the overload indication.",
+                        "gate:gateId": 72
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the PHICH by decoding with interference cancellation.\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising receiving ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 19,
+            "gate:gateId": 73,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "20. The method of",
+                    ", further comprising receiving the PHICH by decoding with interference cancellation."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 75,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 74
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00021",
+            "body": "comprising:\na non-transitory computer-readable medium having code for:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node;\ndetecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n\n",
+            "claimType": "independent",
+            "num": "00021",
+            "transPhrase": ", ",
+            "claimSize": 92,
+            "gate:gateId": 76,
+            "claim_preamble": "A computer program product",
+            "claimNumber": 21,
+            "claim-text": {
+                "content": "21. A computer program product, comprising:",
+                "gate:gateId": 77,
+                "claim-text": {
+                    "content": "a non-transitory computer-readable medium having code for:",
+                    "gate:gateId": 78,
+                    "claim-text": [
+                        {
+                            "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                            "gate:gateId": 79
+                        },
+                        {
+                            "content": "detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and",
+                            "gate:gateId": 80
+                        },
+                        {
+                            "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                            "gate:gateId": 81
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00022",
+            "body": "the computer-readable medium further has code for adjusting transmit power spectral density.\n",
+            "num": "00022",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 24,
+            "gate:gateId": 82,
+            "claimNumber": 22,
+            "claim_preamble": "The computer program product",
+            "claim-text": {
+                "content": [
+                    "22. The computer program product of",
+                    ", wherein the computer-readable medium further has code for adjusting transmit power spectral density."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 84,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 83
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00023",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00023",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 21",
+            "claimSize": 23,
+            "gate:gateId": 85,
+            "claimNumber": 23,
+            "claim_preamble": "The computer program product",
+            "claim-text": {
+                "content": [
+                    "23. The computer program product of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 21",
+                    "gate:gateId": 87,
+                    "idref": "CLM-00021"
+                },
+                "gate:gateId": 86
+            },
+            "depends_on": 21
+        },
+        {
+            "id": "CLM-00024",
+            "body": "comprising:\na non-transitory computer-readable medium having code for:\nreceiving an over-the-air broadcast of an overload indication from a neighboring node;\ndetecting the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);\nreserving PHICH resources per cell to convey the overload indication; and\nperforming transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n\n",
+            "claimType": "independent",
+            "num": "00024",
+            "transPhrase": ", ",
+            "claimSize": 80,
+            "gate:gateId": 88,
+            "claim_preamble": "A computer program product",
+            "claimNumber": 24,
+            "claim-text": {
+                "content": "24. A computer program product, comprising:",
+                "gate:gateId": 89,
+                "claim-text": {
+                    "content": "a non-transitory computer-readable medium having code for:",
+                    "gate:gateId": 90,
+                    "claim-text": [
+                        {
+                            "content": "receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                            "gate:gateId": 91
+                        },
+                        {
+                            "content": "detecting the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);",
+                            "gate:gateId": 92
+                        },
+                        {
+                            "content": "reserving PHICH resources per cell to convey the overload indication; and",
+                            "gate:gateId": 93
+                        },
+                        {
+                            "content": "performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                            "gate:gateId": 94
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00025",
+            "body": "uplink transmit power control, comprising:\nat least one processor configured to:\nreceive an over-the-air broadcast of an overload indication from a neighboring node;\ndetect the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and\nperform transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n\n",
+            "claimType": "independent",
+            "num": "00025",
+            "transPhrase": " for performing ",
+            "claimSize": 95,
+            "gate:gateId": 95,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 25,
+            "claim-text": {
+                "content": "25. An apparatus for performing uplink transmit power control, comprising:",
+                "gate:gateId": 96,
+                "claim-text": {
+                    "content": "at least one processor configured to:",
+                    "gate:gateId": 97,
+                    "claim-text": [
+                        {
+                            "content": "receive an over-the-air broadcast of an overload indication from a neighboring node;",
+                            "gate:gateId": 98
+                        },
+                        {
+                            "content": "detect the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and",
+                            "gate:gateId": 99
+                        },
+                        {
+                            "content": "perform transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                            "gate:gateId": 100
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00026",
+            "body": "the at least one processor performs the transmit power control by adjusting transmit power spectral density.\n",
+            "num": "00026",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 25",
+            "claimSize": 26,
+            "gate:gateId": 101,
+            "claimNumber": 26,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "26. The apparatus of",
+                    ", wherein the at least one processor performs the transmit power control by adjusting transmit power spectral density."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 103,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 102
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00027",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00027",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 25",
+            "claimSize": 21,
+            "gate:gateId": 104,
+            "claimNumber": 27,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "27. The apparatus of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 25",
+                    "gate:gateId": 106,
+                    "idref": "CLM-00025"
+                },
+                "gate:gateId": 105
+            },
+            "depends_on": 25
+        },
+        {
+            "id": "CLM-00028",
+            "body": "uplink transmit power control, comprising:\nat least one processor configured to:\nreceive an over-the-air broadcast of an overload indication from a neighboring node;\ndetect the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);\nreserve PHICH resources per cell to convey the overload indication; and\nperform transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n\n",
+            "claimType": "independent",
+            "num": "00028",
+            "transPhrase": " for performing ",
+            "claimSize": 83,
+            "gate:gateId": 107,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 28,
+            "claim-text": {
+                "content": "28. An apparatus for performing uplink transmit power control, comprising:",
+                "gate:gateId": 108,
+                "claim-text": {
+                    "content": "at least one processor configured to:",
+                    "gate:gateId": 109,
+                    "claim-text": [
+                        {
+                            "content": "receive an over-the-air broadcast of an overload indication from a neighboring node;",
+                            "gate:gateId": 110
+                        },
+                        {
+                            "content": "detect the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);",
+                            "gate:gateId": 111
+                        },
+                        {
+                            "content": "reserve PHICH resources per cell to convey the overload indication; and",
+                            "gate:gateId": 112
+                        },
+                        {
+                            "content": "perform transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                            "gate:gateId": 113
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00029",
+            "body": "uplink transmit power control, comprising:\nmeans for receiving an over-the-air broadcast of an overload indication from a neighboring node;\nmeans for detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and\nmeans for performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00029",
+            "transPhrase": " for performing ",
+            "claimSize": 94,
+            "gate:gateId": 114,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 29,
+            "claim-text": {
+                "content": "29. An apparatus for performing uplink transmit power control, comprising:",
+                "gate:gateId": 115,
+                "claim-text": [
+                    {
+                        "content": "means for receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                        "gate:gateId": 116
+                    },
+                    {
+                        "content": "means for detecting the overload indication received on a physical broadcast channel (PBCH) from the neighboring node, wherein the receiving comprises receiving two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH; and",
+                        "gate:gateId": 117
+                    },
+                    {
+                        "content": "means for performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 118
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00030",
+            "body": "means for adjusting transmit power spectral density.\n",
+            "num": "00030",
+            "claimType": "dependent",
+            "transPhrase": ", further comprising ",
+            "claimBackReference": "of claim 29",
+            "claimSize": 18,
+            "gate:gateId": 119,
+            "claimNumber": 30,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "30. The apparatus of",
+                    ", further comprising means for adjusting transmit power spectral density."
+                ],
+                "claim-ref": {
+                    "content": "claim 29",
+                    "gate:gateId": 121,
+                    "idref": "CLM-00029"
+                },
+                "gate:gateId": 120
+            },
+            "depends_on": 29
+        },
+        {
+            "id": "CLM-00031",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00031",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 29",
+            "claimSize": 21,
+            "gate:gateId": 122,
+            "claimNumber": 31,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "31. The apparatus of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 29",
+                    "gate:gateId": 124,
+                    "idref": "CLM-00029"
+                },
+                "gate:gateId": 123
+            },
+            "depends_on": 29
+        },
+        {
+            "id": "CLM-00032",
+            "body": "uplink transmit power control, comprising:\nmeans for receiving an over-the-air broadcast of an overload indication from a neighboring node;\nmeans for detecting the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);\nmeans for reserving PHICH resources per cell to convey the overload indication; and\nmeans for performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.\n\n",
+            "claimType": "independent",
+            "num": "00032",
+            "transPhrase": " for performing ",
+            "claimSize": 84,
+            "gate:gateId": 125,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 32,
+            "claim-text": {
+                "content": "32. An apparatus for performing uplink transmit power control, comprising:",
+                "gate:gateId": 126,
+                "claim-text": [
+                    {
+                        "content": "means for receiving an over-the-air broadcast of an overload indication from a neighboring node;",
+                        "gate:gateId": 127
+                    },
+                    {
+                        "content": "means for detecting the overload indication received on a physical hybrid automatic repeat request indicator channel (PHICH);",
+                        "gate:gateId": 128
+                    },
+                    {
+                        "content": "means for reserving PHICH resources per cell to convey the overload indication; and",
+                        "gate:gateId": 129
+                    },
+                    {
+                        "content": "means for performing transmit power control based upon the received overload indication to reduce an interference level at the neighboring node.",
+                        "gate:gateId": 130
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00033",
+            "body": "an overload indication, comprising:\ndetermining that an interference level on an uplink exceeds a threshold; and\ntransmitting an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.\n\n",
+            "claimType": "independent",
+            "num": "00033",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 79,
+            "gate:gateId": 131,
+            "claim_preamble": "A method",
+            "claimNumber": 33,
+            "claim-text": {
+                "content": "33. A method for broadcasting an overload indication, comprising:",
+                "gate:gateId": 132,
+                "claim-text": [
+                    {
+                        "content": "determining that an interference level on an uplink exceeds a threshold; and",
+                        "gate:gateId": 133
+                    },
+                    {
+                        "content": "transmitting an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.",
+                        "gate:gateId": 134
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00034",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00034",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 33",
+            "claimSize": 21,
+            "gate:gateId": 135,
+            "claimNumber": 34,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "34. The method of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 33",
+                    "gate:gateId": 137,
+                    "idref": "CLM-00033"
+                },
+                "gate:gateId": 136
+            },
+            "depends_on": 33
+        },
+        {
+            "id": "CLM-00035",
+            "body": "further comprising transmitting the overload indication as a bit carried by the PBCH.\n",
+            "num": "00035",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 33",
+            "claimSize": 22,
+            "gate:gateId": 138,
+            "claimNumber": 35,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "35. The method of",
+                    ", further comprising transmitting the overload indication as a bit carried by the PBCH."
+                ],
+                "claim-ref": {
+                    "content": "claim 33",
+                    "gate:gateId": 140,
+                    "idref": "CLM-00033"
+                },
+                "gate:gateId": 139
+            },
+            "depends_on": 33
+        },
+        {
+            "id": "CLM-00036",
+            "body": "an overload indication, comprising:\ndetermining that an interference level on an uplink exceeds a threshold; and\ntransmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.\n\n",
+            "claimType": "independent",
+            "num": "00036",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 87,
+            "gate:gateId": 141,
+            "claim_preamble": "A method",
+            "claimNumber": 36,
+            "claim-text": {
+                "content": "36. A method for broadcasting an overload indication, comprising:",
+                "gate:gateId": 142,
+                "claim-text": [
+                    {
+                        "content": "determining that an interference level on an uplink exceeds a threshold; and",
+                        "gate:gateId": 143
+                    },
+                    {
+                        "content": "transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.",
+                        "gate:gateId": 144
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00037",
+            "body": "the PHICH is frequency division multiplexed (FDM) modulated in a different frequency resource from a plurality of neighboring nodes.\n",
+            "num": "00037",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 36",
+            "claimSize": 31,
+            "gate:gateId": 145,
+            "claimNumber": 37,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "37. The method of",
+                    ", wherein the PHICH is frequency division multiplexed (FDM) modulated in a different frequency resource from a plurality of neighboring nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 36",
+                    "gate:gateId": 147,
+                    "idref": "CLM-00036"
+                },
+                "gate:gateId": 146
+            },
+            "depends_on": 36
+        },
+        {
+            "id": "CLM-00038",
+            "body": "the PHICH is code division multiplexed (CDM) modulated in a different Walsh code from a plurality of neighboring nodes.\n",
+            "num": "00038",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 36",
+            "claimSize": 31,
+            "gate:gateId": 148,
+            "claimNumber": 38,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "38. The method of",
+                    ", wherein the PHICH is code division multiplexed (CDM) modulated in a different Walsh code from a plurality of neighboring nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 36",
+                    "gate:gateId": 150,
+                    "idref": "CLM-00036"
+                },
+                "gate:gateId": 149
+            },
+            "depends_on": 36
+        },
+        {
+            "id": "CLM-00039",
+            "body": "an overload indication, comprising:\ndetermining that an interference level on an uplink exceeds a threshold;\ntransmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication; and\ndistributing the overload indication across a plurality of PHICH resources on the PHICH.\n\n",
+            "claimType": "independent",
+            "num": "00039",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 74,
+            "gate:gateId": 151,
+            "claim_preamble": "A method",
+            "claimNumber": 39,
+            "claim-text": {
+                "content": "39. A method for broadcasting an overload indication, comprising:",
+                "gate:gateId": 152,
+                "claim-text": [
+                    {
+                        "content": "determining that an interference level on an uplink exceeds a threshold;",
+                        "gate:gateId": 153
+                    },
+                    {
+                        "content": "transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication; and",
+                        "gate:gateId": 154
+                    },
+                    {
+                        "content": "distributing the overload indication across a plurality of PHICH resources on the PHICH.",
+                        "gate:gateId": 155
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00040",
+            "body": "an overload indication, comprising:\ndetermining that an interference level on an uplink exceeds a threshold; and\ntransmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting the overload indication on a center portion of bandwidth used for receiving by a recipient.\n\n",
+            "claimType": "independent",
+            "num": "00040",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 81,
+            "gate:gateId": 156,
+            "claim_preamble": "A method",
+            "claimNumber": 40,
+            "claim-text": {
+                "content": "40. A method for broadcasting an overload indication, comprising:",
+                "gate:gateId": 157,
+                "claim-text": [
+                    {
+                        "content": "determining that an interference level on an uplink exceeds a threshold; and",
+                        "gate:gateId": 158
+                    },
+                    {
+                        "content": "transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting the overload indication on a center portion of bandwidth used for receiving by a recipient.",
+                        "gate:gateId": 159
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00041",
+            "body": "an overload indication, comprising:\ndetermining that an interference level on an uplink exceeds a threshold; and\ntransmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting the overload indication as a Walsh code that is a function of a cell identifier.\n\n",
+            "claimType": "independent",
+            "num": "00041",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 81,
+            "gate:gateId": 160,
+            "claim_preamble": "A method",
+            "claimNumber": 41,
+            "claim-text": {
+                "content": "41. A method for broadcasting an overload indication, comprising:",
+                "gate:gateId": 161,
+                "claim-text": [
+                    {
+                        "content": "determining that an interference level on an uplink exceeds a threshold; and",
+                        "gate:gateId": 162
+                    },
+                    {
+                        "content": "transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting the overload indication as a Walsh code that is a function of a cell identifier.",
+                        "gate:gateId": 163
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00042",
+            "body": "the PHICH is time division multiplexed (TDM) modulated in a different time slot from a plurality of neighboring nodes.\n",
+            "num": "00042",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 36",
+            "claimSize": 31,
+            "gate:gateId": 164,
+            "claimNumber": 42,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "42. The method of",
+                    ", wherein the PHICH is time division multiplexed (TDM) modulated in a different time slot from a plurality of neighboring nodes."
+                ],
+                "claim-ref": {
+                    "content": "claim 36",
+                    "gate:gateId": 166,
+                    "idref": "CLM-00036"
+                },
+                "gate:gateId": 165
+            },
+            "depends_on": 36
+        },
+        {
+            "id": "CLM-00043",
+            "body": "an overload indication, comprising:\na non-transitory computer-readable medium having code for:\ndetermining that an interference level on an uplink exceeds a threshold; and\ntransmitting an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.\n\n\n",
+            "claimType": "independent",
+            "num": "00043",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 89,
+            "gate:gateId": 167,
+            "claim_preamble": "A computer program product",
+            "claimNumber": 43,
+            "claim-text": {
+                "content": "43. A computer program product for broadcasting an overload indication, comprising:",
+                "gate:gateId": 168,
+                "claim-text": {
+                    "content": "a non-transitory computer-readable medium having code for:",
+                    "gate:gateId": 169,
+                    "claim-text": [
+                        {
+                            "content": "determining that an interference level on an uplink exceeds a threshold; and",
+                            "gate:gateId": 170
+                        },
+                        {
+                            "content": "transmitting an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.",
+                            "gate:gateId": 171
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00044",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00044",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 43",
+            "claimSize": 23,
+            "gate:gateId": 172,
+            "claimNumber": 44,
+            "claim_preamble": "The computer program product",
+            "claim-text": {
+                "content": [
+                    "44. The computer program product of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 43",
+                    "gate:gateId": 174,
+                    "idref": "CLM-00043"
+                },
+                "gate:gateId": 173
+            },
+            "depends_on": 43
+        },
+        {
+            "id": "CLM-00045",
+            "body": "an overload indication, comprising:\na non-transitory computer-readable medium having code for:\ndetermining that an interference level on an uplink exceeds a threshold; and\ntransmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.\n\n\n",
+            "claimType": "independent",
+            "num": "00045",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 97,
+            "gate:gateId": 175,
+            "claim_preamble": "A computer program product",
+            "claimNumber": 45,
+            "claim-text": {
+                "content": "45. A computer program product for broadcasting an overload indication, comprising:",
+                "gate:gateId": 176,
+                "claim-text": {
+                    "content": "a non-transitory computer-readable medium having code for:",
+                    "gate:gateId": 177,
+                    "claim-text": [
+                        {
+                            "content": "determining that an interference level on an uplink exceeds a threshold; and",
+                            "gate:gateId": 178
+                        },
+                        {
+                            "content": "transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.",
+                            "gate:gateId": 179
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00046",
+            "body": "an overload indication, comprising:\nat least one processor configured to:\ndetermine that an interference level on an uplink exceeds a threshold; and\ninstruct a transmitter to transmit an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.\n\n\n",
+            "claimType": "independent",
+            "num": "00046",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 90,
+            "gate:gateId": 180,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 46,
+            "claim-text": {
+                "content": "46. An apparatus for broadcasting an overload indication, comprising:",
+                "gate:gateId": 181,
+                "claim-text": {
+                    "content": "at least one processor configured to:",
+                    "gate:gateId": 182,
+                    "claim-text": [
+                        {
+                            "content": "determine that an interference level on an uplink exceeds a threshold; and",
+                            "gate:gateId": 183
+                        },
+                        {
+                            "content": "instruct a transmitter to transmit an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.",
+                            "gate:gateId": 184
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00047",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00047",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 46",
+            "claimSize": 21,
+            "gate:gateId": 185,
+            "claimNumber": 47,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "47. The apparatus of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 46",
+                    "gate:gateId": 187,
+                    "idref": "CLM-00046"
+                },
+                "gate:gateId": 186
+            },
+            "depends_on": 46
+        },
+        {
+            "id": "CLM-00048",
+            "body": "an overload indication, comprising:\nat least one processor configured to:\ndetermine that an interference level on an uplink exceeds a threshold; and\ninstruct a transmitter to transmit an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.\n\n\n",
+            "claimType": "independent",
+            "num": "00048",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 98,
+            "gate:gateId": 188,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 48,
+            "claim-text": {
+                "content": "48. An apparatus for broadcasting an overload indication, comprising:",
+                "gate:gateId": 189,
+                "claim-text": {
+                    "content": "at least one processor configured to:",
+                    "gate:gateId": 190,
+                    "claim-text": [
+                        {
+                            "content": "determine that an interference level on an uplink exceeds a threshold; and",
+                            "gate:gateId": 191
+                        },
+                        {
+                            "content": "instruct a transmitter to transmit an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.",
+                            "gate:gateId": 192
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00049",
+            "body": "an overload indication, comprising:\nmeans for determining that an interference level on an uplink exceeds a threshold; and\nmeans for transmitting an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.\n\n",
+            "claimType": "independent",
+            "num": "00049",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 83,
+            "gate:gateId": 193,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 49,
+            "claim-text": {
+                "content": "49. An apparatus for broadcasting an overload indication, comprising:",
+                "gate:gateId": 194,
+                "claim-text": [
+                    {
+                        "content": "means for determining that an interference level on an uplink exceeds a threshold; and",
+                        "gate:gateId": 195
+                    },
+                    {
+                        "content": "means for transmitting an over-the-air broadcast of the overload indication on a physical broadcast channel (PBCH) for a neighboring recipient to perform transmit power control based upon the overload indication, wherein the transmitting comprises transmitting two resource blocks within a center of six resource blocks in a midamble of a shortened PBCH.",
+                        "gate:gateId": 196
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00050",
+            "body": "the interference level comprises Interference over Thermal (IoT) noise.\n",
+            "num": "00050",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 49",
+            "claimSize": 21,
+            "gate:gateId": 197,
+            "claimNumber": 50,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "50. The apparatus of",
+                    ", wherein the interference level comprises Interference over Thermal (IoT) noise."
+                ],
+                "claim-ref": {
+                    "content": "claim 49",
+                    "gate:gateId": 199,
+                    "idref": "CLM-00049"
+                },
+                "gate:gateId": 198
+            },
+            "depends_on": 49
+        },
+        {
+            "id": "CLM-00051",
+            "body": "an overload indication, comprising:\nmeans for determining that an interference level on an uplink exceeds a threshold; and\nmeans for transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit s ower control based u s on the overload indication wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.\n\n",
+            "claimType": "independent",
+            "num": "00051",
+            "transPhrase": " for broadcasting ",
+            "claimSize": 93,
+            "gate:gateId": 200,
+            "claim_preamble": "An apparatus",
+            "claimNumber": 51,
+            "claim-text": {
+                "content": "51. An apparatus for broadcasting an overload indication, comprising:",
+                "gate:gateId": 201,
+                "claim-text": [
+                    {
+                        "content": "means for determining that an interference level on an uplink exceeds a threshold; and",
+                        "gate:gateId": 202
+                    },
+                    {
+                        "content": "means for transmitting an over-the-air broadcast of the overload indication on a physical hybrid automatic repeat request indicator channel (PHICH) for a neighboring recipient to perform transmit s ower control based u s on the overload indication wherein the transmitting comprises transmitting PHICH resources on the PHICH that are orthogonal across a plurality of neighboring nodes for achieving a defined signal-to-noise ratio penetration.",
+                        "gate:gateId": 203
+                    }
+                ]
+            }
+        }
+    ],
+    "numberIndependentClaims": 184
+}}

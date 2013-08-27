@@ -1,0 +1,689 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08501152-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 91,
+        "date-produced": 20130723,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3037,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "carbon nanotubes comprising one or more surface carboxyl groups, characterized in that it comprises at least the following steps:\na) a step of substituting the surface carboxyl groups with radiolabeled nitrile groups, consisting in reacting, in an organic solvent, said carbon nanotubes with a carbon 13 radiolabeled or carbon 14-radiolabeled cyanide, in the presence of a palladium catalyst, so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carbon 13 labeled or carbon 14-labeled nitrile groups; and\nb) a step of hydrolyzing the nitrile group(s), consisting in reacting, in an organic solvent or an aqueous organic mixture, the carbon nanotubes obtained above in step a) with an acid or a base so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carboxyl groups in which the carbon atom bearing the acid function is a carbon 13 or carbon 14 atom.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of radiolabeling ",
+            "claimSize": 182,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of radiolabeling carbon nanotubes comprising one or more surface carboxyl groups, characterized in that it comprises at least the following steps:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "a) a step of substituting the surface carboxyl groups with radiolabeled nitrile groups, consisting in reacting, in an organic solvent, said carbon nanotubes with a carbon 13 radiolabeled or carbon 14-radiolabeled cyanide, in the presence of a palladium catalyst, so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carbon 13 labeled or carbon 14-labeled nitrile groups; and",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "b) a step of hydrolyzing the nitrile group(s), consisting in reacting, in an organic solvent or an aqueous organic mixture, the carbon nanotubes obtained above in step a) with an acid or a base so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carboxyl groups in which the carbon atom bearing the acid function is a carbon 13 or carbon 14 atom.",
+                        "gate:gateId": 4
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "that substitution step a) is carried out in a single step, by cyanating decarboxylation of the surface carboxyl groups in the presence of a palladium catalyst.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 41,
+            "gate:gateId": 5,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method as claimed in",
+                    ", characterized in that substitution step a) is carried out in a single step, by cyanating decarboxylation of the surface carboxyl groups in the presence of a palladium catalyst."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 7,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 6
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the palladium catalyst is chosen from palladium (II) salts.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 25,
+            "gate:gateId": 8,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method as claimed in",
+                    ", characterized in that the palladium catalyst is chosen from palladium (II) salts."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00004",
+            "body": "the palladium (II) salts are chosen from palladium trifluoroacetate, palladium sulfate and palladium nitrate.\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 3 ,",
+            "claimSize": 31,
+            "gate:gateId": 11,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method as claimed in",
+                    ", characterized in that the palladium (II) salts are chosen from palladium trifluoroacetate, palladium sulfate and palladium nitrate."
+                ],
+                "claim-ref": {
+                    "content": "claim 3",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00003"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 3
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the solvent of step a) is chosen from dimethylformamide (DMF), dimethyl sulfoxide (DMSO) and water, and mixtures thereof.\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 39,
+            "gate:gateId": 14,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method as claimed in",
+                    ", characterized in that the solvent of step a) is chosen from dimethylformamide (DMF), dimethyl sulfoxide (DMSO) and water, and mixtures thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 15
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00006",
+            "body": "the organic solvent of step a) is DMF alone or as a DMF/DMSO mixture, in a volume ratio ranging from 100/0 to 80/20.\n",
+            "num": "00006",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 5 ,",
+            "claimSize": 45,
+            "gate:gateId": 17,
+            "claimNumber": 6,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "6. The method as claimed in",
+                    ", characterized in that the organic solvent of step a) is DMF alone or as a DMF/DMSO mixture, in a volume ratio ranging from 100/0 to 80/20."
+                ],
+                "claim-ref": {
+                    "content": "claim 5",
+                    "gate:gateId": 19,
+                    "idref": "CLM-00005"
+                },
+                "gate:gateId": 18
+            },
+            "depends_on": 5
+        },
+        {
+            "id": "CLM-00007",
+            "body": "that cyanating decarboxylation step a) is carried out at a temperature of 25 to 150° C.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 31,
+            "gate:gateId": 20,
+            "claimNumber": 7,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "7. The method as claimed in",
+                    ", characterized in that cyanating decarboxylation step a) is carried out at a temperature of 25 to 150° C."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 22,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 21
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00008",
+            "body": "that cyanating decarboxylation step a) is carried out in the presence of a silver or copper salt.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 31,
+            "gate:gateId": 23,
+            "claimNumber": 8,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "8. The method as claimed in",
+                    ", characterized in that cyanating decarboxylation step a) is carried out in the presence of a silver or copper salt."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 25,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 24
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00009",
+            "body": "the silver or copper salts are chosen from silver carbonates, nitrates and triflates or copper carbonates, nitrates and triflates.\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 8 ,",
+            "claimSize": 35,
+            "gate:gateId": 26,
+            "claimNumber": 9,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "9. The method as claimed in",
+                    ", characterized in that the silver or copper salts are chosen from silver carbonates, nitrates and triflates or copper carbonates, nitrates and triflates."
+                ],
+                "claim-ref": {
+                    "content": "claim 8",
+                    "gate:gateId": 28,
+                    "idref": "CLM-00008"
+                },
+                "gate:gateId": 27
+            },
+            "depends_on": 8
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the duration of cyanating decarboxylation step a) ranges from 1 to 12 hours.\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 2 ,",
+            "claimSize": 28,
+            "gate:gateId": 29,
+            "claimNumber": 10,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "10. The method as claimed in",
+                    ", characterized in that the duration of cyanating decarboxylation step a) ranges from 1 to 12 hours."
+                ],
+                "claim-ref": {
+                    "content": "claim 2",
+                    "gate:gateId": 31,
+                    "idref": "CLM-00002"
+                },
+                "gate:gateId": 30
+            },
+            "depends_on": 2
+        },
+        {
+            "id": "CLM-00011",
+            "body": "that substitution step a) comprises the following three substeps:\na1) a substep of substituting the hydroxyl groups of said surface carboxyl groups with halide groups, consisting in reacting said carbon nanotubes with a halogenating agent, optionally in the presence of an organic solvent, so as to result in carbon nanotubes comprising, at the surface, one or more acid halide groups;\na2) a second substep of substituting the halogen atom of said acid halide groups with a radiolabeled nitrile group, consisting in reacting, in an organic solvent, the carbon nanotubes obtained above in step a1) with a carbon 13-radiolabeled or carbon 14-radiolabeled cyanide, so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carbon 13-labeled or carbon 14-labeled ketonitrile groups;\na3) a third substep of decarbonylating said ketonitrile groups, consisting in reacting, in an organic solvent, the radiolabeled carbon nanotubes obtained above in step a2) in the presence of a catalyst chosen from palladium0 (Pd0) salts and complexes, so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carbon 13-labeled or carbon 14-labeled nitrile groups.\n\n",
+            "num": "00011",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 244,
+            "gate:gateId": 32,
+            "claimNumber": 11,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "11. The method as claimed in",
+                    ", characterized in that substitution step a) comprises the following three substeps:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 33,
+                "claim-text": [
+                    {
+                        "content": "a1) a substep of substituting the hydroxyl groups of said surface carboxyl groups with halide groups, consisting in reacting said carbon nanotubes with a halogenating agent, optionally in the presence of an organic solvent, so as to result in carbon nanotubes comprising, at the surface, one or more acid halide groups;",
+                        "gate:gateId": 35
+                    },
+                    {
+                        "content": "a2) a second substep of substituting the halogen atom of said acid halide groups with a radiolabeled nitrile group, consisting in reacting, in an organic solvent, the carbon nanotubes obtained above in step a1) with a carbon 13-radiolabeled or carbon 14-radiolabeled cyanide, so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carbon 13-labeled or carbon 14-labeled ketonitrile groups;",
+                        "gate:gateId": 36
+                    },
+                    {
+                        "content": "a3) a third substep of decarbonylating said ketonitrile groups, consisting in reacting, in an organic solvent, the radiolabeled carbon nanotubes obtained above in step a2) in the presence of a catalyst chosen from palladium0 (Pd0) salts and complexes, so as to result in radiolabeled carbon nanotubes comprising, at the surface, one or more carbon 13-labeled or carbon 14-labeled nitrile groups.",
+                        "gate:gateId": 37
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the halogenating agent used in substep a1) is chosen from thionyl dichloride (SOCl 2 ), oxalyl chloride (ClCOCOCl), phosphorus trichloride (PCl 3 ) and phosphorus pentachloride (PCl 5 ).\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 52,
+            "gate:gateId": 38,
+            "claimNumber": 12,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "12. The method as claimed in",
+                    ", characterized in that the halogenating agent used in substep a1) is chosen from thionyl dichloride (SOCl",
+                    "), oxalyl chloride (ClCOCOCl), phosphorus trichloride (PCl",
+                    ") and phosphorus pentachloride (PCl",
+                    ")."
+                ],
+                "sub": [
+                    {
+                        "content": 2,
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": 3,
+                        "gate:gateId": 42
+                    },
+                    {
+                        "content": 5,
+                        "gate:gateId": 43
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 39
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the palladium0 salts and complexes used in substep a3) are chosen from tetrakis(triphenylphosphine)palladium (Pd(PPh 3 ) 4 ), and also from the pairings palladium II acetate/triphenylphosphine (Pd(OAc) 2 /TPP), palladiumII acetate/tributylphosphine (Pd(OAc) 2 /TBP) and palladium II acetate/tricyclohexylphosphine (Pd(OAc) 2 /PCy 3 ).\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 92,
+            "gate:gateId": 44,
+            "claimNumber": 13,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "13. The method as claimed in",
+                    ", characterized in that the palladium0 salts and complexes used in substep a3) are chosen from tetrakis(triphenylphosphine)palladium (Pd(PPh",
+                    ")",
+                    "), and also from the pairings palladium",
+                    "acetate/triphenylphosphine (Pd(OAc)",
+                    "/TPP), palladiumII acetate/tributylphosphine (Pd(OAc)",
+                    "/TBP) and palladium",
+                    "acetate/tricyclohexylphosphine (Pd(OAc)",
+                    "/PCy",
+                    ")."
+                ],
+                "sub": [
+                    {
+                        "content": 3,
+                        "gate:gateId": 47
+                    },
+                    {
+                        "content": 4,
+                        "gate:gateId": 48
+                    },
+                    {
+                        "content": 2,
+                        "gate:gateId": 50
+                    },
+                    {
+                        "content": 2,
+                        "gate:gateId": 51
+                    },
+                    {
+                        "content": 2,
+                        "gate:gateId": 53
+                    },
+                    {
+                        "content": 3,
+                        "gate:gateId": 54
+                    }
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 46,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 45,
+                "sup": [
+                    {
+                        "content": "II",
+                        "gate:gateId": 49
+                    },
+                    {
+                        "content": "II",
+                        "gate:gateId": 52
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the organic solvent(s) that can be used for implementing substeps a1), a2) and a3) is (are) chosen from toluene, acetonitrile, benzene, dimethylformamide and dioxane, and mixtures thereof.\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 57,
+            "gate:gateId": 55,
+            "claimNumber": 14,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "14. The method as claimed in",
+                    ", characterized in that the organic solvent(s) that can be used for implementing substeps a1), a2) and a3) is (are) chosen from toluene, acetonitrile, benzene, dimethylformamide and dioxane, and mixtures thereof."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 57,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 56
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "that step a3) is carried out in the presence of a nucleophilic compound.\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 28,
+            "gate:gateId": 58,
+            "claimNumber": 15,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "15. The method as claimed in",
+                    ", characterized in that step a3) is carried out in the presence of a nucleophilic compound."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 60,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 59
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00016",
+            "body": "the nucleophilic compound is chosen from cesium fluoride (CsF), potassium fluoride (KF) and potassium cyanide (KCN).\n",
+            "num": "00016",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 15 ,",
+            "claimSize": 37,
+            "gate:gateId": 61,
+            "claimNumber": 16,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "16. The method as claimed in",
+                    ", characterized in that the nucleophilic compound is chosen from cesium fluoride (CsF), potassium fluoride (KF) and potassium cyanide (KCN)."
+                ],
+                "claim-ref": {
+                    "content": "claim 15",
+                    "gate:gateId": 63,
+                    "idref": "CLM-00015"
+                },
+                "gate:gateId": 62
+            },
+            "depends_on": 15
+        },
+        {
+            "id": "CLM-00017",
+            "body": "that step a1) is carried out at a temperature of 25 to 120° C.; step a2) is carried out at a temperature of 25 to 120° C., and step a3) is carried out at a temperature of 50 to 120° C.\n",
+            "num": "00017",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 67,
+            "gate:gateId": 64,
+            "claimNumber": 17,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "17. The method as claimed in",
+                    ", characterized in that step a1) is carried out at a temperature of 25 to 120° C.; step a2) is carried out at a temperature of 25 to 120° C., and step a3) is carried out at a temperature of 50 to 120° C."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 66,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 65
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00018",
+            "body": "that substep a2) is carried out in the presence of an iodide salt.\n",
+            "num": "00018",
+            "claimType": "dependent",
+            "transPhrase": "characterized in ",
+            "claimBackReference": "as claimed in claim 11 ,",
+            "claimSize": 28,
+            "gate:gateId": 67,
+            "claimNumber": 18,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "18. The method as claimed in",
+                    ", characterized in that substep a2) is carried out in the presence of an iodide salt."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 69,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 68
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00019",
+            "body": "the iodide salt is chosen from sodium iodide, tetrabutylammonium iodide and potassium iodide.\n",
+            "num": "00019",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 18 ,",
+            "claimSize": 28,
+            "gate:gateId": 70,
+            "claimNumber": 19,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "19. The method as claimed in",
+                    ", characterized in that the iodide salt is chosen from sodium iodide, tetrabutylammonium iodide and potassium iodide."
+                ],
+                "claim-ref": {
+                    "content": "claim 18",
+                    "gate:gateId": 72,
+                    "idref": "CLM-00018"
+                },
+                "gate:gateId": 71
+            },
+            "depends_on": 18
+        },
+        {
+            "id": "CLM-00020",
+            "body": "the radiolabeled cyanide is chosen from cyanide, trimethylsilyl cyanide, metal cyanides, it being understood that, in these cyanides, the carbon atom involved in the triple bond with the nitrogen atom is a carbon 13 or carbon 14 atom, and from the cyanide derivatives of formula (I) below:\n\n\n\nin which:\nR 1 and R 2 , which may be identical or different, represent a C 1 -C 4 alkyl radical, or else R 1 and R 2 form, together with the carbon atom to which they are attached, a hexane ring; and\n*C represents a carbon 13 or carbon 14 atom.\n\n",
+            "num": "00020",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 1 ,",
+            "claimSize": 131,
+            "gate:gateId": 73,
+            "claimNumber": 20,
+            "claim_preamble": "The method",
+            "claim-text": [
+                {
+                    "content": [
+                        "20. The method as claimed in",
+                        ", characterized in that the radiolabeled cyanide is chosen from cyanide, trimethylsilyl cyanide, metal cyanides, it being understood that, in these cyanides, the carbon atom involved in the triple bond with the nitrogen atom is a carbon 13 or carbon 14 atom, and from the cyanide derivatives of formula (I) below:"
+                    ],
+                    "claim-ref": {
+                        "content": "claim 1",
+                        "gate:gateId": 75,
+                        "idref": "CLM-00001"
+                    },
+                    "gate:gateId": 74
+                },
+                {
+                    "chemistry": {
+                        "id": "CHEM-US-00004",
+                        "num": "00004",
+                        "img": {
+                            "id": "EMI-C00004",
+                            "wi": "50.38mm",
+                            "img-format": "tif",
+                            "img-content": "chem",
+                            "file": "US08501152-20130806-C00004.TIF",
+                            "alt": "embedded image",
+                            "gate:gateId": 78,
+                            "he": "16.34mm"
+                        },
+                        "gate:gateId": 77
+                    },
+                    "gate:gateId": 76,
+                    "claim-text": [
+                        {
+                            "content": "in which:",
+                            "gate:gateId": 79
+                        },
+                        {
+                            "content": [
+                                "R",
+                                "and R",
+                                ", which may be identical or different, represent a C",
+                                "-C",
+                                "alkyl radical, or else R",
+                                "and R",
+                                "form, together with the carbon atom to which they are attached, a hexane ring; and"
+                            ],
+                            "sub": [
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 81
+                                },
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 82
+                                },
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 83
+                                },
+                                {
+                                    "content": 4,
+                                    "gate:gateId": 84
+                                },
+                                {
+                                    "content": 1,
+                                    "gate:gateId": 85
+                                },
+                                {
+                                    "content": 2,
+                                    "gate:gateId": 86
+                                }
+                            ],
+                            "gate:gateId": 80
+                        },
+                        {
+                            "content": "*C represents a carbon 13 or carbon 14 atom.",
+                            "gate:gateId": 87
+                        }
+                    ]
+                }
+            ],
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00021",
+            "body": "the compounds of formula (I) are chosen from carbon 13-labeled or carbon 14-labeled acetone cyanohydrin and carbon 13-labeled or carbon 14-labeled cyclohexanone cyanohydrin. \n",
+            "num": "00021",
+            "claimType": "dependent",
+            "transPhrase": "characterized in that ",
+            "claimBackReference": "as claimed in claim 20 ,",
+            "claimSize": 47,
+            "gate:gateId": 88,
+            "claimNumber": 21,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "21. The method as claimed in",
+                    ", characterized in that the compounds of formula (I) are chosen from carbon 13-labeled or carbon 14-labeled acetone cyanohydrin and carbon 13-labeled or carbon 14-labeled cyclohexanone cyanohydrin."
+                ],
+                "claim-ref": {
+                    "content": "claim 20",
+                    "gate:gateId": 90,
+                    "idref": "CLM-00020"
+                },
+                "gate:gateId": 89
+            },
+            "depends_on": 20
+        }
+    ],
+    "numberIndependentClaims": 44
+}}

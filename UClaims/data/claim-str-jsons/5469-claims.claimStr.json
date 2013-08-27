@@ -1,0 +1,508 @@
+{"claims": {
+    "id": "claims",
+    "us-patent-grant": {
+        "id": "us-patent-grant",
+        "date-publ": 20130806,
+        "status": "PRODUCTION",
+        "file": "US08504397-20130806.XML",
+        "dtd-version": "v4.3 2012-12-04",
+        "gate:gateId": 74,
+        "date-produced": 20130724,
+        "lang": "EN",
+        "country": "US"
+    },
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 3346,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "CLM-00001",
+            "body": "a plurality of business events, comprising:\nacquiring, by a control engine computing device, data associated with a plurality of events from a plurality of data collection devices;\nprocessing, with the control engine computing device, the acquired data using historical data and business logic to identify one or more of the plurality of events that are significant business events, the significant business events associated with an unexpected performance of one or more of the plurality of data collection devices;\ndispatching, with the control engine computing device, the data associated with the one or more identified significant business events to at least a subset of a plurality of enterprise systems;\ngenerating, with the control engine computing device, at least one device-specific control command based on at least one business request received from one or more of the subset of the plurality of enterprise systems, the at least one device-specific control command configured to, when executed, alter the performance of at least one of the one or more of the plurality of data collection devices; and\ncommunicating, with the control engine computing device, the at least one device-specific control command to the at least one of the plurality of data collection devices.\n\n",
+            "claimType": "independent",
+            "num": "00001",
+            "transPhrase": " of determining ",
+            "claimSize": 226,
+            "gate:gateId": 1,
+            "claim_preamble": "A method",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A method of determining a plurality of business events, comprising:",
+                "gate:gateId": 2,
+                "claim-text": [
+                    {
+                        "content": "acquiring, by a control engine computing device, data associated with a plurality of events from a plurality of data collection devices;",
+                        "gate:gateId": 3
+                    },
+                    {
+                        "content": "processing, with the control engine computing device, the acquired data using historical data and business logic to identify one or more of the plurality of events that are significant business events, the significant business events associated with an unexpected performance of one or more of the plurality of data collection devices;",
+                        "gate:gateId": 4
+                    },
+                    {
+                        "content": "dispatching, with the control engine computing device, the data associated with the one or more identified significant business events to at least a subset of a plurality of enterprise systems;",
+                        "gate:gateId": 5
+                    },
+                    {
+                        "content": "generating, with the control engine computing device, at least one device-specific control command based on at least one business request received from one or more of the subset of the plurality of enterprise systems, the at least one device-specific control command configured to, when executed, alter the performance of at least one of the one or more of the plurality of data collection devices; and",
+                        "gate:gateId": 6
+                    },
+                    {
+                        "content": "communicating, with the control engine computing device, the at least one device-specific control command to the at least one of the plurality of data collection devices.",
+                        "gate:gateId": 7
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00002",
+            "body": "the data collection devices comprise RFID readers, bar-code scanners, motion detectors, thermal sensors, pressure sensors, volume-level sensors, smart-card readers, weight sensors, moisture sensors, contact-less payment systems, biometric sensors, 802.11b enabled devices, infrared scanners, electronic displays, magnetic card readers, electronic scales, voice detectors, humidity sensors, gravitometers, or accelerometers.\n",
+            "num": "00002",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 79,
+            "gate:gateId": 8,
+            "claimNumber": 2,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "2. The method of",
+                    ", wherein the data collection devices comprise RFID readers, bar-code scanners, motion detectors, thermal sensors, pressure sensors, volume-level sensors, smart-card readers, weight sensors, moisture sensors, contact-less payment systems, biometric sensors, 802.11b enabled devices, infrared scanners, electronic displays, magnetic card readers, electronic scales, voice detectors, humidity sensors, gravitometers, or accelerometers."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 10,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 9
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00003",
+            "body": "the enterprise systems comprise legacy systems, enterprise resource planning systems, customer relationship management systems, supply chain management systems, warehouse management systems, merchandise managements systems, yard management systems, transportation management systems, or asset management systems.\n",
+            "num": "00003",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 52,
+            "gate:gateId": 11,
+            "claimNumber": 3,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "3. The method of",
+                    ", wherein the enterprise systems comprise legacy systems, enterprise resource planning systems, customer relationship management systems, supply chain management systems, warehouse management systems, merchandise managements systems, yard management systems, transportation management systems, or asset management systems."
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 13,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 12
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00004",
+            "body": "further comprising:\ngenerating with the control engine computing device at least one application command based on the at least one business request received from the one or more of the subset of the plurality of enterprise systems; and\ngenerating with the control engine computing device the at least one device-specific control command based on the at least one application command.\n\n",
+            "num": "00004",
+            "claimType": "dependent",
+            "transPhrase": ", ",
+            "claimBackReference": "of claim 1",
+            "claimSize": 71,
+            "gate:gateId": 14,
+            "claimNumber": 4,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "4. The method of",
+                    ", further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 16,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 15,
+                "claim-text": [
+                    {
+                        "content": "generating with the control engine computing device at least one application command based on the at least one business request received from the one or more of the subset of the plurality of enterprise systems; and",
+                        "gate:gateId": 17
+                    },
+                    {
+                        "content": "generating with the control engine computing device the at least one device-specific control command based on the at least one application command.",
+                        "gate:gateId": 18
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00005",
+            "body": "the data is acquired using a plurality of data collection adaptors;\nthe one or more significant business events are identified using a real-time decision making engine; and\nthe one or more significant business events are communicated using a plurality of business integration adaptors.\n\n",
+            "num": "00005",
+            "claimType": "dependent",
+            "transPhrase": ", wherein:\n",
+            "claimBackReference": "of claim 1",
+            "claimSize": 56,
+            "gate:gateId": 19,
+            "claimNumber": 5,
+            "claim_preamble": "The method",
+            "claim-text": {
+                "content": [
+                    "5. The method of",
+                    ", wherein:"
+                ],
+                "claim-ref": {
+                    "content": "claim 1",
+                    "gate:gateId": 21,
+                    "idref": "CLM-00001"
+                },
+                "gate:gateId": 20,
+                "claim-text": [
+                    {
+                        "content": "the data is acquired using a plurality of data collection adaptors;",
+                        "gate:gateId": 22
+                    },
+                    {
+                        "content": "the one or more significant business events are identified using a real-time decision making engine; and",
+                        "gate:gateId": 23
+                    },
+                    {
+                        "content": "the one or more significant business events are communicated using a plurality of business integration adaptors.",
+                        "gate:gateId": 24
+                    }
+                ]
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "CLM-00006",
+            "body": "stored thereon instructions for controlling a plurality of data collection devices, the instructions comprising machine executable code which, when executed by at least one processor, causes the processor to perform steps comprising:\nacquiring data associated with a plurality of events from a plurality of data collection devices;\nprocessing the acquired data using historical data and business logic to identify one or more of the plurality of events that are significant business events, the significant business events associated with an unexpected performance of one or more of the plurality of data collection devices;\ndispatching the data associated with the one or more identified significant business events to at least a subset of a plurality of enterprise systems;\ngenerating at least one device-specific control command based on at least one business request received from one or more of the subset of the plurality of enterprise systems, the at least one device-specific control command configured to, when executed, alter the performance of at least one of the one or more of the plurality of data collection devices; and\ncommunicating the at least one device-specific control command to the at least one of the plurality of data collection devices.\n\n",
+            "claimType": "independent",
+            "num": "00006",
+            "transPhrase": " having ",
+            "claimSize": 216,
+            "gate:gateId": 25,
+            "claim_preamble": "A non-transitory computer-readable storage medium",
+            "claimNumber": 6,
+            "claim-text": {
+                "content": "6. A non-transitory computer-readable storage medium having stored thereon instructions for controlling a plurality of data collection devices, the instructions comprising machine executable code which, when executed by at least one processor, causes the processor to perform steps comprising:",
+                "gate:gateId": 26,
+                "claim-text": [
+                    {
+                        "content": "acquiring data associated with a plurality of events from a plurality of data collection devices;",
+                        "gate:gateId": 27
+                    },
+                    {
+                        "content": "processing the acquired data using historical data and business logic to identify one or more of the plurality of events that are significant business events, the significant business events associated with an unexpected performance of one or more of the plurality of data collection devices;",
+                        "gate:gateId": 28
+                    },
+                    {
+                        "content": "dispatching the data associated with the one or more identified significant business events to at least a subset of a plurality of enterprise systems;",
+                        "gate:gateId": 29
+                    },
+                    {
+                        "content": "generating at least one device-specific control command based on at least one business request received from one or more of the subset of the plurality of enterprise systems, the at least one device-specific control command configured to, when executed, alter the performance of at least one of the one or more of the plurality of data collection devices; and",
+                        "gate:gateId": 30
+                    },
+                    {
+                        "content": "communicating the at least one device-specific control command to the at least one of the plurality of data collection devices.",
+                        "gate:gateId": 31
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CLM-00007",
+            "body": "the data collection devices comprise RFID readers, bar-code scanners, motion detectors, thermal sensors, pressure sensors, volume-level sensors, smart-card readers, weight sensors, moisture sensors, contact-less payment systems, biometric sensors, 802.11b enabled devices, infrared scanners, electronic displays, magnetic card readers, electronic scales, voice detectors, humidity sensors, gravitometers, or accelerometers.\n",
+            "num": "00007",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 79,
+            "gate:gateId": 32,
+            "claimNumber": 7,
+            "claim_preamble": "The medium",
+            "claim-text": {
+                "content": [
+                    "7. The medium of",
+                    ", wherein the data collection devices comprise RFID readers, bar-code scanners, motion detectors, thermal sensors, pressure sensors, volume-level sensors, smart-card readers, weight sensors, moisture sensors, contact-less payment systems, biometric sensors, 802.11b enabled devices, infrared scanners, electronic displays, magnetic card readers, electronic scales, voice detectors, humidity sensors, gravitometers, or accelerometers."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 34,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 33
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00008",
+            "body": "the enterprise systems comprise legacy systems, enterprise resource planning systems, customer relationship management systems, supply chain management systems, warehouse management systems, merchandise managements systems, yard management systems, transportation management systems, or asset management systems.\n",
+            "num": "00008",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 52,
+            "gate:gateId": 35,
+            "claimNumber": 8,
+            "claim_preamble": "The medium",
+            "claim-text": {
+                "content": [
+                    "8. The medium of",
+                    ", wherein the enterprise systems comprise legacy systems, enterprise resource planning systems, customer relationship management systems, supply chain management systems, warehouse management systems, merchandise managements systems, yard management systems, transportation management systems, or asset management systems."
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 37,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 36
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00009",
+            "body": "thereon instructions further comprising machine executable code which, when executed by the at least one processor, causes the processor to perform steps further comprising:\ngenerating at least one application command based on the at least one business request received from the one or more of the subset of the plurality of enterprise systems; and\ngenerating the at least one device-specific control command based on the at least one application command.\n\n",
+            "num": "00009",
+            "claimType": "dependent",
+            "transPhrase": ", further having stored ",
+            "claimBackReference": "of claim 6",
+            "claimSize": 86,
+            "gate:gateId": 38,
+            "claimNumber": 9,
+            "claim_preamble": "The medium",
+            "claim-text": {
+                "content": [
+                    "9. The medium of",
+                    ", further having stored thereon instructions further comprising machine executable code which, when executed by the at least one processor, causes the processor to perform steps further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 40,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 39,
+                "claim-text": [
+                    {
+                        "content": "generating at least one application command based on the at least one business request received from the one or more of the subset of the plurality of enterprise systems; and",
+                        "gate:gateId": 41
+                    },
+                    {
+                        "content": "generating the at least one device-specific control command based on the at least one application command.",
+                        "gate:gateId": 42
+                    }
+                ]
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00010",
+            "body": "the data is acquired using a plurality of data collection adaptors;\nthe one or more significant business events are identified using a real-time decision making engine; and\nthe one or more significant business events are communicated using a plurality of business integration adaptors.\n\n",
+            "num": "00010",
+            "claimType": "dependent",
+            "transPhrase": ", wherein:\n",
+            "claimBackReference": "of claim 6",
+            "claimSize": 56,
+            "gate:gateId": 43,
+            "claimNumber": 10,
+            "claim_preamble": "The medium",
+            "claim-text": {
+                "content": [
+                    "10. The medium of",
+                    ", wherein:"
+                ],
+                "claim-ref": {
+                    "content": "claim 6",
+                    "gate:gateId": 45,
+                    "idref": "CLM-00006"
+                },
+                "gate:gateId": 44,
+                "claim-text": [
+                    {
+                        "content": "the data is acquired using a plurality of data collection adaptors;",
+                        "gate:gateId": 46
+                    },
+                    {
+                        "content": "the one or more significant business events are identified using a real-time decision making engine; and",
+                        "gate:gateId": 47
+                    },
+                    {
+                        "content": "the one or more significant business events are communicated using a plurality of business integration adaptors.",
+                        "gate:gateId": 48
+                    }
+                ]
+            },
+            "depends_on": 6
+        },
+        {
+            "id": "CLM-00011",
+            "body": "a memory coupled to one or more processors which are configured to execute programmed instructions stored in the memory, comprising:\nacquiring data associated with a plurality of events from a plurality of data collection devices;\nprocessing the acquired data using historical data and business logic to identify one or more of the plurality of events that are significant business events, the significant business events associated with an unexpected performance of one or more of the plurality of data collection devices;\ndispatching the data associated with the one or more identified significant business events to at least a subset of a plurality of enterprise systems;\ngenerating at least one device-specific control command based on at least one business request received from one or more of the subset of the plurality of enterprise systems, the at least one device-specific control command configured to, when executed, alter the performance of at least one of the one or more of the plurality of data collection devices; and\ncommunicating the at least one device-specific control command to the at least one of the plurality of data collection devices.\n\n\n",
+            "claimType": "independent",
+            "num": "00011",
+            "transPhrase": ":\n",
+            "claimSize": 200,
+            "gate:gateId": 49,
+            "claim_preamble": "An apparatus comprising",
+            "claimNumber": 11,
+            "claim-text": {
+                "content": "11. An apparatus comprising:",
+                "gate:gateId": 50,
+                "claim-text": {
+                    "content": "a memory coupled to one or more processors which are configured to execute programmed instructions stored in the memory, comprising:",
+                    "gate:gateId": 51,
+                    "claim-text": [
+                        {
+                            "content": "acquiring data associated with a plurality of events from a plurality of data collection devices;",
+                            "gate:gateId": 52
+                        },
+                        {
+                            "content": "processing the acquired data using historical data and business logic to identify one or more of the plurality of events that are significant business events, the significant business events associated with an unexpected performance of one or more of the plurality of data collection devices;",
+                            "gate:gateId": 53
+                        },
+                        {
+                            "content": "dispatching the data associated with the one or more identified significant business events to at least a subset of a plurality of enterprise systems;",
+                            "gate:gateId": 54
+                        },
+                        {
+                            "content": "generating at least one device-specific control command based on at least one business request received from one or more of the subset of the plurality of enterprise systems, the at least one device-specific control command configured to, when executed, alter the performance of at least one of the one or more of the plurality of data collection devices; and",
+                            "gate:gateId": 55
+                        },
+                        {
+                            "content": "communicating the at least one device-specific control command to the at least one of the plurality of data collection devices.",
+                            "gate:gateId": 56
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "CLM-00012",
+            "body": "the data collection devices comprise RFID readers, bar-code scanners, motion detectors, thermal sensors, pressure sensors, volume-level sensors, smart-card readers, weight sensors, moisture sensors, contact-less payment systems, biometric sensors, 802.11b enabled devices, infrared scanners, electronic displays, magnetic card readers, electronic scales, voice detectors, humidity sensors, gravitometers, or accelerometers.\n",
+            "num": "00012",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 79,
+            "gate:gateId": 57,
+            "claimNumber": 12,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "12. The apparatus of",
+                    ", wherein the data collection devices comprise RFID readers, bar-code scanners, motion detectors, thermal sensors, pressure sensors, volume-level sensors, smart-card readers, weight sensors, moisture sensors, contact-less payment systems, biometric sensors, 802.11b enabled devices, infrared scanners, electronic displays, magnetic card readers, electronic scales, voice detectors, humidity sensors, gravitometers, or accelerometers."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 59,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 58
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00013",
+            "body": "the enterprise systems comprise legacy systems, enterprise resource planning systems, customer relationship management systems, supply chain management systems, warehouse management systems, merchandise managements systems, yard management systems, transportation management systems, or asset management systems.\n",
+            "num": "00013",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 52,
+            "gate:gateId": 60,
+            "claimNumber": 13,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "13. The apparatus of",
+                    ", wherein the enterprise systems comprise legacy systems, enterprise resource planning systems, customer relationship management systems, supply chain management systems, warehouse management systems, merchandise managements systems, yard management systems, transportation management systems, or asset management systems."
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 62,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 61
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00014",
+            "body": "the one or more processors are further configured to execute programmed instructions stored in the memory further comprising:\ngenerating at least one application command based on the at least one business request received from the one or more of the subset of the plurality of enterprise systems; and\ngenerating at least one device-specific control command based on the at least one application command.\n\n",
+            "num": "00014",
+            "claimType": "dependent",
+            "transPhrase": ", wherein ",
+            "claimBackReference": "of claim 11",
+            "claimSize": 75,
+            "gate:gateId": 63,
+            "claimNumber": 14,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "14. The apparatus of",
+                    ", wherein the one or more processors are further configured to execute programmed instructions stored in the memory further comprising:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 65,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 64,
+                "claim-text": [
+                    {
+                        "content": "generating at least one application command based on the at least one business request received from the one or more of the subset of the plurality of enterprise systems; and",
+                        "gate:gateId": 66
+                    },
+                    {
+                        "content": "generating at least one device-specific control command based on the at least one application command.",
+                        "gate:gateId": 67
+                    }
+                ]
+            },
+            "depends_on": 11
+        },
+        {
+            "id": "CLM-00015",
+            "body": "the data is acquired using a plurality of data collection adaptors;\nthe one or more significant business events are identified using a real-time decision making engine; and\nthe one or more significant business events are communicated using a plurality of business integration adaptors. \n\n",
+            "num": "00015",
+            "claimType": "dependent",
+            "transPhrase": ", wherein:\n",
+            "claimBackReference": "of claim 11",
+            "claimSize": 56,
+            "gate:gateId": 68,
+            "claimNumber": 15,
+            "claim_preamble": "The apparatus",
+            "claim-text": {
+                "content": [
+                    "15. The apparatus of",
+                    ", wherein:"
+                ],
+                "claim-ref": {
+                    "content": "claim 11",
+                    "gate:gateId": 70,
+                    "idref": "CLM-00011"
+                },
+                "gate:gateId": 69,
+                "claim-text": [
+                    {
+                        "content": "the data is acquired using a plurality of data collection adaptors;",
+                        "gate:gateId": 71
+                    },
+                    {
+                        "content": "the one or more significant business events are identified using a real-time decision making engine; and",
+                        "gate:gateId": 72
+                    },
+                    {
+                        "content": "the one or more significant business events are communicated using a plurality of business integration adaptors.",
+                        "gate:gateId": 73
+                    }
+                ]
+            },
+            "depends_on": 11
+        }
+    ],
+    "numberIndependentClaims": 220
+}}
