@@ -1,0 +1,128 @@
+{"claims": {
+    "id": "claims01",
+    "xmlns:gate": "http://www.gate.ac.uk",
+    "gate:annotMaxId": 1052,
+    "numberDependentClaims": 0,
+    "gate:gateId": 0,
+    "claim": [
+        {
+            "id": "c-en-0001",
+            "body": "a body, a plurality of cutting blades supported by the body so as to be movable along paths equally incline at an acute angle to an axis of rotation of the body, outer ends of the blades having cutting edges and projecting beyond the body, characterised by\na rotatable blade advancing member having a screwed shank within a threaded bore on the axis of rotation and a head abutting inner ends of the blades for advancing and retracting the blades on their paths consequent upon rotation of the shank within the bore, and means operable from the exterior of the body for causing rotation of the blade advancing member.\n\n",
+            "claimType": "independent",
+            "num": "",
+            "transPhrase": " comprising ",
+            "claimSize": 120,
+            "gate:gateId": 1,
+            "claim_preamble": "A boring tool",
+            "claimNumber": 1,
+            "claim-text": {
+                "content": "1. A boring tool comprising a body, a plurality of cutting blades supported by the body so as to be movable along paths equally incline at an acute angle to an axis of rotation of the body, outer ends of the blades having cutting edges and projecting beyond the body, characterised by\na rotatable blade advancing member having a screwed shank within a threaded bore on the axis of rotation and a head abutting inner ends of the blades for advancing and retracting the blades on their paths consequent upon rotation of the shank within the bore, and means operable from the exterior of the body for causing rotation of the blade advancing member.",
+                "gate:gateId": 2
+            }
+        },
+        {
+            "id": "c-en-0002",
+            "body": "the means for causing rotation of the blade advancing member comprises a worm rotatable by a detachable handle or key and a meshingworm wheel secured to a shaft extending from the shank of the blade advancing member and co-axial therewith.\n\n",
+            "num": "",
+            "claimType": "dependent",
+            "transPhrase": "characterised in that ",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 53,
+            "gate:gateId": 3,
+            "claimNumber": 2,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": "2. A boring tool according to claim 1 characterised in that the means for causing rotation of the blade advancing member comprises a worm rotatable by a detachable handle or key and a meshingworm wheel secured to a shaft extending from the shank of the blade advancing member and co-axial therewith.",
+                "gate:gateId": 4
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "c-en-0003",
+            "body": "the tool advancing member has a head with a conical surface abutting the inner ends of the cutting blades.\n\n",
+            "num": "",
+            "claimType": "dependent",
+            "transPhrase": "characterised in that ",
+            "claimBackReference": "according to claim 1 or 2",
+            "claimSize": 34,
+            "gate:gateId": 5,
+            "claimNumber": 3,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": "3. A boring tool according to claim 1 or 2 characterised in that the tool advancing member has a head with a conical surface abutting the inner ends of the cutting blades.",
+                "gate:gateId": 6
+            },
+            "depends_on": "1,2"
+        },
+        {
+            "id": "c-en-0004",
+            "body": "the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-coiucal pressure pad supporting the cutter blades.\n\n",
+            "num": "",
+            "claimType": "dependent",
+            "transPhrase": "characterised in that ",
+            "claimBackReference": "according to claim 1",
+            "claimSize": 51,
+            "gate:gateId": 7,
+            "claimNumber": 4,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": "4. A boring tool according to claim 1 characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-coiucal pressure pad supporting the cutter blades.",
+                "gate:gateId": 8
+            },
+            "depends_on": 1
+        },
+        {
+            "id": "c-en-0005",
+            "body": "the cutter blades are guided by holes in the body which lie in planes radial to the axis of rotation.\n\n",
+            "num": "",
+            "claimType": "dependent",
+            "transPhrase": "characterised in that ",
+            "claimBackReference": "according to any of claims 1-4",
+            "claimSize": 37,
+            "gate:gateId": 9,
+            "claimNumber": 5,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": "5. A boring tool according to any of claims 1-4 characterised in that the cutter blades are guided by holes in the body which lie in planes radial to the axis of rotation.",
+                "gate:gateId": 10
+            },
+            "depends_on": "1,2,3,4"
+        },
+        {
+            "id": "c-en-0006",
+            "body": "a serrated drive spigot co-axial with the axis of rotation of the tool is mounted on one end of the body remote from the cutting blades and for insertion within a corresponding socket in a drive adaptor, the tool being detachably securable to the adaptor by a ring nut engagesble with a screw threaded portion of the adaptor.\n\n",
+            "num": "",
+            "claimType": "dependent",
+            "transPhrase": "characterised in that ",
+            "claimBackReference": "according to any of claims 1-5",
+            "claimSize": 76,
+            "gate:gateId": 11,
+            "claimNumber": 6,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": "6. A boring tool according to any of claims 1-5 characterised in that a serrated drive spigot co-axial with the axis of rotation of the tool is mounted on one end of the body remote from the cutting blades and for insertion within a corresponding socket in a drive adaptor, the tool being detachably securable to the adaptor by a ring nut engagesble with a screw threaded portion of the adaptor.",
+                "gate:gateId": 12
+            },
+            "depends_on": "1,2,3,4,5"
+        },
+        {
+            "id": "c-en-0007",
+            "body": "the adaptor has a threaded hole to engage the screwed end of a power drill drive shaft.\n\n",
+            "num": "",
+            "claimType": "dependent",
+            "transPhrase": "characterised in that ",
+            "claimBackReference": "according to claim 6",
+            "claimSize": 30,
+            "gate:gateId": 13,
+            "claimNumber": 7,
+            "claim_preamble": "A boring tool",
+            "claim-text": {
+                "content": "7. A boring tool according to claim 6 characterised in that the adaptor has a threaded hole to engage the screwed end of a power drill drive shaft.",
+                "gate:gateId": 14
+            },
+            "depends_on": 6
+        }
+    ],
+    "numberIndependentClaims": 1,
+    "lang": "en"
+}}
