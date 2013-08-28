@@ -1,0 +1,7 @@
+Hello! 
+
+Im CASE 3: Given a collection of search results, visualized with the treebars the top ten cpc classes.
+
+NOTE: in the first round we are going to used ipcr classes and their definitions from cpc classes api.
+
+

@@ -1,0 +1,949 @@
+{
+  "results" : [ {
+    "id" : 79838266,
+    "index" : 0,
+    "score" : 1.0,
+    "publicationKey" : "WO_2001_095744_A1",
+    "docdbKey" : "WO_A1_0195744",
+    "fields" : { },
+    "fieldLanguage" : { }
+  }, {
+    "id" : 72138371,
+    "index" : 1,
+    "score" : 0.9484545588493347,
+    "publicationKey" : "US_4876099_A",
+    "docdbKey" : "US_A_4876099",
+    "fields" : { },
+    "fieldLanguage" : { }
+  }, {
+    "id" : 78373896,
+    "index" : 2,
+    "score" : 0.9167183637619019,
+    "publicationKey" : "US_7337706_B2",
+    "docdbKey" : "US_B2_7337706",
+    "fields" : { },
+    "fieldLanguage" : { }
+  } ],
+  "facets" : [ {
+    "name" : "jurisdiction",
+    "facets" : [ {
+      "value" : "US",
+      "count" : 148691
+    }, {
+      "value" : "WO",
+      "count" : 48416
+    }, {
+      "value" : "JP",
+      "count" : 40458
+    }, {
+      "value" : "CN",
+      "count" : 32820
+    }, {
+      "value" : "EP",
+      "count" : 17819
+    }, {
+      "value" : "KR",
+      "count" : 13351
+    }, {
+      "value" : "CA",
+      "count" : 2628
+    }, {
+      "value" : "GB",
+      "count" : 2591
+    }, {
+      "value" : "AU",
+      "count" : 1626
+    }, {
+      "value" : "DE",
+      "count" : 1293
+    }, {
+      "value" : "RU",
+      "count" : 977
+    }, {
+      "value" : "TW",
+      "count" : 680
+    }, {
+      "value" : "FR",
+      "count" : 379
+    }, {
+      "value" : "MX",
+      "count" : 272
+    }, {
+      "value" : "AT",
+      "count" : 238
+    }, {
+      "value" : "ES",
+      "count" : 215
+    }, {
+      "value" : "NO",
+      "count" : 205
+    }, {
+      "value" : "BR",
+      "count" : 194
+    }, {
+      "value" : "IT",
+      "count" : 188
+    }, {
+      "value" : "SU",
+      "count" : 180
+    }, {
+      "value" : "PH",
+      "count" : 161
+    }, {
+      "value" : "NZ",
+      "count" : 159
+    }, {
+      "value" : "DK",
+      "count" : 148
+    }, {
+      "value" : "ZA",
+      "count" : 141
+    }, {
+      "value" : "HU",
+      "count" : 126
+    }, {
+      "value" : "SE",
+      "count" : 124
+    }, {
+      "value" : "CH",
+      "count" : 124
+    }, {
+      "value" : "MY",
+      "count" : 114
+    }, {
+      "value" : "FI",
+      "count" : 108
+    }, {
+      "value" : "IN",
+      "count" : 105
+    }, {
+      "value" : "PT",
+      "count" : 84
+    }, {
+      "value" : "HK",
+      "count" : 72
+    }, {
+      "value" : "IL",
+      "count" : 70
+    }, {
+      "value" : "BE",
+      "count" : 60
+    }, {
+      "value" : "BG",
+      "count" : 58
+    }, {
+      "value" : "PL",
+      "count" : 56
+    }, {
+      "value" : "SG",
+      "count" : 54
+    }, {
+      "value" : "IE",
+      "count" : 52
+    }, {
+      "value" : "UA",
+      "count" : 49
+    }, {
+      "value" : "EA",
+      "count" : 46
+    }, {
+      "value" : "CZ",
+      "count" : 46
+    }, {
+      "value" : "GR",
+      "count" : 43
+    }, {
+      "value" : "NL",
+      "count" : 40
+    }, {
+      "value" : "RO",
+      "count" : 30
+    }, {
+      "value" : "EG",
+      "count" : 30
+    }, {
+      "value" : "AR",
+      "count" : 30
+    }, {
+      "value" : "SK",
+      "count" : 29
+    }, {
+      "value" : "CO",
+      "count" : 21
+    }, {
+      "value" : "AP",
+      "count" : 21
+    }, {
+      "value" : "OA",
+      "count" : 17
+    }, {
+      "value" : "LV",
+      "count" : 17
+    }, {
+      "value" : "TR",
+      "count" : 15
+    }, {
+      "value" : "HR",
+      "count" : 15
+    }, {
+      "value" : "EE",
+      "count" : 15
+    }, {
+      "value" : "SI",
+      "count" : 14
+    }, {
+      "value" : "RS",
+      "count" : 13
+    }, {
+      "value" : "YU",
+      "count" : 11
+    }, {
+      "value" : "LT",
+      "count" : 11
+    }, {
+      "value" : "VN",
+      "count" : 7
+    }, {
+      "value" : "PE",
+      "count" : 7
+    }, {
+      "value" : "ID",
+      "count" : 6
+    }, {
+      "value" : "MA",
+      "count" : 5
+    }, {
+      "value" : "LU",
+      "count" : 5
+    }, {
+      "value" : "GE",
+      "count" : 5
+    }, {
+      "value" : "UY",
+      "count" : 4
+    }, {
+      "value" : "MD",
+      "count" : 4
+    }, {
+      "value" : "IS",
+      "count" : 4
+    }, {
+      "value" : "EC",
+      "count" : 3
+    }, {
+      "value" : "DO",
+      "count" : 3
+    }, {
+      "value" : "CS",
+      "count" : 3
+    }, {
+      "value" : "JO",
+      "count" : 2
+    }, {
+      "value" : "DD",
+      "count" : 2
+    }, {
+      "value" : "CU",
+      "count" : 2
+    }, {
+      "value" : "CR",
+      "count" : 2
+    }, {
+      "value" : "ZW",
+      "count" : 1
+    }, {
+      "value" : "MW",
+      "count" : 1
+    }, {
+      "value" : "GT",
+      "count" : 1
+    }, {
+      "value" : "CY",
+      "count" : 1
+    }, {
+      "value" : "CL",
+      "count" : 1
+    } ]
+  }, {
+    "name" : "pub_year",
+    "facets" : [ {
+      "value" : "2012",
+      "count" : 26028
+    }, {
+      "value" : "2011",
+      "count" : 23164
+    }, {
+      "value" : "2010",
+      "count" : 22410
+    }, {
+      "value" : "2009",
+      "count" : 19835
+    }, {
+      "value" : "2008",
+      "count" : 17809
+    }, {
+      "value" : "2007",
+      "count" : 17373
+    }, {
+      "value" : "2006",
+      "count" : 16473
+    }, {
+      "value" : "2005",
+      "count" : 15184
+    }, {
+      "value" : "2004",
+      "count" : 14913
+    }, {
+      "value" : "2003",
+      "count" : 14758
+    }, {
+      "value" : "2002",
+      "count" : 12447
+    }, {
+      "value" : "2013",
+      "count" : 10749
+    }, {
+      "value" : "2001",
+      "count" : 9519
+    }, {
+      "value" : "2000",
+      "count" : 8532
+    }, {
+      "value" : "1999",
+      "count" : 7186
+    }, {
+      "value" : "1998",
+      "count" : 6597
+    }, {
+      "value" : "1997",
+      "count" : 5428
+    }, {
+      "value" : "1996",
+      "count" : 5108
+    }, {
+      "value" : "1995",
+      "count" : 4809
+    }, {
+      "value" : "1994",
+      "count" : 4521
+    }, {
+      "value" : "1992",
+      "count" : 4234
+    }, {
+      "value" : "1993",
+      "count" : 3999
+    }, {
+      "value" : "1991",
+      "count" : 3975
+    }, {
+      "value" : "1989",
+      "count" : 3673
+    }, {
+      "value" : "1990",
+      "count" : 3563
+    }, {
+      "value" : "1988",
+      "count" : 3009
+    }, {
+      "value" : "1987",
+      "count" : 2926
+    }, {
+      "value" : "1986",
+      "count" : 2746
+    }, {
+      "value" : "1985",
+      "count" : 2627
+    }, {
+      "value" : "1984",
+      "count" : 2466
+    }, {
+      "value" : "1982",
+      "count" : 2018
+    }, {
+      "value" : "1983",
+      "count" : 1990
+    }, {
+      "value" : "1981",
+      "count" : 1957
+    }, {
+      "value" : "1980",
+      "count" : 1808
+    }, {
+      "value" : "1977",
+      "count" : 1616
+    }, {
+      "value" : "1978",
+      "count" : 1355
+    }, {
+      "value" : "1979",
+      "count" : 1234
+    }, {
+      "value" : "1976",
+      "count" : 1191
+    }, {
+      "value" : "1965",
+      "count" : 199
+    }, {
+      "value" : "1969",
+      "count" : 198
+    }, {
+      "value" : "1971",
+      "count" : 193
+    }, {
+      "value" : "1970",
+      "count" : 176
+    }, {
+      "value" : "1966",
+      "count" : 175
+    }, {
+      "value" : "1973",
+      "count" : 175
+    }, {
+      "value" : "1968",
+      "count" : 171
+    }, {
+      "value" : "1975",
+      "count" : 168
+    }, {
+      "value" : "1972",
+      "count" : 158
+    }, {
+      "value" : "1974",
+      "count" : 158
+    }, {
+      "value" : "1967",
+      "count" : 157
+    }, {
+      "value" : "1963",
+      "count" : 122
+    }, {
+      "value" : "1964",
+      "count" : 119
+    }, {
+      "value" : "1960",
+      "count" : 113
+    }, {
+      "value" : "1958",
+      "count" : 108
+    }, {
+      "value" : "1961",
+      "count" : 108
+    }, {
+      "value" : "1962",
+      "count" : 106
+    }, {
+      "value" : "1957",
+      "count" : 105
+    }, {
+      "value" : "1956",
+      "count" : 101
+    }, {
+      "value" : "1907",
+      "count" : 90
+    }, {
+      "value" : "1931",
+      "count" : 88
+    }, {
+      "value" : "1905",
+      "count" : 85
+    }, {
+      "value" : "1930",
+      "count" : 83
+    }, {
+      "value" : "1959",
+      "count" : 81
+    }, {
+      "value" : "1935",
+      "count" : 81
+    }, {
+      "value" : "1933",
+      "count" : 81
+    }, {
+      "value" : "1908",
+      "count" : 79
+    }, {
+      "value" : "1936",
+      "count" : 77
+    }, {
+      "value" : "1904",
+      "count" : 76
+    }, {
+      "value" : "1910",
+      "count" : 75
+    }, {
+      "value" : "1934",
+      "count" : 75
+    }, {
+      "value" : "1924",
+      "count" : 73
+    }, {
+      "value" : "1909",
+      "count" : 72
+    }, {
+      "value" : "1928",
+      "count" : 71
+    }, {
+      "value" : "1929",
+      "count" : 69
+    }, {
+      "value" : "1932",
+      "count" : 68
+    }, {
+      "value" : "1912",
+      "count" : 67
+    }, {
+      "value" : "1954",
+      "count" : 67
+    }, {
+      "value" : "1906",
+      "count" : 67
+    }, {
+      "value" : "1952",
+      "count" : 65
+    }, {
+      "value" : "1911",
+      "count" : 64
+    }, {
+      "value" : "1926",
+      "count" : 64
+    }, {
+      "value" : "1914",
+      "count" : 63
+    }, {
+      "value" : "1915",
+      "count" : 62
+    }, {
+      "value" : "1913",
+      "count" : 61
+    }, {
+      "value" : "1903",
+      "count" : 61
+    }, {
+      "value" : "1920",
+      "count" : 60
+    }, {
+      "value" : "1955",
+      "count" : 58
+    }, {
+      "value" : "1953",
+      "count" : 58
+    }, {
+      "value" : "1916",
+      "count" : 57
+    }, {
+      "value" : "1923",
+      "count" : 56
+    }, {
+      "value" : "1902",
+      "count" : 56
+    }, {
+      "value" : "1917",
+      "count" : 55
+    }, {
+      "value" : "1927",
+      "count" : 55
+    }, {
+      "value" : "1950",
+      "count" : 54
+    }, {
+      "value" : "1951",
+      "count" : 54
+    }, {
+      "value" : "1925",
+      "count" : 54
+    }, {
+      "value" : "1921",
+      "count" : 53
+    }, {
+      "value" : "1918",
+      "count" : 53
+    }, {
+      "value" : "1937",
+      "count" : 52
+    }, {
+      "value" : "1922",
+      "count" : 51
+    }, {
+      "value" : "1901",
+      "count" : 49
+    }, {
+      "value" : "1945",
+      "count" : 48
+    }, {
+      "value" : "1940",
+      "count" : 47
+    }, {
+      "value" : "1942",
+      "count" : 46
+    }, {
+      "value" : "1939",
+      "count" : 43
+    }, {
+      "value" : "1938",
+      "count" : 43
+    }, {
+      "value" : "1899",
+      "count" : 41
+    }, {
+      "value" : "1943",
+      "count" : 40
+    }, {
+      "value" : "1941",
+      "count" : 39
+    }, {
+      "value" : "1946",
+      "count" : 38
+    }, {
+      "value" : "1900",
+      "count" : 36
+    }, {
+      "value" : "1944",
+      "count" : 35
+    }, {
+      "value" : "1948",
+      "count" : 33
+    }, {
+      "value" : "1949",
+      "count" : 30
+    }, {
+      "value" : "1898",
+      "count" : 29
+    }, {
+      "value" : "1919",
+      "count" : 28
+    }, {
+      "value" : "1947",
+      "count" : 23
+    }, {
+      "value" : "1897",
+      "count" : 11
+    }, {
+      "value" : "1895",
+      "count" : 10
+    }, {
+      "value" : "1894",
+      "count" : 8
+    }, {
+      "value" : "1882",
+      "count" : 8
+    }, {
+      "value" : "1893",
+      "count" : 6
+    }, {
+      "value" : "1884",
+      "count" : 6
+    }, {
+      "value" : "1879",
+      "count" : 6
+    }, {
+      "value" : "1896",
+      "count" : 5
+    }, {
+      "value" : "1891",
+      "count" : 5
+    }, {
+      "value" : "1889",
+      "count" : 5
+    }, {
+      "value" : "1892",
+      "count" : 4
+    }, {
+      "value" : "1890",
+      "count" : 4
+    }, {
+      "value" : "1888",
+      "count" : 4
+    }, {
+      "value" : "1881",
+      "count" : 4
+    }, {
+      "value" : "1880",
+      "count" : 4
+    }, {
+      "value" : "1873",
+      "count" : 4
+    }, {
+      "value" : "1877",
+      "count" : 3
+    }, {
+      "value" : "1876",
+      "count" : 3
+    }, {
+      "value" : "1885",
+      "count" : 3
+    }, {
+      "value" : "1883",
+      "count" : 3
+    }, {
+      "value" : "1878",
+      "count" : 2
+    }, {
+      "value" : "1887",
+      "count" : 2
+    }, {
+      "value" : "1875",
+      "count" : 2
+    }, {
+      "value" : "1886",
+      "count" : 1
+    }, {
+      "value" : "1870",
+      "count" : 1
+    }, {
+      "value" : "1874",
+      "count" : 1
+    }, {
+      "value" : "1872",
+      "count" : 1
+    }, {
+      "value" : "1871",
+      "count" : 1
+    } ]
+  }, {
+    "name" : "owner",
+    "facets" : [ {
+      "value" : "MONSANTO TECHNOLOGY LLC",
+      "count" : 3761
+    }, {
+      "value" : "BASF AKTIENGESELLSCHAFT",
+      "count" : 1394
+    }, {
+      "value" : "BAYER CROPSCIENCE AG",
+      "count" : 1266
+    }, {
+      "value" : "PIONEER HI-BRED INTERNATIONAL INC",
+      "count" : 1050
+    }, {
+      "value" : "E. I. DU PONT DE NEMOURS AND COMPANY",
+      "count" : 887
+    }, {
+      "value" : "FUJIFILM CORPORATION",
+      "count" : 804
+    }, {
+      "value" : "PROCTER & GAMBLE COMPANY THE",
+      "count" : 791
+    }, {
+      "value" : "STINE SEED FARM INC",
+      "count" : 768
+    }, {
+      "value" : "RICOH COMPANY LTD",
+      "count" : 718
+    }, {
+      "value" : "GRAPHIC PACKAGING INTERNATIONAL INC",
+      "count" : 690
+    } ]
+  }, {
+    "name" : "applicant",
+    "facets" : [ {
+      "value" : "MONSANTO TECHNOLOGY LLC",
+      "count" : 3728
+    }, {
+      "value" : "ISEKI AGRICULT MACH",
+      "count" : 3547
+    }, {
+      "value" : "DU PONT",
+      "count" : 3197
+    }, {
+      "value" : "MATSUSHITA ELECTRIC IND CO LTD",
+      "count" : 2860
+    }, {
+      "value" : "PIONEER HI BRED INT",
+      "count" : 2706
+    }, {
+      "value" : "PROCTER & GAMBLE",
+      "count" : 2472
+    }, {
+      "value" : "KUBOTA KK",
+      "count" : 2228
+    }, {
+      "value" : "BASF AG",
+      "count" : 1903
+    }, {
+      "value" : "SUMITOMO CHEMICAL CO",
+      "count" : 1679
+    }, {
+      "value" : "YANMAR AGRICULT EQUIP",
+      "count" : 1590
+    } ]
+  }, {
+    "name" : "inventor",
+    "facets" : [ {
+      "value" : "EBY WILLIAM H",
+      "count" : 918
+    }, {
+      "value" : "RUBEN STEVEN M",
+      "count" : 792
+    }, {
+      "value" : "ROSEN CRAIG A",
+      "count" : 751
+    }, {
+      "value" : "SATAKE TOSHIHIKO",
+      "count" : 748
+    }, {
+      "value" : "ISHIDA ISAO",
+      "count" : 653
+    }, {
+      "value" : "HILLMAN JENNIFER L",
+      "count" : 603
+    }, {
+      "value" : "AMMERMANN EBERHARD",
+      "count" : 547
+    }, {
+      "value" : "STRATHMANN SIEGFRIED",
+      "count" : 542
+    }, {
+      "value" : "WACHENDORFF-NEUMANN ULRIKE",
+      "count" : 539
+    }, {
+      "value" : "CORLEY NEIL C",
+      "count" : 532
+    } ]
+  }, {
+    "name" : "classification_ipcr",
+    "facets" : [ {
+      "value" : "C12N15/82",
+      "count" : 20896
+    }, {
+      "value" : "A01H5/00",
+      "count" : 15448
+    }, {
+      "value" : "A23L1/10",
+      "count" : 12284
+    }, {
+      "value" : "C12N15/09",
+      "count" : 9753
+    }, {
+      "value" : "C12Q1/68",
+      "count" : 9234
+    }, {
+      "value" : "C12N5/10",
+      "count" : 9110
+    }, {
+      "value" : "A47J27/00",
+      "count" : 9045
+    }, {
+      "value" : "A61K38/00",
+      "count" : 8569
+    }, {
+      "value" : "A61P35/00",
+      "count" : 8005
+    }, {
+      "value" : "C07H21/04",
+      "count" : 6771
+    } ]
+  }, {
+    "name" : "classification_nat",
+    "facets" : [ {
+      "value" : "435/320.1",
+      "count" : 9152
+    }, {
+      "value" : "800/278",
+      "count" : 7028
+    }, {
+      "value" : "435/419",
+      "count" : 5041
+    }, {
+      "value" : "800/298",
+      "count" : 5021
+    }, {
+      "value" : "435/69.1",
+      "count" : 4704
+    }, {
+      "value" : "536/23.2",
+      "count" : 4188
+    }, {
+      "value" : "800/302",
+      "count" : 4028
+    }, {
+      "value" : "800/279",
+      "count" : 3863
+    }, {
+      "value" : "435/6",
+      "count" : 3794
+    }, {
+      "value" : "800/320.1",
+      "count" : 3748
+    } ]
+  }, {
+    "name" : "sequence_organism_taxid",
+    "facets" : [ {
+      "value" : "-1",
+      "count" : 26795
+    }, {
+      "value" : "9606",
+      "count" : 6487
+    }, {
+      "value" : "3702",
+      "count" : 3213
+    }, {
+      "value" : "4530",
+      "count" : 2736
+    }, {
+      "value" : "4577",
+      "count" : 2722
+    }, {
+      "value" : "3847",
+      "count" : 1765
+    }, {
+      "value" : "10090",
+      "count" : 1518
+    }, {
+      "value" : "4565",
+      "count" : 1339
+    }, {
+      "value" : "562",
+      "count" : 1026
+    }, {
+      "value" : "4932",
+      "count" : 878
+    } ]
+  }, {
+    "name" : "type",
+    "facets" : [ {
+      "value" : "Patent Application",
+      "count" : 187187
+    }, {
+      "value" : "Granted Patent",
+      "count" : 110106
+    }, {
+      "value" : "Limited Patent",
+      "count" : 9673
+    }, {
+      "value" : "unknown",
+      "count" : 5188
+    }, {
+      "value" : "Search report",
+      "count" : 2596
+    }, {
+      "value" : "Ammended Patent",
+      "count" : 362
+    }, {
+      "value" : "ambiguous",
+      "count" : 267
+    }, {
+      "value" : "Design right",
+      "count" : 148
+    }, {
+      "value" : "Abstract",
+      "count" : 41
+    }, {
+      "value" : "Statutory Invention Registration",
+      "count" : 31
+    } ]
+  }, {
+    "name" : "has_full_text",
+    "facets" : [ {
+      "value" : "true",
+      "count" : 208346
+    }, {
+      "value" : "false",
+      "count" : 107273
+    } ]
+  } ],
+  "internalQuery" : "docdb:rice docdb_ml$en:rice full_text$en:rice claims$en:rice^2.0",
+  "totalTime" : 0.5233358880000001,
+  "searchTime" : 0.522902218,
+  "resultBuilderTime" : 3.93809E-4,
+  "numHits" : 315619,
+  "totalDocs" : 83739604
+}

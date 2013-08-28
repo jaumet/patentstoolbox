@@ -1,0 +1,99 @@
+{
+  "results" : [ {
+    "id" : 79838266,
+    "index" : 0,
+    "score" : 1.0,
+    "publicationKey" : "WO_2001_095744_A1",
+    "docdbKey" : "WO_A1_0195744",
+    "fields" : { },
+    "fieldLanguage" : { }
+  }, {
+    "id" : 72138371,
+    "index" : 1,
+    "score" : 0.9484545588493347,
+    "publicationKey" : "US_4876099_A",
+    "docdbKey" : "US_A_4876099",
+    "fields" : { },
+    "fieldLanguage" : { }
+  }, {
+    "id" : 78373896,
+    "index" : 2,
+    "score" : 0.9167183637619019,
+    "publicationKey" : "US_7337706_B2",
+    "docdbKey" : "US_B2_7337706",
+    "fields" : { },
+    "fieldLanguage" : { }
+  } ],
+
+  "facets" : [ {
+    "name" : "classification_ipcr",
+    "facets" : [ {
+      "value" : "C12N15/82",
+      "title" : "Mutation or genetic engineering\nBIOCHEMISTRY BEER SPIRITS WINE VINEGAR MICROBIOLOGY ENZYMOLOGY\nCHEMISTRY METALLURGY",
+      "count" : 20896
+
+    }, {
+      "value" : "A01H5/00",
+      "title" : "NEW PLANTS OR PROCESSES FOR OBTAINING THEM PLANT REPRODUCTION BY TISSUE CULTURE TECHNIQUES\nNEW PLANTS OR PROCESSES FOR OBTAINING THEM\nAgriculture\nHUMAN NECESSITIES",
+
+      "count" : 15448
+
+    }, {
+      "value" : "A23L1/10",
+	"title" : "FOODS OR FOODSTUFFS\nHUMAN NECESSITIES\n",
+      "count" : 12284
+
+
+    }, {
+      "value" : "C12N15/09",
+	"title" : "Mutation or genetic engineering\nBIOCHEMISTRY BEER SPIRITS WINE VINEGAR MICROBIOLOGY ENZYMOLOGY\nCHEMISTRY METALLURGY",
+
+      "count" : 9753
+
+    }, {
+      "value" : "C12Q1/68",
+	"title" : "MEASURING OR TESTING PROCESSES INVOLVING ENZYMES OR MICRO-ORGANISMS immunoassay\nBIOCHEMISTRY BEER SPIRITS WINE VINEGAR MICROBIOLOGY ENZYMOLOGY MUTATION OR GENETIC ENGINEERINGn\nCHEMISTRY METALLURGY",
+      "count" : 9234
+
+    }, {
+      "value" : "C12N5/10",
+	"title" : "MICRO-ORGANISMS OR ENZYMES COMPOSITIONS\nBIOCHEMISTRY BEER SPIRITS WINE VINEGAR MICROBIOLOGY ENZYMOLOGY MUTATION OR GENETIC ENGINEERING\nCHEMISTRY METALLURGY",
+      "count" : 9110
+
+    }, {
+      "value" : "A47J27/00",
+	"title" : "KITCHEN EQUIPMENT\nFURNITURE\nHUMAN NECESSITIES",
+      "count" : 9045
+
+    }, {
+      "value" : "A61K38/00",
+	"title" : "PREPARATIONS FOR MEDICAL, DENTAL, OR TOILET PURPOSES\nHealth amusement\nHUMAN NECESSITIES",
+      "count" : 8569
+
+    }, {
+      "value" : "A61P35/00",
+	"title" : "Health amusement\nHUMAN NECESSITIES",
+      "count" : 8005
+
+    }, {
+      "value" : "C07H21/04",
+	"title" : "SUGARS DERIVATIVES\nORGANIC CHEMISTRY\nCHEMISTRY METALLURGY",
+      "count" : 6771
+    } ]
+  }, {
+    "name" : "has_full_text",
+    "facets" : [ {
+      "value" : "true",
+      "count" : 208346
+    }, {
+      "value" : "false",
+      "count" : 107273
+    } ]
+  } ],
+  "internalQuery" : "docdb:rice docdb_ml$en:rice full_text$en:rice claims$en:rice^2.0",
+  "totalTime" : 0.521144008,
+  "searchTime" : 0.520715184,
+  "resultBuilderTime" : 3.91134E-4,
+  "numHits" : 315619,
+  "totalDocs" : 83739604
+}
