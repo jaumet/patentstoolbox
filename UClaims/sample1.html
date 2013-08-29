@@ -3,8 +3,11 @@
 <style>
 
 circle {
-  fill-opacity: .1;
-  stroke: #000;
+  fill-opacity: .9;
+  stroke: #fff;
+}
+text {
+  color: #FF0000;
 }
 
 </style>
@@ -74,11 +77,11 @@ svg.selectAll("circle")
     .data(pack.nodes(root).filter(function(d) { return !d.dummy; }))
   .enter().append("circle") 
     .attr("opacity", 1)
-    .attr("fill", function(d) { return d.fill; })
+    .attr("fill", function(d) {if (!d.fill) {d.fill='#7c7777'} return d.fill; })
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; })
     .attr("r", function(d) { return d.r; });
-    
+ 
 svg.selectAll("text")
     .data(pack.nodes(root).filter(function(d) { return !d.dummy; }))  
   .enter().append("text")
@@ -86,7 +89,7 @@ svg.selectAll("text")
       .attr("dx", function(d) { return d.x; })
       .style("text-anchor", "middle")
       .style("font-size", "20px")
-      .style("font-color","red")
+      .style("fill","#ffffff")
       .text(function(d) { return d.name; });
 
 </script>
