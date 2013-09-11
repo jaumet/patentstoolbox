@@ -1,0 +1,3058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v43-2012-12-04.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.3 2012-12-04" file="US08499512-20130806.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20130723" date-publ="20130806">
+    <us-bibliographic-data-grant>
+        <publication-reference>
+            <document-id>
+                <country>US</country>
+                <doc-number>08499512</doc-number>
+                <kind>B2</kind>
+                <date>20130806</date>
+            </document-id>
+        </publication-reference>
+        <application-reference appl-type="utility">
+            <document-id>
+                <country>US</country>
+                <doc-number>12325943</doc-number>
+                <date>20081201</date>
+            </document-id>
+        </application-reference>
+        <us-application-series-code>12</us-application-series-code>
+        <us-term-of-grant>
+            <us-term-extension>434</us-term-extension>
+        </us-term-of-grant>
+        <classifications-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>H</subclass>
+                <main-group>1</main-group>
+                <subgroup>00</subgroup>
+                <symbol-position>F</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>H</subclass>
+                <main-group>3</main-group>
+                <subgroup>00</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>H</subclass>
+                <main-group>5</main-group>
+                <subgroup>00</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>H</subclass>
+                <main-group>6</main-group>
+                <subgroup>00</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>H</subclass>
+                <main-group>14</main-group>
+                <subgroup>00</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>B</subclass>
+                <main-group>2</main-group>
+                <subgroup>96</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>06</class>
+                <subclass>B</subclass>
+                <main-group>3</main-group>
+                <subgroup>54</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>N</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>B</subclass>
+                <main-group>2</main-group>
+                <subgroup>90</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>N</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>B</subclass>
+                <main-group>2</main-group>
+                <subgroup>84</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>N</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>02</class>
+                <subclass>D</subclass>
+                <main-group>37</main-group>
+                <subgroup>00</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>N</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator>
+                    <date>20060101</date>
+                </ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>E</section>
+                <class>04</class>
+                <subclass>B</subclass>
+                <main-group>1</main-group>
+                <subgroup>14</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>N</classification-value>
+                <action-date>
+                    <date>20130806</date>
+                </action-date>
+                <generating-office>
+                    <country>US</country>
+                </generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+        </classifications-ipcr>
+        <classifications-cpc>
+            <main-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator>
+                        <date>20130101</date>
+                    </cpc-version-indicator>
+                    <section>E</section>
+                    <class>04</class>
+                    <subclass>B</subclass>
+                    <main-group>2</main-group>
+                    <subgroup>96</subgroup>
+                    <symbol-position>F</symbol-position>
+                    <classification-value>I</classification-value>
+                    <action-date>
+                        <date>20130806</date>
+                    </action-date>
+                    <generating-office>
+                        <country>US</country>
+                    </generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+            </main-cpc>
+            <further-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator>
+                        <date>20130101</date>
+                    </cpc-version-indicator>
+                    <section>E</section>
+                    <class>06</class>
+                    <subclass>B</subclass>
+                    <main-group>3</main-group>
+                    <subgroup>5427</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date>
+                        <date>20130806</date>
+                    </action-date>
+                    <generating-office>
+                        <country>US</country>
+                    </generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator>
+                        <date>20130101</date>
+                    </cpc-version-indicator>
+                    <section>E</section>
+                    <class>04</class>
+                    <subclass>B</subclass>
+                    <main-group>2</main-group>
+                    <subgroup>90</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date>
+                        <date>20130806</date>
+                    </action-date>
+                    <generating-office>
+                        <country>US</country>
+                    </generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator>
+                        <date>20130101</date>
+                    </cpc-version-indicator>
+                    <section>E</section>
+                    <class>04</class>
+                    <subclass>B</subclass>
+                    <main-group>2</main-group>
+                    <subgroup>847</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date>
+                        <date>20130806</date>
+                    </action-date>
+                    <generating-office>
+                        <country>US</country>
+                    </generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator>
+                        <date>20130101</date>
+                    </cpc-version-indicator>
+                    <section>E</section>
+                    <class>02</class>
+                    <subclass>D</subclass>
+                    <main-group>37</main-group>
+                    <subgroup>00</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date>
+                        <date>20130806</date>
+                    </action-date>
+                    <generating-office>
+                        <country>US</country>
+                    </generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator>
+                        <date>20130101</date>
+                    </cpc-version-indicator>
+                    <section>E</section>
+                    <class>04</class>
+                    <subclass>B</subclass>
+                    <main-group>1</main-group>
+                    <subgroup>14</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date>
+                        <date>20130806</date>
+                    </action-date>
+                    <generating-office>
+                        <country>US</country>
+                    </generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+            </further-cpc>
+        </classifications-cpc>
+        <classification-national>
+            <country>US</country>
+            <main-classification> 52235</main-classification>
+            <further-classification> 5274509</further-classification>
+            <further-classification> 524831</further-classification>
+        </classification-national>
+        <invention-title id="d2e53">Exterior wall construction product</invention-title>
+        <us-references-cited>
+            <us-citation>
+                <patcit num="00001">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>1130722</doc-number>
+                        <kind>A</kind>
+                        <name>Fletcher</name>
+                        <date>19150300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00002">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>1563651</doc-number>
+                        <kind>A</kind>
+                        <name>Pomerantz</name>
+                        <date>19251200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52348</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00003">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2218426</doc-number>
+                        <kind>A</kind>
+                        <name>Hulbert, Jr.</name>
+                        <date>19401000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00004">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2683927</doc-number>
+                        <kind>A</kind>
+                        <name>Maronek</name>
+                        <date>19540700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00005">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2733786</doc-number>
+                        <kind>A</kind>
+                        <name>Drake</name>
+                        <date>19560200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52633</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00006">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3129792</doc-number>
+                        <kind>A</kind>
+                        <name>Gwynne</name>
+                        <date>19640400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52364</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00007">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3324615</doc-number>
+                        <kind>A</kind>
+                        <name>Zinn</name>
+                        <date>19670600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00008">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3397495</doc-number>
+                        <kind>A</kind>
+                        <name>Thompson</name>
+                        <date>19680800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00009">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3481090</doc-number>
+                        <kind>A</kind>
+                        <name>Lizee</name>
+                        <date>19691200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00010">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3537219</doc-number>
+                        <kind>A</kind>
+                        <name>Navarre</name>
+                        <date>19701100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00011">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3566559</doc-number>
+                        <kind>A</kind>
+                        <name>Dickson</name>
+                        <date>19710300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00012">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3744199</doc-number>
+                        <kind>A</kind>
+                        <name>Navarre</name>
+                        <date>19730700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00013">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3786604</doc-number>
+                        <kind>A</kind>
+                        <name>Kramer</name>
+                        <date>19740100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00014">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3839839</doc-number>
+                        <kind>A</kind>
+                        <name>Tillisch et al.</name>
+                        <date>19741000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00015">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3908328</doc-number>
+                        <kind>A</kind>
+                        <name>Nelsson</name>
+                        <date>19750900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00016">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3935681</doc-number>
+                        <kind>A</kind>
+                        <name>Voiturier et al.</name>
+                        <date>19760200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00017">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3955330</doc-number>
+                        <kind>A</kind>
+                        <name>Wendt</name>
+                        <date>19760500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00018">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3964214</doc-number>
+                        <kind>A</kind>
+                        <name>Wendt</name>
+                        <date>19760600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00019">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3974607</doc-number>
+                        <kind>A</kind>
+                        <name>Balinski</name>
+                        <date>19760800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00020">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4011704</doc-number>
+                        <kind>A</kind>
+                        <name>O'Konski</name>
+                        <date>19770300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00021">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4103463</doc-number>
+                        <kind>A</kind>
+                        <name>Dixon</name>
+                        <date>19780800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00022">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4130972</doc-number>
+                        <kind>A</kind>
+                        <name>Varlonga</name>
+                        <date>19781200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00023">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4144335</doc-number>
+                        <kind>A</kind>
+                        <name>Edwards</name>
+                        <date>19790300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00024">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4144385</doc-number>
+                        <kind>A</kind>
+                        <name>Downing</name>
+                        <date>19790300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00025">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4152878</doc-number>
+                        <kind>A</kind>
+                        <name>Balinski</name>
+                        <date>19790500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 524811</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00026">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4164107</doc-number>
+                        <kind>A</kind>
+                        <name>Kraemling et al.</name>
+                        <date>19790800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00027">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4178728</doc-number>
+                        <kind>A</kind>
+                        <name>Ortmanns et al.</name>
+                        <date>19791200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00028">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4203264</doc-number>
+                        <kind>A</kind>
+                        <name>Kiefer et al.</name>
+                        <date>19800500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00029">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4283892</doc-number>
+                        <kind>A</kind>
+                        <name>Brown</name>
+                        <date>19810800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00030">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4318253</doc-number>
+                        <kind>A</kind>
+                        <name>Wedel</name>
+                        <date>19820300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00031">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4329820</doc-number>
+                        <kind>A</kind>
+                        <name>Wendt</name>
+                        <date>19820500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00032">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4424653</doc-number>
+                        <kind>A</kind>
+                        <name>Heinen</name>
+                        <date>19840100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00033">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4437274</doc-number>
+                        <kind>A</kind>
+                        <name>Slocum et al.</name>
+                        <date>19840300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52105</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00034">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4649089</doc-number>
+                        <kind>A</kind>
+                        <name>Thwaites</name>
+                        <date>19870300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00035">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4672785</doc-number>
+                        <kind>A</kind>
+                        <name>Salvo</name>
+                        <date>19870600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00036">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4709517</doc-number>
+                        <kind>A</kind>
+                        <name>Mitchell et al.</name>
+                        <date>19871200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00037">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4723385</doc-number>
+                        <kind>A</kind>
+                        <name>Kallstrom</name>
+                        <date>19880200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00038">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4787767</doc-number>
+                        <kind>A</kind>
+                        <name>Wendt</name>
+                        <date>19881100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00039">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4825610</doc-number>
+                        <kind>A</kind>
+                        <name>Gasteiger</name>
+                        <date>19890500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00040">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4850385</doc-number>
+                        <kind>A</kind>
+                        <name>Harbeke</name>
+                        <date>19890700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00041">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4885884</doc-number>
+                        <kind>A</kind>
+                        <name>Schilger</name>
+                        <date>19891200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00042">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4918761</doc-number>
+                        <kind>A</kind>
+                        <name>Harbeke</name>
+                        <date>19900400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00043">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4930276</doc-number>
+                        <kind>A</kind>
+                        <name>Bawa et al.</name>
+                        <date>19900600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00044">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5010702</doc-number>
+                        <kind>A</kind>
+                        <name>Daw et al.</name>
+                        <date>19910400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00045">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5094780</doc-number>
+                        <kind>A</kind>
+                        <name>von Bonin</name>
+                        <date>19920300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00046">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5103589</doc-number>
+                        <kind>A</kind>
+                        <name>Crawford</name>
+                        <date>19920400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00047">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5125203</doc-number>
+                        <kind>A</kind>
+                        <name>Daw</name>
+                        <date>19920600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00048">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5127203</doc-number>
+                        <kind>A</kind>
+                        <name>Paquette</name>
+                        <date>19920700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00049">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5127760</doc-number>
+                        <kind>A</kind>
+                        <name>Brady</name>
+                        <date>19920700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification>403230</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00050">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5146723</doc-number>
+                        <kind>A</kind>
+                        <name>Greenwood et al.</name>
+                        <date>19920900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00051">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5155957</doc-number>
+                        <kind>A</kind>
+                        <name>Robertson et al.</name>
+                        <date>19921000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00052">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5157883</doc-number>
+                        <kind>A</kind>
+                        <name>Meyer</name>
+                        <date>19921000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52357</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00053">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5167876</doc-number>
+                        <kind>A</kind>
+                        <name>Lem</name>
+                        <date>19921200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00054">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5173515</doc-number>
+                        <kind>A</kind>
+                        <name>von Bonin et al.</name>
+                        <date>19921200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00055">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5222335</doc-number>
+                        <kind>A</kind>
+                        <name>Petrecca</name>
+                        <date>19930600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00056">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5244709</doc-number>
+                        <kind>A</kind>
+                        <name>Vanderstukken</name>
+                        <date>19930900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00057">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5285615</doc-number>
+                        <kind>A</kind>
+                        <name>Gilmour</name>
+                        <date>19940200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00058">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5325651</doc-number>
+                        <kind>A</kind>
+                        <name>Meyer et al.</name>
+                        <date>19940700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00059">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5347780</doc-number>
+                        <kind>A</kind>
+                        <name>Richards et al.</name>
+                        <date>19940900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00060">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5367850</doc-number>
+                        <kind>A</kind>
+                        <name>Nicholas</name>
+                        <date>19941100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00061">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5374036</doc-number>
+                        <kind>A</kind>
+                        <name>Rogers et al.</name>
+                        <date>19941200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00062">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5390465</doc-number>
+                        <kind>A</kind>
+                        <name>Rajecki</name>
+                        <date>19950200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00063">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5394665</doc-number>
+                        <kind>A</kind>
+                        <name>Johnson</name>
+                        <date>19950300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00064">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5412919</doc-number>
+                        <kind>A</kind>
+                        <name>Pellock et al.</name>
+                        <date>19950500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00065">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5452551</doc-number>
+                        <kind>A</kind>
+                        <name>Charland et al.</name>
+                        <date>19950900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00066">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5456050</doc-number>
+                        <kind>A</kind>
+                        <name>Ward</name>
+                        <date>19951000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00067">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5471805</doc-number>
+                        <kind>A</kind>
+                        <name>Becker</name>
+                        <date>19951200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00068">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5552185</doc-number>
+                        <kind>A</kind>
+                        <name>De Keyser</name>
+                        <date>19960900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00069">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5592796</doc-number>
+                        <kind>A</kind>
+                        <name>Landers</name>
+                        <date>19970100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00070">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5604024</doc-number>
+                        <kind>A</kind>
+                        <name>von Bonin</name>
+                        <date>19970200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00071">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5644877</doc-number>
+                        <kind>A</kind>
+                        <name>Wood</name>
+                        <date>19970700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00072">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5687538</doc-number>
+                        <kind>A</kind>
+                        <name>Frobosilo et al.</name>
+                        <date>19971100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52846</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00073">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5689922</doc-number>
+                        <kind>A</kind>
+                        <name>Daudet</name>
+                        <date>19971100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00074">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5709821</doc-number>
+                        <kind>A</kind>
+                        <name>von Bonin et al.</name>
+                        <date>19980100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00075">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5755066</doc-number>
+                        <kind>A</kind>
+                        <name>Becker</name>
+                        <date>19980500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00076">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5787651</doc-number>
+                        <kind>A</kind>
+                        <name>Horn et al.</name>
+                        <date>19980800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00077">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5797233</doc-number>
+                        <kind>A</kind>
+                        <name>Hascall</name>
+                        <date>19980800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00078">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5806261</doc-number>
+                        <kind>A</kind>
+                        <name>Huebner et al.</name>
+                        <date>19980900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00079">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5913788</doc-number>
+                        <kind>A</kind>
+                        <name>Herren</name>
+                        <date>19990600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00080">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5921041</doc-number>
+                        <kind>A</kind>
+                        <name>Egri, II</name>
+                        <date>19990700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00081">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5927041</doc-number>
+                        <kind>A</kind>
+                        <name>Sedlmeier et al.</name>
+                        <date>19990700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00082">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5930963</doc-number>
+                        <kind>A</kind>
+                        <name>Nichols</name>
+                        <date>19990800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00083">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5950385</doc-number>
+                        <kind>A</kind>
+                        <name>Herren</name>
+                        <date>19990900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 524811</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00084">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5968669</doc-number>
+                        <kind>A</kind>
+                        <name>Liu et al.</name>
+                        <date>19991000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00085">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6058668</doc-number>
+                        <kind>A</kind>
+                        <name>Herron</name>
+                        <date>20000500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00086">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6110559</doc-number>
+                        <kind>A</kind>
+                        <name>De Keyser</name>
+                        <date>20000800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00087">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6151858</doc-number>
+                        <kind>A</kind>
+                        <name>Ruiz et al.</name>
+                        <date>20001100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00088">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6176053</doc-number>
+                        <kind>B1</kind>
+                        <name>St. Germain</name>
+                        <date>20010100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00089">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6189277</doc-number>
+                        <kind>B1</kind>
+                        <name>Boscamp</name>
+                        <date>20010200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00090">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6207077</doc-number>
+                        <kind>B1</kind>
+                        <name>Burnell-Jones</name>
+                        <date>20010300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00091">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6207085</doc-number>
+                        <kind>B1</kind>
+                        <name>Ackerman</name>
+                        <date>20010300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00092">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6213679</doc-number>
+                        <kind>B1</kind>
+                        <name>Frobosilo et al.</name>
+                        <date>20010400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00093">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6216404</doc-number>
+                        <kind>B1</kind>
+                        <name>Vellrath</name>
+                        <date>20010400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00094">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6233888</doc-number>
+                        <kind>B1</kind>
+                        <name>Wu</name>
+                        <date>20010500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00095">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6305133</doc-number>
+                        <kind>B1</kind>
+                        <name>Cornwall</name>
+                        <date>20011000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00096">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6374558</doc-number>
+                        <kind>B1</kind>
+                        <name>Surowiecki</name>
+                        <date>20020400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00097">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6405502</doc-number>
+                        <kind>B1</kind>
+                        <name>Cornwall</name>
+                        <date>20020600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00098">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6430881</doc-number>
+                        <kind>B1</kind>
+                        <name>Daudet et al.</name>
+                        <date>20020800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00099">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6470638</doc-number>
+                        <kind>B1</kind>
+                        <name>Larson</name>
+                        <date>20021000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00100">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6647691</doc-number>
+                        <kind>B2</kind>
+                        <name>Becker et al.</name>
+                        <date>20031100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00101">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6679015</doc-number>
+                        <kind>B1</kind>
+                        <name>Cornwall</name>
+                        <date>20040100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00102">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6705047</doc-number>
+                        <kind>B2</kind>
+                        <name>Yulkowski</name>
+                        <date>20040300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00103">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6732481</doc-number>
+                        <kind>B2</kind>
+                        <name>Stahl, Sr.</name>
+                        <date>20040500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00104">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6783345</doc-number>
+                        <kind>B2</kind>
+                        <name>Morgan et al.</name>
+                        <date>20040800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00105">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6799404</doc-number>
+                        <kind>B2</kind>
+                        <name>Spransy</name>
+                        <date>20041000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00106">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6843035</doc-number>
+                        <kind>B1</kind>
+                        <name>Glynn</name>
+                        <date>20050100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00107">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6854237</doc-number>
+                        <kind>B2</kind>
+                        <name>Surowiecki</name>
+                        <date>20050200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00108">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6871470</doc-number>
+                        <kind>B1</kind>
+                        <name>Stover</name>
+                        <date>20050300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00109">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7043880</doc-number>
+                        <kind>B2</kind>
+                        <name>Morgan et al.</name>
+                        <date>20060500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00110">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7152385</doc-number>
+                        <kind>B2</kind>
+                        <name>Morgan et al.</name>
+                        <date>20061200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00111">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7191845</doc-number>
+                        <kind>B2</kind>
+                        <name>Loar</name>
+                        <date>20070300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00112">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7240905</doc-number>
+                        <kind>B1</kind>
+                        <name>Stahl, Sr.</name>
+                        <date>20070700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00113">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7302776</doc-number>
+                        <kind>B2</kind>
+                        <name>Duncan et al.</name>
+                        <date>20071200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00114">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7506478</doc-number>
+                        <kind>B2</kind>
+                        <name>Bobenhausen</name>
+                        <date>20090300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00115">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7540118</doc-number>
+                        <kind>B2</kind>
+                        <name>Jensen</name>
+                        <date>20090600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00116">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7617643</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20091100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00117">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7681365</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20100300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00118">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7752817</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20100700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00119">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7775006</doc-number>
+                        <kind>B2</kind>
+                        <name>Giannos</name>
+                        <date>20100800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00120">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7776170</doc-number>
+                        <kind>B2</kind>
+                        <name>Yu et al.</name>
+                        <date>20100800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00121">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7814718</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20101000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00122">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7827738</doc-number>
+                        <kind>B2</kind>
+                        <name>Abrams et al.</name>
+                        <date>20101100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00123">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7866108</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20110100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00124">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>7950198</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20110500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00125">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8056293</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20111100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00126">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8061099</doc-number>
+                        <kind>B2</kind>
+                        <name>Andrews</name>
+                        <date>20111100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00127">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8074416</doc-number>
+                        <kind>B2</kind>
+                        <name>Andrews</name>
+                        <date>20111200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00128">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8087205</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20120100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00129">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8132376</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20120300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00130">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8136314</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20120300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00131">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8151526</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20120400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00132">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8181404</doc-number>
+                        <kind>B2</kind>
+                        <name>Klein</name>
+                        <date>20120500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00133">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8225581</doc-number>
+                        <kind>B2</kind>
+                        <name>Strickland et al.</name>
+                        <date>20120700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00134">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8281552</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20121000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00135">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8322094</doc-number>
+                        <kind>B2</kind>
+                        <name>Pilz et al.</name>
+                        <date>20121200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00136">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2002/0170249</doc-number>
+                        <kind>A1</kind>
+                        <name>Yulkowski</name>
+                        <date>20021100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00137">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2003/0079425</doc-number>
+                        <kind>A1</kind>
+                        <name>Morgan et al.</name>
+                        <date>20030500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00138">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2003/0089062</doc-number>
+                        <kind>A1</kind>
+                        <name>Morgan et al.</name>
+                        <date>20030500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00139">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2003/0213211</doc-number>
+                        <kind>A1</kind>
+                        <name>Morgan et al.</name>
+                        <date>20031100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00140">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2004/0010998</doc-number>
+                        <kind>A1</kind>
+                        <name>Turco</name>
+                        <date>20040100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00141">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2004/0045234</doc-number>
+                        <kind>A1</kind>
+                        <name>Morgan et al.</name>
+                        <date>20040300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00142">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2004/0139684</doc-number>
+                        <kind>A1</kind>
+                        <name>Menendez</name>
+                        <date>20040700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 527201</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00143">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2004/0211150</doc-number>
+                        <kind>A1</kind>
+                        <name>Bobenhausen</name>
+                        <date>20041000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00144">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2005/0183361</doc-number>
+                        <kind>A1</kind>
+                        <name>Frezza</name>
+                        <date>20050800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 522933</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00145">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2005/0246973</doc-number>
+                        <kind>A1</kind>
+                        <name>Jensen</name>
+                        <date>20051100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00146">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2006/0032163</doc-number>
+                        <kind>A1</kind>
+                        <name>Korn</name>
+                        <date>20060200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00147">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2006/0123723</doc-number>
+                        <kind>A1</kind>
+                        <name>Weir et al.</name>
+                        <date>20060600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00148">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2006/0137293</doc-number>
+                        <kind>A1</kind>
+                        <name>Klein</name>
+                        <date>20060600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00149">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2007/0056245</doc-number>
+                        <kind>A1</kind>
+                        <name>Edmondson</name>
+                        <date>20070300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 527262</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00150">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2007/0068101</doc-number>
+                        <kind>A1</kind>
+                        <name>Weir et al.</name>
+                        <date>20070300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00151">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2007/0193202</doc-number>
+                        <kind>A1</kind>
+                        <name>Rice</name>
+                        <date>20070800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00152">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2007/0261343</doc-number>
+                        <kind>A1</kind>
+                        <name>Stahl, Sr.</name>
+                        <date>20071100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00153">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2008/0087366</doc-number>
+                        <kind>A1</kind>
+                        <name>Yu et al.</name>
+                        <date>20080400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00154">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2008/0134589</doc-number>
+                        <kind>A1</kind>
+                        <name>Abrams et al.</name>
+                        <date>20080600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00155">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2008/0172967</doc-number>
+                        <kind>A1</kind>
+                        <name>Hilburn</name>
+                        <date>20080700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00156">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2008/0250738</doc-number>
+                        <kind>A1</kind>
+                        <name>Howchin</name>
+                        <date>20081000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-national>
+                    <country>US</country>
+                    <main-classification> 52235</main-classification>
+                </classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00157">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2009/0038764</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20090200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00158">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2009/0049777</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20090200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00159">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2009/0049781</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20090200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00160">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2009/0090074</doc-number>
+                        <kind>A1</kind>
+                        <name>Klein</name>
+                        <date>20090400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00161">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2009/0094912</doc-number>
+                        <kind>A1</kind>
+                        <name>Klein</name>
+                        <date>20090400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00162">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2009/0178363</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20090700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00163">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2010/0126092</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20100500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00164">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2010/0170172</doc-number>
+                        <kind>A1</kind>
+                        <name>Klein</name>
+                        <date>20100700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00165">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2011/0113709</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20110500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00166">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2011/0185656</doc-number>
+                        <kind>A1</kind>
+                        <name>Klein</name>
+                        <date>20110800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00167">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2011/0214371</doc-number>
+                        <kind>A1</kind>
+                        <name>Klein</name>
+                        <date>20110900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00168">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2011/0247281</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20111000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00169">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2012/0066989</doc-number>
+                        <kind>A1</kind>
+                        <name>Pilz et al.</name>
+                        <date>20120300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00170">
+                    <document-id>
+                        <country>CA</country>
+                        <doc-number>2234347</doc-number>
+                        <date>19991000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00171">
+                    <document-id>
+                        <country>EP</country>
+                        <doc-number>0346126</doc-number>
+                        <date>19891200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00172">
+                    <document-id>
+                        <country>GB</country>
+                        <doc-number>2159051</doc-number>
+                        <date>19851100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00173">
+                    <document-id>
+                        <country>GB</country>
+                        <doc-number>2411212</doc-number>
+                        <date>20050800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00174">
+                    <document-id>
+                        <country>JP</country>
+                        <doc-number>06146433</doc-number>
+                        <date>19940500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00175">
+                    <document-id>
+                        <country>JP</country>
+                        <doc-number>06220934</doc-number>
+                        <date>19940800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00176">
+                    <document-id>
+                        <country>WO</country>
+                        <doc-number>WO 03/038206</doc-number>
+                        <date>20030500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00177">
+                    <document-id>
+                        <country>WO</country>
+                        <doc-number>WO 2007/103331</doc-number>
+                        <date>20070900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00178">
+                    <document-id>
+                        <country>WO</country>
+                        <doc-number>WO 2009/026464</doc-number>
+                        <date>20090200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00179">
+                    <othercit>FireStik&#x2122; by CEMCO Brochure, published on www.firestik.us, in 18 pages.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00180">
+                    <othercit>Order form from Stockton Products for Soffit Vent / Reveal Screed, in 1 page.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00181">
+                    <othercit>DoubleTrack&#x2122; information sheets by Dietrich Metal Framing, in 2 pages.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00182">
+                    <othercit>Catalog page from Stockton Products, printed from www.stocktonproducts.com, on Dec. 16, 2007, showing #5 Drip, in 1 page.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00183">
+                    <othercit>International Search Report for Application No. PCT/US2008/073920, dated Apr. 9, 2009.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00184">
+                    <othercit>Canadian First Office Action for Application No. 2,697,295, dated Sep. 21, 2011, in 4 pages.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00185">
+                    <othercit>Canadian First Office Action for Application No. 2,697,295, dated May 23, 2012, in 2 pages.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <nplcit num="00186">
+                    <othercit>Information Disclosure Statement letter, dated Aug. 4, 2011.</othercit>
+                </nplcit>
+                <category>cited by applicant</category>
+            </us-citation>
+        </us-references-cited>
+        <number-of-claims>4</number-of-claims>
+        <us-exemplary-claim>1</us-exemplary-claim>
+        <us-field-of-classification-search>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52 481</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 524831</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 527301</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 527306</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52844</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52846</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52848</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 524811</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 524891</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52737</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52252</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 5250605</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52235</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 52283</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 522363</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 526561</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 527813</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 5274509</main-classification>
+            </classification-national>
+            <classification-national>
+                <country>US</country>
+                <main-classification> 5274521</main-classification>
+            </classification-national>
+        </us-field-of-classification-search>
+        <figures>
+            <number-of-drawing-sheets>5</number-of-drawing-sheets>
+            <number-of-figures>9</number-of-figures>
+        </figures>
+        <us-related-documents>
+            <continuation-in-part>
+                <relation>
+                    <parent-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>12039685</doc-number>
+                            <date>20080228</date>
+                        </document-id>
+                        <parent-grant-document>
+                            <document-id>
+                                <country>US</country>
+                                <doc-number>8281552</doc-number>
+                            </document-id>
+                        </parent-grant-document>
+                    </parent-doc>
+                    <child-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>12325943</doc-number>
+                        </document-id>
+                    </child-doc>
+                </relation>
+            </continuation-in-part>
+            <us-provisional-application>
+                <document-id>
+                    <country>US</country>
+                    <doc-number>61021418</doc-number>
+                    <date>20080116</date>
+                </document-id>
+            </us-provisional-application>
+            <related-publication>
+                <document-id>
+                    <country>US</country>
+                    <doc-number>20090178369</doc-number>
+                    <kind>A1</kind>
+                    <date>20090716</date>
+                </document-id>
+            </related-publication>
+        </us-related-documents>
+        <us-parties>
+            <us-applicants>
+                <us-applicant sequence="001" app-type="applicant" designation="us-only">
+                    <addressbook>
+                        <last-name>Pilz</last-name>
+                        <first-name>Don A.</first-name>
+                        <address>
+                            <city>Livermore</city>
+                            <state>CA</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                    <residence>
+                        <country>US</country>
+                    </residence>
+                </us-applicant>
+                <us-applicant sequence="002" app-type="applicant" designation="us-only">
+                    <addressbook>
+                        <last-name>Poliquin</last-name>
+                        <first-name>Raymond E.</first-name>
+                        <address>
+                            <city>City of Industry</city>
+                            <state>CA</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                    <residence>
+                        <country>US</country>
+                    </residence>
+                </us-applicant>
+                <us-applicant sequence="003" app-type="applicant" designation="us-only">
+                    <addressbook>
+                        <last-name>Sesma</last-name>
+                        <first-name>Fernando Hernandez</first-name>
+                        <address>
+                            <city>City of Industry</city>
+                            <state>CA</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                    <residence>
+                        <country>US</country>
+                    </residence>
+                </us-applicant>
+            </us-applicants>
+            <inventors>
+                <inventor sequence="001" designation="us-only">
+                    <addressbook>
+                        <last-name>Pilz</last-name>
+                        <first-name>Don A.</first-name>
+                        <address>
+                            <city>Livermore</city>
+                            <state>CA</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                </inventor>
+                <inventor sequence="002" designation="us-only">
+                    <addressbook>
+                        <last-name>Poliquin</last-name>
+                        <first-name>Raymond E.</first-name>
+                        <address>
+                            <city>City of Industry</city>
+                            <state>CA</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                </inventor>
+                <inventor sequence="003" designation="us-only">
+                    <addressbook>
+                        <last-name>Sesma</last-name>
+                        <first-name>Fernando Hernandez</first-name>
+                        <address>
+                            <city>City of Industry</city>
+                            <state>CA</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                </inventor>
+            </inventors>
+            <agents>
+                <agent sequence="01" rep-type="attorney">
+                    <addressbook>
+                        <orgname>Knobbe Martens Olson &#x26; Bear</orgname>
+                        <address>
+                            <country>unknown</country>
+                        </address>
+                    </addressbook>
+                </agent>
+            </agents>
+        </us-parties>
+        <assignees>
+            <assignee>
+                <addressbook>
+                    <orgname>California Expanded Metal Products Company</orgname>
+                    <role>02</role>
+                    <address>
+                        <city>City of Industry</city>
+                        <state>CA</state>
+                        <country>US</country>
+                    </address>
+                </addressbook>
+            </assignee>
+        </assignees>
+        <examiners>
+            <primary-examiner>
+                <last-name>Gilbert</last-name>
+                <first-name>William</first-name>
+                <department>3635</department>
+            </primary-examiner>
+            <assistant-examiner>
+                <last-name>Adamos</last-name>
+                <first-name>Theodore</first-name>
+            </assistant-examiner>
+        </examiners>
+    </us-bibliographic-data-grant>
+    <abstract id="abstract">
+        <p id="p-0001" num="0000">The present application is directed toward slotted tracks, in particular slotted tracks for an exterior wall application. Embodiments can include tracks with elongate reinforcing ribs on the tracks' flanges and/or web, tabs and/or protruding ribs for supporting and positioning exterior sheathing elements, second slot patterns along the length of the web of the track to allow for attachment and drift movement of the track with another wall component, and guide marks to identify proper locations for attachment of fasteners.</p>
+    </abstract>
+    <drawings id="DRAWINGS">
+        <figure id="Fig-EMI-D00000" num="00000">
+            <img id="EMI-D00000" he="106.85mm" wi="97.62mm" file="US08499512-20130806-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00001" num="00001">
+            <img id="EMI-D00001" he="126.24mm" wi="97.96mm" file="US08499512-20130806-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00002" num="00002">
+            <img id="EMI-D00002" he="210.23mm" wi="136.40mm" orientation="landscape" file="US08499512-20130806-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00003" num="00003">
+            <img id="EMI-D00003" he="208.70mm" wi="121.16mm" file="US08499512-20130806-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00004" num="00004">
+            <img id="EMI-D00004" he="253.07mm" wi="169.42mm" orientation="landscape" file="US08499512-20130806-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00005" num="00005">
+            <img id="EMI-D00005" he="255.78mm" wi="176.61mm" file="US08499512-20130806-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+    </drawings>
+    <description id="description">
+        <?RELAPP description="Other Patent Relations" end="lead"?>
+        <heading id="h-0001" level="1">RELATED APPLICATIONS</heading>
+        <p id="p-0002" num="0001">This application is a continuation-in-part of U.S. patent application Ser. No. 12/039,685, filed Feb. 28, 2008, the entire contents of which are incorporated by reference herein, which claims benefit under 35 U.S.C. &#xa7;119(e) to U.S. Provisional Patent Application No. 61/021,418, filed on Jan. 16, 2008, the entire contents of which are incorporated by reference herein. Also incorporated herein in their entireties by reference are U.S. application Ser. No. 12/013,361, entitled Fire Rated Wall Construction Product, filed Jan. 11, 2008, and U.S. application Ser. No. 12/040,658, entitled Two-Piece Track System, filed Feb. 29, 2008.</p>
+        <?RELAPP description="Other Patent Relations" end="tail"?>
+        <?BRFSUM description="Brief Summary" end="lead"?>
+        <heading id="h-0002" level="1">BACKGROUND OF THE INVENTION</heading>
+        <p id="p-0003" num="0002">1. Field of the Invention</p>
+        <p id="p-0004" num="0003">This application is directed toward a header track device for use in building construction, particularly for use in the exterior wall of a building.</p>
+        <p id="p-0005" num="0004">2. Description of the Related Art</p>
+        <p id="p-0006" num="0005">Header tracks, including slotted tracks, are commonly used in the construction industry, including in the exterior walls of buildings. They generally resemble a U-shaped (or some other similarly shaped) elongated channel capable of receiving or covering the ends of wall studs and holding the wall studs in place.</p>
+        <p id="p-0007" num="0006">The slotted tracks generally have a web and at least one flange. Typically, the track includes a pair of flanges, which extend in the same direction from opposing edges of the web. Along the flanges of the slotted tracks generally is a plurality of slots. When the wall studs are placed into a slotted track, the plurality of slots accommodate fasteners to permit attachment of the wall studs to the slotted track. The slots allow the wall studs to move generally orthogonally relative to the track. In those areas of the world where earthquakes are common, movement of the wall studs is important. If the wall studs are rigidly attached to the slotted track and not allowed to move freely in at least one direction, the stability of the wall and the building might be compromised. With the plurality of slots, the wall studs are free to move.</p>
+        <p id="p-0008" num="0007">Also along the flanges of the slotted tracks generally are areas for attachment of exterior sheathing elements. However, in many current slotted tracks, the slots take up the majority of the flanges of the track, leaving little room for attachment of exterior sheathing elements. For example, angle-shaped sheet metal tracks are commonly used on the outsides of wall studs. Each of these angle-shaped sheet metal tracks has a top web portion and one extending flange portion. The extending flange portion normally has a plurality of slots, but the slots extend nearly to the intersection of the flange and web. Because of this, there is little room for attachment of exterior sheathing elements to the flange of the slotted track.</p>
+        <heading id="h-0003" level="1">SUMMARY OF THE INVENTION</heading>
+        <p id="p-0009" num="0008">It has been discovered by the present inventor that it is also often difficult to identify the proper location for attachment of an exterior sheathing element along the flange of a slotted track. If the sheathing elements are misaligned and overlap a portion of the plurality of slots, the generally orthogonal movement of the studs can be limited due to interference between the stud fastener, which passes through one of the plurality of slots, and the sheathing element.</p>
+        <p id="p-0010" num="0009">This application is directed toward an improved slotted track device and system capable of use in building construction. It is well-suited for use in the exterior wall of a building, but can be used in other applications as well. The device includes a plurality of slots located along at least one flange of the slotted track. The slots permit attachment of the slotted track to a wall stud or studs. The slots also allow for generally orthogonal movement of the wall studs relative to the slotted track during an earthquake or some other event where movement of the studs is desired.</p>
+        <p id="p-0011" num="0010">In at least one embodiment, the device includes at least one elongate reinforcing structure, such as a protrusion or rib, which extends along at least one portion of the track to provide added stability to the slotted track. The rib can protrude outwardly or inwardly from the slotted track.</p>
+        <p id="p-0012" num="0011">In one embodiment, an outward rib along the flange of the track has a secondary function in providing a ridge against which an exterior sheathing element can rest. This ridge helps to ensure proper alignment or placement of the exterior sheathing element during attachment of the sheathing element to the slotted track, and can have a triangular-shaped cross-section.</p>
+        <p id="p-0013" num="0012">It is also contemplated that in at least one embodiment the present inventive slotted track comprises a plurality of tabs. The tabs are located along a flange of the slotted track and provide resting points for the exterior sheathing elements during attachment of the sheathing elements to the slotted track.</p>
+        <p id="p-0014" num="0013">In at least one embodiment the slotted track also comprises a plurality of second slots laterally positioned along the web of the track which permit attachment of the slotted track to a floor or other wall element. The plurality of second slots can be of various shapes, and can allow for drift movement of the track in various directions. For example, in one embodiment the second slots have a generally cross-like pattern, allowing for drift movement in multiple directions.</p>
+        <p id="p-0015" num="0014">A system is also contemplated which incorporates a slotted track and connection element. In at least one embodiment, the connection element acts as a washer, and includes a rubber or other compressible material layer which presses against the underside of the web. The connection element has a hole or holes through which a nail or other fastening element is placed. The connection element can also have a geometrical profile substantially similar to that of at least a portion of the web.</p>
+        <p id="p-0016" num="0015">In yet another embodiment, an elongate track for receiving wall studs is contemplated, the track comprising a web portion, at least one flange portion having a plurality of slots, and at least one guide mark located along the at least one flange portion, the guide mark configured to identify a particular area within one or more slots and, in some arrangements, within each slot, where a fastener should be positioned.</p>
+        <p id="p-0017" num="0016">In yet another embodiment, an elongate track for receiving wall studs is contemplated, the track comprising a web portion comprising a repeating pattern of slots, at least some of the slots being located nearer the elongate central portion of the web, wherein the pattern of slots is configured to provide at least one location for attachment of the elongate track to another wall component.</p>
+        <?BRFSUM description="Brief Summary" end="tail"?>
+        <?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+        <description-of-drawings>
+            <heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+            <p id="p-0018" num="0017">These and other features, aspects and advantages of the various devices, systems and methods presented herein are described with reference to drawings of certain embodiments, which are intended to illustrate, but not to limit, such devices, systems, and methods. The drawings include nine (9) figures. It is to be understood that the attached drawings are for the purpose of illustrating concepts of the embodiments discussed herein and may not be to scale.</p>
+            <p id="p-0019" num="0018">
+                <figref idref="DRAWINGS">FIG. 1</figref> illustrates a cross-sectional view of the exterior portion of a building, including a slotted track, a floor slab, a wall stud, and two pieces of exterior sheathing.</p>
+            <p id="p-0020" num="0019">
+                <figref idref="DRAWINGS">FIG. 2</figref> illustrates a perspective view of an embodiment of the slotted track of <figref idref="DRAWINGS">FIG. 1</figref>, further comprising a plurality of tabs.</p>
+            <p id="p-0021" num="0020">
+                <figref idref="DRAWINGS">FIG. 3</figref> illustrates a bottom plan view of a second slot located along the web of the slotted track of <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+            <p id="p-0022" num="0021">
+                <figref idref="DRAWINGS">FIG. 4</figref> illustrates a cross sectional view of the second slot of <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+            <p id="p-0023" num="0022">
+                <figref idref="DRAWINGS">FIG. 5</figref> illustrates a perspective view of an embodiment of a slotted track system, including a connection element.</p>
+            <p id="p-0024" num="0023">
+                <figref idref="DRAWINGS">FIG. 6</figref> illustrates a cross sectional view of the connection element of <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+            <p id="p-0025" num="0024">
+                <figref idref="DRAWINGS">FIG. 7</figref> illustrates a top plan view of the connection element of <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+            <p id="p-0026" num="0025">
+                <figref idref="DRAWINGS">FIG. 8</figref> illustrates a perspective view of an embodiment of a slotted track.</p>
+            <p id="p-0027" num="0026">
+                <figref idref="DRAWINGS">FIG. 9</figref> illustrates a perspective view of an embodiment of a slotted track.</p>
+        </description-of-drawings>
+        <?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+        <?DETDESC description="Detailed Description" end="lead"?>
+        <heading id="h-0005" level="1">DETAILED DESCRIPTION OF THE PREFERRED EMBODIMENT</heading>
+        <p id="p-0028" num="0027">Referring to <figref idref="DRAWINGS">FIG. 1</figref>, the inventive slotted track <b>10</b> can be used with a wall stud <b>12</b>, a floor slab <b>14</b>, and two pieces of exterior sheathing elements <b>16</b> and <b>18</b>. In use, the slotted track <b>10</b> is connected to the bottom surface of floor slab <b>14</b> by an acceptable fastening means. In the illustrated arrangement, the floor slab <b>14</b> is solid; however, it is also possible to use the track <b>10</b> with other types of floors (e.g., fluted floor decks) and other suitable structures, as well. The two exterior sheathing elements <b>16</b> and <b>18</b> are positioned and attached alongside the exterior portion of the slotted track <b>10</b> such that a lower end of upper sheathing element <b>16</b> ends just prior to a plurality of slots (not shown in <figref idref="DRAWINGS">FIG. 1</figref>) along a portion of one flange of the slotted track <b>10</b>.</p>
+        <p id="p-0029" num="0028">Referring to <figref idref="DRAWINGS">FIG. 2</figref>, an embodiment of the slotted track <b>10</b> comprises a web <b>22</b>, two flanges <b>24</b>
+            <i>a </i>and <b>24</b>
+            <i>b</i>, and a plurality of slots <b>26</b>
+            <i>a </i>and <b>26</b>
+            <i>b </i>along each of the flanges <b>24</b>
+            <i>a </i>and <b>24</b>
+            <i>b</i>. These slots <b>26</b>
+            <i>a </i>and <b>26</b>
+            <i>b </i>are configured to allow the shaft portion of a fastener, such as a threaded fastener, to pass through the slots <b>26</b>
+            <i>a </i>and <b>26</b>
+            <i>b </i>and into the stud <b>12</b> to permit attachment of the slotted track <b>10</b> to the wall stud <b>12</b>. The slots <b>26</b>
+            <i>a </i>and <b>26</b>
+            <i>b </i>also generally allow for orthogonal movement of the fastener within the slots <b>26</b>
+            <i>a </i>and <b>26</b>
+            <i>b </i>and, thus, movement of the wall stud <b>12</b> relative to the slotted track <b>10</b>. As discussed above, in those areas of the world where earthquakes are common, movement of the wall studs is important. If the wall studs are rigidly attached to the slotted track and not allowed to move freely in at least one direction, the stability of the wall and the building might be compromised. Thus, with the plurality of slots <b>26</b>
+            <i>a </i>and <b>26</b>
+            <i>b </i>provided in the present slotted track <b>10</b>, the wall stud <b>12</b> is free to move.</p>
+        <p id="p-0030" num="0029">In some embodiments, an elongate reinforcing rib <b>28</b>
+            <i>b </i>may be provided along flange <b>24</b>
+            <i>b</i>. In some embodiments, the rib can include a groove along its back side. The rib <b>28</b>
+            <i>b </i>protrudes outwards, and provides added stability to the slotted track <b>10</b>. In other embodiments, the rib can protrude inwardly. In the embodiment of <figref idref="DRAWINGS">FIG. 2</figref>, one rib is used on flange <b>24</b>
+            <i>b</i>. However, more than one rib can also be used. A rib or ribs can be used on flange <b>24</b>
+            <i>a </i>as well to provide added stability. Additionally, a sheathing attachment area <b>32</b> is located above and adjacent the rib <b>28</b>
+            <i>b</i>. The sheathing attachment area <b>32</b> is large enough to attach sheathing elements as well as provide added stability to the slotted track <b>10</b>.</p>
+        <p id="p-0031" num="0030">During installation, the sheathing element <b>16</b> can be placed against the sheathing attachment area <b>32</b> such that the sheathing element's lower portion rests on top of the rib <b>28</b>
+            <i>b</i>. The rib <b>28</b>
+            <i>b </i>thus helps to align the sheathing element <b>16</b> relative to the track <b>10</b> so that sheathing element <b>16</b> does not cover a portion of the plurality of slots <b>26</b>
+            <i>b </i>and prevent the generally orthogonal movement of the wall stud <b>12</b>.</p>
+        <p id="p-0032" num="0031">Still referring to <figref idref="DRAWINGS">FIG. 2</figref>, the slotted track <b>10</b> may further (or alternatively) comprise tabs <b>34</b>
+            <i>a </i>and <b>34</b>
+            <i>b</i>. The tabs <b>34</b>
+            <i>a </i>and <b>34</b>
+            <i>b </i>can be made integral with the slotted track <b>10</b> or separately applied to the slotted track <b>10</b> either mechanically or by other means. In at least one embodiment, the tabs <b>34</b>
+            <i>a </i>and <b>34</b>
+            <i>b </i>can be fold-down tabs. The tabs <b>34</b>
+            <i>a </i>and <b>34</b>
+            <i>b </i>can lock in place once they have folded down to a certain point or angle. For example, the tabs can have hinges (not shown) which only allow the tab to fold down 90 degrees. In at least one embodiment, the tab <b>34</b>
+            <i>a</i>, <b>34</b>
+            <i>b </i>may contact the rib <b>28</b>
+            <i>b </i>when folded such that the rib <b>28</b>
+            <i>b </i>provides some amount of support to the tab <b>34</b>
+            <i>a</i>, <b>34</b>
+            <i>b</i>. In yet other embodiments, the tabs <b>34</b>
+            <i>a </i>and <b>34</b>
+            <i>b </i>can include a lip or rib (not shown) for holding the sheathing element <b>16</b> in place while it is being attached. During installation of the sheathing elements, the tabs help to align the sheathing element <b>16</b> so that sheathing element <b>16</b> does not cover a portion of the plurality of slots <b>26</b>
+            <i>b </i>and prevent the generally orthogonal movement of the wall stud <b>12</b>. While the present embodiment includes two tabs per standard sheet of sheathing element <b>16</b> (<figref idref="DRAWINGS">FIG. 1</figref>), additional embodiments can include other numbers of tabs. Furthermore, in at least one embodiment, the tabs can be spaced evenly along the sheathing attachment area <b>32</b> of slotted track <b>10</b>.</p>
+        <p id="p-0033" num="0032">The slotted track <b>10</b> may further comprise elongate reinforcing ribs <b>36</b>
+            <i>a </i>and <b>36</b>
+            <i>b </i>along the web <b>22</b>. Ribs <b>36</b>
+            <i>a </i>and <b>36</b>
+            <i>b </i>provide added stability to the slotted track <b>10</b>. Positioned between ribs <b>36</b>
+            <i>a </i>and <b>36</b>
+            <i>b</i>, and laterally positioned along the web <b>22</b> of slotted track <b>10</b>, are second slots <b>38</b>
+            <i>a </i>and <b>38</b>
+            <i>b</i>. The second slots can be of various shapes, including but not limited to that of a cross slot. In at least one embodiment, the second slots <b>38</b>
+            <i>a </i>and <b>38</b>
+            <i>b </i>allow for drift and seismic movement of the track <b>10</b>. While the present embodiment includes two second slots, additional embodiments can include other numbers of second slots.</p>
+        <p id="p-0034" num="0033">Referring to <figref idref="DRAWINGS">FIGS. 3 and 4</figref>, the second slot <b>38</b>
+            <i>a </i>can be used with a washer <b>42</b> and fastener <b>44</b>, such as a threaded fastener, for example. The fastener <b>44</b> contacts the washer <b>42</b>, which is positioned between the head of the fastener and the web <b>22</b> of slotted track <b>10</b>, and fastens the slotted track <b>10</b> to the floor slab <b>14</b>. Once fastened, the second slot <b>38</b>
+            <i>a </i>allows for drift and seismic movement of the slotted track <b>10</b> in multiple directions.</p>
+        <p id="p-0035" num="0034">Referring to <figref idref="DRAWINGS">FIG. 5</figref>, an embodiment of a slotted track system incorporates a slotted track <b>110</b>. The slotted track <b>110</b> comprises a web <b>112</b>, two flanges <b>114</b>
+            <i>a </i>and <b>114</b>
+            <i>b</i>, a plurality of slots <b>116</b>
+            <i>a </i>and <b>116</b>
+            <i>b</i>, a rib <b>118</b>
+            <i>b </i>along the flange, a sheathing attachment area <b>122</b>, ribs <b>124</b>
+            <i>a </i>and <b>124</b>
+            <i>b </i>along the web, and second slots <b>126</b>
+            <i>a</i>-<i>d </i>located along the web. The slotted track <b>110</b> additionally comprises strips of intumescent material <b>128</b>
+            <i>a </i>and <b>128</b>
+            <i>b </i>attached to at least a portion of the web <b>112</b>. In use, the intumescent material expands rapidly when heated, thus sealing off areas around the slotted track <b>110</b> and helping to prevent fire, smoke, or other debris from moving past or around the slotted track <b>110</b>.</p>
+        <p id="p-0036" num="0035">The slotted track system additionally incorporates a connection element <b>132</b>. The connection element <b>132</b> can be applicable to both interior and exterior walls. In at least one embodiment, the connection element <b>132</b> can have a substantially W-shape. Referring to <figref idref="DRAWINGS">FIG. 6</figref>, the connection element <b>132</b> has a geometrical profile substantially similar to that of at least a portion of the web <b>112</b>. This allows the connection element <b>132</b> to remain close to or contact the web <b>112</b> once attached. A strip of compressive material <b>134</b>, such as for example rubber, can be attached to the connection element <b>132</b>. The compressive material <b>134</b> is configured to be positioned between the connection element <b>132</b> and the web <b>112</b>. Referring to <figref idref="DRAWINGS">FIGS. 5 and 7</figref>, a fastener extends through a hole <b>136</b> in the compressive material <b>134</b> and connection element <b>132</b> and through one of the second slots <b>126</b> in the web <b>112</b> to secure the track <b>110</b> to a floor slab. The compressive material <b>134</b> compresses under pressure when the connection element <b>132</b> is attached to the slotted track <b>110</b> and acts as a gasket. The compressive material <b>134</b> additionally allows the slotted track <b>110</b> to have drift movement along the second slots <b>126</b> of slotted track <b>110</b>.</p>
+        <p id="p-0037" num="0036">With reference to <figref idref="DRAWINGS">FIG. 8</figref>, an embodiment of a slotted track <b>210</b> can comprise a web <b>212</b>, flanges <b>214</b>
+            <i>a </i>and <b>214</b>
+            <i>b</i>, a plurality of slots <b>216</b>
+            <i>a </i>and <b>216</b>
+            <i>b</i>, a protruding rib <b>218</b>
+            <i>b </i>along the flange, a sheathing attachment area <b>222</b>, a pattern or patterns of second slots <b>226</b>, strips of fire-retardant material <b>228</b>
+            <i>a </i>and <b>228</b>
+            <i>b </i>attached to at least a portion of the web <b>212</b>, and marking guides <b>230</b>
+            <i>a </i>and <b>230</b>
+            <i>b </i>along the flanges. In yet other embodiments the track <b>212</b> can include just one flange <b>214</b>, and/or more than one protruding rib <b>218</b>. Other configurations and combinations of the above-listed elements are also possible. For example, a track for some applications may omit one or more of the slots <b>216</b>, strips of fire-retardant material <b>228</b>, marking guides <b>230</b>, possibly among other of the above-recited features.</p>
+        <p id="p-0038" num="0037">With continued reference to <figref idref="DRAWINGS">FIG. 8</figref>, in at least some embodiments the protruding rib <b>218</b> can have a triangular-shaped cross section, with a generally flat shelf portion <b>232</b> extending from the flange for placement of a piece of exterior sheathing. This triangular-shaped cross section and shelf can provide added structural support for the track <b>212</b>, as well as any attached exterior sheathing. In at least some embodiments, shelf portion <b>232</b> can extend at a generally 90 degree angle from the flange <b>214</b>
+            <i>a </i>and/or <b>214</b>
+            <i>b</i>. In yet other embodiments the shelf portion <b>232</b> can be slightly angled in relation to the flange. For example, the shelf portion <b>232</b> and flange <b>214</b>
+            <i>b </i>can form an acute angle along the top of the protruding rib where the exterior sheathing is to rest. In such embodiments, the angle of the shelf and/or force of gravity can inhibit the exterior sheathing from slipping off of the track. The protruding rib <b>218</b>
+            <i>b </i>can have other shapes and/or cross sections as well, including but not limited to a v-shape, u-shape, or any other shape which can aid in attaching and/or retaining a piece of exterior sheathing. In at least some embodiments, the exterior sheathing can have a width, or thickness, of between about one-half inch and one inch. In some arrangements, the sheathing has a thickness of approximately &#xbd;, &#x215d; or &#x215e; inches. In some embodiments, the width of the shelf portion <b>232</b> can be identical to the width of the sheathing so as to provide a support area for the entire lower edge of the sheathing. In other embodiments, the width of the shelf portion can be less than or greater than the width of the sheathing. In one particular embodiment, the width of the shelf portion <b>232</b> is configured to provide a surface of a sufficient width to support the sheathing element at least for a period of time sufficient for the sheathing element to be secured to the studs and/or tracks. The shelf portion <b>232</b> may define a width that is less than the width of the sheathing element such that the shelf portion <b>232</b> does not protrude beyond the sheathing element. For example, the shelf portion <b>232</b> may be approximately one-half or less as wide, one-quarter or less as wide or one-eighth or less as wide as the sheathing element.</p>
+        <p id="p-0039" num="0038">With continued reference to <figref idref="DRAWINGS">FIG. 8</figref>, the track <b>210</b> can include a guide mark or marks <b>230</b>
+            <i>a </i>and <b>230</b>
+            <i>b</i>. The guide marks can comprise a line, protrusion, rib, or any other marking which identifies locations for attachment of fasteners, including but not limited to screws, bolts, and/or rivets. For example, one guide mark can comprise a black (or other color) piece of tape added during manufacturing which identifies the central portion of each slot along the flange <b>214</b>
+            <i>b</i>. In other embodiments, the guide mark can comprise a laser mark, or ink mark, which preferably is sufficiently permanent to last through at least a normal period of time and under normal conditions of manufacturing, storage, shipping, and assembly. The guide mark <b>230</b>
+            <i>a </i>and/or <b>230</b>
+            <i>b </i>can be used to ensure that the track <b>210</b> is fastened appropriately and/or evenly to another wall component or components during building construction. Preferably, the guide mark <b>230</b>
+            <i>a </i>and/or <b>230</b>
+            <i>b </i>is located near the center of the slot, so that a stud member within the track can move equally up and down relative to the track. This can help to ensure maximum deflection capability of the stud within the wall assembly. In other embodiments, the guide mark can be offset from the center to allow for other ranges of stud movement.</p>
+        <p id="p-0040" num="0039">With reference to <figref idref="DRAWINGS">FIGS. 8 and 9</figref>, the web <b>212</b> can include a pattern or patterns of second slots. For example, and with reference to <figref idref="DRAWINGS">FIG. 8</figref>, second slots <b>226</b> can be arranged along the web portion such that at least some of the second slots <b>226</b> are closer to a central portion of the web than are other second slots <b>226</b>. The pattern or patterns can vary. With continued reference to <figref idref="DRAWINGS">FIG. 8</figref>, the pattern can include a series of closely located second slots along both edges of the web <b>212</b>, as well as scattered second slots along the center of the web <b>212</b>. With reference to <figref idref="DRAWINGS">FIG. 9</figref>, in at least some embodiments a slot pattern can include second slots <b>234</b> which are diagonally opposed to one another. Other configurations and types of second slots are also possible.</p>
+        <p id="p-0041" num="0040">The use of slot patterns can facilitate fastening of the track <b>210</b> to another wall component, especially when the other wall component does not line up exactly with the track <b>210</b>. For example, the wall component may have openings or hollow areas adjacent some or all of the second slots which run down the center of the web <b>212</b>. If all of the second slots were located along the center of the web <b>212</b>, it may not be possible to attach the track <b>210</b> to the other wall component in those areas. Thus, attachment of a track <b>210</b> to another other wall component can be more easily accomplished by incorporating a pattern or patterns of second slots which are spread out along the web <b>212</b>.</p>
+        <p id="p-0042" num="0041">In addition, drift movement of the track <b>210</b> can also be possible with slot patterns such as those illustrated in <figref idref="DRAWINGS">FIGS. 8 and 9</figref>. For example, the second slots <b>226</b> of <figref idref="DRAWINGS">FIG. 8</figref> and or the second slots <b>234</b> of <figref idref="DRAWINGS">FIG. 9</figref> can be elongated such that the track <b>210</b> can drift along the second slots during a seismic event. The second slots can also be shaped in the form of a cross slot, thereby facilitating drift movement in multiple directions. Other configurations are also possible.</p>
+        <p id="p-0043" num="0042">The present application does not seek to limit itself to only those embodiments discussed above. Other embodiments resembling tracks, wall systems, or other wall components are possible as well. Various geometries and designs may be used in the wall components to accommodate the use of fire-retardant material and/or sheathing attachment. Additionally, various materials may be used. In at least some embodiments the wall component and wall system materials can comprise steel, iron, or other material having at least some structural capacity. The fire-retardant materials can comprise intumescent material, such as for example BLAZESEAL&#x2122;, or some other material which accomplishes the same purposes as those described above.</p>
+        <p id="p-0044" num="0043">Although these inventions have been disclosed in the context of certain preferred embodiments and examples, it will be understood by those skilled in the art that the present inventions extend beyond the specifically disclosed embodiments to other alternative embodiments and/or uses of the inventions and obvious modifications and equivalents thereof. In addition, while several variations of the inventions have been shown and described in detail, other modifications, which are within the scope of these inventions, will be readily apparent to those of skill in the art based upon this disclosure. It is also contemplated that various combinations or sub-combinations of the specific features and aspects of the embodiments can be made and still fall within the scope of the inventions. It should be understood that various features and aspects of the disclosed embodiments can be combined with or substituted for one another in order to form varying modes of the disclosed inventions. Thus, it is intended that the scope of at least some of the present inventions herein disclosed should not be limited by the particular disclosed embodiments described above.</p>
+        <?DETDESC description="Detailed Description" end="tail"?>
+    </description>
+    <us-claim-statement>What is claimed is:</us-claim-statement>
+    <claims id="claims">
+        <claim id="CLM-00001" num="00001">
+            <claim-text>1. A building structure, comprising:
+                <claim-text>a first wall having a lower end and an upper end, comprising:</claim-text>
+                <claim-text>a plurality of vertical studs; and</claim-text>
+                <claim-text>a header track comprising a web and two flanges extending from opposite sides of the web, the web and two flanges forming a periphery of the header track such that the header track forms an overall generally C-shaped structure having empty space defined between the two flanges, the generally C-shaped structure being sized and shaped to receive the vertical studs, the header track extending in a generally horizontal direction along the upper end of the first wall and interconnecting the plurality of vertical studs, wherein the header track comprises an elongate protrusion extending along a length of the header track, the elongate protrusion being spacially offset from a plane containing the web;</claim-text>
+                <claim-text>a second wall having a lower end and an upper end, the second wall positioned above the first wall;</claim-text>
+                <claim-text>a floor positioned horizontally between the first and second walls;</claim-text>
+                <claim-text>a sheathing element having an upper end and a lower end, the sheathing element covering at least a portion of the second wall and floor, the lower end of the sheathing element overlapping a portion of the header track;</claim-text>
+                <claim-text>wherein the lower end of the sheathing element rests upon the elongate protrusion.</claim-text>
+            </claim-text>
+        </claim>
+        <claim id="CLM-00002" num="00002">
+            <claim-text>2. The building structure of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein an upper surface of the elongate protrusion is flat.</claim-text>
+        </claim>
+        <claim id="CLM-00003" num="00003">
+            <claim-text>3. The building structure of <claim-ref idref="CLM-00001">claim 1</claim-ref>, additionally comprising a plurality of fasteners, each of which couples the header track with one of the plurality of vertical studs, wherein the protrusion is positioned above the plurality of fasteners.</claim-text>
+        </claim>
+        <claim id="CLM-00004" num="00004">
+            <claim-text>4. A method of assembling a building structure, the structure comprising a first wall having a lower end and an upper end, the first wall comprising a plurality of vertical studs and a header track, the header track comprising a web and two flanges extending from opposite sides of the web, the web and two flanges forming a periphery of the header track such that the header track forms an overall generally C-shaped structure having empty space defined between the two flanges, the generally C-shaped structure being sized and shaped to receive the vertical studs, the header track extending in a generally horizontal direction along the upper end of the first wall and interconnecting the plurality of vertical studs, wherein the header track comprises an elongate protrusion extending along a length of the header track, the elongate protrusion being spacially offset from a plane containing the web, the structure further comprising a second wall having a lower end and an upper end, the second wall positioned above the first wall, the structure further comprising a floor positioned horizontally between the first and second walls, the structure further comprising a sheathing element having an upper end and a lower end, the sheathing element covering at least a portion of the second wall and floor, the lower end of the sheathing element overlapping a portion of the header track, wherein the method comprises:
+                <claim-text>resting the sheathing element on the elongate protrusion and then securing the sheathing element to the second wall by one or more fasteners. </claim-text>
+            </claim-text>
+        </claim>
+    </claims>
+</us-patent-grant>
+
