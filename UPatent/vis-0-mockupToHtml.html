@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+<script type="text/javascript" src="data/case1.js"></script>
+<style>
+
+	text {
+		color: #FF0000;
+	}
+	#code {
+		width:650px;
+	}
+	.level {
+		position:relative;
+		float:left;
+		width:100px;
+		length:35px;
+		border:2px solid #000;
+	}
+	.sublevel {
+		position:relative;
+		float:left;
+		width:96px;
+		lenght:25px;
+		border:2px solid red;
+	}
+	
+</style>
+</head>
+<body>
+
+<div id="header">
+	<h1>One patent codes:<h1/>
+</div>
+<div id="content">
+	<div id="code">
+	</div>
+</div>
+<script>
+var myPatNumber;
+var codes = [];
+var myLevel = [];
+$.each(DATA[0], function(key1, val1) {
+	if (key1 == "PatNumber") { codes["PatNumber"] = val1; }
+	else if (key1 == "Country") { codes["Country"] = val1; }
+	else if (key1 == "MainCode" || key1.substr(0,12) == "FurtherCodes") {
+		codes["type"] = key1;
+		$.each(val1, function(key, val) {
+			if (key == "subclass") { codes["subclass"] = val; }
+			else if (key == "class") { codes["class"] = val; }
+			else if (key == "subgroup") { codes["subgroup"] = val; }
+			else if (key == "section") { codes["section"] = val; }
+			else if (key == "maingroup") { codes["maingroup"] = val; }
+
+			/*
+			else if (key == "") { my = val; }
+			"sectionTitle": "fixed constructions ",
+			"classTitle": "building layered materials, layered products in general ",
+			"subgroupTitle": "comprising panels attached to the structure through mullions or transoms takes precedence ",
+			"maingroupTitle": "walls",
+			"subclass": "B",
+			"class": "04",
+			"subclassTitle": "general building constructions walls",
+			"subgroup": "96",
+			"section": "E",
+			"maingroup":
+			*/
+			
+		});
+
+		//myLevel.push("<div class='level'>"+codes['type']+"</div>");
+		mySublevel = "<div class='level'><div class='sublevel'>subclass: "+codes["subclass"]+"</div><div class='sublevel'>class: "+codes["class"]+"</div><div class='sublevel'>subgroup: "+codes["subgroup"]+"</div><div class='sublevel'>section: "+codes["section"]+"</div><div class='sublevel'>maingroup: "+codes["maingroup"]+"</div></div>";
+		$("#code").append(mySublevel);
+		mySublevel = "";
+		myLevel = "";
+	}
+});
+
+// Build classification code treemap
+/*var mySublevel;
+$.each(myLevel, function (k, v) {
+	// Sublevel
+	mySublevel = "<div class='level'><div class='sublevel'>"+codes["subclass"]+"</div><div class='sublevel'>"+codes["class"]+"</div><div class='subgroup'>"+codes["subgroup"]+"</div><div class='sublevel'>"+codes["section"]+"</div></div>";
+});
+*/
+</script>
+
+</body>
+</html>

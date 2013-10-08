@@ -1,4 +1,4 @@
-[
+DATA = [
   {
 	"PatNumber": "08499512",
     "Country": "US",
