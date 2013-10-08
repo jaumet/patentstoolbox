@@ -33,7 +33,6 @@
 
 
 <script>
-	
 var sections = [
 	"A: Human Necessities",
 	"B: Operations and Transport",
@@ -64,7 +63,7 @@ for (var i=0; i < sections.length; i+=1) {
 		var y_ = y+j*20;
 		var hue_ = hue + 5 + 30/10*j;
 		
-		$("body").append("<div id='s"+i+"_c"+j+"' class='class'></div>");
+		$("body").append("<div id='s"+i+"_c"+j+"' class='class'>hsl("+hue_+", 60%, 75%)</div>");
 		$("#s"+i+"_c"+j).css({'background-color': "hsl("+hue_+", 60%, 75%)", left: x_, top: y_});		
 	}
 
@@ -72,7 +71,7 @@ for (var i=0; i < sections.length; i+=1) {
 		var x_ = 410;
 		var y_ = y+j*20;
 		var hue_ = hue + 5 + 30/10*j;
-		$("body").append("<div id='s"+i+"_sc"+j+"' class='class'></div>");
+		$("body").append("<div id='s"+i+"_sc"+j+"' class='class'>hsl("+hue_+", 80%, 60%)</div>");
 		$("#s"+i+"_sc"+j).css({'background-color': "hsl("+hue_+", 80%, 60%)", left: x_, top: y_});		
 	}
 
@@ -80,7 +79,7 @@ for (var i=0; i < sections.length; i+=1) {
 		var x_ = 610;
 		var y_ = y+j*20;
 		var hue_ = hue + 5 + 30/10*j;
-		$("body").append("<div id='s"+i+"_g"+j+"' class='class'></div>");
+		$("body").append("<div id='s"+i+"_g"+j+"' class='class'>hsl("+hue_+", 100%, 45%)</div>");
 		$("#s"+i+"_g"+j).css({'background-color': "hsl("+hue_+", 100%, 45%)", left: x_, top: y_});		
 	}
 	
