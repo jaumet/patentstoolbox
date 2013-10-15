@@ -1,0 +1,29 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "classTitle": "photography cinematography electrography holography reproduction of pictures or patterns by scanning and converting into electrical signals ",
+        "subgroupTitle": "illumination settings, i.e. intensity distribution in the pupil plane, angular distribution in the field plane; on-axis or off-axis settings",
+        "maingroupTitle": "photomechanical, e.g. photolithographic, production of textured or patterned surfaces, e.g. printing surfaces materials therefor, e.g. comprising photoresists apparatus specially adapted therefor using photoresist structures for special production processes, see the relevant places",
+        "subclass": "F",
+        "class": "03",
+        "subclassTitle": "photomechanical production of textured or patterned surfaces",
+        "subgroup": "70091",
+        "section": "G",
+        "maingroup": "7"
+    },
+    "PatNumber": "08502962",
+    "FurtherCodes_0": {
+        "sectionTitle": "physics ",
+        "classTitle": "photography cinematography electrography holography reproduction of pictures or patterns by scanning and converting into electrical signals ",
+        "subgroupTitle": "data handling, in all parts of the microlithographic apparatus",
+        "maingroupTitle": "photomechanical, e.g. photolithographic, production of textured or patterned surfaces, e.g. printing surfaces materials therefor, e.g. comprising photoresists apparatus specially adapted therefor using photoresist structures for special production processes, see the relevant places",
+        "subclass": "F",
+        "class": "03",
+        "subclassTitle": "photomechanical production of textured or patterned surfaces",
+        "subgroup": "70508",
+        "section": "G",
+        "maingroup": "7"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

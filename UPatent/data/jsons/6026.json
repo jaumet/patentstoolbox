@@ -1,0 +1,53 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "layout analysis",
+        "maingroupTitle": "digital computing or data processing equipment or methods, specially adapted for specific functions ",
+        "subclass": "F",
+        "class": "06",
+        "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques ",
+        "subgroup": "5081",
+        "section": "G",
+        "maingroup": "17"
+    },
+    "PatNumber": "08504959",
+    "FurtherCodes_0": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "using simulation ",
+        "maingroupTitle": "digital computing or data processing equipment or methods, specially adapted for specific functions ",
+        "subclass": "F",
+        "class": "06",
+        "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques ",
+        "subgroup": "5009",
+        "section": "G",
+        "maingroup": "17"
+    },
+    "Country": "US",
+    "FurtherCodes_2": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "routing ",
+        "maingroupTitle": "digital computing or data processing equipment or methods, specially adapted for specific functions ",
+        "subclass": "F",
+        "class": "06",
+        "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques ",
+        "subgroup": "5077",
+        "section": "G",
+        "maingroup": "17"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "floorplanning",
+        "maingroupTitle": "digital computing or data processing equipment or methods, specially adapted for specific functions ",
+        "subclass": "F",
+        "class": "06",
+        "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques ",
+        "subgroup": "5072",
+        "section": "G",
+        "maingroup": "17"
+    }
+}

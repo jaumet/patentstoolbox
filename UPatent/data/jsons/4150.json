@@ -1,0 +1,29 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "classTitle": "optics making optical elements or apparatus c03, or other appropriate subclasses or classes; materials per se, see the relevant places",
+        "subgroupTitle": "surface plasmon devices diffractive gratings with a pitch less than or comparable to the wavelength ; surface plasmons in integrated optics ; optical analysis of materials by means of surface plasmons ",
+        "maingroupTitle": "optical elements other than lenses light guides ; optical logic elements ",
+        "subclass": "B",
+        "class": "02",
+        "subclassTitle": "optical elements, systems, or apparatus takes precedence; measuring-instruments, see the relevant subclass of g01",
+        "subgroup": "008",
+        "section": "G",
+        "maingroup": "5"
+    },
+    "PatNumber": "08503075",
+    "FurtherCodes_0": {
+        "sectionTitle": "general tagging of new technological developments general tagging of cross-sectional technologies spanning over several sections of the ipc technical subjects covered by former uspc cross-reference art collections [xracs] and digests ",
+        "classTitle": "technical subjects covered by former uspc cross-reference art collections [xracs] and digests ",
+        "subgroupTitle": "methods ",
+        "maingroupTitle": "optical: systems and elements ",
+        "subclass": "S",
+        "class": "10",
+        "subclassTitle": "technical subjects covered by former uspc cross-reference art collections [xracs] and digests ",
+        "subgroup": "90",
+        "section": "Y",
+        "maingroup": "359"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

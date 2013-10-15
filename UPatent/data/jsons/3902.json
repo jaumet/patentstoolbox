@@ -1,0 +1,53 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "drawing of straight lines or curves ",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "203",
+        "section": "G",
+        "maingroup": "11"
+    },
+    "PatNumber": "08502824",
+    "FurtherCodes_0": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "drawing from basic elements",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "20",
+        "section": "G",
+        "maingroup": "11"
+    },
+    "Country": "US",
+    "FurtherCodes_2": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "scaling the whole image or part thereof ",
+        "maingroupTitle": "geometric image transformation in the plane of the image",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "40",
+        "section": "G",
+        "maingroup": "3"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "geometric image transformation in the plane of the image",
+        "maingroupTitle": "geometric image transformation in the plane of the image",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "00",
+        "section": "G",
+        "maingroup": "3"
+    }
+}

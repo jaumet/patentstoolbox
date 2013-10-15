@@ -1,0 +1,41 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "",
+        "subgroupTitle": "protection against damage caused by external factors",
+        "maingroupTitle": "insulated conductors or cables characterised by their form ",
+        "subclass": "B",
+        "class": "01",
+        "subclassTitle": "cables conductors insulators selection of materials for their conductive, insulating or dielectric properties selection for magnetic properties waveguides installations of cables or lines printed circuits ",
+        "subgroup": "17",
+        "section": "H",
+        "maingroup": "7"
+    },
+    "PatNumber": "08502069",
+    "FurtherCodes_0": {
+        "sectionTitle": "electricity ",
+        "classTitle": "",
+        "subgroupTitle": "protection against damage caused by moisture, corrosion, chemical attack or weather sheaths, amouring ",
+        "maingroupTitle": "insulated conductors or cables characterised by their form ",
+        "subclass": "B",
+        "class": "01",
+        "subclassTitle": "cables conductors insulators selection of materials for their conductive, insulating or dielectric properties selection for magnetic properties waveguides installations of cables or lines printed circuits ",
+        "subgroup": "28",
+        "section": "H",
+        "maingroup": "7"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "classTitle": "",
+        "subgroupTitle": "preventing penetration of fluid , e.g. water or humidity, into conductor or cable insulators or insulating bodies with surfaces specially treated for preserving insulating properties",
+        "maingroupTitle": "insulated conductors or cables characterised by their form ",
+        "subclass": "B",
+        "class": "01",
+        "subclassTitle": "cables conductors insulators selection of materials for their conductive, insulating or dielectric properties selection for magnetic properties waveguides installations of cables or lines printed circuits ",
+        "subgroup": "282",
+        "section": "H",
+        "maingroup": "7"
+    }
+}

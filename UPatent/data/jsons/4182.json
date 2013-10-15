@@ -1,0 +1,29 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "classTitle": "optics making optical elements or apparatus c03, or other appropriate subclasses or classes; materials per se, see the relevant places",
+        "subgroupTitle": "arranged + -- + ",
+        "maingroupTitle": "optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or - takes precedence ",
+        "subclass": "B",
+        "class": "02",
+        "subclassTitle": "optical elements, systems, or apparatus takes precedence; measuring-instruments, see the relevant subclass of g01",
+        "subgroup": "36",
+        "section": "G",
+        "maingroup": "9"
+    },
+    "PatNumber": "08503107",
+    "FurtherCodes_0": {
+        "sectionTitle": "physics ",
+        "classTitle": "optics making optical elements or apparatus c03, or other appropriate subclasses or classes; materials per se, see the relevant places",
+        "subgroupTitle": "having four lenses ",
+        "maingroupTitle": "optical objectives specially designed for the purposes specified below with variable magnification in general ",
+        "subclass": "B",
+        "class": "02",
+        "subclassTitle": "optical elements, systems, or apparatus takes precedence; measuring-instruments, see the relevant subclass of g01",
+        "subgroup": "004",
+        "section": "G",
+        "maingroup": "13"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

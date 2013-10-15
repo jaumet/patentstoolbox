@@ -1,0 +1,17 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "flow control or congestion control ",
+        "maingroupTitle": "traffic regulation in packet switching networks arrangements for detecting or correcting errors in the information received ",
+        "subclass": "L",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "10",
+        "section": "H",
+        "maingroup": "47"
+    },
+    "PatNumber": "08503324",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

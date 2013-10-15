@@ -1,0 +1,65 @@
+{
+    "MainCode": {
+        "sectionTitle": "fixed constructions ",
+        "classTitle": "water supply sewerage ",
+        "subgroupTitle": "with a sediment trap ",
+        "maingroupTitle": "sewerage structures ",
+        "subclass": "F",
+        "class": "03",
+        "subclassTitle": "sewers cesspools ",
+        "subgroup": "0403",
+        "section": "E",
+        "maingroup": "5"
+    },
+    "PatNumber": "08501016",
+    "FurtherCodes_0": {
+        "sectionTitle": "fixed constructions ",
+        "classTitle": "water supply sewerage ",
+        "subgroupTitle": "with a permanent or temporary filtering device; filtering devices specially adapted therefor ",
+        "maingroupTitle": "sewerage structures ",
+        "subclass": "F",
+        "class": "03",
+        "subclassTitle": "sewers cesspools ",
+        "subgroup": "0404",
+        "section": "E",
+        "maingroup": "5"
+    },
+    "Country": "US",
+    "FurtherCodes_3": {
+        "sectionTitle": "performing operations transporting ",
+        "classTitle": "separating mixing ",
+        "subgroupTitle": "filters adapted for location in special places",
+        "maingroupTitle": "other filtering devices auxiliary devices for filtration filter housing constructions ",
+        "subclass": "D",
+        "class": "01",
+        "subclassTitle": "separation separating solids from solids by wet methods by pneumatic jigs or tables by other dry methods b07; magnetic or electrostatic separation of solid materials from solid materials or fluids, separation by high-voltage electric fields centrifuges, vortex apparatus b04; presses per se for squeezing-out liquid from liquid-containing material treatment of water e.g. softening by ion-exchange arrangements of air intake cleaners in gas turbine plants arrangements or mounting of filters in air-conditioning, air-humidification or ventilation ",
+        "subgroup": "02",
+        "section": "B",
+        "maingroup": "35"
+    },
+    "FurtherCodes_2": {
+        "sectionTitle": "fixed constructions ",
+        "classTitle": "water supply sewerage ",
+        "subgroupTitle": "devices for separating liquid or solid substances from sewage",
+        "maingroupTitle": "sewerage structures ",
+        "subclass": "F",
+        "class": "03",
+        "subclassTitle": "sewers cesspools ",
+        "subgroup": "14",
+        "section": "E",
+        "maingroup": "5"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "fixed constructions ",
+        "classTitle": "water supply sewerage ",
+        "subgroupTitle": "devices for separating liquid or solid substances from sewage",
+        "maingroupTitle": "sewerage structures ",
+        "subclass": "F",
+        "class": "03",
+        "subclassTitle": "sewers cesspools ",
+        "subgroup": "14",
+        "section": "E",
+        "maingroup": "5"
+    }
+}

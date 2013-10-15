@@ -1,0 +1,89 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "diversity systems for direction finding ; aerial arrays or systems reducing multipath interference in spread spectrum systems ; specially adapted for satellite systems ; for telegraphy or data transmission ",
+        "maingroupTitle": "radio transmission systems, i.e. using radiation field , take precedence ",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "02",
+        "section": "H",
+        "maingroup": "7"
+    },
+    "PatNumber": "08503561",
+    "FurtherCodes_5": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "means associated with receiver for limiting or suppressing noise or interference induced by transmission interference reduction in spread spectrum systems ; equalising on hf or if ; diversity systems ; elimination of image frequencies ; noise suppression by control of amplification , , ; squelching , ",
+        "maingroupTitle": "",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "10",
+        "section": "H",
+        "maingroup": "1"
+    },
+    "FurtherCodes_0": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "the mobile station comprising multiple antennas e.g. aspects of uplink diversity ",
+        "maingroupTitle": "radio transmission systems, i.e. using radiation field , take precedence ",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "0404",
+        "section": "H",
+        "maingroup": "7"
+    },
+    "FurtherCodes_4": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "reducing interference at the transmission system level ",
+        "maingroupTitle": "reducing interference at the transmission system level ",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "00",
+        "section": "H",
+        "maingroup": "2215"
+    },
+    "Country": "US",
+    "FurtherCodes_3": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "diversity ",
+        "maingroupTitle": "indexing scheme relating to details of transmission systems not covered by a single group of to ",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "71632",
+        "section": "H",
+        "maingroup": "2201"
+    },
+    "FurtherCodes_2": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "with main and with auxiliary or diversity antennas ",
+        "maingroupTitle": "radio transmission systems, i.e. using radiation field , take precedence ",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "0825",
+        "section": "H",
+        "maingroup": "7"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "using phase diversity e.g. phase sweeping ",
+        "maingroupTitle": "radio transmission systems, i.e. using radiation field , take precedence ",
+        "subclass": "B",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "0682",
+        "section": "H",
+        "maingroup": "7"
+    }
+}

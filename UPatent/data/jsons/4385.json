@@ -1,0 +1,41 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "routing or path finding of packets in data switching networks specially adapted for wireless routing warning groups - do not correspond to former or current ipc groups. concordance cpc : ipc for this groups is as follows: - - 45/74 : ",
+        "maingroupTitle": "routing or path finding of packets in data switching networks specially adapted for wireless routing warning groups - do not correspond to former or current ipc groups. concordance cpc : ipc for this groups is as follows: - - 45/74 : ",
+        "subclass": "L",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "00",
+        "section": "H",
+        "maingroup": "45"
+    },
+    "PatNumber": "08503310",
+    "FurtherCodes_0": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "topology update or discovery topology discovery for network management ; lan interconnection over a backbone network ; node-based peer discovery mechanisms in peer-to-peer networks ",
+        "maingroupTitle": "routing or path finding of packets in data switching networks specially adapted for wireless routing warning groups - do not correspond to former or current ipc groups. concordance cpc : ipc for this groups is as follows: - - 45/74 : ",
+        "subclass": "L",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "02",
+        "section": "H",
+        "maingroup": "45"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "shortest path evaluation ",
+        "maingroupTitle": "routing or path finding of packets in data switching networks specially adapted for wireless routing warning groups - do not correspond to former or current ipc groups. concordance cpc : ipc for this groups is as follows: - - 45/74 : ",
+        "subclass": "L",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "12",
+        "section": "H",
+        "maingroup": "45"
+    }
+}

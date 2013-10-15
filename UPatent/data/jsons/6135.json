@@ -1,0 +1,17 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "for managing network security; network security policies in general filtering policies ",
+        "maingroupTitle": "network architectures or network communication protocols for network security cryptographic mechanisms or cryptographic arrangements for secret or secure communication ; network architectures or network communication protocols for wireless network security ; security arrangements for protecting computers or computer systems against unauthorised activity ",
+        "subclass": "L",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "20",
+        "section": "H",
+        "maingroup": "63"
+    },
+    "PatNumber": "08505068",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}
