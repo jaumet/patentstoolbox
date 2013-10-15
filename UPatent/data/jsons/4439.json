@@ -1,0 +1,41 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "large scale networks deep hierarchical networks ",
+        "maingroupTitle": "network topologies ",
+        "subclass": "W",
+        "class": "04",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "subgroup": "04",
+        "section": "H",
+        "maingroup": "84"
+    },
+    "PatNumber": "08503364",
+    "FurtherCodes_0": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "assessing signal quality or detecting noise/interference for the received signal ",
+        "maingroupTitle": "",
+        "subclass": "W",
+        "class": "04",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information ",
+        "subgroup": "04",
+        "section": "H",
+        "maingroup": "84"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "using sir [signal to interference ratio] or other wireless path parameters ",
+        "maingroupTitle": "power management",
+        "subclass": "W",
+        "class": "04",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "subgroup": "04",
+        "section": "H",
+        "maingroup": "84"
+    }
+}

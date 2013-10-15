@@ -1,0 +1,29 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "generation conversion or distribution of electric power ",
+        "subgroupTitle": "driving devices",
+        "maingroupTitle": "electric machines in general using piezo-electric effect, electrostriction or magnetostriction generating mechanical vibrations in general piezo-electric, electrostrictive or magnetostrictive devices in general ",
+        "subclass": "N",
+        "class": "02",
+        "subclassTitle": "electric machines not otherwise provided for ",
+        "subgroup": "001",
+        "section": "H",
+        "maingroup": "2"
+    },
+    "PatNumber": "08502433",
+    "FurtherCodes_0": {
+        "sectionTitle": "physics ",
+        "classTitle": "musical instruments acoustics ",
+        "subgroupTitle": "flextensional transducers ",
+        "maingroupTitle": "devices in which sound is produced by vibrating a diaphragm or analogous element",
+        "subclass": "N",
+        "class": "02",
+        "subclassTitle": "sound-producing devices sound-producing toys musical instruments or parts thereof, see the relevant subclass",
+        "subgroup": "001",
+        "section": "H",
+        "maingroup": "2"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

@@ -1,0 +1,17 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "with user authentication or key authentication",
+        "maingroupTitle": "cryptographic mechanisms or cryptographic arrangements for secret or secure communication network architectures or network communication protocols for network security or for wireless network security ; security arrangements for protecting computers or computer systems against unauthorized activity ",
+        "subclass": "L",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "0844",
+        "section": "H",
+        "maingroup": "9"
+    },
+    "PatNumber": "08504826",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

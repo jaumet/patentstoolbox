@@ -1,0 +1,41 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "devices specially adapted for wireless communication networks",
+        "maingroupTitle": "devices specially adapted for wireless communication networks",
+        "subclass": "W",
+        "class": "04",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "subgroup": "00",
+        "section": "H",
+        "maingroup": "88"
+    },
+    "PatNumber": "08503365",
+    "FurtherCodes_0": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "the frequencies being orthogonal e.g. ofdm(a), dmt ",
+        "maingroupTitle": "arrangements affording multiple use of the transmission path multiplex communication in general orthogonal multiplex systems ",
+        "subclass": "W",
+        "class": "04",
+        "subclassTitle": "transmission of digital information",
+        "subgroup": "00",
+        "section": "H",
+        "maingroup": "88"
+    },
+    "Country": "US",
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "discovering, processing access restriction or access information ",
+        "maingroupTitle": "access restriction network selection access point selection ",
+        "subclass": "W",
+        "class": "04",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "subgroup": "00",
+        "section": "H",
+        "maingroup": "88"
+    }
+}

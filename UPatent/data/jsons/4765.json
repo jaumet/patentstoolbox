@@ -1,0 +1,53 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "arrangements for fixing loudspeaker transducers",
+        "maingroupTitle": "",
+        "subclass": "R",
+        "class": "04",
+        "subclassTitle": "loudspeakers, microphones, gramophone pick-ups or like acoustic electromechanical transducers deaf-aid sets public address systems generating mechanical vibrations in general transducers for measuring particular variables g01; transducers in clocks g04; producing sounds with frequency not determined by supply frequency transducers in recording or reproducing heads transducers in motors h02 ",
+        "subgroup": "025",
+        "section": "H",
+        "maingroup": "1"
+    },
+    "PatNumber": "08503690",
+    "FurtherCodes_0": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "spatial or constructional arrangements of loudspeakers ",
+        "maingroupTitle": "stereophonic arrangements stereophonic pick-ups , , , ",
+        "subclass": "R",
+        "class": "04",
+        "subclassTitle": "loudspeakers, microphones, gramophone pick-ups or like acoustic electromechanical transducers deaf-aid sets public address systems generating mechanical vibrations in general transducers for measuring particular variables g01; transducers in clocks g04; producing sounds with frequency not determined by supply frequency transducers in recording or reproducing heads transducers in motors h02 ",
+        "subgroup": "025",
+        "section": "H",
+        "maingroup": "1"
+    },
+    "Country": "US",
+    "FurtherCodes_2": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "structural combinations of separate transducers or of two parts of the same transducer and responsive respectively to two or more frequency ranges ",
+        "maingroupTitle": "",
+        "subclass": "R",
+        "class": "04",
+        "subclassTitle": "loudspeakers, microphones, gramophone pick-ups or like acoustic electromechanical transducers deaf-aid sets public address systems generating mechanical vibrations in general transducers for measuring particular variables g01; transducers in clocks g04; producing sounds with frequency not determined by supply frequency transducers in recording or reproducing heads transducers in motors h02 ",
+        "subgroup": "025",
+        "section": "H",
+        "maingroup": "1"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "classTitle": "electric communication technique ",
+        "subgroupTitle": "spatial arrangements of separate transducers responsive to two or more frequency ranges ",
+        "maingroupTitle": "",
+        "subclass": "R",
+        "class": "04",
+        "subclassTitle": "loudspeakers, microphones, gramophone pick-ups or like acoustic electromechanical transducers deaf-aid sets public address systems generating mechanical vibrations in general transducers for measuring particular variables g01; transducers in clocks g04; producing sounds with frequency not determined by supply frequency transducers in recording or reproducing heads transducers in motors h02 ",
+        "subgroup": "025",
+        "section": "H",
+        "maingroup": "1"
+    }
+}

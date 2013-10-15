@@ -1,0 +1,53 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "drawing of charts or graphs ",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "206",
+        "section": "G",
+        "maingroup": "11"
+    },
+    "PatNumber": "08502822",
+    "FurtherCodes_0": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "drawing of straight lines or curves ",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "206",
+        "section": "G",
+        "maingroup": "11"
+    },
+    "Country": "US",
+    "FurtherCodes_2": {
+        "sectionTitle": "physics ",
+        "classTitle": "education cryptography display advertising seals ",
+        "subgroupTitle": "function-generator circuits",
+        "maingroupTitle": "control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators image data processing or generation, in general ",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "arrangements or circuits for control of indicating devices using static means to present variable information lighting in general f21; arrangements for displaying electric variables or waveforms devices or arrangements for the control of light beams indicating of time by visual means arrangements for transferring data between computers and peripheral equipment visible signalling arrangements or devices traffic control systems display, advertising, signs e.g. static indicating arrangements comprising an association of a number of separate sources or light control cells static indicating arrangements comprising integral associations of a number of light sources circuits in pulse counters for indicating the result coding, decoding or code conversion, in general reproducing a picture or pattern using electric signals representing parts thereof and produced by scanning an original ",
+        "subgroup": "206",
+        "section": "G",
+        "maingroup": "11"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "physics ",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "subgroupTitle": "filling a planar surface by adding surface attributes",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "subclass": "T",
+        "class": "06",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "subgroup": "206",
+        "section": "G",
+        "maingroup": "11"
+    }
+}
