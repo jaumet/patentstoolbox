@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "for changing properties of the objects or for applying thin layers thereon",
+        "maingroupTitle": "discharge tubes with provision for introducing objects or material to be exposed to the discharge",
+        "class": "01",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "H",
+        "subclassTitle": "electric discharge tubes or discharge lamps spark-gaps arc lamps with consumable electrodes particle accelerators ",
+        "maingroup": "37",
+        "classTitle": "",
+        "FullCode": "H01J37317",
+        "subclass": "J",
+        "subgroup": "317"
+    },
+    "PatNumber": "08502173",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

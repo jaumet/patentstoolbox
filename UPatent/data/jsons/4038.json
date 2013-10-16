@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "biological material",
+        "maingroupTitle": "investigating or analysing materials by specific methods not covered by the preceding groups ",
+        "class": "01",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "G",
+        "subclassTitle": "investigating or analysing materials by determining their chemical or physical properties separating components of materials in general b03, b07; apparatus fully provided for in a single other subclass, see the relevant subclass e.g. measuring or testing processes other than immunoassay, involving enzymes or micro-organisms investigation of foundation soil in situ sensing humidity changes for compensating measurements of other variables or for compensating readings of instruments for variations in humidity, see or the relevant subclass for the variable measured; testing or determining the properties of structures measuring or investigating electric or magnetic properties of materials systems or methods in general, using reception or emission of radiowaves or other waves and based on propagation effects",
+        "maingroup": "33",
+        "classTitle": "instruments ",
+        "FullCode": "G01N3348",
+        "subclass": "N",
+        "subgroup": "48"
+    },
+    "PatNumber": "08502963",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "by querying",
+        "maingroupTitle": "digital computing or data processing equipment or methods, specially adapted for specific functions ",
+        "class": "06",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "G",
+        "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques ",
+        "maingroup": "17",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "FullCode": "G06F1730864",
+        "subclass": "F",
+        "subgroup": "30864"
+    },
+    "PatNumber": "08504551",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

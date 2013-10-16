@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "human necessities ",
+        "subgroupTitle": "x-ray therapy gamma-ray therapy particle-irradiation therapy takes precedence; radiation diagnosis",
+        "maingroupTitle": "radiation therapy ultrasound therapy devices or apparatus applicable to both therapy and diagnosis ",
+        "class": "61",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "A",
+        "subclassTitle": "electrotherapy magnetotherapy radiation therapy ultrasound therapy measurement of bioelectric currents surgical instruments, devices or methods for transferring non-mechanical forms of energy to or from the body anaesthetic apparatus in general incandescent lamps infra-red radiators for heating ",
+        "maingroup": "5",
+        "classTitle": "health amusement ",
+        "FullCode": "A61N510",
+        "subclass": "N",
+        "subgroup": "10"
+    },
+    "PatNumber": "08502177",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

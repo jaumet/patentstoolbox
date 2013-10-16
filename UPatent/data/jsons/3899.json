@@ -1,0 +1,50 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "drawing of charts or graphs ",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "class": "06",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "G",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "maingroup": "11",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "FullCode": "G06T11206",
+        "subclass": "T",
+        "subgroup": "206"
+    },
+    "PatNumber": "08502821",
+    "Country": "US",
+    "FurtherCodes_2": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "3d [three dimensional] image rendering ",
+        "maingroupTitle": "3d [three dimensional] image rendering ",
+        "class": "06",
+        "ORDER": 2,
+        "codeType": "FurtherCode",
+        "section": "G",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "maingroup": "15",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "FullCode": "G06T1500",
+        "subclass": "T",
+        "subgroup": "00"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "drawing of straight lines or curves ",
+        "maingroupTitle": "2d [two dimensional] image generation ",
+        "class": "06",
+        "ORDER": 1,
+        "codeType": "FurtherCode",
+        "section": "G",
+        "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+        "maingroup": "11",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "FullCode": "G06T11203",
+        "subclass": "T",
+        "subgroup": "203"
+    }
+}

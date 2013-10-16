@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "bare printed circuit boards ",
+        "maingroupTitle": "arrangements for testing electric properties arrangements for locating electric faults arrangements for electrical testing characterised by what is being tested not provided for elsewhere measuring leads, measuring probes ; measuring superconductive properties ; data processing equipment for testing or function monitoring ; indicating electrical condition of switchgear or protective devices , , , ; testing or measuring semiconductors or solid state devices during manufacture ; testing substation equipment",
+        "class": "01",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "G",
+        "subclassTitle": "measuring electric variables measuring magnetic variables measuring physical variables of any kind by conversion into electric variables, see note (4) following the title of class g01; measuring diffusion of ions in an electric field",
+        "maingroup": "31",
+        "classTitle": "instruments ",
+        "FullCode": "G01R312805",
+        "subclass": "R",
+        "subgroup": "2805"
+    },
+    "PatNumber": "08502543",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

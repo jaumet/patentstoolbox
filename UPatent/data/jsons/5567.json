@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "physics ",
+        "subgroupTitle": "genetic algorithms, i.e. information processing using digital simulations of the genetic system ",
+        "maingroupTitle": "",
+        "class": "06",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "G",
+        "subclassTitle": "computer systems based on specific computational models ",
+        "maingroup": "3",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices ",
+        "FullCode": "G06N3126",
+        "subclass": "N",
+        "subgroup": "126"
+    },
+    "PatNumber": "08504496",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

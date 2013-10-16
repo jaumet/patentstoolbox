@@ -1,0 +1,20 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "the frequencies being orthogonal e.g. ofdm(a), dmt ",
+        "maingroupTitle": "arrangements affording multiple use of the transmission path multiplex communication in general orthogonal multiplex systems ",
+        "class": "04",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "H",
+        "subclassTitle": "transmission of digital information",
+        "maingroup": "5",
+        "classTitle": "electric communication technique ",
+        "FullCode": "H04L50007",
+        "subclass": "L",
+        "subgroup": "0007"
+    },
+    "PatNumber": "08503283",
+    "Country": "US",
+    "Title": "us-patent-grant"
+}

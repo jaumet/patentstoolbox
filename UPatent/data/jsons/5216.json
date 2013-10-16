@@ -1,0 +1,35 @@
+{
+    "MainCode": {
+        "sectionTitle": "human necessities ",
+        "subgroupTitle": "detecting tachycardy or brachycardy ",
+        "maingroupTitle": "detecting, measuring or recording for diagnostic purposes radiation diagnosis ; diagnosis by ultrasonic, sonic or infrasonic waves identification of persons measuring or recording in general subclasses of g01; medical informatics ",
+        "class": "61",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "A",
+        "subclassTitle": "diagnosis surgery identification analysing biological material e.g. obtaining records using waves other than optical waves, in general ",
+        "maingroup": "5",
+        "classTitle": "health amusement ",
+        "FullCode": "A61B50464",
+        "subclass": "B",
+        "subgroup": "0464"
+    },
+    "PatNumber": "08504144",
+    "Country": "US",
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "human necessities ",
+        "subgroupTitle": "detecting r peaks",
+        "maingroupTitle": "detecting, measuring or recording for diagnostic purposes radiation diagnosis ; diagnosis by ultrasonic, sonic or infrasonic waves identification of persons measuring or recording in general subclasses of g01; medical informatics ",
+        "class": "61",
+        "ORDER": 1,
+        "codeType": "FurtherCode",
+        "section": "A",
+        "subclassTitle": "diagnosis surgery identification analysing biological material e.g. obtaining records using waves other than optical waves, in general ",
+        "maingroup": "5",
+        "classTitle": "health amusement ",
+        "FullCode": "A61B50456",
+        "subclass": "B",
+        "subgroup": "0456"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "wlan [wireless local area networks] ",
+        "maingroupTitle": "network topologies ",
+        "class": "04",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "H",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "maingroup": "84",
+        "classTitle": "electric communication technique ",
+        "FullCode": "H04W8412",
+        "subclass": "W",
+        "subgroup": "12"
+    },
+    "PatNumber": "08503359",
+    "Country": "US",
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "self-organizing networks",
+        "maingroupTitle": "network topologies ",
+        "class": "04",
+        "ORDER": 1,
+        "codeType": "FurtherCode",
+        "section": "H",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "maingroup": "84",
+        "classTitle": "electric communication technique ",
+        "FullCode": "H04W8418",
+        "subclass": "W",
+        "subgroup": "18"
+    }
+}

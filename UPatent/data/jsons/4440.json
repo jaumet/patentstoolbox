@@ -1,0 +1,50 @@
+{
+    "MainCode": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "devices specially adapted for wireless communication networks",
+        "maingroupTitle": "devices specially adapted for wireless communication networks",
+        "class": "04",
+        "ORDER": 0,
+        "codeType": "MainCode",
+        "section": "H",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "maingroup": "88",
+        "classTitle": "electric communication technique ",
+        "FullCode": "H04W8800",
+        "subclass": "W",
+        "subgroup": "00"
+    },
+    "PatNumber": "08503365",
+    "Country": "US",
+    "FurtherCodes_2": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "discovering, processing access restriction or access information ",
+        "maingroupTitle": "access restriction network selection access point selection ",
+        "class": "04",
+        "ORDER": 2,
+        "codeType": "FurtherCode",
+        "section": "H",
+        "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+        "maingroup": "48",
+        "classTitle": "electric communication technique ",
+        "FullCode": "H04W4816",
+        "subclass": "W",
+        "subgroup": "16"
+    },
+    "Title": "us-patent-grant",
+    "FurtherCodes_1": {
+        "sectionTitle": "electricity ",
+        "subgroupTitle": "the frequencies being orthogonal e.g. ofdm(a), dmt ",
+        "maingroupTitle": "arrangements affording multiple use of the transmission path multiplex communication in general orthogonal multiplex systems ",
+        "class": "04",
+        "ORDER": 1,
+        "codeType": "FurtherCode",
+        "section": "H",
+        "subclassTitle": "transmission of digital information",
+        "maingroup": "5",
+        "classTitle": "electric communication technique ",
+        "FullCode": "H04L50007",
+        "subclass": "L",
+        "subgroup": "0007"
+    }
+}
