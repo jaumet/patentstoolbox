@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+circle {
+  fill-opacity: .9;
+  stroke: #fff;
+}
+text {
+  color: #FF0000;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+<script>
+
+var root = 
+{
+	name:"Claim 1",
+	children: 
+	[
+		{
+			value:42, name:"Claim 2",
+			children:
+			[
+				{value:18, dummy: 1},
+				{value:42, name:"Claim 3"}
+			]
+		},
+		{
+			value:14, name:"Claim 4",
+			children:
+			[
+				{value:18, dummy: 1},
+				{value:48, name:"Claim 5",
+				children:
+					[
+						{value:18, dummy: 1},
+						{value:21, name:"Claim 6",  
+						children:
+							[
+								{value:18, dummy: 1},
+								{value:21, name:"Claim 7", "fill":"#FF0000"}
+							]
+						}
+					]
+				}			
+			]
+		}
+	]
+}
+
+
+var width = 960,
+    height = 500;
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+
+var pack = d3.layout.pack()
+    .size([width, height]);
+
+svg.selectAll("circle")
+    .data(pack.nodes(root).filter(function(d) { return !d.dummy; }))
+  .enter().append("circle") 
+    .attr("opacity", 1)
+    .attr("fill", function(d) {if (!d.fill) {d.fill='#7c7777'} return d.fill; })
+    .attr("cx", function(d) { return d.x; })
+    .attr("cy", function(d) { return d.y; })
+    .attr("r", function(d) { return d.r; });
+ 
+svg.selectAll("text")
+    .data(pack.nodes(root).filter(function(d) { return !d.dummy; }))  
+  .enter().append("text")
+      .attr("dy", function(d) { return d.y-d.r+25; })
+      .attr("dx", function(d) { return d.x; })
+      .style("text-anchor", "middle")
+      .style("font-size", "18px")
+      .style("fill","#ffffff")
+      .text(function(d) { return d.name; });
+
+</script>
