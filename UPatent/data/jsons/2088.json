@@ -1,0 +1,22 @@
+{
+    "classificationCodes": {"code": {
+        "sectionTitle": "chemistry metallurgy",
+        "subgroupTitle": "characterised by the animals or plants used",
+        "maingroupTitle": "biological treatment of water, waste water, or sewage takes precedence",
+        "class": "02",
+        "codeType": "mainCode",
+        "section": "C",
+        "subclassTitle": "treatment of water, waste water, sewage, or sludge separation in general special arrangements on waterborne vessels of installations for treating water, waste water or sewage",
+        "maingroup": "3",
+        "classTitle": "treatment of water, waste water, sewage, or sludge settling tanks, filtering",
+        "fullCode": "C02F332",
+        "order": 0,
+        "subclass": "F",
+        "subgroup": "32"
+    }},
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500996",
+        "country": "US"
+    }
+}

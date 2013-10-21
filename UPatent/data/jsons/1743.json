@@ -1,0 +1,22 @@
+{
+    "classificationCodes": {"code": {
+        "sectionTitle": "human necessities",
+        "subgroupTitle": "electric stethoscopes microphones, acoustic transducers therefor",
+        "maingroupTitle": "detection of korotkoff sounds takes precedence; measuring blood pressure",
+        "class": "61",
+        "codeType": "mainCode",
+        "section": "A",
+        "subclassTitle": "diagnosis surgery identification analysing biological material e.g. obtaining records using waves other than optical waves, in general",
+        "maingroup": "7",
+        "classTitle": "health amusement",
+        "fullCode": "A61B704",
+        "order": 0,
+        "subclass": "B",
+        "subgroup": "04"
+    }},
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500650",
+        "country": "US"
+    }
+}

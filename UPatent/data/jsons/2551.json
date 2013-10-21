@@ -1,0 +1,54 @@
+{
+    "classificationCodes": {
+        "code_1": {
+            "sectionTitle": "chemistry metallurgy",
+            "subgroupTitle": "internal compartments or partitions",
+            "maingroupTitle": "constructional details",
+            "class": "12",
+            "codeType": "furtherCode",
+            "section": "C",
+            "subclassTitle": "apparatus for enzimology or microbiology [n: apparatus for culturing microorganisms for producing biomass, for growing cells or for obtaining fermentation or metabolic products, i.e. bioreactors or fermenters",
+            "maingroup": "23",
+            "classTitle": "biochemistry beer spirits wine vinegar microbiology enzymology mutation or genetic engineering",
+            "fullCode": "C12M2334",
+            "order": 1,
+            "subclass": "M",
+            "subgroup": "34"
+        },
+        "code_2": {
+            "sectionTitle": "chemistry metallurgy",
+            "subgroupTitle": "perfusion",
+            "maingroupTitle": "means for introduction, extraction or recirculation of materials",
+            "class": "12",
+            "codeType": "furtherCode",
+            "section": "C",
+            "subclassTitle": "apparatus for enzimology or microbiology [n: apparatus for culturing microorganisms for producing biomass, for growing cells or for obtaining fermentation or metabolic products, i.e. bioreactors or fermenters",
+            "maingroup": "29",
+            "classTitle": "biochemistry beer spirits wine vinegar microbiology enzymology mutation or genetic engineering",
+            "fullCode": "C12M2910",
+            "order": 2,
+            "subclass": "M",
+            "subgroup": "10"
+        },
+        "code": {
+            "sectionTitle": "chemistry metallurgy",
+            "subgroupTitle": "filters; permeable or porous membranes or plates",
+            "maingroupTitle": "means for introduction, extraction or recirculation of materials",
+            "class": "12",
+            "codeType": "mainCode",
+            "section": "C",
+            "subclassTitle": "apparatus for enzimology or microbiology [n: apparatus for culturing microorganisms for producing biomass, for growing cells or for obtaining fermentation or metabolic products, i.e. bioreactors or fermenters",
+            "maingroup": "29",
+            "classTitle": "biochemistry beer spirits wine vinegar microbiology enzymology mutation or genetic engineering",
+            "fullCode": "C12M2904",
+            "order": 0,
+            "subclass": "M",
+            "subgroup": "04"
+        }
+    },
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08501462",
+        "country": "US"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "classificationCodes": {
+        "code_1": {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "characterised by a protocol",
+            "maingroupTitle": "arrangements, apparatus, circuits or systems, not covered by a single one of groups to interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units contains provisionally no documents",
+            "class": "04",
+            "codeType": "furtherCode",
+            "section": "H",
+            "subclassTitle": "transmission of digital information",
+            "maingroup": "29",
+            "classTitle": "electric communication technique",
+            "fullCode": "H04L2906",
+            "order": 1,
+            "subclass": "L",
+            "subgroup": "06"
+        },
+        "code_2": {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "using standardized network management protocols",
+            "maingroupTitle": "arrangements for maintenance or administration or management of packet switching networks warninggroups - do not correspond to former or current ipc groups.concordance cpc : ipc for these groups is as follows:- - :",
+            "class": "04",
+            "codeType": "furtherCode",
+            "section": "H",
+            "subclassTitle": "transmission of digital information",
+            "maingroup": "41",
+            "classTitle": "electric communication technique",
+            "fullCode": "H04L410213",
+            "order": 2,
+            "subclass": "L",
+            "subgroup": "0213"
+        },
+        "code": {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "application layer, i.e. layer seven not used warning: from 01.01.2006 onwards, documents relating to the application layer, and in particular to protocols for network applications are classified in and subgroups. all documents previously classified in 29/08a7 are reclassified in these groups",
+            "maingroupTitle": "arrangements, apparatus, circuits or systems, not covered by a single one of groups to interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units contains provisionally no documents",
+            "class": "04",
+            "codeType": "mainCode",
+            "section": "H",
+            "subclassTitle": "transmission of digital information",
+            "maingroup": "29",
+            "classTitle": "electric communication technique",
+            "fullCode": "H04L2908072",
+            "order": 0,
+            "subclass": "L",
+            "subgroup": "08072"
+        }
+    },
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08504679",
+        "country": "US"
+    }
+}

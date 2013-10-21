@@ -1,0 +1,22 @@
+{
+    "classificationCodes": {"code": {
+        "sectionTitle": "performing operations transporting",
+        "subgroupTitle": "tricycles",
+        "maingroupTitle": "children's cycles toy vehicles",
+        "class": "62",
+        "codeType": "mainCode",
+        "section": "B",
+        "subclassTitle": "cycles cycle frames cycle steering devices rider-operated terminal controls specially adapted for cycles cycle axle suspensions cycle side-cars, forecars, or the like",
+        "maingroup": "9",
+        "classTitle": "land vehicles for travelling otherwise than on rails",
+        "fullCode": "B62K902",
+        "order": 0,
+        "subclass": "K",
+        "subgroup": "02"
+    }},
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500134",
+        "country": "US"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "classificationCodes": {
+        "code_1": {
+            "sectionTitle": "performing operations transporting",
+            "subgroupTitle": "ink supply systems; circuit parts therefor",
+            "maingroupTitle": "typewriters or selective printing mechanisms characterised by the printing or marking process for which they are designed mounting, arrangement, or disposition of types or dies marking methods structure or manufacture of heads",
+            "class": "41",
+            "codeType": "furtherCode",
+            "section": "B",
+            "subclassTitle": "typewriters selective printing mechanisms, e.g. ink-jet printers, thermal printers, i.e. mechanisms printing otherwise than from a forme correction of typographical errors composing printing on special surfaces laundry marking erasers, rubbers or erasing devices fluid media for correction of typographical errors by coating recording the results of measuring g01; recognition or presentation of data, marking record carriers in digital fashion, e.g. by punching, franking or ticket-printing and issuing apparatus electric keyboard switches, in general coding in connection with keyboards or like devices, in general receivers or transmitters for transmission of digital information transmission or reproduction of documents, or the like, e.g. facsimile transmission, printing mechanisms specially adapted for apparatus",
+            "maingroup": "2",
+            "classTitle": "printing",
+            "fullCode": "B41J2175",
+            "order": 1,
+            "subclass": "J",
+            "subgroup": "175"
+        },
+        "code_3": {
+            "sectionTitle": "performing operations transporting",
+            "subgroupTitle": "ink level or ink residue control",
+            "maingroupTitle": "typewriters or selective printing mechanisms characterised by the printing or marking process for which they are designed mounting, arrangement, or disposition of types or dies marking methods structure or manufacture of heads",
+            "class": "41",
+            "codeType": "furtherCode",
+            "section": "B",
+            "subclassTitle": "typewriters selective printing mechanisms, e.g. ink-jet printers, thermal printers, i.e. mechanisms printing otherwise than from a forme correction of typographical errors composing printing on special surfaces laundry marking erasers, rubbers or erasing devices fluid media for correction of typographical errors by coating recording the results of measuring g01; recognition or presentation of data, marking record carriers in digital fashion, e.g. by punching, franking or ticket-printing and issuing apparatus electric keyboard switches, in general coding in connection with keyboards or like devices, in general receivers or transmitters for transmission of digital information transmission or reproduction of documents, or the like, e.g. facsimile transmission, printing mechanisms specially adapted for apparatus",
+            "maingroup": "2",
+            "classTitle": "printing",
+            "fullCode": "B41J217566",
+            "order": 3,
+            "subclass": "J",
+            "subgroup": "17566"
+        },
+        "code_2": {
+            "sectionTitle": "performing operations transporting",
+            "subgroupTitle": "refilling of the cartridge",
+            "maingroupTitle": "typewriters or selective printing mechanisms characterised by the printing or marking process for which they are designed mounting, arrangement, or disposition of types or dies marking methods structure or manufacture of heads",
+            "class": "41",
+            "codeType": "furtherCode",
+            "section": "B",
+            "subclassTitle": "typewriters selective printing mechanisms, e.g. ink-jet printers, thermal printers, i.e. mechanisms printing otherwise than from a forme correction of typographical errors composing printing on special surfaces laundry marking erasers, rubbers or erasing devices fluid media for correction of typographical errors by coating recording the results of measuring g01; recognition or presentation of data, marking record carriers in digital fashion, e.g. by punching, franking or ticket-printing and issuing apparatus electric keyboard switches, in general coding in connection with keyboards or like devices, in general receivers or transmitters for transmission of digital information transmission or reproduction of documents, or the like, e.g. facsimile transmission, printing mechanisms specially adapted for apparatus",
+            "maingroup": "2",
+            "classTitle": "printing",
+            "fullCode": "B41J217506",
+            "order": 2,
+            "subclass": "J",
+            "subgroup": "17506"
+        },
+        "code": {
+            "sectionTitle": "performing operations transporting",
+            "subgroupTitle": "means for regulating the pressure in the cartridge",
+            "maingroupTitle": "typewriters or selective printing mechanisms characterised by the printing or marking process for which they are designed mounting, arrangement, or disposition of types or dies marking methods structure or manufacture of heads",
+            "class": "41",
+            "codeType": "mainCode",
+            "section": "B",
+            "subclassTitle": "typewriters selective printing mechanisms, e.g. ink-jet printers, thermal printers, i.e. mechanisms printing otherwise than from a forme correction of typographical errors composing printing on special surfaces laundry marking erasers, rubbers or erasing devices fluid media for correction of typographical errors by coating recording the results of measuring g01; recognition or presentation of data, marking record carriers in digital fashion, e.g. by punching, franking or ticket-printing and issuing apparatus electric keyboard switches, in general coding in connection with keyboards or like devices, in general receivers or transmitters for transmission of digital information transmission or reproduction of documents, or the like, e.g. facsimile transmission, printing mechanisms specially adapted for apparatus",
+            "maingroup": "2",
+            "classTitle": "printing",
+            "fullCode": "B41J217556",
+            "order": 0,
+            "subclass": "J",
+            "subgroup": "17556"
+        }
+    },
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500226",
+        "country": "US"
+    }
+}

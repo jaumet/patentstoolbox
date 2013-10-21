@@ -1,0 +1,22 @@
+{
+    "classificationCodes": {"code": {
+        "sectionTitle": "physics",
+        "subgroupTitle": "for measuring distance or clearance between spaced objects or spaced apertures takes precedence; rangefinders",
+        "maingroupTitle": "measuring arrangements characterised by the use of optical means instruments of the types covered by group per se",
+        "class": "01",
+        "codeType": "mainCode",
+        "section": "G",
+        "subclassTitle": "measuring length, thickness or similar linear dimensions measuring angles measuring areas measuring irregularities of surfaces or contours measuring human body, see the relevant places, where such exist, e.g. measuring appliances combined with walking-sticks sorting according to dimensions b07; tool-setting or drawing instruments not specially modified for measuring to combinations of measuring devices with writing-appliances geodetical, nautical or aeronautical measuring, surveying, rangefinding photogrammetry measuring force or stress, in general investigating or analysing particle size, investigating or analysing surface area of porous material measuring position, distance or direction, in general, by reception or emission of radiowaves or other waves and based on propagation effects",
+        "maingroup": "11",
+        "classTitle": "instruments",
+        "fullCode": "G01B1114",
+        "order": 0,
+        "subclass": "B",
+        "subgroup": "14"
+    }},
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08502989",
+        "country": "US"
+    }
+}

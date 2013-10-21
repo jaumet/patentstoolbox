@@ -1,0 +1,22 @@
+{
+    "classificationCodes": {"code": {
+        "sectionTitle": "chemistry metallurgy",
+        "subgroupTitle": "ketonic chelates",
+        "maingroupTitle": "ketones ketenes dimeric ketenes heterocyclic compounds e.g. beta-lactones ketonic chelates",
+        "class": "07",
+        "codeType": "mainCode",
+        "section": "C",
+        "subclassTitle": "acyclic or carbocyclic compounds",
+        "maingroup": "49",
+        "classTitle": "organic chemistry such compounds as the oxides, sulfides, or oxysulfides of carbon, cyanogen, phosgene, hydrocyanic acid or salts thereof c01; products obtained from layered base-exchange silicates by ion-exchange with organic compounds such as ammonium, phosphonium or sulfonium compounds or by intercalation of organic compounds macromolecular compounds c08; dyes c09; fermentation products c12; fermentation or enzyme-using processes to synthesise a desired chemical compound or composition or to separate optical isomers from a racemic mixture production of organic compounds by electrolysis or electrophoresis",
+        "fullCode": "C07C4992",
+        "order": 0,
+        "subclass": "C",
+        "subgroup": "92"
+    }},
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08501976",
+        "country": "US"
+    }
+}

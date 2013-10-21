@@ -1,0 +1,69 @@
+{
+    "classificationCodes": {
+        "code_1": {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "optical pumping",
+            "maingroupTitle": "external cavity lasers external cavity elements, their control or stabilisation , and",
+            "class": "01",
+            "codeType": "furtherCode",
+            "section": "H",
+            "subclassTitle": "devices using stimulated emission",
+            "maingroup": "5",
+            "classTitle": "",
+            "fullCode": "H01S5041",
+            "order": 1,
+            "subclass": "S",
+            "subgroup": "041"
+        },
+        "code_3": {
+            "sectionTitle": "general tagging of new technological developments general tagging of cross-sectional technologies spanning over several sections of the ipc technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+            "subgroupTitle": "instruments specially adapted for placement or removal of stents or stent-grafts",
+            "maingroupTitle": "nanotechnology",
+            "class": "10",
+            "codeType": "furtherCode",
+            "section": "Y",
+            "subclassTitle": "technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+            "maingroup": "977",
+            "classTitle": "technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+            "fullCode": "Y10S97795",
+            "order": 3,
+            "subclass": "S",
+            "subgroup": "95"
+        },
+        "code_2": {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "details on the cavity length",
+            "maingroupTitle": "external cavity lasers external cavity elements, their control or stabilisation , and",
+            "class": "01",
+            "codeType": "furtherCode",
+            "section": "H",
+            "subclassTitle": "devices using stimulated emission",
+            "maingroup": "5",
+            "classTitle": "",
+            "fullCode": "H01S51039",
+            "order": 2,
+            "subclass": "S",
+            "subgroup": "1039"
+        },
+        "code": {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "forward coupled structures (dfc)",
+            "maingroupTitle": "external cavity lasers external cavity elements, their control or stabilisation , and",
+            "class": "01",
+            "codeType": "mainCode",
+            "section": "H",
+            "subclassTitle": "devices using stimulated emission",
+            "maingroup": "5",
+            "classTitle": "",
+            "fullCode": "H01S51035",
+            "order": 0,
+            "subclass": "S",
+            "subgroup": "1035"
+        }
+    },
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08503073",
+        "country": "US"
+    }
+}

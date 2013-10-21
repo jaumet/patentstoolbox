@@ -1,0 +1,69 @@
+{
+    "classificationCodes": {
+        "code_1": {
+            "sectionTitle": "physics",
+            "subgroupTitle": "drawing of straight lines or curves",
+            "maingroupTitle": "2d [two dimensional] image generation",
+            "class": "06",
+            "codeType": "furtherCode",
+            "section": "G",
+            "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+            "maingroup": "11",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06T11203",
+            "order": 1,
+            "subclass": "T",
+            "subgroup": "203"
+        },
+        "code_3": {
+            "sectionTitle": "physics",
+            "subgroupTitle": "function-generator circuits",
+            "maingroupTitle": "control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators image data processing or generation, in general",
+            "class": "09",
+            "codeType": "furtherCode",
+            "section": "G",
+            "subclassTitle": "arrangements or circuits for control of indicating devices using static means to present variable information lighting in general f21; arrangements for displaying electric variables or waveforms devices or arrangements for the control of light beams indicating of time by visual means arrangements for transferring data between computers and peripheral equipment visible signalling arrangements or devices traffic control systems display, advertising, signs e.g. static indicating arrangements comprising an association of a number of separate sources or light control cells static indicating arrangements comprising integral associations of a number of light sources circuits in pulse counters for indicating the result coding, decoding or code conversion, in general reproducing a picture or pattern using electric signals representing parts thereof and produced by scanning an original",
+            "maingroup": "5",
+            "classTitle": "education cryptography display advertising seals",
+            "fullCode": "G09G520",
+            "order": 3,
+            "subclass": "G",
+            "subgroup": "20"
+        },
+        "code_2": {
+            "sectionTitle": "physics",
+            "subgroupTitle": "filling a planar surface by adding surface attributes",
+            "maingroupTitle": "2d [two dimensional] image generation",
+            "class": "06",
+            "codeType": "furtherCode",
+            "section": "G",
+            "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+            "maingroup": "11",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06T1140",
+            "order": 2,
+            "subclass": "T",
+            "subgroup": "40"
+        },
+        "code": {
+            "sectionTitle": "physics",
+            "subgroupTitle": "drawing of charts or graphs",
+            "maingroupTitle": "2d [two dimensional] image generation",
+            "class": "06",
+            "codeType": "mainCode",
+            "section": "G",
+            "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+            "maingroup": "11",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06T11206",
+            "order": 0,
+            "subclass": "T",
+            "subgroup": "206"
+        }
+    },
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08502822",
+        "country": "US"
+    }
+}
