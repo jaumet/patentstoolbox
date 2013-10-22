@@ -1,0 +1,39 @@
+{
+    "classificationCodes": [
+        {
+            "sectionTitle": "physics",
+            "subgroupTitle": "multimedia data retrieval; retrieval of more than one type of audiovisual media retrieval of image data ; retrieval of video data ; retrieval of audio data ; editing or indexing of data stored based on relative movement between record carrier and transducer [1207]",
+            "maingroupTitle": "digital computing or data processing equipment or methods, specially adapted for specific functions",
+            "class": "06",
+            "codeType": "mainCode",
+            "section": "G",
+            "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques",
+            "maingroup": "17",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06F1730017",
+            "order": 0,
+            "subclass": "F",
+            "subgroup": "30017"
+        },
+        {
+            "sectionTitle": "general tagging of new technological developments general tagging of cross-sectional technologies spanning over several sections of the ipc technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+            "subgroupTitle": "multimedia",
+            "maingroupTitle": "data processing: database and file management or data structures",
+            "class": "10",
+            "codeType": "furtherCode",
+            "section": "Y",
+            "subclassTitle": "technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+            "maingroup": "707",
+            "classTitle": "technical subjects covered by former uspc cross-reference art collections [xracs] and digests",
+            "fullCode": "Y10S707913",
+            "order": 1,
+            "subclass": "S",
+            "subgroup": "913"
+        }
+    ],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08504591",
+        "country": "US"
+    }
+}

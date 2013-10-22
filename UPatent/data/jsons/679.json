@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "chemistry metallurgy",
+        "subgroupTitle": "of the screw or pump-action type",
+        "maingroupTitle": "melting in furnaces furnaces so far as specially adapted for glass manufacture",
+        "class": "03",
+        "codeType": "mainCode",
+        "section": "C",
+        "subclassTitle": "manufacture, shaping, or supplementary processes",
+        "maingroup": "5",
+        "classTitle": "glass mineral or slag wool organic glasses c08; metallic glasses, amorphous metals",
+        "fullCode": "C03B51875",
+        "order": 0,
+        "subclass": "B",
+        "subgroup": "1875"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08499584",
+        "country": "US"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "physics",
+        "subgroupTitle": "sonar systems specially adapted for specific applications seismic or acoustic prospecting or detecting",
+        "maingroupTitle": "systems using the reflection or reradiation of acoustic waves",
+        "class": "01",
+        "codeType": "mainCode",
+        "section": "G",
+        "subclassTitle": "radio direction-finding radio navigation determining distance or velocity by use of radio waves locating or presence-detecting by use of the reflection or reradiation of radio waves analogous arrangements using other waves for special applications, see the relevant subclasses, e.g. measuring dimensions or angles of objects navigation in general measuring infrasonic, sonic or ultrasonic vibrations in general measuring infra-red, visible, or ultra-violet radiation in general transducers per se, see the relevant subclasses",
+        "maingroup": "15",
+        "classTitle": "instruments",
+        "fullCode": "G01S1588",
+        "order": 0,
+        "subclass": "S",
+        "subgroup": "88"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08503266",
+        "country": "US"
+    }
+}

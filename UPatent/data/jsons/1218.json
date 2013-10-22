@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "performing operations transporting",
+        "subgroupTitle": "article switches or diverters",
+        "maingroupTitle": "delivering articles from machines piling articles article or web delivery apparatus incorporating devices for performing specified auxiliary operations associating or gathering articles or webs machines for separating superposed webs",
+        "class": "65",
+        "codeType": "mainCode",
+        "section": "B",
+        "subclassTitle": "handling thin or filamentary material",
+        "maingroup": "29",
+        "classTitle": "conveying packing storing handling thin or filamentary material",
+        "fullCode": "B65H2958",
+        "order": 0,
+        "subclass": "H",
+        "subgroup": "58"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500124",
+        "country": "US"
+    }
+}

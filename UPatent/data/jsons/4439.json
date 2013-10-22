@@ -1,0 +1,54 @@
+{
+    "classificationCodes": [
+        {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "assessing signal quality or detecting noise/interference for the received signal",
+            "maingroupTitle": "",
+            "class": "04",
+            "codeType": "furtherCode",
+            "section": "H",
+            "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information",
+            "maingroup": "1",
+            "classTitle": "electric communication technique",
+            "fullCode": "H04B11027",
+            "order": 1,
+            "subclass": "B",
+            "subgroup": "1027"
+        },
+        {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "using sir [signal to interference ratio] or other wireless path parameters",
+            "maingroupTitle": "power management",
+            "class": "04",
+            "codeType": "furtherCode",
+            "section": "H",
+            "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+            "maingroup": "52",
+            "classTitle": "electric communication technique",
+            "fullCode": "H04W5224",
+            "order": 2,
+            "subclass": "W",
+            "subgroup": "24"
+        },
+        {
+            "sectionTitle": "electricity",
+            "subgroupTitle": "large scale networks deep hierarchical networks",
+            "maingroupTitle": "network topologies",
+            "class": "04",
+            "codeType": "mainCode",
+            "section": "H",
+            "subclassTitle": "wireless communications networks radio transmission systems transmission systems using electromagnetic waves other than radio waves, e.g. light, infrared communication systems using wireless extensions, i.e. wireless links without selective communication",
+            "maingroup": "84",
+            "classTitle": "electric communication technique",
+            "fullCode": "H04W8404",
+            "order": 0,
+            "subclass": "W",
+            "subgroup": "04"
+        }
+    ],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08503364",
+        "country": "US"
+    }
+}

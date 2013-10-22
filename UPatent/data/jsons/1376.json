@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "human necessities",
+        "subgroupTitle": "for wavefront analysis",
+        "maingroupTitle": "for determining the visual field",
+        "class": "61",
+        "codeType": "mainCode",
+        "section": "A",
+        "subclassTitle": "diagnosis surgery identification analysing biological material e.g. obtaining records using waves other than optical waves, in general",
+        "maingroup": "3",
+        "classTitle": "health amusement",
+        "fullCode": "A61B31015",
+        "order": 0,
+        "subclass": "B",
+        "subgroup": "1015"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500283",
+        "country": "US"
+    }
+}

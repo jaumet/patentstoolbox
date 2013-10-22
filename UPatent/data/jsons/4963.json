@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "electricity",
+        "subgroupTitle": "arrangements for optimizing the decision element in the receiver",
+        "maingroupTitle": "transmission systems employing electromagnetic waves other than radio-waves, e.g. infrared, visible or ultraviolet light, or employing corpuscular radiation",
+        "class": "04",
+        "codeType": "mainCode",
+        "section": "H",
+        "subclassTitle": "transmission transmission systems for measured values, control or similar signals coding, decoding, code conversion, in general broadcast communication multiplex systems secret communication transmission of digital information",
+        "maingroup": "10",
+        "classTitle": "electric communication technique",
+        "fullCode": "H04B10695",
+        "order": 0,
+        "subclass": "B",
+        "subgroup": "695"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08503890",
+        "country": "US"
+    }
+}

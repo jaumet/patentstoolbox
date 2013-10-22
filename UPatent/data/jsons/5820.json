@@ -1,0 +1,39 @@
+{
+    "classificationCodes": [
+        {
+            "sectionTitle": "physics",
+            "subgroupTitle": "power management, i.e. event-based initiation of power-saving mode",
+            "maingroupTitle": "",
+            "class": "06",
+            "codeType": "mainCode",
+            "section": "G",
+            "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques",
+            "maingroup": "1",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06F13203",
+            "order": 0,
+            "subclass": "F",
+            "subgroup": "3203"
+        },
+        {
+            "sectionTitle": "physics",
+            "subgroupTitle": "using interrupt takes precedence",
+            "maingroupTitle": "interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units interface circuits for specific input/output devices ; multiprocessor systems ; transmission of digital information in general selecting multiprogramme control therefor",
+            "class": "06",
+            "codeType": "furtherCode",
+            "section": "G",
+            "subclassTitle": "electrical digital data processing computers in which a part of the computation is effected hydraulically or pneumatically optically self-contained input or output peripheral equipment impedance networks using digital techniques",
+            "maingroup": "13",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06F1324",
+            "order": 1,
+            "subclass": "F",
+            "subgroup": "24"
+        }
+    ],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08504753",
+        "country": "US"
+    }
+}

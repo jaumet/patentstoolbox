@@ -1,0 +1,39 @@
+{
+    "classificationCodes": [
+        {
+            "sectionTitle": "human necessities",
+            "subgroupTitle": "for optical coherence tomography (oct)",
+            "maingroupTitle": "for determining the visual field",
+            "class": "61",
+            "codeType": "mainCode",
+            "section": "A",
+            "subclassTitle": "diagnosis surgery identification analysing biological material e.g. obtaining records using waves other than optical waves, in general",
+            "maingroup": "3",
+            "classTitle": "health amusement",
+            "fullCode": "A61B3102",
+            "order": 0,
+            "subclass": "B",
+            "subgroup": "102"
+        },
+        {
+            "sectionTitle": "human necessities",
+            "subgroupTitle": "arrangements specially adapted for eye photography apparatus or arrangements for taking photographs per se",
+            "maingroupTitle": "for determining the visual field",
+            "class": "61",
+            "codeType": "furtherCode",
+            "section": "A",
+            "subclassTitle": "diagnosis surgery identification analysing biological material e.g. obtaining records using waves other than optical waves, in general",
+            "maingroup": "3",
+            "classTitle": "health amusement",
+            "fullCode": "A61B314",
+            "order": 1,
+            "subclass": "B",
+            "subgroup": "14"
+        }
+    ],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500279",
+        "country": "US"
+    }
+}

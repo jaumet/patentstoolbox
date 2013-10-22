@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "physics",
+        "subgroupTitle": "based on the modelling of probability density functions",
+        "maingroupTitle": "methods or arrangements for reading or recognising printed or written characters or for recognising patterns",
+        "class": "06",
+        "codeType": "mainCode",
+        "section": "G",
+        "subclassTitle": "recognition of data presentation of data record carriers handling record carriers",
+        "maingroup": "9",
+        "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+        "fullCode": "G06K96226",
+        "order": 0,
+        "subclass": "K",
+        "subgroup": "6226"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08504491",
+        "country": "US"
+    }
+}

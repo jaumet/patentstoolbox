@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "physics",
+        "subgroupTitle": "drive means",
+        "maingroupTitle": "photomechanical, e.g. photolithographic, production of textured or patterned surfaces, e.g. printing surfaces materials therefor, e.g. comprising photoresists apparatus specially adapted therefor using photoresist structures for special production processes, see the relevant places",
+        "class": "03",
+        "codeType": "mainCode",
+        "section": "G",
+        "subclassTitle": "photomechanical production of textured or patterned surfaces",
+        "maingroup": "7",
+        "classTitle": "photography cinematography electrography holography reproduction of pictures or patterns by scanning and converting into electrical signals",
+        "fullCode": "G03F770758",
+        "order": 0,
+        "subclass": "F",
+        "subgroup": "70758"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08502958",
+        "country": "US"
+    }
+}

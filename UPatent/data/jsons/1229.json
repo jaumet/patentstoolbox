@@ -1,0 +1,22 @@
+{
+    "classificationCodes": [{
+        "sectionTitle": "human necessities",
+        "subgroupTitle": "with brakes",
+        "maingroupTitle": "roller skates skate-boards",
+        "class": "63",
+        "codeType": "mainCode",
+        "section": "A",
+        "subclassTitle": "skates skis roller skates design or layout of courts, rinks or the like devices for underwater sports devices for gliding on water",
+        "maingroup": "17",
+        "classTitle": "sports games amusements",
+        "fullCode": "A63C1714",
+        "order": 0,
+        "subclass": "C",
+        "subgroup": "14"
+    }],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08500135",
+        "country": "US"
+    }
+}

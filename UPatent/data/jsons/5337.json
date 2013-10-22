@@ -1,0 +1,39 @@
+{
+    "classificationCodes": [
+        {
+            "sectionTitle": "performing operations transporting",
+            "subgroupTitle": "improvement of gear change",
+            "maingroupTitle": "purposes of road vehicle drive control systems not related to the control of a particular sub-unit",
+            "class": "60",
+            "codeType": "mainCode",
+            "section": "B",
+            "subclassTitle": "conjoint control of vehicle sub-units of different type or different function control systems specially adapted for hybrid vehicles road vehicle drive control systems for purposes not related to the control of a particular sub-unit",
+            "maingroup": "30",
+            "classTitle": "transporting",
+            "fullCode": "B60W3019",
+            "order": 0,
+            "subclass": "W",
+            "subgroup": "19"
+        },
+        {
+            "sectionTitle": "mechanical engineering lighting heating weapons blasting engines or pumps",
+            "subgroupTitle": "for smoothing gear shifts",
+            "maingroupTitle": "control outputs from the control unit to change-speed- or reversing-gearings for conveying rotary motion or to other devices than the final output mechanism",
+            "class": "16",
+            "codeType": "furtherCode",
+            "section": "F",
+            "subclassTitle": "gearing steering of motor vehicles by differentially driving ground-engaging elements on opposite vehicle sides",
+            "maingroup": "63",
+            "classTitle": "engineering elements and units general measures for producing and maintaining effective functioning of machines or installations thermal insulation in general",
+            "fullCode": "F16H63502",
+            "order": 1,
+            "subclass": "H",
+            "subgroup": "502"
+        }
+    ],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08504265",
+        "country": "US"
+    }
+}

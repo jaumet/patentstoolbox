@@ -1,0 +1,54 @@
+{
+    "classificationCodes": [
+        {
+            "sectionTitle": "physics",
+            "subgroupTitle": "drawing of straight lines or curves",
+            "maingroupTitle": "2d [two dimensional] image generation",
+            "class": "06",
+            "codeType": "furtherCode",
+            "section": "G",
+            "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+            "maingroup": "11",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06T11203",
+            "order": 1,
+            "subclass": "T",
+            "subgroup": "203"
+        },
+        {
+            "sectionTitle": "physics",
+            "subgroupTitle": "drawing of charts or graphs",
+            "maingroupTitle": "2d [two dimensional] image generation",
+            "class": "06",
+            "codeType": "mainCode",
+            "section": "G",
+            "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+            "maingroup": "11",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06T11206",
+            "order": 0,
+            "subclass": "T",
+            "subgroup": "206"
+        },
+        {
+            "sectionTitle": "physics",
+            "subgroupTitle": "3d [three dimensional] image rendering",
+            "maingroupTitle": "3d [three dimensional] image rendering",
+            "class": "06",
+            "codeType": "furtherCode",
+            "section": "G",
+            "subclassTitle": "image data processing or generation, in general specially adapted for particular applications, see the relevant subclasses",
+            "maingroup": "15",
+            "classTitle": "computing calculating counting score computers for games combinations of writing implements with computing devices",
+            "fullCode": "G06T1500",
+            "order": 2,
+            "subclass": "T",
+            "subgroup": "00"
+        }
+    ],
+    "metaData": {
+        "title": "us-patent-grant",
+        "patNumber": "08502821",
+        "country": "US"
+    }
+}
