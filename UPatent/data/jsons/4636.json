@@ -107,8 +107,10 @@
         }
     ],
     "metaData": {
+		"lala" : {
         "title": "us-patent-grant",
         "patNumber": "08503561",
         "country": "US"
+		}
     }
 }
