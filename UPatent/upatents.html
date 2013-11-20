@@ -1,0 +1,177 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+<script type="text/javascript" src="colors.js"></script>
+<style>
+
+	body {
+		font-size:12px;
+	}
+	div {
+		padding:3px;
+	}
+	text {
+		color: #FF0000;
+	}
+	#code {
+		width:1450px;
+		border:2px solid #000;
+	}
+	.level, .mainLevel {
+		position:relative;
+		float:left;
+		width:100px;
+		height:65px;
+	}
+	.mainLevel {
+		position:relative;
+		float:left;
+		width:100px;
+		height:25px;
+		border:2px solid green;
+	}
+	.level .sublevel {
+		position:relative;
+		float:left;
+		width:100px;
+		height:25px;
+		border:2px solid red;
+	}
+	
+	
+	/* Colors for codes */
+	.subclass-B {
+		background-color:hsl(55, 100%, 45%);
+	}
+	.class-04 {
+		background-color:hsl(64, 60%, 75%);
+	}
+	.sub- {
+		background-color:green;
+	}
+	.sub-B {
+		background-color:green;
+	}
+	.sub-B {
+		background-color:green;
+	}
+	
+</style>
+</head>
+
+<body>
+<div id="header">
+	<h1>One patent codes:<h1/>
+        <p id="test"></p>
+</div>
+<div id="content">
+	<div id="code">
+	</div>
+</div>
+<div style="clear:both;height:100px;"></div>
+	<div id="list">MetaData:<br /></div>
+<div id="text_output">
+</div>
+<script>
+        ///////////////////////////////////////////////////
+        //////////// GETTING COLORS
+        ///////////////////////////////////////////////////
+        // Check 1st level: 
+        // number of letters, define array
+        function unique(arr) {
+            var a = [];
+            var l = arr.length;
+            for(var i=0; i<l; i++) {
+                for(var j=i+1; j<l; j++) {
+                    // If a[i] is found later in the array
+                    if (arr[i] === arr[j])
+                      j = ++i;
+                }
+                a.push(arr[i]);
+            }
+            return a;
+        }
+        //1) Pushing each level values in arrays
+        level1 = [];level2 = [];level3 = [];level4 = [];level5 = [];
+        var levelNum = 0;
+	$.getJSON( "data/jsons/4636.json", function( data ) {
+		var mystyle = [];
+                $.each( data, function( key, val ) {
+			if ( key == "classificationCodes" ) {
+				$.each( val, function( key1, val1 ) {
+					$.each( val1, function( key2, val2 ) {
+                                                levelNum ++;
+                                                if (key2 == "section") {
+                                                        level1.push(val2);
+                                                }
+                                                else if (key2 == "class") {
+                                                        level2.push(val2);
+                                                }
+                                                else if (key2 == "subclass") {
+                                                        level3.push(val2);
+                                                }
+                                                else if (key2 == "maingroup") {
+                                                        level4.push(val2);
+                                                }
+                                                else if (key2 == "subgroup") {
+                                                        level5.push(val2);
+                                                }
+                                                //mystyle = "background-color:" + colors[letter][0] +";";
+					});
+				});
+			}
+		});
+        //2) Unique elements per level
+        var out = "";
+        for (n=1;n<6;n++) {
+                eval("var unique"+n+" = unique(level"+n+");");
+                out += eval("level"+n)+"<br />";
+        }
+
+        $("#test").append(level1);
+        $("#test").append("<br />"+unique1);
+        $("#test").append("<br />"+out);
+	});
+        
+        ///////////////////////////////////////////////////
+        //////////// BUILDING THE BOX
+        ///////////////////////////////////////////////////
+        //$("#test").append(colors["A"][29]);
+	my = [];
+	my["section"]=1;
+	my["class"]=2;
+	my["subclass"]=3;
+	my["maingroup"]=4;
+	my["subgroup"]=5;
+
+	$.getJSON( "data/jsons/4636.json", function( data ) {
+		var myMainSublevel = "";
+		var mySublevel = "";
+                var myitems = [];
+		$.each( data, function( key, val ) {
+			if ( key == "classificationCodes" ) {
+				$.each( val, function( key1, val1 ) {
+					$.each( val1, function( key2, val2 ) {
+                                                myitems[my[key2]] = "<div class='sublevel "+key2+" "+val2+"'>"+key2+": "+val2+"</div>";
+					});
+                                        mySublevel = "<div class='level'>"+myitems.join("")+"</div>";
+					$("#code").append(mySublevel);
+					mySublevel = "";
+				});
+			} else {
+				$.each( val, function( key1, val1 ) {
+					$.each( val1, function( key2, val2 ) {
+						metaData = [];
+						metaData.push( "<li id='" + key2 + "'>" + key2 +" => "+ val2 + "</li>" );
+						$("#list").append(metaData);
+					});
+				});
+			}
+		});
+	});
+</script>
+
+</body>
+</html>
