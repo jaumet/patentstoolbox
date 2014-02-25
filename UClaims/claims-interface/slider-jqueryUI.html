@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slider for Bootstrap, from Twitter</title>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
+<style>
+    .ui-slider-handle {
+        background-color: red;
+    }
+
+    #slider-range {
+        background-color: green;
+        width: 80%;
+    }
+</style>
+</head>
+
+<body>
+<hr />
+<div id="slider-range" class="ui-slider"></div>
+<hr />
+<div>
+    <input type="text" id="amount" value="40" />
+    <input type="text" id="slider-length"/>
+</div>
+<script>
+$(function() {
+    c = console;
+    var valMap = [0, 20, 40, 60, 80, 100];
+    $("#slider-range").slider({
+        min: 1,
+        max: valMap.length - 1,
+        value: 0,
+        slide: function(event, ui) {                        
+            $("#amount").val(valMap[ui.value]);                
+        }       
+    });
+
+    // Slider ruler:
+    var myl = $("#slider-range").width();
+    $("#slider-length").val(myl);
+    var numTicks = valMap.length;
+    c.log(numTicks);
+    var eachTick = Math.floor(myl/numTicks)
+    c.log("eachTick: "+eachTick);
+
+})
+</script>
+</body>
+</html>

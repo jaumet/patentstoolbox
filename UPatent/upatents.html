@@ -109,11 +109,15 @@
         var xy = [];
 	$.getJSON( "data/jsons/4636.json", function( data ) {
                 // Get number of codes in JSON file:
-                window.numCodes = data["classificationCodes"].length;
+                numCodes = data["classificationCodes"].length;
+                // Acumulated codes: 1 dimension array declaration
+                acum = new Array(numCodes);
                 // define array of arrays:
                 xy = new Array(numCodes);
+                xy2 = new Array(numCodes);
                 for (i=1;i<numCodes+1;i++) {
                         xy[i] = new Array(5);
+                        xy2[i] = new Array(5);
                 }
 		var mystyle = [];
                 var mycolumn = 0; myrow = 0;
@@ -132,7 +136,7 @@
                                                         level2.push(val2);
                                                         tmp2 = val2;
                                                         myrow = 2;
-                                                }
+                                                } UC EPP
                                                 else if (key2 == "subclass") {
                                                         level3.push(val2);
                                                         tmp3 = val2;
@@ -152,14 +156,19 @@
 					});
                                         mysection.push(tmp1);
                                                 xy[1][mycolumn] = tmp1;
+                                                xy2[1][mycolumn] = tmp1;
                                         myclass.push(tmp1+"-"+tmp2);
                                                 xy[2][mycolumn] = tmp1+"-"+tmp2;
+                                                xy2[2][mycolumn] = tmp2;
                                         mysubclass.push(tmp1+"-"+tmp2+"-"+tmp3);
                                                 xy[3][mycolumn] = tmp1+"-"+tmp2+"-"+tmp3;
+                                                xy2[3][mycolumn] = tmp3;
                                         mymaingroup.push(tmp1+"-"+tmp2+"-"+tmp3+"-"+tmp4);
                                                 xy[4][mycolumn] = tmp1+"-"+tmp2+"-"+tmp3+"-"+tmp4;
+                                                xy2[4][mycolumn] = tmp4;
                                         mysubgroup.push(tmp1+"-"+tmp2+"-"+tmp3+"-"+tmp4+"-"+tmp5);
                                                 xy[5][mycolumn] = tmp1+"-"+tmp2+"-"+tmp3+"-"+tmp4+"-"+tmp5;
+                                                xy2[5][mycolumn] = tmp5;
 				});
 			}
 		});
@@ -169,8 +178,8 @@
                         eval("var unique"+n+" = unique(level"+n+");");
                         out += eval("level"+n)+"<br />";
                 }
-                var acum = mysection+"<br />"+myclass+"<br />"+mysubclass+"<br />"+mymaingroup+"<br />"+mysubgroup;
-                $("#test").append(acum+"<br /><hr />");
+                acum.push(mysection, myclass, mysubclass, mymaingroup, mysubgroup);
+                $("#test").append("Acumulated: "+acum+"<br />Acum.length: "+acum.length+"<br /><hr />");
                 $("#test").append("UNIQUE 1:"+unique1+"<br /><hr />");
                 
                 $("#test").append("XY: "+xy[3][4]+"<br /><hr />");
@@ -190,6 +199,8 @@
                 my["maingroup"]=4;
                 my["subgroup"]=5;
                 mytest = '';
+                myColorID = 0;
+                var restOfColors = numColors;   
                 $.getJSON( "data/jsons/4636.json", function( data ) {
                         var myMainSublevel = "";
                         var mySublevel = "";
@@ -205,10 +216,10 @@
                                                         //console.log("myrow ->"+myrow+" | val2: "+val2);
                                                         if (my[key2] == 1) { 
                                                                 background= "style='background-color:"+colors[val2][0]+";'";
-                                                                console.log("-> ["+my[key2]+","+mycolumn+"]");
+                                                                //console.log("-> ["+my[key2]+","+mycolumn+"]");
                                                         } 
                                                         else if (my[key2] == 2 || my[key2] ==  3 || my[key2] == 4 || my[key2] == 5) { 
-                                                                console.log("-> ["+my[key2]+","+mycolumn+"]");
+                                                                //console.log("-> ["+my[key2]+","+mycolumn+"]");
                                                                 // indexOf Note workg ???? Then:
                                                                 if ( my[key2] == 2 ) { var myLevel = myclass; }
                                                                 else if ( my[key2] == 3 ) { var myLevel = mysubclass; }
@@ -218,25 +229,57 @@
                                                                 //////////////
                                                                 // Check unique for ITS level 1-2. If unique(level1-2) == unique(level1), then color(level 2) = color(level 1)
                                                                 var mychunk = xy[my[key2]][mycolumn];
-                                                                var occurences = countOccurences(myclass, xy[my[key2]][mycolumn])
+                                                                var occurences = countOccurences(myLevel, xy[my[key2]][mycolumn-1])
                                                                 var distinc = unique(myLevel).length;
-                                                                console.log("myLevel ->"+myLevel);
+                                                                //console.log("myLevel ->"+myLevel);
                                                                 var myCharacter = xy[my[key2]][mycolumn].split("-")[0]
+                                                                
+                                        ///////////////////////////////////////////////////////////////////////////
+                                                                // HERE IS THE PROBLEM!!
+                                                                // THIS NEEDS TO CHECK ALL THE LEVELS BEFORE THE CURRENT ONE AND OU[UT A COLOR NUMBER! 
+                                                                // Get acumulated codes:
+                                                                var thisAcum = xy[my[key2]][mycolumn];
+                                                                //console.log("__________________> ["+my[key2]+"]["+mycolumn+"]");
+                                                                console.log("################### This ACUMULATED:  "+thisAcum);
+                                                                // Iterate through levels.
+                                                                var iterLevels = thisAcum.split("-");
+                                                                for (u=0;u<iterLevels.length;u++) {
+                                                                        console.log("*******"+u+") "+iterLevels[u]+"        ->u+1:"+(u+1));
+                                                                        //var myXy = xy[u+1]
+                                                                        //myXy = myXy.toString();
+                                                                        //myXy = myXy.replace(/^\,/, "");
+                                                                        //xy[u+1][0] = null;
+                                                                        //myNumber = getColorNumber(restOfColors, countOccurences(xy2[u+1], iterLevels[u])/numCodes);
+                                                                        //restOfColors -= 
+                                                                        //myColorID += 
+                                                                        
+                                                                        console.log("Occurences: "+countOccurences(xy2[u+1], iterLevels[u]));
+                                                                        console.log("Ocurr / numCodes: "+countOccurences(xy2[u+1], iterLevels[u])/numCodes);
+                                                                        console.log("==============================================");
+                                                                }
+                                                                // checking levels:
+                                                                //for (j=0;j<my[key2];j++) {
+                                                                //        var myNumber = unique(myLevel).length;
+                                                                //        if 
+                                                                //}
+                                                                
                                                                 var levelColors = getColorNumber(numColors, distinc);
+                                                                //////////////////////
+                                                                
                                                                 if (levelColors == 0) {
                                                                         //console.log("myCharacter: ");
                                                                         var myColor = colors[myCharacter][0];
-                                                                        console.log("if colors 0: "+levelColors);
+                                                                        //console.log("if colors 0: "+levelColors);
                                                                 } else if (levelColors.length > 0) {
-                                                                        var myColor = colors[myCharacter][levelColors[mycolumn-1]];
+                                                                        var myColor = colors[myCharacter][levelColors[mycolumn]];
                                                                         console.log("levelColors: "+levelColors);
+                                                                        console.log("myColor: "+myColor);
                                                                 }
                                                                 background = "style='background-color:"+myColor+";'";
                                                                 mytest = mychunk+" | "+occurences+" | "+distinc+" <br /><b>levelColors: "+levelColors+"</b>";
                                                         //} else {
                                                         //        background = '';
-                                                        }
-                                                        
+                                                        }                                                        
                                                         
                                                         myitems[my[key2]] = "<div class='sublevel "+key2+" "+val2+"' "+background+">"+key2+": "+val2+" <b>["+my[key2]+","+mycolumn+"]</b></div>";
                                                 });
@@ -258,7 +301,7 @@
                 }).promise().done(function(){
                         //$("#test").append("myclass: "+myclass+"<br />xy[1][2]: "+xy+"<br />mytest: "+mytest+"<br /><hr />");
                         //console.log("myclass: "+myclass+"<br />xy[1][2]: "+xy+"<br />mytest: "+mytest+"<br /><hr />");
-                        console.log("numCodes: "+numCodes);
+                        //console.log("numCodes: "+numCodes);
                 });
         });
 </script>

@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+<script type="text/javascript" src="colors.js"></script>
+<style>
+
+	body {
+		font-size:12px;
+	}
+	div {
+		padding:3px;
+	}
+	text {
+		color: #FF0000;
+	}
+	#code {
+		width:1450px;
+		border:1px solid #000;
+	}
+	.level, .mainLevel {
+		position:relative;
+		float:left;
+		width:100px;
+		height:65px;
+	}
+	.mainLevel {
+		position:relative;
+		float:left;
+		width:100px;
+		height:25px;
+		border:1px solid green;
+	}
+	.level .sublevel {
+		position:relative;
+		float:left;
+		width:100px;
+		height:25px;
+		border:1px solid red;
+	}
+	#test { font-size:10px;}
+</style>
+</head>
+
+<body>
+<div id="header">
+	<h1>One patent codes:<h1/>
+        <p id="test"></p>
+</div>
+<div id="content">
+	<div id="code">
+	</div>
+</div>
+<div style="clear:both;height:100px;"></div>
+	<div id="list">MetaData:<br /></div>
+<div id="text_output">
+</div>
+<script>
+        ///////////////////////////////////////////////////
+        //////////// GETTING COLORS
+        ///////////////////////////////////////////////////
+        // Check 1st level: 
+        // number of letters, define array
+        function unique(arr) {
+            var a = [];
+            var l = arr.length;
+            for(var i=0; i<l; i++) {
+                for(var j=i+1; j<l; j++) {
+                    // If a[i] is found later in the array
+                    if (arr[i] === arr[j])
+                      j = ++i;
+                }
+                a.push(arr[i]);
+            }
+            return a;
+        }
+        function countOccurences(arr, el) {
+                count = 0;
+                for(var j=0; j<arr.length; j++) {
+                        if (arr[j] == el) { count++;}
+                }
+                return count;
+        }
+        function getColorNumber(numColors, distinc) {
+                var result = [];
+                if ( distinc ==1 ) {
+                        result = 0;
+                } else if ( distinc >1 ) {
+                        var interval = Math.floor(numColors/distinc);
+                        var add = 0;
+                        for (i=0;i<distinc;i++) {
+                                if ( add < numColors ) {
+                                        console.log(interval);
+                                        result.push( add );
+                                        add += interval;
+                                }
+                        }
+                }
+                return result;
+        }
+        
+        //// Loop 1: exploring the trees
+	$.getJSON( "data/jsons/4636.json", function( data ) {
+                $.each( data, function( key, val ) {
+			if ( key == "classificationCodes" ) {
+				$.each( val, function( key1, val1 ) {
+					$.each( val1, function( key2, val2 ) {
+                                                //
+					});
+				});
+			}
+		});
+        }).promise().done(function(){
+                $("#test").append("Num codes: "+data["classificationCodes"].length);
+                
+///////////////////////////////////////////////////////////////////////////////////////////////                
+                //// Loop 2: building the colored table
+                $.getJSON( "data/jsons/4636.json", function( data ) {
+                        $.each( data, function( key, val ) {
+                                if ( key == "classificationCodes" ) {
+                                        $.each( val, function( key1, val1 ) {
+                                                $.each( val1, function( key2, val2 ) {
+                                                        //
+                                                });
+                                        });
+                                } else {
+                                        $.each( val, function( key1, val1 ) {
+                                                $.each( val1, function( key2, val2 ) {
+                                                        //
+                                                });
+                                        });
+                                }
+                        });
+                }).promise().done(function(){
+
+                });
+        });
+</script>
+
+</body>
+</html>

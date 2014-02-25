@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slider for Bootstrap, from Twitter</title>
+    <!--<link href="./slider/css/bootstrap.css" rel="stylesheet">-->
+    <link href="./slider/css/slider.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+   <style>
+	.container {
+		background: #fff;
+	}
+	#alert {
+		display: none;
+	}
+  #sl2 {
+    width: 400px;
+  }
+  #RGB {
+    height: 20px;
+    background: rgb(128, 128, 128);
+  }
+  #RC .slider-selection {
+    background: #FF8282;
+  }
+  #RC .slider-handle {
+    background: red;
+  }
+  #GC .slider-selection {
+    background: #428041;
+  }
+  #GC .slider-handle {
+    background: green;
+  }
+  #BC .slider-selection {
+    background: #8283FF;
+  }
+  #BC .slider-handle {
+    border-bottom-color: blue;
+  }
+  #R, #G, #B {
+    width: 600px;
+  }
+  #eg .slider-selection {
+    background: #BABABA;
+  }
+	</style> 
+</head>
+
+<body>
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  <div class="container">
+    <div class="well">
+      <p>
+        <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="255" data-slider-step="1" data-slider-value="128" data-slider-id="RC" id="R" data-slider-tooltip="hide" data-slider-handle="square" >
+      </p>
+    </div>
+  </div>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+  <script src="./slider/js/bootstrap-slider.js"></script>
+  <script>
+	if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+		$(function(){
+			window.prettyPrint && prettyPrint();
+
+        $('#sl1').slider({
+          formater: function(value) {
+            return 'Current value: '+value;
+          }
+        });
+        $('#sl2').slider();
+
+        var r = $('#R').slider()
+                .on('slide', RGBChange)
+                .data('slider');
+        var g = $('#G').slider()
+                .on('slide', RGBChange)
+                .data('slider');
+        var b = $('#B').slider()
+                .on('slide', RGBChange)
+                .data('slider');
+                
+        var RGBChange = function() {
+          $('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')
+        };
+
+
+
+        $('#eg input').slider();
+    });
+  </script>
+</body>
+</html>

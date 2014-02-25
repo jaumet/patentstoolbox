@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./jquery.min.js"></script>
+</head>
+
+<body>
+<div id="test">hello:<br /></div>
+<script>
+        var numElements = 0;
+        alert ("hey!");
+	$.getJSON( "./mytest.json", function( data ) {
+                numElements = data["myelements"].length;
+                $("#test").append("-> numElements 1: "+numElements+"<br /><hr />");
+                console.log("numElements 1: "+numElements);
+                alert ("numElements 1: "+numElements);
+        }).promise().done(function(){
+                $("#test").append("-> numElements 2: "+numElements+"<br /><hr />");
+                console.log("numElements 2: "+numElements);
+                alert ("numElements 2: "+numElements);
+          });
+</script>
+</body>
+</html>
