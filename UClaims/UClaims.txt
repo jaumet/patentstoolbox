@@ -1,0 +1,29 @@
+UClaims
+-------
+
+This is a small piece of software that shows a claim of a patent in different styles/layouts.
+
+To do:
+
+1- Define layout levels (jaume, Gaby, Hanna)
+	- Level 0: raw
+	- Level 1: indentation
+	- Level 2: indentation + numered list
+	- Level 3:
+	- Level 4:
+	- Level 5:
+	- Level 6:
+
+
+
+2- Get claim json definition (Gaby)
+
+3- Code the Claim.json loader (Jaume)
+
+4- Code the layout levels (Jaume)
+
+---
+
+- See whether or not integrate the evaluation process in UClaims
+
+

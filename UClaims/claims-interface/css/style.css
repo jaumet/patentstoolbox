@@ -1,0 +1,103 @@
+
+/***************************************************************/
+/* Page styles */
+/***************************************************************/
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left:20px;
+  height:100%;
+}
+.circle {
+  background-color:orange;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:50%;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  display:inline-block;
+  margin-top:2px;
+  margin-bottom:2px;
+  /*margin:2px 40% 2px auto;*/
+  color:black;
+  
+}
+#countercontainer {
+  background-color:grey;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:20%;
+  border-bottom-right-radius:20%;
+  border-top-left-radius:20%;
+  border-top-right-radius:20%;
+  display:inline-block;
+  padding:7px;
+  text-align:center;
+  }
+#counter {
+  color:#ffffff;
+  font-size:70px;
+}
+#tablecontainer {
+	position:relative;
+	float:left;
+	width:60%;
+	padding-left:10px;
+}
+.widetable {
+	width:100%;
+}
+td {
+  text-align:center;
+  min-width:60px;
+  border-bottom: 1px solid #d8e5e5;
+}
+td span {  
+  /*display:inline-block;
+  vertical-align:middle;*/
+}
+.tabletitle {
+   text-align:left;
+}
+.hero-unit {
+	padding:0;
+	padding-top:0;
+	background-color:#EFEFEF;
+}
+.mycontainer:after {
+	clear:none;
+}
+.mycontainer {
+	height:100%;
+}
+.my {
+	padding:0;
+}
+#right {
+	position:relative;
+	float:right;
+	width:100px;
+	font-size:14px;
+  margin-right:20%;
+  margin-top:20px;
+}
+#sidebar {
+  margin-top:20px;
+}
+#right p {
+	text-align:center;
+}
+.checkbox {
+	/*float:left;*/
+	border:0px solid grey;
+	margin-left:4px;
+	padding-left:25px;
+	/*width: 150px;*/
+}
+#title {
+	padding-left:20px;
+	position:relative;
+	float:left;
+}

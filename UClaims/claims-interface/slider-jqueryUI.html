@@ -1,55 +1,92 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-  <head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8">
-    <title>Slider for Bootstrap, from Twitter</title>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+    <title>UClaims :: visualization degree</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .ui-slider-handle {
+            background-color: red;
+        }
 
-<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
-<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
-<style>
-    .ui-slider-handle {
-        background-color: red;
-    }
-
-    #slider-range {
-        background-color: green;
-        width: 80%;
-    }
-</style>
+        #slider-range {
+            background-color: green;
+            width: 26%; /*80%;*/
+            margin: 40px 40px 10px 20px;
+            
+        }
+    </style>
 </head>
-
 <body>
-<hr />
-<div id="slider-range" class="ui-slider"></div>
-<hr />
-<div>
-    <input type="text" id="amount" value="40" />
-    <input type="text" id="slider-length"/>
-</div>
-<script>
-$(function() {
-    c = console;
-    var valMap = [0, 20, 40, 60, 80, 100];
-    $("#slider-range").slider({
-        min: 1,
-        max: valMap.length - 1,
-        value: 0,
-        slide: function(event, ui) {                        
-            $("#amount").val(valMap[ui.value]);                
-        }       
-    });
+    <script src="js/html-include-bootstrap.js"></script>	
+    
+    <!-- HTML starts -->
+	<div class="mycontainer">
+		<!-- Main hero unit for a primary marketing message or call to action -->
+        <div id="right">  
+            <p> Showing</p>
+            <div id="countercontainer">
+                <br />
+                <span id="counter">sssss
+                </span>
+            </div>
+            <p>papers</p>          
+            <div>
+                <input type="text" id="amount" value="40" />
+                <input type="text" id="slider-length"/>
+            </div>
+        </div>
+        <div class="hero-unit" id="sidebar" data-spy="affix" style="position:relative;float:left;width:15%;">
+            <p>List of claims:</p>
+            <p id="myp"><a id="showall" class="btn btn-primary"/>show/check all</a></p>
+            <div id="filters">
+                <ul>
+                    <li>Claim 1: <a>title here</a></li>
+                    <li>Claim 2: <a>title here</a></li>
+                    <li>Claim 3: <a>title here</a></li>
+                </ul>
+            </div>
+		</div>
+    </div>
+    <!-- HTML ends -->
+    
+    <script>
+    $(function() {
+        c = console;
+        var valMap = [0, 20, 40, 60, 80, 100];
+        $("#slider-range").slider({
+            min: 1,
+            max: valMap.length - 1,
+            value: 0,
+            slide: function(event, ui) {                        
+                $("#amount").val(valMap[ui.value]);                
+            }       
+        });
 
-    // Slider ruler:
-    var myl = $("#slider-range").width();
-    $("#slider-length").val(myl);
-    var numTicks = valMap.length;
-    c.log(numTicks);
-    var eachTick = Math.floor(myl/numTicks)
-    c.log("eachTick: "+eachTick);
+        // Slider ruler:
+        var myl = $("#slider-range").width();
+        $("#slider-length").val(myl);
+        var numTicks = valMap.length;
+        c.log(numTicks);
+        var eachTick = Math.floor(myl/numTicks)
+        c.log("eachTick: "+eachTick);
+        
+        sl = $(".nav").width();
+        $('.nav').promise().done(function(){
+            $("#slider-range").css({width: sl});
+            c.log("sl: "+sl);
+        });
 
-})
-</script>
+    })
+    </script>
+
 </body>
 </html>
