@@ -5,11 +5,13 @@ This is a small piece of software that shows a claim of a patent in different st
 
 To do:
 
+DONE 0- Create page schema: bootstrap, css, ...
+
 1- Define layout levels (jaume, Gaby, Hanna)
 	- Level 0: raw
 	- Level 1: indentation
 	- Level 2: indentation + numered list
-	- Level 3:
+	- Level 3: 
 	- Level 4:
 	- Level 5:
 	- Level 6:
