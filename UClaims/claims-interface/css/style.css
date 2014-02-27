@@ -40,27 +40,7 @@ body {
   color:#ffffff;
   font-size:70px;
 }
-#tablecontainer {
-	position:relative;
-	float:left;
-	width:60%;
-	padding-left:10px;
-}
-.widetable {
-	width:100%;
-}
-td {
-  text-align:center;
-  min-width:60px;
-  border-bottom: 1px solid #d8e5e5;
-}
-td span {  
-  /*display:inline-block;
-  vertical-align:middle;*/
-}
-.tabletitle {
-   text-align:left;
-}
+
 .hero-unit {
 	padding:0;
 	padding-top:0;
@@ -101,3 +81,11 @@ td span {
 	position:relative;
 	float:left;
 }
+.steps {
+  float:left;
+  width:75px;
+  border-right: 1px solid red;
+}
+ul.nav {
+  padding-left:20px;
+|

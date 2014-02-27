@@ -1,92 +1,140 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="utf-8">
-    <title>UClaims :: visualization degree</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <style>
-        .ui-slider-handle {
-            background-color: red;
-        }
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8">
+<title>UClaims :: visualization degree</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+<!--    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script> -->
 
-        #slider-range {
-            background-color: green;
-            width: 26%; /*80%;*/
-            margin: 40px 40px 10px 20px;
-            
-        }
-    </style>
-</head>
-<body>
-    <script src="js/html-include-bootstrap.js"></script>	
-    
-    <!-- HTML starts -->
-	<div class="mycontainer">
-		<!-- Main hero unit for a primary marketing message or call to action -->
-        <div id="right">  
-            <p> Showing</p>
-            <div id="countercontainer">
-                <br />
-                <span id="counter">sssss
-                </span>
-            </div>
-            <p>papers</p>          
-            <div>
-                <input type="text" id="amount" value="40" />
-                <input type="text" id="slider-length"/>
-            </div>
-        </div>
-        <div class="hero-unit" id="sidebar" data-spy="affix" style="position:relative;float:left;width:15%;">
-            <p>List of claims:</p>
-            <p id="myp"><a id="showall" class="btn btn-primary"/>show/check all</a></p>
-            <div id="filters">
-                <ul>
-                    <li>Claim 1: <a>title here</a></li>
-                    <li>Claim 2: <a>title here</a></li>
-                    <li>Claim 3: <a>title here</a></li>
-                </ul>
-            </div>
-		</div>
-    </div>
-    <!-- HTML ends -->
-    
-    <script>
-    $(function() {
-        c = console;
-        var valMap = [0, 20, 40, 60, 80, 100];
-        $("#slider-range").slider({
-            min: 1,
-            max: valMap.length - 1,
-            value: 0,
-            slide: function(event, ui) {                        
-                $("#amount").val(valMap[ui.value]);                
-            }       
-        });
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<style>
+    .ui-slider-handle {
+        background-color: red;
+    }
 
-        // Slider ruler:
-        var myl = $("#slider-range").width();
-        $("#slider-length").val(myl);
-        var numTicks = valMap.length;
-        c.log(numTicks);
-        var eachTick = Math.floor(myl/numTicks)
-        c.log("eachTick: "+eachTick);
+    #slider-range {
+        background-color: green;
+        width: 26%; /*80%;*/
+        margin: 40px 40px 10px 20px;
         
-        sl = $(".nav").width();
-        $('.nav').promise().done(function(){
-            $("#slider-range").css({width: sl});
-            c.log("sl: "+sl);
-        });
+    }
+</style>
+</head>
 
-    })
-    </script>
+<body>
+<!-- HTML starts -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="#">JMLR Volumen 28</a>
+            <div class="nav-collapse collapse">
+                <div id="slider-range" class="ui-slider">
+                    <span class="steps">0</span>
+                    <span class="steps">1</span>
+                    <span class="steps">2</span>
+                    <span class="steps">3</span>
+                </div>
+                <ul class="nav">
+                    <li class="steps"><a href="http://jmlr.org/">0 Raw</a></li>
+                    <li class="steps"><a href="index.html">1 Indented</a></li>
+                    <li class="steps"><a href="area.html">2 Numered</a></li>
+                    <li class="steps"><a href="http://jmlr.org/proceedings/papers/v28/">3 Graphic</a></li>
+                    <li class="active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">JMLR Menu<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://jmlr.org//author-info.html">Submissions</a></li>
+                            <li><a href="http://jmlr.org//news.html">News</a></li>
+                            <li><a href="http://jmlr.org//editorial-board.html">Editorial Board </a></li>
+                            <li><a href="http://jmlr.org//announcements.html">Announcements </a></li>
+                            <li><a href="http://jmlr.org//proceedings">Proceedings </a></li>
+                            <li><a href="http://jmlr.org//mloss">Open Source Software</a></li>
+                            <li><a href="http://jmlr.org//search-jmlr.html">Search </a></li>
+                            <li><a href="http://jmlr.org//manudb">Login </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--
+                    <form class="navbar-form pull-right">
+                    <input class="span2" type="text" placeholder="Email">
+                    <button type="submit" class="btn">Suscribe</button>
+                    </form>
+                -->
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
 
+<div class="mycontainer">
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div id="right">  
+        <p> Showing</p>
+        <div id="countercontainer">
+            <br />
+            <span id="counter">0 Raw</span>
+        </div>
+        <p>Explanation:</p>          
+        <div>
+            <input type="text" id="amount" value="40" />
+            <input type="text" id="slider-length"/>
+        </div>
+    </div>
+    <div class="hero-unit" id="sidebar" data-spy="affix" style="position:relative;float:left;width:15%;">
+        <p>List of claims:</p>
+        <p id="myp"><a id="showall" class="btn btn-primary"/>show/check all</a></p>
+        <div id="filters">
+            <ul>
+                <li>Claim 1: <a>title here</a></li>
+                <li>Claim 2: <a>title here</a></li>
+                <li>Claim 3: <a>title here</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- HTML ends -->
+
+<script>
+$(function() {
+    c = console;
+    var valMap = [0, 20, 40, 60, 80, 100];
+    $("#slider-range").slider({
+        min: 1,
+        max: valMap.length - 1,
+        value: 0,
+        slide: function(event, ui) {                        
+            $("#amount").val(valMap[ui.value]);                
+        }       
+    });
+
+    // Slider ruler:
+//        var myl = $("#slider-range").width();
+//        $("#slider-length").val(myl);
+//        var numTicks = valMap.length;
+//        c.log(numTicks);
+//        var eachTick = Math.floor(myl/numTicks)
+//        c.log("eachTick: "+eachTick);
+
+//        sl = $(".nav").width();
+//        $('.nav').promise().done(function(){
+//            $("#slider-range").css({width: sl});
+//            c.log("sl: "+sl);
+//        });
+    //$('#slider-range').promise().done(function(){
+//        for ($i=0;$i<numTicks-1;$i++) {
+//           $("#slider-range").append("<span>"+$i+"</span>");
+//            $("#slider-range span").css({width: eachTick}).css({border:"1px solid red"});
+//        }
+    //});
+})
+</script>
 </body>
 </html>
