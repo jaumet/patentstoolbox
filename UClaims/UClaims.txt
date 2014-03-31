@@ -18,7 +18,7 @@ DONE 0- Create page schema: bootstrap, css, ...
 
 
 
-2- Get claim json definition (Gaby)
+DONE 2- Get claim json definition (Gaby)
 
 3- Code the Claim.json loader (Jaume)
 

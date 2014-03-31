@@ -49,9 +49,6 @@ body {
 .mycontainer:after {
 	clear:none;
 }
-.mycontainer {
-	height:100%;
-}
 .my {
 	padding:0;
 }
@@ -65,6 +62,7 @@ body {
 }
 #sidebar {
   margin-top:20px;
+	height:700px;
 }
 #right p {
 	text-align:center;
@@ -83,9 +81,24 @@ body {
 }
 .steps {
   float:left;
-  width:75px;
+  width:100px;
+  height:5px;
   border-right: 1px solid red;
 }
+li a {
+  padding:0;
+  padding-left:-10px;
+}
 ul.nav {
-  padding-left:20px;
-|
+  padding-left:0;
+}
+
+/*****************************************/
+.center {
+	height:100%;
+  margin-top:100px;
+  margin-left:20px;
+  width:80%;
+}
+
+

@@ -6,11 +6,12 @@
 <title>UClaims :: visualization degree</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
-<!--    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script> -->
+<script src="js/jquery-linedtextarea.js"></script>
 
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
 <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
 <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
+<link href="css/jquery-linedtextarea.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <style>
     .ui-slider-handle {
@@ -19,7 +20,7 @@
 
     #slider-range {
         background-color: green;
-        width: 26%; /*80%;*/
+        width: 35%; /*80%;*/
         margin: 40px 40px 10px 20px;
         
     }
@@ -38,31 +39,18 @@
             </button>
             <a class="brand" href="#">JMLR Volumen 28</a>
             <div class="nav-collapse collapse">
-                <div id="slider-range" class="ui-slider">
-                    <span class="steps">0</span>
-                    <span class="steps">1</span>
-                    <span class="steps">2</span>
-                    <span class="steps">3</span>
-                </div>
                 <ul class="nav">
-                    <li class="steps"><a href="http://jmlr.org/">0 Raw</a></li>
-                    <li class="steps"><a href="index.html">1 Indented</a></li>
-                    <li class="steps"><a href="area.html">2 Numered</a></li>
-                    <li class="steps"><a href="http://jmlr.org/proceedings/papers/v28/">3 Graphic</a></li>
+                    <li><a id="raw" href="#">Raw</a></li>
+                    <li><a id="seg1" href="#">Segment1</a></li>
+                    <li><a id="seg2" href="#">Segment2</a></li>
+                    <li><a id="indent" href="#">Indent</a></li>
+                    <li><a id="numbers" href="#">Numered</a></li>
+                    <li><a id="bars" href="#">Graphic</a></li>
                     <li class="active dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">JMLR Menu<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="http://jmlr.org//author-info.html">Submissions</a></li>
-                            <li><a href="http://jmlr.org//news.html">News</a></li>
-                            <li><a href="http://jmlr.org//editorial-board.html">Editorial Board </a></li>
-                            <li><a href="http://jmlr.org//announcements.html">Announcements </a></li>
-                            <li><a href="http://jmlr.org//proceedings">Proceedings </a></li>
-                            <li><a href="http://jmlr.org//mloss">Open Source Software</a></li>
-                            <li><a href="http://jmlr.org//search-jmlr.html">Search </a></li>
-                            <li><a href="http://jmlr.org//manudb">Login </a></li>
-                        </ul>
                     </li>
                 </ul>
+                <div id="slider-range" class="ui-slider"></div>
                 <!--
                     <form class="navbar-form pull-right">
                     <input class="span2" type="text" placeholder="Email">
@@ -88,6 +76,7 @@
             <input type="text" id="slider-length"/>
         </div>
     </div>
+        
     <div class="hero-unit" id="sidebar" data-spy="affix" style="position:relative;float:left;width:15%;">
         <p>List of claims:</p>
         <p id="myp"><a id="showall" class="btn btn-primary"/>show/check all</a></p>
@@ -99,42 +88,117 @@
             </ul>
         </div>
     </div>
+    <div class="center">
+      <div id="myclaim">
+        <p class="preamble">A method</p> 
+        <p class="preamble">
+          for manufacturing the bevel gear member
+          <br />
+          (as defined in CLaim 1)
+        </p> 
+
+        <p class="transition">wherein</p>
+
+        <p class="body">
+          the step of forming gear teeth uses gear cutter blades each including:
+          <br />
+          <ul>
+            <li class="item">a shank and a cutting member</li>
+            <li class="item">having a cutting edge</li>
+            <li class="item">having a first section</li>
+            <li class="item">extending from a distal end of said shank at a given axial pressure angle</li>
+            <li class="item">and dimensioned to cut at least one of side profiles of said gear teeth of said bevel gear blank</li>
+            <li class="item">and a second section</li>
+            <li class="item">substantially perpendicular to a central axis of said cutter blade</li>
+            <li class="item">and dimensioned to cut at least a substantial portion of a top land of said gear teeth</li>
+          </ul>
+        </p>
+
+        <p class="body">so that</p>
+
+        <p class="body">
+          each of said gear cutter blades forms at least a substantial portion of said top land of said teeth of said bevel gear member simultaneously with said side profile thereof.
+        </p>
+      </div>
+    </div>
+
 </div>
 <!-- HTML ends -->
 
 <script>
 $(function() {
     c = console;
-    var valMap = [0, 20, 40, 60, 80, 100];
+    var valMap = [0, 20, 40, 60, 80, 100, 120];
     $("#slider-range").slider({
         min: 1,
         max: valMap.length - 1,
         value: 0,
-        slide: function(event, ui) {                        
-            $("#amount").val(valMap[ui.value]);                
-        }       
+        slide: function(event, ui) {
+            $("#amount").val(valMap[ui.value]);
+        },
+        change: function( event, ui ) {
+            c.log("val: "+valMap[ui.value]);
+        }
     });
 
-    // Slider ruler:
-//        var myl = $("#slider-range").width();
-//        $("#slider-length").val(myl);
-//        var numTicks = valMap.length;
-//        c.log(numTicks);
-//        var eachTick = Math.floor(myl/numTicks)
-//        c.log("eachTick: "+eachTick);
+  // Textarea with line numbers
+  $("#myclaim").linedtextarea();
 
-//        sl = $(".nav").width();
-//        $('.nav').promise().done(function(){
-//            $("#slider-range").css({width: sl});
-//            c.log("sl: "+sl);
-//        });
-    //$('#slider-range').promise().done(function(){
-//        for ($i=0;$i<numTicks-1;$i++) {
-//           $("#slider-range").append("<span>"+$i+"</span>");
-//            $("#slider-range span").css({width: eachTick}).css({border:"1px solid red"});
-//        }
-    //});
-})
+  // Change claim style
+
+  function ChangeClaimStyle(mystyle) {
+    switch(mystyle)  {
+      case "raw":
+      console.log("RAW");
+        $('.preamble').css({"padding-left":"0", "color":"red"});
+        $('.body').css({"padding-left":"0", "color":"green"});
+        $('.transition').css({"padding-left":"0", "color":"blue"});
+        $('.item').css({"padding-left":"0", "color":"grey"});
+      break;
+      case "seg1":
+        $('.preamble').css({"padding-left":"0", "color":"black"});
+        $('.body').css({"padding-left":"400px", "color":"black"});
+        $('.transition').css({"padding-left":"0", "color":"black"});
+        $('.item').css({"padding-left":"400px", "color":"black"});
+      break;
+      case "seg2":
+        console.log("SEG2");
+        $('.preamble').css({"padding-left":"0", "color":"red"});
+        $('.body').css({"padding-left":"400px", "color":"red"});
+        $('.transition').css({"padding-left":"0", "color":"red"});
+        $('.item').css({"padding-left":"400px", "color":"red"});        
+      break;
+      case "indent":
+        $('.preamble').css({"padding-left":"0", "color":"blue"});
+        $('.body').css({"padding-left":"400px", "color":"blue"});
+        $('.transition').css({"padding-left":"0", "color":"blue"});
+        $('.item').css({"padding-left":"400px", "color":"blue"});
+      break;
+      case "numbers":
+        $('.preamble').css({"padding-left":"0", "color":"grey"});
+        $('.body').css({"padding-left":"400px", "color":"grey"});
+        $('.transition').css({"padding-left":"0", "color":"grey"});
+        $('.item').css({"padding-left":"400px", "color":"grey"});        
+      break;
+      case "bars":
+        $('.preamble').css({"padding-left":"0", "color":"red"});
+        $('.body').css({"padding-left":"400px", "color":"red"});
+        $('.transition').css({"padding-left":"0", "color":"red"});
+        $('.item').css({"padding-left":"400px", "color":"red"});        
+      break;
+      default:
+        $('.preamble').css({"padding-left":"0", "color":"red"});
+        $('.body').css({"padding-left":"0", "color":"green"});
+        $('.transition').css({"padding-left":"0", "color":"blue"});
+        $('.item').css({"padding-left":"0", "color":"grey"});
+    }
+  };  
+
+  $("ul.nav li a").on('click', function() {
+    alert("ID: "+this.id);
+    ChangeClaimStyle(this.id);
+  });
+});
 </script>
 </body>
 </html>
