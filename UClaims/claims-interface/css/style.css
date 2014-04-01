@@ -24,81 +24,63 @@ body {
   color:black;
   
 }
-#countercontainer {
-  background-color:grey;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  border-bottom-left-radius:20%;
-  border-bottom-right-radius:20%;
-  border-top-left-radius:20%;
-  border-top-right-radius:20%;
-  display:inline-block;
-  padding:7px;
-  text-align:center;
-  }
-#counter {
-  color:#ffffff;
-  font-size:70px;
-}
 
 .hero-unit {
-	padding:0;
+	padding:20px;
 	padding-top:0;
 	background-color:#EFEFEF;
 }
 .mycontainer:after {
 	clear:none;
 }
-.my {
-	padding:0;
-}
-#right {
-	position:relative;
-	float:right;
-	width:100px;
-	font-size:14px;
-  margin-right:20%;
-  margin-top:20px;
-}
+
 #sidebar {
-  margin-top:20px;
+  margin-top:0;
 	height:700px;
-}
-#right p {
-	text-align:center;
-}
-.checkbox {
-	/*float:left;*/
-	border:0px solid grey;
-	margin-left:4px;
-	padding-left:25px;
-	/*width: 150px;*/
-}
-#title {
-	padding-left:20px;
-	position:relative;
-	float:left;
-}
-.steps {
+  width:20%;
   float:left;
-  width:100px;
-  height:5px;
-  border-right: 1px solid red;
-}
-li a {
-  padding:0;
-  padding-left:-10px;
-}
-ul.nav {
-  padding-left:0;
 }
 
-/*****************************************/
 .center {
 	height:100%;
-  margin-top:100px;
+  margin-top:20px;
   margin-left:20px;
-  width:80%;
+  width:70%;
+  float:left;
 }
 
+#myclaimslist td {
+  padding:7px;
+}
+#myclaimslist td.kind {
+  border-right:1px solid #000000;
+}
+#myclaimslist td.claim {
+  border-bottom:1px solid black;
+}
 
+#myclaim table {
+  padding:15px;
+}
+
+#myclaim table tr td {
+  padding:15px;
+  border:1px solid #CCCCCC;
+}
+
+#myraw, #mypreamble, #mybody, #mytransition {
+  color: #CCCCCC;
+}
+#myraw {
+  min-width:80px;
+}
+
+.myoptionlegend {
+  color: grey;
+  padding:20px;
+}
+
+.container a.active {
+  color: #000000;
+  background-color: grey;
+}
