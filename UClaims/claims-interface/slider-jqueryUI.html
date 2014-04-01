@@ -6,25 +6,10 @@
   <title>UClaims :: visualization degree</title>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
-  <script src="js/jquery-linedtextarea.js"></script>
 
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/minified/jquery.ui.slider.min.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/css/base/jquery.ui.slider.css" rel="stylesheet">
-  <link href="css/jquery-linedtextarea.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <style>
-      .ui-slider-handle {
-          background-color: red;
-      }
 
-      #slider-range {
-          background-color: green;
-          width: 35%; /*80%;*/
-          margin: 40px 40px 10px 20px;
-          
-      }
-  </style>
+  <link href="css/style.css" rel="stylesheet">
   <script type='text/javascript' src='data/myclaims-styled.js'></script>
 </head>
 
@@ -33,10 +18,10 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <a class="brand" href="#">Patent claims readability: &nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a id="case1" class="brand case" href="#">Case 1</a>
-      <a id="case2" class="brand case" href="#">Case 2</a>
-      <a id="case3" class="brand case" href="#">Case 3</a>
+      <a class="brand" href="slider-jqueryUI.html">Patent claims readability: &nbsp;&nbsp;&nbsp;&nbsp;</a> 
+      <a id="case1" class="brand case" href="#">Test 1</a>
+      <a id="case2" class="brand case" href="#">Test 2</a>
+      <a id="case3" class="brand case" href="#">Test 3</a>
     </div>
   </div>
 </div>
@@ -61,7 +46,7 @@ $(function() {
         my = this.id.split('-');
         tid = my[0];
         pid = my[1];
-        myhtml = '<h2> Claim '+tid+'</h2><p class="myoptionlegend">'+MYSHORTNAMES[pid]+'</p>'+MYCLAIMS[tid][pid];
+        myhtml = '<h3>'+MYCLAIMS[tid]["name"]+'</h3><p class="myoptionlegend">'+MYSHORTNAMES[pid]+'</p>'+MYCLAIMS[tid][pid];
         $('#myclaim').html(myhtml);
       });
       console.log("case: "+this.id+" | MYDEFAULT[this.id]: "+MYDEFAULT[this.id]);

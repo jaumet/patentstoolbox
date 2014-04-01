@@ -6,81 +6,100 @@
 body {
   padding-top: 60px;
   padding-bottom: 40px;
-  padding-left:20px;
-  height:100%;
+  padding-left: 20px;
+  height: 100%;
 }
+
 .circle {
-  background-color:orange;
-  background-position:initial initial;
-  background-repeat:initial initial;
-  border-bottom-left-radius:50%;
-  border-bottom-right-radius:50%;
-  border-top-left-radius:50%;
-  border-top-right-radius:50%;
-  display:inline-block;
-  margin-top:2px;
-  margin-bottom:2px;
+  background-color: orange;
+  background-position: initial initial;
+  background-repeat: initial initial;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  display: inline-block;
+  margin-top: 2px;
+  margin-bottom: 2px;
   /*margin:2px 40% 2px auto;*/
-  color:black;
+  color: black;
   
 }
 
 .hero-unit {
-	padding:20px;
-	padding-top:0;
-	background-color:#EFEFEF;
+	padding: 20px;
+	padding-top: 0;
+	background-color: #EFEFEF;
 }
 .mycontainer:after {
-	clear:none;
+	clear: none;
 }
 
 #sidebar {
-  margin-top:0;
-	height:700px;
-  width:20%;
-  float:left;
+  margin-top: 0;
+	height: 700px;
+  width: 300px;
+  float: left;
 }
 
 .center {
-	height:100%;
-  margin-top:20px;
-  margin-left:20px;
-  width:70%;
-  float:left;
+	height: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 700px;
+  float: left;
+}
+
+#myclaimslist table {
+  width: 280px;
 }
 
 #myclaimslist td {
-  padding:7px;
+  padding: 7px;
 }
+
 #myclaimslist td.kind {
-  border-right:1px solid #000000;
+  border-right: 1px solid #000000;
 }
+
 #myclaimslist td.claim {
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #myclaim table {
-  padding:15px;
+  padding: 15px;
 }
 
 #myclaim table tr td {
-  padding:15px;
-  border:1px solid #CCCCCC;
+  padding: 15px;
 }
 
 #myraw, #mypreamble, #mybody, #mytransition {
   color: #CCCCCC;
 }
+
 #myraw {
-  min-width:80px;
+  min-width: 80px;
 }
 
 .myoptionlegend {
   color: grey;
-  padding:20px;
+  padding: 20px;
 }
 
 .container a.active {
   color: #000000;
   background-color: grey;
+}
+
+p span.numbers {
+  background-color: #CCCCCC;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  margin-right: 5px;
+}
+
+.numberstransition {
+  /*font-weight: bold;*/
+  text-transform: uppercase;
 }
