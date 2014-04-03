@@ -19,9 +19,9 @@
   <div class="navbar-inner">
     <div class="container">
       <a class="brand" href="slider-jqueryUI.html">Patent claims readability: &nbsp;&nbsp;&nbsp;&nbsp;</a> 
-      <a id="case1" class="brand case" href="#">Test 1</a>
-      <a id="case2" class="brand case" href="#">Test 2</a>
-      <a id="case3" class="brand case" href="#">Test 3</a>
+      <a id="case1" class="brand case" href="?t=1">Test 1</a>
+      <a id="case2" class="brand case" href="?t=2">Test 2</a>
+      <a id="case3" class="brand case" href="?t=3">Test 3</a>
     </div>
   </div>
 </div>
@@ -40,40 +40,62 @@
 <script>
 $(function() {
   
+  function getParameterByName(name) {
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+  }
+  
+  function mytest(myid, MYCLAIMS, MYDEFAULT, MYSHORTNAMES)  {
+    $('#sidebar').html(MYTABLES[myid]);
+    $('#myclaim').html(MYDEFAULT['all']+MYDEFAULT[myid]);
+  
+
+  // Central 
+  $("#myclaimslist tr td a").on('click', function() {
+	my = this.id.split('-');
+	tid = my[0];
+	pid = my[1];
+	myhtml = '<h3>'+MYCLAIMS[tid]["name"]+'</h3><p class="myoptionlegend">'+MYSHORTNAMES[pid]+'</p>'+MYCLAIMS[tid][pid];
+	$('#myclaim').html(myhtml);
+  });
+  }    
   $("a.case").on('click', function() {
 
       // Table of options
-      $('#sidebar').html(MYTABLES[this.id]);
-
-      // Central 
-      $("#myclaimslist tr td a").on('click', function() {
-        my = this.id.split('-');
-        tid = my[0];
-        pid = my[1];
-        myhtml = '<h3>'+MYCLAIMS[tid]["name"]+'</h3><p class="myoptionlegend">'+MYSHORTNAMES[pid]+'</p>'+MYCLAIMS[tid][pid];
-        $('#myclaim').html(myhtml);
-      });
-      $('#myclaim').html(MYDEFAULT['all']+MYDEFAULT[this.id]);
+      mytest(myid);
 
       // Put eye active PNG on click
       $('#myclaimslist tr td a').click(function(e) {
         $('#myclaimslist tr td a').html('<img src="images/eye.png" />');
         $(this).html('<img src="images/eye-active.png" />');
-      });
-      
-  });  
+      });      
+      e.preventDefault();
+    });
   
+  function myeye(myid)  {
+	$('.navbar a.active').removeClass('active');
+	console.log("myid: 	"+myid);
+    if (!$("#"+myid).hasClass('active')) {
+        $("#"+myid).addClass('active');
+    }  
+  }
+
   $('.navbar a').click(function(e) {
-    $('.navbar a.active').removeClass('active');
-    var $this = $(this);
-    if (!$this.hasClass('active')) {
-        $this.addClass('active');
-    }
-    e.preventDefault();
+    myeye(this.id);
   });  
-  
+
+  var t = '';
+  myt = getParameterByName("t");
+  if ( myt == '1')  { mytest("case1", MYCLAIMS, MYDEFAULT, MYSHORTNAMES); myeye("case1");}
+  if ( myt == '2')  { mytest("case2", MYCLAIMS, MYDEFAULT, MYSHORTNAMES); myeye("case2");}
+  if ( myt == '3')  { mytest("case3", MYCLAIMS, MYDEFAULT, MYSHORTNAMES); myeye("case3");}
+
 });
+
 $('#myclaim').html(MYDEFAULT['all']);
+
+
+
+
 </script>
 </body>
 </html>
