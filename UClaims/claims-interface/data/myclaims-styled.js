@@ -5,11 +5,53 @@ MYSHORTNAMES =
   "seg2": "Segmantation 2: showing preamble, transition and body of the claim",
   "indent": "Indentation: showing indented preamble, transition and body of the claim",
   "numbers": "Numbers: ",
-  "bars": "Bars: "
+  "bars": "Bars: ",
+  "marked": "Text marked with alerts and highlights.",
+  "images": "Claim with related images."
 };
 
 MYTABLES =
-{'case1': '<p>List of claims:</p>\
+{'case1': '<p>Test 1. LList of claims:</p>\
+        <table id="myclaimslist">\
+          <tr>\
+            <td></td>\
+            <td class="claim">Claim 1</td>\
+            <td class="claim">Claim 2</td>\
+            <td class="claim">Claim 3</td>\
+          <tr/>\
+          <tr><tr>\
+            <td class="kind">Raw</td>\
+            <td><a id="1-raw" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-raw" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-raw" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Segment1</td>\
+            <td><a id="1-seg1" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-seg1" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-seg1" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Segment2</td>\
+            <td><a id="1-seg2" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-seg2" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-seg2" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Indent</td>\
+            <td><a id="1-indent" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-indent" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-indent" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Numered</td>\
+            <td><a id="1-numbers" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-numbers" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-numbers" href="#"><img src="images/eye.png" /></a></td>\
+          </tr>\
+            <td class="kind">Graphic</td>\
+            <td><a id="1-bars" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-bars" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-bars" href="#"><img src="images/eye.png" /></a></td>\
+          </tr>\
+        </table>',
+  'case2': '<p>Test 2. List of claims0:</p>\
         <table id="myclaimslist">\
           <tr>\
             <td></td>\
@@ -22,35 +64,33 @@ MYTABLES =
             <td><a id="1-raw" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="2-raw" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="3-raw" href="#"><img src="images/eye.png" /></a></td>\
-          </tr>\
-            <td class="kind">Segment1</td>\
-            <td><a id="1-seg1" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="2-seg1" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="3-seg1" href="#"><img src="images/eye.png" /></a></td>\
-          </tr>\
-            <td class="kind">Segment2</td>\
-            <td><a id="1-seg2" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="2-seg2" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="3-seg2" href="#"><img src="images/eye.png" /></a></td>\
-          </tr>\
-            <td class="kind">Indent</td>\
-            <td><a id="1-indent" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="2-indent" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="3-indent" href="#"><img src="images/eye.png" /></a></td>\
-          </tr>\
-            <td class="kind">Numered</td>\
-            <td><a id="1-numbers" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="2-numbers" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="3-numbers" href="#"><img src="images/eye.png" /></a></td>\
-          </tr>\
-            <td class="kind">Graphic</td>\
-            <td><a id="1-bars" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="2-bars" href="#"><img src="images/eye.png" /></a></td>\
-            <td><a id="3-bars" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Marked</td>\
+            <td><a id="4-marked" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="5-marked" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="6-marked" href="#"><img src="images/eye.png" /></a></td>\
           </tr>\
         </table>',
-  'case2': 'case 2',
-  'case3': 'case 3',
+  'case3': '<p>Test 2. List of claims0:</p>\
+        <table id="myclaimslist">\
+          <tr>\
+            <td></td>\
+            <td class="claim">Claim 1</td>\
+            <td class="claim">Claim 2</td>\
+            <td class="claim">Claim 3</td>\
+          <tr/>\
+          <tr>\
+            <td class="kind">Raw</td>\
+            <td><a id="1-raw" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-raw" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-raw" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Marked</td>\
+            <td><a id="7-images" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="8-images" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="9-images" href="#"><img src="images/eye.png" /></a></td>\
+          </tr>\
+        </table>'
 };
 
 MYDEFAULT = 
@@ -66,6 +106,7 @@ MYCLAIMS =
 [
   {'empty': 'empty'},
   {
+    'descriptio':'TEST 1 + CLAIM 1',
     'name':'Patent ID: EP0019018A1_claim_4',
     'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
       A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
@@ -73,9 +114,9 @@ MYCLAIMS =
     'seg1':'<table>\
               <tr>\
                 <td id="mypreamble">PREAMBLE</td>\
-                <td>\
-                  <p>A boring tool\
-                </td>\
+                <td><p>\
+                  A boring tool\
+                  </p></td>\
               </tr>\
               <tr>\
                 <td id="mytransition">TRANSITION</td>\
@@ -141,24 +182,429 @@ MYCLAIMS =
     'numbers':'<table>\
               <tr>\
                 <td id="mypreamble">PREAMBLE</td>\
-                <td><p><span class="numbers" style="padding-right: 2px;">1-</span> A boring tool</p></td>\
+                <td><p><span class="numbers" style="width: 40px;">1&nbsp;</span> A boring tool</p></td>\
               </tr>\
               <tr>\
                 <td id="mytransition">TRANSITION</td>\
-                <td><p><span class="numbers" style="padding-right: 20px;">--></span><span class="numberstransition">characterised in that</span></p></td>\
+                <td><p><span class="numbers" style="width: 40px;"><img src="images/chain.png" /></span><span class="numberstransition">characterised in that</span></p></td>\
               </tr>\
               <tr>\
                 <td id="mybody">BODY</td>\
                 <td><p>\
-                  <span class="numbers" style="padding-right: 40px;">1.1-</span>the head lies within a cylindrical cavity \
-                  <br /><span class="numbers" style="padding-right: 60px;">1.1.1-</span>extending inwardly from one end of the body member, \
-                  <br /><span class="numbers" style="padding-right: 40px;">1.1.2-</span>the open end of the cavity being closed by a plug \
-                  <br /><span class="numbers" style="padding-right: 60px;">1.2-</span>which backs a frusto-conical pressure pad \
-                  <br /><span class="numbers" style="padding-right: 80px;">1.2.1-</span>supporting the cutter blades.\
+                  <span class="numbers" style="width: 80px;">1 . 1</span>the head lies within a cylindrical cavity \
+                  <br /><span class="numbers" style="width: 100px;">1 . 1 . 1</span>extending inwardly from one end of the body member, \
+                  <br /><span class="numbers" style="width: 80px;">1 . 2</span>the open end of the cavity being closed by a plug \
+                  <br /><span class="numbers" style="width: 100px;">1 . 2 . 1</span>which backs a frusto-conical pressure pad&nbsp; \
+                  <br /><span class="numbers" style="width: 120px;">1 . 2 . 1 . 1</span>supporting the cutter blades.\
                   </p>\
                 </td>\
               </tr>\
             </table>',
-    'bars':'lala BARS'
+    'bars':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="bars bars_pre" style="width: 135px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;A boring tool</p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="bars bars_trans" style="width: 135px;">&nbsp;</span>&nbsp;<img src="images/chain.png" />&nbsp;&nbsp;<span class="numberstransition">characterised in that</span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;the head lies within a cylindrical cavity \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;extending inwardly from one end of the body member, \
+                  <br /><span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;the open end of the cavity being closed by a plug \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;which backs a frusto-conical pressure pad \
+                  <br /><span class="bars" style="width: 80px;">&nbsp;</span><span class="bars bars_body_2" style="width: 40px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;supporting the cutter blades.\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>'
+  },
+  {
+    'descriptio':'TEST 1 + CLAIM 2',
+    'name':'Patent ID: XXXX',
+    'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      A throwaway insert comprising : an insert body formed in a polygonal shape;  a cutting face formed by a polygonal face of the insert body;  a corner cutting edge which is formed in a curved shape at a corner of the cutting face; a major cutting edge which is formed along a side edge of the cutting face that is connected to a first end of the corner cutting edge;  and a concave portion which is formed , in another side edge of the cutting face that is connected to a second end of the corner cutting edge, so as to be adjacent to the second end of the corner cutting edge, and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge drawn at the second end of the comer cutting edge. \
+      <p></p></td></tr></table>',
+    'seg1':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p>\
+                A throwaway insert \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p>\
+                comprising:\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  an insert body formed in a polygonal shape;  a cutting face formed by a polygonal face of the insert body;  a corner cutting edge which is formed in a curved shape at a corner of the cutting face; a major cutting edge which is formed along a side edge of the cutting face that is connected to a first end of the corner cutting edge;  and a concave portion which is formed , in another side edge of the cutting face that is connected to a second end of the corner cutting edge, so as to be adjacent to the second end of the corner cutting edge, and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge drawn at the second end of the comer cutting edge. \
+                </p></td>\
+              </tr>\
+            </table>',
+    'seg2':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p>\
+                A throwaway insert\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p>\
+                comprising:\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  an insert body formed in a polygonal shape; \
+                  <br />a cutting face \
+                  <br />formed by a polygonal face of the insert body ; \
+                  <br />a corner cutting edge \
+                  <br />which is formed in a curved shape at a corner of the cutting face ; \
+                  <br />a major cutting edge \
+                  <br />which is formed along a side edge of the cutting face \
+                  <br />that is connected to a first end of the corner cutting edge ; \
+                  <br />and a concave portion \
+                  <br />which is formed , in another side edge of the cutting face \
+                  <br />that is connected to a second end of the corner cutting edge, \
+                  <br />so as to be adjacent to the second end of the corner cutting edge,\
+                  <br />and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge \
+                  <br />drawn at the second end of the comer cutting edge.\
+                </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'indent':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p>\
+                A throwaway insert \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span style="padding-left: 20px;"></span>\
+                comprising: \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span style="padding-left: 40px;"></span>\
+                  an insert body formed in a polygonal shape; \
+                  <br /><span  style="padding-left: 40px;"></span>a cutting face \
+                  <br /><span  style="padding-left: 40px;"></span>formed by a polygonal face of the insert body ; \
+                  <br /><span  style="padding-left: 60px;"></span>a corner cutting edge \
+                  <br /><span  style="padding-left: 40px;"></span>which is formed in a curved shape at a corner of the cutting face ; \
+                  <br /><span  style="padding-left: 60px;"></span>a major cutting edge \
+                  <br /><span  style="padding-left: 40px;"></span>which is formed along a side edge of the cutting face \
+                  <br /><span  style="padding-left: 60px;"></span>that is connected to a first end of the corner cutting edge ; \
+                  <br /><span  style="padding-left: 80px;"></span>and a concave portion \
+                  <br /><span  style="padding-left: 40px;"></span>which is formed , in another side edge of the cutting face \
+                  <br /><span  style="padding-left: 60px;"></span>that is connected to a second end of the corner cutting edge, \
+                  <br /><span  style="padding-left: 80px;"></span>so as to be adjacent to the second end of the corner cutting edge,\
+                  <br /><span  style="padding-left: 100px;"></span>and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge \
+                  <br /><span  style="padding-left: 40px;"></span>drawn at the second end of the comer cutting edge.\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'numbers':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="numbers" style="width: 40px;">1&nbsp;</span>\
+                A throwaway insert \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="numbers" style="width: 40px;"><img src="images/chain.png" /></span><span class="numberstransition">\
+                comprising: \
+                </span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span class="numbers" style="width: 80px;">1 . 1</span>\
+                  an insert body formed in a polygonal shape; \
+                  <br /><span class="numbers" style="width: 80px;">1 . 2</span>\
+                  a cutting face \
+                  <br /><span class="numbers" style="width: 100px;">1 . 2 . 1</span>\
+                  formed by a polygonal face of the insert body;\
+                  <br /><span class="numbers" style="width: 80px;">1 . 3</span>\
+                  a corner cutting edge\
+                  <br /><span class="numbers" style="width: 100px;">1 . 3 . 1</span>\
+                  which is formed in a curved shape at a corner of the cutting face;\
+                  <br /><span class="numbers" style="width: 80px;">1 . 4</span>\
+                  a major cutting edge\
+                  <br /><span class="numbers" style="width: 100px;">1 . 4 . 1</span>\
+                  which is formed along a side edge of the cutting face\
+                  <br /><span class="numbers" style="width: 120px;">1 . 4 . 1 . 1</span>\
+                  that is connected to a first end of the corner cutting edge;\
+                  <br /><span class="numbers" style="width: 80px;">1 . 5</span>\
+                  and a concave portion\
+                  <br /><span class="numbers" style="width: 100px;">1 . 5 . 1</span>\
+                  which is formed , in another side edge of the cutting face\
+                  <br /><span class="numbers" style="width: 120px;">1 . 5 . 1 . 1</span>\
+                  that is connected to a second end of the corner cutting edge,\
+                  <br /><span class="numbers" style="width: 140px;">1 . 5 . 1 . 1 . 1</span>\
+                  so as to be adjacent to the second end of the corner cutting edge,\
+                  <br /><span class="numbers" style="width: 140px;">1 . 5 . 1 . 1 . 1</span>\
+                  and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge\
+                  <br /><span class="numbers" style="width: 100px;">1 . 5 . 2</span>\
+                  drawn at the second end of the comer cutting edge.\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'bars':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="bars bars_pre" style="width: 135px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                XXXX \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="bars bars_trans" style="width: 135px;">&nbsp;</span>&nbsp;<img src="images/chain.png" />&nbsp;&nbsp;<span class="numberstransition">\
+                XXXX\
+                </span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 80px;">&nbsp;</span><span class="bars bars_body_2" style="width: 40px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>'
+  },
+  {
+    'descriptio':'TEST 1 + CLAIM 3',
+    'name':'Patent ID: XXXX',
+    'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      XXXX.\
+      <p></p></td></tr></table>',
+    'seg1':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p>\
+                XXXX\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p>\
+                characterised in that\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  XXXX.\
+                </p></td>\
+              </tr>\
+            </table>',
+    'seg2':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p>\
+                  XXXX\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p>\
+                  XXXX\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  XXXX \
+                  <br />XXXX \
+                  <br />XXXX \
+                  <br />XXXX \
+                  <br />XXXX\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'indent':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p>\
+                  XXXX\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span style="padding-left: 20px;"></span>\
+                XXXX\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span style="padding-left: 40px;"></span>\
+                  XXXX \
+                  <br /><span  style="padding-left: 60px;"></span>XXXX \
+                  <br /><span  style="padding-left: 40px;"></span>XXXX \
+                  <br /><span  style="padding-left: 60px;"></span>XXXX \
+                  <br /><span  style="padding-left: 80px;"></span>XXXX\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'numbers':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="numbers" style="width: 40px;">1&nbsp;</span>\
+                XXXX\
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="numbers" style="width: 40px;"><img src="images/chain.png" /></span><span class="numberstransition">\
+                XXXX\
+                </span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span class="numbers" style="width: 80px;">1 . 1</span>\
+                  XXXX \
+                  <br /><span class="numbers" style="width: 100px;">1 . 1 . 1</span>\
+                  XXXX \
+                  <br /><span class="numbers" style="width: 80px;">1 . 1 . 2</span>\
+                  XXXX \
+                  <br /><span class="numbers" style="width: 100px;">1 . 2</span>\
+                  XXXX \
+                  <br /><span class="numbers" style="width: 120px;">1 . 2 . 1</span>\
+                  XXXX \
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'bars':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="bars bars_pre" style="width: 135px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                XXXX \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="bars bars_trans" style="width: 135px;">&nbsp;</span>&nbsp;<img src="images/chain.png" />&nbsp;&nbsp;<span class="numberstransition">\
+                XXXX\
+                </span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY</td>\
+                <td><p>\
+                  <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX \
+                  <br /><span class="bars" style="width: 80px;">&nbsp;</span><span class="bars bars_body_2" style="width: 40px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
+                  XXXX\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>'
+  },
+  {  ////////////////////////////////// TEST 2
+    'descriptio':'TEST 2 + CLAIM 1',
+    'name':'Patent ID: XXXX',
+    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      //A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
+      //<p></p></td></tr></table>',
+    'marked':'<table><tr><td id="myraw">MARKED CLAIM</td><td>\
+      A boring tool <span title="Having at least the following elements/steps" class="vocabulary">characterised in</span> that the head lies within a cylindrical cavity extending <span id="XXXX" class="myalert">inwardly</span> from one end of the body member, the open end of the cavity being closed by a <span id="" class="myalert">plug</span> which backs a frusto-conical pressure pad <span id="" class="myalert">supporting</span> the cutter blades.\
+      <p></p></td></tr></table>'
+  },
+  {
+    'descriptio':'TEST 2 + CLAIM 2',
+    'name':'Patent ID: TEST 2 + CLAIM 2',
+    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      //XXXX\
+      //<p></p></td></tr></table>',
+    'marked':'<table><tr><td id="myraw">MARKED CLAIM</td><td>\
+     XXXX\
+      <p></p></td></tr></table>'
+  },
+  {
+    'descriptio':'TEST 2 + CLAIM 1',
+    'name':'Patent ID: XXXX',
+    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      //A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
+      //<p></p></td></tr></table>',
+    'marked':'<table><tr><td id="myraw">MARKED CLAIM</td><td>\
+      A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
+      <p></p></td></tr></table>'
+  },
+  { ////////////////////////////////// TEST 3
+    'descriptio':'TEST 3 + CLAIM 1',
+    'name':'Patent ID: XXXX',
+    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      //A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
+      //<p></p></td></tr></table>',
+    'images':'<table><tr><td>\
+      <p><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" />\
+      </p>\
+      A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
+      <p></p></td></tr></table>'
+  },
+  {
+    'descriptio':'TEST 3 + CLAIM 2',
+    'name':'Patent ID: TEST 2 + CLAIM 2',
+    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      //XXXX\
+      //<p></p></td></tr></table>',
+    'images':'<table><tr><td>\
+     <p><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" />\
+      </p>\
+      XXXX\
+      <p></p></td></tr></table>'
+  },
+  {
+    'descriptio':'TEST 3 and 3 + CLAIM 3',
+    'name':'Patent ID: XXXX',
+    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
+      //A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
+      //<p></p></td></tr></table>',
+    'images':'<table><tr><td>\
+      <p><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" />\
+      </p>\
+      XXXX\
+      <p></p></td></tr></table>'
   }
 ];
+
+MYALERTS =
+{
+  "characterized_in":"Having at least the following elements/steps",
+  "qq":"qq",
+  "ww":"ww"
+};

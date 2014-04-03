@@ -68,10 +68,14 @@ body {
 
 #myclaim table {
   padding: 15px;
+  width: 1000px;
 }
 
 #myclaim table tr td {
-  padding: 15px;
+  padding: 0;
+  padding-left:15px;
+  padding-right:15px;
+  border:1px solid #cccccc;
 }
 
 #myraw, #mypreamble, #mybody, #mytransition {
@@ -92,14 +96,74 @@ body {
   background-color: grey;
 }
 
-p span.numbers {
-  background-color: #CCCCCC;
-  border-right: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  margin-right: 5px;
+/* numbers */
+p span.numbers {vocabulary
+  display:inline-block;
+  padding-right:5px;
+  background-color: #EFEFEF;
+  border-right: 0px solid grey;
+  border-bottom: 0px solid grey;
+  margin-right: 8px;
+  color:grey;
 }
 
 .numberstransition {
   /*font-weight: bold;*/
   text-transform: uppercase;
+}
+
+/* bars */
+
+.bars {
+  display:inline-block;
+  padding-right:15px;
+  background-repeat:repeat-x;
+  background-position:left bottom;
+  line-height:10px
+}
+
+.bars_pre {
+  background-image: url('../images/bars_pre.png');
+}
+
+.bars_trans {
+  background-image: url('../images/bars_trans.png');
+}
+
+.bars_body {
+  background-image: url('../images/bars_body.png');
+}
+
+.bars_body_1 {
+  background-image: url('../images/bars_body_1.png');
+}
+.ui-tooltip
+{
+    font-size:10pt;
+    font-family:Calibri;
+}
+.bars_body_2 {
+  background-image: url('../images/bars_body_2.png');
+}
+
+/* TEST 3 */
+
+.myalert {
+  background-color: #003399;
+  color:#ffffff;
+  padding-left:4px;
+  padding-right:4px;
+  border:1px solid #cccccc;
+}
+
+.vocabulary {
+  background-color: #99007f;
+  color:#ffffff;
+  padding-left:4px;
+  padding-right:4px;
+  border:1px solid #cccccc;
+}
+
+.myimages {
+  margin:10px;
 }

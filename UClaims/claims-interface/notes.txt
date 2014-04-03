@@ -1,0 +1,14 @@
+
+
+
+Mentions:
+
+	Softare:
+		- jquery
+		- bootstrap
+		- ...
+
+	Images:
+		- images/eye.png icon taken from wikipedia common [...link...?]
+		- images/chain.png icon taken from http://commons.wikimedia.org/wiki/File:Chain_link_icon.png?uselang=en-gb
+		- <br /> icon taken from http://commons.wikimedia.org/wiki/File:Br.png?uselang=en-gb
