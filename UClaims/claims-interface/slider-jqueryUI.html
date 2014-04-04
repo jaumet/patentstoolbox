@@ -47,33 +47,34 @@ $(function() {
   function mytest(myid, MYCLAIMS, MYDEFAULT, MYSHORTNAMES)  {
     $('#sidebar').html(MYTABLES[myid]);
     $('#myclaim').html(MYDEFAULT['all']+MYDEFAULT[myid]);
-  
 
-  // Central 
-  $("#myclaimslist tr td a").on('click', function() {
-	my = this.id.split('-');
-	tid = my[0];
-	pid = my[1];
-	myhtml = '<h3>'+MYCLAIMS[tid]["name"]+'</h3><p class="myoptionlegend">'+MYSHORTNAMES[pid]+'</p>'+MYCLAIMS[tid][pid];
-	$('#myclaim').html(myhtml);
-  });
+    console.log("-----------this: 	"+this);
+    // Put eye active PNG on click
+    $('#myclaimslist tr td a').click(function(e) {
+      $('#myclaimslist tr td a').html('<img src="images/eye.png" />');
+      $(this).html('<img src="images/eye-active.png" />');
+      e.preventDefault();
+    });      
+    
+
+    // Central 
+    $("#myclaimslist tr td a").on('click', function() {
+  	  my = this.id.split('-');
+  	  tid = my[0];
+  	  pid = my[1];
+  	  myhtml = '<h3>'+MYCLAIMS[tid]["name"]+'</h3><p class="myoptionlegend">'+MYSHORTNAMES[pid]+'</p>'+MYCLAIMS[tid][pid];
+      $('#myclaim').html(myhtml);
+    });
   }    
+  
   $("a.case").on('click', function() {
-
       // Table of options
       mytest(myid);
-
-      // Put eye active PNG on click
-      $('#myclaimslist tr td a').click(function(e) {
-        $('#myclaimslist tr td a').html('<img src="images/eye.png" />');
-        $(this).html('<img src="images/eye-active.png" />');
-      });      
-      e.preventDefault();
-    });
+  });
   
   function myeye(myid)  {
-	$('.navbar a.active').removeClass('active');
-	console.log("myid: 	"+myid);
+	  $('.navbar a.active').removeClass('active');
+	  console.log("myid: 	"+myid);
     if (!$("#"+myid).hasClass('active')) {
         $("#"+myid).addClass('active');
     }  
