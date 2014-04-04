@@ -35,16 +35,26 @@ MYTABLES =
             <td><a id="2-seg2" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="3-seg2" href="#"><img src="images/eye.png" /></a></td>\
           </tr><tr>\
-            <td class="kind">Indent</td>\
+            <td class="kind">Indent 1</td>\
             <td><a id="1-indent" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="2-indent" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="3-indent" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
+            <td class="kind">Indent 2</td>\
+            <td><a id="1-indent2" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-indent2" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-indent2" href="#"><img src="images/eye.png" /></a></td>\
           </tr><tr>\
             <td class="kind">Numered</td>\
             <td><a id="1-numbers" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="2-numbers" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="3-numbers" href="#"><img src="images/eye.png" /></a></td>\
-          </tr>\
+          </tr><tr>\
+            <td class="kind">Graphic B/W</td>\
+            <td><a id="1-barsbw" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="2-barsbw" href="#"><img src="images/eye.png" /></a></td>\
+            <td><a id="3-barsbw" href="#"><img src="images/eye.png" /></a></td>\
+          </tr><tr>\
             <td class="kind">Graphic</td>\
             <td><a id="1-bars" href="#"><img src="images/eye.png" /></a></td>\
             <td><a id="2-bars" href="#"><img src="images/eye.png" /></a></td>\
@@ -125,7 +135,7 @@ MYCLAIMS =
                 </td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
                 </p></td>\
@@ -145,7 +155,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   the head lies within a cylindrical cavity \
                   <br />extending inwardly from one end of the body member, \
@@ -168,13 +178,34 @@ MYCLAIMS =
                 <td><p><span style="padding-left: 20px;"></span>characterised in that</p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span style="padding-left: 40px;"></span>the head lies within a cylindrical cavity \
                   <br /><span  style="padding-left: 60px;"></span>extending inwardly from one end of the body member, \
                   <br /><span  style="padding-left: 40px;"></span>the open end of the cavity being closed by a plug \
                   <br /><span  style="padding-left: 60px;"></span>which backs a frusto-conical pressure pad \
                   <br /><span  style="padding-left: 80px;"></span>supporting the cutter blades.\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'indent2':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="numbers" style="padding-left: 40px;">&nbsp;</span> A boring tool</p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="numbers" style="padding-left: 40px;"><img src="images/chain.png" /></span><span class="numberstransition">characterised in that</span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY TEXT</td>\
+                <td><p>\
+                  <span class="numbers" style="padding-left: 80px;">&nbsp;</span>the head lies within a cylindrical cavity \
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>extending inwardly from one end of the body member, \
+                  <br /><span class="numbers" style="padding-left: 80px;">&nbsp;</span>the open end of the cavity being closed by a plug \
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>which backs a frusto-conical pressure pad&nbsp; \
+                  <br /><span class="numbers" style="padding-left: 120px;">&nbsp;</span>supporting the cutter blades.\
                   </p>\
                 </td>\
               </tr>\
@@ -189,13 +220,34 @@ MYCLAIMS =
                 <td><p><span class="numbers" style="width: 40px;"><img src="images/chain.png" /></span><span class="numberstransition">characterised in that</span></p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span class="numbers" style="width: 80px;">1 . 1</span>the head lies within a cylindrical cavity \
                   <br /><span class="numbers" style="width: 100px;">1 . 1 . 1</span>extending inwardly from one end of the body member, \
                   <br /><span class="numbers" style="width: 80px;">1 . 2</span>the open end of the cavity being closed by a plug \
                   <br /><span class="numbers" style="width: 100px;">1 . 2 . 1</span>which backs a frusto-conical pressure pad&nbsp; \
                   <br /><span class="numbers" style="width: 120px;">1 . 2 . 1 . 1</span>supporting the cutter blades.\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
+    'barsbw':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="bars bw-bars_pre" style="width: 135px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;A boring tool</p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="bars bw-bars_trans" style="width: 135px;">&nbsp;</span>&nbsp;<img src="images/chain.png" />&nbsp;&nbsp;<span class="numberstransition">characterised in that</span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY TEXT</td>\
+                <td><p>\
+                  <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bw-bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;the head lies within a cylindrical cavity \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bw-bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;extending inwardly from one end of the body member, \
+                  <br /><span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bw-bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;the open end of the cavity being closed by a plug \
+                  <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bw-bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;which backs a frusto-conical pressure pad \
+                  <br /><span class="bars" style="width: 80px;">&nbsp;</span><span class="bars bw-bars_body_2" style="width: 40px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;supporting the cutter blades.\
                   </p>\
                 </td>\
               </tr>\
@@ -210,7 +262,7 @@ MYCLAIMS =
                 <td><p><span class="bars bars_trans" style="width: 135px;">&nbsp;</span>&nbsp;<img src="images/chain.png" />&nbsp;&nbsp;<span class="numberstransition">characterised in that</span></p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;the head lies within a cylindrical cavity \
                   <br /><span class="bars" style="width: 60px;">&nbsp;</span><span class="bars bars_body_1" style="width: 60px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;extending inwardly from one end of the body member, \
@@ -242,7 +294,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   an insert body formed in a polygonal shape;  a cutting face formed by a polygonal face of the insert body;  a corner cutting edge which is formed in a curved shape at a corner of the cutting face; a major cutting edge which is formed along a side edge of the cutting face that is connected to a first end of the corner cutting edge;  and a concave portion which is formed , in another side edge of the cutting face that is connected to a second end of the corner cutting edge, so as to be adjacent to the second end of the corner cutting edge, and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge drawn at the second end of the comer cutting edge. \
                 </p></td>\
@@ -262,7 +314,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   an insert body formed in a polygonal shape; \
                   <br />a cutting face \
@@ -296,7 +348,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span style="padding-left: 40px;"></span>\
                   an insert body formed in a polygonal shape; \
@@ -317,6 +369,54 @@ MYCLAIMS =
                 </td>\
               </tr>\
             </table>',
+    'indent2':'<table>\
+              <tr>\
+                <td id="mypreamble">PREAMBLE</td>\
+                <td><p><span class="numbers" style="padding-left: 40px;">&nbsp;</span>\
+                A throwaway insert \
+                </p></td>\
+              </tr>\
+              <tr>\
+                <td id="mytransition">TRANSITION</td>\
+                <td><p><span class="numbers" style="padding-left: 40px;"><img src="images/chain.png" /></span><span class="numberstransition">\
+                comprising: \
+                </span></p></td>\
+              </tr>\
+              <tr>\
+                <td id="mybody">BODY TEXT</td>\
+                <td><p>\
+                  <span class="numbers" style="padding-left: 80px;">&nbsp;</span>\
+                  an insert body formed in a polygonal shape; \
+                  <br /><span class="numbers" style="padding-left: 80px;">&nbsp;</span>\
+                  a cutting face \
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>\
+                  formed by a polygonal face of the insert body;\
+                  <br /><span class="numbers" style="padding-left: 80px;">&nbsp;</span>\
+                  a corner cutting edge\
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>\
+                  which is formed in a curved shape at a corner of the cutting face;\
+                  <br /><span class="numbers" style="padding-left: 80px;">&nbsp;</span>\
+                  a major cutting edge\
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>\
+                  which is formed along a side edge of the cutting face\
+                  <br /><span class="numbers" style="padding-left: 120px;">&nbsp;</span>\
+                  that is connected to a first end of the corner cutting edge;\
+                  <br /><span class="numbers" style="padding-left: 80px;">&nbsp;</span>\
+                  and a concave portion\
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>\
+                  which is formed , in another side edge of the cutting face\
+                  <br /><span class="numbers" style="padding-left: 120px;">&nbsp;</span>\
+                  that is connected to a second end of the corner cutting edge,\
+                  <br /><span class="numbers" style="padding-left: 140px;">&nbsp;</span>\
+                  so as to be adjacent to the second end of the corner cutting edge,\
+                  <br /><span class="numbers" style="padding-left: 140px;">&nbsp;</span>\
+                  and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge\
+                  <br /><span class="numbers" style="padding-left: 100px;">&nbsp;</span>\
+                  drawn at the second end of the comer cutting edge.\
+                  </p>\
+                </td>\
+              </tr>\
+            </table>',
     'numbers':'<table>\
               <tr>\
                 <td id="mypreamble">PREAMBLE</td>\
@@ -331,7 +431,7 @@ MYCLAIMS =
                 </span></p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span class="numbers" style="width: 80px;">1 . 1</span>\
                   an insert body formed in a polygonal shape; \
@@ -379,7 +479,7 @@ MYCLAIMS =
                 </span></p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
                   XXXX \
@@ -416,7 +516,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   XXXX.\
                 </p></td>\
@@ -436,7 +536,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   XXXX \
                   <br />XXXX \
@@ -461,7 +561,7 @@ MYCLAIMS =
                 </p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span style="padding-left: 40px;"></span>\
                   XXXX \
@@ -487,7 +587,7 @@ MYCLAIMS =
                 </span></p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span class="numbers" style="width: 80px;">1 . 1</span>\
                   XXXX \
@@ -517,7 +617,7 @@ MYCLAIMS =
                 </span></p></td>\
               </tr>\
               <tr>\
-                <td id="mybody">BODY</td>\
+                <td id="mybody">BODY TEXT</td>\
                 <td><p>\
                   <span class="bars" style="width: 40px;">&nbsp;</span><span class="bars bars_body" style="width: 80px;">&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;\
                   XXXX \
