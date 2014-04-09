@@ -52,7 +52,7 @@ DONE	- Marked --> Font color
 
 ~~~~~~~~~
 	Test 3
-	- Please use the content I sent you on Friday with three claims (i.e., Claim 1, Claim 2, and Claim 3 (that I referenced as 4 because I thought we use 3 other claims).
+DONE	- Please use the content I sent you on Friday with three claims (i.e., Claim 1, Claim 2, and Claim 3 (that I referenced as 4 because I thought we use 3 other claims).
 
 ~~~~~~~~~~~~~~~~~~~~~~~
 

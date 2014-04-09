@@ -104,7 +104,7 @@ MYCLAIMS =
   {'empty': 'empty'},
   {
     'description':'TEST 1 + CLAIM 1',
-    'name':'Patent ID: EP0019018A1_claim_4',
+    'name':'',
     'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
       A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
       <p></p></td></tr></table>',
@@ -263,7 +263,7 @@ MYCLAIMS =
   },
   {
     'description':'TEST 1 + CLAIM 2',
-    'name':'Patent ID:  EP1346789A1-claim1',
+    'name':'',
     'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
       A throwaway insert comprising : an insert body formed in a polygonal shape;  a cutting face formed by a polygonal face of the insert body;  a corner cutting edge which is formed in a curved shape at a corner of the cutting face; a major cutting edge which is formed along a side edge of the cutting face that is connected to a first end of the corner cutting edge;  and a concave portion which is formed , in another side edge of the cutting face that is connected to a second end of the corner cutting edge, so as to be adjacent to the second end of the corner cutting edge, and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge drawn at the second end of the comer cutting edge. \
       <p></p></td></tr></table>',
@@ -565,40 +565,37 @@ MYCLAIMS =
       <span class="test3 test3_voc5">Warning</span>: this word may cause a problem to define the actual scope of the invention.</p>'
   },
   { ////////////////////////////////// TEST 3
-    'description':'TEST 3 + CLAIM 1',
-    'name':'Patent ID: XXXX',
-    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
-      //A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
-      //<p></p></td></tr></table>',
+    'descriptio':'TEST 3 + CLAIM 1',
+    'name':'',
     'images':'<table><tr><td>\
-      <p><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" />\
-      </p>\
+      <p><div class="imgcontainer"><img class="myimages" src="data/images/test3-c1-1.jpg" /><br />frusto-conical pressure pad</div>\
+      <div class="imgcontainer"><img class="myimages" src="data/images/test3-c1-2.jpg" /><br />frusto-conical pressure</div>\
+      <div class="imgcontainer"><img class="myimages" src="data/images/test3-c1-3.jpg" /><br />pressure pad</div>\
+      </p><div style="clear:both;height:25px;"></div><p>\
       A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
-      <p></p></td></tr></table>'
+      </p></td></tr></table>'
   },
   {
-    'description':'TEST 3 + CLAIM 2',
-    'name':'Patent ID: TEST 2 + CLAIM 2',
-    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
-      //XXXX\
-      //<p></p></td></tr></table>',
+    'descriptio':'TEST 3 + CLAIM 2',
+    'name':'',
     'images':'<table><tr><td>\
-     <p><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" />\
-      </p>\
-      XXXX\
-      <p></p></td></tr></table>'
+     <p><div class="imgcontainer"><img class="myimages" src="data/images/test3-c2-1.jpg" /><br />second end</div>\
+     <div class="imgcontainer"><img class="myimages" src="data/images/test3-c2-2.jpg" /><br />side edge</div>\
+     <div class="imgcontainer"><img class="myimages" src="data/images/test3-c2-3.jpg" /><br />insert body</div>\
+      </p><div style="clear:both;height:25px;"></div><p>\
+      A throwaway insert comprising: an insert body formed in a polygonal shape; a cutting face formed by a polygonal face of the insert body; a corner cutting edge which is formed in a curved shape at a corner of the cutting face; a major cutting edge which is formed along a side edge of the cutting face that is connected to a first end of the corner cutting edge; and a concave portion which is formed , in another side edge of the cutting face that is connected to a second end of the corner cutting edge, so as to be adjacent to the second end of the cornerfrusto-conical pressure pad cutting edge, and so as to be made concave toward the inside of the cutting face from a tangent of the corner cutting edge drawn at the second end of the comer cutting edge.\
+      </p></td></tr></table>'
   },
   {
-    'description':'TEST 3 and 3 + CLAIM 3',
-    'name':'Patent ID: XXXX',
-    //'raw':'<table><tr><td id="myraw">RAW CLAIM</td><td>\
-      //A boring tool characterised in that the head lies within a cylindrical cavity extending inwardly from one end of the body member, the open end of the cavity being closed by a plug which backs a frusto-conical pressure pad supporting the cutter blades.\
-      //<p></p></td></tr></table>',
+    'descriptio':'TEST 3 and 3 + CLAIM 4',
+    'name':'',
     'images':'<table><tr><td>\
-      <p><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" /><img class="myimages" src="data/images/noimage.png" />\
-      </p>\
-      XXXX\
-      <p></p></td></tr></table>'
+      <p><div class="imgcontainer"><img class="myimages" src="data/images/test3-c4-1.jpg" /><br />protrusions for abutment</div>\
+      <div class="imgcontainer"><img class="myimages" src="data/images/test3-c4-2.jpg" /><br />adjacent edge surface</div>\
+      <div class="imgcontainer"><img class="myimages" src="data/images/test3-c4-3.jpg" /><br />support surface</div>\
+      </p><div style="clear:both;height:25px;"></div><p>\
+      Toolholder, which could comprise of a holder body with an insert site at its forward end consisting essentially of a bottom surface and at least one side wall where there projects a pin from said bottom surface upon which there is located an insert having a central bore, clamping wedge for wedging engagement between a support surface of the holder and an adjacent edge surface of said insert and an actuating screw received in said wedge whilst threadably engaged in a bore of said holder, said support surface and said edge surface are at least partially converging downwards said wedge clamp having distantly provided protrusions for abutment against the top face and the edge surface of said insert, characterized in that the wedge consists of a pair of distantly provided first protrusions for abutment against a top face of the insert, and a pair of distantly provided second protrusions for abutment against an adjacent edge surface.\
+      </p></td></tr></table>'
   }
 ];
 
