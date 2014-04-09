@@ -60,6 +60,7 @@ body {
 
 #myclaimslist td.kind {
   border-right: 1px solid #000000;
+  font-size: 12px;
 }
 
 #myclaimslist td.claim {
@@ -68,7 +69,7 @@ body {
 
 #myclaim table {
   padding: 15px;
-  width: 1000px;
+  width: 1100px;
 }
 
 #myclaim table tr td {
@@ -76,6 +77,9 @@ body {
   padding-left:15px;
   padding-right:15px;
   border:1px solid #cccccc;
+}
+#myclaim table tr td:first-child {
+  width:150px;
 }
 
 #myraw, #mypreamble, #mybody, #mytransition {
@@ -142,6 +146,10 @@ p span.numbers {vocabulary
   background-image: url('../images/bars_body_2.png');
 }
 
+.bars_body_3 {
+  background-image: url('../images/bars_body_3.png');
+}
+
 .bw-bars_pre {
   background-image: url('../images/bw-bars_pre.png');
 }
@@ -162,24 +170,39 @@ p span.numbers {vocabulary
   background-image: url('../images/bw-bars_body_2.png');
 }
 
-/* TEST 3 */
-
-.myalert {
-  background-color: #003399;
-  color:#ffffff;
-  padding-left:4px;
-  padding-right:4px;
-  border:1px solid #cccccc;
+.bw-bars_body_3 {
+  background-image: url('../images/bw-bars_body_3.png');
 }
 
-.vocabulary {
-  background-color: #99007f;
-  color:#ffffff;
+/* TEST 3 */
+
+.test3 {
   padding-left:4px;
   padding-right:4px;
   border:1px solid #cccccc;
+  color:#ffffff;
+}
+
+.test3_voc1 {
+  background-color: #3300cc;
+}
+.test3_voc2 {
+  background-color: #00cc99;
+}
+.test3_voc3 {
+  background-color: #99cc00;
+}
+.test3_voc4 {
+  background-color: #ff6600;
+}
+.test3_voc5 {
+  background-color: #cc0033;
 }
 
 .myimages {
   margin:10px;
+}
+.legend {
+  padding: 20px;
+  font-size:10px;
 }

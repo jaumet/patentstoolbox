@@ -1,0 +1,68 @@
+
+	Test 1
+DONE	- Because I cannot see Claim 3 in any of the tests, I suggest removing it to save time. We have 6 tests to run, so I think Claim 1 and 2 are enough for Test 1.
+
+DONE	- Test 1. LList of claims: --> Test 1. Menu of claims and their visualisation options:
+
+DONE	- I know these are longer but I believe they give a better intuition to our participants and also reading them is quick because they have a lot of repetition
+	  - Segment 1 --> Segmentation to 3 parts
+	  - Segment2 --> Separation of phrases
+	  - Indent 1 --> Indentation only
+	  - Indent 2 --> Indentation with bars
+	  - Numered --> Indentation with numbered bars
+	  - Graphic B/W --> Indentation with graphical bars
+	  - Graphic --> Indentation with colourful graphical bars
+
+DONE	- Raw text: showing the claim as it is. no intervention. --> Raw text: showing the claim as it is in the original patent document.
+
+DONE	- Claim 2: Please add the Patent ID (Patent ID: XXXX) or remove it from Claim 1 too
+
+DONE	- Segmantation 1: showing preamble and body of the cliam --> Segmenting the claim text to the following three parts: Preamble, Transition, and Body text
+
+DONE	- Segmantation 2: showing preamble, transition and body of the claim --> Segmenting the claim text first to the Preamble, Transition, and Body text and then dividing long sentences to shorter phrases
+
+DONE	- Indentation: showing indented preamble, transition and body of the claim --> Segmenting the claim text first to the Preamble, Transition, and Body text, then dividing long sentences to shorter phrases, and finally indenting the phrases to reflect phrase dependences
+
+DONE	- undefined --> Segmenting the claim text first to the Preamble, Transition, and Body text, second dividing long sentences to shorter phrases, third indenting the phrases to reflect phrase dependences, and finally adding grey bars to visualise this indentation.
+
+DONE	- Numbers: --> Segmenting the claim text first to the Preamble, Transition, and Body text, second dividing long sentences to shorter phrases, third indenting the phrases to reflect phrase dependences, fourth adding grey bars to visualise this indentation, and finally,numbering the bars.
+
+DONE	- undefined --> Segmenting the claim text first to the Preamble, Transition, and Body text, second dividing long sentences to shorter phrases, third adding graphical bars to reflect both the indentation and phrase dependences.
+
+DONE	- Bars: --> Segmenting the claim text first to the Preamble, Transition, and Body text, second dividing long sentences to 
+shorter phrases, third adding colourful graphical bars to reflect both the indentation and phrase dependences.
+
+~~~~~~~~~
+	Test 2
+DONE	- as discussed on Fri, I believe using just the Claim 4 (now to be called Claim 3 as we removed Claim 3 from Test 1) that I sent you earlier is enough.
+
+DONE(with Test 2, not 1)	- Test 2. List of claims0: --> Test 1. Menu of claims and their visualisation options:
+
+DONE	- Include just one claim, that is Claim 3
+
+DONE	- Raw text: showing the claim as it is. no intervention. --> - Raw text: showing the claim as it is in the original patent document.
+
+DONE	- Remove: Patent ID: EP0019018A1_claim_4
+
+DONE	- Marked --> Font color
+
+????	- Text marked with alerts and highlights. --> Connecting text with writing feedback (changing the font colour)
+????	- Add a line for Highlighting. Use the same style you used for Marked.
+????	- Text marked with alerts and highlights. --> Connecting text with writing feedback (highlighted text)
+
+~~~~~~~~~
+	Test 3
+	- Please use the content I sent you on Friday with three claims (i.e., Claim 1, Claim 2, and Claim 3 (that I referenced as 4 because I thought we use 3 other claims).
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+OTHER TASKS in my To do list:
+Test1:
+- Added images to graphic versions + styles
+- Fixed width of first column table (preamble, transition, body
+- Added in Test 1 the two graphic version for Claim 2 
+- Edited white color in the eye.png image
+Test2:
+- Added styles for the 5 hightlight colors
+- Added legend for the five colors.
+
