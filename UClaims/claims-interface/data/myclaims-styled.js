@@ -68,7 +68,7 @@ MYTABLES =
             <td><a id="3-marked" href="#"><img src="images/eye.png" /></a></td>\
           </tr>\
         </table>',
-  'case3': '<p>Test 2. List of claims0:</p>\
+  'case3': '<p>Test 3. List of claims:</p>\
         <table id="myclaimslist">\
           <tr>\
             <td></td>\
