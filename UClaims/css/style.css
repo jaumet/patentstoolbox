@@ -176,28 +176,51 @@ p span.numbers {vocabulary
 
 /* TEST 3 */
 
-.test3 {
+.test31_voc1, .test32_voc1 {
+  color: #3300cc;
+}
+.test31_voc2, .test32_voc2 {
+  color: #00cc99;
+}
+.test31_voc3, .test32_voc3 {
+  color: #99cc00;
+}
+.test31_voc4, .test32_voc4 {
+  color: #ff6600;
+}
+.test31_voc5, .test32_voc5 {
+  color: #cc0033;
+}
+
+.test32 {
+  text-decoration:underline;
+}
+
+.test33 {
   padding-left:4px;
   padding-right:4px;
   border:1px solid #cccccc;
   color:#ffffff;
 }
 
-.test3_voc1 {
+.test33_voc1 {
   background-color: #3300cc;
 }
-.test3_voc2 {
+.test33_voc2 {
   background-color: #00cc99;
 }
-.test3_voc3 {
+.test33_voc3 {
   background-color: #99cc00;
 }
-.test3_voc4 {
+.test33_voc4 {
   background-color: #ff6600;
 }
-.test3_voc5 {
+.test33_voc5 {
   background-color: #cc0033;
 }
+
+
+
 
 /**** JAUME NOT WORKING ***/
 span.test3:hover:after {
